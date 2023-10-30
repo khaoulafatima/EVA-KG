@@ -252,7 +252,7 @@ class ECHRDocument:
         matching_keys = set(self._case_detail.keys()).intersection(set(CASE_DETAIL_ECLI_MAP.keys()))
         for key in matching_keys:
             p = CASE_DETAIL_ECLI_MAP[key]
-            if type(self._case_detail[key]) == str:
+            if isinstance(self._case_detail[key], str):
                 o = EX + self._case_detail[key].replace(" ", "_").replace("(", "").replace(")", "")
                 self._triples.append({"subject": s, "predicate": p, "object": o})
             else:
