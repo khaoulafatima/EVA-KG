@@ -3,13 +3,11 @@ import json
 
 if __name__ == "__main__":
     json_path = "../../data/case_detail_json"
-    single_value_list = []
     frequency_dict = {}
     for file in os.listdir(json_path):
         cd = json.load(open(json_path + "/" + file, encoding="UTF-8"))
         for key in cd.keys():
             if isinstance(cd[key], str):
-                single_value_list.append(key)
                 if key in frequency_dict.keys():
                     if cd[key] in frequency_dict[key].keys():
                         frequency_dict[key][cd[key]] += 1
