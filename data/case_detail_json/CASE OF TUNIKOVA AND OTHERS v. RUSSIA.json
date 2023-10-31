@@ -2,7 +2,12 @@
     "Originating Body": "Court (Third Section)",
     "Document Type": "Judgment (Merits and Just Satisfaction)",
     "Title": "CASE OF TUNIKOVA AND OTHERS v. RUSSIA",
-    "App. No(s).": "55974/16  53118/17  27484/18  28011/19",
+    "App. No(s).": [
+        "55974/16",
+        "53118/17",
+        "27484/18",
+        "28011/19"
+    ],
     "Importance Level": "2",
     "Respondent State(s)": "Russia",
     "Judgment Date": "14/12/2021",

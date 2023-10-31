@@ -2,7 +2,10 @@
     "Originating Body": "Court (First Section)",
     "Document Type": "Judgment (Merits and Just Satisfaction)",
     "Title": "CASE OF J.D. AND A v. THE UNITED KINGDOM",
-    "App. No(s).": "32949/17  34614/17",
+    "App. No(s).": [
+        "32949/17",
+        "34614/17"
+    ],
     "Importance Level": "Key cases",
     "Represented by": [
         "ASHTON K. ",

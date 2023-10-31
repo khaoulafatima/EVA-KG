@@ -121,6 +121,8 @@ class ECHRDocument:
         for i in range(len(heading_list)):
             key = heading_list[i].text
             values = re.split(r'\t+\s*', value_list[i].text.strip().replace("more…", ""))
+            if key == "App. No(s).":
+                values = re.split(r'\s+', values[0])
             if len(values) == 1:
                 case_detail[key] = values[0]
             else:
@@ -248,17 +250,25 @@ class ECHRDocument:
         }
         # EX = "http://example.org/#"
         EX = "ex:"
-        s = EX + self._case_detail[SUBJECT]
-        matching_keys = set(self._case_detail.keys()).intersection(set(CASE_DETAIL_ECLI_MAP.keys()))
-        for key in matching_keys:
-            p = CASE_DETAIL_ECLI_MAP[key]
-            if isinstance(self._case_detail[key], str):
-                o = EX + self._case_detail[key].replace(" ", "_").replace("(", "").replace(")", "")
-                self._triples.append({"subject": s, "predicate": p, "object": o})
+        for subject in self._case_detail[SUBJECT]:
+            # aggiunto per il caso in cui ci sono più App. No(s).
+            if isinstance(self._case_detail[SUBJECT], str):
+                s = EX + self._case_detail[SUBJECT]
             else:
-                for value in self._case_detail[key]:
-                    o = EX + value.replace(" ", "_").replace("(", "").replace(")", "").replace("{", "").replace("}", "")
+                s = EX + subject
+            matching_keys = set(self._case_detail.keys()).intersection(set(CASE_DETAIL_ECLI_MAP.keys()))
+            for key in matching_keys:
+                p = CASE_DETAIL_ECLI_MAP[key]
+                if isinstance(self._case_detail[key], str):
+                    o = EX + self._case_detail[key].replace(" ", "_").replace("(", "").replace(")", "")
                     self._triples.append({"subject": s, "predicate": p, "object": o})
+                else:
+                    for value in self._case_detail[key]:
+                        o = EX + value.replace(" ", "_").replace("(", "").replace(")", "").replace("{", "").replace(
+                            "}", "")
+                        self._triples.append({"subject": s, "predicate": p, "object": o})
+            if isinstance(self._case_detail[SUBJECT], str):
+                break
 
     def extract_triples_from_body(self):
         # TODO implementare
