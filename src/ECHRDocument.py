@@ -123,6 +123,8 @@ class ECHRDocument:
             values = re.split(r'\t+\s*', value_list[i].text.strip().replace("more…", ""))
             if key == "App. No(s).":
                 values = re.split(r'\s+', values[0])
+            if key == "Strasbourg Case-Law" and "\n" in values[0]:
+                values = re.split(r'\n+', values[0])
             if len(values) == 1:
                 case_detail[key] = values[0]
             else:

@@ -16,7 +16,14 @@
         "35",
         "35-3"
     ],
-    "Strasbourg Case-Law": "Izevbekhai and others v. Ireland (dec.), no. 43408/08, § 73, 17 May 2011\nBensaid v. the United Kingdom, no. 44599/98, § 38, ECHR 2001-I\nSalkic and Others v. Sweden (dec.), no. 7702/04, 29 June 2004\nCollins and Akaziebie v. Sweden (dec.), no. 23944/05, 8 March 2007\nMaaouia v. France [GC], no. 39652/98, § 33-40, ECHR 2000-X\nKatani and Others v. Germany (dec.), no. 67679/01, 31 May 2001",
+    "Strasbourg Case-Law": [
+        "Izevbekhai and others v. Ireland (dec.), no. 43408/08, § 73, 17 May 2011",
+        "Bensaid v. the United Kingdom, no. 44599/98, § 38, ECHR 2001-I",
+        "Salkic and Others v. Sweden (dec.), no. 7702/04, 29 June 2004",
+        "Collins and Akaziebie v. Sweden (dec.), no. 23944/05, 8 March 2007",
+        "Maaouia v. France [GC], no. 39652/98, § 33-40, ECHR 2000-X",
+        "Katani and Others v. Germany (dec.), no. 67679/01, 31 May 2001"
+    ],
     "Keywords": [
         "(Art. 3) Prohibition of torture",
         "(Art. 3) Inhuman treatment",
