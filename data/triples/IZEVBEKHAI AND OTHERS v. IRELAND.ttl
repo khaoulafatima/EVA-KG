@@ -1,0 +1,19 @@
+<eva:43408/08> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:43408/08> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:43408/08> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:43408/08> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:43408/08> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:43408/08> <http://purl.org/dc/terms/creator> "Court (Fifth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:43408/08> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q327000>.
+<eva:43408/08> <http://purl.org/dc/terms/title> "IZEVBEKHAI AND OTHERS v. IRELAND"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:43408/08> <eva:importance_level> "3"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:43408/08> <http://purl.org/dc/terms/contributor> <eva:CEEMEX_AND_CO._SOLICITORS>.
+<eva:CEEMEX_AND_CO._SOLICITORS> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:43408/08> <eva:respondent_state> <http://www.wikidata.org/entity/Q27>.
+<eva:43408/08> <http://purl.org/dc/terms/date> "2011-05-17"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:43408/08> <http://purl.org/dc/terms/abstract> "Inadmissible"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:43408/08> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:43408/08> <http://purl.org/dc/terms/description> "(Art. 6) Right to a fair trial"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:43408/08> <http://purl.org/dc/terms/description> "(Art. 13) Right to an effective remedy"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:43408/08> <http://purl.org/dc/terms/description> "(Art. 14) Prohibition of discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:43408/08> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2011:0517DEC004340808"^^<http://www.w3.org/2001/XMLSchema#string>.

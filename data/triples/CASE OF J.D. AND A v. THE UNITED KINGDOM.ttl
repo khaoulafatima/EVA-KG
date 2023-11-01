@@ -1,0 +1,31 @@
+<eva:['32949/17', '34614/17']> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/creator> "Court (First Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/title> "CASE OF J.D. AND A v. THE UNITED KINGDOM"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['32949/17', '34614/17']> <eva:importance_level> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/contributor> <eva:ASHTON_K._>.
+<eva:ASHTON_K._> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/contributor> <eva:CARRIER_R.>.
+<eva:CARRIER_R.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:['32949/17', '34614/17']> <eva:respondent_state> <http://www.wikidata.org/entity/Q145>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/date> "2019-10-24"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/abstract> "No violation of Article 14+P1-1-1 - Prohibition of discrimination (Article 14 - Discrimination) (Article 1 para. 1 of Protocol No. 1 - Peaceful enjoyment of possessions"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/abstract> "Article 1 of Protocol No. 1 - Protection of property)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/abstract> "Violation of Article 14+P1-1-1 - Prohibition of discrimination (Article 14 - Discrimination) (Article 1 para. 1 of Protocol No. 1 - Peaceful enjoyment of possessions"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/abstract> "Article 1 of Protocol No. 1 - Protection of property)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/description> "(Art. 14) Prohibition of discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/description> "(Art. 14) Discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/description> "(Art. 14) Other status"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/description> "(Art. 14) Sex"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/description> "(Art. 41) Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/description> "(P1-1) Protection of property"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/description> "(P1-1-1) Peaceful enjoyment of possessions"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['32949/17', '34614/17']> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2019:1024JUD003294917"^^<http://www.w3.org/2001/XMLSchema#string>.

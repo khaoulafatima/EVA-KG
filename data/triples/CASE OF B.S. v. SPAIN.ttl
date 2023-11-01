@@ -1,0 +1,31 @@
+<eva:47159/08> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:47159/08> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:47159/08> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:47159/08> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:47159/08> <http://purl.org/dc/terms/creator> "Court (Third Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:47159/08> <http://purl.org/dc/terms/title> "CASE OF B.S. v. SPAIN"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <eva:importance_level> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:47159/08> <http://purl.org/dc/terms/contributor> <eva:WAISMAN_V.>.
+<eva:WAISMAN_V.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:47159/08> <eva:respondent_state> <http://www.wikidata.org/entity/Q29>.
+<eva:47159/08> <http://purl.org/dc/terms/date> "2012-07-24"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:47159/08> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/abstract> "No violation of Article 3 - Prohibition of torture (Article 3 - Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/abstract> "Inhuman treatment) (Substantive aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/abstract> "Violation of Article 14+3 - Prohibition of discrimination (Article 14 - Discrimination) (Article 3 - Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/abstract> "Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/abstract> "Prohibition of torture)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/description> "(Art. 3) Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/description> "(Art. 3) Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/description> "(Art. 14) Prohibition of discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/description> "(Art. 14) Discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/description> "(Art. 14) Colour"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/description> "(Art. 14) National origin"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/description> "(Art. 14) Race"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2012:0724JUD004715908"^^<http://www.w3.org/2001/XMLSchema#string>.

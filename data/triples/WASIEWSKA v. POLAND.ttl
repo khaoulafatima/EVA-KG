@@ -1,0 +1,17 @@
+<eva:9873/11> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:9873/11> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:9873/11> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9873/11> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:9873/11> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:9873/11> <http://purl.org/dc/terms/creator> "Court (Fourth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9873/11> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q327000>.
+<eva:9873/11> <http://purl.org/dc/terms/title> "WASIEWSKA v. POLAND"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9873/11> <eva:importance_level> "3"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:9873/11> <http://purl.org/dc/terms/contributor> <eva:DROZD_A.>.
+<eva:DROZD_A.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:9873/11> <eva:respondent_state> <http://www.wikidata.org/entity/Q36>.
+<eva:9873/11> <http://purl.org/dc/terms/date> "2014-12-02"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9873/11> <http://purl.org/dc/terms/abstract> "Inadmissible"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9873/11> <http://purl.org/dc/terms/description> "(Art. 6) Right to a fair trial"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9873/11> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9873/11> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2014:1202DEC000987311"^^<http://www.w3.org/2001/XMLSchema#string>.

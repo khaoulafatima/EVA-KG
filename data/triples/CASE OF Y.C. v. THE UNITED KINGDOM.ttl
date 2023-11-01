@@ -1,0 +1,22 @@
+<eva:4547/10> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:4547/10> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:4547/10> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:4547/10> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:4547/10> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:4547/10> <http://purl.org/dc/terms/creator> "Court (Fourth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:4547/10> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:4547/10> <http://purl.org/dc/terms/title> "CASE OF Y.C. v. THE UNITED KINGDOM"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:4547/10> <eva:importance_level> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:4547/10> <http://purl.org/dc/terms/contributor> <eva:PARDOES_SOLICITORS>.
+<eva:PARDOES_SOLICITORS> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:4547/10> <eva:respondent_state> <http://www.wikidata.org/entity/Q145>.
+<eva:4547/10> <http://purl.org/dc/terms/date> "2012-03-13"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:4547/10> <http://purl.org/dc/terms/abstract> "Remainder inadmissible"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:4547/10> <http://purl.org/dc/terms/abstract> "No violation of Article 8 - Right to respect for private and family life (Article 8-1 - Respect for family life)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:4547/10> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:4547/10> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for family life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:4547/10> <http://purl.org/dc/terms/description> "(Art. 8-2) Necessary in a democratic society"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:4547/10> <http://purl.org/dc/terms/description> "(Art. 8-2) Protection of the rights and freedoms of others"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:4547/10> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:4547/10> <http://purl.org/dc/terms/description> "Proportionality"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:4547/10> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2012:0313JUD000454710"^^<http://www.w3.org/2001/XMLSchema#string>.

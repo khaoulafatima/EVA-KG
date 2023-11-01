@@ -29,9 +29,12 @@ def triples_to_pyvis(triples: list, n: Network):
         s = triple["subject"]
         p = triple["predicate"]
         o = triple["object"]
-        n.add_node(s, label=s)
-        n.add_node(o, label=o)
-        n.add_edge(s, o, label=p)
+        if s not in n.get_nodes():
+            n.add_node(s, label=s)
+        if o not in n.get_nodes():
+            n.add_node(o, label=o)
+        if p not in n.get_edges():
+            n.add_edge(s, o, label=p)
 
 
 if __name__ == "__main__":
@@ -39,6 +42,7 @@ if __name__ == "__main__":
     pdf_path = "../data/corpus_pdf"
     json_path = "../data/case_detail_json"
     body_path = "../data/document_body"
+    triple_path = "../data/triples"
     save = True
     corpus = []
     for file in os.listdir(html_path):
@@ -52,6 +56,7 @@ if __name__ == "__main__":
             if save:
                 echr_document.case_detail_to_json(json_path)
                 echr_document.body_to_txt(body_path)
+                echr_document.save_triples(triple_path)
             corpus.append(echr_document)
 
     net = Network()

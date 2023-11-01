@@ -1,0 +1,20 @@
+<eva:10601/09> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:10601/09> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:10601/09> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:10601/09> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:10601/09> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:10601/09> <http://purl.org/dc/terms/creator> "Court (Fourth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:10601/09> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q327000>.
+<eva:10601/09> <http://purl.org/dc/terms/title> "IRENE WILSON v. THE UNITED KINGDOM"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:10601/09> <eva:importance_level> "3"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:10601/09> <http://purl.org/dc/terms/contributor> <eva:BOWLES_P.>.
+<eva:BOWLES_P.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:10601/09> <eva:respondent_state> <http://www.wikidata.org/entity/Q145>.
+<eva:10601/09> <http://purl.org/dc/terms/date> "2012-10-23"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:10601/09> <http://purl.org/dc/terms/abstract> "Inadmissible"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:10601/09> <http://purl.org/dc/terms/description> "(Art. 6) Right to a fair trial"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:10601/09> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:10601/09> <http://purl.org/dc/terms/description> "(Art. 10) Freedom of expression-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:10601/09> <http://purl.org/dc/terms/description> "(Art. 13) Right to an effective remedy"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:10601/09> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:10601/09> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2012:1023DEC001060109"^^<http://www.w3.org/2001/XMLSchema#string>.

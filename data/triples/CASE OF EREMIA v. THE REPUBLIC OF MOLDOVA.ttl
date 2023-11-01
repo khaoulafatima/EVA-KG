@@ -1,0 +1,35 @@
+<eva:3564/11> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:3564/11> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:3564/11> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:3564/11> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:3564/11> <http://purl.org/dc/terms/creator> "Court (Third Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:3564/11> <http://purl.org/dc/terms/title> "CASE OF EREMIA v. THE REPUBLIC OF MOLDOVA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <eva:importance_level> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:3564/11> <http://purl.org/dc/terms/contributor> <eva:STRAISTEANU_D.I.>.
+<eva:STRAISTEANU_D.I.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:3564/11> <eva:respondent_state> <http://www.wikidata.org/entity/Q217>.
+<eva:3564/11> <http://purl.org/dc/terms/date> "2013-05-28"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:3564/11> <http://purl.org/dc/terms/abstract> "Remainder inadmissible"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Positive obligations) (Procedural aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/abstract> "Violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/abstract> "Article 8-1 - Respect for home"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/abstract> "Respect for private life)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/abstract> "Violation of Article 14+3 - Prohibition of discrimination (Article 14 - Discrimination) (Article 3 - Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/abstract> "Positive obligations)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/description> "(Art. 3) Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/description> "(Art. 3) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/description> "(Art. 8) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for home"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for private life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/description> "(Art. 8-2) Interference"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/description> "(Art. 14) Prohibition of discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/description> "(Art. 14) Discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/description> "(Art. 14) Sex"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2013:0528JUD000356411"^^<http://www.w3.org/2001/XMLSchema#string>.

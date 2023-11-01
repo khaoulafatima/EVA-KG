@@ -1,0 +1,48 @@
+<eva:25965/04> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:25965/04> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:25965/04> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:25965/04> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:25965/04> <http://purl.org/dc/terms/creator> "Court (First Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:25965/04> <http://purl.org/dc/terms/isPartOf> "Reports of Judgments and Decisions 2010 (extracts)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/title> "CASE OF RANTSEV v. CYPRUS AND RUSSIA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <eva:importance_level> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:25965/04> <http://purl.org/dc/terms/contributor> <eva:CHURKINA_L._M.>.
+<eva:CHURKINA_L._M.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:25965/04> <eva:respondent_state> <http://www.wikidata.org/entity/Q229>.
+<eva:25965/04> <eva:respondent_state> <http://www.wikidata.org/entity/Q159>.
+<eva:25965/04> <http://purl.org/dc/terms/date> "2010-01-07"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:25965/04> <http://purl.org/dc/terms/abstract> "Request for strike out rejected"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/abstract> "Preliminary objection dismissed (ratione loci)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/abstract> "Preliminary objection joined to the merits (ratione materiae)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/abstract> "Preliminary objection dismissed (ratione materiae)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/abstract> "No violation of Art. 2 by Cyprus (substantive aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/abstract> "Violation of Art. 2 by Cyprus (procedural aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/abstract> "No violation of Art. 2 by Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/abstract> "Violation of Art. 4 by Cyprus"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/abstract> "No violation of Art. 4 by Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/abstract> "Violation of Art. 4 by Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/abstract> "Violation of Art. 5 by Cyprus"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/abstract> "Remainder inadmissible"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 35-3-a) Ratione loci"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 35-3-a) Ratione materiae"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/description> "Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 4) Prohibition of slavery and forced labour"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 4-2) Compulsory labour"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 4-2) Forced labour"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 4-1) Servitude"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 4-1) Slavery"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 5) Right to liberty and security"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 5-1) Deprivation of liberty"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 5-1) Lawful arrest or detention"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 2) Right to life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 2-1) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 2-1) Life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 37) Striking out applications-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 37-1) Striking out applications"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 1) Obligation to respect human rights"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2010:0107JUD002596504"^^<http://www.w3.org/2001/XMLSchema#string>.

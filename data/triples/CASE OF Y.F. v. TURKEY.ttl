@@ -1,0 +1,23 @@
+<eva:24209/94> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:24209/94> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:24209/94> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:24209/94> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:24209/94> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:24209/94> <http://purl.org/dc/terms/creator> "Court (Fourth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:24209/94> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:24209/94> <http://purl.org/dc/terms/isPartOf> "Reports of Judgments and Decisions 2003-IX"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:24209/94> <http://purl.org/dc/terms/title> "CASE OF Y.F. v. TURKEY"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:24209/94> <eva:importance_level> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:24209/94> <http://purl.org/dc/terms/contributor> <eva:N>.
+<eva:N> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:24209/94> <eva:respondent_state> <http://www.wikidata.org/entity/Q43>.
+<eva:24209/94> <http://purl.org/dc/terms/date> "2003-07-22"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:24209/94> <http://purl.org/dc/terms/abstract> "Violation of Art. 8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:24209/94> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - financial award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:24209/94> <http://purl.org/dc/terms/abstract> "Costs and expenses partial award - Convention proceedings"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:24209/94> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:24209/94> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for private life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:24209/94> <http://purl.org/dc/terms/description> "(Art. 8-2) Interference"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:24209/94> <http://purl.org/dc/terms/description> "(Art. 8-2) In accordance with the law"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:24209/94> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:24209/94> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2003:0722JUD002420994"^^<http://www.w3.org/2001/XMLSchema#string>.

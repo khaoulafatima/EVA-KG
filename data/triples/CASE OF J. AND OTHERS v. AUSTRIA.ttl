@@ -1,0 +1,26 @@
+<eva:58216/12> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:58216/12> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:58216/12> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58216/12> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:58216/12> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:58216/12> <http://purl.org/dc/terms/creator> "Court (Fourth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58216/12> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:58216/12> <http://purl.org/dc/terms/isPartOf> "Reports of Judgments and Decisions 2017 (extracts)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58216/12> <http://purl.org/dc/terms/title> "CASE OF J. AND OTHERS v. AUSTRIA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58216/12> <eva:importance_level> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:58216/12> <http://purl.org/dc/terms/contributor> <eva:Weiss_A.>.
+<eva:Weiss_A.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:58216/12> <eva:respondent_state> <http://www.wikidata.org/entity/Q40>.
+<eva:58216/12> <http://purl.org/dc/terms/date> "2017-01-17"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:58216/12> <http://purl.org/dc/terms/abstract> "Remainder inadmissible"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58216/12> <http://purl.org/dc/terms/abstract> "No violation of Article 4 - Prohibition of slavery and forced labour (Article 4 - Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58216/12> <http://purl.org/dc/terms/abstract> "Article 4-1 - Trafficking in human beings)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58216/12> <http://purl.org/dc/terms/abstract> "No violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58216/12> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58216/12> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58216/12> <http://purl.org/dc/terms/description> "(Art. 4) Prohibition of slavery and forced labour"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58216/12> <http://purl.org/dc/terms/description> "(Art. 4) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58216/12> <http://purl.org/dc/terms/description> "(Art. 4-1) Trafficking in human beings"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58216/12> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58216/12> <http://purl.org/dc/terms/description> "(Art. 35-1) Exhaustion of domestic remedies"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58216/12> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2017:0117JUD005821612"^^<http://www.w3.org/2001/XMLSchema#string>.

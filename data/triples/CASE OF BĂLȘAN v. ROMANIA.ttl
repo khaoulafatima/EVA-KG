@@ -1,0 +1,29 @@
+<eva:49645/09> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:49645/09> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:49645/09> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:49645/09> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:49645/09> <http://purl.org/dc/terms/creator> "Court (Fourth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:49645/09> <http://purl.org/dc/terms/title> "CASE OF BĂLȘAN v. ROMANIA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <eva:importance_level> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:49645/09> <http://purl.org/dc/terms/contributor> <eva:MEDVES_E.>.
+<eva:MEDVES_E.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:49645/09> <eva:respondent_state> <http://www.wikidata.org/entity/Q218>.
+<eva:49645/09> <http://purl.org/dc/terms/date> "2017-05-23"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:49645/09> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/abstract> "Positive obligations) (Procedural aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/abstract> "Violation of Article 14+3 - Prohibition of discrimination (Article 14 - Discrimination) (Article 3 - Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/abstract> "Positive obligations)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/description> "(Art. 3) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/description> "(Art. 14) Prohibition of discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/description> "(Art. 14) Discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/description> "(Art. 14) Sex"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/description> "(Art. 41) Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2017:0523JUD004964509"^^<http://www.w3.org/2001/XMLSchema#string>.

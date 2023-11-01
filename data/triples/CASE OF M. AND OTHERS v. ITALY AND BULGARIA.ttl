@@ -1,0 +1,29 @@
+<eva:40020/03> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:40020/03> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:40020/03> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:40020/03> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:40020/03> <http://purl.org/dc/terms/creator> "Court (Second Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:40020/03> <http://purl.org/dc/terms/title> "CASE OF M. AND OTHERS v. ITALY AND BULGARIA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <eva:importance_level> "1"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:40020/03> <http://purl.org/dc/terms/contributor> <eva:MARINOV_S._S.>.
+<eva:MARINOV_S._S.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:40020/03> <eva:respondent_state> <http://www.wikidata.org/entity/Q219>.
+<eva:40020/03> <eva:respondent_state> <http://www.wikidata.org/entity/Q38>.
+<eva:40020/03> <http://purl.org/dc/terms/date> "2012-07-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:40020/03> <http://purl.org/dc/terms/abstract> "Preliminary objection partially dismissed (Article 34 - Victim)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/abstract> "Preliminary objection partially allowed (Article 34 - Victim)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/abstract> "Remainder inadmissible"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/abstract> "No violation of Article 3 - Prohibition of torture (Article 3 - Inhuman treatment) (Substantive aspect) (Italy)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect) (Italy)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/description> "(Art. 3) Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/description> "(Art. 4) Prohibition of slavery and forced labour"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/description> "(Art. 4-1) Trafficking in human beings"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/description> "(Art. 34) Individual applications"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/description> "(Art. 34) Victim"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/description> "Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2012:0731JUD004002003"^^<http://www.w3.org/2001/XMLSchema#string>.

@@ -1,0 +1,43 @@
+<eva:45512/11> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:45512/11> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:45512/11> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:45512/11> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:45512/11> <http://purl.org/dc/terms/creator> "Court (First Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:45512/11> <http://purl.org/dc/terms/title> "CASE OF GALOVIĆ v. CROATIA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <eva:importance_level> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:45512/11> <http://purl.org/dc/terms/contributor> <eva:MILANKOVIĆ_PODBREŽNIČKI_T.>.
+<eva:MILANKOVIĆ_PODBREŽNIČKI_T.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:45512/11> <eva:respondent_state> <http://www.wikidata.org/entity/Q224>.
+<eva:45512/11> <http://purl.org/dc/terms/date> "2021-08-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:45512/11> <http://purl.org/dc/terms/abstract> "No violation of Article 6+6-3 - Right to a fair trial (Article 6 - Criminal proceedings"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/abstract> "Article 6-1 - Fair hearing"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/abstract> "Article 6-3-b - Adequate facilities"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/abstract> "Adequate time"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/abstract> "Article 6-3-c - Defence through legal assistance) (Article 6-3 - Rights of defence"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/abstract> "Article 6 - Right to a fair trial)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/abstract> "Violation of Article 6+6-3-c - Right to a fair trial (Article 6 - Criminal proceedings"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/abstract> "Article 6-1 - Fair hearing"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/abstract> "Article 6-3 - Rights of defence) (Article 6-3-c - Defence in person"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/abstract> "Article 6 - Right to a fair trial)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/abstract> "No violation of Article 4 of Protocol No. 7 - Right not to be tried or punished twice-{general} (Article 4 of Protocol No. 7 - Right not to be tried or punished twice)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/abstract> "Pecuniary damage - claim dismissed (Article 41 - Pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/description> "(Art. 6) Right to a fair trial"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/description> "(Art. 6) Criminal proceedings"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/description> "(Art. 6-1) Fair hearing"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/description> "(Art. 6-3) Rights of defence"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/description> "(Art. 6-3-b) Adequate facilities"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/description> "(Art. 6-3-b) Adequate time"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/description> "(Art. 6-3-c) Defence in person"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/description> "(Art. 6-3-c) Defence through legal assistance"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/description> "(Art. 41) Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/description> "(Art. 41) Pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/description> "(P7-4) Right not to be tried or punished twice-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/description> "(P7-4) Right not to be tried or punished twice"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:45512/11> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2021:0831JUD004551211"^^<http://www.w3.org/2001/XMLSchema#string>.

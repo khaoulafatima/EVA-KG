@@ -1,0 +1,22 @@
+<eva:35898/16> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:35898/16> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:35898/16> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35898/16> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:35898/16> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:35898/16> <http://purl.org/dc/terms/creator> "Court (First Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35898/16> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:35898/16> <http://purl.org/dc/terms/title> "CASE OF J.I. v. CROATIA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35898/16> <eva:importance_level> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:35898/16> <http://purl.org/dc/terms/contributor> <eva:BEZBRADICA_JELAVIĆ_S.>.
+<eva:BEZBRADICA_JELAVIĆ_S.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:35898/16> <eva:respondent_state> <http://www.wikidata.org/entity/Q224>.
+<eva:35898/16> <http://purl.org/dc/terms/date> "2022-09-08"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35898/16> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35898/16> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35898/16> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35898/16> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35898/16> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35898/16> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35898/16> <http://purl.org/dc/terms/description> "(Art. 41) Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35898/16> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2022:0908JUD003589816"^^<http://www.w3.org/2001/XMLSchema#string>.

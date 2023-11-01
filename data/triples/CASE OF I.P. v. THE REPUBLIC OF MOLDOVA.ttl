@@ -1,0 +1,23 @@
+<eva:33708/12> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:33708/12> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:33708/12> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33708/12> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:33708/12> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:33708/12> <http://purl.org/dc/terms/creator> "Court (Third Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33708/12> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:33708/12> <http://purl.org/dc/terms/title> "CASE OF I.P. v. THE REPUBLIC OF MOLDOVA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33708/12> <eva:importance_level> "3"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:33708/12> <http://purl.org/dc/terms/contributor> <eva:DODON_I.>.
+<eva:DODON_I.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:33708/12> <eva:respondent_state> <http://www.wikidata.org/entity/Q217>.
+<eva:33708/12> <http://purl.org/dc/terms/date> "2015-04-28"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:33708/12> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33708/12> <http://purl.org/dc/terms/abstract> "Positive obligations) (Procedural aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33708/12> <http://purl.org/dc/terms/abstract> "Violation of Article 13+3 - Right to an effective remedy (Article 13 - Effective remedy) (Article 3 - Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33708/12> <http://purl.org/dc/terms/abstract> "Positive obligations)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33708/12> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33708/12> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33708/12> <http://purl.org/dc/terms/description> "(Art. 3) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33708/12> <http://purl.org/dc/terms/description> "(Art. 13) Right to an effective remedy"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33708/12> <http://purl.org/dc/terms/description> "(Art. 13) Effective remedy"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33708/12> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2015:0428JUD003370812"^^<http://www.w3.org/2001/XMLSchema#string>.

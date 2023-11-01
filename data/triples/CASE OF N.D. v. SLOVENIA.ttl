@@ -1,0 +1,17 @@
+<eva:16605/09> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:16605/09> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:16605/09> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:16605/09> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:16605/09> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:16605/09> <http://purl.org/dc/terms/creator> "Court (Fifth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:16605/09> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:16605/09> <http://purl.org/dc/terms/title> "CASE OF N.D. v. SLOVENIA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:16605/09> <eva:importance_level> "3"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:16605/09> <http://purl.org/dc/terms/contributor> <eva:ZIDAR_B.>.
+<eva:ZIDAR_B.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:16605/09> <eva:respondent_state> <http://www.wikidata.org/entity/Q215>.
+<eva:16605/09> <http://purl.org/dc/terms/date> "2015-01-15"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:16605/09> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Positive obligations) (Procedural aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:16605/09> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:16605/09> <http://purl.org/dc/terms/description> "(Art. 3) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:16605/09> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2015:0115JUD001660509"^^<http://www.w3.org/2001/XMLSchema#string>.

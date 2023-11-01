@@ -1,0 +1,28 @@
+<eva:38478/05> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:38478/05> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:38478/05> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:38478/05> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:38478/05> <http://purl.org/dc/terms/creator> "Court (First Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:38478/05> <http://purl.org/dc/terms/title> "CASE OF SANDRA JANKOVIĆ v. CROATIA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <eva:importance_level> "1"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:38478/05> <http://purl.org/dc/terms/contributor> <eva:BOJIC_I.>.
+<eva:BOJIC_I.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:38478/05> <eva:respondent_state> <http://www.wikidata.org/entity/Q224>.
+<eva:38478/05> <http://purl.org/dc/terms/date> "2009-03-05"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:38478/05> <http://purl.org/dc/terms/abstract> "Preliminary objection dismissed (non-exhaustion of domestic remedies)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/abstract> "Violation of Art. 8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/abstract> "Violation of Art. 6-1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/description> "(Art. 35-1) Exhaustion of domestic remedies"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/description> "Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/description> "(Art. 6) Right to a fair trial"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/description> "(Art. 6) Civil proceedings"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/description> "(Art. 6) Enforcement proceedings"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/description> "(Art. 6-1) Reasonable time"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for private life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2009:0305JUD003847805"^^<http://www.w3.org/2001/XMLSchema#string>.

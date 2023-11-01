@@ -1,0 +1,39 @@
+<eva:41237/14> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:41237/14> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:41237/14> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:41237/14> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:41237/14> <http://purl.org/dc/terms/creator> "Court (First Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:41237/14> <http://purl.org/dc/terms/title> "CASE OF TALPIS v. ITALY"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <eva:importance_level> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:41237/14> <http://purl.org/dc/terms/contributor> <eva:MENICHETTI_S.>.
+<eva:MENICHETTI_S.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:41237/14> <eva:respondent_state> <http://www.wikidata.org/entity/Q38>.
+<eva:41237/14> <http://purl.org/dc/terms/date> "2017-03-02"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:41237/14> <http://purl.org/dc/terms/abstract> "Preliminary objections joined to merits and dismissed (Article 35-1 - Exhaustion of domestic remedies)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/abstract> "Violation of Article 2 - Right to life (Article 2 - Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/abstract> "Article 2-1 - Life) (Substantive aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/abstract> "Positive obligations) (Procedural aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/abstract> "Violation of Article 14+2 - Prohibition of discrimination (Article 14 - Discrimination) (Article 2 - Right to life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/abstract> "Article 2-1 - Life)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/abstract> "Pecuniary damage - claim dismissed (Article 41 - Pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/description> "(Art. 2) Right to life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/description> "(Art. 2) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/description> "(Art. 2-1) Life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/description> "(Art. 3) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/description> "(Art. 14) Prohibition of discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/description> "(Art. 14) Discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/description> "(Art. 35-1) Exhaustion of domestic remedies"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/description> "(Art. 41) Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/description> "(Art. 41) Pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2017:0302JUD004123714"^^<http://www.w3.org/2001/XMLSchema#string>.

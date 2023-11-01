@@ -12,7 +12,7 @@ class ECHRDocument:
     """
 
     # TODO: se possibile sostituire file html con url, ma non è semplice perché il sito non è statico.
-    #  Il contenuto dei file è copiato da "Inspect" di Chrome
+    #  Il contenuto dei file HTML è copiato da "Inspect" di Chrome
     def __init__(self, html_path: str = None, pdf_path: str = None, file_name: str = None):
         """
         :param html_path: percorso in cui si trova il file html che contiene il documento
@@ -375,7 +375,6 @@ class ECHRDocument:
                                       "predicate": f"<{dcterm}isVersionOf>",
                                       "object": f"\"{self._case_detail['ECLI']}\"{str_uri}."})
 
-
     def extract_triples_from_case_detail_old(self):
         # TODO implementato in modo molto naive => MODIFICARE
         if self._case_detail is None:
@@ -426,9 +425,12 @@ class ECHRDocument:
     def get_triples(self) -> list:
         return self._triples
 
-    def save_triples(self):
-        # TODO implementare
-        pass
+    def save_triples(self, path: str):
+        if self._triples is None:
+            return
+        with open(path + "/" + self._file_name + ".ttl", "w", encoding="UTF-8") as f:
+            for triple in self._triples:
+                f.write(f"{triple['subject']} {triple['predicate']} {triple['object']}\n")
 
 
 def test():

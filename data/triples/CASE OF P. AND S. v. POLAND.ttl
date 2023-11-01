@@ -1,0 +1,44 @@
+<eva:57375/08> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:57375/08> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:57375/08> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:57375/08> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:57375/08> <http://purl.org/dc/terms/creator> "Court (Fourth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:57375/08> <http://purl.org/dc/terms/title> "CASE OF P. AND S. v. POLAND"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <eva:importance_level> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:57375/08> <http://purl.org/dc/terms/contributor> <eva:GĄSIOROWSKA_M._>.
+<eva:GĄSIOROWSKA_M._> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:57375/08> <http://purl.org/dc/terms/contributor> <eva:KOTIUK_I.>.
+<eva:KOTIUK_I.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:57375/08> <eva:respondent_state> <http://www.wikidata.org/entity/Q36>.
+<eva:57375/08> <http://purl.org/dc/terms/date> "2012-10-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:57375/08> <http://purl.org/dc/terms/abstract> "Preliminary objection joined to merits and dismissed (Article 35-1 - Exhaustion of domestic remedies)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/abstract> "Preliminary objection joined to merits and dismissed (Article 34 - Victim)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/abstract> "Remainder inadmissible"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/abstract> "Violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/abstract> "Article 8-1 - Respect for private life)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/abstract> "Violation of Article 8 - Right to respect for private and family life (Article 8-1 - Respect for private life)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/abstract> "Violation of Article 5 - Right to liberty and security (Article 5-1 - Deprivation of liberty"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/abstract> "Article 5-1-d - Educational supervision)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/abstract> "Inhuman treatment) (Substantive aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/description> "(Art. 3) Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/description> "(Art. 3) Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/description> "(Art. 5) Right to liberty and security"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/description> "(Art. 5-1) Deprivation of liberty"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/description> "(Art. 5-1-d) Educational supervision"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/description> "(Art. 8) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for private life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/description> "(Art. 8-2) In accordance with the law"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/description> "(Art. 34) Individual applications"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/description> "(Art. 34) Victim"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/description> "(Art. 35-1) Exhaustion of domestic remedies"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/description> "Margin of appreciation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/description> "Proportionality"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2012:1030JUD005737508"^^<http://www.w3.org/2001/XMLSchema#string>.

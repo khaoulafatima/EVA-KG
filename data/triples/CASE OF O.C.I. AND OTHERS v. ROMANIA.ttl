@@ -1,0 +1,17 @@
+<eva:49450/17> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:49450/17> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:49450/17> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49450/17> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:49450/17> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:49450/17> <http://purl.org/dc/terms/creator> "Court (Fourth Section Committee)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49450/17> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:49450/17> <http://purl.org/dc/terms/title> "CASE OF O.C.I. AND OTHERS v. ROMANIA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49450/17> <eva:importance_level> "3"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:49450/17> <http://purl.org/dc/terms/contributor> <eva:AMUZA_A.>.
+<eva:AMUZA_A.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:49450/17> <eva:respondent_state> <http://www.wikidata.org/entity/Q218>.
+<eva:49450/17> <http://purl.org/dc/terms/date> "2019-05-21"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:49450/17> <http://purl.org/dc/terms/abstract> "Violation of Article 8 - Right to respect for private and family life (Article 8-1 - Respect for family life)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49450/17> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49450/17> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for family life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49450/17> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2019:0521JUD004945017"^^<http://www.w3.org/2001/XMLSchema#string>.

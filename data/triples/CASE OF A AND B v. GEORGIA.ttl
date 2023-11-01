@@ -1,0 +1,49 @@
+<eva:73975/16> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:73975/16> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:73975/16> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:73975/16> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:73975/16> <http://purl.org/dc/terms/creator> "Court (Fifth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:73975/16> <http://purl.org/dc/terms/title> "CASE OF A AND B v. GEORGIA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <eva:importance_level> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:73975/16> <http://purl.org/dc/terms/contributor> <eva:DEKANOSIDZE_T._>.
+<eva:DEKANOSIDZE_T._> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:73975/16> <http://purl.org/dc/terms/contributor> <eva:ABAZADZE_T._>.
+<eva:ABAZADZE_T._> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:73975/16> <http://purl.org/dc/terms/contributor> <eva:JOMARJIDZE_N._>.
+<eva:JOMARJIDZE_N._> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:73975/16> <http://purl.org/dc/terms/contributor> <eva:ARGANASHVILI_A._>.
+<eva:ARGANASHVILI_A._> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:73975/16> <http://purl.org/dc/terms/contributor> <eva:ABASHIDZE_A._>.
+<eva:ABASHIDZE_A._> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:73975/16> <http://purl.org/dc/terms/contributor> <eva:LEACH_P._>.
+<eva:LEACH_P._> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:73975/16> <http://purl.org/dc/terms/contributor> <eva:LEVIN_K._>.
+<eva:LEVIN_K._> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:73975/16> <http://purl.org/dc/terms/contributor> <eva:EVANS_J._>.
+<eva:EVANS_J._> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:73975/16> <http://purl.org/dc/terms/contributor> <eva:GAVRON_J.>.
+<eva:GAVRON_J.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:73975/16> <eva:respondent_state> <http://www.wikidata.org/entity/Q230>.
+<eva:73975/16> <http://purl.org/dc/terms/date> "2022-02-10"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:73975/16> <http://purl.org/dc/terms/abstract> "Preliminary objection joined to merits and dismissed (Art. 34) Individual applications"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/abstract> "(Art. 34) Victim"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/abstract> "Violation of Article 14+2 - Prohibition of discrimination (Article 14 - Discrimination) (Article 2 - Right to life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/abstract> "Article 2-1 - Effective investigation)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/abstract> "Violation of Article 14+2 - Prohibition of discrimination (Article 14 - Discrimination) (Article 2-1 - Life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/abstract> "Article 2 - Right to life)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/description> "(Art. 2) Right to life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/description> "(Art. 2-1) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/description> "(Art. 2-1) Life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/description> "(Art. 14) Prohibition of discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/description> "(Art. 14) Discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/description> "(Art. 14) Sex"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/description> "(Art. 34) Individual applications"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/description> "(Art. 34) Victim"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/description> "(Art. 41) Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73975/16> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2022:0210JUD007397516"^^<http://www.w3.org/2001/XMLSchema#string>.

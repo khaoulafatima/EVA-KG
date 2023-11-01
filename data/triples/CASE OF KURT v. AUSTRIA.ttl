@@ -1,0 +1,30 @@
+<eva:62903/15> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:62903/15> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:62903/15> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:62903/15> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:62903/15> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:62903/15> <http://purl.org/dc/terms/creator> "Court (Grand Chamber)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:62903/15> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:62903/15> <http://purl.org/dc/terms/title> "CASE OF KURT v. AUSTRIA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:62903/15> <eva:importance_level> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:62903/15> <http://purl.org/dc/terms/contributor> <eva:KOLBITSCH_K._>.
+<eva:KOLBITSCH_K._> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:62903/15> <http://purl.org/dc/terms/contributor> <eva:AZIZ_S.>.
+<eva:AZIZ_S.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:62903/15> <eva:respondent_state> <http://www.wikidata.org/entity/Q40>.
+<eva:62903/15> <http://purl.org/dc/terms/date> "2021-06-15"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:62903/15> <http://purl.org/dc/terms/abstract> "Preliminary objection joined to merits (Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:62903/15> <http://purl.org/dc/terms/abstract> "(Art. 35-1) Exhaustion of domestic remedies"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:62903/15> <http://purl.org/dc/terms/abstract> "Remainder inadmissible (Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:62903/15> <http://purl.org/dc/terms/abstract> "(Art. 35-1) Six-month period"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:62903/15> <http://purl.org/dc/terms/abstract> "No violation of Article 2 - Right to life (Article 2 - Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:62903/15> <http://purl.org/dc/terms/abstract> "Article 2-1 - Life) (Substantive aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:62903/15> <http://purl.org/dc/terms/description> "(Art. 2) Right to life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:62903/15> <http://purl.org/dc/terms/description> "(Art. 2) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:62903/15> <http://purl.org/dc/terms/description> "(Art. 2-1) Life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:62903/15> <http://purl.org/dc/terms/description> "(Art. 5) Right to liberty and security"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:62903/15> <http://purl.org/dc/terms/description> "(Art. 5-1) Deprivation of liberty"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:62903/15> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:62903/15> <http://purl.org/dc/terms/description> "(Art. 35-1) Exhaustion of domestic remedies"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:62903/15> <http://purl.org/dc/terms/description> "(Art 35-1) Four-month period (former six-month)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:62903/15> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2021:0615JUD006290315"^^<http://www.w3.org/2001/XMLSchema#string>.

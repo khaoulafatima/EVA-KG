@@ -1,0 +1,19 @@
+<eva:3621/07> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:3621/07> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:3621/07> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3621/07> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:3621/07> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:3621/07> <http://purl.org/dc/terms/creator> "Court (Second Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3621/07> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:3621/07> <http://purl.org/dc/terms/title> "CASE OF DURMAZ v. TURKEY"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3621/07> <eva:importance_level> "3"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:3621/07> <http://purl.org/dc/terms/contributor> <eva:KAVAK_KILINÇ_Y._>.
+<eva:KAVAK_KILINÇ_Y._> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:3621/07> <http://purl.org/dc/terms/contributor> <eva:KILINÇ_Ü.>.
+<eva:KILINÇ_Ü.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:3621/07> <eva:respondent_state> <http://www.wikidata.org/entity/Q43>.
+<eva:3621/07> <http://purl.org/dc/terms/date> "2014-11-13"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:3621/07> <http://purl.org/dc/terms/abstract> "Violation of Article 2 - Right to life (Article 2-1 - Effective investigation) (Procedural aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3621/07> <http://purl.org/dc/terms/description> "(Art. 2) Right to life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3621/07> <http://purl.org/dc/terms/description> "(Art. 2-1) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3621/07> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2014:1113JUD000362107"^^<http://www.w3.org/2001/XMLSchema#string>.

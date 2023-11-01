@@ -1,0 +1,22 @@
+<eva:8969/10> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:8969/10> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:8969/10> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8969/10> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:8969/10> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:8969/10> <http://purl.org/dc/terms/creator> "Court (First Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8969/10> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q327000>.
+<eva:8969/10> <http://purl.org/dc/terms/title> "OMEREDO v. AUSTRIA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8969/10> <eva:importance_level> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:8969/10> <http://purl.org/dc/terms/contributor> <eva:SINGER_S.>.
+<eva:SINGER_S.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:8969/10> <eva:respondent_state> <http://www.wikidata.org/entity/Q40>.
+<eva:8969/10> <http://purl.org/dc/terms/date> "2011-09-20"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:8969/10> <http://purl.org/dc/terms/abstract> "Inadmissible"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8969/10> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8969/10> <http://purl.org/dc/terms/description> "(Art. 3) Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8969/10> <http://purl.org/dc/terms/description> "(Art. 3) Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8969/10> <http://purl.org/dc/terms/description> "(Art. 3) Expulsion"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8969/10> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8969/10> <http://purl.org/dc/terms/description> "(Art. 35-3-a) Ratione materiae"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8969/10> <http://purl.org/dc/terms/description> "(Art. 6) Right to a fair trial"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8969/10> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2011:0920DEC000896910"^^<http://www.w3.org/2001/XMLSchema#string>.

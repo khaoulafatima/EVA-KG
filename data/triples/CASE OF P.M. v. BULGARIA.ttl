@@ -1,0 +1,22 @@
+<eva:49669/07> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:49669/07> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:49669/07> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49669/07> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:49669/07> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:49669/07> <http://purl.org/dc/terms/creator> "Court (Fourth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49669/07> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:49669/07> <http://purl.org/dc/terms/title> "CASE OF P.M. v. BULGARIA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49669/07> <eva:importance_level> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:49669/07> <http://purl.org/dc/terms/contributor> <eva:VASILEV_V.>.
+<eva:VASILEV_V.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:49669/07> <eva:respondent_state> <http://www.wikidata.org/entity/Q219>.
+<eva:49669/07> <http://purl.org/dc/terms/date> "2012-01-24"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:49669/07> <http://purl.org/dc/terms/abstract> "Remainder inadmissible"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49669/07> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49669/07> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49669/07> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49669/07> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49669/07> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49669/07> <http://purl.org/dc/terms/description> "(Art. 35-3-a) Ratione temporis"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49669/07> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49669/07> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2012:0124JUD004966907"^^<http://www.w3.org/2001/XMLSchema#string>.

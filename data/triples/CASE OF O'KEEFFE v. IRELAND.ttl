@@ -1,0 +1,39 @@
+<eva:35810/09> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:35810/09> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:35810/09> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:35810/09> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:35810/09> <http://purl.org/dc/terms/creator> "Court (Grand Chamber)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:35810/09> <http://purl.org/dc/terms/isPartOf> "Reports of Judgments and Decisions 2014 (extracts)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/title> "CASE OF O'KEEFFE v. IRELAND"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <eva:importance_level> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:35810/09> <http://purl.org/dc/terms/contributor> <eva:CANTILLON_E.>.
+<eva:CANTILLON_E.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:35810/09> <eva:respondent_state> <http://www.wikidata.org/entity/Q27>.
+<eva:35810/09> <http://purl.org/dc/terms/date> "2014-01-28"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35810/09> <http://purl.org/dc/terms/abstract> "Preliminary objection dismissed (Article 35-1 - Exhaustion of domestic remedies)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/abstract> "Preliminary objection dismissed (Article 34 - Victim)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/abstract> "Preliminary objection joined to merits and dismissed (Article 35-3 - Manifestly ill-founded)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/abstract> "Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/abstract> "Positive obligations) (Substantive aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/abstract> "Violation of Article 13+3 - Right to an effective remedy (Article 13 - Effective remedy) (Article 3 - Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/abstract> "Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/abstract> "Prohibition of torture)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/abstract> "No violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/abstract> "Pecuniary and non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/description> "(Art. 3) Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/description> "(Art. 3) Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/description> "(Art. 3) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/description> "(Art. 13) Right to an effective remedy"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/description> "(Art. 13) Effective remedy"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/description> "(Art. 34) Individual applications"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/description> "(Art. 34) Victim"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/description> "(Art. 35-1) Exhaustion of domestic remedies"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/description> "(Art. 35-3-a) Manifestly ill-founded"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35810/09> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2014:0128JUD003581009"^^<http://www.w3.org/2001/XMLSchema#string>.

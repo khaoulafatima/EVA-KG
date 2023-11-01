@@ -1,0 +1,43 @@
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/creator> "Court (Third Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/title> "CASE OF TUNIKOVA AND OTHERS v. RUSSIA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <eva:importance_level> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <eva:respondent_state> <http://www.wikidata.org/entity/Q159>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/date> "2021-12-14"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/abstract> "Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/abstract> "Positive obligations) (Substantive aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/abstract> "Positive obligations) (Procedural aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/abstract> "Violation of Article 14+3 - Prohibition of discrimination (Article 14 - Discrimination) (Article 3 - Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/abstract> "Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/abstract> "Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/abstract> "Effective investigation)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/abstract> "Respondent State to take measures of a general character (Article 46 - Pilot judgment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/abstract> "Systemic problem"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/abstract> "Article 46-2 - General measures)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/abstract> "Pecuniary and non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/abstract> "Pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/description> "(Art. 3) Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/description> "(Art. 3) Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/description> "(Art. 3) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/description> "(Art. 14) Prohibition of discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/description> "(Art. 14) Discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/description> "(Art. 41) Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/description> "(Art. 41) Pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/description> "(Art. 46) Binding force and execution of judgments"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/description> "(Art. 46) Pilot judgment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/description> "(Art. 46) Systemic problem"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/description> "(Art. 46-2) Execution of judgment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/description> "(Art. 46-2) General measures"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:['55974/16', '53118/17', '27484/18', '28011/19']> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2021:1214JUD005597416"^^<http://www.w3.org/2001/XMLSchema#string>.

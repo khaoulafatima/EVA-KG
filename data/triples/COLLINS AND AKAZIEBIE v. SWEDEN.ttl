@@ -1,0 +1,17 @@
+<eva:23944/05> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:23944/05> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:23944/05> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23944/05> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:23944/05> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:23944/05> <http://purl.org/dc/terms/creator> "Court (Third Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23944/05> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q327000>.
+<eva:23944/05> <http://purl.org/dc/terms/title> "COLLINS AND AKAZIEBIE v. SWEDEN"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23944/05> <eva:importance_level> "1"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:23944/05> <http://purl.org/dc/terms/contributor> <eva:ISAKSSON_LENA>.
+<eva:ISAKSSON_LENA> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:23944/05> <eva:respondent_state> <http://www.wikidata.org/entity/Q34>.
+<eva:23944/05> <http://purl.org/dc/terms/date> "2007-03-08"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23944/05> <http://purl.org/dc/terms/abstract> "Inadmissible"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23944/05> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23944/05> <http://purl.org/dc/terms/description> "(Art. 3) Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23944/05> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2007:0308DEC002394405"^^<http://www.w3.org/2001/XMLSchema#string>.

@@ -1,0 +1,33 @@
+<eva:29263/12> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:29263/12> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:29263/12> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:29263/12> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:29263/12> <http://purl.org/dc/terms/creator> "Court (Fourth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:29263/12> <http://purl.org/dc/terms/title> "CASE OF S.Z. v. BULGARIA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <eva:importance_level> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:29263/12> <http://purl.org/dc/terms/contributor> <eva:GROZEV_Y._>.
+<eva:GROZEV_Y._> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:29263/12> <http://purl.org/dc/terms/contributor> <eva:DOBREVA_N.>.
+<eva:DOBREVA_N.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:29263/12> <eva:respondent_state> <http://www.wikidata.org/entity/Q219>.
+<eva:29263/12> <http://purl.org/dc/terms/date> "2015-03-03"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/abstract> "Preliminary objection dismissed (Article 35-1 - Exhaustion of domestic remedies)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/abstract> "Preliminary objection joined to merits and dismissed (Article 35-1 - Exhaustion of domestic remedies)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/abstract> "Respondent State to take measures of a general character (Article 46 - Systemic problem"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/abstract> "General measures)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/description> "(Art. 35-1) Exhaustion of domestic remedies"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/description> "(Art. 41) Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/description> "(Art. 46) Binding force and execution of judgments"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/description> "(Art. 46) General measures (pilot judgment)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/description> "(Art. 46) Systemic problem"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2015:0303JUD002926312"^^<http://www.w3.org/2001/XMLSchema#string>.

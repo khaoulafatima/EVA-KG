@@ -1,0 +1,21 @@
+<eva:46598/06> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:46598/06> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:46598/06> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:46598/06> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:46598/06> <http://purl.org/dc/terms/creator> "Court (First Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:46598/06> <http://purl.org/dc/terms/title> "CASE OF BRANKO TOMAŠIĆ AND OTHERS v. CROATIA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <eva:importance_level> "1"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:46598/06> <http://purl.org/dc/terms/contributor> <eva:BOJIC_I.>.
+<eva:BOJIC_I.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:46598/06> <eva:respondent_state> <http://www.wikidata.org/entity/Q224>.
+<eva:46598/06> <http://purl.org/dc/terms/date> "2009-01-15"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:46598/06> <http://purl.org/dc/terms/abstract> "Violation of Art. 2 (substantive aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/description> "Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/description> "(Art. 2) Right to life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/description> "(Art. 2-1) Life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2009:0115JUD004659806"^^<http://www.w3.org/2001/XMLSchema#string>.

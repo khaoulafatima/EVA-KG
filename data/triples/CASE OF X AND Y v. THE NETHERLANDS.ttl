@@ -1,0 +1,29 @@
+<eva:8978/80> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:8978/80> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:8978/80> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8978/80> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:8978/80> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:8978/80> <http://purl.org/dc/terms/creator> "Court (Chamber)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8978/80> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:8978/80> <http://purl.org/dc/terms/isPartOf> "A91"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8978/80> <http://purl.org/dc/terms/title> "CASE OF X AND Y v. THE NETHERLANDS"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8978/80> <eva:importance_level> "1"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:8978/80> <http://purl.org/dc/terms/contributor> <eva:N>.
+<eva:N> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:8978/80> <eva:respondent_state> <http://www.wikidata.org/entity/Q29999>.
+<eva:8978/80> <http://purl.org/dc/terms/date> "1985-03-26"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:8978/80> <http://purl.org/dc/terms/abstract> "Violation of Art. 8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8978/80> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - financial award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8978/80> <http://purl.org/dc/terms/description> "(Art. 14) Prohibition of discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8978/80> <http://purl.org/dc/terms/description> "(Art. 14) Discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8978/80> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8978/80> <http://purl.org/dc/terms/description> "(Art. 3) Degrading punishment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8978/80> <http://purl.org/dc/terms/description> "(Art. 3) Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8978/80> <http://purl.org/dc/terms/description> "(Art. 3) Inhuman punishment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8978/80> <http://purl.org/dc/terms/description> "(Art. 3) Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8978/80> <http://purl.org/dc/terms/description> "(Art. 13) Right to an effective remedy"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8978/80> <http://purl.org/dc/terms/description> "(Art. 13) Effective remedy"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8978/80> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8978/80> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for private life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8978/80> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8978/80> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:1985:0326JUD000897880"^^<http://www.w3.org/2001/XMLSchema#string>.

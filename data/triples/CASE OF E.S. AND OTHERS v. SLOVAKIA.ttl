@@ -1,0 +1,28 @@
+<eva:8227/04> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:8227/04> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:8227/04> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:8227/04> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:8227/04> <http://purl.org/dc/terms/creator> "Court (Fourth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:8227/04> <http://purl.org/dc/terms/title> "CASE OF E.S. AND OTHERS v. SLOVAKIA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <eva:importance_level> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:8227/04> <http://purl.org/dc/terms/contributor> <eva:RAJTAKOVA_I.>.
+<eva:RAJTAKOVA_I.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:8227/04> <eva:respondent_state> <http://www.wikidata.org/entity/Q214>.
+<eva:8227/04> <http://purl.org/dc/terms/date> "2009-09-15"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:8227/04> <http://purl.org/dc/terms/abstract> "Remainder inadmissible"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/abstract> "Violation of Art. 3"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/abstract> "Violation of Art. 8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/description> "(Art. 35-1) Exhaustion of domestic remedies"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/description> "(Art. 35-1) Effective domestic remedy"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/description> "Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/description> "(Art. 3) Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/description> "(Art. 3) Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for private life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2009:0915JUD000822704"^^<http://www.w3.org/2001/XMLSchema#string>.

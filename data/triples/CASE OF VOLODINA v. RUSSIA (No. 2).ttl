@@ -1,0 +1,27 @@
+<eva:40419/19> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:40419/19> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:40419/19> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40419/19> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:40419/19> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:40419/19> <http://purl.org/dc/terms/creator> "Court (Third Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40419/19> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:40419/19> <http://purl.org/dc/terms/title> "CASE OF VOLODINA v. RUSSIA (No. 2)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40419/19> <eva:importance_level> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:40419/19> <http://purl.org/dc/terms/contributor> <eva:KOGAN_V.>.
+<eva:KOGAN_V.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:40419/19> <eva:respondent_state> <http://www.wikidata.org/entity/Q159>.
+<eva:40419/19> <http://purl.org/dc/terms/date> "2021-09-14"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:40419/19> <http://purl.org/dc/terms/abstract> "Violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40419/19> <http://purl.org/dc/terms/abstract> "Article 8-1 - Respect for private life)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40419/19> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40419/19> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40419/19> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40419/19> <http://purl.org/dc/terms/description> "(Art. 8) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40419/19> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for private life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40419/19> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40419/19> <http://purl.org/dc/terms/description> "(Art. 35-2-b) Relevant new information"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40419/19> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40419/19> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40419/19> <http://purl.org/dc/terms/description> "(Art. 41) Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40419/19> <http://purl.org/dc/terms/description> "Margin of appreciation"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40419/19> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2021:0914JUD004041919"^^<http://www.w3.org/2001/XMLSchema#string>.

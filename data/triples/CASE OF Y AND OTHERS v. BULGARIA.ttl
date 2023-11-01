@@ -1,0 +1,30 @@
+<eva:9077/18> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:9077/18> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:9077/18> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:9077/18> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:9077/18> <http://purl.org/dc/terms/creator> "Court (Fourth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:9077/18> <http://purl.org/dc/terms/title> "CASE OF Y AND OTHERS v. BULGARIA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <eva:importance_level> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:9077/18> <http://purl.org/dc/terms/contributor> <eva:KACHAUNOVA_A.>.
+<eva:KACHAUNOVA_A.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:9077/18> <eva:respondent_state> <http://www.wikidata.org/entity/Q219>.
+<eva:9077/18> <http://purl.org/dc/terms/date> "2022-03-22"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/abstract> "Violation of Article 2 - Right to life (Article 2 - Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/abstract> "Article 2-1 - Life) (Substantive aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/abstract> "No violation of Article 14+2-1 - Prohibition of discrimination (Article 14 - Discrimination) (Article 2 - Right to life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/abstract> "Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/abstract> "Article 2-1 - Life)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/description> "(Art. 2) Right to life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/description> "(Art. 2) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/description> "(Art. 2-1) Life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/description> "(Art. 14) Prohibition of discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/description> "(Art. 14) Discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/description> "(Art. 14) Sex"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/description> "(Art. 41) Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2022:0322JUD000907718"^^<http://www.w3.org/2001/XMLSchema#string>.

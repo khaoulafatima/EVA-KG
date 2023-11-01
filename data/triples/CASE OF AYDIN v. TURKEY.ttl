@@ -1,0 +1,36 @@
+<eva:23178/94> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:23178/94> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:23178/94> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:23178/94> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:23178/94> <http://purl.org/dc/terms/creator> "Court (Grand Chamber)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:23178/94> <http://purl.org/dc/terms/isPartOf> "Reports 1997-VI"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/title> "CASE OF AYDIN v. TURKEY"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <eva:importance_level> "1"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:23178/94> <http://purl.org/dc/terms/contributor> <eva:N>.
+<eva:N> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:23178/94> <eva:respondent_state> <http://www.wikidata.org/entity/Q43>.
+<eva:23178/94> <http://purl.org/dc/terms/date> "1997-09-25"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23178/94> <http://purl.org/dc/terms/abstract> "Preliminary objection rejected (estoppel)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/abstract> "Violation of Art. 3"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/abstract> "Violation of Art. 13"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/abstract> "Not necessary to examine Art. 6-1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/abstract> "No violation of Art. 25-1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/abstract> "Not necessary to examine Art. 28-1-a"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/abstract> "Not necessary to examine Art. 53"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/abstract> "Pecuniary damage - claim dismissed"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - financial award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/abstract> "Costs and expenses partial award - Convention proceedings"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 3) Torture"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 13) Right to an effective remedy"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 13) Effective remedy"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 34) Individual applications"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 34) Individual"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 34) Hinder the exercise of the right of application"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 6) Right to a fair trial"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 46) Binding force and execution of judgments"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 53) Rights otherwise guaranteed"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23178/94> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:1997:0925JUD002317894"^^<http://www.w3.org/2001/XMLSchema#string>.

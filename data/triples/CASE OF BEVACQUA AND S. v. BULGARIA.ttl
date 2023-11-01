@@ -1,0 +1,29 @@
+<eva:71127/01> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
+<eva:71127/01> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
+<eva:71127/01> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
+<eva:71127/01> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
+<eva:71127/01> <http://purl.org/dc/terms/creator> "Court (Fifth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
+<eva:71127/01> <http://purl.org/dc/terms/title> "CASE OF BEVACQUA AND S. v. BULGARIA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <eva:importance_level> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<eva:71127/01> <http://purl.org/dc/terms/contributor> <eva:GORBOUNOVA_D._>.
+<eva:GORBOUNOVA_D._> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:71127/01> <http://purl.org/dc/terms/contributor> <eva:TISHEVA_G.>.
+<eva:TISHEVA_G.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
+<eva:71127/01> <eva:respondent_state> <http://www.wikidata.org/entity/Q219>.
+<eva:71127/01> <http://purl.org/dc/terms/date> "2008-06-12"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:71127/01> <http://purl.org/dc/terms/abstract> "Violation of Art. 8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/abstract> "No violation of Art. 6-1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/description> "(Art. 35-1) Exhaustion of domestic remedies"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/description> "Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/description> "(Art. 6) Right to a fair trial"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/description> "(Art. 6) Civil proceedings"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/description> "(Art. 6-1) Reasonable time"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for family life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for private life"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2008:0612JUD007112701"^^<http://www.w3.org/2001/XMLSchema#string>.
