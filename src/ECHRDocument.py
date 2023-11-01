@@ -3,6 +3,7 @@ import re
 import json
 from bs4 import BeautifulSoup
 import PyPDF2
+from wikidata_query import get_country_identifier
 
 
 class ECHRDocument:
@@ -232,6 +233,150 @@ class ECHRDocument:
         return self._titles
 
     def extract_triples_from_case_detail(self):
+        if self._case_detail is None:
+            return
+        subject = 'App. No(s).'
+        eva = "eva:"
+        wd = "http://www.wikidata.org/entity/"
+        dcterm = "http://purl.org/dc/terms/"
+        rdf = "http://www.w3.org/2000/01/rdf-schema#"
+        str_uri = "^^<http://www.w3.org/2001/XMLSchema#string>"
+        int_uri = "^^<http://www.w3.org/2001/XMLSchema#integer>"
+        date_uri = "^^<http://www.w3.org/2001/XMLSchema#date>"
+        keys = self._case_detail.keys()
+        if subject in keys:
+            self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                                  "predicate": f"<{rdf}type>",
+                                  "object": f"<{wd}Q10413040>."})
+            # coverage
+            self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                                  "predicate": f"<{dcterm}coverage>",
+                                  "object": f"<{wd}Q6602>."})
+            # language
+            self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                                  "predicate": f"<{dcterm}language>",
+                                  "object": f"\"en\"{str_uri}."})
+            # publisher
+            self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                                  "predicate": f"<{dcterm}publisher>",
+                                  "object": f"<{wd}Q122880>."})
+            # accessRights
+            self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                                  "predicate": f"<{dcterm}accessRights>",
+                                  "object": f"<{wd}Q2388316>."})
+            # identifier
+            # TODO ricerca url da file
+            """url = "https://hudoc.echr.coe.int/eng#{\"dmdocnumber\":[\"875647\"],\"itemid\":[\"001-101152\"]}"
+            self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                                  "predicate": f"<{dcterm}identifier>",
+                                  "object": f"<{url}>."})"""
+
+            # originating body
+            if 'Originating Body' in keys:
+                self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                                      "predicate": f"<{dcterm}creator>",
+                                      "object": f"\"{self._case_detail['Originating Body']}\"{str_uri}."})
+            # document type
+            if 'Document Type' in keys:
+                o = ""
+                if self._case_detail['Document Type'] == "Judgment (Merits and Just Satisfaction)":
+                    o = "Q3769186"
+                elif self._case_detail['Document Type'] == "Decision":
+                    o = "Q327000"
+                if o != "":
+                    self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                                          "predicate": f"<{dcterm}type>",
+                                          "object": f"<{wd}{o}>."})
+            # published in
+            if 'Published in' in keys:
+                self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                                      "predicate": f"<{dcterm}isPartOf>",
+                                      "object": f"\"{self._case_detail['Published in']}\"{str_uri}."})
+            # title
+            if 'Title' in keys:
+                self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                                      "predicate": f"<{dcterm}title>",
+                                      "object": f"\"{self._case_detail['Title']}\"{str_uri}."})
+            # importance level
+            if 'Importance Level' in keys:
+                if self._case_detail['Importance Level'] == "Key cases":
+                    o = 4
+                else:
+                    o = int(self._case_detail['Importance Level'])
+                self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                                      "predicate": f"<{eva}importance_level>",
+                                      "object": f"\"{o}\"{int_uri}."})
+            # represented by
+            if 'Represented by' in keys:
+                for value in self._case_detail['Represented by']:
+                    if (isinstance(self._case_detail['Represented by'], str)
+                            and self._case_detail['Represented by'] != "N/A"):
+                        value = self._case_detail['Represented by']
+                    value = value.replace(" ", "_")
+                    self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                                          "predicate": f"<{dcterm}contributor>",
+                                          "object": f"<{eva}{value}>."})
+                    self._triples.append({"subject": f"<{eva}{value}>",
+                                          "predicate": f"<{rdf}type>",
+                                          "object": f"<{wd}Q40348>."})
+                    if isinstance(self._case_detail['Represented by'], str):
+                        break
+            # respondent state
+            if 'Respondent State(s)' in keys:
+                for value in self._case_detail['Respondent State(s)']:
+                    if isinstance(self._case_detail['Respondent State(s)'], str):
+                        value = self._case_detail['Respondent State(s)']
+                    state_id = get_country_identifier(value)
+                    if state_id is not None:
+                        state_id = state_id.replace("http://www.wikidata.org/entity/", "")
+                        self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                                              "predicate": f"<{eva}respondent_state>",
+                                              "object": f"<{wd}{state_id}>."})
+                    if isinstance(self._case_detail['Respondent State(s)'], str):
+                        break
+            # judgment date
+            if 'Judgment Date' in keys:
+                date = self._case_detail['Judgment Date'].split("/")
+                date = f"{date[2]}-{date[1]}-{date[0]}"
+                self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                                      "predicate": f"<{dcterm}date>",
+                                      "object": f"\"{date}\"{date_uri}."})
+            # decision date
+            if 'Decision Date' in keys:
+                date = self._case_detail['Decision Date'].split("/")
+                date = f"{date[2]}-{date[1]}-{date[0]}"
+                self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                                      "predicate": f"<{dcterm}date>",
+                                      "object": f"\"{date}\"{date_uri}."})
+            # conclusion
+            if 'Conclusion(s)' in keys:
+                for value in self._case_detail['Conclusion(s)']:
+                    if isinstance(self._case_detail['Conclusion(s)'], str):
+                        value = self._case_detail['Conclusion(s)']
+                    self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                                          "predicate": f"<{dcterm}abstract>",
+                                          "object": f"\"{value}\"{str_uri}."})
+                    if isinstance(self._case_detail['Conclusion(s)'], str):
+                        break
+            # TODO aggiungere Domestic Law, Strasbourg Case-Law, International Law
+            # keywords
+            if 'Keywords' in keys:
+                for value in self._case_detail['Keywords']:
+                    if isinstance(self._case_detail['Keywords'], str):
+                        value = self._case_detail['Keywords']
+                    self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                                          "predicate": f"<{dcterm}description>",
+                                          "object": f"\"{value}\"{str_uri}."})
+                    if isinstance(self._case_detail['Keywords'], str):
+                        break
+            # ECLI
+            if 'ECLI' in keys:
+                self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                                      "predicate": f"<{dcterm}isVersionOf>",
+                                      "object": f"\"{self._case_detail['ECLI']}\"{str_uri}."})
+
+
+    def extract_triples_from_case_detail_old(self):
         # TODO implementato in modo molto naive => MODIFICARE
         if self._case_detail is None:
             return
@@ -319,7 +464,7 @@ def test():
     print("TRIPLES____________________________________________________________________________________________________")
     echr_document.extract_triples_from_case_detail()
     for t in echr_document.get_triples():
-        print(t)
+        print(t["subject"], t["predicate"], t["object"])
 
 
 test()
