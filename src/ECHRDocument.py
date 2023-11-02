@@ -4,6 +4,7 @@ import json
 from bs4 import BeautifulSoup
 import PyPDF2
 from wikidata_query import get_country_identifier
+from regexp import strasbourg_case_law_re
 
 
 class ECHRDocument:
@@ -321,6 +322,7 @@ class ECHRDocument:
                                           "object": f"<{wd}Q40348>."})
                     if isinstance(self._case_detail['Represented by'], str):
                         break
+
             # respondent state
             if 'Respondent State(s)' in keys:
                 for value in self._case_detail['Respondent State(s)']:
@@ -358,7 +360,49 @@ class ECHRDocument:
                                           "object": f"\"{value}\"{str_uri}."})
                     if isinstance(self._case_detail['Conclusion(s)'], str):
                         break
-            # TODO aggiungere Domestic Law, Strasbourg Case-Law, International Law
+            # TODO aggiungere Domestic Law
+            # strasbourg case-law
+            if 'Strasbourg Case-Law' in keys:
+                for value in self._case_detail['Strasbourg Case-Law']:
+                    if isinstance(self._case_detail['Strasbourg Case-Law'], str):
+                        value = self._case_detail['Strasbourg Case-Law']
+                    match = strasbourg_case_law_re(value)
+                    # TODO se necessario da html si può accedere a parte del link
+                    # aggiungo solo nel caso in cui si ha il numero (vale la stessa cosa se si usa il link)
+                    # number
+                    if match[1]:
+                        self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                                              "predicate": f"<{dcterm}references>",
+                                              "object": f"<{eva}{match[1]}>."})
+                        # title
+                        if match[0]:
+                            o = match[0].replace("\"", "")
+                            self._triples.append({"subject": f"<{eva}{match[1]}>",
+                                                  "predicate": f"<{dcterm}title>",
+                                                  "object": f"\"{o}\"{str_uri}."})
+                        # date
+                        if match[2]:
+                            self._triples.append({"subject": f"<{eva}{match[1]}>",
+                                                  "predicate": f"<{dcterm}date>",
+                                                  "object": f"\"{match[2]}\"{date_uri}."})
+                    """# title
+                    if match[0]:  
+                        self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                                              "predicate": f"<{dcterm}references>",
+                                              "object": f"\"{match[0]}\"{str_uri}."})
+                    # number
+                    if match[1]:  
+                        self._triples.append({"subject": f"<{eva}{match[1]}>",
+                                              "predicate": f"<{dcterm}title>",
+                                              "object": f"\"{match[0]}\"{str_uri}."})
+                    # date
+                    if match[2]:  
+                        self._triples.append({"subject": f"<{eva}{match[0]}>",
+                                              "predicate": f"<{dcterm}date>",
+                                              "object": f"\"{match[2]}\"{date_uri}."})"""
+                    if isinstance(self._case_detail['Strasbourg Case-Law'], str):
+                        break
+            # TODO aggiungere International Law
             # keywords
             if 'Keywords' in keys:
                 for value in self._case_detail['Keywords']:
@@ -433,13 +477,10 @@ class ECHRDocument:
                 f.write(f"{triple['subject']} {triple['predicate']} {triple['object']}\n")
 
 
-def test():
+if __name__ == "__main__":
     """
     prova di utilizzo della classe
-    :return:
     """
-    if __name__ != "__main__":
-        return
     import pprint
     html = "../data/corpus_html"
     pdf = "../data/corpus_pdf"
@@ -447,26 +488,29 @@ def test():
     json_path = "../data/case_detail_json"
     body_path = "../data/document_body"
     echr_document = ECHRDocument(html_path=html, pdf_path=pdf, file_name=name)
-    print("DOCUMENT___________________________________________________________________________________________________")
+    print(
+        "DOCUMENT___________________________________________________________________________________________________")
     print(echr_document)
     echr_document.extract_case_detail_from_html()
-    print("CASE DETAIL________________________________________________________________________________________________")
+    print(
+        "CASE DETAIL________________________________________________________________________________________________")
     pprint.pprint(echr_document.get_case_detail(), sort_dicts=False)
     echr_document.case_detail_to_json(json_path)
     echr_document.extract_body_from_html()
-    print("BODY_______________________________________________________________________________________________________")
+    print(
+        "BODY_______________________________________________________________________________________________________")
     print(echr_document.get_body())
-    print("FOOTNOTES__________________________________________________________________________________________________")
+    print(
+        "FOOTNOTES__________________________________________________________________________________________________")
     print(echr_document.get_footnotes())
     echr_document.body_to_txt(body_path)
-    print("TITLES_____________________________________________________________________________________________________")
+    print(
+        "TITLES_____________________________________________________________________________________________________")
     echr_document.extract_titles()
     for t in echr_document.get_titles():
         print(t)
-    print("TRIPLES____________________________________________________________________________________________________")
+    print(
+        "TRIPLES____________________________________________________________________________________________________")
     echr_document.extract_triples_from_case_detail()
     for t in echr_document.get_triples():
         print(t["subject"], t["predicate"], t["object"])
-
-
-test()
