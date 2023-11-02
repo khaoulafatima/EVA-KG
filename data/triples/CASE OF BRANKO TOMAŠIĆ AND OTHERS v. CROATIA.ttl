@@ -1,55 +1,108 @@
-<eva:46598/06> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
-<eva:46598/06> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
-<eva:46598/06> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
-<eva:46598/06> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
-<eva:46598/06> <http://purl.org/dc/terms/creator> "Court (First Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
-<eva:46598/06> <http://purl.org/dc/terms/title> "CASE OF BRANKO TOMAŠIĆ AND OTHERS v. CROATIA"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <eva:importance_level> "1"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<eva:46598/06> <http://purl.org/dc/terms/contributor> <eva:BOJIC_I.>.
-<eva:BOJIC_I.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
-<eva:46598/06> <eva:respondent_state> <http://www.wikidata.org/entity/Q224>.
-<eva:46598/06> <http://purl.org/dc/terms/date> "2009-01-15"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:46598/06> <http://purl.org/dc/terms/abstract> "Violation of Art. 2 (substantive aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/references> <eva:33747/96>.
-<eva:33747/96> <http://purl.org/dc/terms/title> "Bromiley v. the United Kingdom (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:33747/96> <http://purl.org/dc/terms/date> "1999-11-23"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:46598/06> <http://purl.org/dc/terms/references> <eva:32967/96>.
-<eva:32967/96> <http://purl.org/dc/terms/title> "Calvelli and Ciglio v. Italy [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/references> <eva:24520/94>.
-<eva:24520/94> <http://purl.org/dc/terms/title> "Caraher v. the United Kingdom (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/references> <eva:33218/96>.
-<eva:33218/96> <http://purl.org/dc/terms/title> "E. and Others v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/references> <eva:22277/93>.
-<eva:22277/93> <http://purl.org/dc/terms/title> "Ilhan v. Turkey [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/references> <eva:53749/00>.
-<eva:53749/00> <http://purl.org/dc/terms/title> "Lazzarini and Ghiacci v. Italy (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:53749/00> <http://purl.org/dc/terms/date> "2002-11-07"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:46598/06> <http://purl.org/dc/terms/references> <eva:37703/97>.
-<eva:37703/97> <http://purl.org/dc/terms/title> "Mastromatteo v. Italy [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/references> <eva:24833/94>.
-<eva:24833/94> <http://purl.org/dc/terms/title> "Matthews v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/references> <eva:28883/95>.
-<eva:28883/95> <http://purl.org/dc/terms/title> "McKerr v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/references> <eva:43577/98>.
-<eva:43577/98> <http://purl.org/dc/terms/title> "Nachova and Others v. Bulgaria [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/references> <eva:46477/99>.
-<eva:46477/99> <http://purl.org/dc/terms/title> "Paul and Audrey Edwards v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/references> <eva:47287/99>.
-<eva:47287/99> <http://purl.org/dc/terms/title> "Perez v. France [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/references> <eva:25803/94>.
-<eva:25803/94> <http://purl.org/dc/terms/title> "Selmouni v. France [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/references> <eva:57671/00>.
-<eva:57671/00> <http://purl.org/dc/terms/title> "Slimani v. France"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/references> <eva:4353/03>.
-<eva:4353/03> <http://purl.org/dc/terms/title> "Tarariyeva v. Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/references> <eva:53924/00>.
-<eva:53924/00> <http://purl.org/dc/terms/title> "Vo v. France [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/description> "Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/description> "(Art. 2) Right to life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/description> "(Art. 2-1) Life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:46598/06> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2009:0115JUD004659806"^^<http://www.w3.org/2001/XMLSchema#string>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://eva.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ns1:importanceLevel 1 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q224> ;
+    dcterms:accessRights "public"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "BOJIC I."^^xsd:string ] ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
+    dcterms:creator "Court (First Section)"^^xsd:string ;
+    dcterms:date "2009-01-15"^^xsd:date ;
+    dcterms:description "(Art. 2) Right to life"^^xsd:string,
+        "(Art. 2-1) Life"^^xsd:string,
+        "(Art. 35) Admissibility criteria"^^xsd:string,
+        "(Art. 41) Just satisfaction-{general}"^^xsd:string,
+        "Non-pecuniary damage - award"^^xsd:string,
+        "Positive obligations"^^xsd:string,
+        "Violation of Art. 2 (substantive aspect)"^^xsd:string ;
+    dcterms:identifier "46598/06"^^xsd:string ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2009:0115JUD004659806"^^xsd:string ;
+    dcterms:language "en"^^xsd:string ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
+    dcterms:references [ dcterms:description "Articles 174 (2), 177 and 187 of the Code of Criminal Procedure "^^xsd:string ],
+        [ dcterms:description "Tarariyeva v. Russia, no. 4353/03, § 75, ECHR 2006 (extracts)"^^xsd:string ;
+            dcterms:identifier "4353/03"^^xsd:string ;
+            dcterms:title "Tarariyeva v. Russia"^^xsd:string ],
+        [ dcterms:description "Paul and Audrey Edwards v. the United Kingdom, no. 46477/99, § 55, ECHR 2002-III"^^xsd:string ;
+            dcterms:identifier "46477/99"^^xsd:string ;
+            dcterms:title "Paul and Audrey Edwards v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "2002-11-07"^^xsd:date ;
+            dcterms:description "Lazzarini and Ghiacci v. Italy (dec.), no. 53749/00, 7 November 2002"^^xsd:string ;
+            dcterms:identifier "53749/00"^^xsd:string ;
+            dcterms:title "Lazzarini and Ghiacci v. Italy (dec.)"^^xsd:string ],
+        [ dcterms:description "Sections 19, 186 (a), 1100 and 1101 of the Civil Obligations Act "^^xsd:string ],
+        [ dcterms:description "Vo v. France [GC], no. 53924/00, § 90, ECHR 2004-VIII"^^xsd:string ;
+            dcterms:identifier "53924/00"^^xsd:string ;
+            dcterms:title "Vo v. France [GC]"^^xsd:string ],
+        [ dcterms:date "1980-11-06"^^xsd:date ;
+            dcterms:description "Van Oosterwijck v. Belgium, 6 November 1980, Series A no. 40, § 35"^^xsd:string ;
+            dcterms:title "Van Oosterwijck v. Belgium"^^xsd:string ],
+        [ dcterms:description "Nachova and Others v. Bulgaria [GC], nos. 43577/98 and 43579/98, § 160, ECHR 2005-VII"^^xsd:string ;
+            dcterms:identifier "43577/98"^^xsd:string ;
+            dcterms:title "Nachova and Others v. Bulgaria [GC]"^^xsd:string ],
+        [ dcterms:description "Sections 38 and 55 of the Constitutional Court Act "^^xsd:string ],
+        [ dcterms:description "E. and Others v. the United Kingdom, no. 33218/96, § 110"^^xsd:string ;
+            dcterms:identifier "33218/96"^^xsd:string ;
+            dcterms:title "E. and Others v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Mastromatteo v. Italy [GC], no. 37703/97, § 90, ECHR 2002-VIII"^^xsd:string ;
+            dcterms:identifier "37703/97"^^xsd:string ;
+            dcterms:title "Mastromatteo v. Italy [GC]"^^xsd:string ],
+        [ dcterms:description "McKerr v. the United Kingdom, no. 28883/95, § 111, ECHR 2001-III"^^xsd:string ;
+            dcterms:identifier "28883/95"^^xsd:string ;
+            dcterms:title "McKerr v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Ilhan v. Turkey [GC], no. 22277/93, ECHR 2000-VII, § 63"^^xsd:string ;
+            dcterms:identifier "22277/93"^^xsd:string ;
+            dcterms:title "Ilhan v. Turkey [GC]"^^xsd:string ],
+        [ dcterms:date "1986-02-21"^^xsd:date ;
+            dcterms:description "James and Others v. the United Kingdom, 21 February 1986, Series A no. 98, § 85"^^xsd:string ;
+            dcterms:title "James and Others v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Article 75 of the Criminal Code "^^xsd:string ],
+        [ dcterms:date "1996-09-16"^^xsd:date ;
+            dcterms:description "Akdivar and Others v. Turkey, 16 September 1996, Reports of Judgments and Decisions 1996-IV, § 68 and § 69"^^xsd:string ;
+            dcterms:title "Akdivar and Others v. Turkey"^^xsd:string ],
+        [ dcterms:description "Selmouni v. France [GC], no. 25803/94, §§ 74 and 75, ECHR 1999-V"^^xsd:string ;
+            dcterms:identifier "25803/94"^^xsd:string ;
+            dcterms:title "Selmouni v. France [GC]"^^xsd:string ],
+        [ dcterms:date "1995-09-27"^^xsd:date ;
+            dcterms:description "McCann and Others v. the United Kingdom, 27 September 1995, Series A no. 324, § 147 and § 161"^^xsd:string ;
+            dcterms:title "McCann and Others v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "1998-10-28"^^xsd:date ;
+            dcterms:description "Osman v. the United Kingdom, 28 October 1998, Reports of Judgments and Decisions 1998-VIII, § 116"^^xsd:string ;
+            dcterms:title "Osman v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Caraher v. the United Kingdom (dec.), no. 24520/94, ECHR 2000-I"^^xsd:string ;
+            dcterms:identifier "24520/94"^^xsd:string ;
+            dcterms:title "Caraher v. the United Kingdom (dec.)"^^xsd:string ],
+        [ dcterms:description "Article 21 of the Constitution "^^xsd:string ],
+        [ dcterms:date "1987-03-26"^^xsd:date ;
+            dcterms:description "Leander v. Sweden, 26 March 1987, Series A no. 116, § 77"^^xsd:string ;
+            dcterms:title "Leander v. Sweden"^^xsd:string ],
+        [ dcterms:date "1998-06-09"^^xsd:date ;
+            dcterms:description "L.C.B. v. the United Kingdom, 9 June 1998, Reports of Judgments and Decisions 1998-III, § 36"^^xsd:string ;
+            dcterms:title "L.C.B. v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Matthews v. the United Kingdom [GC], no. 24833/94, § 34, ECHR 1999-I"^^xsd:string ;
+            dcterms:identifier "24833/94"^^xsd:string ;
+            dcterms:title "Matthews v. the United Kingdom [GC]"^^xsd:string ],
+        [ dcterms:description "Section 13 of the State Administration Act "^^xsd:string ],
+        [ dcterms:date "1999-11-23"^^xsd:date ;
+            dcterms:description "Bromiley v. the United Kingdom (dec.), no. 33747/96, 23 November 1999"^^xsd:string ;
+            dcterms:identifier "33747/96"^^xsd:string ;
+            dcterms:title "Bromiley v. the United Kingdom (dec.)"^^xsd:string ],
+        [ dcterms:description "Calvelli and Ciglio v. Italy [GC], no. 32967/96, § 51, ECHR 2002-I"^^xsd:string ;
+            dcterms:identifier "32967/96"^^xsd:string ;
+            dcterms:title "Calvelli and Ciglio v. Italy [GC]"^^xsd:string ],
+        [ dcterms:description "Sections 2, 13, 69 and 103 of the Enforcement of Prison Sentences Act"^^xsd:string ],
+        [ dcterms:description "Perez v. France [GC], no. 47287/99, § 70, ECHR 2004-I"^^xsd:string ;
+            dcterms:identifier "47287/99"^^xsd:string ;
+            dcterms:title "Perez v. France [GC]"^^xsd:string ],
+        [ dcterms:description "Slimani v. France, no. 57671/00, § 29, ECHR 2004-IX (extracts)"^^xsd:string ;
+            dcterms:identifier "57671/00"^^xsd:string ;
+            dcterms:title "Slimani v. France"^^xsd:string ],
+        [ dcterms:date "1991-03-19"^^xsd:date ;
+            dcterms:description "Cardot v. France, 19 March 1991, Series A no. 200, § 34"^^xsd:string ;
+            dcterms:title "Cardot v. France"^^xsd:string ] ;
+    dcterms:title "CASE OF BRANKO TOMAŠIĆ AND OTHERS v. CROATIA"^^xsd:string ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+

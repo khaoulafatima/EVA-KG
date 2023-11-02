@@ -1,74 +1,97 @@
-<eva:23022/13> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
-<eva:23022/13> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
-<eva:23022/13> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
-<eva:23022/13> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
-<eva:23022/13> <http://purl.org/dc/terms/creator> "Court (Fourth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
-<eva:23022/13> <http://purl.org/dc/terms/title> "CASE OF D.M.D. v. ROMANIA"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <eva:importance_level> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<eva:23022/13> <http://purl.org/dc/terms/contributor> <eva:POPESCU_N.T.>.
-<eva:POPESCU_N.T.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
-<eva:23022/13> <eva:respondent_state> <http://www.wikidata.org/entity/Q218>.
-<eva:23022/13> <http://purl.org/dc/terms/date> "2017-10-03"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:23022/13> <http://purl.org/dc/terms/abstract> "Preliminary objection joined to merits and dismissed (Article 35-1 - Exhaustion of domestic remedies)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/abstract> "Violation of Article 6 - Right to a fair trial (Article 6 - Civil proceedings"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/abstract> "Article 6-1 - Access to court"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/abstract> "Fair hearing)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/references> <eva:1401/08>.
-<eva:1401/08> <http://purl.org/dc/terms/title> "Anđelković v. Serbia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1401/08> <http://purl.org/dc/terms/date> "2013-04-09"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:23022/13> <http://purl.org/dc/terms/references> <eva:22251/08>.
-<eva:22251/08> <http://purl.org/dc/terms/title> "Bochan v. Ukraine (no. 2) [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/references> <eva:26692/05>.
-<eva:26692/05> <http://purl.org/dc/terms/title> "C.A.S. and C.S. v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26692/05> <http://purl.org/dc/terms/date> "2012-03-20"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:23022/13> <http://purl.org/dc/terms/references> <eva:47848/08>.
-<eva:47848/08> <http://purl.org/dc/terms/title> "Centre for Legal Resources on behalf of Valentin Câmpeanu v. Romania [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/references> <eva:77938/11>.
-<eva:77938/11> <http://purl.org/dc/terms/title> "Dimitrov and Others v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:77938/11> <http://purl.org/dc/terms/date> "2014-07-01"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:23022/13> <http://purl.org/dc/terms/references> <eva:65158/09>.
-<eva:65158/09> <http://purl.org/dc/terms/title> "Drăgan v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:65158/09> <http://purl.org/dc/terms/date> "2016-02-02"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:23022/13> <http://purl.org/dc/terms/references> <eva:21472/03>.
-<eva:21472/03> <http://purl.org/dc/terms/title> "Lamarche v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:21472/03> <http://purl.org/dc/terms/date> "2008-09-16"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:23022/13> <http://purl.org/dc/terms/references> <eva:10161/13>.
-<eva:10161/13> <http://purl.org/dc/terms/title> "M. and M. v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/references> <eva:12060/12>.
-<eva:12060/12> <http://purl.org/dc/terms/title> "M.C. and A.C. v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:12060/12> <http://purl.org/dc/terms/date> "2016-04-12"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:23022/13> <http://purl.org/dc/terms/references> <eva:21722/11>.
-<eva:21722/11> <http://purl.org/dc/terms/title> "Oleksandr Volkov v. Ukraine"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/references> <eva:49669/07>.
-<eva:49669/07> <http://purl.org/dc/terms/title> "P.M. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:49669/07> <http://purl.org/dc/terms/date> "2012-01-24"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:23022/13> <http://purl.org/dc/terms/references> <eva:3524/14>.
-<eva:3524/14> <http://purl.org/dc/terms/title> "Sarbyanova-Pashaliyska and Pashaliyska v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:3524/14> <http://purl.org/dc/terms/date> "2017-01-12"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:23022/13> <http://purl.org/dc/terms/references> <eva:68842/13>.
-<eva:68842/13> <http://purl.org/dc/terms/title> "Serban Marinescu v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:68842/13> <http://purl.org/dc/terms/date> "2015-12-15"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:23022/13> <http://purl.org/dc/terms/references> <eva:5786/08>.
-<eva:5786/08> <http://purl.org/dc/terms/title> "Söderman v. Sweden [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/references> <eva:24125/06>.
-<eva:24125/06> <http://purl.org/dc/terms/title> "W. v. Slovenia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:24125/06> <http://purl.org/dc/terms/date> "2014-01-23"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:23022/13> <http://purl.org/dc/terms/references> <eva:29392/95>.
-<eva:29392/95> <http://purl.org/dc/terms/title> "Z and Others v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/description> "(Art. 6) Right to a fair trial"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/description> "(Art. 6) Civil proceedings"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/description> "(Art. 6-1) Access to court"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/description> "(Art. 6-1) Fair hearing"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/description> "(Art. 35-1) Exhaustion of domestic remedies"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/description> "(Art. 41) Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23022/13> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2017:1003JUD002302213"^^<http://www.w3.org/2001/XMLSchema#string>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://eva.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ns1:importanceLevel 2 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q218> ;
+    dcterms:accessRights "public"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "POPESCU N.T."^^xsd:string ] ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
+    dcterms:creator "Court (Fourth Section)"^^xsd:string ;
+    dcterms:date "2017-10-03"^^xsd:date ;
+    dcterms:description "(Art. 3) Effective investigation"^^xsd:string,
+        "(Art. 3) Prohibition of torture"^^xsd:string,
+        "(Art. 35) Admissibility criteria"^^xsd:string,
+        "(Art. 35-1) Exhaustion of domestic remedies"^^xsd:string,
+        "(Art. 41) Just satisfaction"^^xsd:string,
+        "(Art. 41) Just satisfaction-{general}"^^xsd:string,
+        "(Art. 41) Non-pecuniary damage"^^xsd:string,
+        "(Art. 6) Civil proceedings"^^xsd:string,
+        "(Art. 6) Right to a fair trial"^^xsd:string,
+        "(Art. 6-1) Access to court"^^xsd:string,
+        "(Art. 6-1) Fair hearing"^^xsd:string,
+        "Article 6-1 - Access to court"^^xsd:string,
+        "Fair hearing)"^^xsd:string,
+        "Just satisfaction)"^^xsd:string,
+        "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^xsd:string,
+        "Preliminary objection joined to merits and dismissed (Article 35-1 - Exhaustion of domestic remedies)"^^xsd:string,
+        "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect)"^^xsd:string,
+        "Violation of Article 6 - Right to a fair trial (Article 6 - Civil proceedings"^^xsd:string ;
+    dcterms:identifier "23022/13"^^xsd:string ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2017:1003JUD002302213"^^xsd:string ;
+    dcterms:language "en"^^xsd:string ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
+    dcterms:references [ dcterms:date "2012-01-24"^^xsd:date ;
+            dcterms:description "P.M. v. Bulgaria, no. 49669/07, §§ 65-66, 24 January 2012"^^xsd:string ;
+            dcterms:identifier "49669/07"^^xsd:string ;
+            dcterms:title "P.M. v. Bulgaria"^^xsd:string ],
+        [ dcterms:description "M. and M. v. Croatia, no. 10161/13, § 136, ECHR 2015 (extracts)"^^xsd:string ;
+            dcterms:identifier "10161/13"^^xsd:string ;
+            dcterms:title "M. and M. v. Croatia"^^xsd:string ],
+        [ dcterms:description "Centre for Legal Resources on behalf of Valentin Câmpeanu v. Romania [GC], no. 47848/08, § 156, ECHR 2014"^^xsd:string ;
+            dcterms:identifier "47848/08"^^xsd:string ;
+            dcterms:title "Centre for Legal Resources on behalf of Valentin Câmpeanu v. Romania [GC]"^^xsd:string ],
+        [ dcterms:date "2015-12-15"^^xsd:date ;
+            dcterms:description "Serban Marinescu v. Romania, no. 68842/13, §§ 78-80, 15 December 2015"^^xsd:string ;
+            dcterms:identifier "68842/13"^^xsd:string ;
+            dcterms:title "Serban Marinescu v. Romania"^^xsd:string ],
+        [ dcterms:description "Söderman v. Sweden [GC], no. 5786/08, §§ 80 and 81, ECHR 2013"^^xsd:string ;
+            dcterms:identifier "5786/08"^^xsd:string ;
+            dcterms:title "Söderman v. Sweden [GC]"^^xsd:string ],
+        [ dcterms:description "Oleksandr Volkov v. Ukraine, no. 21722/11, § 219, ECHR 2013"^^xsd:string ;
+            dcterms:identifier "21722/11"^^xsd:string ;
+            dcterms:title "Oleksandr Volkov v. Ukraine"^^xsd:string ],
+        [ dcterms:date "2014-01-23"^^xsd:date ;
+            dcterms:description "W. v. Slovenia, no. 24125/06, §§ 66-70, 23 January 2014"^^xsd:string ;
+            dcterms:identifier "24125/06"^^xsd:string ;
+            dcterms:title "W. v. Slovenia"^^xsd:string ],
+        [ dcterms:date "2014-07-01"^^xsd:date ;
+            dcterms:description "Dimitrov and Others v. Bulgaria, no. 77938/11, § 171, 1 July 2014"^^xsd:string ;
+            dcterms:identifier "77938/11"^^xsd:string ;
+            dcterms:title "Dimitrov and Others v. Bulgaria"^^xsd:string ],
+        [ dcterms:description "Z and Others v. the United Kingdom, [GC], no. 29392/95, § 73, ECHR 2001-V"^^xsd:string ;
+            dcterms:identifier "29392/95"^^xsd:string ;
+            dcterms:title "Z and Others v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Law at Issue Article 17 of the Code of Criminal Procedure"^^xsd:string ],
+        [ dcterms:date "2012-03-20"^^xsd:date ;
+            dcterms:description "C.A.S. and C.S. v. Romania, no. 26692/05, §§ 68-70 and 82, 20 March 2012"^^xsd:string ;
+            dcterms:identifier "26692/05"^^xsd:string ;
+            dcterms:title "C.A.S. and C.S. v. Romania"^^xsd:string ],
+        [ dcterms:date "2013-04-09"^^xsd:date ;
+            dcterms:description "Anđelković v. Serbia, no. 1401/08, 9 April 2013"^^xsd:string ;
+            dcterms:identifier "1401/08"^^xsd:string ;
+            dcterms:title "Anđelković v. Serbia"^^xsd:string ],
+        [ dcterms:date "2008-09-16"^^xsd:date ;
+            dcterms:description "Lamarche v. Romania, no. 21472/03, § 34, 16 September 2008"^^xsd:string ;
+            dcterms:identifier "21472/03"^^xsd:string ;
+            dcterms:title "Lamarche v. Romania"^^xsd:string ],
+        [ dcterms:date "2017-01-12"^^xsd:date ;
+            dcterms:description "Sarbyanova-Pashaliyska and Pashaliyska v. Bulgaria, no. 3524/14, § 41, 12 January 2017"^^xsd:string ;
+            dcterms:identifier "3524/14"^^xsd:string ;
+            dcterms:title "Sarbyanova-Pashaliyska and Pashaliyska v. Bulgaria"^^xsd:string ],
+        [ dcterms:date "2016-04-12"^^xsd:date ;
+            dcterms:description "M.C. and A.C. v. Romania, no. 12060/12, 12 April 2016"^^xsd:string ;
+            dcterms:identifier "12060/12"^^xsd:string ;
+            dcterms:title "M.C. and A.C. v. Romania"^^xsd:string ],
+        [ dcterms:date "2016-02-02"^^xsd:date ;
+            dcterms:description "Drăgan v. Romania, no. 65158/09, §§ 99-102, 2 February 2016"^^xsd:string ;
+            dcterms:identifier "65158/09"^^xsd:string ;
+            dcterms:title "Drăgan v. Romania"^^xsd:string ],
+        [ dcterms:description "Bochan v. Ukraine (no. 2) [GC], no. 22251/08, ECHR 2015"^^xsd:string ;
+            dcterms:identifier "22251/08"^^xsd:string ;
+            dcterms:title "Bochan v. Ukraine (no. 2) [GC]"^^xsd:string ] ;
+    dcterms:title "CASE OF D.M.D. v. ROMANIA"^^xsd:string ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+

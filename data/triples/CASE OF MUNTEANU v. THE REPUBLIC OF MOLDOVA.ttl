@@ -1,23 +1,29 @@
-<eva:34168/11> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
-<eva:34168/11> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
-<eva:34168/11> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:34168/11> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
-<eva:34168/11> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
-<eva:34168/11> <http://purl.org/dc/terms/creator> "Court (Second Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:34168/11> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
-<eva:34168/11> <http://purl.org/dc/terms/title> "CASE OF MUNTEANU v. THE REPUBLIC OF MOLDOVA"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:34168/11> <eva:importance_level> "3"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<eva:34168/11> <http://purl.org/dc/terms/contributor> <eva:STRĂISTEANU_D.>.
-<eva:STRĂISTEANU_D.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
-<eva:34168/11> <eva:respondent_state> <http://www.wikidata.org/entity/Q217>.
-<eva:34168/11> <http://purl.org/dc/terms/date> "2020-05-26"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:34168/11> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:34168/11> <http://purl.org/dc/terms/abstract> "Positive obligations) (Substantive aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:34168/11> <http://purl.org/dc/terms/abstract> "Violation of Article 14+3 - Prohibition of discrimination (Article 14 - Discrimination) (Article 3 - Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:34168/11> <http://purl.org/dc/terms/abstract> "Positive obligations)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:34168/11> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:34168/11> <http://purl.org/dc/terms/description> "(Art. 3) Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:34168/11> <http://purl.org/dc/terms/description> "(Art. 3) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:34168/11> <http://purl.org/dc/terms/description> "(Art. 14) Prohibition of discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:34168/11> <http://purl.org/dc/terms/description> "(Art. 14) Discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:34168/11> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2020:0526JUD003416811"^^<http://www.w3.org/2001/XMLSchema#string>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://eva.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ns1:importanceLevel 3 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q217> ;
+    dcterms:accessRights "public"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "STRĂISTEANU D."^^xsd:string ] ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
+    dcterms:creator "Court (Second Section)"^^xsd:string ;
+    dcterms:date "2020-05-26"^^xsd:date ;
+    dcterms:description "(Art. 14) Discrimination"^^xsd:string,
+        "(Art. 14) Prohibition of discrimination"^^xsd:string,
+        "(Art. 3) Inhuman treatment"^^xsd:string,
+        "(Art. 3) Positive obligations"^^xsd:string,
+        "(Art. 3) Prohibition of torture"^^xsd:string,
+        "Positive obligations)"^^xsd:string,
+        "Positive obligations) (Substantive aspect)"^^xsd:string,
+        "Violation of Article 14+3 - Prohibition of discrimination (Article 14 - Discrimination) (Article 3 - Prohibition of torture"^^xsd:string,
+        "Violation of Article 3 - Prohibition of torture (Article 3 - Inhuman treatment"^^xsd:string ;
+    dcterms:identifier "34168/11"^^xsd:string ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2020:0526JUD003416811"^^xsd:string ;
+    dcterms:language "en"^^xsd:string ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
+    dcterms:title "CASE OF MUNTEANU v. THE REPUBLIC OF MOLDOVA"^^xsd:string ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+

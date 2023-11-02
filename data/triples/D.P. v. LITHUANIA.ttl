@@ -1,17 +1,23 @@
-<eva:27920/08> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
-<eva:27920/08> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
-<eva:27920/08> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:27920/08> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
-<eva:27920/08> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
-<eva:27920/08> <http://purl.org/dc/terms/creator> "Court (Second Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:27920/08> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q327000>.
-<eva:27920/08> <http://purl.org/dc/terms/title> "D.P. v. LITHUANIA"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:27920/08> <eva:importance_level> "3"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<eva:27920/08> <http://purl.org/dc/terms/contributor> <eva:TEISINIŸ_PASLAUGŸ_GRUPŸ>.
-<eva:TEISINIŸ_PASLAUGŸ_GRUPŸ> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
-<eva:27920/08> <eva:respondent_state> <http://www.wikidata.org/entity/Q37>.
-<eva:27920/08> <http://purl.org/dc/terms/date> "2013-10-22"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:27920/08> <http://purl.org/dc/terms/abstract> "Struck out of the list"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:27920/08> <http://purl.org/dc/terms/description> "(Art. 6) Right to a fair trial"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:27920/08> <http://purl.org/dc/terms/description> "(Art. 37) Striking out applications-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:27920/08> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2013:1022DEC002792008"^^<http://www.w3.org/2001/XMLSchema#string>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://eva.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ns1:importanceLevel 3 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q37> ;
+    dcterms:accessRights "public"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "TEISINIŸ PASLAUGŸ GRUPŸ"^^xsd:string ] ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
+    dcterms:creator "Court (Second Section)"^^xsd:string ;
+    dcterms:date "2013-10-22"^^xsd:date ;
+    dcterms:description "(Art. 37) Striking out applications-{general}"^^xsd:string,
+        "(Art. 6) Right to a fair trial"^^xsd:string,
+        "Struck out of the list"^^xsd:string ;
+    dcterms:identifier "27920/08"^^xsd:string ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2013:1022DEC002792008"^^xsd:string ;
+    dcterms:language "en"^^xsd:string ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
+    dcterms:title "D.P. v. LITHUANIA"^^xsd:string ;
+    dcterms:type <http://www.wikidata.org/entity/Q327000> .
+

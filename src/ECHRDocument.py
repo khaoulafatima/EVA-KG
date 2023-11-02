@@ -5,6 +5,8 @@ from bs4 import BeautifulSoup
 import PyPDF2
 from wikidata_query import get_country_identifier
 from regexp import strasbourg_case_law_re
+from rdflib import Graph, URIRef, Literal, BNode, Namespace
+from rdflib.namespace import RDF, XSD, DCTERMS, FOAF
 
 
 class ECHRDocument:
@@ -34,8 +36,8 @@ class ECHRDocument:
         self._case_detail = None
         self._body = None
         self._footnotes = None
-        self._triples = []
         self._titles = []
+        self._graph = Graph()
 
     def __str__(self):
         if self._file_name is None:
@@ -236,227 +238,136 @@ class ECHRDocument:
     def extract_triples_from_case_detail(self):
         if self._case_detail is None:
             return
-        subject = 'App. No(s).'
-        eva = "eva:"
-        wd = "http://www.wikidata.org/entity/"
-        dcterm = "http://purl.org/dc/terms/"
-        rdf = "http://www.w3.org/2000/01/rdf-schema#"
-        str_uri = "^^<http://www.w3.org/2001/XMLSchema#string>"
-        int_uri = "^^<http://www.w3.org/2001/XMLSchema#integer>"
-        date_uri = "^^<http://www.w3.org/2001/XMLSchema#date>"
+        wd = Namespace("http://www.wikidata.org/entity/")
+        custom_ns = Namespace("http://eva.org/")
+        subject = BNode()
+        self._graph.add((subject, DCTERMS.accessRights, Literal("public", datatype=XSD.string)))
+        self._graph.add((subject, DCTERMS.publisher, URIRef(wd.Q122880)))
+        self._graph.add((subject, DCTERMS.language, Literal("en", datatype=XSD.string)))
+        self._graph.add((subject, DCTERMS.coverage, URIRef(wd.Q6602)))
+        # TODO aggiungere ricerca link su file
+        # self._graph.add((subject, DCTERMS.identifier, Literal("")))
         keys = self._case_detail.keys()
-        if subject in keys:
-            # multiple app no
-            if isinstance(self._case_detail[subject], list):
-                for s in self._case_detail[subject]:
-                    for o in self._case_detail[subject]:
-                        if s != o:
-                            self._triples.append({"subject": f"<{eva}{s}>",
-                                                  "predicate": f"<{eva}in_same_case>",
-                                                  "object": f"<{eva}{o}>."})
-                s = self._case_detail[subject][0]
-            elif isinstance(self._case_detail[subject], str):
-                s = self._case_detail[subject]
 
-            self._triples.append({"subject": f"<{eva}{s}>",
-                                  "predicate": f"<{rdf}type>",
-                                  "object": f"<{wd}Q10413040>."})
-            # coverage
-            self._triples.append({"subject": f"<{eva}{s}>",
-                                  "predicate": f"<{dcterm}coverage>",
-                                  "object": f"<{wd}Q6602>."})
-            # language
-            self._triples.append({"subject": f"<{eva}{s}>",
-                                  "predicate": f"<{dcterm}language>",
-                                  "object": f"\"en\"{str_uri}."})
-            # publisher
-            self._triples.append({"subject": f"<{eva}{s}>",
-                                  "predicate": f"<{dcterm}publisher>",
-                                  "object": f"<{wd}Q122880>."})
-            # accessRights
-            self._triples.append({"subject": f"<{eva}{s}>",
-                                  "predicate": f"<{dcterm}accessRights>",
-                                  "object": f"<{wd}Q2388316>."})
-            # identifier
-            # TODO ricerca url da file
-            """url = "https://hudoc.echr.coe.int/eng#{\"dmdocnumber\":[\"875647\"],\"itemid\":[\"001-101152\"]}"
-            self._triples.append({"subject": f"<{eva}{s}>",
-                                  "predicate": f"<{dcterm}identifier>",
-                                  "object": f"<{url}>."})"""
+        if "Originating Body" in keys:
+            self._graph.add(
+                (subject, DCTERMS.creator, Literal(self._case_detail["Originating Body"], datatype=XSD.string)))
 
-            # originating body
-            if 'Originating Body' in keys:
-                self._triples.append({"subject": f"<{eva}{s}>",
-                                      "predicate": f"<{dcterm}creator>",
-                                      "object": f"\"{self._case_detail['Originating Body']}\"{str_uri}."})
-            # document type
-            if 'Document Type' in keys:
-                o = ""
-                if self._case_detail['Document Type'] == "Judgment (Merits and Just Satisfaction)":
-                    o = "Q3769186"
-                elif self._case_detail['Document Type'] == "Decision":
-                    o = "Q327000"
-                if o != "":
-                    self._triples.append({"subject": f"<{eva}{s}>",
-                                          "predicate": f"<{dcterm}type>",
-                                          "object": f"<{wd}{o}>."})
-            # published in
-            if 'Published in' in keys:
-                self._triples.append({"subject": f"<{eva}{s}>",
-                                      "predicate": f"<{dcterm}isPartOf>",
-                                      "object": f"\"{self._case_detail['Published in']}\"{str_uri}."})
-            # title
-            if 'Title' in keys:
-                self._triples.append({"subject": f"<{eva}{s}>",
-                                      "predicate": f"<{dcterm}title>",
-                                      "object": f"\"{self._case_detail['Title']}\"{str_uri}."})
-            # importance level
-            if 'Importance Level' in keys:
-                if self._case_detail['Importance Level'] == "Key cases":
-                    o = 4
-                else:
-                    o = int(self._case_detail['Importance Level'])
-                self._triples.append({"subject": f"<{eva}{s}>",
-                                      "predicate": f"<{eva}importance_level>",
-                                      "object": f"\"{o}\"{int_uri}."})
-            # represented by
-            if 'Represented by' in keys:
-                for value in self._case_detail['Represented by']:
-                    if (isinstance(self._case_detail['Represented by'], str)
-                            and self._case_detail['Represented by'] != "N/A"):
-                        value = self._case_detail['Represented by']
-                    value = value.replace(" ", "_")
-                    self._triples.append({"subject": f"<{eva}{s}>",
-                                          "predicate": f"<{dcterm}contributor>",
-                                          "object": f"<{eva}{value}>."})
-                    self._triples.append({"subject": f"<{eva}{value}>",
-                                          "predicate": f"<{rdf}type>",
-                                          "object": f"<{wd}Q40348>."})
-                    if isinstance(self._case_detail['Represented by'], str):
-                        break
+        if "Document Type" in keys:
+            if self._case_detail["Document Type"] == "Judgment (Merits and Just Satisfaction)":
+                self._graph.add((subject, DCTERMS.type, URIRef(wd.Q3769186)))
+            elif self._case_detail["Document Type"] == "Decision":
+                self._graph.add((subject, DCTERMS.type, URIRef(wd.Q327000)))
 
-            # respondent state
-            if 'Respondent State(s)' in keys:
-                for value in self._case_detail['Respondent State(s)']:
-                    if isinstance(self._case_detail['Respondent State(s)'], str):
-                        value = self._case_detail['Respondent State(s)']
-                    state_id = get_country_identifier(value)
-                    if state_id is not None:
-                        state_id = state_id.replace("http://www.wikidata.org/entity/", "")
-                        self._triples.append({"subject": f"<{eva}{s}>",
-                                              "predicate": f"<{eva}respondent_state>",
-                                              "object": f"<{wd}{state_id}>."})
-                    if isinstance(self._case_detail['Respondent State(s)'], str):
-                        break
-            # judgment date
-            if 'Judgment Date' in keys:
-                date = self._case_detail['Judgment Date'].split("/")
-                date = f"{date[2]}-{date[1]}-{date[0]}"
-                self._triples.append({"subject": f"<{eva}{s}>",
-                                      "predicate": f"<{dcterm}date>",
-                                      "object": f"\"{date}\"{date_uri}."})
-            # decision date
-            if 'Decision Date' in keys:
-                date = self._case_detail['Decision Date'].split("/")
-                date = f"{date[2]}-{date[1]}-{date[0]}"
-                self._triples.append({"subject": f"<{eva}{s}>",
-                                      "predicate": f"<{dcterm}date>",
-                                      "object": f"\"{date}\"{date_uri}."})
-            # conclusion
-            if 'Conclusion(s)' in keys:
-                for value in self._case_detail['Conclusion(s)']:
-                    if isinstance(self._case_detail['Conclusion(s)'], str):
-                        value = self._case_detail['Conclusion(s)']
-                    self._triples.append({"subject": f"<{eva}{s}>",
-                                          "predicate": f"<{dcterm}abstract>",
-                                          "object": f"\"{value}\"{str_uri}."})
-                    if isinstance(self._case_detail['Conclusion(s)'], str):
-                        break
-            # TODO aggiungere Domestic Law
-            # strasbourg case-law
-            if 'Strasbourg Case-Law' in keys:
-                for value in self._case_detail['Strasbourg Case-Law']:
-                    if isinstance(self._case_detail['Strasbourg Case-Law'], str):
-                        value = self._case_detail['Strasbourg Case-Law']
-                    match = strasbourg_case_law_re(value)
-                    # TODO se necessario da html si può accedere a parte del link
-                    # aggiungo solo nel caso in cui si ha il numero (vale la stessa cosa se si usa il link)
-                    # number
-                    if match[1]:
-                        self._triples.append({"subject": f"<{eva}{s}>",
-                                              "predicate": f"<{dcterm}references>",
-                                              "object": f"<{eva}{match[1]}>."})
-                        # title
-                        if match[0]:
-                            o = match[0].replace("\"", "")
-                            self._triples.append({"subject": f"<{eva}{match[1]}>",
-                                                  "predicate": f"<{dcterm}title>",
-                                                  "object": f"\"{o}\"{str_uri}."})
-                        # date
-                        if match[2]:
-                            self._triples.append({"subject": f"<{eva}{match[1]}>",
-                                                  "predicate": f"<{dcterm}date>",
-                                                  "object": f"\"{match[2]}\"{date_uri}."})
+        if "Published in" in keys:
+            self._graph.add(
+                (subject, DCTERMS.isPartOf, Literal(self._case_detail["Published in"], datatype=XSD.string)))
 
-                    if isinstance(self._case_detail['Strasbourg Case-Law'], str):
-                        break
-            # TODO aggiungere International Law
-            # keywords
-            if 'Keywords' in keys:
-                for value in self._case_detail['Keywords']:
-                    if isinstance(self._case_detail['Keywords'], str):
-                        value = self._case_detail['Keywords']
-                    self._triples.append({"subject": f"<{eva}{s}>",
-                                          "predicate": f"<{dcterm}description>",
-                                          "object": f"\"{value}\"{str_uri}."})
-                    if isinstance(self._case_detail['Keywords'], str):
-                        break
-            # ECLI
-            if 'ECLI' in keys:
-                self._triples.append({"subject": f"<{eva}{s}>",
-                                      "predicate": f"<{dcterm}isVersionOf>",
-                                      "object": f"\"{self._case_detail['ECLI']}\"{str_uri}."})
+        if "Title" in keys:
+            self._graph.add((subject, DCTERMS.title, Literal(self._case_detail["Title"], datatype=XSD.string)))
 
-    def extract_triples_from_case_detail_old(self):
-        # TODO implementato in modo molto naive => MODIFICARE
-        if self._case_detail is None:
-            return
-        SUBJECT = 'App. No(s).'
-        CASE_DETAIL_ECLI_MAP = {
-            'Originating Body': 'dcterms:creator',
-            'Document Type': 'dcterms:type',
-            'Title': 'dcterms:title',
-            'Represented by': 'dcterms:contributor',
-            'Judgment Date': 'dcterms:date',
-            'Decision Date': 'dcterms:date',
-            'Conclusion(s)': 'dcterms:abstract',
-            'Domestic Law': 'dcterms:references',
-            'Strasbourg Case-Law': 'dcterms:references',
-            'International Law': 'dcterms:references',
-            'Keywords': 'dcterms:description',
-            'ECLI': 'dcterms:isVersionOf',
-        }
-        # EX = "http://example.org/#"
-        EX = "ex:"
-        for subject in self._case_detail[SUBJECT]:
-            # aggiunto per il caso in cui ci sono più App. No(s).
-            if isinstance(self._case_detail[SUBJECT], str):
-                s = EX + self._case_detail[SUBJECT]
+        if "App. No(s)." in keys:
+            for value in self._case_detail["App. No(s)."]:
+                if isinstance(self._case_detail["App. No(s)."], str):
+                    value = self._case_detail["App. No(s)."]
+                self._graph.add((subject, DCTERMS.identifier, Literal(value, datatype=XSD.string)))
+                if isinstance(self._case_detail["App. No(s)."], str):
+                    break
+
+        if "Importance Level" in keys:
+            if self._case_detail["Importance Level"] == "Key cases":
+                self._graph.add((subject, URIRef(custom_ns + "importanceLevel"), Literal(4, datatype=XSD.integer)))
             else:
-                s = EX + subject
-            matching_keys = set(self._case_detail.keys()).intersection(set(CASE_DETAIL_ECLI_MAP.keys()))
-            for key in matching_keys:
-                p = CASE_DETAIL_ECLI_MAP[key]
-                if isinstance(self._case_detail[key], str):
-                    o = EX + self._case_detail[key].replace(" ", "_").replace("(", "").replace(")", "")
-                    self._triples.append({"subject": s, "predicate": p, "object": o})
-                else:
-                    for value in self._case_detail[key]:
-                        o = EX + value.replace(" ", "_").replace("(", "").replace(")", "").replace("{", "").replace(
-                            "}", "")
-                        self._triples.append({"subject": s, "predicate": p, "object": o})
-            if isinstance(self._case_detail[SUBJECT], str):
-                break
+                self._graph.add(
+                    (subject, URIRef(custom_ns + "importanceLevel"), Literal(int(self._case_detail["Importance Level"]),
+                                                                             datatype=XSD.integer)))
+
+        if "Respondent State(s)" in keys:
+            for value in self._case_detail["Respondent State(s)"]:
+                if isinstance(self._case_detail["Respondent State(s)"], str):
+                    value = self._case_detail["Respondent State(s)"]
+                country = get_country_identifier(value)
+                self._graph.add((subject, URIRef(custom_ns + "respondentState"), URIRef(country)))
+                if isinstance(self._case_detail["Respondent State(s)"], str):
+                    break
+
+        if "Represented by" in keys:
+            for value in self._case_detail["Represented by"]:
+                if isinstance(self._case_detail["Represented by"], str):
+                    value = self._case_detail["Represented by"]
+                if value != "N/A":
+                    lawyer = BNode()
+                    self._graph.add((subject, DCTERMS.contributor, lawyer))
+                    self._graph.add((lawyer, FOAF.name, Literal(value, datatype=XSD.string)))
+                    self._graph.add((lawyer, RDF.type, URIRef(wd.Q40348)))
+                if isinstance(self._case_detail["Represented by"], str):
+                    break
+
+        if "Judgment Date" in keys:
+            new_date = self._case_detail["Judgment Date"].split("/")
+            new_date = new_date[2] + "-" + new_date[1] + "-" + new_date[0]
+            self._graph.add((subject, DCTERMS.date, Literal(new_date, datatype=XSD.date)))
+
+        if "Decision Date" in keys:
+            new_date = self._case_detail["Decision Date"].split("/")
+            new_date = new_date[2] + "-" + new_date[1] + "-" + new_date[0]
+            self._graph.add((subject, DCTERMS.date, Literal(new_date, datatype=XSD.date)))
+
+        if "Conclusion(s)" in keys:
+            for value in self._case_detail["Conclusion(s)"]:
+                if isinstance(self._case_detail["Conclusion(s)"], str):
+                    value = self._case_detail["Conclusion(s)"]
+                self._graph.add((subject, DCTERMS.description, Literal(value, datatype=XSD.string)))
+                if isinstance(self._case_detail["Conclusion(s)"], str):
+                    break
+
+        if "Domestic Law" in keys:
+            for value in self._case_detail["Domestic Law"]:
+                if isinstance(self._case_detail["Domestic Law"], str):
+                    value = self._case_detail["Domestic Law"]
+                dl = BNode()
+                self._graph.add((subject, DCTERMS.references, dl))
+                self._graph.add((dl, DCTERMS.description, Literal(value, datatype=XSD.string)))
+                if isinstance(self._case_detail["Domestic Law"], str):
+                    break
+
+        if "Strasbourg Case-Law" in keys:
+            for value in self._case_detail["Strasbourg Case-Law"]:
+                if isinstance(self._case_detail["Strasbourg Case-Law"], str):
+                    value = self._case_detail["Strasbourg Case-Law"]
+                content = strasbourg_case_law_re(value)
+                scl = BNode()
+                self._graph.add((subject, DCTERMS.references, scl))
+                self._graph.add((scl, DCTERMS.description, Literal(value, datatype=XSD.string)))
+                if content[0]:
+                    self._graph.add((scl, DCTERMS.title, Literal(content[0], datatype=XSD.string)))
+                if content[1]:
+                    self._graph.add((scl, DCTERMS.identifier, Literal(content[1], datatype=XSD.string)))
+                if content[2]:
+                    self._graph.add((scl, DCTERMS.date, Literal(content[2], datatype=XSD.date)))
+                if isinstance(self._case_detail["Strasbourg Case-Law"], str):
+                    break
+
+        if "International Law" in keys:
+            for value in self._case_detail["International Law"]:
+                if isinstance(self._case_detail["International Law"], str):
+                    value = self._case_detail["International Law"]
+                il = BNode()
+                self._graph.add((subject, DCTERMS.references, il))
+                self._graph.add((il, DCTERMS.description, Literal(value, datatype=XSD.string)))
+                if isinstance(self._case_detail["International Law"], str):
+                    break
+
+        if "Keywords" in keys:
+            for value in self._case_detail["Keywords"]:
+                if isinstance(self._case_detail["Keywords"], str):
+                    value = self._case_detail["Keywords"]
+                self._graph.add((subject, DCTERMS.description, Literal(value, datatype=XSD.string)))
+                if isinstance(self._case_detail["Keywords"], str):
+                    break
+
+        if "ECLI" in keys:
+            self._graph.add((subject, DCTERMS.isVersionOf, Literal(self._case_detail["ECLI"], datatype=XSD.string)))
 
     def extract_triples_from_body(self):
         # TODO implementare
@@ -464,15 +375,17 @@ class ECHRDocument:
             return
         pass
 
-    def get_triples(self) -> list:
-        return self._triples
+    def get_triples(self) -> Graph:
+        return self._graph
 
     def save_triples(self, path: str):
-        if self._triples is None:
+        if self._graph is None:
             return
-        with open(path + "/" + self._file_name + ".ttl", "w", encoding="UTF-8") as f:
-            for triple in self._triples:
-                f.write(f"{triple['subject']} {triple['predicate']} {triple['object']}\n")
+        name = self._file_name + ".ttl"
+        try:
+            self._graph.serialize(destination=path + "/" + name, format="turtle")
+        except Exception as e:
+            print(f"\033[1;31m{e}\033[0m")
 
 
 if __name__ == "__main__":
@@ -480,35 +393,30 @@ if __name__ == "__main__":
     prova di utilizzo della classe
     """
     import pprint
+
     html = "../data/corpus_html"
     pdf = "../data/corpus_pdf"
     name = "CASE OF A. v. CROATIA"
+    # name = "CASE OF J.D. AND A v. THE UNITED KINGDOM"
     json_path = "../data/case_detail_json"
     body_path = "../data/document_body"
     echr_document = ECHRDocument(html_path=html, pdf_path=pdf, file_name=name)
-    print(
-        "DOCUMENT___________________________________________________________________________________________________")
+    print("DOCUMENT___________________________________________________________________________________________________")
     print(echr_document)
     echr_document.extract_case_detail_from_html()
-    print(
-        "CASE DETAIL________________________________________________________________________________________________")
+    print("CASE DETAIL________________________________________________________________________________________________")
     pprint.pprint(echr_document.get_case_detail(), sort_dicts=False)
     echr_document.case_detail_to_json(json_path)
     echr_document.extract_body_from_html()
-    print(
-        "BODY_______________________________________________________________________________________________________")
+    print("BODY_______________________________________________________________________________________________________")
     print(echr_document.get_body())
-    print(
-        "FOOTNOTES__________________________________________________________________________________________________")
+    print("FOOTNOTES__________________________________________________________________________________________________")
     print(echr_document.get_footnotes())
     echr_document.body_to_txt(body_path)
-    print(
-        "TITLES_____________________________________________________________________________________________________")
+    print("TITLES_____________________________________________________________________________________________________")
     echr_document.extract_titles()
     for t in echr_document.get_titles():
         print(t)
-    print(
-        "TRIPLES____________________________________________________________________________________________________")
+    print("TRIPLES____________________________________________________________________________________________________")
     echr_document.extract_triples_from_case_detail()
-    for t in echr_document.get_triples():
-        print(t["subject"], t["predicate"], t["object"])
+    print(echr_document.get_triples().serialize())

@@ -1,74 +1,104 @@
-<eva:29417/17> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
-<eva:29417/17> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
-<eva:29417/17> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:29417/17> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
-<eva:29417/17> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
-<eva:29417/17> <http://purl.org/dc/terms/creator> "Court (First Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:29417/17> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
-<eva:29417/17> <http://purl.org/dc/terms/title> "CASE OF MALAGIĆ v. CROATIA"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:29417/17> <eva:importance_level> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<eva:29417/17> <http://purl.org/dc/terms/contributor> <eva:MARJANOVIĆ_G.>.
-<eva:MARJANOVIĆ_G.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
-<eva:29417/17> <eva:respondent_state> <http://www.wikidata.org/entity/Q224>.
-<eva:29417/17> <http://purl.org/dc/terms/date> "2022-11-17"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:29417/17> <http://purl.org/dc/terms/abstract> "No violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:29417/17> <http://purl.org/dc/terms/abstract> "Article 8-1 - Respect for private life)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:29417/17> <http://purl.org/dc/terms/references> <eva:55164/08>.
-<eva:55164/08> <http://purl.org/dc/terms/title> "A. v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:55164/08> <http://purl.org/dc/terms/date> "2010-10-14"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:29417/17> <http://purl.org/dc/terms/references> <eva:61382/09>.
-<eva:61382/09> <http://purl.org/dc/terms/title> "B. v. the Republic of Moldova"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:61382/09> <http://purl.org/dc/terms/date> "2013-07-16"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:29417/17> <http://purl.org/dc/terms/references> <eva:47940/99>.
-<eva:47940/99> <http://purl.org/dc/terms/title> "Balogh v. Hungary"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:47940/99> <http://purl.org/dc/terms/date> "2004-07-20"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:29417/17> <http://purl.org/dc/terms/references> <eva:49645/09>.
-<eva:49645/09> <http://purl.org/dc/terms/title> "Bălşan v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:49645/09> <http://purl.org/dc/terms/date> "2017-05-23"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:29417/17> <http://purl.org/dc/terms/references> <eva:71127/01>.
-<eva:71127/01> <http://purl.org/dc/terms/title> "Bevacqua and S. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:71127/01> <http://purl.org/dc/terms/date> "2008-06-12"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:29417/17> <http://purl.org/dc/terms/references> <eva:2660/03>.
-<eva:2660/03> <http://purl.org/dc/terms/title> "Hajduová v. Slovakia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:2660/03> <http://purl.org/dc/terms/date> "2010-11-30"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:29417/17> <http://purl.org/dc/terms/references> <eva:62903/15>.
-<eva:62903/15> <http://purl.org/dc/terms/title> "Kurt v. Austria [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:62903/15> <http://purl.org/dc/terms/date> "2021-06-15"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:29417/17> <http://purl.org/dc/terms/references> <eva:17496/19>.
-<eva:17496/19> <http://purl.org/dc/terms/title> "Levchuk v. Ukraine"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:17496/19> <http://purl.org/dc/terms/date> "2020-09-03"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:29417/17> <http://purl.org/dc/terms/references> <eva:72508/13>.
-<eva:72508/13> <http://purl.org/dc/terms/title> "Merabishvili v. Georgia [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:72508/13> <http://purl.org/dc/terms/date> "2017-11-28"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:29417/17> <http://purl.org/dc/terms/references> <eva:57220/00>.
-<eva:57220/00> <http://purl.org/dc/terms/title> "Mifsud v. France (dec.) [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:29417/17> <http://purl.org/dc/terms/references> <eva:72226/11>.
-<eva:72226/11> <http://purl.org/dc/terms/title> "N.P. and N.I. v. Bulgaria (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:72226/11> <http://purl.org/dc/terms/date> "2016-05-03"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:29417/17> <http://purl.org/dc/terms/references> <eva:33401/02>.
-<eva:33401/02> <http://purl.org/dc/terms/title> "Opuz v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:29417/17> <http://purl.org/dc/terms/references> <eva:37685/10>.
-<eva:37685/10> <http://purl.org/dc/terms/title> "Radomilja and Others v. Croatia [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37685/10> <http://purl.org/dc/terms/date> "2018-03-20"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:29417/17> <http://purl.org/dc/terms/references> <eva:38478/05>.
-<eva:38478/05> <http://purl.org/dc/terms/title> "Sandra Janković v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/date> "2009-03-05"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:29417/17> <http://purl.org/dc/terms/references> <eva:5786/08>.
-<eva:5786/08> <http://purl.org/dc/terms/title> "Söderman v. Sweden [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:29417/17> <http://purl.org/dc/terms/references> <eva:33234/07>.
-<eva:33234/07> <http://purl.org/dc/terms/title> "Valiulienė v. Lithuania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:33234/07> <http://purl.org/dc/terms/date> "2013-03-26"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:29417/17> <http://purl.org/dc/terms/references> <eva:40419/19>.
-<eva:40419/19> <http://purl.org/dc/terms/title> "Volodina v. Russia (no. 2)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:40419/19> <http://purl.org/dc/terms/date> "2021-09-14"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:29417/17> <http://purl.org/dc/terms/references> <eva:22457/16>.
-<eva:22457/16> <http://purl.org/dc/terms/title> "X and Others v. Bulgaria [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:22457/16> <http://purl.org/dc/terms/date> "2021-02-02"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:29417/17> <http://purl.org/dc/terms/references> <eva:47666/13>.
-<eva:47666/13> <http://purl.org/dc/terms/title> "Ž.B. v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:47666/13> <http://purl.org/dc/terms/date> "2017-07-11"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:29417/17> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:29417/17> <http://purl.org/dc/terms/description> "(Art. 8) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:29417/17> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for private life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:29417/17> <http://purl.org/dc/terms/description> "Proportionality"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:29417/17> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2022:1117JUD002941717"^^<http://www.w3.org/2001/XMLSchema#string>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://eva.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ns1:importanceLevel 2 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q224> ;
+    dcterms:accessRights "public"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "MARJANOVIĆ G."^^xsd:string ] ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
+    dcterms:creator "Court (First Section)"^^xsd:string ;
+    dcterms:date "2022-11-17"^^xsd:date ;
+    dcterms:description "(Art. 8) Positive obligations"^^xsd:string,
+        "(Art. 8) Right to respect for private and family life"^^xsd:string,
+        "(Art. 8-1) Respect for private life"^^xsd:string,
+        "Article 8-1 - Respect for private life)"^^xsd:string,
+        "No violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations"^^xsd:string,
+        "Proportionality"^^xsd:string ;
+    dcterms:identifier "29417/17"^^xsd:string ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2022:1117JUD002941717"^^xsd:string ;
+    dcterms:language "en"^^xsd:string ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
+    dcterms:references [ dcterms:description "Protection against Domestic Violence Act (Official Gazette nos. 137/2009 with subsequent amendments)"^^xsd:string ],
+        [ dcterms:date "2009-03-05"^^xsd:date ;
+            dcterms:description "Sandra Janković v. Croatia, no. 38478/05, § 46, 5 March 2009"^^xsd:string ;
+            dcterms:identifier "38478/05"^^xsd:string ;
+            dcterms:title "Sandra Janković v. Croatia"^^xsd:string ],
+        [ dcterms:description "Directive of the European Parliament and of the Council (2012/29/EU) of 25 October 2012 establishing minimum standards on the rights, support and protection of victims of crime"^^xsd:string ],
+        [ dcterms:description "Mifsud v. France (dec.) [GC], no. 57220/00, § 15, ECHR 2002-VIII"^^xsd:string ;
+            dcterms:identifier "57220/00"^^xsd:string ;
+            dcterms:title "Mifsud v. France (dec.) [GC]"^^xsd:string ],
+        [ dcterms:date "2021-02-02"^^xsd:date ;
+            dcterms:description "X and Others v. Bulgaria [GC], no. 22457/16, § 178, 2 February 2021"^^xsd:string ;
+            dcterms:identifier "22457/16"^^xsd:string ;
+            dcterms:title "X and Others v. Bulgaria [GC]"^^xsd:string ],
+        [ dcterms:date "2018-03-20"^^xsd:date ;
+            dcterms:description "Radomilja and Others v. Croatia [GC], nos. 37685/10 and 22768/12, § 114, 20 March 2018"^^xsd:string ;
+            dcterms:identifier "37685/10"^^xsd:string ;
+            dcterms:title "Radomilja and Others v. Croatia [GC]"^^xsd:string ],
+        [ dcterms:date "2013-03-26"^^xsd:date ;
+            dcterms:description "Valiulienė v. Lithuania, no. 33234/07, § 76, 26 March 2013"^^xsd:string ;
+            dcterms:identifier "33234/07"^^xsd:string ;
+            dcterms:title "Valiulienė v. Lithuania"^^xsd:string ],
+        [ dcterms:date "2010-11-30"^^xsd:date ;
+            dcterms:description "Hajduová v. Slovakia, no. 2660/03, §§ 46-49, 30 November 2010"^^xsd:string ;
+            dcterms:identifier "2660/03"^^xsd:string ;
+            dcterms:title "Hajduová v. Slovakia"^^xsd:string ],
+        [ dcterms:date "2013-07-16"^^xsd:date ;
+            dcterms:description "B. v. the Republic of Moldova, no. 61382/09, §§ 71 and 73, 16 July 2013"^^xsd:string ;
+            dcterms:identifier "61382/09"^^xsd:string ;
+            dcterms:title "B. v. the Republic of Moldova"^^xsd:string ],
+        [ dcterms:description "Code of Criminal Procedure (Official Gazette nos. 152/08 with subsequent amendments) "^^xsd:string ],
+        [ dcterms:description "Söderman v. Sweden [GC], no. 5786/08, § 102, ECHR 2013"^^xsd:string ;
+            dcterms:identifier "5786/08"^^xsd:string ;
+            dcterms:title "Söderman v. Sweden [GC]"^^xsd:string ],
+        [ dcterms:date "2010-10-14"^^xsd:date ;
+            dcterms:description "A. v. Croatia, no. 55164/08, §§ 57-58, 14 October 2010"^^xsd:string ;
+            dcterms:identifier "55164/08"^^xsd:string ;
+            dcterms:title "A. v. Croatia"^^xsd:string ],
+        [ dcterms:date "2017-07-11"^^xsd:date ;
+            dcterms:description "Ž.B. v. Croatia, no. 47666/13, § 58, 11 July 2017"^^xsd:string ;
+            dcterms:identifier "47666/13"^^xsd:string ;
+            dcterms:title "Ž.B. v. Croatia"^^xsd:string ],
+        [ dcterms:date "2017-11-28"^^xsd:date ;
+            dcterms:description "Merabishvili v. Georgia [GC], no. 72508/13, § 222, 28 November 2017"^^xsd:string ;
+            dcterms:identifier "72508/13"^^xsd:string ;
+            dcterms:title "Merabishvili v. Georgia [GC]"^^xsd:string ],
+        [ dcterms:date "2021-09-14"^^xsd:date ;
+            dcterms:description "Volodina v. Russia (no. 2), no. 40419/19, § 49, 14 September 2021"^^xsd:string ;
+            dcterms:identifier "40419/19"^^xsd:string ;
+            dcterms:title "Volodina v. Russia (no. 2)"^^xsd:string ],
+        [ dcterms:description "Council of Europe Convention on Preventing and Combating Violence against Women and Domestic Violence"^^xsd:string ],
+        [ dcterms:date "2017-05-23"^^xsd:date ;
+            dcterms:description "Bălşan v. Romania, no. 49645/09, §§ 57 and 67, 23 May 2017"^^xsd:string ;
+            dcterms:identifier "49645/09"^^xsd:string ;
+            dcterms:title "Bălşan v. Romania"^^xsd:string ],
+        [ dcterms:date "2008-06-12"^^xsd:date ;
+            dcterms:description "Bevacqua and S. v. Bulgaria, no. 71127/01, § 79, 12 June 2008"^^xsd:string ;
+            dcterms:identifier "71127/01"^^xsd:string ;
+            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ],
+        [ dcterms:date "2020-09-03"^^xsd:date ;
+            dcterms:description "Levchuk v. Ukraine, no. 17496/19, § 83, 3 September 2020"^^xsd:string ;
+            dcterms:identifier "17496/19"^^xsd:string ;
+            dcterms:title "Levchuk v. Ukraine"^^xsd:string ],
+        [ dcterms:description "Article 139 of the Criminal Code 2011 (Official Gazette nos. 15/11 with subsequent amendments) "^^xsd:string ],
+        [ dcterms:date "2021-06-15"^^xsd:date ;
+            dcterms:description "Kurt v. Austria [GC], no. 62903/15, 15 June 2021"^^xsd:string ;
+            dcterms:identifier "62903/15"^^xsd:string ;
+            dcterms:title "Kurt v. Austria [GC]"^^xsd:string ],
+        [ dcterms:date "2004-07-20"^^xsd:date ;
+            dcterms:description "Balogh v. Hungary, no. 47940/99, § 30, 20 July 2004"^^xsd:string ;
+            dcterms:identifier "47940/99"^^xsd:string ;
+            dcterms:title "Balogh v. Hungary"^^xsd:string ],
+        [ dcterms:description "Opuz v. Turkey, no. 33401/02, § 145, ECHR 2009"^^xsd:string ;
+            dcterms:identifier "33401/02"^^xsd:string ;
+            dcterms:title "Opuz v. Turkey"^^xsd:string ],
+        [ dcterms:date "2016-05-03"^^xsd:date ;
+            dcterms:description "N.P. and N.I. v. Bulgaria (dec.), no. 72226/11, § 87, 3 May 2016"^^xsd:string ;
+            dcterms:identifier "72226/11"^^xsd:string ;
+            dcterms:title "N.P. and N.I. v. Bulgaria (dec.)"^^xsd:string ] ;
+    dcterms:title "CASE OF MALAGIĆ v. CROATIA"^^xsd:string ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+

@@ -1,83 +1,110 @@
-<eva:1870/05> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
-<eva:1870/05> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
-<eva:1870/05> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
-<eva:1870/05> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
-<eva:1870/05> <http://purl.org/dc/terms/creator> "Court (Fifth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
-<eva:1870/05> <http://purl.org/dc/terms/title> "CASE OF IRINA SMIRNOVA v. UKRAINE"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <eva:importance_level> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<eva:1870/05> <http://purl.org/dc/terms/contributor> <eva:KUSNER_N._>.
-<eva:KUSNER_N._> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
-<eva:1870/05> <http://purl.org/dc/terms/contributor> <eva:TARAKHKALO_O.>.
-<eva:TARAKHKALO_O.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
-<eva:1870/05> <eva:respondent_state> <http://www.wikidata.org/entity/Q212>.
-<eva:1870/05> <http://purl.org/dc/terms/date> "2016-10-13"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:1870/05> <http://purl.org/dc/terms/abstract> "Preliminary objections joined to merits and dismissed (Article 35-1 - Exhaustion of domestic remedies)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/abstract> "Remainder inadmissible (Article 35-3-a - Manifestly ill-founded)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/abstract> "Positive obligations)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/abstract> "Violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/abstract> "Article 8-1 - Respect for home"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/abstract> "Respect for private life)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/references> <eva:61382/09>.
-<eva:61382/09> <http://purl.org/dc/terms/title> "B. v. the Republic of Moldova"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:61382/09> <http://purl.org/dc/terms/date> "2013-07-16"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:1870/05> <http://purl.org/dc/terms/references> <eva:38435/13>.
-<eva:38435/13> <http://purl.org/dc/terms/title> "B.V. and Others v. Croatia (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38435/13> <http://purl.org/dc/terms/date> "2015-12-15"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:1870/05> <http://purl.org/dc/terms/references> <eva:28261/06>.
-<eva:28261/06> <http://purl.org/dc/terms/title> "Ćosić v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:28261/06> <http://purl.org/dc/terms/date> "2009-01-15"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:1870/05> <http://purl.org/dc/terms/references> <eva:11160/07>.
-<eva:11160/07> <http://purl.org/dc/terms/title> "D.F. v. Latvia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:11160/07> <http://purl.org/dc/terms/date> "2013-10-29"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:1870/05> <http://purl.org/dc/terms/references> <eva:41526/10>.
-<eva:41526/10> <http://purl.org/dc/terms/title> "Đorđević v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/references> <eva:38833/03>.
-<eva:38833/03> <http://purl.org/dc/terms/title> "Kirpichenko v. Ukraine"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38833/03> <http://purl.org/dc/terms/date> "2015-04-02"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:1870/05> <http://purl.org/dc/terms/references> <eva:30856/03>.
-<eva:30856/03> <http://purl.org/dc/terms/title> "Kryvitska and Kryvitskyy v. Ukraine"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:30856/03> <http://purl.org/dc/terms/date> "2010-12-02"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:1870/05> <http://purl.org/dc/terms/references> <eva:10161/13>.
-<eva:10161/13> <http://purl.org/dc/terms/title> "M. and M. v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/references> <eva:19009/04>.
-<eva:19009/04> <http://purl.org/dc/terms/title> "McCann v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/references> <eva:75788/01>.
-<eva:75788/01> <http://purl.org/dc/terms/title> "Piryanik v. Ukraine"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:75788/01> <http://purl.org/dc/terms/date> "2005-04-19"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:1870/05> <http://purl.org/dc/terms/references> <eva:29525/10>.
-<eva:29525/10> <http://purl.org/dc/terms/title> "Remetin v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:29525/10> <http://purl.org/dc/terms/date> "2012-12-11"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:1870/05> <http://purl.org/dc/terms/references> <eva:38478/05>.
-<eva:38478/05> <http://purl.org/dc/terms/title> "Sandra Janković v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/date> "2009-03-05"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:1870/05> <http://purl.org/dc/terms/references> <eva:5786/08>.
-<eva:5786/08> <http://purl.org/dc/terms/title> "Söderman v. Sweden [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/references> <eva:48995/99>.
-<eva:48995/99> <http://purl.org/dc/terms/title> "Surugiu v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:48995/99> <http://purl.org/dc/terms/date> "2004-04-20"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:1870/05> <http://purl.org/dc/terms/references> <eva:27310/09>.
-<eva:27310/09> <http://purl.org/dc/terms/title> "Udovičić v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:27310/09> <http://purl.org/dc/terms/date> "2014-04-24"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:1870/05> <http://purl.org/dc/terms/references> <eva:33234/07>.
-<eva:33234/07> <http://purl.org/dc/terms/title> "Valiulienė v. Lithuania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:33234/07> <http://purl.org/dc/terms/date> "2013-03-26"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:1870/05> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/description> "(Art. 3) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/description> "(Art. 8) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for home"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for private life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/description> "(Art. 35-1) Exhaustion of domestic remedies"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/description> "(Art. 35-3-a) Manifestly ill-founded"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/description> "(Art. 41) Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/description> "Proportionality"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:1870/05> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2016:1013JUD000187005"^^<http://www.w3.org/2001/XMLSchema#string>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://eva.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ns1:importanceLevel 2 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q212> ;
+    dcterms:accessRights "public"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "TARAKHKALO O."^^xsd:string ],
+        [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "KUSNER N. "^^xsd:string ] ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
+    dcterms:creator "Court (Fifth Section)"^^xsd:string ;
+    dcterms:date "2016-10-13"^^xsd:date ;
+    dcterms:description "(Art. 3) Effective investigation"^^xsd:string,
+        "(Art. 3) Positive obligations"^^xsd:string,
+        "(Art. 3) Prohibition of torture"^^xsd:string,
+        "(Art. 35) Admissibility criteria"^^xsd:string,
+        "(Art. 35-1) Exhaustion of domestic remedies"^^xsd:string,
+        "(Art. 35-3-a) Manifestly ill-founded"^^xsd:string,
+        "(Art. 41) Just satisfaction"^^xsd:string,
+        "(Art. 41) Just satisfaction-{general}"^^xsd:string,
+        "(Art. 41) Non-pecuniary damage"^^xsd:string,
+        "(Art. 8) Positive obligations"^^xsd:string,
+        "(Art. 8) Right to respect for private and family life"^^xsd:string,
+        "(Art. 8-1) Respect for home"^^xsd:string,
+        "(Art. 8-1) Respect for private life"^^xsd:string,
+        "Article 8-1 - Respect for home"^^xsd:string,
+        "Just satisfaction)"^^xsd:string,
+        "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^xsd:string,
+        "Positive obligations)"^^xsd:string,
+        "Preliminary objections joined to merits and dismissed (Article 35-1 - Exhaustion of domestic remedies)"^^xsd:string,
+        "Proportionality"^^xsd:string,
+        "Remainder inadmissible (Article 35-3-a - Manifestly ill-founded)"^^xsd:string,
+        "Respect for private life)"^^xsd:string,
+        "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation"^^xsd:string,
+        "Violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations"^^xsd:string ;
+    dcterms:identifier "1870/05"^^xsd:string ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2016:1013JUD000187005"^^xsd:string ;
+    dcterms:language "en"^^xsd:string ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
+    dcterms:references [ dcterms:description "Söderman v. Sweden [GC], no. 5786/08, §§ 83-85, ECHR 2013"^^xsd:string ;
+            dcterms:identifier "5786/08"^^xsd:string ;
+            dcterms:title "Söderman v. Sweden [GC]"^^xsd:string ],
+        [ dcterms:date "2009-01-15"^^xsd:date ;
+            dcterms:description "Ćosić v. Croatia, no. 28261/06, § 21-23, 15 January 2009"^^xsd:string ;
+            dcterms:identifier "28261/06"^^xsd:string ;
+            dcterms:title "Ćosić v. Croatia"^^xsd:string ],
+        [ dcterms:date "2015-04-02"^^xsd:date ;
+            dcterms:description "Kirpichenko v. Ukraine, no. 38833/03, § 63, 2 April 2015"^^xsd:string ;
+            dcterms:identifier "38833/03"^^xsd:string ;
+            dcterms:title "Kirpichenko v. Ukraine"^^xsd:string ],
+        [ dcterms:date "2010-11-30"^^xsd:date ;
+            dcterms:description "Hajduová v. Slovakia, § 46, 30 November 2010"^^xsd:string ;
+            dcterms:title "Hajduová v. Slovakia"^^xsd:string ],
+        [ dcterms:date "2012-12-11"^^xsd:date ;
+            dcterms:description "Remetin v. Croatia, no. 29525/10, § 90, 11 December 2012"^^xsd:string ;
+            dcterms:identifier "29525/10"^^xsd:string ;
+            dcterms:title "Remetin v. Croatia"^^xsd:string ],
+        [ dcterms:date "2013-10-29"^^xsd:date ;
+            dcterms:description "D.F. v. Latvia, no. 11160/07, § 83, 29 October 2013"^^xsd:string ;
+            dcterms:identifier "11160/07"^^xsd:string ;
+            dcterms:title "D.F. v. Latvia"^^xsd:string ],
+        [ dcterms:date "2010-12-02"^^xsd:date ;
+            dcterms:description "Kryvitska and Kryvitskyy v. Ukraine, no. 30856/03, § 44, 2 December 2010"^^xsd:string ;
+            dcterms:identifier "30856/03"^^xsd:string ;
+            dcterms:title "Kryvitska and Kryvitskyy v. Ukraine"^^xsd:string ],
+        [ dcterms:date "2004-04-20"^^xsd:date ;
+            dcterms:description "Surugiu v. Romania, no. 48995/99, §§ 60-67, 20 April 2004"^^xsd:string ;
+            dcterms:identifier "48995/99"^^xsd:string ;
+            dcterms:title "Surugiu v. Romania"^^xsd:string ],
+        [ dcterms:date "2009-03-05"^^xsd:date ;
+            dcterms:description "Sandra Janković v. Croatia, no. 38478/05, § 45, 5 March 2009"^^xsd:string ;
+            dcterms:identifier "38478/05"^^xsd:string ;
+            dcterms:title "Sandra Janković v. Croatia"^^xsd:string ],
+        [ dcterms:date "2013-07-16"^^xsd:date ;
+            dcterms:description "B. v. the Republic of Moldova, no. 61382/09, § 74, 16 July 2013"^^xsd:string ;
+            dcterms:identifier "61382/09"^^xsd:string ;
+            dcterms:title "B. v. the Republic of Moldova"^^xsd:string ],
+        [ dcterms:description "M. and M. v. Croatia, no. 10161/13, §§ 141-143, ECHR 2015 (extracts)"^^xsd:string ;
+            dcterms:identifier "10161/13"^^xsd:string ;
+            dcterms:title "M. and M. v. Croatia"^^xsd:string ],
+        [ dcterms:description "McCann v. the United Kingdom, no. 19009/04, §§ 49-50 and 55, ECHR 2008"^^xsd:string ;
+            dcterms:identifier "19009/04"^^xsd:string ;
+            dcterms:title "McCann v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "2014-04-24"^^xsd:date ;
+            dcterms:description "Udovičić v. Croatia, no. 27310/09, § 136, 24 April 2014"^^xsd:string ;
+            dcterms:identifier "27310/09"^^xsd:string ;
+            dcterms:title "Udovičić v. Croatia"^^xsd:string ],
+        [ dcterms:description "Article 365 of the Civil Code"^^xsd:string ],
+        [ dcterms:date "2013-03-26"^^xsd:date ;
+            dcterms:description "Valiulienė v. Lithuania, no. 33234/07, §§ 68-75, 26 March 2013"^^xsd:string ;
+            dcterms:identifier "33234/07"^^xsd:string ;
+            dcterms:title "Valiulienė v. Lithuania"^^xsd:string ],
+        [ dcterms:description "Articles 125 and 126 of the Criminal Code "^^xsd:string ],
+        [ dcterms:date "2005-04-19"^^xsd:date ;
+            dcterms:description "Piryanik v. Ukraine, no. 75788/01, § 20, 19 April 2005"^^xsd:string ;
+            dcterms:identifier "75788/01"^^xsd:string ;
+            dcterms:title "Piryanik v. Ukraine"^^xsd:string ],
+        [ dcterms:description "Đorđević v. Croatia, no. 41526/10, ECHR 2012"^^xsd:string ;
+            dcterms:identifier "41526/10"^^xsd:string ;
+            dcterms:title "Đorđević v. Croatia"^^xsd:string ],
+        [ dcterms:date "2015-12-15"^^xsd:date ;
+            dcterms:description "B.V. and Others v. Croatia (dec.), no. 38435/13, §§ 149-158, 15 December 2015"^^xsd:string ;
+            dcterms:identifier "38435/13"^^xsd:string ;
+            dcterms:title "B.V. and Others v. Croatia (dec.)"^^xsd:string ] ;
+    dcterms:title "CASE OF IRINA SMIRNOVA v. UKRAINE"^^xsd:string ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+

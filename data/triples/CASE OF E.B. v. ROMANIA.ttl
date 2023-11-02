@@ -1,22 +1,28 @@
-<eva:49089/10> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
-<eva:49089/10> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
-<eva:49089/10> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:49089/10> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
-<eva:49089/10> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
-<eva:49089/10> <http://purl.org/dc/terms/creator> "Court (Fourth Section Committee)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:49089/10> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
-<eva:49089/10> <http://purl.org/dc/terms/title> "CASE OF E.B. v. ROMANIA"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:49089/10> <eva:importance_level> "3"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<eva:49089/10> <http://purl.org/dc/terms/contributor> <eva:SCHWAB_C.>.
-<eva:SCHWAB_C.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
-<eva:49089/10> <eva:respondent_state> <http://www.wikidata.org/entity/Q218>.
-<eva:49089/10> <http://purl.org/dc/terms/date> "2019-03-19"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:49089/10> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Positive obligations) (Substantive aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:49089/10> <http://purl.org/dc/terms/abstract> "Violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:49089/10> <http://purl.org/dc/terms/abstract> "Article 8-1 - Respect for private life)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:49089/10> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:49089/10> <http://purl.org/dc/terms/description> "(Art. 3) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:49089/10> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:49089/10> <http://purl.org/dc/terms/description> "(Art. 8) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:49089/10> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for private life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:49089/10> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2019:0319JUD004908910"^^<http://www.w3.org/2001/XMLSchema#string>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://eva.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ns1:importanceLevel 3 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q218> ;
+    dcterms:accessRights "public"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "SCHWAB C."^^xsd:string ] ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
+    dcterms:creator "Court (Fourth Section Committee)"^^xsd:string ;
+    dcterms:date "2019-03-19"^^xsd:date ;
+    dcterms:description "(Art. 3) Positive obligations"^^xsd:string,
+        "(Art. 3) Prohibition of torture"^^xsd:string,
+        "(Art. 8) Positive obligations"^^xsd:string,
+        "(Art. 8) Right to respect for private and family life"^^xsd:string,
+        "(Art. 8-1) Respect for private life"^^xsd:string,
+        "Article 8-1 - Respect for private life)"^^xsd:string,
+        "Violation of Article 3 - Prohibition of torture (Article 3 - Positive obligations) (Substantive aspect)"^^xsd:string,
+        "Violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations"^^xsd:string ;
+    dcterms:identifier "49089/10"^^xsd:string ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2019:0319JUD004908910"^^xsd:string ;
+    dcterms:language "en"^^xsd:string ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
+    dcterms:title "CASE OF E.B. v. ROMANIA"^^xsd:string ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+

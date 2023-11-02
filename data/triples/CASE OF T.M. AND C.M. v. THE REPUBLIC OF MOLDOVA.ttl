@@ -1,73 +1,108 @@
-<eva:26608/11> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
-<eva:26608/11> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
-<eva:26608/11> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
-<eva:26608/11> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
-<eva:26608/11> <http://purl.org/dc/terms/creator> "Court (Third Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
-<eva:26608/11> <http://purl.org/dc/terms/title> "CASE OF T.M. AND C.M. v. THE REPUBLIC OF MOLDOVA"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <eva:importance_level> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<eva:26608/11> <http://purl.org/dc/terms/contributor> <eva:POSTICA_A.>.
-<eva:POSTICA_A.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
-<eva:26608/11> <eva:respondent_state> <http://www.wikidata.org/entity/Q217>.
-<eva:26608/11> <http://purl.org/dc/terms/date> "2014-01-28"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:26608/11> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <http://purl.org/dc/terms/abstract> "Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <http://purl.org/dc/terms/abstract> "Positive obligations) (Substantive aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <http://purl.org/dc/terms/abstract> "Violation of Article 14+3 - Prohibition of discrimination (Article 14 - Discrimination) (Article 3 - Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <http://purl.org/dc/terms/abstract> "Positive obligations)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <http://purl.org/dc/terms/references> <eva:55164/08>.
-<eva:55164/08> <http://purl.org/dc/terms/title> "A. v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:55164/08> <http://purl.org/dc/terms/date> "2010-10-14"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:26608/11> <http://purl.org/dc/terms/references> <eva:61382/09>.
-<eva:61382/09> <http://purl.org/dc/terms/title> "B. v. the Republic of Moldova"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:61382/09> <http://purl.org/dc/terms/date> "2013-07-16"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:26608/11> <http://purl.org/dc/terms/references> <eva:71127/01>.
-<eva:71127/01> <http://purl.org/dc/terms/title> "Bevacqua and S. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:71127/01> <http://purl.org/dc/terms/date> "2008-06-12"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:26608/11> <http://purl.org/dc/terms/references> <eva:41088/05>.
-<eva:41088/05> <http://purl.org/dc/terms/title> "Boicenco v. Moldova"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41088/05> <http://purl.org/dc/terms/date> "2006-07-11"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:26608/11> <http://purl.org/dc/terms/references> <eva:38719/97>.
-<eva:38719/97> <http://purl.org/dc/terms/title> "D.P. and J.C. v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38719/97> <http://purl.org/dc/terms/date> "2002-10-10"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:26608/11> <http://purl.org/dc/terms/references> <eva:32704/04>.
-<eva:32704/04> <http://purl.org/dc/terms/title> "Denis Vasilyev v. Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32704/04> <http://purl.org/dc/terms/date> "2009-12-17"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:26608/11> <http://purl.org/dc/terms/references> <eva:33218/96>.
-<eva:33218/96> <http://purl.org/dc/terms/title> "E. and Others v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:33218/96> <http://purl.org/dc/terms/date> "2002-11-26"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:26608/11> <http://purl.org/dc/terms/references> <eva:3564/11>.
-<eva:3564/11> <http://purl.org/dc/terms/title> "Eremia v. the Republic of Moldova"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:3564/11> <http://purl.org/dc/terms/date> "2013-05-28"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:26608/11> <http://purl.org/dc/terms/references> <eva:23893/06>.
-<eva:23893/06> <http://purl.org/dc/terms/title> "J.L. v. Latvia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23893/06> <http://purl.org/dc/terms/date> "2012-04-17"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:26608/11> <http://purl.org/dc/terms/references> <eva:30210/96>.
-<eva:30210/96> <http://purl.org/dc/terms/title> "Kudła v. Poland [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <http://purl.org/dc/terms/references> <eva:39272/98>.
-<eva:39272/98> <http://purl.org/dc/terms/title> "M.C. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <http://purl.org/dc/terms/references> <eva:74839/10>.
-<eva:74839/10> <http://purl.org/dc/terms/title> "Mudric v. the Republic of Moldova"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:74839/10> <http://purl.org/dc/terms/date> "2013-07-16"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:26608/11> <http://purl.org/dc/terms/references> <eva:7888/03>.
-<eva:7888/03> <http://purl.org/dc/terms/title> "Nikolova and Velichkova v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7888/03> <http://purl.org/dc/terms/date> "2007-12-20"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:26608/11> <http://purl.org/dc/terms/references> <eva:33401/02>.
-<eva:33401/02> <http://purl.org/dc/terms/title> "Opuz v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <http://purl.org/dc/terms/references> <eva:38478/05>.
-<eva:38478/05> <http://purl.org/dc/terms/title> "Sandra Janković v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/date> "2009-03-05"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:26608/11> <http://purl.org/dc/terms/references> <eva:42722/02>.
-<eva:42722/02> <http://purl.org/dc/terms/title> "Stoica v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:42722/02> <http://purl.org/dc/terms/date> "2008-03-04"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:26608/11> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <http://purl.org/dc/terms/description> "(Art. 3) Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <http://purl.org/dc/terms/description> "(Art. 3) Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <http://purl.org/dc/terms/description> "(Art. 3) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <http://purl.org/dc/terms/description> "(Art. 14) Prohibition of discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <http://purl.org/dc/terms/description> "(Art. 14) Discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <http://purl.org/dc/terms/description> "(Art. 14) Sex"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2014:0128JUD002660811"^^<http://www.w3.org/2001/XMLSchema#string>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://eva.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ns1:importanceLevel 2 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q217> ;
+    dcterms:accessRights "public"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "POSTICA A."^^xsd:string ] ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
+    dcterms:creator "Court (Third Section)"^^xsd:string ;
+    dcterms:date "2014-01-28"^^xsd:date ;
+    dcterms:description "(Art. 14) Discrimination"^^xsd:string,
+        "(Art. 14) Prohibition of discrimination"^^xsd:string,
+        "(Art. 14) Sex"^^xsd:string,
+        "(Art. 3) Degrading treatment"^^xsd:string,
+        "(Art. 3) Inhuman treatment"^^xsd:string,
+        "(Art. 3) Positive obligations"^^xsd:string,
+        "(Art. 3) Prohibition of torture"^^xsd:string,
+        "(Art. 41) Just satisfaction-{general}"^^xsd:string,
+        "Inhuman treatment"^^xsd:string,
+        "Non-pecuniary damage - award"^^xsd:string,
+        "Positive obligations)"^^xsd:string,
+        "Positive obligations) (Substantive aspect)"^^xsd:string,
+        "Violation of Article 14+3 - Prohibition of discrimination (Article 14 - Discrimination) (Article 3 - Prohibition of torture"^^xsd:string,
+        "Violation of Article 3 - Prohibition of torture (Article 3 - Degrading treatment"^^xsd:string ;
+    dcterms:identifier "26608/11"^^xsd:string ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2014:0128JUD002660811"^^xsd:string ;
+    dcterms:language "en"^^xsd:string ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
+    dcterms:references [ dcterms:date "2008-06-12"^^xsd:date ;
+            dcterms:description "Bevacqua and S. v. Bulgaria, no. 71127/01, 12 June 2008"^^xsd:string ;
+            dcterms:identifier "71127/01"^^xsd:string ;
+            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ],
+        [ dcterms:description "Opuz v. Turkey, no. 33401/02, ECHR 2009"^^xsd:string ;
+            dcterms:identifier "33401/02"^^xsd:string ;
+            dcterms:title "Opuz v. Turkey"^^xsd:string ],
+        [ dcterms:date "2006-07-11"^^xsd:date ;
+            dcterms:description "Boicenco v. Moldova, no. 41088/05, § 176, 11 July 2006"^^xsd:string ;
+            dcterms:identifier "41088/05"^^xsd:string ;
+            dcterms:title "Boicenco v. Moldova"^^xsd:string ],
+        [ dcterms:date "2013-07-16"^^xsd:date ;
+            dcterms:description "Mudric v. the Republic of Moldova, no. 74839/10, 16 July 2013"^^xsd:string ;
+            dcterms:identifier "74839/10"^^xsd:string ;
+            dcterms:title "Mudric v. the Republic of Moldova"^^xsd:string ],
+        [ dcterms:description "M.C. v. Bulgaria, no. 39272/98, §§ 150-152, ECHR 2003 XII"^^xsd:string ;
+            dcterms:identifier "39272/98"^^xsd:string ;
+            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
+        [ dcterms:date "2007-12-20"^^xsd:date ;
+            dcterms:description "Nikolova and Velichkova v. Bulgaria, no. 7888/03, § 61, 20 December 2007"^^xsd:string ;
+            dcterms:identifier "7888/03"^^xsd:string ;
+            dcterms:title "Nikolova and Velichkova v. Bulgaria"^^xsd:string ],
+        [ dcterms:date "2013-05-28"^^xsd:date ;
+            dcterms:description "Eremia v. the Republic of Moldova, no. 3564/11, 28 May 2013"^^xsd:string ;
+            dcterms:identifier "3564/11"^^xsd:string ;
+            dcterms:title "Eremia v. the Republic of Moldova"^^xsd:string ],
+        [ dcterms:date "1993-03-25"^^xsd:date ;
+            dcterms:description "Costello Roberts v. the United Kingdom, 25 March 1993, Series A no. 247 C"^^xsd:string ;
+            dcterms:title "Costello Roberts v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Kudła v. Poland [GC], no. 30210/96, § 91, ECHR 2000 XI"^^xsd:string ;
+            dcterms:identifier "30210/96"^^xsd:string ;
+            dcterms:title "Kudła v. Poland [GC]"^^xsd:string ],
+        [ dcterms:date "2002-11-26"^^xsd:date ;
+            dcterms:description "E. and Others v. the United Kingdom, no. 33218/96, § 88, 26 November 2002"^^xsd:string ;
+            dcterms:identifier "33218/96"^^xsd:string ;
+            dcterms:title "E. and Others v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "2002-10-10"^^xsd:date ;
+            dcterms:description "D.P. and J.C. v. the United Kingdom, no. 38719/97, § 118, 10 October 2002"^^xsd:string ;
+            dcterms:identifier "38719/97"^^xsd:string ;
+            dcterms:title "D.P. and J.C. v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "1985-03-26"^^xsd:date ;
+            dcterms:description "X and Y v. the Netherlands, 26 March 1985, § 22 and 23, Series A no. 91"^^xsd:string ;
+            dcterms:title "X and Y v. the Netherlands"^^xsd:string ],
+        [ dcterms:date "2009-03-05"^^xsd:date ;
+            dcterms:description "Sandra Janković v. Croatia, no. 38478/05, §§ 45-46, 5 March 2009"^^xsd:string ;
+            dcterms:identifier "38478/05"^^xsd:string ;
+            dcterms:title "Sandra Janković v. Croatia"^^xsd:string ],
+        [ dcterms:date "1998-10-28"^^xsd:date ;
+            dcterms:description "Osman v. the United Kingdom, 28 October 1998, § 116, Reports 1998 VIII"^^xsd:string ;
+            dcterms:title "Osman v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "2013-07-16"^^xsd:date ;
+            dcterms:description "B. v. the Republic of Moldova, no. 61382/09, § 50, 16 July 2013"^^xsd:string ;
+            dcterms:identifier "61382/09"^^xsd:string ;
+            dcterms:title "B. v. the Republic of Moldova"^^xsd:string ],
+        [ dcterms:date "1998-09-23"^^xsd:date ;
+            dcterms:description "A. v. the United Kingdom, 23 September 1998, § 22, Reports of Judgments and Decisions 1998 VI"^^xsd:string ;
+            dcterms:title "A. v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "2009-12-17"^^xsd:date ;
+            dcterms:description "Denis Vasilyev v. Russia, no. 32704/04, §§ 98-100, 17 December 2009"^^xsd:string ;
+            dcterms:identifier "32704/04"^^xsd:string ;
+            dcterms:title "Denis Vasilyev v. Russia"^^xsd:string ],
+        [ dcterms:date "2012-04-17"^^xsd:date ;
+            dcterms:description "J.L. v. Latvia, no. 23893/06, § 64, 17 April 2012"^^xsd:string ;
+            dcterms:identifier "23893/06"^^xsd:string ;
+            dcterms:title "J.L. v. Latvia"^^xsd:string ],
+        [ dcterms:date "2008-03-04"^^xsd:date ;
+            dcterms:description "Stoica v. Romania, no. 42722/02, § 67, 4 March 2008"^^xsd:string ;
+            dcterms:identifier "42722/02"^^xsd:string ;
+            dcterms:title "Stoica v. Romania"^^xsd:string ],
+        [ dcterms:date "2010-10-14"^^xsd:date ;
+            dcterms:description "A. v. Croatia, no. 55164/08, § 61, 14 October 2010"^^xsd:string ;
+            dcterms:identifier "55164/08"^^xsd:string ;
+            dcterms:title "A. v. Croatia"^^xsd:string ],
+        [ dcterms:description "Law no. 45 on the prevention of and combat against domestic violence"^^xsd:string ] ;
+    dcterms:title "CASE OF T.M. AND C.M. v. THE REPUBLIC OF MOLDOVA"^^xsd:string ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+

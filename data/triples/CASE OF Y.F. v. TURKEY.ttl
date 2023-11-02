@@ -1,37 +1,60 @@
-<eva:24209/94> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
-<eva:24209/94> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
-<eva:24209/94> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:24209/94> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
-<eva:24209/94> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
-<eva:24209/94> <http://purl.org/dc/terms/creator> "Court (Fourth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:24209/94> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
-<eva:24209/94> <http://purl.org/dc/terms/isPartOf> "Reports of Judgments and Decisions 2003-IX"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:24209/94> <http://purl.org/dc/terms/title> "CASE OF Y.F. v. TURKEY"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:24209/94> <eva:importance_level> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<eva:24209/94> <http://purl.org/dc/terms/contributor> <eva:N>.
-<eva:N> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
-<eva:24209/94> <eva:respondent_state> <http://www.wikidata.org/entity/Q43>.
-<eva:24209/94> <http://purl.org/dc/terms/date> "2003-07-22"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:24209/94> <http://purl.org/dc/terms/abstract> "Violation of Art. 8"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:24209/94> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - financial award"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:24209/94> <http://purl.org/dc/terms/abstract> "Costs and expenses partial award - Convention proceedings"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:24209/94> <http://purl.org/dc/terms/references> <eva:10435/83>.
-<eva:10435/83> <http://purl.org/dc/terms/title> "Acmanne and Others v. Belgium"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:10435/83> <http://purl.org/dc/terms/date> "1984-12-10"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:24209/94> <http://purl.org/dc/terms/references> <eva:28957/95>.
-<eva:28957/95> <http://purl.org/dc/terms/title> "Christine Goodwin v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:28957/95> <http://purl.org/dc/terms/date> "2002-07-11"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:24209/94> <http://purl.org/dc/terms/references> <eva:22277/93>.
-<eva:22277/93> <http://purl.org/dc/terms/title> "Ilhan v. Turkey [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:24209/94> <http://purl.org/dc/terms/references> <eva:39339/98>.
-<eva:39339/98> <http://purl.org/dc/terms/title> "M.M. v. the Netherlands"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:39339/98> <http://purl.org/dc/terms/date> "2003-04-08"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:24209/94> <http://purl.org/dc/terms/references> <eva:8278/78>.
-<eva:8278/78> <http://purl.org/dc/terms/title> "X v. Austria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:8278/78> <http://purl.org/dc/terms/date> "1979-12-13"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:24209/94> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:24209/94> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for private life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:24209/94> <http://purl.org/dc/terms/description> "(Art. 8-2) Interference"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:24209/94> <http://purl.org/dc/terms/description> "(Art. 8-2) In accordance with the law"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:24209/94> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:24209/94> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2003:0722JUD002420994"^^<http://www.w3.org/2001/XMLSchema#string>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://eva.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ns1:importanceLevel 4 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q43> ;
+    dcterms:accessRights "public"^^xsd:string ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
+    dcterms:creator "Court (Fourth Section)"^^xsd:string ;
+    dcterms:date "2003-07-22"^^xsd:date ;
+    dcterms:description "(Art. 41) Just satisfaction-{general}"^^xsd:string,
+        "(Art. 8) Right to respect for private and family life"^^xsd:string,
+        "(Art. 8-1) Respect for private life"^^xsd:string,
+        "(Art. 8-2) In accordance with the law"^^xsd:string,
+        "(Art. 8-2) Interference"^^xsd:string,
+        "Costs and expenses partial award - Convention proceedings"^^xsd:string,
+        "Non-pecuniary damage - financial award"^^xsd:string,
+        "Violation of Art. 8"^^xsd:string ;
+    dcterms:identifier "24209/94"^^xsd:string ;
+    dcterms:isPartOf "Reports of Judgments and Decisions 2003-IX"^^xsd:string ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2003:0722JUD002420994"^^xsd:string ;
+    dcterms:language "en"^^xsd:string ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
+    dcterms:references [ dcterms:date "2003-04-08"^^xsd:date ;
+            dcterms:description "M.M. v. the Netherlands, no. 39339/98, § 46, 8 April 2003, unreported"^^xsd:string ;
+            dcterms:identifier "39339/98"^^xsd:string ;
+            dcterms:title "M.M. v. the Netherlands"^^xsd:string ],
+        [ dcterms:date "1990-04-24"^^xsd:date ;
+            dcterms:description "Huvig v. France, judgment of 24 April 1990, Series A no. 176-B, p. 52, § 26"^^xsd:string ;
+            dcterms:title "Huvig v. France"^^xsd:string ],
+        [ dcterms:date "1984-12-10"^^xsd:date ;
+            dcterms:description "Acmanne and Others v. Belgium, no. 10435/83, Commission decision of 10 December 1984, (DR) 40, p. 254"^^xsd:string ;
+            dcterms:identifier "10435/83"^^xsd:string ;
+            dcterms:title "Acmanne and Others v. Belgium"^^xsd:string ],
+        [ dcterms:date "2002-07-11"^^xsd:date ;
+            dcterms:description "Christine Goodwin v. the United Kingdom [GC], no. 28957/95, § 124, 11 July 2002-VI  Dankevich v. Ukraine, no. 40679/98, § 151, 29 April 2003, unreported"^^xsd:string ;
+            dcterms:identifier "28957/95"^^xsd:string ;
+            dcterms:title "Christine Goodwin v. the United Kingdom [GC]"^^xsd:string ],
+        [ dcterms:date "1990-04-24"^^xsd:date ;
+            dcterms:description "Kruslin v. France, judgment of 24 April 1990, Series A no. 176 A, p. 20, § 27"^^xsd:string ;
+            dcterms:title "Kruslin v. France"^^xsd:string ],
+        [ dcterms:date "1992-08-27"^^xsd:date ;
+            dcterms:description "Tomasi v. France, judgment of 27 August 1992, Series A no. 241-A, pp. 40-41, §§ 113-115"^^xsd:string ;
+            dcterms:title "Tomasi v. France"^^xsd:string ],
+        [ dcterms:date "1985-03-26"^^xsd:date ;
+            dcterms:description "X and Y v. Netherlands, judgment of 26 March 1985, Series A no. 91, p. 11, § 22"^^xsd:string ;
+            dcterms:title "X and Y v. Netherlands"^^xsd:string ],
+        [ dcterms:date "1979-12-13"^^xsd:date ;
+            dcterms:description "X v. Austria, no. 8278/78, Commission decision of 13 December 1979, Decisions and Reports (DR) 18, p. 155"^^xsd:string ;
+            dcterms:identifier "8278/78"^^xsd:string ;
+            dcterms:title "X v. Austria"^^xsd:string ],
+        [ dcterms:date "1983-03-25"^^xsd:date ;
+            dcterms:description "Silver and Others v. the United Kingdom, judgment of 25 March 1983, Series A no. 61, p. 32, § 84"^^xsd:string ;
+            dcterms:title "Silver and Others v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Ilhan v. Turkey [GC], no. 22277/93, § 55, ECHR 2000-VII"^^xsd:string ;
+            dcterms:identifier "22277/93"^^xsd:string ;
+            dcterms:title "Ilhan v. Turkey [GC]"^^xsd:string ] ;
+    dcterms:title "CASE OF Y.F. v. TURKEY"^^xsd:string ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+

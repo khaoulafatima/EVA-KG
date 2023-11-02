@@ -1,36 +1,67 @@
-<eva:7510/04> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
-<eva:7510/04> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
-<eva:7510/04> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
-<eva:7510/04> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
-<eva:7510/04> <http://purl.org/dc/terms/creator> "Court (Fourth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
-<eva:7510/04> <http://purl.org/dc/terms/title> "CASE OF KONTROVA v. SLOVAKIA"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <eva:importance_level> "1"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<eva:7510/04> <http://purl.org/dc/terms/contributor> <eva:RAJTAKOVA_I.>.
-<eva:RAJTAKOVA_I.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
-<eva:7510/04> <eva:respondent_state> <http://www.wikidata.org/entity/Q214>.
-<eva:7510/04> <http://purl.org/dc/terms/date> "2007-05-31"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:7510/04> <http://purl.org/dc/terms/abstract> "Preliminary objection dismissed (Article 35-1 - Exhaustion of domestic remedies)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/abstract> "Violation of Article 2 - Right to life (Article 2 - Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/abstract> "Article 2-1 - Life) (Substantive aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/abstract> "Violation of Article 13+2 - Right to an effective remedy (Article 13 - Effective remedy) (Article 2 - Right to life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/abstract> "Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/abstract> "Article 2-1 - Life)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/references> <eva:27229/95>.
-<eva:27229/95> <http://purl.org/dc/terms/title> "Keenan v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/references> <eva:24888/94>.
-<eva:24888/94> <http://purl.org/dc/terms/title> "V. v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/description> "(Art. 2) Right to life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/description> "(Art. 2) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/description> "(Art. 2-1) Life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/description> "(Art. 13) Right to an effective remedy"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/description> "(Art. 13) Effective remedy"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/description> "(Art. 35-1) Exhaustion of domestic remedies"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/description> "(Art. 41) Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7510/04> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2007:0531JUD000751004"^^<http://www.w3.org/2001/XMLSchema#string>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://eva.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ns1:importanceLevel 1 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q214> ;
+    dcterms:accessRights "public"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "RAJTAKOVA I."^^xsd:string ] ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
+    dcterms:creator "Court (Fourth Section)"^^xsd:string ;
+    dcterms:date "2007-05-31"^^xsd:date ;
+    dcterms:description "(Art. 13) Effective remedy"^^xsd:string,
+        "(Art. 13) Right to an effective remedy"^^xsd:string,
+        "(Art. 2) Positive obligations"^^xsd:string,
+        "(Art. 2) Right to life"^^xsd:string,
+        "(Art. 2-1) Life"^^xsd:string,
+        "(Art. 35) Admissibility criteria"^^xsd:string,
+        "(Art. 35-1) Exhaustion of domestic remedies"^^xsd:string,
+        "(Art. 41) Just satisfaction"^^xsd:string,
+        "(Art. 41) Just satisfaction-{general}"^^xsd:string,
+        "(Art. 41) Non-pecuniary damage"^^xsd:string,
+        "Article 2-1 - Life)"^^xsd:string,
+        "Article 2-1 - Life) (Substantive aspect)"^^xsd:string,
+        "Just satisfaction)"^^xsd:string,
+        "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^xsd:string,
+        "Positive obligations"^^xsd:string,
+        "Preliminary objection dismissed (Article 35-1 - Exhaustion of domestic remedies)"^^xsd:string,
+        "Violation of Article 13+2 - Right to an effective remedy (Article 13 - Effective remedy) (Article 2 - Right to life"^^xsd:string,
+        "Violation of Article 2 - Right to life (Article 2 - Positive obligations"^^xsd:string ;
+    dcterms:identifier "7510/04"^^xsd:string ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2007:0531JUD000751004"^^xsd:string ;
+    dcterms:language "en"^^xsd:string ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
+    dcterms:references [ dcterms:description "Police Corps Act 1993, section 2(1) (a), (b) &"^^xsd:string ],
+        [ dcterms:date "1997-09-25"^^xsd:date ;
+            dcterms:description "Ayd?n v. Turkey, judgment of 25 September 1997, Reports 1997-VI, pp. 1895-96, § 103"^^xsd:string ;
+            dcterms:title "Ayd?n v. Turkey"^^xsd:string ],
+        [ dcterms:description "Civil Code, Articles 11 et seq. (Protection of personal integrity)"^^xsd:string ],
+        [ dcterms:date "1988-04-27"^^xsd:date ;
+            dcterms:description "Boyle and Rice v. the United Kingdom, judgment of 27 April 1988, Series A no. 131, p. 23, § 52"^^xsd:string ;
+            dcterms:title "Boyle and Rice v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "1996-12-18"^^xsd:date ;
+            dcterms:description "Aksoy v. Turkey, judgment of 18 December 1996, Reports 1996-VI, p. 2286, § 95"^^xsd:string ;
+            dcterms:title "Aksoy v. Turkey"^^xsd:string ],
+        [ dcterms:date "1995-09-27"^^xsd:date ;
+            dcterms:description "McCann and Others v. the United Kingdom, judgment of 27 September 1995, Series A no. 324, pp. 45-46, §§ 146-147"^^xsd:string ;
+            dcterms:title "McCann and Others v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "(d), section 9 "^^xsd:string ],
+        [ dcterms:date "1998-06-09"^^xsd:date ;
+            dcterms:description "L.C.B. v. the United Kingdom, judgment of 9 June 1998, Reports of Judgments and Decisions 1998-III, p. 1403, § 36"^^xsd:string ;
+            dcterms:title "L.C.B. v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "1998-10-28"^^xsd:date ;
+            dcterms:description "Osman v. the United Kingdom, judgment of 28 October 1998, Reports 1998-VIII, p. 3159, § 115"^^xsd:string ;
+            dcterms:title "Osman v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Keenan v. the United Kingdom, no. 27229/95, § 130, ECHR 2001-III"^^xsd:string ;
+            dcterms:identifier "27229/95"^^xsd:string ;
+            dcterms:title "Keenan v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "V. v. the United Kingdom [GC], no. 24888/94, § 57, ECHR 1999-IX"^^xsd:string ;
+            dcterms:identifier "24888/94"^^xsd:string ;
+            dcterms:title "V. v. the United Kingdom [GC]"^^xsd:string ],
+        [ dcterms:description "Law no. 140/1961 as applicable at the relevant time (Criminal Code) "^^xsd:string ],
+        [ dcterms:description "* Law no. 141/1961 as applicable at the relevant time (Code of Criminal Procedure) "^^xsd:string ] ;
+    dcterms:title "CASE OF KONTROVA v. SLOVAKIA"^^xsd:string ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+

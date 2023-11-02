@@ -1,36 +1,62 @@
-<eva:23178/94> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
-<eva:23178/94> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
-<eva:23178/94> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
-<eva:23178/94> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
-<eva:23178/94> <http://purl.org/dc/terms/creator> "Court (Grand Chamber)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
-<eva:23178/94> <http://purl.org/dc/terms/isPartOf> "Reports 1997-VI"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/title> "CASE OF AYDIN v. TURKEY"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <eva:importance_level> "1"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<eva:23178/94> <http://purl.org/dc/terms/contributor> <eva:N>.
-<eva:N> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
-<eva:23178/94> <eva:respondent_state> <http://www.wikidata.org/entity/Q43>.
-<eva:23178/94> <http://purl.org/dc/terms/date> "1997-09-25"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:23178/94> <http://purl.org/dc/terms/abstract> "Preliminary objection rejected (estoppel)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/abstract> "Violation of Art. 3"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/abstract> "Violation of Art. 13"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/abstract> "Not necessary to examine Art. 6-1"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/abstract> "No violation of Art. 25-1"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/abstract> "Not necessary to examine Art. 28-1-a"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/abstract> "Not necessary to examine Art. 53"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/abstract> "Pecuniary damage - claim dismissed"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - financial award"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/abstract> "Costs and expenses partial award - Convention proceedings"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 3) Torture"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 13) Right to an effective remedy"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 13) Effective remedy"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 34) Individual applications"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 34) Individual"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 34) Hinder the exercise of the right of application"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 6) Right to a fair trial"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 46) Binding force and execution of judgments"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/description> "(Art. 53) Rights otherwise guaranteed"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23178/94> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:1997:0925JUD002317894"^^<http://www.w3.org/2001/XMLSchema#string>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://eva.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ns1:importanceLevel 1 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q43> ;
+    dcterms:accessRights "public"^^xsd:string ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
+    dcterms:creator "Court (Grand Chamber)"^^xsd:string ;
+    dcterms:date "1997-09-25"^^xsd:date ;
+    dcterms:description "(Art. 13) Effective remedy"^^xsd:string,
+        "(Art. 13) Right to an effective remedy"^^xsd:string,
+        "(Art. 3) Prohibition of torture"^^xsd:string,
+        "(Art. 3) Torture"^^xsd:string,
+        "(Art. 34) Hinder the exercise of the right of application"^^xsd:string,
+        "(Art. 34) Individual"^^xsd:string,
+        "(Art. 34) Individual applications"^^xsd:string,
+        "(Art. 41) Just satisfaction-{general}"^^xsd:string,
+        "(Art. 46) Binding force and execution of judgments"^^xsd:string,
+        "(Art. 53) Rights otherwise guaranteed"^^xsd:string,
+        "(Art. 6) Right to a fair trial"^^xsd:string,
+        "Costs and expenses partial award - Convention proceedings"^^xsd:string,
+        "No violation of Art. 25-1"^^xsd:string,
+        "Non-pecuniary damage - financial award"^^xsd:string,
+        "Not necessary to examine Art. 28-1-a"^^xsd:string,
+        "Not necessary to examine Art. 53"^^xsd:string,
+        "Not necessary to examine Art. 6-1"^^xsd:string,
+        "Pecuniary damage - claim dismissed"^^xsd:string,
+        "Preliminary objection rejected (estoppel)"^^xsd:string,
+        "Violation of Art. 13"^^xsd:string,
+        "Violation of Art. 3"^^xsd:string ;
+    dcterms:identifier "23178/94"^^xsd:string ;
+    dcterms:isPartOf "Reports 1997-VI"^^xsd:string ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:1997:0925JUD002317894"^^xsd:string ;
+    dcterms:language "en"^^xsd:string ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
+    dcterms:references [ dcterms:description "Constitution, Article 125 "^^xsd:string ],
+        [ dcterms:description "Decree no. 285 modifying the application of Law no. 3713, the Anti-Terror Law (1981) "^^xsd:string ],
+        [ dcterms:description "Code of Criminal Procedure, Articles 153, 154, 163 and 165 "^^xsd:string ],
+        [ dcterms:date "1994-12-09"^^xsd:date ;
+            dcterms:description "The Holy Monasteries v. Greece judgment of 9 December 1994, Series A no. 301-A, pp. 36-37, § 80"^^xsd:string ;
+            dcterms:title "The Holy Monasteries v. Greece judgment of 9 December 1994"^^xsd:string ],
+        [ dcterms:description "United Nations Convention against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment of 10 December 1984, Articles 11, 12 and 13"^^xsd:string ],
+        [ dcterms:date "1996-12-18"^^xsd:date ;
+            dcterms:description "Aksoy v. Turkey judgment of 18 December 1996, Reports 1996-VI, p. 2272, § 38, p. 2278, § 62, p. 2285, § 92, p. 2286, § 95, p. 2287, § 98"^^xsd:string ;
+            dcterms:title "Aksoy v. Turkey judgment of 18 December 1996"^^xsd:string ],
+        [ dcterms:date "1995-03-23"^^xsd:date ;
+            dcterms:description "Loizidou v. Turkey judgment of 23 March 1995 (preliminary objections), Series A no. 310, p. 19, § 44"^^xsd:string ;
+            dcterms:title "Loizidou v. Turkey judgment of 23 March 1995 (preliminary objections)"^^xsd:string ],
+        [ dcterms:date "1996-09-16"^^xsd:date ;
+            dcterms:description "Akdivar and Others v. Turkey judgment of 16 September 1996, Reports of Judgments and Decisions (\"Reports\") 1996-IV, p. 1219, § 105"^^xsd:string ;
+            dcterms:title "Akdivar and Others v. Turkey judgment of 16 September 1996"^^xsd:string ],
+        [ dcterms:description "Military Criminal Code, Article 152 "^^xsd:string ],
+        [ dcterms:date "1978-01-18"^^xsd:date ;
+            dcterms:description "Ireland v. the United Kingdom judgment of 18 January 1978, Series A no. 25, pp. 64-65, §§ 160-161, p. 66, § 167"^^xsd:string ;
+            dcterms:title "Ireland v. the United Kingdom judgment of 18 January 1978"^^xsd:string ],
+        [ dcterms:description "Law no. 2935 of 25 October 1983 on the state of emergency, section 1"^^xsd:string ],
+        [ dcterms:description "Criminal Code, Articles 179, 181, 191, 243, 245 and 416 "^^xsd:string ],
+        [ dcterms:description "Civil Code, Articles 41, 46 and 47 "^^xsd:string ] ;
+    dcterms:title "CASE OF AYDIN v. TURKEY"^^xsd:string ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+

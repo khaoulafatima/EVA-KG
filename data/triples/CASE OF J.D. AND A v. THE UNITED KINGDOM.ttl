@@ -1,106 +1,145 @@
-<eva:32949/17> <eva:in_same_case> <eva:34614/17>.
-<eva:34614/17> <eva:in_same_case> <eva:32949/17>.
-<eva:32949/17> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
-<eva:32949/17> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
-<eva:32949/17> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
-<eva:32949/17> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
-<eva:32949/17> <http://purl.org/dc/terms/creator> "Court (First Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
-<eva:32949/17> <http://purl.org/dc/terms/title> "CASE OF J.D. AND A v. THE UNITED KINGDOM"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <eva:importance_level> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<eva:32949/17> <http://purl.org/dc/terms/contributor> <eva:ASHTON_K._>.
-<eva:ASHTON_K._> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
-<eva:32949/17> <http://purl.org/dc/terms/contributor> <eva:CARRIER_R.>.
-<eva:CARRIER_R.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
-<eva:32949/17> <eva:respondent_state> <http://www.wikidata.org/entity/Q145>.
-<eva:32949/17> <http://purl.org/dc/terms/date> "2019-10-24"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:32949/17> <http://purl.org/dc/terms/abstract> "No violation of Article 14+P1-1-1 - Prohibition of discrimination (Article 14 - Discrimination) (Article 1 para. 1 of Protocol No. 1 - Peaceful enjoyment of possessions"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/abstract> "Article 1 of Protocol No. 1 - Protection of property)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/abstract> "Violation of Article 14+P1-1-1 - Prohibition of discrimination (Article 14 - Discrimination) (Article 1 para. 1 of Protocol No. 1 - Peaceful enjoyment of possessions"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/abstract> "Article 1 of Protocol No. 1 - Protection of property)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:55707/00>.
-<eva:55707/00> <http://purl.org/dc/terms/title> "Andrejeva v. Latvia [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:49645/09>.
-<eva:49645/09> <http://purl.org/dc/terms/title> "Bălșan v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:49645/09> <http://purl.org/dc/terms/date> "2017-05-23"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:44818/11>.
-<eva:44818/11> <http://purl.org/dc/terms/title> "British Gurkha Welfare Society and Others v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:44818/11> <http://purl.org/dc/terms/date> "2016-09-15"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:13378/05>.
-<eva:13378/05> <http://purl.org/dc/terms/title> "Burden v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:42184/05>.
-<eva:42184/05> <http://purl.org/dc/terms/title> "Carson and Others v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:7205/07>.
-<eva:7205/07> <http://purl.org/dc/terms/title> "Clift v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:7205/07> <http://purl.org/dc/terms/date> "2010-07-13"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:57325/00>.
-<eva:57325/00> <http://purl.org/dc/terms/title> "D.H. and Others v. the Czech Republic [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:68909/13>.
-<eva:68909/13> <http://purl.org/dc/terms/title> "Daniel Faulkner v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:68909/13> <http://purl.org/dc/terms/date> "2016-10-06"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:48420/10>.
-<eva:48420/10> <http://purl.org/dc/terms/title> "Eweida and Others v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:48420/10> <http://purl.org/dc/terms/date> "2013-01-15"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:78117/13>.
-<eva:78117/13> <http://purl.org/dc/terms/title> "Fábián v. Hungary [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:78117/13> <http://purl.org/dc/terms/date> "2017-09-05"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:32596/04>.
-<eva:32596/04> <http://purl.org/dc/terms/title> "Farcas v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32596/04> <http://purl.org/dc/terms/date> "2010-09-14"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:22978/05>.
-<eva:22978/05> <http://purl.org/dc/terms/title> "Gäfgen v. Germany [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:13444/04>.
-<eva:13444/04> <http://purl.org/dc/terms/title> "Glor v. Switzerland"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:23682/13>.
-<eva:23682/13> <http://purl.org/dc/terms/title> "Guberina v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:23682/13> <http://purl.org/dc/terms/date> "2016-03-22"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:37359/09>.
-<eva:37359/09> <http://purl.org/dc/terms/title> "Hämäläinen v. Finland [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:57693/10>.
-<eva:57693/10> <http://purl.org/dc/terms/title> "Kalucza v. Hungary"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:57693/10> <http://purl.org/dc/terms/date> "2012-04-24"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:30078/06>.
-<eva:30078/06> <http://purl.org/dc/terms/title> "Konstantin Markin v. Russia [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:26828/06>.
-<eva:26828/06> <http://purl.org/dc/terms/title> "Kurić and Others v. Slovenia [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:34406/97>.
-<eva:34406/97> <http://purl.org/dc/terms/title> "Mazurek v. France"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:10593/08>.
-<eva:10593/08> <http://purl.org/dc/terms/title> "Nada v. Switzerland [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:33401/02>.
-<eva:33401/02> <http://purl.org/dc/terms/title> "Opuz v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:42949/98>.
-<eva:42949/98> <http://purl.org/dc/terms/title> "Runkee and White v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:42949/98> <http://purl.org/dc/terms/date> "2007-05-10"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:43835/11>.
-<eva:43835/11> <http://purl.org/dc/terms/title> "S.A.S. v. France [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:36813/97>.
-<eva:36813/97> <http://purl.org/dc/terms/title> "Scordino v. Italy (no. 1) [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:27677/02>.
-<eva:27677/02> <http://purl.org/dc/terms/title> "Sentges v. the Netherlands (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:27677/02> <http://purl.org/dc/terms/date> "2003-07-08"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:65731/01>.
-<eva:65731/01> <http://purl.org/dc/terms/title> "Stec and Others v. the United Kingdom (dec.) [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:34369/97>.
-<eva:34369/97> <http://purl.org/dc/terms/title> "Thlimmenos v. Greece"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:33631/06>.
-<eva:33631/06> <http://purl.org/dc/terms/title> "Vrountou v. Cyprus"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:33631/06> <http://purl.org/dc/terms/date> "2015-10-13"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:58278/00>.
-<eva:58278/00> <http://purl.org/dc/terms/title> "Ždanoka v. Latvia [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/references> <eva:38621/97>.
-<eva:38621/97> <http://purl.org/dc/terms/title> "Zehnalová and Zehnal v. the Czech Republic (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38621/97> <http://purl.org/dc/terms/date> "2002-05-14"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:32949/17> <http://purl.org/dc/terms/description> "(Art. 14) Prohibition of discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/description> "(Art. 14) Discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/description> "(Art. 14) Other status"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/description> "(Art. 14) Sex"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/description> "(Art. 41) Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/description> "(P1-1) Protection of property"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/description> "(P1-1-1) Peaceful enjoyment of possessions"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32949/17> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2019:1024JUD003294917"^^<http://www.w3.org/2001/XMLSchema#string>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://eva.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ns1:importanceLevel 4 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q145> ;
+    dcterms:accessRights "public"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "ASHTON K. "^^xsd:string ],
+        [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "CARRIER R."^^xsd:string ] ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
+    dcterms:creator "Court (First Section)"^^xsd:string ;
+    dcterms:date "2019-10-24"^^xsd:date ;
+    dcterms:description "(Art. 14) Discrimination"^^xsd:string,
+        "(Art. 14) Other status"^^xsd:string,
+        "(Art. 14) Prohibition of discrimination"^^xsd:string,
+        "(Art. 14) Sex"^^xsd:string,
+        "(Art. 41) Just satisfaction"^^xsd:string,
+        "(Art. 41) Just satisfaction-{general}"^^xsd:string,
+        "(Art. 41) Non-pecuniary damage"^^xsd:string,
+        "(P1-1) Protection of property"^^xsd:string,
+        "(P1-1-1) Peaceful enjoyment of possessions"^^xsd:string,
+        "Article 1 of Protocol No. 1 - Protection of property)"^^xsd:string,
+        "Just satisfaction)"^^xsd:string,
+        "No violation of Article 14+P1-1-1 - Prohibition of discrimination (Article 14 - Discrimination) (Article 1 para. 1 of Protocol No. 1 - Peaceful enjoyment of possessions"^^xsd:string,
+        "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^xsd:string,
+        "Violation of Article 14+P1-1-1 - Prohibition of discrimination (Article 14 - Discrimination) (Article 1 para. 1 of Protocol No. 1 - Peaceful enjoyment of possessions"^^xsd:string ;
+    dcterms:identifier "32949/17"^^xsd:string,
+        "34614/17"^^xsd:string ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2019:1024JUD003294917"^^xsd:string ;
+    dcterms:language "en"^^xsd:string ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
+    dcterms:references [ dcterms:date "2015-10-13"^^xsd:date ;
+            dcterms:description "Vrountou v. Cyprus, no. 33631/06, § 64, 13 October 2015"^^xsd:string ;
+            dcterms:identifier "33631/06"^^xsd:string ;
+            dcterms:title "Vrountou v. Cyprus"^^xsd:string ],
+        [ dcterms:description "Stec and Others v. the United Kingdom (dec.) [GC], nos. 65731/01 and 65900/01, ECHR 2005 X"^^xsd:string ;
+            dcterms:identifier "65731/01"^^xsd:string ;
+            dcterms:title "Stec and Others v. the United Kingdom (dec.) [GC]"^^xsd:string ],
+        [ dcterms:description "Burden v. the United Kingdom [GC], no. 13378/05, § 60, ECHR 2008"^^xsd:string ;
+            dcterms:identifier "13378/05"^^xsd:string ;
+            dcterms:title "Burden v. the United Kingdom [GC]"^^xsd:string ],
+        [ dcterms:date "2007-05-10"^^xsd:date ;
+            dcterms:description "Runkee and White v. the United Kingdom, nos. 42949/98 and 53134/99, 10 May 2007"^^xsd:string ;
+            dcterms:identifier "42949/98"^^xsd:string ;
+            dcterms:title "Runkee and White v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Mazurek v. France, no. 34406/97, §§ 46 and 48, ECHR 2000 II"^^xsd:string ;
+            dcterms:identifier "34406/97"^^xsd:string ;
+            dcterms:title "Mazurek v. France"^^xsd:string ],
+        [ dcterms:date "2016-09-15"^^xsd:date ;
+            dcterms:description "British Gurkha Welfare Society and Others v. the United Kingdom, no. 44818/11, 15 September 2016"^^xsd:string ;
+            dcterms:identifier "44818/11"^^xsd:string ;
+            dcterms:title "British Gurkha Welfare Society and Others v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Discretionary Financial Assistance Regulations (SI 2001/1167)"^^xsd:string ],
+        [ dcterms:description "Kurić and Others v. Slovenia [GC], no. 26828/06, § 288, ECHR 2012"^^xsd:string ;
+            dcterms:identifier "26828/06"^^xsd:string ;
+            dcterms:title "Kurić and Others v. Slovenia [GC]"^^xsd:string ],
+        [ dcterms:description "Regulation B13 of the Housing Benefit Regulations 2006 (SI 2006/213) "^^xsd:string ],
+        [ dcterms:date "2017-09-05"^^xsd:date ;
+            dcterms:description "Fábián v. Hungary [GC], no. 78117/13, 5 September 2017"^^xsd:string ;
+            dcterms:identifier "78117/13"^^xsd:string ;
+            dcterms:title "Fábián v. Hungary [GC]"^^xsd:string ],
+        [ dcterms:description "Ždanoka v. Latvia [GC], no. 58278/00, § 112, ECHR 2006 IV"^^xsd:string ;
+            dcterms:identifier "58278/00"^^xsd:string ;
+            dcterms:title "Ždanoka v. Latvia [GC]"^^xsd:string ],
+        [ dcterms:description "Hämäläinen v. Finland [GC], no. 37359/09, § 109, ECHR 2014"^^xsd:string ;
+            dcterms:identifier "37359/09"^^xsd:string ;
+            dcterms:title "Hämäläinen v. Finland [GC]"^^xsd:string ],
+        [ dcterms:date "1998-02-24"^^xsd:date ;
+            dcterms:description "Botta v. Italy, 24 February 1998, Reports of Judgments and Decisions 1998 I"^^xsd:string ;
+            dcterms:title "Botta v. Italy"^^xsd:string ],
+        [ dcterms:date "2010-07-13"^^xsd:date ;
+            dcterms:description "Clift v. the United Kingdom, no. 7205/07, §§ 56-57, 13 July 2010"^^xsd:string ;
+            dcterms:identifier "7205/07"^^xsd:string ;
+            dcterms:title "Clift v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "2016-03-22"^^xsd:date ;
+            dcterms:description "Guberina v. Croatia, no. 23682/13, 22 March 2016"^^xsd:string ;
+            dcterms:identifier "23682/13"^^xsd:string ;
+            dcterms:title "Guberina v. Croatia"^^xsd:string ],
+        [ dcterms:date "2003-07-08"^^xsd:date ;
+            dcterms:description "Sentges v. the Netherlands (dec.), no. 27677/02, 8 July 2003"^^xsd:string ;
+            dcterms:identifier "27677/02"^^xsd:string ;
+            dcterms:title "Sentges v. the Netherlands (dec.)"^^xsd:string ],
+        [ dcterms:date "2017-05-23"^^xsd:date ;
+            dcterms:description "Bălșan v. Romania, no. 49645/09, 23 May 2017"^^xsd:string ;
+            dcterms:identifier "49645/09"^^xsd:string ;
+            dcterms:title "Bălșan v. Romania"^^xsd:string ],
+        [ dcterms:description "Thlimmenos v. Greece, [GC], no. 34369/97, ECHR 2000 IV"^^xsd:string ;
+            dcterms:identifier "34369/97"^^xsd:string ;
+            dcterms:title "Thlimmenos v. Greece"^^xsd:string ],
+        [ dcterms:description "Glor v. Switzerland, no. 13444/04, § 84, ECHR 2009"^^xsd:string ;
+            dcterms:identifier "13444/04"^^xsd:string ;
+            dcterms:title "Glor v. Switzerland"^^xsd:string ],
+        [ dcterms:description "S.A.S. v. France [GC], no. 43835/11, § 161, ECHR 2014 (extracts)"^^xsd:string ;
+            dcterms:identifier "43835/11"^^xsd:string ;
+            dcterms:title "S.A.S. v. France [GC]"^^xsd:string ],
+        [ dcterms:date "2010-09-14"^^xsd:date ;
+            dcterms:description "Farcas v. Romania, no. 32596/04, 14 September 2010"^^xsd:string ;
+            dcterms:identifier "32596/04"^^xsd:string ;
+            dcterms:title "Farcas v. Romania"^^xsd:string ],
+        [ dcterms:description "Gäfgen v. Germany [GC], no. 22978/05, § 115, ECHR 2010"^^xsd:string ;
+            dcterms:identifier "22978/05"^^xsd:string ;
+            dcterms:title "Gäfgen v. Germany [GC]"^^xsd:string ],
+        [ dcterms:date "2013-01-15"^^xsd:date ;
+            dcterms:description "Eweida and Others v. the United Kingdom, no. 48420/10, 15 January 2013"^^xsd:string ;
+            dcterms:identifier "48420/10"^^xsd:string ;
+            dcterms:title "Eweida and Others v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Opuz v. Turkey, no. 33401/02, ECHR 2009"^^xsd:string ;
+            dcterms:identifier "33401/02"^^xsd:string ;
+            dcterms:title "Opuz v. Turkey"^^xsd:string ],
+        [ dcterms:description "D.H. and Others v. the Czech Republic [GC], no. 57325/00, ECHR 2007 IV"^^xsd:string ;
+            dcterms:identifier "57325/00"^^xsd:string ;
+            dcterms:title "D.H. and Others v. the Czech Republic [GC]"^^xsd:string ],
+        [ dcterms:description "Nada v. Switzerland [GC], no. 10593/08, § 128, ECHR 2012"^^xsd:string ;
+            dcterms:identifier "10593/08"^^xsd:string ;
+            dcterms:title "Nada v. Switzerland [GC]"^^xsd:string ],
+        [ dcterms:date "2016-10-06"^^xsd:date ;
+            dcterms:description "Daniel Faulkner v. the United Kingdom, no. 68909/13, 6 October 2016"^^xsd:string ;
+            dcterms:identifier "68909/13"^^xsd:string ;
+            dcterms:title "Daniel Faulkner v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Scordino v. Italy (no. 1) [GC], no. 36813/97, § 180, ECHR 2006 V"^^xsd:string ;
+            dcterms:identifier "36813/97"^^xsd:string ;
+            dcterms:title "Scordino v. Italy (no. 1) [GC]"^^xsd:string ],
+        [ dcterms:date "2002-05-14"^^xsd:date ;
+            dcterms:description "Zehnalová and Zehnal v. the Czech Republic (dec.), no. 38621/97, 14 May 2002"^^xsd:string ;
+            dcterms:identifier "38621/97"^^xsd:string ;
+            dcterms:title "Zehnalová and Zehnal v. the Czech Republic (dec.)"^^xsd:string ],
+        [ dcterms:description "Carson and Others v. the United Kingdom [GC], no. 42184/05, § 61, ECHR 2010"^^xsd:string ;
+            dcterms:identifier "42184/05"^^xsd:string ;
+            dcterms:title "Carson and Others v. the United Kingdom [GC]"^^xsd:string ],
+        [ dcterms:description "Konstantin Markin v. Russia [GC], no. 30078/06, § 127, ECHR 2012"^^xsd:string ;
+            dcterms:identifier "30078/06"^^xsd:string ;
+            dcterms:title "Konstantin Markin v. Russia [GC]"^^xsd:string ],
+        [ dcterms:date "2012-04-24"^^xsd:date ;
+            dcterms:description "Kalucza v. Hungary, no. 57693/10, § 53, 24 April 2012)"^^xsd:string ;
+            dcterms:identifier "57693/10"^^xsd:string ;
+            dcterms:title "Kalucza v. Hungary"^^xsd:string ],
+        [ dcterms:description "Andrejeva v. Latvia [GC], no. 55707/00, ECHR 2009"^^xsd:string ;
+            dcterms:identifier "55707/00"^^xsd:string ;
+            dcterms:title "Andrejeva v. Latvia [GC]"^^xsd:string ] ;
+    dcterms:title "CASE OF J.D. AND A v. THE UNITED KINGDOM"^^xsd:string ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+

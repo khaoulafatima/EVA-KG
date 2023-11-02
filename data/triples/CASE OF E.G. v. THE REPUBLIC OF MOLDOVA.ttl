@@ -1,77 +1,103 @@
-<eva:37882/13> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
-<eva:37882/13> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
-<eva:37882/13> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
-<eva:37882/13> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
-<eva:37882/13> <http://purl.org/dc/terms/creator> "Court (Second Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
-<eva:37882/13> <http://purl.org/dc/terms/title> "CASE OF E.G. v. THE REPUBLIC OF MOLDOVA"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <eva:importance_level> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<eva:37882/13> <http://purl.org/dc/terms/contributor> <eva:BURLACA_Ş.>.
-<eva:BURLACA_Ş.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
-<eva:37882/13> <eva:respondent_state> <http://www.wikidata.org/entity/Q217>.
-<eva:37882/13> <http://purl.org/dc/terms/date> "2021-04-13"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:37882/13> <http://purl.org/dc/terms/abstract> "Preliminary objection dismissed (Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <http://purl.org/dc/terms/abstract> "(Art. 35-1) Six-month period"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <http://purl.org/dc/terms/abstract> "Violation of Article 3+8 - Prohibition of torture (Article 3 - Positive obligations) (Article 8 - Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <http://purl.org/dc/terms/abstract> "Positive obligations)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <http://purl.org/dc/terms/references> <eva:54917/13>.
-<eva:54917/13> <http://purl.org/dc/terms/title> "Akelienė v. Lithuanie"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:54917/13> <http://purl.org/dc/terms/date> "2018-10-16"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:37882/13> <http://purl.org/dc/terms/references> <eva:53645/10>.
-<eva:53645/10> <http://purl.org/dc/terms/title> "Ateşoğlu v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:53645/10> <http://purl.org/dc/terms/date> "2015-01-20"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:37882/13> <http://purl.org/dc/terms/references> <eva:61030/08>.
-<eva:61030/08> <http://purl.org/dc/terms/title> "B.V. v. Belgium"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:61030/08> <http://purl.org/dc/terms/date> "2017-05-02"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:37882/13> <http://purl.org/dc/terms/references> <eva:25057/11>.
-<eva:25057/11> <http://purl.org/dc/terms/title> "Călin and Others v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:25057/11> <http://purl.org/dc/terms/date> "2016-07-19"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:37882/13> <http://purl.org/dc/terms/references> <eva:25018/10>.
-<eva:25018/10> <http://purl.org/dc/terms/title> "İbrahim Demirtaş v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:25018/10> <http://purl.org/dc/terms/date> "2014-10-28"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:37882/13> <http://purl.org/dc/terms/references> <eva:6817/02>.
-<eva:6817/02> <http://purl.org/dc/terms/title> "Iordache v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:6817/02> <http://purl.org/dc/terms/date> "2008-10-14"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:37882/13> <http://purl.org/dc/terms/references> <eva:2319/14>.
-<eva:2319/14> <http://purl.org/dc/terms/title> "Kitanovska Stanojkovic and Others v. the former Yugoslav Republic of Macedonia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:2319/14> <http://purl.org/dc/terms/date> "2016-10-13"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:37882/13> <http://purl.org/dc/terms/references> <eva:39272/98>.
-<eva:39272/98> <http://purl.org/dc/terms/title> "M.C. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <http://purl.org/dc/terms/references> <eva:61495/11>.
-<eva:61495/11> <http://purl.org/dc/terms/title> "M.G.C. v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:61495/11> <http://purl.org/dc/terms/date> "2016-03-15"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:37882/13> <http://purl.org/dc/terms/references> <eva:17247/13>.
-<eva:17247/13> <http://purl.org/dc/terms/title> "Makuchyan and Minasyan v. Azerbaijan and Hungary"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:17247/13> <http://purl.org/dc/terms/date> "2020-05-26"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:37882/13> <http://purl.org/dc/terms/references> <eva:4455/10>.
-<eva:4455/10> <http://purl.org/dc/terms/title> "Marguš v. Croatia [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <http://purl.org/dc/terms/references> <eva:10865/09>.
-<eva:10865/09> <http://purl.org/dc/terms/title> "Mocanu and Others v. Romania [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <http://purl.org/dc/terms/references> <eva:31959/13>.
-<eva:31959/13> <http://purl.org/dc/terms/title> "Pulfer v. Albania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:31959/13> <http://purl.org/dc/terms/date> "2018-11-20"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:37882/13> <http://purl.org/dc/terms/references> <eva:48102/99>.
-<eva:48102/99> <http://purl.org/dc/terms/title> "Sabin Popescu v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:48102/99> <http://purl.org/dc/terms/date> "2004-03-02"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:37882/13> <http://purl.org/dc/terms/references> <eva:30859/10>.
-<eva:30859/10> <http://purl.org/dc/terms/title> "Sokolov and Others v. Serbia (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:30859/10> <http://purl.org/dc/terms/date> "2014-01-14"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:37882/13> <http://purl.org/dc/terms/references> <eva:41990/18>.
-<eva:41990/18> <http://purl.org/dc/terms/title> "Y v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41990/18> <http://purl.org/dc/terms/date> "2020-02-20"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:37882/13> <http://purl.org/dc/terms/references> <eva:39257/17>.
-<eva:39257/17> <http://purl.org/dc/terms/title> "Z v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:39257/17> <http://purl.org/dc/terms/date> "2020-05-28"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:37882/13> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <http://purl.org/dc/terms/description> "(Art. 3) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <http://purl.org/dc/terms/description> "(Art. 8) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <http://purl.org/dc/terms/description> "(Art 35-1) Four-month period (former six-month)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <http://purl.org/dc/terms/description> "(Art. 41) Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37882/13> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2021:0413JUD003788213"^^<http://www.w3.org/2001/XMLSchema#string>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://eva.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ns1:importanceLevel 4 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q217> ;
+    dcterms:accessRights "public"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "BURLACA Ş."^^xsd:string ] ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
+    dcterms:creator "Court (Second Section)"^^xsd:string ;
+    dcterms:date "2021-04-13"^^xsd:date ;
+    dcterms:description "(Art 35-1) Four-month period (former six-month)"^^xsd:string,
+        "(Art. 3) Positive obligations"^^xsd:string,
+        "(Art. 3) Prohibition of torture"^^xsd:string,
+        "(Art. 35) Admissibility criteria"^^xsd:string,
+        "(Art. 35-1) Six-month period"^^xsd:string,
+        "(Art. 41) Just satisfaction"^^xsd:string,
+        "(Art. 41) Just satisfaction-{general}"^^xsd:string,
+        "(Art. 41) Non-pecuniary damage"^^xsd:string,
+        "(Art. 8) Positive obligations"^^xsd:string,
+        "(Art. 8) Right to respect for private and family life"^^xsd:string,
+        "Just satisfaction)"^^xsd:string,
+        "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^xsd:string,
+        "Positive obligations)"^^xsd:string,
+        "Preliminary objection dismissed (Art. 35) Admissibility criteria"^^xsd:string,
+        "Violation of Article 3+8 - Prohibition of torture (Article 3 - Positive obligations) (Article 8 - Right to respect for private and family life"^^xsd:string ;
+    dcterms:identifier "37882/13"^^xsd:string ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2021:0413JUD003788213"^^xsd:string ;
+    dcterms:language "en"^^xsd:string ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
+    dcterms:references [ dcterms:date "2016-03-15"^^xsd:date ;
+            dcterms:description "M.G.C. v. Romania, no 61495/11, § 59, 15 March 2016"^^xsd:string ;
+            dcterms:identifier "61495/11"^^xsd:string ;
+            dcterms:title "M.G.C. v. Romania"^^xsd:string ],
+        [ dcterms:description "Marguš v. Croatia [GC], no 4455/10, § 139, ECHR 2014 (extracts)"^^xsd:string ;
+            dcterms:identifier "4455/10"^^xsd:string ;
+            dcterms:title "Marguš v. Croatia [GC]"^^xsd:string ],
+        [ dcterms:date "2016-10-13"^^xsd:date ;
+            dcterms:description "Kitanovska Stanojkovic and Others v. the former Yugoslav Republic of Macedonia, no 2319/14, § 32, 13 October 2016"^^xsd:string ;
+            dcterms:identifier "2319/14"^^xsd:string ;
+            dcterms:title "Kitanovska Stanojkovic and Others v. the former Yugoslav Republic of Macedonia"^^xsd:string ],
+        [ dcterms:description "M.C. v. Bulgaria, no 39272/98, ECHR 2003 XII"^^xsd:string ;
+            dcterms:identifier "39272/98"^^xsd:string ;
+            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
+        [ dcterms:date "2015-01-20"^^xsd:date ;
+            dcterms:description "Ateşoğlu v. Turkey, no 53645/10, § 28 in fine, 20 January 2015"^^xsd:string ;
+            dcterms:identifier "53645/10"^^xsd:string ;
+            dcterms:title "Ateşoğlu v. Turkey"^^xsd:string ],
+        [ dcterms:description "Mocanu and Others v. Romania [GC], nos. 10865/09 and 2 others, ECHR 2014 (extracts)"^^xsd:string ;
+            dcterms:identifier "10865/09"^^xsd:string ;
+            dcterms:title "Mocanu and Others v. Romania [GC]"^^xsd:string ],
+        [ dcterms:date "2018-10-16"^^xsd:date ;
+            dcterms:description "Akelienė v. Lithuanie, no 54917/13, 16 October 2018"^^xsd:string ;
+            dcterms:identifier "54917/13"^^xsd:string ;
+            dcterms:title "Akelienė v. Lithuanie"^^xsd:string ],
+        [ dcterms:date "2017-05-02"^^xsd:date ;
+            dcterms:description "B.V. v. Belgium, no 61030/08, § 55, 2 May 2017"^^xsd:string ;
+            dcterms:identifier "61030/08"^^xsd:string ;
+            dcterms:title "B.V. v. Belgium"^^xsd:string ],
+        [ dcterms:date "2018-11-20"^^xsd:date ;
+            dcterms:description "Pulfer v. Albania, no 31959/13, § 83, 20 November 2018"^^xsd:string ;
+            dcterms:identifier "31959/13"^^xsd:string ;
+            dcterms:title "Pulfer v. Albania"^^xsd:string ],
+        [ dcterms:date "2014-10-28"^^xsd:date ;
+            dcterms:description "İbrahim Demirtaş v. Turkey, no 25018/10, § 35, 28 October 2014"^^xsd:string ;
+            dcterms:identifier "25018/10"^^xsd:string ;
+            dcterms:title "İbrahim Demirtaş v. Turkey"^^xsd:string ],
+        [ dcterms:date "2020-02-20"^^xsd:date ;
+            dcterms:description "Y v. Bulgaria, no 41990/18, §§ 63-64, 20 February 2020"^^xsd:string ;
+            dcterms:identifier "41990/18"^^xsd:string ;
+            dcterms:title "Y v. Bulgaria"^^xsd:string ],
+        [ dcterms:date "2016-07-19"^^xsd:date ;
+            dcterms:description "Călin and Others v. Romania, nos. 25057/11 and 2 others, § 57, 19 July 2016"^^xsd:string ;
+            dcterms:identifier "25057/11"^^xsd:string ;
+            dcterms:title "Călin and Others v. Romania"^^xsd:string ],
+        [ dcterms:date "2020-05-28"^^xsd:date ;
+            dcterms:description "Z v. Bulgaria, no 39257/17, § 67, 28 May 2020"^^xsd:string ;
+            dcterms:identifier "39257/17"^^xsd:string ;
+            dcterms:title "Z v. Bulgaria"^^xsd:string ],
+        [ dcterms:date "2008-10-14"^^xsd:date ;
+            dcterms:description "Iordache v. Romania, no 6817/02, §§ 49-50, 14 October 2008"^^xsd:string ;
+            dcterms:identifier "6817/02"^^xsd:string ;
+            dcterms:title "Iordache v. Romania"^^xsd:string ],
+        [ dcterms:date "2014-01-14"^^xsd:date ;
+            dcterms:description "Sokolov and Others v. Serbia (dec.), nos. 30859/10 and others, § 31 in fine, 14 January 2014"^^xsd:string ;
+            dcterms:identifier "30859/10"^^xsd:string ;
+            dcterms:title "Sokolov and Others v. Serbia (dec.)"^^xsd:string ],
+        [ dcterms:date "1997-03-19"^^xsd:date ;
+            dcterms:description "Hornsby v. Greece, 19 March 1997, § 35, Reports of Judgments and Decisions 1997 II"^^xsd:string ;
+            dcterms:title "Hornsby v. Greece"^^xsd:string ],
+        [ dcterms:date "2020-05-26"^^xsd:date ;
+            dcterms:description "Makuchyan and Minasyan v. Azerbaijan and Hungary, no 17247/13, 26 May 2020"^^xsd:string ;
+            dcterms:identifier "17247/13"^^xsd:string ;
+            dcterms:title "Makuchyan and Minasyan v. Azerbaijan and Hungary"^^xsd:string ],
+        [ dcterms:date "2004-03-02"^^xsd:date ;
+            dcterms:description "Sabin Popescu v. Romania, no 48102/99, § 51, 2 March 2004"^^xsd:string ;
+            dcterms:identifier "48102/99"^^xsd:string ;
+            dcterms:title "Sabin Popescu v. Romania"^^xsd:string ] ;
+    dcterms:title "CASE OF E.G. v. THE REPUBLIC OF MOLDOVA"^^xsd:string ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+

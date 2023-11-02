@@ -1,75 +1,117 @@
-<eva:41107/10> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
-<eva:41107/10> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
-<eva:41107/10> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
-<eva:41107/10> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
-<eva:41107/10> <http://purl.org/dc/terms/creator> "Court (Fifth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
-<eva:41107/10> <http://purl.org/dc/terms/isPartOf> "Reports of Judgments and Decisions 2015 (extracts)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/title> "CASE OF Y. v. SLOVENIA"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <eva:importance_level> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<eva:41107/10> <http://purl.org/dc/terms/contributor> <eva:AHLIN_J.>.
-<eva:AHLIN_J.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
-<eva:41107/10> <eva:respondent_state> <http://www.wikidata.org/entity/Q215>.
-<eva:41107/10> <http://purl.org/dc/terms/date> "2015-05-28"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:41107/10> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/abstract> "Violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/abstract> "Article 8-1 - Respect for private life)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/references> <eva:37019/97>.
-<eva:37019/97> <http://purl.org/dc/terms/title> "A.M. v. Italy"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/references> <eva:28328/03>.
-<eva:28328/03> <http://purl.org/dc/terms/title> "Aigner v. Austria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:28328/03> <http://purl.org/dc/terms/date> "2012-05-10"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:41107/10> <http://purl.org/dc/terms/references> <eva:55523/00>.
-<eva:55523/00> <http://purl.org/dc/terms/title> "Angelova and Iliev v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:55523/00> <http://purl.org/dc/terms/date> "2007-07-26"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:41107/10> <http://purl.org/dc/terms/references> <eva:48254/99>.
-<eva:48254/99> <http://purl.org/dc/terms/title> "Cobzaru v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:48254/99> <http://purl.org/dc/terms/date> "2007-07-26"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:41107/10> <http://purl.org/dc/terms/references> <eva:32704/04>.
-<eva:32704/04> <http://purl.org/dc/terms/title> "Denis Vasilyev v. Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32704/04> <http://purl.org/dc/terms/date> "2009-12-17"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:41107/10> <http://purl.org/dc/terms/references> <eva:31143/96>.
-<eva:31143/96> <http://purl.org/dc/terms/title> "Indelicato v. Italy"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:31143/96> <http://purl.org/dc/terms/date> "2001-10-18"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:41107/10> <http://purl.org/dc/terms/references> <eva:26828/06>.
-<eva:26828/06> <http://purl.org/dc/terms/title> "Kurić and Others v. Slovenia (just satisfaction) [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/references> <eva:32863/05>.
-<eva:32863/05> <http://purl.org/dc/terms/title> "L.M. v. Slovenia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:32863/05> <http://purl.org/dc/terms/date> "2014-06-12"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:41107/10> <http://purl.org/dc/terms/references> <eva:26772/95>.
-<eva:26772/95> <http://purl.org/dc/terms/title> "Labita v. Italy [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/references> <eva:8916/05>.
-<eva:8916/05> <http://purl.org/dc/terms/title> "Les Témoins de Jéhovah v. France (just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:8916/05> <http://purl.org/dc/terms/date> "2012-07-05"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:41107/10> <http://purl.org/dc/terms/references> <eva:39272/98>.
-<eva:39272/98> <http://purl.org/dc/terms/title> "M.C. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/references> <eva:38281/08>.
-<eva:38281/08> <http://purl.org/dc/terms/title> "Mătăsaru and Saviţchi v. Moldova"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38281/08> <http://purl.org/dc/terms/date> "2010-11-02"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:41107/10> <http://purl.org/dc/terms/references> <eva:49669/07>.
-<eva:49669/07> <http://purl.org/dc/terms/title> "P.M. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:49669/07> <http://purl.org/dc/terms/date> "2012-01-24"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:41107/10> <http://purl.org/dc/terms/references> <eva:34209/96>.
-<eva:34209/96> <http://purl.org/dc/terms/title> "S.N. v. Sweden"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/references> <eva:24125/06>.
-<eva:24125/06> <http://purl.org/dc/terms/title> "W. v. Slovenia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:24125/06> <http://purl.org/dc/terms/date> "2014-01-23"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:41107/10> <http://purl.org/dc/terms/references> <eva:42435/02>.
-<eva:42435/02> <http://purl.org/dc/terms/title> "White v. Sweden"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:42435/02> <http://purl.org/dc/terms/date> "2006-09-19"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:41107/10> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/description> "(Art. 6) Right to a fair trial"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/description> "(Art. 6) Criminal proceedings"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/description> "(Art. 6-3-d) Examination of witnesses"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/description> "(Art. 8) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for private life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/description> "(Art. 41) Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:41107/10> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2015:0528JUD004110710"^^<http://www.w3.org/2001/XMLSchema#string>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://eva.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ns1:importanceLevel 4 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q215> ;
+    dcterms:accessRights "public"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "AHLIN J."^^xsd:string ] ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
+    dcterms:creator "Court (Fifth Section)"^^xsd:string ;
+    dcterms:date "2015-05-28"^^xsd:date ;
+    dcterms:description "(Art. 3) Effective investigation"^^xsd:string,
+        "(Art. 3) Prohibition of torture"^^xsd:string,
+        "(Art. 35) Admissibility criteria"^^xsd:string,
+        "(Art. 41) Just satisfaction"^^xsd:string,
+        "(Art. 41) Just satisfaction-{general}"^^xsd:string,
+        "(Art. 41) Non-pecuniary damage"^^xsd:string,
+        "(Art. 6) Criminal proceedings"^^xsd:string,
+        "(Art. 6) Right to a fair trial"^^xsd:string,
+        "(Art. 6-3-d) Examination of witnesses"^^xsd:string,
+        "(Art. 8) Positive obligations"^^xsd:string,
+        "(Art. 8) Right to respect for private and family life"^^xsd:string,
+        "(Art. 8-1) Respect for private life"^^xsd:string,
+        "Article 8-1 - Respect for private life)"^^xsd:string,
+        "Just satisfaction)"^^xsd:string,
+        "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^xsd:string,
+        "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect)"^^xsd:string,
+        "Violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations"^^xsd:string ;
+    dcterms:identifier "41107/10"^^xsd:string ;
+    dcterms:isPartOf "Reports of Judgments and Decisions 2015 (extracts)"^^xsd:string ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2015:0528JUD004110710"^^xsd:string ;
+    dcterms:language "en"^^xsd:string ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
+    dcterms:references [ dcterms:description "Directive of 25 October 2012 of the European Parliament and of the Council (2012/29/EU) establishing minimum standards on the rights, support and protection of victims of crime"^^xsd:string ],
+        [ dcterms:date "2010-11-02"^^xsd:date ;
+            dcterms:description "Mătăsaru and Saviţchi v. Moldova, no. 38281/08, §§ 88 and 93, 2 November 2010"^^xsd:string ;
+            dcterms:identifier "38281/08"^^xsd:string ;
+            dcterms:title "Mătăsaru and Saviţchi v. Moldova"^^xsd:string ],
+        [ dcterms:description "M.C. v. Bulgaria, no. 39272/98, §§ 149, 151 and 153, ECHR 2003 XII"^^xsd:string ;
+            dcterms:identifier "39272/98"^^xsd:string ;
+            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
+        [ dcterms:description "A.M. v. Italy, no. 37019/97, § 25, ECHR 1999-IX"^^xsd:string ;
+            dcterms:identifier "37019/97"^^xsd:string ;
+            dcterms:title "A.M. v. Italy"^^xsd:string ],
+        [ dcterms:date "2012-07-05"^^xsd:date ;
+            dcterms:description "Les Témoins de Jéhovah v. France (just satisfaction), no. 8916/05, § 37, 5 July 2012"^^xsd:string ;
+            dcterms:identifier "8916/05"^^xsd:string ;
+            dcterms:title "Les Témoins de Jéhovah v. France (just satisfaction)"^^xsd:string ],
+        [ dcterms:date "2007-07-26"^^xsd:date ;
+            dcterms:description "Angelova and Iliev v. Bulgaria, no. 55523/00, §§ 101-103, 26 July 2007"^^xsd:string ;
+            dcterms:identifier "55523/00"^^xsd:string ;
+            dcterms:title "Angelova and Iliev v. Bulgaria"^^xsd:string ],
+        [ dcterms:date "2001-10-18"^^xsd:date ;
+            dcterms:description "Indelicato v. Italy, no. 31143/96, § 37, 18 October 2001"^^xsd:string ;
+            dcterms:identifier "31143/96"^^xsd:string ;
+            dcterms:title "Indelicato v. Italy"^^xsd:string ],
+        [ dcterms:date "1985-03-26"^^xsd:date ;
+            dcterms:description "X and Y v. the Netherlands, 26 March 1985, § 23, Series A no. 91"^^xsd:string ;
+            dcterms:title "X and Y v. the Netherlands"^^xsd:string ],
+        [ dcterms:date "1993-09-20"^^xsd:date ;
+            dcterms:description "Saïdi v. France, 20 September 1993, § 43, Series A no. 261 C"^^xsd:string ;
+            dcterms:title "Saïdi v. France"^^xsd:string ],
+        [ dcterms:date "2012-05-10"^^xsd:date ;
+            dcterms:description "Aigner v. Austria, no. 28328/03, § 35, 10 May 2012"^^xsd:string ;
+            dcterms:identifier "28328/03"^^xsd:string ;
+            dcterms:title "Aigner v. Austria"^^xsd:string ],
+        [ dcterms:description "Kurić and Others v. Slovenia (just satisfaction) [GC], no. 26828/06, § 127, ECHR 2014"^^xsd:string ;
+            dcterms:identifier "26828/06"^^xsd:string ;
+            dcterms:title "Kurić and Others v. Slovenia (just satisfaction) [GC]"^^xsd:string ],
+        [ dcterms:date "2012-01-24"^^xsd:date ;
+            dcterms:description "P.M. v. Bulgaria, no. 49669/07, § 58, 24 January 2012"^^xsd:string ;
+            dcterms:identifier "49669/07"^^xsd:string ;
+            dcterms:title "P.M. v. Bulgaria"^^xsd:string ],
+        [ dcterms:description "Labita v. Italy [GC], no. 26772/95, §§ 133 et seq., ECHR 2000-IV"^^xsd:string ;
+            dcterms:identifier "26772/95"^^xsd:string ;
+            dcterms:title "Labita v. Italy [GC]"^^xsd:string ],
+        [ dcterms:date "2009-12-17"^^xsd:date ;
+            dcterms:description "Denis Vasilyev v. Russia, no. 32704/04, § 100, 17 December 2009"^^xsd:string ;
+            dcterms:identifier "32704/04"^^xsd:string ;
+            dcterms:title "Denis Vasilyev v. Russia"^^xsd:string ],
+        [ dcterms:description "Council of Europe Convention on Preventing and Combating Violence against Women and Domestic Violence (CETS No. 210)"^^xsd:string ],
+        [ dcterms:date "2006-09-19"^^xsd:date ;
+            dcterms:description "White v. Sweden, no. 42435/02, § 20, 19 September 2006"^^xsd:string ;
+            dcterms:identifier "42435/02"^^xsd:string ;
+            dcterms:title "White v. Sweden"^^xsd:string ],
+        [ dcterms:date "1988-07-12"^^xsd:date ;
+            dcterms:description "Schenk v. Switzerland, 12 July 1988, § 46, Series A no. 140"^^xsd:string ;
+            dcterms:title "Schenk v. Switzerland"^^xsd:string ],
+        [ dcterms:date "1996-03-26"^^xsd:date ;
+            dcterms:description "Doorson v. the Netherlands, 26 March 1996, Reports of Judgments and Decisions 1996 II"^^xsd:string ;
+            dcterms:title "Doorson v. the Netherlands"^^xsd:string ],
+        [ dcterms:description "S.N. v. Sweden, no. 34209/96, ECHR 2002 V"^^xsd:string ;
+            dcterms:identifier "34209/96"^^xsd:string ;
+            dcterms:title "S.N. v. Sweden"^^xsd:string ],
+        [ dcterms:date "2007-07-26"^^xsd:date ;
+            dcterms:description "Cobzaru v. Romania, no. 48254/99, § 65, 26 July 2007"^^xsd:string ;
+            dcterms:identifier "48254/99"^^xsd:string ;
+            dcterms:title "Cobzaru v. Romania"^^xsd:string ],
+        [ dcterms:date "1976-06-08"^^xsd:date ;
+            dcterms:description "Engel and Others v. the Netherlands, 8 June 1976, § 91, Series A no. 22"^^xsd:string ;
+            dcterms:title "Engel and Others v. the Netherlands"^^xsd:string ],
+        [ dcterms:date "2014-01-23"^^xsd:date ;
+            dcterms:description "W. v. Slovenia, no. 24125/06, 23 January 2014"^^xsd:string ;
+            dcterms:identifier "24125/06"^^xsd:string ;
+            dcterms:title "W. v. Slovenia"^^xsd:string ],
+        [ dcterms:date "2014-06-12"^^xsd:date ;
+            dcterms:description "L.M. v. Slovenia, no. 32863/05, §§ 168-169, 12 June 2014"^^xsd:string ;
+            dcterms:identifier "32863/05"^^xsd:string ;
+            dcterms:title "L.M. v. Slovenia"^^xsd:string ],
+        [ dcterms:date "1991-08-28"^^xsd:date ;
+            dcterms:description "Brandstetter v. Austria, 28 August 1991, § 52, Series A no. 211"^^xsd:string ;
+            dcterms:title "Brandstetter v. Austria"^^xsd:string ] ;
+    dcterms:title "CASE OF Y. v. SLOVENIA"^^xsd:string ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+

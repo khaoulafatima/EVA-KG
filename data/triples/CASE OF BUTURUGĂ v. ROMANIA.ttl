@@ -1,74 +1,94 @@
-<eva:56867/15> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
-<eva:56867/15> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
-<eva:56867/15> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
-<eva:56867/15> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
-<eva:56867/15> <http://purl.org/dc/terms/creator> "Court (Fourth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
-<eva:56867/15> <http://purl.org/dc/terms/title> "CASE OF BUTURUGĂ v. ROMANIA"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <eva:importance_level> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<eva:56867/15> <http://purl.org/dc/terms/contributor> <eva:COJOCARU_L.>.
-<eva:COJOCARU_L.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
-<eva:56867/15> <eva:respondent_state> <http://www.wikidata.org/entity/Q218>.
-<eva:56867/15> <http://purl.org/dc/terms/date> "2020-02-11"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:56867/15> <http://purl.org/dc/terms/abstract> "Preliminary objection joined to merits and dismissed (Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/abstract> "(Art. 35-1) Exhaustion of domestic remedies"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/abstract> "Violation of Article 3+8 - Prohibition of torture (Article 3 - Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/abstract> "Positive obligations) (Article 8 - Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/abstract> "Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/abstract> "Article 8-1 - Respect for correspondence)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/abstract> "Pecuniary damage - claim dismissed (Article 41 - Pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/references> <eva:25642/94>.
-<eva:25642/94> <http://purl.org/dc/terms/title> "Aquilina v. Malta [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/references> <eva:49645/09>.
-<eva:49645/09> <http://purl.org/dc/terms/title> "Bălşan v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:49645/09> <http://purl.org/dc/terms/date> "2017-05-23"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:56867/15> <http://purl.org/dc/terms/references> <eva:61496/08>.
-<eva:61496/08> <http://purl.org/dc/terms/title> "Bărbulescu v. Romania [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:61496/08> <http://purl.org/dc/terms/date> "2017-09-05"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:56867/15> <http://purl.org/dc/terms/references> <eva:41526/10>.
-<eva:41526/10> <http://purl.org/dc/terms/title> "Đorđević v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/references> <eva:43994/05>.
-<eva:43994/05> <http://purl.org/dc/terms/title> "E.M. v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:43994/05> <http://purl.org/dc/terms/date> "2012-10-30"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:56867/15> <http://purl.org/dc/terms/references> <eva:8227/04>.
-<eva:8227/04> <http://purl.org/dc/terms/title> "E.S. and Others v. Slovakia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:8227/04> <http://purl.org/dc/terms/date> "2009-09-15"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:56867/15> <http://purl.org/dc/terms/references> <eva:57693/10>.
-<eva:57693/10> <http://purl.org/dc/terms/title> "Kalucza v. Hungary"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:57693/10> <http://purl.org/dc/terms/date> "2012-04-24"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:56867/15> <http://purl.org/dc/terms/references> <eva:646/10>.
-<eva:646/10> <http://purl.org/dc/terms/title> "M.G. v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:646/10> <http://purl.org/dc/terms/date> "2016-03-22"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:56867/15> <http://purl.org/dc/terms/references> <eva:51312/16>.
-<eva:51312/16> <http://purl.org/dc/terms/title> "M.K. v. Greece"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:51312/16> <http://purl.org/dc/terms/date> "2018-02-01"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:56867/15> <http://purl.org/dc/terms/references> <eva:33401/02>.
-<eva:33401/02> <http://purl.org/dc/terms/title> "Opuz v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/references> <eva:37685/10>.
-<eva:37685/10> <http://purl.org/dc/terms/title> "Radomilja and Others v. Croatia [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:37685/10> <http://purl.org/dc/terms/date> "2018-03-20"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:56867/15> <http://purl.org/dc/terms/references> <eva:5786/08>.
-<eva:5786/08> <http://purl.org/dc/terms/title> "Söderman v. Sweden [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/references> <eva:26608/11>.
-<eva:26608/11> <http://purl.org/dc/terms/title> "T.M. and C.M. v. the Republic of Moldova"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26608/11> <http://purl.org/dc/terms/date> "2014-01-28"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:56867/15> <http://purl.org/dc/terms/references> <eva:33234/07>.
-<eva:33234/07> <http://purl.org/dc/terms/title> "Valiulienė v. Lithuania"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:33234/07> <http://purl.org/dc/terms/date> "2013-03-26"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:56867/15> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/description> "(Art. 3) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/description> "(Art. 8) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for correspondence"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/description> "(Art. 35-1) Exhaustion of domestic remedies"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/description> "(Art. 41) Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/description> "(Art. 41) Pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:56867/15> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2020:0211JUD005686715"^^<http://www.w3.org/2001/XMLSchema#string>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://eva.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ns1:importanceLevel 4 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q218> ;
+    dcterms:accessRights "public"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "COJOCARU L."^^xsd:string ] ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
+    dcterms:creator "Court (Fourth Section)"^^xsd:string ;
+    dcterms:date "2020-02-11"^^xsd:date ;
+    dcterms:description "(Art. 3) Effective investigation"^^xsd:string,
+        "(Art. 3) Positive obligations"^^xsd:string,
+        "(Art. 3) Prohibition of torture"^^xsd:string,
+        "(Art. 35) Admissibility criteria"^^xsd:string,
+        "(Art. 35-1) Exhaustion of domestic remedies"^^xsd:string,
+        "(Art. 41) Just satisfaction"^^xsd:string,
+        "(Art. 41) Just satisfaction-{general}"^^xsd:string,
+        "(Art. 41) Non-pecuniary damage"^^xsd:string,
+        "(Art. 41) Pecuniary damage"^^xsd:string,
+        "(Art. 8) Positive obligations"^^xsd:string,
+        "(Art. 8) Right to respect for private and family life"^^xsd:string,
+        "(Art. 8-1) Respect for correspondence"^^xsd:string,
+        "Article 8-1 - Respect for correspondence)"^^xsd:string,
+        "Just satisfaction)"^^xsd:string,
+        "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^xsd:string,
+        "Pecuniary damage - claim dismissed (Article 41 - Pecuniary damage"^^xsd:string,
+        "Positive obligations"^^xsd:string,
+        "Positive obligations) (Article 8 - Right to respect for private and family life"^^xsd:string,
+        "Preliminary objection joined to merits and dismissed (Art. 35) Admissibility criteria"^^xsd:string,
+        "Violation of Article 3+8 - Prohibition of torture (Article 3 - Effective investigation"^^xsd:string ;
+    dcterms:identifier "56867/15"^^xsd:string ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2020:0211JUD005686715"^^xsd:string ;
+    dcterms:language "en"^^xsd:string ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
+    dcterms:references [ dcterms:date "2014-01-28"^^xsd:date ;
+            dcterms:description "T.M. and C.M. v. the Republic of Moldova, no 26608/11, § 47, 28 January 2014"^^xsd:string ;
+            dcterms:identifier "26608/11"^^xsd:string ;
+            dcterms:title "T.M. and C.M. v. the Republic of Moldova"^^xsd:string ],
+        [ dcterms:date "2018-03-20"^^xsd:date ;
+            dcterms:description "Radomilja and Others v. Croatia [GC], no 37685/10, §§ 114 and 126, 20 March 2018"^^xsd:string ;
+            dcterms:identifier "37685/10"^^xsd:string ;
+            dcterms:title "Radomilja and Others v. Croatia [GC]"^^xsd:string ],
+        [ dcterms:date "2016-03-22"^^xsd:date ;
+            dcterms:description "M.G. v. Turkey, no 646/10, § 93, 22 March 2016"^^xsd:string ;
+            dcterms:identifier "646/10"^^xsd:string ;
+            dcterms:title "M.G. v. Turkey"^^xsd:string ],
+        [ dcterms:date "2017-05-23"^^xsd:date ;
+            dcterms:description "Bălşan v. Romania, no 49645/09, 23 May 2017"^^xsd:string ;
+            dcterms:identifier "49645/09"^^xsd:string ;
+            dcterms:title "Bălşan v. Romania"^^xsd:string ],
+        [ dcterms:description "New Criminal Code, in force since 1 February 2014 "^^xsd:string ],
+        [ dcterms:description "Law no. 217/2003 on preventing and combating domestic violence"^^xsd:string ],
+        [ dcterms:date "2013-03-26"^^xsd:date ;
+            dcterms:description "Valiulienė v. Lithuania, no 33234/07, §§ 69 and 79, 26 March 2013"^^xsd:string ;
+            dcterms:identifier "33234/07"^^xsd:string ;
+            dcterms:title "Valiulienė v. Lithuania"^^xsd:string ],
+        [ dcterms:description "Đorđević v. Croatia, no 41526/10, § 139, ECHR 2012"^^xsd:string ;
+            dcterms:identifier "41526/10"^^xsd:string ;
+            dcterms:title "Đorđević v. Croatia"^^xsd:string ],
+        [ dcterms:description "Söderman v. Sweden [GC], no 5786/08, § 79, ECHR 2013"^^xsd:string ;
+            dcterms:identifier "5786/08"^^xsd:string ;
+            dcterms:title "Söderman v. Sweden [GC]"^^xsd:string ],
+        [ dcterms:description "Opuz v. Turkey, no 33401/02, § 159, ECHR 2009"^^xsd:string ;
+            dcterms:identifier "33401/02"^^xsd:string ;
+            dcterms:title "Opuz v. Turkey"^^xsd:string ],
+        [ dcterms:date "2012-10-30"^^xsd:date ;
+            dcterms:description "E.M. v. Romania, no 43994/05, 30 October 2012"^^xsd:string ;
+            dcterms:identifier "43994/05"^^xsd:string ;
+            dcterms:title "E.M. v. Romania"^^xsd:string ],
+        [ dcterms:date "2012-04-24"^^xsd:date ;
+            dcterms:description "Kalucza v. Hungary, no 57693/10, §§ 49-50, 24 April 2012"^^xsd:string ;
+            dcterms:identifier "57693/10"^^xsd:string ;
+            dcterms:title "Kalucza v. Hungary"^^xsd:string ],
+        [ dcterms:date "2017-09-05"^^xsd:date ;
+            dcterms:description "Bărbulescu v. Romania [GC], no 61496/08, § 108 in fine, 5 September 2017 (extracts)"^^xsd:string ;
+            dcterms:identifier "61496/08"^^xsd:string ;
+            dcterms:title "Bărbulescu v. Romania [GC]"^^xsd:string ],
+        [ dcterms:date "2009-09-15"^^xsd:date ;
+            dcterms:description "E.S. and Others v. Slovakia, no 8227/04, §§ 25-44, 15 September 2009"^^xsd:string ;
+            dcterms:identifier "8227/04"^^xsd:string ;
+            dcterms:title "E.S. and Others v. Slovakia"^^xsd:string ],
+        [ dcterms:date "2018-02-01"^^xsd:date ;
+            dcterms:description "M.K. v. Greece, no 51312/16, § 55 in fine, 1 February 2018"^^xsd:string ;
+            dcterms:identifier "51312/16"^^xsd:string ;
+            dcterms:title "M.K. v. Greece"^^xsd:string ],
+        [ dcterms:description "Aquilina v. Malta [GC], no 25642/94, § 39 in fine, ECHR 1999 III"^^xsd:string ;
+            dcterms:identifier "25642/94"^^xsd:string ;
+            dcterms:title "Aquilina v. Malta [GC]"^^xsd:string ] ;
+    dcterms:title "CASE OF BUTURUGĂ v. ROMANIA"^^xsd:string ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+

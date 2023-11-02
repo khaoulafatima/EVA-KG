@@ -1,57 +1,92 @@
-<eva:38478/05> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
-<eva:38478/05> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
-<eva:38478/05> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
-<eva:38478/05> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
-<eva:38478/05> <http://purl.org/dc/terms/creator> "Court (First Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q3769186>.
-<eva:38478/05> <http://purl.org/dc/terms/title> "CASE OF SANDRA JANKOVIĆ v. CROATIA"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <eva:importance_level> "1"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<eva:38478/05> <http://purl.org/dc/terms/contributor> <eva:BOJIC_I.>.
-<eva:BOJIC_I.> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
-<eva:38478/05> <eva:respondent_state> <http://www.wikidata.org/entity/Q224>.
-<eva:38478/05> <http://purl.org/dc/terms/date> "2009-03-05"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:38478/05> <http://purl.org/dc/terms/abstract> "Preliminary objection dismissed (non-exhaustion of domestic remedies)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/abstract> "Violation of Art. 8"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/abstract> "Violation of Art. 6-1"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/references> <eva:36505/02>.
-<eva:36505/02> <http://purl.org/dc/terms/title> "August v. the United Kingdom (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:36505/02> <http://purl.org/dc/terms/date> "2003-01-21"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:38478/05> <http://purl.org/dc/terms/references> <eva:26137/04>.
-<eva:26137/04> <http://purl.org/dc/terms/title> "Barta v. Hungary"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26137/04> <http://purl.org/dc/terms/date> "2007-04-10"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:38478/05> <http://purl.org/dc/terms/references> <eva:71127/01>.
-<eva:71127/01> <http://purl.org/dc/terms/title> "Bevacqua and S. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:71127/01> <http://purl.org/dc/terms/date> "2008-06-12"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:38478/05> <http://purl.org/dc/terms/references> <eva:64886/01>.
-<eva:64886/01> <http://purl.org/dc/terms/title> "Cocchiarella v. Italy [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/references> <eva:38719/97>.
-<eva:38719/97> <http://purl.org/dc/terms/title> "D.P. and J.C. v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38719/97> <http://purl.org/dc/terms/date> "2002-10-10"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:38478/05> <http://purl.org/dc/terms/references> <eva:30979/96>.
-<eva:30979/96> <http://purl.org/dc/terms/title> "Frydlender v. France [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/references> <eva:39272/98>.
-<eva:39272/98> <http://purl.org/dc/terms/title> "M.C. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/references> <eva:13178/03>.
-<eva:13178/03> <http://purl.org/dc/terms/title> "Mayeka and Mitunga v. Belgium"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/references> <eva:53176/99>.
-<eva:53176/99> <http://purl.org/dc/terms/title> "Mikulic v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/references> <eva:26455/04>.
-<eva:26455/04> <http://purl.org/dc/terms/title> "Plazonic v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:26455/04> <http://purl.org/dc/terms/date> "2008-03-06"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:38478/05> <http://purl.org/dc/terms/references> <eva:36813/97>.
-<eva:36813/97> <http://purl.org/dc/terms/title> "Scordino v. Italy (no. 1) [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/references> <eva:25803/94>.
-<eva:25803/94> <http://purl.org/dc/terms/title> "Selmouni v. France"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/description> "(Art. 35-1) Exhaustion of domestic remedies"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/description> "Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/description> "(Art. 6) Right to a fair trial"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/description> "(Art. 6) Civil proceedings"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/description> "(Art. 6) Enforcement proceedings"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/description> "(Art. 6-1) Reasonable time"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for private life"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:38478/05> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2009:0305JUD003847805"^^<http://www.w3.org/2001/XMLSchema#string>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://eva.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ns1:importanceLevel 1 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q224> ;
+    dcterms:accessRights "public"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "BOJIC I."^^xsd:string ] ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
+    dcterms:creator "Court (First Section)"^^xsd:string ;
+    dcterms:date "2009-03-05"^^xsd:date ;
+    dcterms:description "(Art. 35) Admissibility criteria"^^xsd:string,
+        "(Art. 35-1) Exhaustion of domestic remedies"^^xsd:string,
+        "(Art. 41) Just satisfaction-{general}"^^xsd:string,
+        "(Art. 6) Civil proceedings"^^xsd:string,
+        "(Art. 6) Enforcement proceedings"^^xsd:string,
+        "(Art. 6) Right to a fair trial"^^xsd:string,
+        "(Art. 6-1) Reasonable time"^^xsd:string,
+        "(Art. 8) Right to respect for private and family life"^^xsd:string,
+        "(Art. 8-1) Respect for private life"^^xsd:string,
+        "Non-pecuniary damage - award"^^xsd:string,
+        "Positive obligations"^^xsd:string,
+        "Preliminary objection dismissed (non-exhaustion of domestic remedies)"^^xsd:string,
+        "Violation of Art. 6-1"^^xsd:string,
+        "Violation of Art. 8"^^xsd:string ;
+    dcterms:identifier "38478/05"^^xsd:string ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2009:0305JUD003847805"^^xsd:string ;
+    dcterms:language "en"^^xsd:string ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
+    dcterms:references [ dcterms:date "1976-12-07"^^xsd:date ;
+            dcterms:description "Handyside v. the United Kingdom, 7 December 1976, § 49, Series A no. 24"^^xsd:string ;
+            dcterms:title "Handyside v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "M.C. v. Bulgaria, no. 39272/98, §§ 50, 150, 152, ECHR 2003-XII"^^xsd:string ;
+            dcterms:identifier "39272/98"^^xsd:string ;
+            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
+        [ dcterms:date "2008-03-06"^^xsd:date ;
+            dcterms:description "Plazonic v. Croatia, no. 26455/04, § 47, 6 March 2008"^^xsd:string ;
+            dcterms:identifier "26455/04"^^xsd:string ;
+            dcterms:title "Plazonic v. Croatia"^^xsd:string ],
+        [ dcterms:date "1985-03-26"^^xsd:date ;
+            dcterms:description "X and Y v. the Netherlands, 26 March 1985, §§ 22, 23, 24, 27, Series A no. 91"^^xsd:string ;
+            dcterms:title "X and Y v. the Netherlands"^^xsd:string ],
+        [ dcterms:description "Articles 2, 13, 48, 55, 60, 71, 172-174, 188 and 205 of the Code of Criminal Procedure"^^xsd:string ],
+        [ dcterms:date "2007-04-10"^^xsd:date ;
+            dcterms:description "Barta v. Hungary, no. 26137/04, § 45, 10 April 2007"^^xsd:string ;
+            dcterms:identifier "26137/04"^^xsd:string ;
+            dcterms:title "Barta v. Hungary"^^xsd:string ],
+        [ dcterms:date "2008-06-12"^^xsd:date ;
+            dcterms:description "Bevacqua and S. v. Bulgaria, no. 71127/01, § 65, 12 June 2008"^^xsd:string ;
+            dcterms:identifier "71127/01"^^xsd:string ;
+            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ],
+        [ dcterms:description "Mikulic v. Croatia, no. 53176/99, § 57, ECHR 2002-I and 27"^^xsd:string ;
+            dcterms:identifier "53176/99"^^xsd:string ;
+            dcterms:title "Mikulic v. Croatia"^^xsd:string ],
+        [ dcterms:date "1997-03-19"^^xsd:date ;
+            dcterms:description "Hornsby v. Greece, 19 March 1997, § 40, Reports 1997-II"^^xsd:string ;
+            dcterms:title "Hornsby v. Greece"^^xsd:string ],
+        [ dcterms:description "Selmouni v. France, [GC], no. 25803/94, § 101, ECHR 1999-V"^^xsd:string ;
+            dcterms:identifier "25803/94"^^xsd:string ;
+            dcterms:title "Selmouni v. France"^^xsd:string ],
+        [ dcterms:description "Cocchiarella v. Italy [GC], no. 64886/01, §§ 65-107, ECHR 2006-V"^^xsd:string ;
+            dcterms:identifier "64886/01"^^xsd:string ;
+            dcterms:title "Cocchiarella v. Italy [GC]"^^xsd:string ],
+        [ dcterms:description "Scordino v. Italy (no. 1) [GC], no. 36813/97, §§ 178-213, ECHR 2006-V"^^xsd:string ;
+            dcterms:identifier "36813/97"^^xsd:string ;
+            dcterms:title "Scordino v. Italy (no. 1) [GC]"^^xsd:string ],
+        [ dcterms:description "Frydlender v. France [GC], no. 30979/96, § 43, ECHR 2000-VII"^^xsd:string ;
+            dcterms:identifier "30979/96"^^xsd:string ;
+            dcterms:title "Frydlender v. France [GC]"^^xsd:string ],
+        [ dcterms:date "1996-12-18"^^xsd:date ;
+            dcterms:description "Aksoy v. Turkey, 18 December 1996, §§ 51-52, Reports of Judgments and Decisions 1996-VI"^^xsd:string ;
+            dcterms:title "Aksoy v. Turkey"^^xsd:string ],
+        [ dcterms:date "2002-10-10"^^xsd:date ;
+            dcterms:description "D.P. and J.C. v. the United Kingdom, no. 38719/97, § 118, 10 October 2002"^^xsd:string ;
+            dcterms:identifier "38719/97"^^xsd:string ;
+            dcterms:title "D.P. and J.C. v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Articles 8, 98, 102, 129, 176 and 331 of the Criminal Code "^^xsd:string ],
+        [ dcterms:description "Mayeka and Mitunga v. Belgium, no. 13178/03, § 48, ECHR 2006-XI"^^xsd:string ;
+            dcterms:identifier "13178/03"^^xsd:string ;
+            dcterms:title "Mayeka and Mitunga v. Belgium"^^xsd:string ],
+        [ dcterms:date "1993-03-25"^^xsd:date ;
+            dcterms:description "Costello-Roberts v. the United Kingdom, 25 March 1993, § 36, Series A no. 247-C"^^xsd:string ;
+            dcterms:title "Costello-Roberts v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "2003-01-21"^^xsd:date ;
+            dcterms:description "August v. the United Kingdom (dec.), no. 36505/02, 21 January 2003"^^xsd:string ;
+            dcterms:identifier "36505/02"^^xsd:string ;
+            dcterms:title "August v. the United Kingdom (dec.)"^^xsd:string ] ;
+    dcterms:title "CASE OF SANDRA JANKOVIĆ v. CROATIA"^^xsd:string ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+

@@ -1,18 +1,24 @@
-<eva:20658/11> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q10413040>.
-<eva:20658/11> <http://purl.org/dc/terms/coverage> <http://www.wikidata.org/entity/Q6602>.
-<eva:20658/11> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:20658/11> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q122880>.
-<eva:20658/11> <http://purl.org/dc/terms/accessRights> <http://www.wikidata.org/entity/Q2388316>.
-<eva:20658/11> <http://purl.org/dc/terms/creator> "Court (Fourth Section)"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:20658/11> <http://purl.org/dc/terms/type> <http://www.wikidata.org/entity/Q327000>.
-<eva:20658/11> <http://purl.org/dc/terms/title> "F.A. v. THE UNITED KINGDOM"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:20658/11> <eva:importance_level> "3"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<eva:20658/11> <http://purl.org/dc/terms/contributor> <eva:HAMMERSMITH_&_FULHAM_COMMUNITY_LAW_CENTRE>.
-<eva:HAMMERSMITH_&_FULHAM_COMMUNITY_LAW_CENTRE> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.wikidata.org/entity/Q40348>.
-<eva:20658/11> <eva:respondent_state> <http://www.wikidata.org/entity/Q145>.
-<eva:20658/11> <http://purl.org/dc/terms/date> "2013-09-10"^^<http://www.w3.org/2001/XMLSchema#date>.
-<eva:20658/11> <http://purl.org/dc/terms/abstract> "Inadmissible"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:20658/11> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:20658/11> <http://purl.org/dc/terms/description> "(Art. 4) Prohibition of slavery and forced labour"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:20658/11> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<eva:20658/11> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2013:0910DEC002065811"^^<http://www.w3.org/2001/XMLSchema#string>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://eva.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ns1:importanceLevel 3 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q145> ;
+    dcterms:accessRights "public"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "HAMMERSMITH & FULHAM COMMUNITY LAW CENTRE"^^xsd:string ] ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
+    dcterms:creator "Court (Fourth Section)"^^xsd:string ;
+    dcterms:date "2013-09-10"^^xsd:date ;
+    dcterms:description "(Art. 3) Prohibition of torture"^^xsd:string,
+        "(Art. 35) Admissibility criteria"^^xsd:string,
+        "(Art. 4) Prohibition of slavery and forced labour"^^xsd:string,
+        "Inadmissible"^^xsd:string ;
+    dcterms:identifier "20658/11"^^xsd:string ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2013:0910DEC002065811"^^xsd:string ;
+    dcterms:language "en"^^xsd:string ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
+    dcterms:title "F.A. v. THE UNITED KINGDOM"^^xsd:string ;
+    dcterms:type <http://www.wikidata.org/entity/Q327000> .
+
