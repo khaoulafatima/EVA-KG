@@ -15,6 +15,35 @@
 <eva:38478/05> <http://purl.org/dc/terms/abstract> "Violation of Art. 8"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:38478/05> <http://purl.org/dc/terms/abstract> "Violation of Art. 6-1"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:38478/05> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/references> <eva:36505/02>.
+<eva:36505/02> <http://purl.org/dc/terms/title> "August v. the United Kingdom (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:36505/02> <http://purl.org/dc/terms/date> "2003-01-21"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:38478/05> <http://purl.org/dc/terms/references> <eva:26137/04>.
+<eva:26137/04> <http://purl.org/dc/terms/title> "Barta v. Hungary"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:26137/04> <http://purl.org/dc/terms/date> "2007-04-10"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:38478/05> <http://purl.org/dc/terms/references> <eva:71127/01>.
+<eva:71127/01> <http://purl.org/dc/terms/title> "Bevacqua and S. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/date> "2008-06-12"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:38478/05> <http://purl.org/dc/terms/references> <eva:64886/01>.
+<eva:64886/01> <http://purl.org/dc/terms/title> "Cocchiarella v. Italy [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/references> <eva:38719/97>.
+<eva:38719/97> <http://purl.org/dc/terms/title> "D.P. and J.C. v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38719/97> <http://purl.org/dc/terms/date> "2002-10-10"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:38478/05> <http://purl.org/dc/terms/references> <eva:30979/96>.
+<eva:30979/96> <http://purl.org/dc/terms/title> "Frydlender v. France [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/references> <eva:39272/98>.
+<eva:39272/98> <http://purl.org/dc/terms/title> "M.C. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/references> <eva:13178/03>.
+<eva:13178/03> <http://purl.org/dc/terms/title> "Mayeka and Mitunga v. Belgium"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/references> <eva:53176/99>.
+<eva:53176/99> <http://purl.org/dc/terms/title> "Mikulic v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/references> <eva:26455/04>.
+<eva:26455/04> <http://purl.org/dc/terms/title> "Plazonic v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:26455/04> <http://purl.org/dc/terms/date> "2008-03-06"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:38478/05> <http://purl.org/dc/terms/references> <eva:36813/97>.
+<eva:36813/97> <http://purl.org/dc/terms/title> "Scordino v. Italy (no. 1) [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/references> <eva:25803/94>.
+<eva:25803/94> <http://purl.org/dc/terms/title> "Selmouni v. France"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:38478/05> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:38478/05> <http://purl.org/dc/terms/description> "(Art. 35-1) Exhaustion of domestic remedies"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:38478/05> <http://purl.org/dc/terms/description> "Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.

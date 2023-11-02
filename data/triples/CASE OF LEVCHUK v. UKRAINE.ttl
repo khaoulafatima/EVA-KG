@@ -15,6 +15,56 @@
 <eva:17496/19> <http://purl.org/dc/terms/abstract> "Article 8-1 - Respect for private life)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:17496/19> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:17496/19> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:17496/19> <http://purl.org/dc/terms/references> <eva:55164/08>.
+<eva:55164/08> <http://purl.org/dc/terms/title> "A. v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:55164/08> <http://purl.org/dc/terms/date> "2010-10-14"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:17496/19> <http://purl.org/dc/terms/references> <eva:61382/09>.
+<eva:61382/09> <http://purl.org/dc/terms/title> "B. v. the Republic of Moldova"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:61382/09> <http://purl.org/dc/terms/date> "2013-07-16"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:17496/19> <http://purl.org/dc/terms/references> <eva:49645/09>.
+<eva:49645/09> <http://purl.org/dc/terms/title> "Bălşan v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/date> "2017-05-23"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:17496/19> <http://purl.org/dc/terms/references> <eva:4494/07>.
+<eva:4494/07> <http://purl.org/dc/terms/title> "Belousov v. Ukraine"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:4494/07> <http://purl.org/dc/terms/date> "2013-11-07"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:17496/19> <http://purl.org/dc/terms/references> <eva:71127/01>.
+<eva:71127/01> <http://purl.org/dc/terms/title> "Bevacqua and S. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/date> "2008-06-12"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:17496/19> <http://purl.org/dc/terms/references> <eva:47848/08>.
+<eva:47848/08> <http://purl.org/dc/terms/title> "Centre for Legal Resources on behalf of Valentin Câmpeanu v. Romania [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:17496/19> <http://purl.org/dc/terms/references> <eva:41526/10>.
+<eva:41526/10> <http://purl.org/dc/terms/title> "Đorđević v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:17496/19> <http://purl.org/dc/terms/references> <eva:3564/11>.
+<eva:3564/11> <http://purl.org/dc/terms/title> "Eremia v. the Republic of Moldova"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/date> "2013-05-28"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:17496/19> <http://purl.org/dc/terms/references> <eva:2660/03>.
+<eva:2660/03> <http://purl.org/dc/terms/title> "Hajduová v. Slovakia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:2660/03> <http://purl.org/dc/terms/date> "2010-11-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:17496/19> <http://purl.org/dc/terms/references> <eva:1870/05>.
+<eva:1870/05> <http://purl.org/dc/terms/title> "Irina Smirnova v. Ukraine"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:1870/05> <http://purl.org/dc/terms/date> "2016-10-13"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:17496/19> <http://purl.org/dc/terms/references> <eva:57693/10>.
+<eva:57693/10> <http://purl.org/dc/terms/title> "Kalucza v. Hungary"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57693/10> <http://purl.org/dc/terms/date> "2012-04-24"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:17496/19> <http://purl.org/dc/terms/references> <eva:30856/03>.
+<eva:30856/03> <http://purl.org/dc/terms/title> "Kryvitska and Kryvitskyy v. Ukraine"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:30856/03> <http://purl.org/dc/terms/date> "2010-12-02"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:17496/19> <http://purl.org/dc/terms/references> <eva:33401/02>.
+<eva:33401/02> <http://purl.org/dc/terms/title> "Opuz v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:17496/19> <http://purl.org/dc/terms/references> <eva:12556/03>.
+<eva:12556/03> <http://purl.org/dc/terms/title> "Pfeifer v. Austria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:12556/03> <http://purl.org/dc/terms/date> "2007-11-15"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:17496/19> <http://purl.org/dc/terms/references> <eva:5786/08>.
+<eva:5786/08> <http://purl.org/dc/terms/title> "Söderman v. Sweden [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:17496/19> <http://purl.org/dc/terms/references> <eva:41237/14>.
+<eva:41237/14> <http://purl.org/dc/terms/title> "Talpis v. Italy"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/date> "2017-03-02"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:17496/19> <http://purl.org/dc/terms/references> <eva:33234/07>.
+<eva:33234/07> <http://purl.org/dc/terms/title> "Valiulienė v. Lithuania"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33234/07> <http://purl.org/dc/terms/date> "2013-03-26"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:17496/19> <http://purl.org/dc/terms/references> <eva:41261/17>.
+<eva:41261/17> <http://purl.org/dc/terms/title> "Volodina v. Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41261/17> <http://purl.org/dc/terms/date> "2019-07-09"^^<http://www.w3.org/2001/XMLSchema#date>.
 <eva:17496/19> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:17496/19> <http://purl.org/dc/terms/description> "(Art. 8) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:17496/19> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for private life"^^<http://www.w3.org/2001/XMLSchema#string>.

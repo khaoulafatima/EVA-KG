@@ -13,6 +13,40 @@
 <eva:46598/06> <http://purl.org/dc/terms/date> "2009-01-15"^^<http://www.w3.org/2001/XMLSchema#date>.
 <eva:46598/06> <http://purl.org/dc/terms/abstract> "Violation of Art. 2 (substantive aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:46598/06> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/references> <eva:33747/96>.
+<eva:33747/96> <http://purl.org/dc/terms/title> "Bromiley v. the United Kingdom (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33747/96> <http://purl.org/dc/terms/date> "1999-11-23"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:46598/06> <http://purl.org/dc/terms/references> <eva:32967/96>.
+<eva:32967/96> <http://purl.org/dc/terms/title> "Calvelli and Ciglio v. Italy [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/references> <eva:24520/94>.
+<eva:24520/94> <http://purl.org/dc/terms/title> "Caraher v. the United Kingdom (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/references> <eva:33218/96>.
+<eva:33218/96> <http://purl.org/dc/terms/title> "E. and Others v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/references> <eva:22277/93>.
+<eva:22277/93> <http://purl.org/dc/terms/title> "Ilhan v. Turkey [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/references> <eva:53749/00>.
+<eva:53749/00> <http://purl.org/dc/terms/title> "Lazzarini and Ghiacci v. Italy (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:53749/00> <http://purl.org/dc/terms/date> "2002-11-07"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:46598/06> <http://purl.org/dc/terms/references> <eva:37703/97>.
+<eva:37703/97> <http://purl.org/dc/terms/title> "Mastromatteo v. Italy [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/references> <eva:24833/94>.
+<eva:24833/94> <http://purl.org/dc/terms/title> "Matthews v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/references> <eva:28883/95>.
+<eva:28883/95> <http://purl.org/dc/terms/title> "McKerr v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/references> <eva:43577/98>.
+<eva:43577/98> <http://purl.org/dc/terms/title> "Nachova and Others v. Bulgaria [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/references> <eva:46477/99>.
+<eva:46477/99> <http://purl.org/dc/terms/title> "Paul and Audrey Edwards v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/references> <eva:47287/99>.
+<eva:47287/99> <http://purl.org/dc/terms/title> "Perez v. France [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/references> <eva:25803/94>.
+<eva:25803/94> <http://purl.org/dc/terms/title> "Selmouni v. France [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/references> <eva:57671/00>.
+<eva:57671/00> <http://purl.org/dc/terms/title> "Slimani v. France"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/references> <eva:4353/03>.
+<eva:4353/03> <http://purl.org/dc/terms/title> "Tarariyeva v. Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/references> <eva:53924/00>.
+<eva:53924/00> <http://purl.org/dc/terms/title> "Vo v. France [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:46598/06> <http://purl.org/dc/terms/description> "Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:46598/06> <http://purl.org/dc/terms/description> "(Art. 2) Right to life"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:46598/06> <http://purl.org/dc/terms/description> "(Art. 2-1) Life"^^<http://www.w3.org/2001/XMLSchema#string>.

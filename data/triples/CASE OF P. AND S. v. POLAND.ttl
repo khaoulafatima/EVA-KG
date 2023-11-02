@@ -24,6 +24,85 @@
 <eva:57375/08> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:57375/08> <http://purl.org/dc/terms/abstract> "Inhuman treatment) (Substantive aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:57375/08> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:25579/05>.
+<eva:25579/05> <http://purl.org/dc/terms/title> "A"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25579/05> <http://purl.org/dc/terms/date> "2010-12-16"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:25642/94>.
+<eva:25642/94> <http://purl.org/dc/terms/title> "Aquilina v. Malta [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:23373/03>.
+<eva:23373/03> <http://purl.org/dc/terms/title> "Biriuk v. Lithuania"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23373/03> <http://purl.org/dc/terms/date> "2008-11-25"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:26053/07>.
+<eva:26053/07> <http://purl.org/dc/terms/title> "Carlo Dossi and Others v. Italy"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:26053/07> <http://purl.org/dc/terms/date> "2010-10-12"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:28957/95>.
+<eva:28957/95> <http://purl.org/dc/terms/title> "Christine Goodwin v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:58148/00>.
+<eva:58148/00> <http://purl.org/dc/terms/title> "Editions Plon v. France"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:30873/96>.
+<eva:30873/96> <http://purl.org/dc/terms/title> "Egmez v. Cyprus"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:6339/05>.
+<eva:6339/05> <http://purl.org/dc/terms/title> "Evans v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:28870/05>.
+<eva:28870/05> <http://purl.org/dc/terms/title> "Gecekusu v. Turkey (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:28870/05> <http://purl.org/dc/terms/date> "2010-05-25"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:61827/00>.
+<eva:61827/00> <http://purl.org/dc/terms/title> "Glass v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:27526/95>.
+<eva:27526/95> <http://purl.org/dc/terms/title> "Günaydin v. Turkey (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:27526/95> <http://purl.org/dc/terms/date> "2002-04-25"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:20511/03>.
+<eva:20511/03> <http://purl.org/dc/terms/title> "I. v. Finland"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:20511/03> <http://purl.org/dc/terms/date> "2008-07-17"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:25196/94>.
+<eva:25196/94> <http://purl.org/dc/terms/title> "Iwanczuk v. Poland"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25196/94> <http://purl.org/dc/terms/date> "2001-11-15"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:33670/96>.
+<eva:33670/96> <http://purl.org/dc/terms/title> "Koniarska v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33670/96> <http://purl.org/dc/terms/date> "2000-10-12"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:56195/00>.
+<eva:56195/00> <http://purl.org/dc/terms/title> "Krumpel and Krumpelová v. Slovakia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:56195/00> <http://purl.org/dc/terms/date> "2005-07-05"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:2627/09>.
+<eva:2627/09> <http://purl.org/dc/terms/title> "Kupczak v. Poland"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:2627/09> <http://purl.org/dc/terms/date> "2011-01-25"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:26772/95>.
+<eva:26772/95> <http://purl.org/dc/terms/title> "Labita v. Italy [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:39272/98>.
+<eva:39272/98> <http://purl.org/dc/terms/title> "M.C. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:31195/96>.
+<eva:31195/96> <http://purl.org/dc/terms/title> "Nikolova v. Bulgaria [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:31195/96> <http://purl.org/dc/terms/date> "1999-03-25"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:14462/03>.
+<eva:14462/03> <http://purl.org/dc/terms/title> "Pentiacova and Others v. Moldova (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:45305/99>.
+<eva:45305/99> <http://purl.org/dc/terms/title> "Powell v. the United Kingdom (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:33394/96>.
+<eva:33394/96> <http://purl.org/dc/terms/title> "Price v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:27617/04>.
+<eva:27617/04> <http://purl.org/dc/terms/title> "R.R. v. Poland"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:27617/04> <http://purl.org/dc/terms/date> "2011-05-26"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:32555/96>.
+<eva:32555/96> <http://purl.org/dc/terms/title> "Roche v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:57813/00>.
+<eva:57813/00> <http://purl.org/dc/terms/title> "S.H. and Others v. Austria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57813/00> <http://purl.org/dc/terms/date> "2010-04-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:27677/02>.
+<eva:27677/02> <http://purl.org/dc/terms/title> "Sentges v. the Netherlands (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:27677/02> <http://purl.org/dc/terms/date> "2003-07-08"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:33985/96>.
+<eva:33985/96> <http://purl.org/dc/terms/title> "Smith and Grady v. the United Kingdom (just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:5410/03>.
+<eva:5410/03> <http://purl.org/dc/terms/title> "Tysiac v. Poland"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:5410/03> <http://purl.org/dc/terms/date> "2007-03-20"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:18968/07>.
+<eva:18968/07> <http://purl.org/dc/terms/title> "V.C. v. Slovakia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:14612/02>.
+<eva:14612/02> <http://purl.org/dc/terms/title> "Wiktorko v. Poland"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:14612/02> <http://purl.org/dc/terms/date> "2009-03-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:57375/08> <http://purl.org/dc/terms/references> <eva:25266/05>.
+<eva:25266/05> <http://purl.org/dc/terms/title> "Yardimci v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25266/05> <http://purl.org/dc/terms/date> "2010-01-05"^^<http://www.w3.org/2001/XMLSchema#date>.
 <eva:57375/08> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:57375/08> <http://purl.org/dc/terms/description> "(Art. 3) Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:57375/08> <http://purl.org/dc/terms/description> "(Art. 3) Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.

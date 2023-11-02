@@ -26,6 +26,86 @@
 <eva:25965/04> <http://purl.org/dc/terms/abstract> "Violation of Art. 5 by Cyprus"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:25965/04> <http://purl.org/dc/terms/abstract> "Remainder inadmissible"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:25965/04> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:24351/94>.
+<eva:24351/94> <http://purl.org/dc/terms/title> "Aktas v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:35763/97>.
+<eva:35763/97> <http://purl.org/dc/terms/title> "Al-Adsani v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:52207/99>.
+<eva:52207/99> <http://purl.org/dc/terms/title> "Bankovic and Others v. Belgium and 16 Other Contracting States (dec.) [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:23657/94>.
+<eva:23657/94> <http://purl.org/dc/terms/title> "Çakici v. Turkey [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:32967/96>.
+<eva:32967/96> <http://purl.org/dc/terms/title> "Calvelli and Ciglio v. Italy [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:49429/99>.
+<eva:49429/99> <http://purl.org/dc/terms/title> "Capital Bank AD v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:28957/95>.
+<eva:28957/95> <http://purl.org/dc/terms/title> "Christine Goodwin v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:34503/97>.
+<eva:34503/97> <http://purl.org/dc/terms/title> "Demir and Baykara v. Turkey [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:34503/97> <http://purl.org/dc/terms/date> "2008-11-12"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:23057/03>.
+<eva:23057/03> <http://purl.org/dc/terms/title> "Dinchev v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23057/03> <http://purl.org/dc/terms/date> "2009-01-22"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:24746/94>.
+<eva:24746/94> <http://purl.org/dc/terms/title> "Hugh Jordan v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:22277/93>.
+<eva:22277/93> <http://purl.org/dc/terms/title> "Ilhan v. Turkey [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:30408/96>.
+<eva:30408/96> <http://purl.org/dc/terms/title> "Järvinen v. Finland"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:30408/96> <http://purl.org/dc/terms/date> "1998-01-15"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:40016/98>.
+<eva:40016/98> <http://purl.org/dc/terms/title> "Karner v. Austria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:30054/96>.
+<eva:30054/96> <http://purl.org/dc/terms/title> "Kelly and Others v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:30054/96> <http://purl.org/dc/terms/date> "2001-05-04"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:22535/93>.
+<eva:22535/93> <http://purl.org/dc/terms/title> "Mahmut Kaya v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:25385/04>.
+<eva:25385/04> <http://purl.org/dc/terms/title> "Medova v. Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25385/04> <http://purl.org/dc/terms/date> "2009-01-15"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:47916/99>.
+<eva:47916/99> <http://purl.org/dc/terms/title> "Menson v. the United Kingdom (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:43577/98>.
+<eva:43577/98> <http://purl.org/dc/terms/title> "Nachova and Others v. Bulgaria [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:47244/99>.
+<eva:47244/99> <http://purl.org/dc/terms/title> "Novotka v. Slovakia (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47244/99> <http://purl.org/dc/terms/date> "2003-11-04"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:46221/99>.
+<eva:46221/99> <http://purl.org/dc/terms/title> "Öcalan v. Turkey [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:48939/99>.
+<eva:48939/99> <http://purl.org/dc/terms/title> "Öneryildiz v. Turkey [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:33401/02>.
+<eva:33401/02> <http://purl.org/dc/terms/title> "Opuz v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33401/02> <http://purl.org/dc/terms/date> "2009-06-09"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:46477/99>.
+<eva:46477/99> <http://purl.org/dc/terms/title> "Paul and Audrey Edwards v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:47287/99>.
+<eva:47287/99> <http://purl.org/dc/terms/title> "Perez v. France [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:858/08>.
+<eva:858/08> <http://purl.org/dc/terms/title> "Radoszewska-Zakoscielna v. Poland"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:858/08> <http://purl.org/dc/terms/date> "2009-10-20"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:40753/98>.
+<eva:40753/98> <http://purl.org/dc/terms/title> "Rampogna and Murgia v. Italy (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40753/98> <http://purl.org/dc/terms/date> "1999-05-11"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:37680/97>.
+<eva:37680/97> <http://purl.org/dc/terms/title> "Riera Blume and Others v. Spain"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:13229/03>.
+<eva:13229/03> <http://purl.org/dc/terms/title> "Saadi v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:42400/98>.
+<eva:42400/98> <http://purl.org/dc/terms/title> "Seguin v. France (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:42400/98> <http://purl.org/dc/terms/date> "2000-03-07"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:25803/94>.
+<eva:25803/94> <http://purl.org/dc/terms/title> "Selmouni v. France [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:73316/01>.
+<eva:73316/01> <http://purl.org/dc/terms/title> "Siliadin v. France"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:65731/01>.
+<eva:65731/01> <http://purl.org/dc/terms/title> "Stec and Others v. the United Kingdom (dec.) [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:61603/00>.
+<eva:61603/00> <http://purl.org/dc/terms/title> "Storck v. Germany"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:26307/95>.
+<eva:26307/95> <http://purl.org/dc/terms/title> "Tahsin Acar v. Turkey (preliminary objection) [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/references> <eva:29392/95>.
+<eva:29392/95> <http://purl.org/dc/terms/title> "Z and Others v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 35-3-a) Ratione loci"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:25965/04> <http://purl.org/dc/terms/description> "(Art. 35-3-a) Ratione materiae"^^<http://www.w3.org/2001/XMLSchema#string>.

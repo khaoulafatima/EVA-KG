@@ -13,6 +13,32 @@
 <eva:4547/10> <http://purl.org/dc/terms/date> "2012-03-13"^^<http://www.w3.org/2001/XMLSchema#date>.
 <eva:4547/10> <http://purl.org/dc/terms/abstract> "Remainder inadmissible"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:4547/10> <http://purl.org/dc/terms/abstract> "No violation of Article 8 - Right to respect for private and family life (Article 8-1 - Respect for family life)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:4547/10> <http://purl.org/dc/terms/references> <eva:28680/06>.
+<eva:28680/06> <http://purl.org/dc/terms/title> "A.D. and O.D. v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:28680/06> <http://purl.org/dc/terms/date> "2010-03-16"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:4547/10> <http://purl.org/dc/terms/references> <eva:25702/94>.
+<eva:25702/94> <http://purl.org/dc/terms/title> "K and T. v. Finland [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:4547/10> <http://purl.org/dc/terms/references> <eva:35991/04>.
+<eva:35991/04> <http://purl.org/dc/terms/title> "Kearns v. France"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35991/04> <http://purl.org/dc/terms/date> "2008-01-10"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:4547/10> <http://purl.org/dc/terms/references> <eva:30696/09>.
+<eva:30696/09> <http://purl.org/dc/terms/title> "M.S.S. v. Belgium and Greece [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:30696/09> <http://purl.org/dc/terms/date> "2011-01-21"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:4547/10> <http://purl.org/dc/terms/references> <eva:41615/07>.
+<eva:41615/07> <http://purl.org/dc/terms/title> "Neulinger and Shuruk v. Switzerland [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41615/07> <http://purl.org/dc/terms/date> "2010-07-06"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:4547/10> <http://purl.org/dc/terms/references> <eva:35348/06>.
+<eva:35348/06> <http://purl.org/dc/terms/title> "R. and H. v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35348/06> <http://purl.org/dc/terms/date> "2011-05-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:4547/10> <http://purl.org/dc/terms/references> <eva:38000/05>.
+<eva:38000/05> <http://purl.org/dc/terms/title> "R.K. and A.K. v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38000/05> <http://purl.org/dc/terms/date> "2008-09-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:4547/10> <http://purl.org/dc/terms/references> <eva:61540/09>.
+<eva:61540/09> <http://purl.org/dc/terms/title> "T.S. and D.S. v. the United Kingdom (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:61540/09> <http://purl.org/dc/terms/date> "2010-01-19"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:4547/10> <http://purl.org/dc/terms/references> <eva:11223/04>.
+<eva:11223/04> <http://purl.org/dc/terms/title> "X v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:11223/04> <http://purl.org/dc/terms/date> "2008-07-17"^^<http://www.w3.org/2001/XMLSchema#date>.
 <eva:4547/10> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:4547/10> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for family life"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:4547/10> <http://purl.org/dc/terms/description> "(Art. 8-2) Necessary in a democratic society"^^<http://www.w3.org/2001/XMLSchema#string>.

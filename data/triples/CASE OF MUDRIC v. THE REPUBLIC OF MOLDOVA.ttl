@@ -16,6 +16,39 @@
 <eva:74839/10> <http://purl.org/dc/terms/abstract> "Violation of Article 14+3 - Prohibition of discrimination (Article 14 - Discrimination) (Article 3 - Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:74839/10> <http://purl.org/dc/terms/abstract> "Positive obligations)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:74839/10> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:74839/10> <http://purl.org/dc/terms/references> <eva:71127/01>.
+<eva:71127/01> <http://purl.org/dc/terms/title> "Bevacqua and S. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/date> "2008-06-12"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:74839/10> <http://purl.org/dc/terms/references> <eva:41088/05>.
+<eva:41088/05> <http://purl.org/dc/terms/title> "Boicenco v. Moldova"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41088/05> <http://purl.org/dc/terms/date> "2006-07-11"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:74839/10> <http://purl.org/dc/terms/references> <eva:38719/97>.
+<eva:38719/97> <http://purl.org/dc/terms/title> "D.P. and J.C. v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38719/97> <http://purl.org/dc/terms/date> "2002-10-10"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:74839/10> <http://purl.org/dc/terms/references> <eva:32704/04>.
+<eva:32704/04> <http://purl.org/dc/terms/title> "Denis Vasilyev v. Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:32704/04> <http://purl.org/dc/terms/date> "2009-12-17"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:74839/10> <http://purl.org/dc/terms/references> <eva:33218/96>.
+<eva:33218/96> <http://purl.org/dc/terms/title> "E. and Others v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33218/96> <http://purl.org/dc/terms/date> "2002-11-26"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:74839/10> <http://purl.org/dc/terms/references> <eva:23893/06>.
+<eva:23893/06> <http://purl.org/dc/terms/title> "J.L. v. Latvia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23893/06> <http://purl.org/dc/terms/date> "2012-04-17"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:74839/10> <http://purl.org/dc/terms/references> <eva:30210/96>.
+<eva:30210/96> <http://purl.org/dc/terms/title> "Kudla v. Poland [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:74839/10> <http://purl.org/dc/terms/references> <eva:39272/98>.
+<eva:39272/98> <http://purl.org/dc/terms/title> "M.C. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:74839/10> <http://purl.org/dc/terms/references> <eva:7888/03>.
+<eva:7888/03> <http://purl.org/dc/terms/title> "Nikolova and Velichkova v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:7888/03> <http://purl.org/dc/terms/date> "2007-12-20"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:74839/10> <http://purl.org/dc/terms/references> <eva:33401/02>.
+<eva:33401/02> <http://purl.org/dc/terms/title> "Opuz v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:74839/10> <http://purl.org/dc/terms/references> <eva:38478/05>.
+<eva:38478/05> <http://purl.org/dc/terms/title> "Sandra Jankovic v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38478/05> <http://purl.org/dc/terms/date> "2009-03-05"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:74839/10> <http://purl.org/dc/terms/references> <eva:42722/02>.
+<eva:42722/02> <http://purl.org/dc/terms/title> "Stoica v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:42722/02> <http://purl.org/dc/terms/date> "2008-03-04"^^<http://www.w3.org/2001/XMLSchema#date>.
 <eva:74839/10> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:74839/10> <http://purl.org/dc/terms/description> "(Art. 3) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:74839/10> <http://purl.org/dc/terms/description> "(Art. 14) Prohibition of discrimination"^^<http://www.w3.org/2001/XMLSchema#string>.

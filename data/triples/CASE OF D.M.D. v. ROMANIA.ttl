@@ -18,6 +18,48 @@
 <eva:23022/13> <http://purl.org/dc/terms/abstract> "Fair hearing)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:23022/13> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:23022/13> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23022/13> <http://purl.org/dc/terms/references> <eva:1401/08>.
+<eva:1401/08> <http://purl.org/dc/terms/title> "Anđelković v. Serbia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:1401/08> <http://purl.org/dc/terms/date> "2013-04-09"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23022/13> <http://purl.org/dc/terms/references> <eva:22251/08>.
+<eva:22251/08> <http://purl.org/dc/terms/title> "Bochan v. Ukraine (no. 2) [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23022/13> <http://purl.org/dc/terms/references> <eva:26692/05>.
+<eva:26692/05> <http://purl.org/dc/terms/title> "C.A.S. and C.S. v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:26692/05> <http://purl.org/dc/terms/date> "2012-03-20"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23022/13> <http://purl.org/dc/terms/references> <eva:47848/08>.
+<eva:47848/08> <http://purl.org/dc/terms/title> "Centre for Legal Resources on behalf of Valentin Câmpeanu v. Romania [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23022/13> <http://purl.org/dc/terms/references> <eva:77938/11>.
+<eva:77938/11> <http://purl.org/dc/terms/title> "Dimitrov and Others v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:77938/11> <http://purl.org/dc/terms/date> "2014-07-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23022/13> <http://purl.org/dc/terms/references> <eva:65158/09>.
+<eva:65158/09> <http://purl.org/dc/terms/title> "Drăgan v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:65158/09> <http://purl.org/dc/terms/date> "2016-02-02"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23022/13> <http://purl.org/dc/terms/references> <eva:21472/03>.
+<eva:21472/03> <http://purl.org/dc/terms/title> "Lamarche v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:21472/03> <http://purl.org/dc/terms/date> "2008-09-16"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23022/13> <http://purl.org/dc/terms/references> <eva:10161/13>.
+<eva:10161/13> <http://purl.org/dc/terms/title> "M. and M. v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23022/13> <http://purl.org/dc/terms/references> <eva:12060/12>.
+<eva:12060/12> <http://purl.org/dc/terms/title> "M.C. and A.C. v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:12060/12> <http://purl.org/dc/terms/date> "2016-04-12"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23022/13> <http://purl.org/dc/terms/references> <eva:21722/11>.
+<eva:21722/11> <http://purl.org/dc/terms/title> "Oleksandr Volkov v. Ukraine"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23022/13> <http://purl.org/dc/terms/references> <eva:49669/07>.
+<eva:49669/07> <http://purl.org/dc/terms/title> "P.M. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49669/07> <http://purl.org/dc/terms/date> "2012-01-24"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23022/13> <http://purl.org/dc/terms/references> <eva:3524/14>.
+<eva:3524/14> <http://purl.org/dc/terms/title> "Sarbyanova-Pashaliyska and Pashaliyska v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3524/14> <http://purl.org/dc/terms/date> "2017-01-12"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23022/13> <http://purl.org/dc/terms/references> <eva:68842/13>.
+<eva:68842/13> <http://purl.org/dc/terms/title> "Serban Marinescu v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:68842/13> <http://purl.org/dc/terms/date> "2015-12-15"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23022/13> <http://purl.org/dc/terms/references> <eva:5786/08>.
+<eva:5786/08> <http://purl.org/dc/terms/title> "Söderman v. Sweden [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23022/13> <http://purl.org/dc/terms/references> <eva:24125/06>.
+<eva:24125/06> <http://purl.org/dc/terms/title> "W. v. Slovenia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:24125/06> <http://purl.org/dc/terms/date> "2014-01-23"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23022/13> <http://purl.org/dc/terms/references> <eva:29392/95>.
+<eva:29392/95> <http://purl.org/dc/terms/title> "Z and Others v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:23022/13> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:23022/13> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:23022/13> <http://purl.org/dc/terms/description> "(Art. 6) Right to a fair trial"^^<http://www.w3.org/2001/XMLSchema#string>.

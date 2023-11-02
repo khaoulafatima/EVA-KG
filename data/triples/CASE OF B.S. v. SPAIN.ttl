@@ -18,6 +18,43 @@
 <eva:47159/08> <http://purl.org/dc/terms/abstract> "Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:47159/08> <http://purl.org/dc/terms/abstract> "Prohibition of torture)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:47159/08> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/references> <eva:71503/01>.
+<eva:71503/01> <http://purl.org/dc/terms/title> "Assanidze v. Georgia [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/references> <eva:31443/96>.
+<eva:31443/96> <http://purl.org/dc/terms/title> "Broniowski v. Poland [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/references> <eva:28342/95>.
+<eva:28342/95> <http://purl.org/dc/terms/title> "Brumarescu v. Romania (just satisfaction) [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/references> <eva:28433/02>.
+<eva:28433/02> <http://purl.org/dc/terms/title> "Çamdereli v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:28433/02> <http://purl.org/dc/terms/date> "2008-07-17"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:47159/08> <http://purl.org/dc/terms/references> <eva:20869/92>.
+<eva:20869/92> <http://purl.org/dc/terms/title> "Dikme v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/references> <eva:11830/03>.
+<eva:11830/03> <http://purl.org/dc/terms/title> "Gharibashvili v. Georgia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:11830/03> <http://purl.org/dc/terms/date> "2008-07-29"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:47159/08> <http://purl.org/dc/terms/references> <eva:50222/99>.
+<eva:50222/99> <http://purl.org/dc/terms/title> "Krastanov v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:50222/99> <http://purl.org/dc/terms/date> "2004-09-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:47159/08> <http://purl.org/dc/terms/references> <eva:26772/95>.
+<eva:26772/95> <http://purl.org/dc/terms/title> "Labita v. Italy [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/references> <eva:72250/01>.
+<eva:72250/01> <http://purl.org/dc/terms/title> "Lopata v. Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:72250/01> <http://purl.org/dc/terms/date> "2010-07-13"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:47159/08> <http://purl.org/dc/terms/references> <eva:43577/98>.
+<eva:43577/98> <http://purl.org/dc/terms/title> "Nachova and Others v. Bulgaria [GC] nos. 43577/98 and 43579/98"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/references> <eva:21986/93>.
+<eva:21986/93> <http://purl.org/dc/terms/title> "Salman v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/references> <eva:39221/98>.
+<eva:39221/98> <http://purl.org/dc/terms/title> "Scozzari and Giunta v. Italy [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:47159/08> <http://purl.org/dc/terms/references> <eva:11261/03>.
+<eva:11261/03> <http://purl.org/dc/terms/title> "Sonkaya v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:11261/03> <http://purl.org/dc/terms/date> "2008-02-12"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:47159/08> <http://purl.org/dc/terms/references> <eva:44256/06>.
+<eva:44256/06> <http://purl.org/dc/terms/title> "Turan Çakir v. Belgium"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:44256/06> <http://purl.org/dc/terms/date> "2009-03-10"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:47159/08> <http://purl.org/dc/terms/references> <eva:41461/02>.
+<eva:41461/02> <http://purl.org/dc/terms/title> "Vladimir Romanov v. Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41461/02> <http://purl.org/dc/terms/date> "2008-07-24"^^<http://www.w3.org/2001/XMLSchema#date>.
 <eva:47159/08> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:47159/08> <http://purl.org/dc/terms/description> "(Art. 3) Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:47159/08> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.

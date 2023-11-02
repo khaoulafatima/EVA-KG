@@ -16,6 +16,36 @@
 <eva:58216/12> <http://purl.org/dc/terms/abstract> "No violation of Article 4 - Prohibition of slavery and forced labour (Article 4 - Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:58216/12> <http://purl.org/dc/terms/abstract> "Article 4-1 - Trafficking in human beings)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:58216/12> <http://purl.org/dc/terms/abstract> "No violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58216/12> <http://purl.org/dc/terms/references> <eva:58842/09>.
+<eva:58842/09> <http://purl.org/dc/terms/title> "ATV Privatfernseh-GmbH v. Austria (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58842/09> <http://purl.org/dc/terms/date> "2015-10-06"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:58216/12> <http://purl.org/dc/terms/references> <eva:4239/08>.
+<eva:4239/08> <http://purl.org/dc/terms/title> "C.N. v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:4239/08> <http://purl.org/dc/terms/date> "2012-11-13"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:58216/12> <http://purl.org/dc/terms/references> <eva:25321/94>.
+<eva:25321/94> <http://purl.org/dc/terms/title> "Denizci and Others v. Cyprus"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58216/12> <http://purl.org/dc/terms/references> <eva:33677/10>.
+<eva:33677/10> <http://purl.org/dc/terms/title> "Fürst-Pfeifer v. Austria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33677/10> <http://purl.org/dc/terms/date> "2016-05-17"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:58216/12> <http://purl.org/dc/terms/references> <eva:44898/10>.
+<eva:44898/10> <http://purl.org/dc/terms/title> "Jeronovičs v. Latvia [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:44898/10> <http://purl.org/dc/terms/date> "2016-07-05"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:58216/12> <http://purl.org/dc/terms/references> <eva:40020/03>.
+<eva:40020/03> <http://purl.org/dc/terms/title> "M. and Others v. Italy and Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/date> "2012-07-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:58216/12> <http://purl.org/dc/terms/references> <eva:28634/06>.
+<eva:28634/06> <http://purl.org/dc/terms/title> "Maiorano and Others v. Italy"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:28634/06> <http://purl.org/dc/terms/date> "2009-12-15"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:58216/12> <http://purl.org/dc/terms/references> <eva:72663/01>.
+<eva:72663/01> <http://purl.org/dc/terms/title> "Nikolay Dimitrov v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:72663/01> <http://purl.org/dc/terms/date> "2007-09-27"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:58216/12> <http://purl.org/dc/terms/references> <eva:25965/04>.
+<eva:25965/04> <http://purl.org/dc/terms/title> "Rantsev v. Cyprus and Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58216/12> <http://purl.org/dc/terms/references> <eva:73316/01>.
+<eva:73316/01> <http://purl.org/dc/terms/title> "Siliadin v. France"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58216/12> <http://purl.org/dc/terms/references> <eva:60125/11>.
+<eva:60125/11> <http://purl.org/dc/terms/title> "V.M. and Others v. Belgium [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:60125/11> <http://purl.org/dc/terms/date> "2016-11-17"^^<http://www.w3.org/2001/XMLSchema#date>.
 <eva:58216/12> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:58216/12> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:58216/12> <http://purl.org/dc/terms/description> "(Art. 4) Prohibition of slavery and forced labour"^^<http://www.w3.org/2001/XMLSchema#string>.

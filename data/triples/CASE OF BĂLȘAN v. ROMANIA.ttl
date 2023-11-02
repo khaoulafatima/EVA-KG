@@ -17,6 +17,35 @@
 <eva:49645/09> <http://purl.org/dc/terms/abstract> "Positive obligations)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:49645/09> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:49645/09> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/references> <eva:61382/09>.
+<eva:61382/09> <http://purl.org/dc/terms/title> "B. v. the Republic of Moldova"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:61382/09> <http://purl.org/dc/terms/date> "2013-07-16"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:49645/09> <http://purl.org/dc/terms/references> <eva:41526/10>.
+<eva:41526/10> <http://purl.org/dc/terms/title> "Đorđević v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/references> <eva:43994/05>.
+<eva:43994/05> <http://purl.org/dc/terms/title> "E.M. v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:43994/05> <http://purl.org/dc/terms/date> "2012-10-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:49645/09> <http://purl.org/dc/terms/references> <eva:10161/13>.
+<eva:10161/13> <http://purl.org/dc/terms/title> "M. and M. v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:10161/13> <http://purl.org/dc/terms/date> "2015-09-03"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:49645/09> <http://purl.org/dc/terms/references> <eva:646/10>.
+<eva:646/10> <http://purl.org/dc/terms/title> "M.G. v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:646/10> <http://purl.org/dc/terms/date> "2016-03-22"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:49645/09> <http://purl.org/dc/terms/references> <eva:28440/07>.
+<eva:28440/07> <http://purl.org/dc/terms/title> "Milena Felicia Dumitrescu v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:28440/07> <http://purl.org/dc/terms/date> "2015-03-24"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:49645/09> <http://purl.org/dc/terms/references> <eva:33401/02>.
+<eva:33401/02> <http://purl.org/dc/terms/title> "Opuz v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33401/02> <http://purl.org/dc/terms/date> "2009-06-09"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:49645/09> <http://purl.org/dc/terms/references> <eva:38773/05>.
+<eva:38773/05> <http://purl.org/dc/terms/title> "Savitskyy v. Ukraine"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38773/05> <http://purl.org/dc/terms/date> "2012-07-26"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:49645/09> <http://purl.org/dc/terms/references> <eva:5786/08>.
+<eva:5786/08> <http://purl.org/dc/terms/title> "Söderman v. Sweden"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:5786/08> <http://purl.org/dc/terms/date> "2013-11-12"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:49645/09> <http://purl.org/dc/terms/references> <eva:33234/07>.
+<eva:33234/07> <http://purl.org/dc/terms/title> "Valiulienė v. Lithuania"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33234/07> <http://purl.org/dc/terms/date> "2013-03-26"^^<http://www.w3.org/2001/XMLSchema#date>.
 <eva:49645/09> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:49645/09> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:49645/09> <http://purl.org/dc/terms/description> "(Art. 3) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.

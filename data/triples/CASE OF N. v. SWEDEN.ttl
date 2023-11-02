@@ -12,6 +12,34 @@
 <eva:23505/09> <eva:respondent_state> <http://www.wikidata.org/entity/Q34>.
 <eva:23505/09> <http://purl.org/dc/terms/date> "2010-07-20"^^<http://www.w3.org/2001/XMLSchema#date>.
 <eva:23505/09> <http://purl.org/dc/terms/abstract> "Violation of Art. 3 (in case of expulsion to Afghanistan)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23505/09> <http://purl.org/dc/terms/references> <eva:23944/05>.
+<eva:23944/05> <http://purl.org/dc/terms/title> "Collins and Akasiebie v. Sweden (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23944/05> <http://purl.org/dc/terms/date> "2007-03-08"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23505/09> <http://purl.org/dc/terms/references> <eva:32621/06>.
+<eva:32621/06> <http://purl.org/dc/terms/title> "F.H. v. Sweden"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:32621/06> <http://purl.org/dc/terms/date> "2009-01-20"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23505/09> <http://purl.org/dc/terms/references> <eva:31260/04>.
+<eva:31260/04> <http://purl.org/dc/terms/title> "Matsiukhina and Matsiukhin v. Sweden (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:31260/04> <http://purl.org/dc/terms/date> "2005-06-21"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23505/09> <http://purl.org/dc/terms/references> <eva:38885/02>.
+<eva:38885/02> <http://purl.org/dc/terms/title> "N. v. Finland"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38885/02> <http://purl.org/dc/terms/date> "2005-07-26"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23505/09> <http://purl.org/dc/terms/references> <eva:25904/07>.
+<eva:25904/07> <http://purl.org/dc/terms/title> "NA. v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25904/07> <http://purl.org/dc/terms/date> "2008-07-17"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23505/09> <http://purl.org/dc/terms/references> <eva:64599/01>.
+<eva:64599/01> <http://purl.org/dc/terms/title> "Razaghi v. Sweden (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:64599/01> <http://purl.org/dc/terms/date> "2003-03-11"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23505/09> <http://purl.org/dc/terms/references> <eva:5140/06>.
+<eva:5140/06> <http://purl.org/dc/terms/title> "Reza Mohammasi v. the Netherlands (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:5140/06> <http://purl.org/dc/terms/date> "2006-06-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23505/09> <http://purl.org/dc/terms/references> <eva:3049/06>.
+<eva:3049/06> <http://purl.org/dc/terms/title> "S.A. v. The Netherlands (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3049/06> <http://purl.org/dc/terms/date> "2006-12-12"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23505/09> <http://purl.org/dc/terms/references> <eva:37201/06>.
+<eva:37201/06> <http://purl.org/dc/terms/title> "Saadi v. Italy [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23505/09> <http://purl.org/dc/terms/references> <eva:46410/99>.
+<eva:46410/99> <http://purl.org/dc/terms/title> "Üner v. the Netherlands [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:23505/09> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:23505/09> <http://purl.org/dc/terms/description> "(Art. 3) Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:23505/09> <http://purl.org/dc/terms/description> "(Art. 3) Expulsion"^^<http://www.w3.org/2001/XMLSchema#string>.

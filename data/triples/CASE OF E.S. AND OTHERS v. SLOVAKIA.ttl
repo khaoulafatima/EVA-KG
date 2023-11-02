@@ -15,6 +15,16 @@
 <eva:8227/04> <http://purl.org/dc/terms/abstract> "Violation of Art. 3"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:8227/04> <http://purl.org/dc/terms/abstract> "Violation of Art. 8"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:8227/04> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/references> <eva:27229/95>.
+<eva:27229/95> <http://purl.org/dc/terms/title> "Keenan v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/references> <eva:48939/99>.
+<eva:48939/99> <http://purl.org/dc/terms/title> "Öneryildiz v. Turkey [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/references> <eva:46477/99>.
+<eva:46477/99> <http://purl.org/dc/terms/title> "Paul and Audrey Edwards v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/references> <eva:28945/95>.
+<eva:28945/95> <http://purl.org/dc/terms/title> "T.P. and K.M. v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8227/04> <http://purl.org/dc/terms/references> <eva:29392/95>.
+<eva:29392/95> <http://purl.org/dc/terms/title> "Z and Others v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:8227/04> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:8227/04> <http://purl.org/dc/terms/description> "(Art. 35-1) Exhaustion of domestic remedies"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:8227/04> <http://purl.org/dc/terms/description> "(Art. 35-1) Effective domestic remedy"^^<http://www.w3.org/2001/XMLSchema#string>.

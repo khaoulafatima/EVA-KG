@@ -14,6 +14,41 @@
 <eva:49669/07> <http://purl.org/dc/terms/abstract> "Remainder inadmissible"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:49669/07> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:49669/07> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49669/07> <http://purl.org/dc/terms/references> <eva:55523/00>.
+<eva:55523/00> <http://purl.org/dc/terms/title> "Angelova and Iliev v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:55523/00> <http://purl.org/dc/terms/date> "2007-07-26"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:49669/07> <http://purl.org/dc/terms/references> <eva:59532/00>.
+<eva:59532/00> <http://purl.org/dc/terms/title> "Blecic v. Croatia [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49669/07> <http://purl.org/dc/terms/references> <eva:32704/04>.
+<eva:32704/04> <http://purl.org/dc/terms/title> "Denis Vasilyev v. Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:32704/04> <http://purl.org/dc/terms/date> "2009-12-17"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:49669/07> <http://purl.org/dc/terms/references> <eva:35802/05>.
+<eva:35802/05> <http://purl.org/dc/terms/title> "Frandes v. Romania (dec.) no. 35802/05"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35802/05> <http://purl.org/dc/terms/date> "2011-05-17"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:49669/07> <http://purl.org/dc/terms/references> <eva:31143/96>.
+<eva:31143/96> <http://purl.org/dc/terms/title> "Indelicato v. Italy"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:31143/96> <http://purl.org/dc/terms/date> "2001-10-18"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:49669/07> <http://purl.org/dc/terms/references> <eva:26772/95>.
+<eva:26772/95> <http://purl.org/dc/terms/title> "Labita v. Italy [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49669/07> <http://purl.org/dc/terms/references> <eva:75726/01>.
+<eva:75726/01> <http://purl.org/dc/terms/title> "Lyubov Efimenko v. Ukraine"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:75726/01> <http://purl.org/dc/terms/date> "2010-11-25"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:49669/07> <http://purl.org/dc/terms/references> <eva:39272/98>.
+<eva:39272/98> <http://purl.org/dc/terms/title> "M.C. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49669/07> <http://purl.org/dc/terms/references> <eva:38281/08>.
+<eva:38281/08> <http://purl.org/dc/terms/title> "Matasaru and Savitchi v. Moldova"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38281/08> <http://purl.org/dc/terms/date> "2010-11-02"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:49669/07> <http://purl.org/dc/terms/references> <eva:47287/99>.
+<eva:47287/99> <http://purl.org/dc/terms/title> "Perez v. France [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49669/07> <http://purl.org/dc/terms/references> <eva:71463/01>.
+<eva:71463/01> <http://purl.org/dc/terms/title> "Šilih v. Slovenia [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71463/01> <http://purl.org/dc/terms/date> "2009-04-09"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:49669/07> <http://purl.org/dc/terms/references> <eva:26088/06>.
+<eva:26088/06> <http://purl.org/dc/terms/title> "Stanimirovic v. Serbia (no. 26088/06"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:26088/06> <http://purl.org/dc/terms/date> "2011-10-18"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:49669/07> <http://purl.org/dc/terms/references> <eva:22339/03>.
+<eva:22339/03> <http://purl.org/dc/terms/title> "Tuna v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:22339/03> <http://purl.org/dc/terms/date> "2010-01-19"^^<http://www.w3.org/2001/XMLSchema#date>.
 <eva:49669/07> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:49669/07> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:49669/07> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.

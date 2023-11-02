@@ -12,6 +12,14 @@
 <eva:23944/05> <eva:respondent_state> <http://www.wikidata.org/entity/Q34>.
 <eva:23944/05> <http://purl.org/dc/terms/date> "2007-03-08"^^<http://www.w3.org/2001/XMLSchema#date>.
 <eva:23944/05> <http://purl.org/dc/terms/abstract> "Inadmissible"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23944/05> <http://purl.org/dc/terms/references> <eva:44599/98>.
+<eva:44599/98> <http://purl.org/dc/terms/title> "Bensaid v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23944/05> <http://purl.org/dc/terms/references> <eva:7702/04>.
+<eva:7702/04> <http://purl.org/dc/terms/title> "Salkic and Others v. Sweden (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:7702/04> <http://purl.org/dc/terms/date> "2004-06-29"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:23944/05> <http://purl.org/dc/terms/references> <eva:31260/04>.
+<eva:31260/04> <http://purl.org/dc/terms/title> "Matsiukhina and Matsiukhin v. Sweden (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:31260/04> <http://purl.org/dc/terms/date> "2005-06-21"^^<http://www.w3.org/2001/XMLSchema#date>.
 <eva:23944/05> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:23944/05> <http://purl.org/dc/terms/description> "(Art. 3) Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:23944/05> <http://purl.org/dc/terms/isVersionOf> "ECLI:CE:ECHR:2007:0308DEC002394405"^^<http://www.w3.org/2001/XMLSchema#string>.

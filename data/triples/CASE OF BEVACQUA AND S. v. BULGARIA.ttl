@@ -16,6 +16,18 @@
 <eva:71127/01> <http://purl.org/dc/terms/abstract> "Violation of Art. 8"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:71127/01> <http://purl.org/dc/terms/abstract> "No violation of Art. 6-1"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:71127/01> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/references> <eva:36505/02>.
+<eva:36505/02> <http://purl.org/dc/terms/title> "August v. the United Kingdom (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:36505/02> <http://purl.org/dc/terms/date> "2003-01-21"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:71127/01> <http://purl.org/dc/terms/references> <eva:30979/96>.
+<eva:30979/96> <http://purl.org/dc/terms/title> "Frydlender v. France [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/references> <eva:3158/96>.
+<eva:3158/96> <http://purl.org/dc/terms/title> "Laino v. Italy [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/references> <eva:39272/98>.
+<eva:39272/98> <http://purl.org/dc/terms/title> "M.C. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/references> <eva:27966/06>.
+<eva:27966/06> <http://purl.org/dc/terms/title> "Sobota Gajic v. Bosnia and Herzegovina"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:27966/06> <http://purl.org/dc/terms/date> "2007-11-06"^^<http://www.w3.org/2001/XMLSchema#date>.
 <eva:71127/01> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:71127/01> <http://purl.org/dc/terms/description> "(Art. 35-1) Exhaustion of domestic remedies"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:71127/01> <http://purl.org/dc/terms/description> "Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.

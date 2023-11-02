@@ -14,6 +14,78 @@
 <eva:35898/16> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:35898/16> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:35898/16> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:71127/01>.
+<eva:71127/01> <http://purl.org/dc/terms/title> "Bevacqua and S. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/date> "2008-06-12"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:23380/09>.
+<eva:23380/09> <http://purl.org/dc/terms/title> "Bouyid v. Belgium [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:47848/08>.
+<eva:47848/08> <http://purl.org/dc/terms/title> "Centre for Legal Resources on behalf of Valentin Câmpeanu v. Romania [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:3564/11>.
+<eva:3564/11> <http://purl.org/dc/terms/title> "Eremia v. the Republic of Moldova"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/date> "2013-05-28"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:23682/13>.
+<eva:23682/13> <http://purl.org/dc/terms/title> "Guberina v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23682/13> <http://purl.org/dc/terms/date> "2016-03-22"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:54711/15>.
+<eva:54711/15> <http://purl.org/dc/terms/title> "Jurčić v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:54711/15> <http://purl.org/dc/terms/date> "2021-02-04"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:960/13>.
+<eva:960/13> <http://purl.org/dc/terms/title> "Kosteckas v. Lithuania"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:960/13> <http://purl.org/dc/terms/date> "2017-06-13"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:62903/15>.
+<eva:62903/15> <http://purl.org/dc/terms/title> "Kurt v. Austria [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:62903/15> <http://purl.org/dc/terms/date> "2021-06-15"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:71667/17>.
+<eva:71667/17> <http://purl.org/dc/terms/title> "Kušić v. Croatia (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71667/17> <http://purl.org/dc/terms/date> "2019-12-10"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:3400/07>.
+<eva:3400/07> <http://purl.org/dc/terms/title> "M.A. v. Slovenia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3400/07> <http://purl.org/dc/terms/date> "2015-01-15"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:43393/98>.
+<eva:43393/98> <http://purl.org/dc/terms/title> "Matko v. Slovenia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:43393/98> <http://purl.org/dc/terms/date> "2006-11-02"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:73544/14>.
+<eva:73544/14> <http://purl.org/dc/terms/title> "Mile Novaković v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:73544/14> <http://purl.org/dc/terms/date> "2020-12-17"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:74839/10>.
+<eva:74839/10> <http://purl.org/dc/terms/title> "Mudric v. the Republic of Moldova"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:74839/10> <http://purl.org/dc/terms/date> "2013-07-16"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:52067/99>.
+<eva:52067/99> <http://purl.org/dc/terms/title> "Okkalı v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:33401/02>.
+<eva:33401/02> <http://purl.org/dc/terms/title> "Opuz v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33401/02> <http://purl.org/dc/terms/date> "2009-06-09"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:37685/10>.
+<eva:37685/10> <http://purl.org/dc/terms/title> "Radomilja and Others v. Croatia [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:37685/10> <http://purl.org/dc/terms/date> "2018-03-20"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:7446/12>.
+<eva:7446/12> <http://purl.org/dc/terms/title> "Remetin v. Croatia (no. 2)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:7446/12> <http://purl.org/dc/terms/date> "2014-07-24"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:29525/10>.
+<eva:29525/10> <http://purl.org/dc/terms/title> "Remetin v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29525/10> <http://purl.org/dc/terms/date> "2012-12-11"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:26608/11>.
+<eva:26608/11> <http://purl.org/dc/terms/title> "T.M. and C.M. v. the Republic of Moldova"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:26608/11> <http://purl.org/dc/terms/date> "2014-01-28"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:41237/14>.
+<eva:41237/14> <http://purl.org/dc/terms/title> "Talpis v. Italy"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/date> "2017-03-02"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:55974/16>.
+<eva:55974/16> <http://purl.org/dc/terms/title> "Tunikova and Others v. Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:55974/16> <http://purl.org/dc/terms/date> "2021-12-14"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:41261/17>.
+<eva:41261/17> <http://purl.org/dc/terms/title> "Volodina v. Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41261/17> <http://purl.org/dc/terms/date> "2019-07-09"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:40419/19>.
+<eva:40419/19> <http://purl.org/dc/terms/title> "Volodina v. Russia (no. 2)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40419/19> <http://purl.org/dc/terms/date> "2021-09-14"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:17153/11>.
+<eva:17153/11> <http://purl.org/dc/terms/title> "Vučković and Others v. Serbia (preliminary objection) [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:17153/11> <http://purl.org/dc/terms/date> "2014-03-25"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:35898/16> <http://purl.org/dc/terms/references> <eva:22457/16>.
+<eva:22457/16> <http://purl.org/dc/terms/title> "X and Others v. Bulgaria [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:22457/16> <http://purl.org/dc/terms/date> "2021-02-02"^^<http://www.w3.org/2001/XMLSchema#date>.
 <eva:35898/16> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:35898/16> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:35898/16> <http://purl.org/dc/terms/description> "(Art. 41) Just satisfaction-{general}"^^<http://www.w3.org/2001/XMLSchema#string>.

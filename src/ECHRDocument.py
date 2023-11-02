@@ -246,35 +246,47 @@ class ECHRDocument:
         date_uri = "^^<http://www.w3.org/2001/XMLSchema#date>"
         keys = self._case_detail.keys()
         if subject in keys:
-            self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+            # multiple app no
+            if isinstance(self._case_detail[subject], list):
+                for s in self._case_detail[subject]:
+                    for o in self._case_detail[subject]:
+                        if s != o:
+                            self._triples.append({"subject": f"<{eva}{s}>",
+                                                  "predicate": f"<{eva}in_same_case>",
+                                                  "object": f"<{eva}{o}>."})
+                s = self._case_detail[subject][0]
+            elif isinstance(self._case_detail[subject], str):
+                s = self._case_detail[subject]
+
+            self._triples.append({"subject": f"<{eva}{s}>",
                                   "predicate": f"<{rdf}type>",
                                   "object": f"<{wd}Q10413040>."})
             # coverage
-            self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+            self._triples.append({"subject": f"<{eva}{s}>",
                                   "predicate": f"<{dcterm}coverage>",
                                   "object": f"<{wd}Q6602>."})
             # language
-            self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+            self._triples.append({"subject": f"<{eva}{s}>",
                                   "predicate": f"<{dcterm}language>",
                                   "object": f"\"en\"{str_uri}."})
             # publisher
-            self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+            self._triples.append({"subject": f"<{eva}{s}>",
                                   "predicate": f"<{dcterm}publisher>",
                                   "object": f"<{wd}Q122880>."})
             # accessRights
-            self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+            self._triples.append({"subject": f"<{eva}{s}>",
                                   "predicate": f"<{dcterm}accessRights>",
                                   "object": f"<{wd}Q2388316>."})
             # identifier
             # TODO ricerca url da file
             """url = "https://hudoc.echr.coe.int/eng#{\"dmdocnumber\":[\"875647\"],\"itemid\":[\"001-101152\"]}"
-            self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+            self._triples.append({"subject": f"<{eva}{s}>",
                                   "predicate": f"<{dcterm}identifier>",
                                   "object": f"<{url}>."})"""
 
             # originating body
             if 'Originating Body' in keys:
-                self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                self._triples.append({"subject": f"<{eva}{s}>",
                                       "predicate": f"<{dcterm}creator>",
                                       "object": f"\"{self._case_detail['Originating Body']}\"{str_uri}."})
             # document type
@@ -285,17 +297,17 @@ class ECHRDocument:
                 elif self._case_detail['Document Type'] == "Decision":
                     o = "Q327000"
                 if o != "":
-                    self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                    self._triples.append({"subject": f"<{eva}{s}>",
                                           "predicate": f"<{dcterm}type>",
                                           "object": f"<{wd}{o}>."})
             # published in
             if 'Published in' in keys:
-                self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                self._triples.append({"subject": f"<{eva}{s}>",
                                       "predicate": f"<{dcterm}isPartOf>",
                                       "object": f"\"{self._case_detail['Published in']}\"{str_uri}."})
             # title
             if 'Title' in keys:
-                self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                self._triples.append({"subject": f"<{eva}{s}>",
                                       "predicate": f"<{dcterm}title>",
                                       "object": f"\"{self._case_detail['Title']}\"{str_uri}."})
             # importance level
@@ -304,7 +316,7 @@ class ECHRDocument:
                     o = 4
                 else:
                     o = int(self._case_detail['Importance Level'])
-                self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                self._triples.append({"subject": f"<{eva}{s}>",
                                       "predicate": f"<{eva}importance_level>",
                                       "object": f"\"{o}\"{int_uri}."})
             # represented by
@@ -314,7 +326,7 @@ class ECHRDocument:
                             and self._case_detail['Represented by'] != "N/A"):
                         value = self._case_detail['Represented by']
                     value = value.replace(" ", "_")
-                    self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                    self._triples.append({"subject": f"<{eva}{s}>",
                                           "predicate": f"<{dcterm}contributor>",
                                           "object": f"<{eva}{value}>."})
                     self._triples.append({"subject": f"<{eva}{value}>",
@@ -331,7 +343,7 @@ class ECHRDocument:
                     state_id = get_country_identifier(value)
                     if state_id is not None:
                         state_id = state_id.replace("http://www.wikidata.org/entity/", "")
-                        self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                        self._triples.append({"subject": f"<{eva}{s}>",
                                               "predicate": f"<{eva}respondent_state>",
                                               "object": f"<{wd}{state_id}>."})
                     if isinstance(self._case_detail['Respondent State(s)'], str):
@@ -340,14 +352,14 @@ class ECHRDocument:
             if 'Judgment Date' in keys:
                 date = self._case_detail['Judgment Date'].split("/")
                 date = f"{date[2]}-{date[1]}-{date[0]}"
-                self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                self._triples.append({"subject": f"<{eva}{s}>",
                                       "predicate": f"<{dcterm}date>",
                                       "object": f"\"{date}\"{date_uri}."})
             # decision date
             if 'Decision Date' in keys:
                 date = self._case_detail['Decision Date'].split("/")
                 date = f"{date[2]}-{date[1]}-{date[0]}"
-                self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                self._triples.append({"subject": f"<{eva}{s}>",
                                       "predicate": f"<{dcterm}date>",
                                       "object": f"\"{date}\"{date_uri}."})
             # conclusion
@@ -355,7 +367,7 @@ class ECHRDocument:
                 for value in self._case_detail['Conclusion(s)']:
                     if isinstance(self._case_detail['Conclusion(s)'], str):
                         value = self._case_detail['Conclusion(s)']
-                    self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                    self._triples.append({"subject": f"<{eva}{s}>",
                                           "predicate": f"<{dcterm}abstract>",
                                           "object": f"\"{value}\"{str_uri}."})
                     if isinstance(self._case_detail['Conclusion(s)'], str):
@@ -371,7 +383,7 @@ class ECHRDocument:
                     # aggiungo solo nel caso in cui si ha il numero (vale la stessa cosa se si usa il link)
                     # number
                     if match[1]:
-                        self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                        self._triples.append({"subject": f"<{eva}{s}>",
                                               "predicate": f"<{dcterm}references>",
                                               "object": f"<{eva}{match[1]}>."})
                         # title
@@ -385,21 +397,7 @@ class ECHRDocument:
                             self._triples.append({"subject": f"<{eva}{match[1]}>",
                                                   "predicate": f"<{dcterm}date>",
                                                   "object": f"\"{match[2]}\"{date_uri}."})
-                    """# title
-                    if match[0]:  
-                        self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
-                                              "predicate": f"<{dcterm}references>",
-                                              "object": f"\"{match[0]}\"{str_uri}."})
-                    # number
-                    if match[1]:  
-                        self._triples.append({"subject": f"<{eva}{match[1]}>",
-                                              "predicate": f"<{dcterm}title>",
-                                              "object": f"\"{match[0]}\"{str_uri}."})
-                    # date
-                    if match[2]:  
-                        self._triples.append({"subject": f"<{eva}{match[0]}>",
-                                              "predicate": f"<{dcterm}date>",
-                                              "object": f"\"{match[2]}\"{date_uri}."})"""
+
                     if isinstance(self._case_detail['Strasbourg Case-Law'], str):
                         break
             # TODO aggiungere International Law
@@ -408,14 +406,14 @@ class ECHRDocument:
                 for value in self._case_detail['Keywords']:
                     if isinstance(self._case_detail['Keywords'], str):
                         value = self._case_detail['Keywords']
-                    self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                    self._triples.append({"subject": f"<{eva}{s}>",
                                           "predicate": f"<{dcterm}description>",
                                           "object": f"\"{value}\"{str_uri}."})
                     if isinstance(self._case_detail['Keywords'], str):
                         break
             # ECLI
             if 'ECLI' in keys:
-                self._triples.append({"subject": f"<{eva}{self._case_detail[subject]}>",
+                self._triples.append({"subject": f"<{eva}{s}>",
                                       "predicate": f"<{dcterm}isVersionOf>",
                                       "object": f"\"{self._case_detail['ECLI']}\"{str_uri}."})
 

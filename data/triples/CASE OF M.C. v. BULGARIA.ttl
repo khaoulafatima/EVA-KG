@@ -17,6 +17,21 @@
 <eva:39272/98> <http://purl.org/dc/terms/abstract> "Not necessary to examine Art. 14"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:39272/98> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - financial award"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:39272/98> <http://purl.org/dc/terms/abstract> "Costs and expenses partial award - Convention proceedings"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:39272/98> <http://purl.org/dc/terms/references> <eva:36505/02>.
+<eva:36505/02> <http://purl.org/dc/terms/title> "August v. the United Kingdom (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:36505/02> <http://purl.org/dc/terms/date> "2003-01-21"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:39272/98> <http://purl.org/dc/terms/references> <eva:33202/96>.
+<eva:33202/96> <http://purl.org/dc/terms/title> "Beyeler v. Italy (just satisfaction) [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33202/96> <http://purl.org/dc/terms/date> "2002-05-28"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:39272/98> <http://purl.org/dc/terms/references> <eva:32967/96>.
+<eva:32967/96> <http://purl.org/dc/terms/title> "Calvelli and Ciglio v. Italy [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:39272/98> <http://purl.org/dc/terms/references> <eva:28957/95>.
+<eva:28957/95> <http://purl.org/dc/terms/title> "Christine Goodwin v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:39272/98> <http://purl.org/dc/terms/references> <eva:33218/96>.
+<eva:33218/96> <http://purl.org/dc/terms/title> "E. and Others v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33218/96> <http://purl.org/dc/terms/date> "2002-11-26"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:39272/98> <http://purl.org/dc/terms/references> <eva:29392/95>.
+<eva:29392/95> <http://purl.org/dc/terms/title> "Z. and Others v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:39272/98> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:39272/98> <http://purl.org/dc/terms/description> "(Art. 3) Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:39272/98> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.

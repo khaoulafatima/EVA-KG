@@ -19,6 +19,10 @@
 <eva:7510/04> <http://purl.org/dc/terms/abstract> "Article 2-1 - Life)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:7510/04> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:7510/04> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:7510/04> <http://purl.org/dc/terms/references> <eva:27229/95>.
+<eva:27229/95> <http://purl.org/dc/terms/title> "Keenan v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:7510/04> <http://purl.org/dc/terms/references> <eva:24888/94>.
+<eva:24888/94> <http://purl.org/dc/terms/title> "V. v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:7510/04> <http://purl.org/dc/terms/description> "(Art. 2) Right to life"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:7510/04> <http://purl.org/dc/terms/description> "(Art. 2) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:7510/04> <http://purl.org/dc/terms/description> "(Art. 2-1) Life"^^<http://www.w3.org/2001/XMLSchema#string>.

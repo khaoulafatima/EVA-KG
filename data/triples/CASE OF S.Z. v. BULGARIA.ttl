@@ -20,6 +20,77 @@
 <eva:29263/12> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:29263/12> <http://purl.org/dc/terms/abstract> "Respondent State to take measures of a general character (Article 46 - Systemic problem"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:29263/12> <http://purl.org/dc/terms/abstract> "General measures)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:78390/11>.
+<eva:78390/11> <http://purl.org/dc/terms/title> "A.S. v. Bulgaria (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:78390/11> <http://purl.org/dc/terms/date> "2013-06-25"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:26827/08>.
+<eva:26827/08> <http://purl.org/dc/terms/title> "Abdu v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:26827/08> <http://purl.org/dc/terms/date> "2014-03-11"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:38361/97>.
+<eva:38361/97> <http://purl.org/dc/terms/title> "Angelova v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:55523/00>.
+<eva:55523/00> <http://purl.org/dc/terms/title> "Angelova and Iliev v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:55523/00> <http://purl.org/dc/terms/date> "2007-07-26"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:65187/10>.
+<eva:65187/10> <http://purl.org/dc/terms/title> "Balakchiev v. Bulgaria (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:65187/10> <http://purl.org/dc/terms/date> "2013-06-18"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:32662/06>.
+<eva:32662/06> <http://purl.org/dc/terms/title> "Biser Kostov v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:32662/06> <http://purl.org/dc/terms/date> "2012-01-10"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:77938/11>.
+<eva:77938/11> <http://purl.org/dc/terms/title> "Dimitrov and Others v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:77938/11> <http://purl.org/dc/terms/date> "2014-07-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:44862/04>.
+<eva:44862/04> <http://purl.org/dc/terms/title> "Dimitrova and Others v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:44862/04> <http://purl.org/dc/terms/date> "2011-01-27"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:19506/05>.
+<eva:19506/05> <http://purl.org/dc/terms/title> "Ebcin v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:19506/05> <http://purl.org/dc/terms/date> "2011-02-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:34137/03>.
+<eva:34137/03> <http://purl.org/dc/terms/title> "Georgiev v. Bulgaria (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:34137/03> <http://purl.org/dc/terms/date> "2011-01-11"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:23893/03>.
+<eva:23893/03> <http://purl.org/dc/terms/title> "Kaverzin v. Ukraine"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23893/03> <http://purl.org/dc/terms/date> "2012-05-15"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:39272/98>.
+<eva:39272/98> <http://purl.org/dc/terms/title> "M.C. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:3832/06>.
+<eva:3832/06> <http://purl.org/dc/terms/title> "M.N. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3832/06> <http://purl.org/dc/terms/date> "2012-11-27"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:11818/02>.
+<eva:11818/02> <http://purl.org/dc/terms/title> "Mojsiejew v. Poland"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:11818/02> <http://purl.org/dc/terms/date> "2009-03-24"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:72663/01>.
+<eva:72663/01> <http://purl.org/dc/terms/title> "Nikolay Dimitrov v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:72663/01> <http://purl.org/dc/terms/date> "2007-09-27"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:49669/07>.
+<eva:49669/07> <http://purl.org/dc/terms/title> "P.M. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49669/07> <http://purl.org/dc/terms/date> "2012-01-24"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:8981/10>.
+<eva:8981/10> <http://purl.org/dc/terms/title> "S.L. and Others v. Bulgaria (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8981/10> <http://purl.org/dc/terms/date> "2013-05-14"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:78421/11>.
+<eva:78421/11> <http://purl.org/dc/terms/title> "S.M. v. Bulgaria (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:78421/11> <http://purl.org/dc/terms/date> "2013-06-25"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:40116/02>.
+<eva:40116/02> <http://purl.org/dc/terms/title> "Šečić v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40116/02> <http://purl.org/dc/terms/date> "2007-05-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:71463/01>.
+<eva:71463/01> <http://purl.org/dc/terms/title> "Šilih v. Slovenia [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71463/01> <http://purl.org/dc/terms/date> "2009-04-09"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:36760/06>.
+<eva:36760/06> <http://purl.org/dc/terms/title> "Stanev v. Bulgaria [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:41717/09>.
+<eva:41717/09> <http://purl.org/dc/terms/title> "Stoev and Others v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41717/09> <http://purl.org/dc/terms/date> "2014-03-11"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:6194/11>.
+<eva:6194/11> <http://purl.org/dc/terms/title> "Valcheva and Abrashev v. Bulgaria (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:6194/11> <http://purl.org/dc/terms/date> "2013-06-18"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:41488/98>.
+<eva:41488/98> <http://purl.org/dc/terms/title> "Velikova v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29263/12> <http://purl.org/dc/terms/references> <eva:24125/06>.
+<eva:24125/06> <http://purl.org/dc/terms/title> "W. v. Slovenia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:24125/06> <http://purl.org/dc/terms/date> "2014-01-23"^^<http://www.w3.org/2001/XMLSchema#date>.
 <eva:29263/12> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:29263/12> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:29263/12> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.

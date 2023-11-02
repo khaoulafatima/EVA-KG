@@ -15,6 +15,20 @@
 <eva:24209/94> <http://purl.org/dc/terms/abstract> "Violation of Art. 8"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:24209/94> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - financial award"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:24209/94> <http://purl.org/dc/terms/abstract> "Costs and expenses partial award - Convention proceedings"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:24209/94> <http://purl.org/dc/terms/references> <eva:10435/83>.
+<eva:10435/83> <http://purl.org/dc/terms/title> "Acmanne and Others v. Belgium"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:10435/83> <http://purl.org/dc/terms/date> "1984-12-10"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:24209/94> <http://purl.org/dc/terms/references> <eva:28957/95>.
+<eva:28957/95> <http://purl.org/dc/terms/title> "Christine Goodwin v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:28957/95> <http://purl.org/dc/terms/date> "2002-07-11"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:24209/94> <http://purl.org/dc/terms/references> <eva:22277/93>.
+<eva:22277/93> <http://purl.org/dc/terms/title> "Ilhan v. Turkey [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:24209/94> <http://purl.org/dc/terms/references> <eva:39339/98>.
+<eva:39339/98> <http://purl.org/dc/terms/title> "M.M. v. the Netherlands"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:39339/98> <http://purl.org/dc/terms/date> "2003-04-08"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:24209/94> <http://purl.org/dc/terms/references> <eva:8278/78>.
+<eva:8278/78> <http://purl.org/dc/terms/title> "X v. Austria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:8278/78> <http://purl.org/dc/terms/date> "1979-12-13"^^<http://www.w3.org/2001/XMLSchema#date>.
 <eva:24209/94> <http://purl.org/dc/terms/description> "(Art. 8) Right to respect for private and family life"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:24209/94> <http://purl.org/dc/terms/description> "(Art. 8-1) Respect for private life"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:24209/94> <http://purl.org/dc/terms/description> "(Art. 8-2) Interference"^^<http://www.w3.org/2001/XMLSchema#string>.

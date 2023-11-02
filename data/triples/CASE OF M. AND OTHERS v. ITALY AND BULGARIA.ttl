@@ -17,6 +17,94 @@
 <eva:40020/03> <http://purl.org/dc/terms/abstract> "Remainder inadmissible"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:40020/03> <http://purl.org/dc/terms/abstract> "No violation of Article 3 - Prohibition of torture (Article 3 - Inhuman treatment) (Substantive aspect) (Italy)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:40020/03> <http://purl.org/dc/terms/abstract> "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect) (Italy)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:56760/00>.
+<eva:56760/00> <http://purl.org/dc/terms/title> "Akpinar and Altun v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:56760/00> <http://purl.org/dc/terms/date> "2007-02-27"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:35763/97>.
+<eva:35763/97> <http://purl.org/dc/terms/title> "Al-Adsani v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:30951/96>.
+<eva:30951/96> <http://purl.org/dc/terms/title> "Ay v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:30951/96> <http://purl.org/dc/terms/date> "2005-03-22"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:33097/96>.
+<eva:33097/96> <http://purl.org/dc/terms/title> "Bati and Others v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:23657/94>.
+<eva:23657/94> <http://purl.org/dc/terms/title> "Çakici v. Turkey [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:44093/98>.
+<eva:44093/98> <http://purl.org/dc/terms/title> "Çelik and Imret v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:44093/98> <http://purl.org/dc/terms/date> "2004-10-26"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:5964/02>.
+<eva:5964/02> <http://purl.org/dc/terms/title> "Chernitsyn v. Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:5964/02> <http://purl.org/dc/terms/date> "2006-04-06"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:34503/97>.
+<eva:34503/97> <http://purl.org/dc/terms/title> "Demir and Baykara v. Turkey [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:34503/97> <http://purl.org/dc/terms/date> "2008-11-12"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:25045/94>.
+<eva:25045/94> <http://purl.org/dc/terms/title> "Dobberstein v Germany"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25045/94> <http://purl.org/dc/terms/date> "1996-04-12"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:61164/00>.
+<eva:61164/00> <http://purl.org/dc/terms/title> "Duringer and Grunge v. France (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:14011/07>.
+<eva:14011/07> <http://purl.org/dc/terms/title> "Felbab v. Serbia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:14011/07> <http://purl.org/dc/terms/date> "2009-04-14"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:25760/94>.
+<eva:25760/94> <http://purl.org/dc/terms/title> "Ipek v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:12822/87>.
+<eva:12822/87> <http://purl.org/dc/terms/title> "Kapas v the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:12822/87> <http://purl.org/dc/terms/date> "1987-12-09"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:3013/04>.
+<eva:3013/04> <http://purl.org/dc/terms/title> "Khadzhialiyev and Others v. Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3013/04> <http://purl.org/dc/terms/date> "2008-11-06"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:12920/87>.
+<eva:12920/87> <http://purl.org/dc/terms/title> "L. v Sweden"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:12920/87> <http://purl.org/dc/terms/date> "1988-12-13"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:39272/98>.
+<eva:39272/98> <http://purl.org/dc/terms/title> "M.C. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:25385/04>.
+<eva:25385/04> <http://purl.org/dc/terms/title> "Medova v. Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:42234/02>.
+<eva:42234/02> <http://purl.org/dc/terms/title> "Mehmet Ümit Erdem v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:42234/02> <http://purl.org/dc/terms/date> "2008-07-17"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:36217/97>.
+<eva:36217/97> <http://purl.org/dc/terms/title> "Mentese and Others v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:36217/97> <http://purl.org/dc/terms/date> "2005-01-18"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:43577/98>.
+<eva:43577/98> <http://purl.org/dc/terms/title> "Nachova and Others v. Bulgaria [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:46221/99>.
+<eva:46221/99> <http://purl.org/dc/terms/title> "Öcalan v. Turkey [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:33401/02>.
+<eva:33401/02> <http://purl.org/dc/terms/title> "Opuz v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33401/02> <http://purl.org/dc/terms/date> "2009-06-09"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:54178/00>.
+<eva:54178/00> <http://purl.org/dc/terms/title> "Osmanov and Husseinov v. Bulgaria (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:54178/00> <http://purl.org/dc/terms/date> "2003-09-04"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:74153/01>.
+<eva:74153/01> <http://purl.org/dc/terms/title> "Popov v. Moldova"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:74153/01> <http://purl.org/dc/terms/date> "2005-01-18"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:25965/04>.
+<eva:25965/04> <http://purl.org/dc/terms/title> "Rantsev v. Cyprus and Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25965/04> <http://purl.org/dc/terms/date> "2010-01-07"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:13229/03>.
+<eva:13229/03> <http://purl.org/dc/terms/title> "Saadi v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:30141/04>.
+<eva:30141/04> <http://purl.org/dc/terms/title> "Schalk and Kopf v. Austria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:42400/98>.
+<eva:42400/98> <http://purl.org/dc/terms/title> "Seguin v. France (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:42400/98> <http://purl.org/dc/terms/date> "2000-03-07"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:73316/01>.
+<eva:73316/01> <http://purl.org/dc/terms/title> "Siliadin v. France"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:65731/01>.
+<eva:65731/01> <http://purl.org/dc/terms/title> "Stec and Others v. the United Kingdom (dec.) [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:23531/94>.
+<eva:23531/94> <http://purl.org/dc/terms/title> "Timurtas v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:31365/96>.
+<eva:31365/96> <http://purl.org/dc/terms/title> "Varbanov v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:36042/97>.
+<eva:36042/97> <http://purl.org/dc/terms/title> "Willis v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:29392/95>.
+<eva:29392/95> <http://purl.org/dc/terms/title> "Z and Others v. the United Kingdom [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:40020/03> <http://purl.org/dc/terms/references> <eva:16631/04>.
+<eva:16631/04> <http://purl.org/dc/terms/title> "Zarb v. Malta"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:16631/04> <http://purl.org/dc/terms/date> "2006-07-04"^^<http://www.w3.org/2001/XMLSchema#date>.
 <eva:40020/03> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:40020/03> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:40020/03> <http://purl.org/dc/terms/description> "(Art. 3) Inhuman treatment"^^<http://www.w3.org/2001/XMLSchema#string>.

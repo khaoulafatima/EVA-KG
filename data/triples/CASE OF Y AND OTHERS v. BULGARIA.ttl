@@ -18,6 +18,78 @@
 <eva:9077/18> <http://purl.org/dc/terms/abstract> "Article 2-1 - Life)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:9077/18> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:9077/18> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:55164/08>.
+<eva:55164/08> <http://purl.org/dc/terms/title> "A. v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:55164/08> <http://purl.org/dc/terms/date> "2010-10-14"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:49645/09>.
+<eva:49645/09> <http://purl.org/dc/terms/title> "Bălşan v. Romania"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:49645/09> <http://purl.org/dc/terms/date> "2017-05-23"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:29335/13>.
+<eva:29335/13> <http://purl.org/dc/terms/title> "Behar and Gutman v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:29335/13> <http://purl.org/dc/terms/date> "2021-02-16"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:71127/01>.
+<eva:71127/01> <http://purl.org/dc/terms/title> "Bevacqua and S. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/date> "2008-06-12"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:74448/12>.
+<eva:74448/12> <http://purl.org/dc/terms/title> "Bljakaj and Others v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:74448/12> <http://purl.org/dc/terms/date> "2014-09-18"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:46598/06>.
+<eva:46598/06> <http://purl.org/dc/terms/title> "Branko Tomašić and Others v. Croatia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:46598/06> <http://purl.org/dc/terms/date> "2009-01-15"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:12567/13>.
+<eva:12567/13> <http://purl.org/dc/terms/title> "Budinova and Chaprazov v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:12567/13> <http://purl.org/dc/terms/date> "2021-02-16"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:3564/11>.
+<eva:3564/11> <http://purl.org/dc/terms/title> "Eremia v. the Republic of Moldova"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:3564/11> <http://purl.org/dc/terms/date> "2013-05-28"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:10783/14>.
+<eva:10783/14> <http://purl.org/dc/terms/title> "Handzhiyski v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:10783/14> <http://purl.org/dc/terms/date> "2021-04-06"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:57693/10>.
+<eva:57693/10> <http://purl.org/dc/terms/title> "Kalucza v. Hungary"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57693/10> <http://purl.org/dc/terms/date> "2012-04-24"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:7510/04>.
+<eva:7510/04> <http://purl.org/dc/terms/title> "Kontrová v. Slovakia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:7510/04> <http://purl.org/dc/terms/date> "2007-05-31"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:62439/12>.
+<eva:62439/12> <http://purl.org/dc/terms/title> "Kotilainen and Others v. Finland"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:62439/12> <http://purl.org/dc/terms/date> "2020-09-17"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:62903/15>.
+<eva:62903/15> <http://purl.org/dc/terms/title> "Kurt v. Austria [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:62903/15> <http://purl.org/dc/terms/date> "2021-06-15"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:17496/19>.
+<eva:17496/19> <http://purl.org/dc/terms/title> "Levchuk v. Ukraine"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:17496/19> <http://purl.org/dc/terms/date> "2020-09-03"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:646/10>.
+<eva:646/10> <http://purl.org/dc/terms/title> "M.G. v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:646/10> <http://purl.org/dc/terms/date> "2016-03-22"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:72508/13>.
+<eva:72508/13> <http://purl.org/dc/terms/title> "Merabishvili v. Georgia [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:72508/13> <http://purl.org/dc/terms/date> "2017-11-28"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:34168/11>.
+<eva:34168/11> <http://purl.org/dc/terms/title> "Munteanu v. the Republic of Moldova"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:34168/11> <http://purl.org/dc/terms/date> "2020-05-26"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:72226/11>.
+<eva:72226/11> <http://purl.org/dc/terms/title> "N.P. and N.I. v. Bulgaria (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:72226/11> <http://purl.org/dc/terms/date> "2016-05-03"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:7888/03>.
+<eva:7888/03> <http://purl.org/dc/terms/title> "Nikolova and Velichkova v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:7888/03> <http://purl.org/dc/terms/date> "2007-12-20"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:33401/02>.
+<eva:33401/02> <http://purl.org/dc/terms/title> "Opuz v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:27510/08>.
+<eva:27510/08> <http://purl.org/dc/terms/title> "Perinçek v. Switzerland [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:41237/14>.
+<eva:41237/14> <http://purl.org/dc/terms/title> "Talpis v. Italy"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41237/14> <http://purl.org/dc/terms/date> "2017-03-02"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:33056/17>.
+<eva:33056/17> <http://purl.org/dc/terms/title> "Tkhelidze v. Georgia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33056/17> <http://purl.org/dc/terms/date> "2021-07-08"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:41261/17>.
+<eva:41261/17> <http://purl.org/dc/terms/title> "Volodina v. Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41261/17> <http://purl.org/dc/terms/date> "2019-07-09"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:9077/18> <http://purl.org/dc/terms/references> <eva:40660/08>.
+<eva:40660/08> <http://purl.org/dc/terms/title> "Von Hannover v. Germany (no. 2) [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:9077/18> <http://purl.org/dc/terms/description> "(Art. 2) Right to life"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:9077/18> <http://purl.org/dc/terms/description> "(Art. 2) Positive obligations"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:9077/18> <http://purl.org/dc/terms/description> "(Art. 2-1) Life"^^<http://www.w3.org/2001/XMLSchema#string>.

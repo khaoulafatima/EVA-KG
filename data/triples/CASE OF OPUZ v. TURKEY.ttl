@@ -20,6 +20,47 @@
 <eva:33401/02> <http://purl.org/dc/terms/abstract> "Violation of Art. 14+3"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:33401/02> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:33401/02> <http://purl.org/dc/terms/abstract> "Pecuniary damage - claim dismissed"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33401/02> <http://purl.org/dc/terms/references> <eva:42942/02>.
+<eva:42942/02> <http://purl.org/dc/terms/title> "Ali and Ayse Duran v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:42942/02> <http://purl.org/dc/terms/date> "2008-04-08"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:33401/02> <http://purl.org/dc/terms/references> <eva:25657/94>.
+<eva:25657/94> <http://purl.org/dc/terms/title> "Avsar v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33401/02> <http://purl.org/dc/terms/references> <eva:71127/01>.
+<eva:71127/01> <http://purl.org/dc/terms/title> "Bevacqua and S. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:71127/01> <http://purl.org/dc/terms/date> "2008-06-12"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:33401/02> <http://purl.org/dc/terms/references> <eva:23657/94>.
+<eva:23657/94> <http://purl.org/dc/terms/title> "Çakici v. Turkey [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33401/02> <http://purl.org/dc/terms/references> <eva:32967/96>.
+<eva:32967/96> <http://purl.org/dc/terms/title> "Calvelli and Ciglio v. Italy"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33401/02> <http://purl.org/dc/terms/references> <eva:57325/00>.
+<eva:57325/00> <http://purl.org/dc/terms/title> "D.H. and Others v. Czech Republic [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57325/00> <http://purl.org/dc/terms/date> "2007-11-13"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:33401/02> <http://purl.org/dc/terms/references> <eva:34503/97>.
+<eva:34503/97> <http://purl.org/dc/terms/title> "Demir and Baykara v. Turkey [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:34503/97> <http://purl.org/dc/terms/date> "2008-11-12"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:33401/02> <http://purl.org/dc/terms/references> <eva:33218/96>.
+<eva:33218/96> <http://purl.org/dc/terms/title> "E. and Others v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33401/02> <http://purl.org/dc/terms/references> <eva:58461/00>.
+<eva:58461/00> <http://purl.org/dc/terms/title> "Hoogendijk v. the Netherlands (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:58461/00> <http://purl.org/dc/terms/date> "2005-01-06"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:33401/02> <http://purl.org/dc/terms/references> <eva:42758/98>.
+<eva:42758/98> <http://purl.org/dc/terms/title> "K.A. and A.D. v. Belgium"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:42758/98> <http://purl.org/dc/terms/date> "2005-02-17"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:33401/02> <http://purl.org/dc/terms/references> <eva:67215/01>.
+<eva:67215/01> <http://purl.org/dc/terms/title> "Kenar v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:67215/01> <http://purl.org/dc/terms/date> "2005-12-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:33401/02> <http://purl.org/dc/terms/references> <eva:7510/04>.
+<eva:7510/04> <http://purl.org/dc/terms/title> "Kontrová v. Slovakia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33401/02> <http://purl.org/dc/terms/references> <eva:7888/03>.
+<eva:7888/03> <http://purl.org/dc/terms/title> "Nikolova and Velichkova v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:7888/03> <http://purl.org/dc/terms/date> "2007-12-20"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:33401/02> <http://purl.org/dc/terms/references> <eva:37201/06>.
+<eva:37201/06> <http://purl.org/dc/terms/title> "Saadi v. Italy [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:33401/02> <http://purl.org/dc/terms/references> <eva:22876/93>.
+<eva:22876/93> <http://purl.org/dc/terms/title> "Semsi Önen v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:22876/93> <http://purl.org/dc/terms/date> "2002-05-14"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:33401/02> <http://purl.org/dc/terms/references> <eva:17209/02>.
+<eva:17209/02> <http://purl.org/dc/terms/title> "Zarb Adami v. Malta"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:33401/02> <http://purl.org/dc/terms/description> "(Art. 35) Admissibility criteria"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:33401/02> <http://purl.org/dc/terms/description> "(Art. 35-1) Exhaustion of domestic remedies"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:33401/02> <http://purl.org/dc/terms/description> "(Art 35-1) Four-month period (former six-month)"^^<http://www.w3.org/2001/XMLSchema#string>.

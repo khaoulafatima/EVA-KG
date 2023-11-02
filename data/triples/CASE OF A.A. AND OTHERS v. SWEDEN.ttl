@@ -13,6 +13,30 @@
 <eva:14499/09> <http://purl.org/dc/terms/date> "2012-06-28"^^<http://www.w3.org/2001/XMLSchema#date>.
 <eva:14499/09> <http://purl.org/dc/terms/abstract> "No violation of Article 2 - Right to life (Article 2 - Extradition) (Conditional) (Yemen)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:14499/09> <http://purl.org/dc/terms/abstract> "No violation of Article 3 - Prohibition of torture (Article 3 - Extradition) (Conditional) (Yemen)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:14499/09> <http://purl.org/dc/terms/references> <eva:23944/05>.
+<eva:23944/05> <http://purl.org/dc/terms/title> "Collins and Akasiebie v. Sweden (dec.)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23944/05> <http://purl.org/dc/terms/date> "2007-03-08"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:14499/09> <http://purl.org/dc/terms/references> <eva:32621/06>.
+<eva:32621/06> <http://purl.org/dc/terms/title> "D. v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:32621/06> <http://purl.org/dc/terms/date> "1997-05-02"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:14499/09> <http://purl.org/dc/terms/references> <eva:45276/99>.
+<eva:45276/99> <http://purl.org/dc/terms/title> "Hilal v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:14499/09> <http://purl.org/dc/terms/references> <eva:46827/99>.
+<eva:46827/99> <http://purl.org/dc/terms/title> "Mamatkulov and Askarov v. Turkey [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:14499/09> <http://purl.org/dc/terms/references> <eva:38885/02>.
+<eva:38885/02> <http://purl.org/dc/terms/title> "N. v. Finland"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:38885/02> <http://purl.org/dc/terms/date> "2005-07-26"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:14499/09> <http://purl.org/dc/terms/references> <eva:23505/09>.
+<eva:23505/09> <http://purl.org/dc/terms/title> "N. v. Sweden"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23505/09> <http://purl.org/dc/terms/date> "2010-07-20"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:14499/09> <http://purl.org/dc/terms/references> <eva:25904/07>.
+<eva:25904/07> <http://purl.org/dc/terms/title> "NA. v. the United Kingdom"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:25904/07> <http://purl.org/dc/terms/date> "2008-07-17"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:14499/09> <http://purl.org/dc/terms/references> <eva:41827/07>.
+<eva:41827/07> <http://purl.org/dc/terms/title> "R.C. v. Sweden"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:41827/07> <http://purl.org/dc/terms/date> "2010-03-09"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:14499/09> <http://purl.org/dc/terms/references> <eva:37201/06>.
+<eva:37201/06> <http://purl.org/dc/terms/title> "Saadi v. Italy [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:14499/09> <http://purl.org/dc/terms/description> "(Art. 2) Right to life"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:14499/09> <http://purl.org/dc/terms/description> "(Art. 2) Extradition"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:14499/09> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.

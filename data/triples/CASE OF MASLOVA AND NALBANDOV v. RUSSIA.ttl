@@ -23,6 +23,27 @@
 <eva:839/02> <http://purl.org/dc/terms/abstract> "Violation of Article 38 - Examination of the case-{general} (Article 38 - Obligation to furnish all necessary facilities)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:839/02> <http://purl.org/dc/terms/abstract> "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:839/02> <http://purl.org/dc/terms/abstract> "Just satisfaction)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:839/02> <http://purl.org/dc/terms/references> <eva:57947/00>.
+<eva:57947/00> <http://purl.org/dc/terms/title> "Isayeva and Others v. Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:57947/00> <http://purl.org/dc/terms/date> "2005-02-24"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:839/02> <http://purl.org/dc/terms/references> <eva:26772/95>.
+<eva:26772/95> <http://purl.org/dc/terms/title> "Labita v. Italy [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:839/02> <http://purl.org/dc/terms/references> <eva:39272/98>.
+<eva:39272/98> <http://purl.org/dc/terms/title> "M.C. v. Bulgaria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:839/02> <http://purl.org/dc/terms/references> <eva:23423/94>.
+<eva:23423/94> <http://purl.org/dc/terms/title> "Matyar v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:23423/94> <http://purl.org/dc/terms/date> "2002-02-21"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:839/02> <http://purl.org/dc/terms/references> <eva:77617/01>.
+<eva:77617/01> <http://purl.org/dc/terms/title> "Mikheyev v. Russia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:77617/01> <http://purl.org/dc/terms/date> "2006-01-26"^^<http://www.w3.org/2001/XMLSchema#date>.
+<eva:839/02> <http://purl.org/dc/terms/references> <eva:21986/93>.
+<eva:21986/93> <http://purl.org/dc/terms/title> "Salman v. Turkey [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:839/02> <http://purl.org/dc/terms/references> <eva:25803/94>.
+<eva:25803/94> <http://purl.org/dc/terms/title> "Selmouni v. France [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:839/02> <http://purl.org/dc/terms/references> <eva:23763/94>.
+<eva:23763/94> <http://purl.org/dc/terms/title> "Tanrikulu v. Turkey [GC]"^^<http://www.w3.org/2001/XMLSchema#string>.
+<eva:839/02> <http://purl.org/dc/terms/references> <eva:3531/94>.
+<eva:3531/94> <http://purl.org/dc/terms/title> "Timurtas v. Turkey"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:839/02> <http://purl.org/dc/terms/description> "(Art. 3) Prohibition of torture"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:839/02> <http://purl.org/dc/terms/description> "(Art. 3) Degrading treatment"^^<http://www.w3.org/2001/XMLSchema#string>.
 <eva:839/02> <http://purl.org/dc/terms/description> "(Art. 3) Effective investigation"^^<http://www.w3.org/2001/XMLSchema#string>.
