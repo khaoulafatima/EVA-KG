@@ -30,69 +30,69 @@
         "Preliminary objection joined to merits and dismissed (Article 35-1 - Exhaustion of domestic remedies)"^^xsd:string,
         "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect)"^^xsd:string,
         "Violation of Article 6 - Right to a fair trial (Article 6 - Civil proceedings"^^xsd:string ;
-    dcterms:identifier "https://hudoc.echr.coe.int/eng#{\"itemid\":[\"001-177226\"]}"^^xsd:string ;
+    dcterms:identifier "https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-177226%22]}"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2017:1003JUD002302213"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ ns1:hasApplicationNumber "77938/11"^^xsd:string ;
+    dcterms:references [ ns1:hasApplicationNumber "21722/11"^^xsd:string ;
+            dcterms:description "Oleksandr Volkov v. Ukraine, no. 21722/11, § 219, ECHR 2013"^^xsd:string ;
+            dcterms:title "Oleksandr Volkov v. Ukraine"^^xsd:string ],
+        [ ns1:hasApplicationNumber "77938/11"^^xsd:string ;
             dcterms:date "2014-07-01"^^xsd:date ;
             dcterms:description "Dimitrov and Others v. Bulgaria, no. 77938/11, § 171, 1 July 2014"^^xsd:string ;
             dcterms:title "Dimitrov and Others v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "49669/07"^^xsd:string ;
-            dcterms:date "2012-01-24"^^xsd:date ;
-            dcterms:description "P.M. v. Bulgaria, no. 49669/07, §§ 65-66, 24 January 2012"^^xsd:string ;
-            dcterms:title "P.M. v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "21722/11"^^xsd:string ;
-            dcterms:description "Oleksandr Volkov v. Ukraine, no. 21722/11, § 219, ECHR 2013"^^xsd:string ;
-            dcterms:title "Oleksandr Volkov v. Ukraine"^^xsd:string ],
-        [ ns1:hasApplicationNumber "5786/08"^^xsd:string ;
-            dcterms:description "Söderman v. Sweden [GC], no. 5786/08, §§ 80 and 81, ECHR 2013"^^xsd:string ;
-            dcterms:title "Söderman v. Sweden [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "1401/08"^^xsd:string ;
-            dcterms:date "2013-04-09"^^xsd:date ;
-            dcterms:description "Anđelković v. Serbia, no. 1401/08, 9 April 2013"^^xsd:string ;
-            dcterms:title "Anđelković v. Serbia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "47848/08"^^xsd:string ;
-            dcterms:description "Centre for Legal Resources on behalf of Valentin Câmpeanu v. Romania [GC], no. 47848/08, § 156, ECHR 2014"^^xsd:string ;
-            dcterms:title "Centre for Legal Resources on behalf of Valentin Câmpeanu v. Romania [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "24125/06"^^xsd:string ;
-            dcterms:date "2014-01-23"^^xsd:date ;
-            dcterms:description "W. v. Slovenia, no. 24125/06, §§ 66-70, 23 January 2014"^^xsd:string ;
-            dcterms:title "W. v. Slovenia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "22251/08"^^xsd:string ;
-            dcterms:description "Bochan v. Ukraine (no. 2) [GC], no. 22251/08, ECHR 2015"^^xsd:string ;
-            dcterms:title "Bochan v. Ukraine (no. 2) [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "3524/14"^^xsd:string ;
-            dcterms:date "2017-01-12"^^xsd:date ;
-            dcterms:description "Sarbyanova-Pashaliyska and Pashaliyska v. Bulgaria, no. 3524/14, § 41, 12 January 2017"^^xsd:string ;
-            dcterms:title "Sarbyanova-Pashaliyska and Pashaliyska v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "68842/13"^^xsd:string ;
-            dcterms:date "2015-12-15"^^xsd:date ;
-            dcterms:description "Serban Marinescu v. Romania, no. 68842/13, §§ 78-80, 15 December 2015"^^xsd:string ;
-            dcterms:title "Serban Marinescu v. Romania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "65158/09"^^xsd:string ;
-            dcterms:date "2016-02-02"^^xsd:date ;
-            dcterms:description "Drăgan v. Romania, no. 65158/09, §§ 99-102, 2 February 2016"^^xsd:string ;
-            dcterms:title "Drăgan v. Romania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "29392/95"^^xsd:string ;
-            dcterms:description "Z and Others v. the United Kingdom, [GC], no. 29392/95, § 73, ECHR 2001-V"^^xsd:string ;
-            dcterms:title "Z and Others v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "21472/03"^^xsd:string ;
-            dcterms:date "2008-09-16"^^xsd:date ;
-            dcterms:description "Lamarche v. Romania, no. 21472/03, § 34, 16 September 2008"^^xsd:string ;
-            dcterms:title "Lamarche v. Romania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "12060/12"^^xsd:string ;
-            dcterms:date "2016-04-12"^^xsd:date ;
-            dcterms:description "M.C. and A.C. v. Romania, no. 12060/12, 12 April 2016"^^xsd:string ;
-            dcterms:title "M.C. and A.C. v. Romania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "10161/13"^^xsd:string ;
-            dcterms:description "M. and M. v. Croatia, no. 10161/13, § 136, ECHR 2015 (extracts)"^^xsd:string ;
-            dcterms:title "M. and M. v. Croatia"^^xsd:string ],
         [ ns1:hasApplicationNumber "26692/05"^^xsd:string ;
             dcterms:date "2012-03-20"^^xsd:date ;
             dcterms:description "C.A.S. and C.S. v. Romania, no. 26692/05, §§ 68-70 and 82, 20 March 2012"^^xsd:string ;
             dcterms:title "C.A.S. and C.S. v. Romania"^^xsd:string ],
-        [ dcterms:description "Law at Issue Article 17 of the Code of Criminal Procedure"^^xsd:string ] ;
+        [ ns1:hasApplicationNumber "29392/95"^^xsd:string ;
+            dcterms:description "Z and Others v. the United Kingdom, [GC], no. 29392/95, § 73, ECHR 2001-V"^^xsd:string ;
+            dcterms:title "Z and Others v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "24125/06"^^xsd:string ;
+            dcterms:date "2014-01-23"^^xsd:date ;
+            dcterms:description "W. v. Slovenia, no. 24125/06, §§ 66-70, 23 January 2014"^^xsd:string ;
+            dcterms:title "W. v. Slovenia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "21472/03"^^xsd:string ;
+            dcterms:date "2008-09-16"^^xsd:date ;
+            dcterms:description "Lamarche v. Romania, no. 21472/03, § 34, 16 September 2008"^^xsd:string ;
+            dcterms:title "Lamarche v. Romania"^^xsd:string ],
+        [ ns1:hasApplicationNumber "10161/13"^^xsd:string ;
+            dcterms:description "M. and M. v. Croatia, no. 10161/13, § 136, ECHR 2015 (extracts)"^^xsd:string ;
+            dcterms:title "M. and M. v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "49669/07"^^xsd:string ;
+            dcterms:date "2012-01-24"^^xsd:date ;
+            dcterms:description "P.M. v. Bulgaria, no. 49669/07, §§ 65-66, 24 January 2012"^^xsd:string ;
+            dcterms:title "P.M. v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "5786/08"^^xsd:string ;
+            dcterms:description "Söderman v. Sweden [GC], no. 5786/08, §§ 80 and 81, ECHR 2013"^^xsd:string ;
+            dcterms:title "Söderman v. Sweden [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "68842/13"^^xsd:string ;
+            dcterms:date "2015-12-15"^^xsd:date ;
+            dcterms:description "Serban Marinescu v. Romania, no. 68842/13, §§ 78-80, 15 December 2015"^^xsd:string ;
+            dcterms:title "Serban Marinescu v. Romania"^^xsd:string ],
+        [ ns1:hasApplicationNumber "47848/08"^^xsd:string ;
+            dcterms:description "Centre for Legal Resources on behalf of Valentin Câmpeanu v. Romania [GC], no. 47848/08, § 156, ECHR 2014"^^xsd:string ;
+            dcterms:title "Centre for Legal Resources on behalf of Valentin Câmpeanu v. Romania [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "65158/09"^^xsd:string ;
+            dcterms:date "2016-02-02"^^xsd:date ;
+            dcterms:description "Drăgan v. Romania, no. 65158/09, §§ 99-102, 2 February 2016"^^xsd:string ;
+            dcterms:title "Drăgan v. Romania"^^xsd:string ],
+        [ ns1:hasApplicationNumber "22251/08"^^xsd:string ;
+            dcterms:description "Bochan v. Ukraine (no. 2) [GC], no. 22251/08, ECHR 2015"^^xsd:string ;
+            dcterms:title "Bochan v. Ukraine (no. 2) [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "1401/08"^^xsd:string ;
+            dcterms:date "2013-04-09"^^xsd:date ;
+            dcterms:description "Anđelković v. Serbia, no. 1401/08, 9 April 2013"^^xsd:string ;
+            dcterms:title "Anđelković v. Serbia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "12060/12"^^xsd:string ;
+            dcterms:date "2016-04-12"^^xsd:date ;
+            dcterms:description "M.C. and A.C. v. Romania, no. 12060/12, 12 April 2016"^^xsd:string ;
+            dcterms:title "M.C. and A.C. v. Romania"^^xsd:string ],
+        [ dcterms:description "Law at Issue Article 17 of the Code of Criminal Procedure"^^xsd:string ],
+        [ ns1:hasApplicationNumber "3524/14"^^xsd:string ;
+            dcterms:date "2017-01-12"^^xsd:date ;
+            dcterms:description "Sarbyanova-Pashaliyska and Pashaliyska v. Bulgaria, no. 3524/14, § 41, 12 January 2017"^^xsd:string ;
+            dcterms:title "Sarbyanova-Pashaliyska and Pashaliyska v. Bulgaria"^^xsd:string ] ;
     dcterms:title "CASE OF D.M.D. v. ROMANIA"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 

@@ -42,103 +42,128 @@
         "Violation of Article 5 - Right to liberty and security (Article 5-1 - Deprivation of liberty"^^xsd:string,
         "Violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations"^^xsd:string,
         "Violation of Article 8 - Right to respect for private and family life (Article 8-1 - Respect for private life)"^^xsd:string ;
-    dcterms:identifier "https://hudoc.echr.coe.int/eng#{\"itemid\":[\"001-114098\"]}"^^xsd:string ;
+    dcterms:identifier "https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-114098%22]}"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2012:1030JUD005737508"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ ns1:hasApplicationNumber "33985/96"^^xsd:string ;
-            dcterms:description "Smith and Grady v. the United Kingdom (just satisfaction), nos. 33985/96 and 33986/96, § 28, ECHR 2000-IX"^^xsd:string ;
-            dcterms:title "Smith and Grady v. the United Kingdom (just satisfaction)"^^xsd:string ],
-        [ dcterms:date "1987-07-08"^^xsd:date ;
-            dcterms:description "W. v. the United Kingdom, 8 July 1987, §§ 62 and 64, Series A no. 121"^^xsd:string ;
-            dcterms:title "W. v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "5410/03"^^xsd:string ;
-            dcterms:date "2007-03-20"^^xsd:date ;
-            dcterms:description "Tysiac v. Poland, no. 5410/03, 20 March 2007"^^xsd:string ;
-            dcterms:title "Tysiac v. Poland"^^xsd:string ],
-        [ dcterms:date "1997-02-25"^^xsd:date ;
-            dcterms:description "Z v. Finland, 25 February 1997, §§ 95-96, Reports 1997-I"^^xsd:string ;
-            dcterms:title "Z v. Finland"^^xsd:string ],
-        [ ns1:hasApplicationNumber "6339/05"^^xsd:string ;
-            dcterms:description "Evans v. the United Kingdom [GC], no. 6339/05, § 71, ECHR 2007-I"^^xsd:string ;
-            dcterms:title "Evans v. the United Kingdom [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "25196/94"^^xsd:string ;
-            dcterms:date "2001-11-15"^^xsd:date ;
-            dcterms:description "Iwanczuk v. Poland, no. 25196/94, § 51, 15 November 2001"^^xsd:string ;
-            dcterms:title "Iwanczuk v. Poland"^^xsd:string ],
-        [ ns1:hasApplicationNumber "25266/05"^^xsd:string ;
-            dcterms:date "2010-01-05"^^xsd:date ;
-            dcterms:description "Yardimci v. Turkey, no. 25266/05, 5 January 2010, §§ 55-56"^^xsd:string ;
-            dcterms:title "Yardimci v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "33394/96"^^xsd:string ;
-            dcterms:description "Price v. the United Kingdom, no. 33394/96, § 24, ECHR 2001-VII"^^xsd:string ;
-            dcterms:title "Price v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "58148/00"^^xsd:string ;
-            dcterms:description "Editions Plon v. France, no. 58148/00, ECHR 2004-IV"^^xsd:string ;
-            dcterms:title "Editions Plon v. France"^^xsd:string ],
-        [ dcterms:date "1996-10-22"^^xsd:date ;
-            dcterms:description "Stubbings and Others v. the United Kingdom, 22 October 1996, §§ 62-63, Reports 1996-IV"^^xsd:string ;
-            dcterms:title "Stubbings and Others v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "61827/00"^^xsd:string ;
-            dcterms:description "Glass v. the United Kingdom, no. 61827/00, ECHR 2004-II"^^xsd:string ;
-            dcterms:title "Glass v. the United Kingdom"^^xsd:string ],
-        [ dcterms:description "Article 4 (a) 1 (5) and Section 4(a) of the Law on Family Planning (Protection of the Human Foetus and Conditions Permitting Pregnancy Termination) "^^xsd:string ],
+    dcterms:references [ ns1:hasApplicationNumber "27526/95"^^xsd:string ;
+            dcterms:date "2002-04-25"^^xsd:date ;
+            dcterms:description "Günaydin v. Turkey (dec.), no. 27526/95, 25 April 2002"^^xsd:string ;
+            dcterms:title "Günaydin v. Turkey (dec.)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "14462/03"^^xsd:string ;
+            dcterms:description "Pentiacova and Others v. Moldova (dec.), no. 14462/03, ECHR 2005-..."^^xsd:string ;
+            dcterms:title "Pentiacova and Others v. Moldova (dec.)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "25642/94"^^xsd:string ;
+            dcterms:description "Aquilina v. Malta [GC], no. 25642/94, § 39, ECHR 1999-III"^^xsd:string ;
+            dcterms:title "Aquilina v. Malta [GC]"^^xsd:string ],
         [ dcterms:date "1985-03-26"^^xsd:date ;
             dcterms:description "X and Y v. the Netherlands, 26 March 1985, §§ 23-24, Series A no. 91"^^xsd:string ;
             dcterms:title "X and Y v. the Netherlands"^^xsd:string ],
-        [ ns1:hasApplicationNumber "33670/96"^^xsd:string ;
-            dcterms:date "2000-10-12"^^xsd:date ;
-            dcterms:description "Koniarska v. the United Kingdom, (dec.), no. 33670/96, 12 October 2000"^^xsd:string ;
-            dcterms:title "Koniarska v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "56195/00"^^xsd:string ;
-            dcterms:date "2005-07-05"^^xsd:date ;
-            dcterms:description "Krumpel and Krumpelová v. Slovakia, no. 56195/00, § 43, 5 July 2005"^^xsd:string ;
-            dcterms:title "Krumpel and Krumpelová v. Slovakia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "18968/07"^^xsd:string ;
-            dcterms:description "V.C. v. Slovakia, no. 18968/07, §§ 106-120, ECHR 2011 (extracts)"^^xsd:string ;
-            dcterms:title "V.C. v. Slovakia"^^xsd:string ],
-        [ dcterms:date "1986-12-18"^^xsd:date ;
-            dcterms:description "Bozano v. France, 18 December 1986, § 54, Series A no. 111"^^xsd:string ;
-            dcterms:title "Bozano v. France"^^xsd:string ],
-        [ ns1:hasApplicationNumber "2627/09"^^xsd:string ;
-            dcterms:date "2011-01-25"^^xsd:date ;
-            dcterms:description "Kupczak v. Poland, no. 2627/09, § 58, 25 January 2011"^^xsd:string ;
-            dcterms:title "Kupczak v. Poland"^^xsd:string ],
-        [ ns1:hasApplicationNumber "28870/05"^^xsd:string ;
-            dcterms:date "2010-05-25"^^xsd:date ;
-            dcterms:description "Gecekusu v. Turkey (dec.), no. 28870/05, 25 May 2010"^^xsd:string ;
-            dcterms:title "Gecekusu v. Turkey (dec.)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "57813/00"^^xsd:string ;
-            dcterms:date "2010-04-01"^^xsd:date ;
-            dcterms:description "S.H. and Others v. Austria, no. 57813/00, 1 April 2010"^^xsd:string ;
-            dcterms:title "S.H. and Others v. Austria"^^xsd:string ],
-        [ dcterms:date "1979-10-09"^^xsd:date ;
-            dcterms:description "Airey v. Ireland, 9 October 1979, § 24, Series A no. 32"^^xsd:string ;
-            dcterms:title "Airey v. Ireland"^^xsd:string ],
-        [ ns1:hasApplicationNumber "20511/03"^^xsd:string ;
-            dcterms:date "2008-07-17"^^xsd:date ;
-            dcterms:description "I. v. Finland, no. 20511/03, § 35, 17 July 2008"^^xsd:string ;
-            dcterms:title "I. v. Finland"^^xsd:string ],
-        [ ns1:hasApplicationNumber "39272/98"^^xsd:string ;
-            dcterms:description "M.C. v. Bulgaria, no. 39272/98, § 184, ECHR 2003-XII"^^xsd:string ;
-            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "33985/96"^^xsd:string ;
+            dcterms:description "Smith and Grady v. the United Kingdom (just satisfaction), nos. 33985/96 and 33986/96, § 28, ECHR 2000-IX"^^xsd:string ;
+            dcterms:title "Smith and Grady v. the United Kingdom (just satisfaction)"^^xsd:string ],
+        [ dcterms:date "1996-10-22"^^xsd:date ;
+            dcterms:description "Stubbings and Others v. the United Kingdom, 22 October 1996, §§ 62-63, Reports 1996-IV"^^xsd:string ;
+            dcterms:title "Stubbings and Others v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "1987-03-02"^^xsd:date ;
+            dcterms:description "Weeks v. the United Kingdom, 2 March 1987, § 42, Series A no. 114"^^xsd:string ;
+            dcterms:title "Weeks v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Article 109 of the Family and Custody Code"^^xsd:string ],
+        [ ns1:hasApplicationNumber "27617/04"^^xsd:string ;
+            dcterms:date "2011-05-26"^^xsd:date ;
+            dcterms:description "R.R. v. Poland, no. 27617/04, 26 May 2011"^^xsd:string ;
+            dcterms:title "R.R. v. Poland"^^xsd:string ],
         [ ns1:hasApplicationNumber "31195/96"^^xsd:string ;
             dcterms:date "1999-03-25"^^xsd:date ;
             dcterms:description "Nikolova v. Bulgaria [GC], no. 31195/96, 25 March 1999, § 79"^^xsd:string ;
             dcterms:title "Nikolova v. Bulgaria [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "14462/03"^^xsd:string ;
-            dcterms:description "Pentiacova and Others v. Moldova (dec.), no. 14462/03, ECHR 2005-..."^^xsd:string ;
-            dcterms:title "Pentiacova and Others v. Moldova (dec.)"^^xsd:string ],
-        [ dcterms:date "1998-06-09"^^xsd:date ;
-            dcterms:description "McGinley and Egan v. the United Kingdom, 9 June 1998, § 101, Reports of Judgments and Decisions 1998-III"^^xsd:string ;
-            dcterms:title "McGinley and Egan v. the United Kingdom"^^xsd:string ],
-        [ dcterms:date "1987-03-02"^^xsd:date ;
-            dcterms:description "Weeks v. the United Kingdom, 2 March 1987, § 42, Series A no. 114"^^xsd:string ;
-            dcterms:title "Weeks v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Article 4 (a) 1 (5) and Section 4(a) of the Law on Family Planning (Protection of the Human Foetus and Conditions Permitting Pregnancy Termination) "^^xsd:string ],
+        [ ns1:hasApplicationNumber "14612/02"^^xsd:string ;
+            dcterms:date "2009-03-31"^^xsd:date ;
+            dcterms:description "Wiktorko v. Poland, no. 14612/02, 31 March 2009"^^xsd:string ;
+            dcterms:title "Wiktorko v. Poland"^^xsd:string ],
+        [ ns1:hasApplicationNumber "28870/05"^^xsd:string ;
+            dcterms:date "2010-05-25"^^xsd:date ;
+            dcterms:description "Gecekusu v. Turkey (dec.), no. 28870/05, 25 May 2010"^^xsd:string ;
+            dcterms:title "Gecekusu v. Turkey (dec.)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "39272/98"^^xsd:string ;
+            dcterms:description "M.C. v. Bulgaria, no. 39272/98, § 184, ECHR 2003-XII"^^xsd:string ;
+            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "57813/00"^^xsd:string ;
+            dcterms:date "2010-04-01"^^xsd:date ;
+            dcterms:description "S.H. and Others v. Austria, no. 57813/00, 1 April 2010"^^xsd:string ;
+            dcterms:title "S.H. and Others v. Austria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "5410/03"^^xsd:string ;
+            dcterms:date "2007-03-20"^^xsd:date ;
+            dcterms:description "Tysiac v. Poland, no. 5410/03, 20 March 2007"^^xsd:string ;
+            dcterms:title "Tysiac v. Poland"^^xsd:string ],
+        [ ns1:hasApplicationNumber "26772/95"^^xsd:string ;
+            dcterms:description "Labita v. Italy [GC], no. 26772/95, § 120, ECHR 2000-IV"^^xsd:string ;
+            dcterms:title "Labita v. Italy [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "18968/07"^^xsd:string ;
+            dcterms:description "V.C. v. Slovakia, no. 18968/07, §§ 106-120, ECHR 2011 (extracts)"^^xsd:string ;
+            dcterms:title "V.C. v. Slovakia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "26053/07"^^xsd:string ;
+            dcterms:date "2010-10-12"^^xsd:date ;
+            dcterms:description "Carlo Dossi and Others v. Italy, (dec.), no. 26053/07, 12 October 2010"^^xsd:string ;
+            dcterms:title "Carlo Dossi and Others v. Italy"^^xsd:string ],
+        [ dcterms:date "1979-10-24"^^xsd:date ;
+            dcterms:description "Winterwerp v. the Netherlands, 24 October 1979, §§ 39 and 45, Series A no. 33"^^xsd:string ;
+            dcterms:title "Winterwerp v. the Netherlands"^^xsd:string ],
+        [ ns1:hasApplicationNumber "28957/95"^^xsd:string ;
+            dcterms:description "Christine Goodwin v. the United Kingdom [GC], no. 28957/95, ECHR 2002-VI"^^xsd:string ;
+            dcterms:title "Christine Goodwin v. the United Kingdom [GC]"^^xsd:string ],
         [ ns1:hasApplicationNumber "23373/03"^^xsd:string ;
             dcterms:date "2008-11-25"^^xsd:date ;
             dcterms:description "Biriuk v. Lithuania, no. 23373/03, § 43, 25 November 2008"^^xsd:string ;
             dcterms:title "Biriuk v. Lithuania"^^xsd:string ],
+        [ ns1:hasApplicationNumber "32555/96"^^xsd:string ;
+            dcterms:description "Roche v. the United Kingdom [GC], no. 32555/96, § 162, ECHR 2005-X"^^xsd:string ;
+            dcterms:title "Roche v. the United Kingdom [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "6339/05"^^xsd:string ;
+            dcterms:description "Evans v. the United Kingdom [GC], no. 6339/05, § 71, ECHR 2007-I"^^xsd:string ;
+            dcterms:title "Evans v. the United Kingdom [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "33670/96"^^xsd:string ;
+            dcterms:date "2000-10-12"^^xsd:date ;
+            dcterms:description "Koniarska v. the United Kingdom, (dec.), no. 33670/96, 12 October 2000"^^xsd:string ;
+            dcterms:title "Koniarska v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "33394/96"^^xsd:string ;
+            dcterms:description "Price v. the United Kingdom, no. 33394/96, § 24, ECHR 2001-VII"^^xsd:string ;
+            dcterms:title "Price v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "2627/09"^^xsd:string ;
+            dcterms:date "2011-01-25"^^xsd:date ;
+            dcterms:description "Kupczak v. Poland, no. 2627/09, § 58, 25 January 2011"^^xsd:string ;
+            dcterms:title "Kupczak v. Poland"^^xsd:string ],
+        [ ns1:hasApplicationNumber "20511/03"^^xsd:string ;
+            dcterms:date "2008-07-17"^^xsd:date ;
+            dcterms:description "I. v. Finland, no. 20511/03, § 35, 17 July 2008"^^xsd:string ;
+            dcterms:title "I. v. Finland"^^xsd:string ],
+        [ ns1:hasApplicationNumber "58148/00"^^xsd:string ;
+            dcterms:description "Editions Plon v. France, no. 58148/00, ECHR 2004-IV"^^xsd:string ;
+            dcterms:title "Editions Plon v. France"^^xsd:string ],
+        [ dcterms:date "1998-07-30"^^xsd:date ;
+            dcterms:description "Aerts v. Belgium, 30 July 1998, § 46, Reports 1998-V"^^xsd:string ;
+            dcterms:title "Aerts v. Belgium"^^xsd:string ],
+        [ dcterms:date "1980-11-06"^^xsd:date ;
+            dcterms:description "Guzzardi v. Italy, 6 November 1980, §§ 96, 98 and 100, Series A no. 39"^^xsd:string ;
+            dcterms:title "Guzzardi v. Italy"^^xsd:string ],
+        [ dcterms:date "1988-03-24"^^xsd:date ;
+            dcterms:description "Olsson v. Sweden (no. 1), 24 March 1988, § 67, Series A no. 130"^^xsd:string ;
+            dcterms:title "Olsson v. Sweden (no. 1)"^^xsd:string ],
+        [ dcterms:date "1998-06-09"^^xsd:date ;
+            dcterms:description "McGinley and Egan v. the United Kingdom, 9 June 1998, § 101, Reports of Judgments and Decisions 1998-III"^^xsd:string ;
+            dcterms:title "McGinley and Egan v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "25196/94"^^xsd:string ;
+            dcterms:date "2001-11-15"^^xsd:date ;
+            dcterms:description "Iwanczuk v. Poland, no. 25196/94, § 51, 15 November 2001"^^xsd:string ;
+            dcterms:title "Iwanczuk v. Poland"^^xsd:string ],
+        [ ns1:hasApplicationNumber "30873/96"^^xsd:string ;
+            dcterms:description "Egmez v. Cyprus, no. 30873/96, § 64, ECHR 2000-XII"^^xsd:string ;
+            dcterms:title "Egmez v. Cyprus"^^xsd:string ],
+        [ ns1:hasApplicationNumber "56195/00"^^xsd:string ;
+            dcterms:date "2005-07-05"^^xsd:date ;
+            dcterms:description "Krumpel and Krumpelová v. Slovakia, no. 56195/00, § 43, 5 July 2005"^^xsd:string ;
+            dcterms:title "Krumpel and Krumpelová v. Slovakia"^^xsd:string ],
         [ ns1:hasApplicationNumber "27677/02"^^xsd:string ;
             dcterms:date "2003-07-08"^^xsd:date ;
             dcterms:description "Sentges v. the Netherlands (dec.), no. 27677/02, 8 July 2003"^^xsd:string ;
@@ -146,57 +171,32 @@
         [ dcterms:date "1998-10-28"^^xsd:date ;
             dcterms:description "Assenov and Others v. Bulgaria, 28 October 1998, § 86, Reports 1998-VIII"^^xsd:string ;
             dcterms:title "Assenov and Others v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "27526/95"^^xsd:string ;
-            dcterms:date "2002-04-25"^^xsd:date ;
-            dcterms:description "Günaydin v. Turkey (dec.), no. 27526/95, 25 April 2002"^^xsd:string ;
-            dcterms:title "Günaydin v. Turkey (dec.)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "45305/99"^^xsd:string ;
-            dcterms:description "Powell v. the United Kingdom (dec.), no. 45305/99, ECHR 2000-V"^^xsd:string ;
-            dcterms:title "Powell v. the United Kingdom (dec.)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "26772/95"^^xsd:string ;
-            dcterms:description "Labita v. Italy [GC], no. 26772/95, § 120, ECHR 2000-IV"^^xsd:string ;
-            dcterms:title "Labita v. Italy [GC]"^^xsd:string ],
-        [ dcterms:description "Article 109 of the Family and Custody Code"^^xsd:string ],
-        [ ns1:hasApplicationNumber "25642/94"^^xsd:string ;
-            dcterms:description "Aquilina v. Malta [GC], no. 25642/94, § 39, ECHR 1999-III"^^xsd:string ;
-            dcterms:title "Aquilina v. Malta [GC]"^^xsd:string ],
-        [ dcterms:date "1980-11-06"^^xsd:date ;
-            dcterms:description "Guzzardi v. Italy, 6 November 1980, §§ 96, 98 and 100, Series A no. 39"^^xsd:string ;
-            dcterms:title "Guzzardi v. Italy"^^xsd:string ],
-        [ dcterms:date "1998-07-30"^^xsd:date ;
-            dcterms:description "Aerts v. Belgium, 30 July 1998, § 46, Reports 1998-V"^^xsd:string ;
-            dcterms:title "Aerts v. Belgium"^^xsd:string ],
-        [ ns1:hasApplicationNumber "28957/95"^^xsd:string ;
-            dcterms:description "Christine Goodwin v. the United Kingdom [GC], no. 28957/95, ECHR 2002-VI"^^xsd:string ;
-            dcterms:title "Christine Goodwin v. the United Kingdom [GC]"^^xsd:string ],
-        [ dcterms:date "1979-10-24"^^xsd:date ;
-            dcterms:description "Winterwerp v. the Netherlands, 24 October 1979, §§ 39 and 45, Series A no. 33"^^xsd:string ;
-            dcterms:title "Winterwerp v. the Netherlands"^^xsd:string ],
-        [ ns1:hasApplicationNumber "26053/07"^^xsd:string ;
-            dcterms:date "2010-10-12"^^xsd:date ;
-            dcterms:description "Carlo Dossi and Others v. Italy, (dec.), no. 26053/07, 12 October 2010"^^xsd:string ;
-            dcterms:title "Carlo Dossi and Others v. Italy"^^xsd:string ],
-        [ ns1:hasApplicationNumber "27617/04"^^xsd:string ;
-            dcterms:date "2011-05-26"^^xsd:date ;
-            dcterms:description "R.R. v. Poland, no. 27617/04, 26 May 2011"^^xsd:string ;
-            dcterms:title "R.R. v. Poland"^^xsd:string ],
+        [ dcterms:date "1979-10-09"^^xsd:date ;
+            dcterms:description "Airey v. Ireland, 9 October 1979, § 24, Series A no. 32"^^xsd:string ;
+            dcterms:title "Airey v. Ireland"^^xsd:string ],
+        [ dcterms:date "1986-12-18"^^xsd:date ;
+            dcterms:description "Bozano v. France, 18 December 1986, § 54, Series A no. 111"^^xsd:string ;
+            dcterms:title "Bozano v. France"^^xsd:string ],
         [ ns1:hasApplicationNumber "25579/05"^^xsd:string ;
             dcterms:date "2010-12-16"^^xsd:date ;
             dcterms:description "A, B and C v. Ireland [GC], no. 25579/05, 16 December 2010, § 214"^^xsd:string ;
             dcterms:title "A"^^xsd:string ],
-        [ ns1:hasApplicationNumber "32555/96"^^xsd:string ;
-            dcterms:description "Roche v. the United Kingdom [GC], no. 32555/96, § 162, ECHR 2005-X"^^xsd:string ;
-            dcterms:title "Roche v. the United Kingdom [GC]"^^xsd:string ],
-        [ dcterms:date "1988-03-24"^^xsd:date ;
-            dcterms:description "Olsson v. Sweden (no. 1), 24 March 1988, § 67, Series A no. 130"^^xsd:string ;
-            dcterms:title "Olsson v. Sweden (no. 1)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "14612/02"^^xsd:string ;
-            dcterms:date "2009-03-31"^^xsd:date ;
-            dcterms:description "Wiktorko v. Poland, no. 14612/02, 31 March 2009"^^xsd:string ;
-            dcterms:title "Wiktorko v. Poland"^^xsd:string ],
-        [ ns1:hasApplicationNumber "30873/96"^^xsd:string ;
-            dcterms:description "Egmez v. Cyprus, no. 30873/96, § 64, ECHR 2000-XII"^^xsd:string ;
-            dcterms:title "Egmez v. Cyprus"^^xsd:string ] ;
+        [ ns1:hasApplicationNumber "61827/00"^^xsd:string ;
+            dcterms:description "Glass v. the United Kingdom, no. 61827/00, ECHR 2004-II"^^xsd:string ;
+            dcterms:title "Glass v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "45305/99"^^xsd:string ;
+            dcterms:description "Powell v. the United Kingdom (dec.), no. 45305/99, ECHR 2000-V"^^xsd:string ;
+            dcterms:title "Powell v. the United Kingdom (dec.)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "25266/05"^^xsd:string ;
+            dcterms:date "2010-01-05"^^xsd:date ;
+            dcterms:description "Yardimci v. Turkey, no. 25266/05, 5 January 2010, §§ 55-56"^^xsd:string ;
+            dcterms:title "Yardimci v. Turkey"^^xsd:string ],
+        [ dcterms:date "1987-07-08"^^xsd:date ;
+            dcterms:description "W. v. the United Kingdom, 8 July 1987, §§ 62 and 64, Series A no. 121"^^xsd:string ;
+            dcterms:title "W. v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "1997-02-25"^^xsd:date ;
+            dcterms:description "Z v. Finland, 25 February 1997, §§ 95-96, Reports 1997-I"^^xsd:string ;
+            dcterms:title "Z v. Finland"^^xsd:string ] ;
     dcterms:title "CASE OF P. AND S. v. POLAND"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 

@@ -21,7 +21,7 @@
         "Positive obligations) (Procedural aspect)"^^xsd:string,
         "Violation of Article 13+3 - Right to an effective remedy (Article 13 - Effective remedy) (Article 3 - Prohibition of torture"^^xsd:string,
         "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation"^^xsd:string ;
-    dcterms:identifier "https://hudoc.echr.coe.int/eng#{\"itemid\":[\"001-154152\"]}"^^xsd:string ;
+    dcterms:identifier "https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-154152%22]}"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2015:0428JUD003370812"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;

@@ -42,119 +42,119 @@
         "Violation of Article 14+3 - Prohibition of discrimination (Article 14 - Discrimination) (Article 3 - Prohibition of torture"^^xsd:string,
         "Violation of Article 3 - Prohibition of torture (Article 3 - Degrading treatment"^^xsd:string,
         "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation"^^xsd:string ;
-    dcterms:identifier "https://hudoc.echr.coe.int/eng#{\"itemid\":[\"001-213869\"]}"^^xsd:string ;
+    dcterms:identifier "https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-213869%22]}"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2021:1214JUD005597416"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ dcterms:description "Convention on the Elimination of All Forms of Discrimination against Women"^^xsd:string ],
-        [ ns1:hasApplicationNumber "41261/17"^^xsd:string ;
-            dcterms:date "2019-07-09"^^xsd:date ;
-            dcterms:description "Volodina v. Russia, no. 41261/17, 9 July 2019"^^xsd:string ;
-            dcterms:title "Volodina v. Russia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "62903/15"^^xsd:string ;
-            dcterms:date "2021-06-15"^^xsd:date ;
-            dcterms:description "Kurt v. Austria [GC], no. 62903/15, § 165, 15 June 2021"^^xsd:string ;
-            dcterms:title "Kurt v. Austria [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "77617/01"^^xsd:string ;
+    dcterms:references [ ns1:hasApplicationNumber "77617/01"^^xsd:string ;
             dcterms:date "2006-01-26"^^xsd:date ;
             dcterms:description "Mikheyev v. Russia, no. 77617/01, 26 January 2006"^^xsd:string ;
             dcterms:title "Mikheyev v. Russia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "65557/14"^^xsd:string ;
-            dcterms:date "2020-06-16"^^xsd:date ;
-            dcterms:description "Polshina v. Russia [Committee], no. 65557/14, 16 June 2020"^^xsd:string ;
-            dcterms:title "Polshina v. Russia [Committee]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "40020/03"^^xsd:string ;
-            dcterms:date "2012-07-31"^^xsd:date ;
-            dcterms:description "M. and Others v. Italy and Bulgaria, no. 40020/03, § 105, 31 July 2012"^^xsd:string ;
-            dcterms:title "M. and Others v. Italy and Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "7510/04"^^xsd:string ;
-            dcterms:date "2007-05-31"^^xsd:date ;
-            dcterms:description "Kontrová v. Slovakia, no. 7510/04, § 49, 31 May 2007"^^xsd:string ;
-            dcterms:title "Kontrová v. Slovakia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "20289/10"^^xsd:string ;
-            dcterms:date "2019-10-22"^^xsd:date ;
-            dcterms:description "Barsova v. Russia [Committee], no. 20289/10, § 37, 22 October 2019"^^xsd:string ;
-            dcterms:title "Barsova v. Russia [Committee]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "52067/99"^^xsd:string ;
-            dcterms:description "Okkalı v. Turkey, no. 52067/99, § 65, ECHR 2006 XII (extracts)"^^xsd:string ;
-            dcterms:title "Okkalı v. Turkey"^^xsd:string ],
-        [ dcterms:description "General recommendation No. 35 of 2017 on gender-based violence against women by the United Nations Committee on the Elimination of Discrimination against Women"^^xsd:string ],
-        [ ns1:hasApplicationNumber "33401/02"^^xsd:string ;
-            dcterms:description "Opuz v. Turkey, no. 33401/02, ECHR 2009"^^xsd:string ;
-            dcterms:title "Opuz v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "57693/10"^^xsd:string ;
-            dcterms:date "2012-04-24"^^xsd:date ;
-            dcterms:description "Kalucza v. Hungary, no. 57693/10, § 61, 24 April 2012"^^xsd:string ;
-            dcterms:title "Kalucza v. Hungary"^^xsd:string ],
-        [ ns1:hasApplicationNumber "71127/01"^^xsd:string ;
-            dcterms:date "2008-06-12"^^xsd:date ;
-            dcterms:description "Bevacqua and S. v. Bulgaria, no. 71127/01, § 83, 12 June 2008"^^xsd:string ;
-            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "22457/16"^^xsd:string ;
-            dcterms:date "2021-02-02"^^xsd:date ;
-            dcterms:description "X and Others v. Bulgaria [GC], no. 22457/16, § 178, 2 February 2021"^^xsd:string ;
-            dcterms:title "X and Others v. Bulgaria [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "23380/09"^^xsd:string ;
-            dcterms:description "Bouyid v. Belgium [GC], no. 23380/09, §§ 86-87, ECHR 2015"^^xsd:string ;
-            dcterms:title "Bouyid v. Belgium [GC]"^^xsd:string ],
-        [ dcterms:description "Report of the United Nations Special Rapporteur on violence against women, its causes and consequences, adopted at the thirty-fifth session of the Human Rights Council on 6-23 June 2017"^^xsd:string ],
-        [ dcterms:description "Criminal Code"^^xsd:string ],
-        [ ns1:hasApplicationNumber "44973/04"^^xsd:string ;
-            dcterms:date "2011-02-10"^^xsd:date ;
-            dcterms:description "Premininy v. Russia, no. 44973/04, § 84, 10 February 2011"^^xsd:string ;
-            dcterms:title "Premininy v. Russia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "41237/14"^^xsd:string ;
-            dcterms:date "2017-03-02"^^xsd:date ;
-            dcterms:description "Talpis v. Italy, no. 41237/14, §§ 106 and 129, 2 March 2017"^^xsd:string ;
-            dcterms:title "Talpis v. Italy"^^xsd:string ],
         [ ns1:hasApplicationNumber "49645/09"^^xsd:string ;
             dcterms:date "2017-05-23"^^xsd:date ;
             dcterms:description "Bălşan v. Romania, no. 49645/09, § 62, 23 May 2017"^^xsd:string ;
             dcterms:title "Bălşan v. Romania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "31454/10"^^xsd:string ;
-            dcterms:date "2020-11-05"^^xsd:date ;
-            dcterms:description "Ćwik v. Poland, no. 31454/10, §§ 82-84, 5 November 2020"^^xsd:string ;
-            dcterms:title "Ćwik v. Poland"^^xsd:string ],
+        [ ns1:hasApplicationNumber "23380/09"^^xsd:string ;
+            dcterms:description "Bouyid v. Belgium [GC], no. 23380/09, §§ 86-87, ECHR 2015"^^xsd:string ;
+            dcterms:title "Bouyid v. Belgium [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "71127/01"^^xsd:string ;
+            dcterms:date "2008-06-12"^^xsd:date ;
+            dcterms:description "Bevacqua and S. v. Bulgaria, no. 71127/01, § 83, 12 June 2008"^^xsd:string ;
+            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ],
         [ ns1:hasApplicationNumber "3564/11"^^xsd:string ;
             dcterms:date "2013-05-28"^^xsd:date ;
             dcterms:description "Eremia v. the Republic of Moldova, no. 3564/11, 28 May 2013"^^xsd:string ;
             dcterms:title "Eremia v. the Republic of Moldova"^^xsd:string ],
-        [ ns1:hasApplicationNumber "33234/07"^^xsd:string ;
-            dcterms:date "2013-03-26"^^xsd:date ;
-            dcterms:description "Valiulienė v. Lithuania, no. 33234/07, § 69, 26 March 2013"^^xsd:string ;
-            dcterms:title "Valiulienė v. Lithuania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "17008/07"^^xsd:string ;
-            dcterms:date "2013-02-12"^^xsd:date ;
-            dcterms:description "Eduard Popa v. the Republic of Moldova, 17008/07, §§ 58-60, 12 February 2013"^^xsd:string ;
-            dcterms:title "Eduard Popa v. the Republic of Moldova"^^xsd:string ],
-        [ ns1:hasApplicationNumber "26608/11"^^xsd:string ;
-            dcterms:date "2014-01-28"^^xsd:date ;
-            dcterms:description "T.M. and C.M. v. the Republic of Moldova, no. 26608/11, 28 January 2014"^^xsd:string ;
-            dcterms:title "T.M. and C.M. v. the Republic of Moldova"^^xsd:string ],
-        [ ns1:hasApplicationNumber "960/13"^^xsd:string ;
-            dcterms:date "2017-06-13"^^xsd:date ;
-            dcterms:description "Kosteckas v. Lithuania, no. 960/13, § 41, 13 June 2017"^^xsd:string ;
-            dcterms:title "Kosteckas v. Lithuania"^^xsd:string ],
-        [ dcterms:description "Council of Europe Committee of Ministers’ Recommendation Rec (2002)5 of 30 April 2002 on the protection of women against violence"^^xsd:string ],
+        [ ns1:hasApplicationNumber "41261/17"^^xsd:string ;
+            dcterms:date "2019-07-09"^^xsd:date ;
+            dcterms:description "Volodina v. Russia, no. 41261/17, 9 July 2019"^^xsd:string ;
+            dcterms:title "Volodina v. Russia"^^xsd:string ],
         [ ns1:hasApplicationNumber "45512/11"^^xsd:string ;
             dcterms:date "2021-08-31"^^xsd:date ;
             dcterms:description "Galović v. Croatia, no. 45512/11, §§ 117-19, 31 August 2021"^^xsd:string ;
             dcterms:title "Galović v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "32704/04"^^xsd:string ;
-            dcterms:date "2009-12-17"^^xsd:date ;
-            dcterms:description "Denis Vasilyev v. Russia, no. 32704/04, 17 December 2009"^^xsd:string ;
-            dcterms:title "Denis Vasilyev v. Russia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "7888/03"^^xsd:string ;
-            dcterms:date "2007-12-20"^^xsd:date ;
-            dcterms:description "Nikolova and Velichkova v. Bulgaria, no. 7888/03, § 82, 20 December 2007"^^xsd:string ;
-            dcterms:title "Nikolova and Velichkova v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "65557/14"^^xsd:string ;
+            dcterms:date "2020-06-16"^^xsd:date ;
+            dcterms:description "Polshina v. Russia [Committee], no. 65557/14, 16 June 2020"^^xsd:string ;
+            dcterms:title "Polshina v. Russia [Committee]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "33401/02"^^xsd:string ;
+            dcterms:description "Opuz v. Turkey, no. 33401/02, ECHR 2009"^^xsd:string ;
+            dcterms:title "Opuz v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "44973/04"^^xsd:string ;
+            dcterms:date "2011-02-10"^^xsd:date ;
+            dcterms:description "Premininy v. Russia, no. 44973/04, § 84, 10 February 2011"^^xsd:string ;
+            dcterms:title "Premininy v. Russia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "31454/10"^^xsd:string ;
+            dcterms:date "2020-11-05"^^xsd:date ;
+            dcterms:description "Ćwik v. Poland, no. 31454/10, §§ 82-84, 5 November 2020"^^xsd:string ;
+            dcterms:title "Ćwik v. Poland"^^xsd:string ],
         [ ns1:hasApplicationNumber "3400/07"^^xsd:string ;
             dcterms:date "2015-01-15"^^xsd:date ;
             dcterms:description "M.A. v. Slovenia, no. 3400/07, § 48, 15 January 2015"^^xsd:string ;
             dcterms:title "M.A. v. Slovenia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "62903/15"^^xsd:string ;
+            dcterms:date "2021-06-15"^^xsd:date ;
+            dcterms:description "Kurt v. Austria [GC], no. 62903/15, § 165, 15 June 2021"^^xsd:string ;
+            dcterms:title "Kurt v. Austria [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "40020/03"^^xsd:string ;
+            dcterms:date "2012-07-31"^^xsd:date ;
+            dcterms:description "M. and Others v. Italy and Bulgaria, no. 40020/03, § 105, 31 July 2012"^^xsd:string ;
+            dcterms:title "M. and Others v. Italy and Bulgaria"^^xsd:string ],
+        [ dcterms:description "Council of Europe Committee of Ministers’ Recommendation Rec (2002)5 of 30 April 2002 on the protection of women against violence"^^xsd:string ],
+        [ ns1:hasApplicationNumber "7510/04"^^xsd:string ;
+            dcterms:date "2007-05-31"^^xsd:date ;
+            dcterms:description "Kontrová v. Slovakia, no. 7510/04, § 49, 31 May 2007"^^xsd:string ;
+            dcterms:title "Kontrová v. Slovakia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "57693/10"^^xsd:string ;
+            dcterms:date "2012-04-24"^^xsd:date ;
+            dcterms:description "Kalucza v. Hungary, no. 57693/10, § 61, 24 April 2012"^^xsd:string ;
+            dcterms:title "Kalucza v. Hungary"^^xsd:string ],
         [ ns1:hasApplicationNumber "39630/09"^^xsd:string ;
             dcterms:description "El-Masri v. the former Yugoslav Republic of Macedonia [GC], no. 39630/09, § 202, ECHR 2012"^^xsd:string ;
-            dcterms:title "El-Masri v. the former Yugoslav Republic of Macedonia [GC]"^^xsd:string ] ;
+            dcterms:title "El-Masri v. the former Yugoslav Republic of Macedonia [GC]"^^xsd:string ],
+        [ dcterms:description "Convention on the Elimination of All Forms of Discrimination against Women"^^xsd:string ],
+        [ ns1:hasApplicationNumber "26608/11"^^xsd:string ;
+            dcterms:date "2014-01-28"^^xsd:date ;
+            dcterms:description "T.M. and C.M. v. the Republic of Moldova, no. 26608/11, 28 January 2014"^^xsd:string ;
+            dcterms:title "T.M. and C.M. v. the Republic of Moldova"^^xsd:string ],
+        [ dcterms:description "Report of the United Nations Special Rapporteur on violence against women, its causes and consequences, adopted at the thirty-fifth session of the Human Rights Council on 6-23 June 2017"^^xsd:string ],
+        [ ns1:hasApplicationNumber "17008/07"^^xsd:string ;
+            dcterms:date "2013-02-12"^^xsd:date ;
+            dcterms:description "Eduard Popa v. the Republic of Moldova, 17008/07, §§ 58-60, 12 February 2013"^^xsd:string ;
+            dcterms:title "Eduard Popa v. the Republic of Moldova"^^xsd:string ],
+        [ ns1:hasApplicationNumber "32704/04"^^xsd:string ;
+            dcterms:date "2009-12-17"^^xsd:date ;
+            dcterms:description "Denis Vasilyev v. Russia, no. 32704/04, 17 December 2009"^^xsd:string ;
+            dcterms:title "Denis Vasilyev v. Russia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "52067/99"^^xsd:string ;
+            dcterms:description "Okkalı v. Turkey, no. 52067/99, § 65, ECHR 2006 XII (extracts)"^^xsd:string ;
+            dcterms:title "Okkalı v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "22457/16"^^xsd:string ;
+            dcterms:date "2021-02-02"^^xsd:date ;
+            dcterms:description "X and Others v. Bulgaria [GC], no. 22457/16, § 178, 2 February 2021"^^xsd:string ;
+            dcterms:title "X and Others v. Bulgaria [GC]"^^xsd:string ],
+        [ dcterms:description "Criminal Code"^^xsd:string ],
+        [ ns1:hasApplicationNumber "960/13"^^xsd:string ;
+            dcterms:date "2017-06-13"^^xsd:date ;
+            dcterms:description "Kosteckas v. Lithuania, no. 960/13, § 41, 13 June 2017"^^xsd:string ;
+            dcterms:title "Kosteckas v. Lithuania"^^xsd:string ],
+        [ ns1:hasApplicationNumber "7888/03"^^xsd:string ;
+            dcterms:date "2007-12-20"^^xsd:date ;
+            dcterms:description "Nikolova and Velichkova v. Bulgaria, no. 7888/03, § 82, 20 December 2007"^^xsd:string ;
+            dcterms:title "Nikolova and Velichkova v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "20289/10"^^xsd:string ;
+            dcterms:date "2019-10-22"^^xsd:date ;
+            dcterms:description "Barsova v. Russia [Committee], no. 20289/10, § 37, 22 October 2019"^^xsd:string ;
+            dcterms:title "Barsova v. Russia [Committee]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "33234/07"^^xsd:string ;
+            dcterms:date "2013-03-26"^^xsd:date ;
+            dcterms:description "Valiulienė v. Lithuania, no. 33234/07, § 69, 26 March 2013"^^xsd:string ;
+            dcterms:title "Valiulienė v. Lithuania"^^xsd:string ],
+        [ dcterms:description "General recommendation No. 35 of 2017 on gender-based violence against women by the United Nations Committee on the Elimination of Discrimination against Women"^^xsd:string ],
+        [ ns1:hasApplicationNumber "41237/14"^^xsd:string ;
+            dcterms:date "2017-03-02"^^xsd:date ;
+            dcterms:description "Talpis v. Italy, no. 41237/14, §§ 106 and 129, 2 March 2017"^^xsd:string ;
+            dcterms:title "Talpis v. Italy"^^xsd:string ] ;
     dcterms:title "CASE OF TUNIKOVA AND OTHERS v. RUSSIA"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 

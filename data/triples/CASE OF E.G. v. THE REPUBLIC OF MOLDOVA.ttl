@@ -27,74 +27,74 @@
         "Positive obligations)"^^xsd:string,
         "Preliminary objection dismissed (Art. 35) Admissibility criteria"^^xsd:string,
         "Violation of Article 3+8 - Prohibition of torture (Article 3 - Positive obligations) (Article 8 - Right to respect for private and family life"^^xsd:string ;
-    dcterms:identifier "https://hudoc.echr.coe.int/#{\"itemid\":[\"001-209373\"]}"^^xsd:string ;
+    dcterms:identifier "https://hudoc.echr.coe.int/#{%22itemid%22:[%22001-209373%22]}"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2021:0413JUD003788213"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ ns1:hasApplicationNumber "30859/10"^^xsd:string ;
-            dcterms:date "2014-01-14"^^xsd:date ;
-            dcterms:description "Sokolov and Others v. Serbia (dec.), nos. 30859/10 and others, § 31 in fine, 14 January 2014"^^xsd:string ;
-            dcterms:title "Sokolov and Others v. Serbia (dec.)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "31959/13"^^xsd:string ;
-            dcterms:date "2018-11-20"^^xsd:date ;
-            dcterms:description "Pulfer v. Albania, no 31959/13, § 83, 20 November 2018"^^xsd:string ;
-            dcterms:title "Pulfer v. Albania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "48102/99"^^xsd:string ;
-            dcterms:date "2004-03-02"^^xsd:date ;
-            dcterms:description "Sabin Popescu v. Romania, no 48102/99, § 51, 2 March 2004"^^xsd:string ;
-            dcterms:title "Sabin Popescu v. Romania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "2319/14"^^xsd:string ;
-            dcterms:date "2016-10-13"^^xsd:date ;
-            dcterms:description "Kitanovska Stanojkovic and Others v. the former Yugoslav Republic of Macedonia, no 2319/14, § 32, 13 October 2016"^^xsd:string ;
-            dcterms:title "Kitanovska Stanojkovic and Others v. the former Yugoslav Republic of Macedonia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "25057/11"^^xsd:string ;
-            dcterms:date "2016-07-19"^^xsd:date ;
-            dcterms:description "Călin and Others v. Romania, nos. 25057/11 and 2 others, § 57, 19 July 2016"^^xsd:string ;
-            dcterms:title "Călin and Others v. Romania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "10865/09"^^xsd:string ;
+    dcterms:references [ ns1:hasApplicationNumber "10865/09"^^xsd:string ;
             dcterms:description "Mocanu and Others v. Romania [GC], nos. 10865/09 and 2 others, ECHR 2014 (extracts)"^^xsd:string ;
             dcterms:title "Mocanu and Others v. Romania [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "54917/13"^^xsd:string ;
-            dcterms:date "2018-10-16"^^xsd:date ;
-            dcterms:description "Akelienė v. Lithuanie, no 54917/13, 16 October 2018"^^xsd:string ;
-            dcterms:title "Akelienė v. Lithuanie"^^xsd:string ],
-        [ ns1:hasApplicationNumber "39257/17"^^xsd:string ;
-            dcterms:date "2020-05-28"^^xsd:date ;
-            dcterms:description "Z v. Bulgaria, no 39257/17, § 67, 28 May 2020"^^xsd:string ;
-            dcterms:title "Z v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "41990/18"^^xsd:string ;
-            dcterms:date "2020-02-20"^^xsd:date ;
-            dcterms:description "Y v. Bulgaria, no 41990/18, §§ 63-64, 20 February 2020"^^xsd:string ;
-            dcterms:title "Y v. Bulgaria"^^xsd:string ],
-        [ dcterms:date "1997-03-19"^^xsd:date ;
-            dcterms:description "Hornsby v. Greece, 19 March 1997, § 35, Reports of Judgments and Decisions 1997 II"^^xsd:string ;
-            dcterms:title "Hornsby v. Greece"^^xsd:string ],
-        [ ns1:hasApplicationNumber "39272/98"^^xsd:string ;
-            dcterms:description "M.C. v. Bulgaria, no 39272/98, ECHR 2003 XII"^^xsd:string ;
-            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "4455/10"^^xsd:string ;
-            dcterms:description "Marguš v. Croatia [GC], no 4455/10, § 139, ECHR 2014 (extracts)"^^xsd:string ;
-            dcterms:title "Marguš v. Croatia [GC]"^^xsd:string ],
         [ ns1:hasApplicationNumber "53645/10"^^xsd:string ;
             dcterms:date "2015-01-20"^^xsd:date ;
             dcterms:description "Ateşoğlu v. Turkey, no 53645/10, § 28 in fine, 20 January 2015"^^xsd:string ;
             dcterms:title "Ateşoğlu v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "17247/13"^^xsd:string ;
-            dcterms:date "2020-05-26"^^xsd:date ;
-            dcterms:description "Makuchyan and Minasyan v. Azerbaijan and Hungary, no 17247/13, 26 May 2020"^^xsd:string ;
-            dcterms:title "Makuchyan and Minasyan v. Azerbaijan and Hungary"^^xsd:string ],
+        [ ns1:hasApplicationNumber "54917/13"^^xsd:string ;
+            dcterms:date "2018-10-16"^^xsd:date ;
+            dcterms:description "Akelienė v. Lithuanie, no 54917/13, 16 October 2018"^^xsd:string ;
+            dcterms:title "Akelienė v. Lithuanie"^^xsd:string ],
         [ ns1:hasApplicationNumber "25018/10"^^xsd:string ;
             dcterms:date "2014-10-28"^^xsd:date ;
             dcterms:description "İbrahim Demirtaş v. Turkey, no 25018/10, § 35, 28 October 2014"^^xsd:string ;
             dcterms:title "İbrahim Demirtaş v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "2319/14"^^xsd:string ;
+            dcterms:date "2016-10-13"^^xsd:date ;
+            dcterms:description "Kitanovska Stanojkovic and Others v. the former Yugoslav Republic of Macedonia, no 2319/14, § 32, 13 October 2016"^^xsd:string ;
+            dcterms:title "Kitanovska Stanojkovic and Others v. the former Yugoslav Republic of Macedonia"^^xsd:string ],
         [ ns1:hasApplicationNumber "6817/02"^^xsd:string ;
             dcterms:date "2008-10-14"^^xsd:date ;
             dcterms:description "Iordache v. Romania, no 6817/02, §§ 49-50, 14 October 2008"^^xsd:string ;
             dcterms:title "Iordache v. Romania"^^xsd:string ],
+        [ ns1:hasApplicationNumber "31959/13"^^xsd:string ;
+            dcterms:date "2018-11-20"^^xsd:date ;
+            dcterms:description "Pulfer v. Albania, no 31959/13, § 83, 20 November 2018"^^xsd:string ;
+            dcterms:title "Pulfer v. Albania"^^xsd:string ],
         [ ns1:hasApplicationNumber "61495/11"^^xsd:string ;
             dcterms:date "2016-03-15"^^xsd:date ;
             dcterms:description "M.G.C. v. Romania, no 61495/11, § 59, 15 March 2016"^^xsd:string ;
             dcterms:title "M.G.C. v. Romania"^^xsd:string ],
+        [ ns1:hasApplicationNumber "48102/99"^^xsd:string ;
+            dcterms:date "2004-03-02"^^xsd:date ;
+            dcterms:description "Sabin Popescu v. Romania, no 48102/99, § 51, 2 March 2004"^^xsd:string ;
+            dcterms:title "Sabin Popescu v. Romania"^^xsd:string ],
+        [ ns1:hasApplicationNumber "39272/98"^^xsd:string ;
+            dcterms:description "M.C. v. Bulgaria, no 39272/98, ECHR 2003 XII"^^xsd:string ;
+            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "25057/11"^^xsd:string ;
+            dcterms:date "2016-07-19"^^xsd:date ;
+            dcterms:description "Călin and Others v. Romania, nos. 25057/11 and 2 others, § 57, 19 July 2016"^^xsd:string ;
+            dcterms:title "Călin and Others v. Romania"^^xsd:string ],
+        [ ns1:hasApplicationNumber "17247/13"^^xsd:string ;
+            dcterms:date "2020-05-26"^^xsd:date ;
+            dcterms:description "Makuchyan and Minasyan v. Azerbaijan and Hungary, no 17247/13, 26 May 2020"^^xsd:string ;
+            dcterms:title "Makuchyan and Minasyan v. Azerbaijan and Hungary"^^xsd:string ],
+        [ ns1:hasApplicationNumber "39257/17"^^xsd:string ;
+            dcterms:date "2020-05-28"^^xsd:date ;
+            dcterms:description "Z v. Bulgaria, no 39257/17, § 67, 28 May 2020"^^xsd:string ;
+            dcterms:title "Z v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "4455/10"^^xsd:string ;
+            dcterms:description "Marguš v. Croatia [GC], no 4455/10, § 139, ECHR 2014 (extracts)"^^xsd:string ;
+            dcterms:title "Marguš v. Croatia [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "30859/10"^^xsd:string ;
+            dcterms:date "2014-01-14"^^xsd:date ;
+            dcterms:description "Sokolov and Others v. Serbia (dec.), nos. 30859/10 and others, § 31 in fine, 14 January 2014"^^xsd:string ;
+            dcterms:title "Sokolov and Others v. Serbia (dec.)"^^xsd:string ],
+        [ dcterms:date "1997-03-19"^^xsd:date ;
+            dcterms:description "Hornsby v. Greece, 19 March 1997, § 35, Reports of Judgments and Decisions 1997 II"^^xsd:string ;
+            dcterms:title "Hornsby v. Greece"^^xsd:string ],
+        [ ns1:hasApplicationNumber "41990/18"^^xsd:string ;
+            dcterms:date "2020-02-20"^^xsd:date ;
+            dcterms:description "Y v. Bulgaria, no 41990/18, §§ 63-64, 20 February 2020"^^xsd:string ;
+            dcterms:title "Y v. Bulgaria"^^xsd:string ],
         [ ns1:hasApplicationNumber "61030/08"^^xsd:string ;
             dcterms:date "2017-05-02"^^xsd:date ;
             dcterms:description "B.V. v. Belgium, no 61030/08, § 55, 2 May 2017"^^xsd:string ;

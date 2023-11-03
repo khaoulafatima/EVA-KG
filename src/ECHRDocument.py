@@ -246,7 +246,7 @@ class ECHRDocument:
         self._graph.add((subject, DCTERMS.publisher, URIRef(wd.Q122880)))
         self._graph.add((subject, DCTERMS.language, Literal("en", datatype=XSD.string)))
         self._graph.add((subject, DCTERMS.coverage, URIRef(wd.Q6602)))
-        url = extract_document_url(self._case_detail["Title"])
+        url = extract_document_url(self._case_detail["Title"], alt=False)
         if url is not None:
             self._graph.add((subject, DCTERMS.identifier, Literal(url, datatype=XSD.string)))
 
@@ -408,7 +408,7 @@ if __name__ == "__main__":
     print("DOCUMENT___________________________________________________________________________________________________")
     print(echr_document)
     echr_document.extract_case_detail_from_html()
-    """print("CASE DETAIL________________________________________________________________________________________________")
+    print("CASE DETAIL________________________________________________________________________________________________")
     pprint.pprint(echr_document.get_case_detail(), sort_dicts=False)
     echr_document.case_detail_to_json(json_path)
     echr_document.extract_body_from_html()
@@ -420,7 +420,7 @@ if __name__ == "__main__":
     print("TITLES_____________________________________________________________________________________________________")
     echr_document.extract_titles()
     for t in echr_document.get_titles():
-        print(t)"""
+        print(t)
     print("TRIPLES____________________________________________________________________________________________________")
     echr_document.extract_triples_from_case_detail()
     print(echr_document.get_triples())

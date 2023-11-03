@@ -45,208 +45,208 @@
         "Violation of Art. 4 by Cyprus"^^xsd:string,
         "Violation of Art. 4 by Russia"^^xsd:string,
         "Violation of Art. 5 by Cyprus"^^xsd:string ;
-    dcterms:identifier "https://hudoc.echr.coe.int/eng#{\"itemid\":[\"001-96549\"]}"^^xsd:string ;
+    dcterms:identifier "https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-96549%22]}"^^xsd:string ;
     dcterms:isPartOf "Reports of Judgments and Decisions 2010 (extracts)"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2010:0107JUD002596504"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ dcterms:description "Report of 12 February 2004 by the Council of Europe Commissioner for Human Rights on his visit to Cyprus in June 2003 (CommDH(2004)2)"^^xsd:string ],
-        [ dcterms:description "Recommendation 1545 (2002) on the campaign against trafficking in women"^^xsd:string ],
-        [ dcterms:description "Articles 3, 5, 6, 9 and 10, of the Protocol to Prevent, Suppress and Punish Trafficking in Persons, especially Women and Children, supplementing the United Nations Convention against Transnational Organised Crime 2000"^^xsd:string ],
+    dcterms:references [ ns1:hasApplicationNumber "22535/93"^^xsd:string ;
+            dcterms:description "Mahmut Kaya v. Turkey, no. 22535/93, §§ 115-116, ECHR 2000-III"^^xsd:string ;
+            dcterms:title "Mahmut Kaya v. Turkey"^^xsd:string ],
+        [ dcterms:description "Recommendation 1523 (2001) on domestic slavery"^^xsd:string ],
         [ dcterms:date "1980-11-06"^^xsd:date ;
             dcterms:description "Guzzardi v. Italy, 6 November 1980, §§ 86, 92-93, Series A no. 39"^^xsd:string ;
             dcterms:title "Guzzardi v. Italy"^^xsd:string ],
-        [ dcterms:date "1980-07-09"^^xsd:date ;
-            dcterms:description "Van Droogenbroeck v. Belgium, Commission’s report of 9 July 1980, §§ 78-80, Series B no. 44"^^xsd:string ;
-            dcterms:title "Van Droogenbroeck v. Belgium"^^xsd:string ],
-        [ dcterms:description "Articles 1, 2, 5 and 6 of the 1926 Slavery Convention"^^xsd:string ],
-        [ dcterms:date "1980-05-13"^^xsd:date ;
-            dcterms:description "Artico v. Italy, 13 May 1980, § 33, Series A no. 37"^^xsd:string ;
-            dcterms:title "Artico v. Italy"^^xsd:string ],
-        [ dcterms:description "Article 6 of the Convention on the Elimination of All Forms of Discrimination against Women"^^xsd:string ],
-        [ dcterms:date "1975-02-21"^^xsd:date ;
-            dcterms:description "Golder v. the United Kingdom, 21 February 1975, § 29, Series A no. 18"^^xsd:string ;
-            dcterms:title "Golder v. the United Kingdom"^^xsd:string ],
-        [ dcterms:date "1976-06-08"^^xsd:date ;
-            dcterms:description "Engel and Others v. the Netherlands, 8 June 1976, §§ 58-59, Series A no. 22"^^xsd:string ;
-            dcterms:title "Engel and Others v. the Netherlands"^^xsd:string ],
-        [ dcterms:description "Articles 11 and 12 of the Criminal Code of the Russian Federation "^^xsd:string ],
-        [ ns1:hasApplicationNumber "42400/98"^^xsd:string ;
-            dcterms:date "2000-03-07"^^xsd:date ;
-            dcterms:description "Seguin v. France (dec.), no. 42400/98, 7 March 2000"^^xsd:string ;
-            dcterms:title "Seguin v. France (dec.)"^^xsd:string ],
-        [ dcterms:description "Recommendation 1325 (1997) on traffic in women and forced prostitution in Council of Europe member States"^^xsd:string ],
-        [ ns1:hasApplicationNumber "47916/99"^^xsd:string ;
-            dcterms:description "Menson v. the United Kingdom (dec.), no. 47916/99, ECHR 2003-V"^^xsd:string ;
-            dcterms:title "Menson v. the United Kingdom (dec.)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "30054/96"^^xsd:string ;
-            dcterms:date "2001-05-04"^^xsd:date ;
-            dcterms:description "Kelly and Others v. the United Kingdom, no. 30054/96, §§ 97-98, 114, 4 May 2001"^^xsd:string ;
-            dcterms:title "Kelly and Others v. the United Kingdom"^^xsd:string ],
-        [ dcterms:date "1995-09-27"^^xsd:date ;
-            dcterms:description "McCann and Others v. the United Kingdom, 27 September 1995, § 161, Series A no. 324"^^xsd:string ;
-            dcterms:title "McCann and Others v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "47287/99"^^xsd:string ;
-            dcterms:description "Perez v. France [GC], no. 47287/99, § 70, ECHR 2004-I"^^xsd:string ;
-            dcterms:title "Perez v. France [GC]"^^xsd:string ],
-        [ dcterms:date "1983-11-23"^^xsd:date ;
-            dcterms:description "Van der Mussele v. Belgium, 23 November 1983, §§ 34, 36, Series A no. 70"^^xsd:string ;
-            dcterms:title "Van der Mussele v. Belgium"^^xsd:string ],
-        [ ns1:hasApplicationNumber "49429/99"^^xsd:string ;
-            dcterms:description "Capital Bank AD v. Bulgaria, no. 49429/99, §§ 78 to 79, ECHR 2005-XII (extracts)"^^xsd:string ;
-            dcterms:title "Capital Bank AD v. Bulgaria"^^xsd:string ],
-        [ dcterms:description "Follow-up report of 26 March 2006 by the Council of Europe Commissioner for Human Rights on the progress made in implementing his recommendations (CommDH(2006)12)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "30408/96"^^xsd:string ;
-            dcterms:date "1998-01-15"^^xsd:date ;
-            dcterms:description "Järvinen v. Finland, no. 30408/96, Commission decision of 15 January 1998"^^xsd:string ;
-            dcterms:title "Järvinen v. Finland"^^xsd:string ],
-        [ dcterms:date "1998-02-19"^^xsd:date ;
-            dcterms:description "Kaya v. Turkey, 19 February 1998, § 86, Reports 1998-I"^^xsd:string ;
-            dcterms:title "Kaya v. Turkey"^^xsd:string ],
         [ ns1:hasApplicationNumber "25385/04"^^xsd:string ;
             dcterms:date "2009-01-15"^^xsd:date ;
             dcterms:description "Medova v. Russia, no. 25385/04, §§ 95-96, 103, 15 January 2009"^^xsd:string ;
             dcterms:title "Medova v. Russia"^^xsd:string ],
-        [ dcterms:description "Trafficking in Persons Report, U.S. State Department, June 2008"^^xsd:string ],
-        [ ns1:hasApplicationNumber "24351/94"^^xsd:string ;
-            dcterms:description "Aktas v. Turkey, no. 24351/94, § 352, ECHR 2003-V (extracts)"^^xsd:string ;
-            dcterms:title "Aktas v. Turkey"^^xsd:string ],
-        [ dcterms:description "Recommendation 1523 (2001) on domestic slavery"^^xsd:string ],
-        [ dcterms:description "Report of 12 December 2008 by the Council of Europe Commissioner for Human Rights on his visit to Cyprus on 7-10 July 2008 (CommDH(2008)36)"^^xsd:string ],
-        [ dcterms:description "judgment of of the International Criminal Tribunal for the Former Yugoslavia in the case of Prosecutor v. Kunarac, Vukovic and Kovac, 12 June 2002"^^xsd:string ],
-        [ dcterms:description "Articles 2, 3, 6, 18, 35 and 36 of the Legal Assistance Treaty"^^xsd:string ],
-        [ ns1:hasApplicationNumber "47244/99"^^xsd:string ;
-            dcterms:date "2003-11-04"^^xsd:date ;
-            dcterms:description "Novotka v. Slovakia (dec.), no. 47244/99, 4 November 2003"^^xsd:string ;
-            dcterms:title "Novotka v. Slovakia (dec.)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "48939/99"^^xsd:string ;
-            dcterms:description "Öneryildiz v. Turkey [GC], no. 48939/99, §§ 70 to 74, ECHR 2004-XII"^^xsd:string ;
-            dcterms:title "Öneryildiz v. Turkey [GC]"^^xsd:string ],
-        [ dcterms:description "Recommendation Rec (2002) 5 of the Committee of Ministers to member states on the protection of women against violence"^^xsd:string ],
-        [ dcterms:description "Sections 14, 16, 24, 25 and 30 of the Coroners Law "^^xsd:string ],
-        [ ns1:hasApplicationNumber "26307/95"^^xsd:string ;
-            dcterms:description "Tahsin Acar v. Turkey (preliminary objection) [GC], no. 26307/95, §§ 75-77, ECHR 2003-VI"^^xsd:string ;
-            dcterms:title "Tahsin Acar v. Turkey (preliminary objection) [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "73316/01"^^xsd:string ;
-            dcterms:description "Siliadin v. France, §§ 82, 89, 112, 117, 121-122, 124, no. 73316/01, ECHR 2005-VII"^^xsd:string ;
-            dcterms:title "Siliadin v. France"^^xsd:string ],
-        [ ns1:hasApplicationNumber "28957/95"^^xsd:string ;
-            dcterms:description "Christine Goodwin v. the United Kingdom [GC], no. 28957/95, § 71, ECHR 2002-VI"^^xsd:string ;
-            dcterms:title "Christine Goodwin v. the United Kingdom [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "35763/97"^^xsd:string ;
-            dcterms:description "Al-Adsani v. the United Kingdom [GC], no. 35763/97, §§ 38-39, 55, ECHR 2001-XI"^^xsd:string ;
-            dcterms:title "Al-Adsani v. the United Kingdom [GC]"^^xsd:string ],
-        [ dcterms:date "1996-12-18"^^xsd:date ;
-            dcterms:description "Loizidou v. Turkey, 18 December 1996, Reports of Judgments and Decisions 1996-VI, § 43"^^xsd:string ;
-            dcterms:title "Loizidou v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "37680/97"^^xsd:string ;
-            dcterms:description "Riera Blume and Others v. Spain, no. 37680/97, §§ 28, 31-35, ECHR 1999-VII"^^xsd:string ;
-            dcterms:title "Riera Blume and Others v. Spain"^^xsd:string ],
-        [ ns1:hasApplicationNumber "40016/98"^^xsd:string ;
-            dcterms:description "Karner v. Austria, no. 40016/98, § 26, ECHR 2003-IX"^^xsd:string ;
-            dcterms:title "Karner v. Austria"^^xsd:string ],
-        [ dcterms:description "Articles 7-11 of the Cypriot Constitution "^^xsd:string ],
         [ ns1:hasApplicationNumber "40753/98"^^xsd:string ;
             dcterms:date "1999-05-11"^^xsd:date ;
             dcterms:description "Rampogna and Murgia v. Italy (dec.), no. 40753/98, 11 May 1999"^^xsd:string ;
             dcterms:title "Rampogna and Murgia v. Italy (dec.)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "65731/01"^^xsd:string ;
-            dcterms:description "Stec and Others v. the United Kingdom (dec.) [GC], nos. 65731/01 and 65900/01, § 48, ECHR 2005-X"^^xsd:string ;
-            dcterms:title "Stec and Others v. the United Kingdom (dec.) [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "52207/99"^^xsd:string ;
-            dcterms:description "Bankovic and Others v. Belgium and 16 Other Contracting States (dec.) [GC], no. 52207/99, §§ 59-61, ECHR 2001-XII"^^xsd:string ;
-            dcterms:title "Bankovic and Others v. Belgium and 16 Other Contracting States (dec.) [GC]"^^xsd:string ],
-        [ dcterms:description "Recommendation 1610 (2003) on migration connected with trafficking in women and prostitution"^^xsd:string ],
-        [ ns1:hasApplicationNumber "46477/99"^^xsd:string ;
-            dcterms:description "Paul and Audrey Edwards v. the United Kingdom, no. 46477/99, §§ 54-55, 69, 70-73, ECHR 2002-II"^^xsd:string ;
-            dcterms:title "Paul and Audrey Edwards v. the United Kingdom"^^xsd:string ],
-        [ dcterms:description "Article 7(1)(c) of the Statute of the International Criminal Court"^^xsd:string ],
-        [ dcterms:description "Recommendation 1663 (2004) on domestic slavery: servitude, au pairs and “mail-order brides”"^^xsd:string ],
-        [ dcterms:date "1978-01-18"^^xsd:date ;
-            dcterms:description "Ireland v. the United Kingdom, 18 January 1978, § 154, Series A no. 25"^^xsd:string ;
-            dcterms:title "Ireland v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "13229/03"^^xsd:string ;
-            dcterms:description "Saadi v. the United Kingdom [GC], no. 13229/03, § 62, ECHR 2008"^^xsd:string ;
-            dcterms:title "Saadi v. the United Kingdom [GC]"^^xsd:string ],
-        [ dcterms:date "1998-02-19"^^xsd:date ;
-            dcterms:description "Guerra and Others v. Italy, 19 February 1998, §§ 58 to 60, Reports of Judgments and Decisions 1998-I"^^xsd:string ;
-            dcterms:title "Guerra and Others v. Italy"^^xsd:string ],
-        [ dcterms:description "Sections 2, 5, 6, 7, 10 and 11 of the Law No. 3(1) of 2000 on the Combating of Trafficking in Persons and Sexual Exploitation of Children "^^xsd:string ],
-        [ dcterms:date "1998-10-28"^^xsd:date ;
-            dcterms:description "Osman v. the United Kingdom, §§ 115-117, 121, 28 October 1998, Reports 1998-VIII"^^xsd:string ;
-            dcterms:title "Osman v. the United Kingdom"^^xsd:string ],
-        [ dcterms:description "Ex Officio report of the Cypriot Ombudsman on the regime regarding entry and employment of alien women as artistes in entertainment places in Cyprus, 24 November 2003"^^xsd:string ],
         [ ns1:hasApplicationNumber "858/08"^^xsd:string ;
             dcterms:date "2009-10-20"^^xsd:date ;
             dcterms:description "Radoszewska-Zakoscielna v. Poland, no. 858/08, § 50, 20 October 2009"^^xsd:string ;
             dcterms:title "Radoszewska-Zakoscielna v. Poland"^^xsd:string ],
-        [ ns1:hasApplicationNumber "43577/98"^^xsd:string ;
-            dcterms:description "Nachova and Others v. Bulgaria [GC], nos. 43577/98 and 43579/98, §§ 93, 96-97, 99-102, ECHR 2005-VII"^^xsd:string ;
-            dcterms:title "Nachova and Others v. Bulgaria [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "49429/99"^^xsd:string ;
+            dcterms:description "Capital Bank AD v. Bulgaria, no. 49429/99, §§ 78 to 79, ECHR 2005-XII (extracts)"^^xsd:string ;
+            dcterms:title "Capital Bank AD v. Bulgaria"^^xsd:string ],
+        [ dcterms:date "1975-02-21"^^xsd:date ;
+            dcterms:description "Golder v. the United Kingdom, 21 February 1975, § 29, Series A no. 18"^^xsd:string ;
+            dcterms:title "Golder v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Article 7(1)(c) of the Statute of the International Criminal Court"^^xsd:string ],
+        [ dcterms:description "Article 6 of the Convention on the Elimination of All Forms of Discrimination against Women"^^xsd:string ],
+        [ dcterms:description "Recommendation Rec (2002) 5 of the Committee of Ministers to member states on the protection of women against violence"^^xsd:string ],
+        [ dcterms:description "Report of 12 December 2008 by the Council of Europe Commissioner for Human Rights on his visit to Cyprus on 7-10 July 2008 (CommDH(2008)36)"^^xsd:string ],
+        [ dcterms:description "Articles 2, 3, 6, 18, 35 and 36 of the Legal Assistance Treaty"^^xsd:string ],
+        [ dcterms:description "Trafficking in Persons Report, U.S. State Department, June 2008"^^xsd:string ],
+        [ dcterms:date "1980-05-13"^^xsd:date ;
+            dcterms:description "Artico v. Italy, 13 May 1980, § 33, Series A no. 37"^^xsd:string ;
+            dcterms:title "Artico v. Italy"^^xsd:string ],
+        [ ns1:hasApplicationNumber "30408/96"^^xsd:string ;
+            dcterms:date "1998-01-15"^^xsd:date ;
+            dcterms:description "Järvinen v. Finland, no. 30408/96, Commission decision of 15 January 1998"^^xsd:string ;
+            dcterms:title "Järvinen v. Finland"^^xsd:string ],
+        [ dcterms:description "Articles 1, 4-6, 10, 12, 18, 23, 27, 31 and 32 of the Council of Europe Convention on Action against Trafficking in Human Beings"^^xsd:string ],
         [ dcterms:date "1998-06-09"^^xsd:date ;
             dcterms:description "L.C.B. v. the United Kingdom, 9 June 1998, § 36, Reports 1998-III"^^xsd:string ;
             dcterms:title "L.C.B. v. the United Kingdom"^^xsd:string ],
-        [ dcterms:description "Recommendation 1450 (2000) on violence against women in Europe"^^xsd:string ],
-        [ dcterms:description "The 1949 Convention for the Suppression of Traffic in Persons and of the Exploitation of the Prostitution of Others"^^xsd:string ],
+        [ ns1:hasApplicationNumber "52207/99"^^xsd:string ;
+            dcterms:description "Bankovic and Others v. Belgium and 16 Other Contracting States (dec.) [GC], no. 52207/99, §§ 59-61, ECHR 2001-XII"^^xsd:string ;
+            dcterms:title "Bankovic and Others v. Belgium and 16 Other Contracting States (dec.) [GC]"^^xsd:string ],
+        [ dcterms:description "Recommendation Rec (2001) 16 of the Committee of Ministers to member states on the protection of children against sexual exploitation"^^xsd:string ],
+        [ dcterms:description "Articles 1, 2, 5 and 6 of the 1926 Slavery Convention"^^xsd:string ],
+        [ dcterms:date "1978-01-18"^^xsd:date ;
+            dcterms:description "Ireland v. the United Kingdom, 18 January 1978, § 154, Series A no. 25"^^xsd:string ;
+            dcterms:title "Ireland v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "1998-10-28"^^xsd:date ;
+            dcterms:description "Osman v. the United Kingdom, §§ 115-117, 121, 28 October 1998, Reports 1998-VIII"^^xsd:string ;
+            dcterms:title "Osman v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Articles 11 and 12 of the Criminal Code of the Russian Federation "^^xsd:string ],
+        [ ns1:hasApplicationNumber "47244/99"^^xsd:string ;
+            dcterms:date "2003-11-04"^^xsd:date ;
+            dcterms:description "Novotka v. Slovakia (dec.), no. 47244/99, 4 November 2003"^^xsd:string ;
+            dcterms:title "Novotka v. Slovakia (dec.)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "25803/94"^^xsd:string ;
+            dcterms:description "Selmouni v. France [GC], no. 25803/94, § 101, ECHR 1999-V"^^xsd:string ;
+            dcterms:title "Selmouni v. France [GC]"^^xsd:string ],
+        [ dcterms:date "1989-07-07"^^xsd:date ;
+            dcterms:description "Soering v. the United Kingdom, 7 July 1989, § 87, Series A no. 161"^^xsd:string ;
+            dcterms:title "Soering v. the United Kingdom"^^xsd:string ],
         [ dcterms:date "1998-09-02"^^xsd:date ;
             dcterms:description "Yasa v. Turkey, 2 September 1998, §§ 102-104, Reports 1998-VI"^^xsd:string ;
             dcterms:title "Yasa v. Turkey"^^xsd:string ],
-        [ dcterms:description "Recommendation Rec (2001) 16 of the Committee of Ministers to member states on the protection of children against sexual exploitation"^^xsd:string ],
-        [ ns1:hasApplicationNumber "32967/96"^^xsd:string ;
-            dcterms:description "Calvelli and Ciglio v. Italy [GC], no. 32967/96, §§ 48 to 50, ECHR 2002-I"^^xsd:string ;
-            dcterms:title "Calvelli and Ciglio v. Italy [GC]"^^xsd:string ],
-        [ dcterms:description "The Framework Decision of the Council of the European Union on combating trafficking in human beings (Framework Decision 2002/JHA/629 of 19 July 2002)"^^xsd:string ],
-        [ dcterms:description "Articles 105, 125, 126 and 127.1 of the Russian Criminal Code"^^xsd:string ],
-        [ dcterms:date "1992-06-26"^^xsd:date ;
-            dcterms:description "Drozd and Janousek v. France and Spain, 26 June 1992, Series A no. 240"^^xsd:string ;
-            dcterms:title "Drozd and Janousek v. France and Spain"^^xsd:string ],
-        [ ns1:hasApplicationNumber "34503/97"^^xsd:string ;
-            dcterms:date "2008-11-12"^^xsd:date ;
-            dcterms:description "Demir and Baykara v. Turkey [GC], no. 34503/97, § 67, 12 November 2008"^^xsd:string ;
-            dcterms:title "Demir and Baykara v. Turkey [GC]"^^xsd:string ],
-        [ dcterms:description "Articles 1, 4-6, 10, 12, 18, 23, 27, 31 and 32 of the Council of Europe Convention on Action against Trafficking in Human Beings"^^xsd:string ],
-        [ ns1:hasApplicationNumber "23657/94"^^xsd:string ;
-            dcterms:description "Çakici v. Turkey [GC], no. 23657/94, §§ 80-87 and 106, ECHR 1999-IV"^^xsd:string ;
-            dcterms:title "Çakici v. Turkey [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "47916/99"^^xsd:string ;
+            dcterms:description "Menson v. the United Kingdom (dec.), no. 47916/99, ECHR 2003-V"^^xsd:string ;
+            dcterms:title "Menson v. the United Kingdom (dec.)"^^xsd:string ],
+        [ dcterms:description "Article 20 of the Aliens and Immigration Law "^^xsd:string ],
+        [ dcterms:description "judgment of of the International Criminal Tribunal for the Former Yugoslavia in the case of Prosecutor v. Kunarac, Vukovic and Kovac, 12 June 2002"^^xsd:string ],
+        [ dcterms:description "Sections 2, 5, 6, 7, 10 and 11 of the Law No. 3(1) of 2000 on the Combating of Trafficking in Persons and Sexual Exploitation of Children "^^xsd:string ],
+        [ ns1:hasApplicationNumber "47287/99"^^xsd:string ;
+            dcterms:description "Perez v. France [GC], no. 47287/99, § 70, ECHR 2004-I"^^xsd:string ;
+            dcterms:title "Perez v. France [GC]"^^xsd:string ],
+        [ dcterms:date "1976-06-08"^^xsd:date ;
+            dcterms:description "Engel and Others v. the Netherlands, 8 June 1976, §§ 58-59, Series A no. 22"^^xsd:string ;
+            dcterms:title "Engel and Others v. the Netherlands"^^xsd:string ],
+        [ ns1:hasApplicationNumber "42400/98"^^xsd:string ;
+            dcterms:date "2000-03-07"^^xsd:date ;
+            dcterms:description "Seguin v. France (dec.), no. 42400/98, 7 March 2000"^^xsd:string ;
+            dcterms:title "Seguin v. France (dec.)"^^xsd:string ],
+        [ dcterms:description "Recommendation 1545 (2002) on the campaign against trafficking in women"^^xsd:string ],
+        [ dcterms:description "Articles 3, 5, 6, 9 and 10, of the Protocol to Prevent, Suppress and Punish Trafficking in Persons, especially Women and Children, supplementing the United Nations Convention against Transnational Organised Crime 2000"^^xsd:string ],
+        [ ns1:hasApplicationNumber "29392/95"^^xsd:string ;
+            dcterms:description "Z and Others v. the United Kingdom [GC], no. 29392/95, §§ 73 to 74, ECHR 2001-V"^^xsd:string ;
+            dcterms:title "Z and Others v. the United Kingdom [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "37680/97"^^xsd:string ;
+            dcterms:description "Riera Blume and Others v. Spain, no. 37680/97, §§ 28, 31-35, ECHR 1999-VII"^^xsd:string ;
+            dcterms:title "Riera Blume and Others v. Spain"^^xsd:string ],
+        [ ns1:hasApplicationNumber "73316/01"^^xsd:string ;
+            dcterms:description "Siliadin v. France, §§ 82, 89, 112, 117, 121-122, 124, no. 73316/01, ECHR 2005-VII"^^xsd:string ;
+            dcterms:title "Siliadin v. France"^^xsd:string ],
+        [ dcterms:date "1996-12-18"^^xsd:date ;
+            dcterms:description "Loizidou v. Turkey, 18 December 1996, Reports of Judgments and Decisions 1996-VI, § 43"^^xsd:string ;
+            dcterms:title "Loizidou v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "22277/93"^^xsd:string ;
+            dcterms:description "Ilhan v. Turkey [GC], no. 22277/93, § 63, ECHR 2000-VII"^^xsd:string ;
+            dcterms:title "Ilhan v. Turkey [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "43577/98"^^xsd:string ;
+            dcterms:description "Nachova and Others v. Bulgaria [GC], nos. 43577/98 and 43579/98, §§ 93, 96-97, 99-102, ECHR 2005-VII"^^xsd:string ;
+            dcterms:title "Nachova and Others v. Bulgaria [GC]"^^xsd:string ],
+        [ dcterms:description "Recommendation 1610 (2003) on migration connected with trafficking in women and prostitution"^^xsd:string ],
         [ ns1:hasApplicationNumber "33401/02"^^xsd:string ;
             dcterms:date "2009-06-09"^^xsd:date ;
             dcterms:description "Opuz v. Turkey, no. 33401/02, §§ 128, 133-136, 9 June 2009"^^xsd:string ;
             dcterms:title "Opuz v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "30054/96"^^xsd:string ;
+            dcterms:date "2001-05-04"^^xsd:date ;
+            dcterms:description "Kelly and Others v. the United Kingdom, no. 30054/96, §§ 97-98, 114, 4 May 2001"^^xsd:string ;
+            dcterms:title "Kelly and Others v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "26307/95"^^xsd:string ;
+            dcterms:description "Tahsin Acar v. Turkey (preliminary objection) [GC], no. 26307/95, §§ 75-77, ECHR 2003-VI"^^xsd:string ;
+            dcterms:title "Tahsin Acar v. Turkey (preliminary objection) [GC]"^^xsd:string ],
+        [ dcterms:description "The 1949 Convention for the Suppression of Traffic in Persons and of the Exploitation of the Prostitution of Others"^^xsd:string ],
+        [ dcterms:description "Recommendation 1450 (2000) on violence against women in Europe"^^xsd:string ],
+        [ ns1:hasApplicationNumber "24746/94"^^xsd:string ;
+            dcterms:description "Hugh Jordan v. the United Kingdom, no. 24746/94, § 120, ECHR 2001-III (extracts)"^^xsd:string ;
+            dcterms:title "Hugh Jordan v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "1998-02-19"^^xsd:date ;
+            dcterms:description "Guerra and Others v. Italy, 19 February 1998, §§ 58 to 60, Reports of Judgments and Decisions 1998-I"^^xsd:string ;
+            dcterms:title "Guerra and Others v. Italy"^^xsd:string ],
+        [ dcterms:description "Report of 12 February 2004 by the Council of Europe Commissioner for Human Rights on his visit to Cyprus in June 2003 (CommDH(2004)2)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "24351/94"^^xsd:string ;
+            dcterms:description "Aktas v. Turkey, no. 24351/94, § 352, ECHR 2003-V (extracts)"^^xsd:string ;
+            dcterms:title "Aktas v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "48939/99"^^xsd:string ;
+            dcterms:description "Öneryildiz v. Turkey [GC], no. 48939/99, §§ 70 to 74, ECHR 2004-XII"^^xsd:string ;
+            dcterms:title "Öneryildiz v. Turkey [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "34503/97"^^xsd:string ;
+            dcterms:date "2008-11-12"^^xsd:date ;
+            dcterms:description "Demir and Baykara v. Turkey [GC], no. 34503/97, § 67, 12 November 2008"^^xsd:string ;
+            dcterms:title "Demir and Baykara v. Turkey [GC]"^^xsd:string ],
+        [ dcterms:description "The Framework Decision of the Council of the European Union on combating trafficking in human beings (Framework Decision 2002/JHA/629 of 19 July 2002)"^^xsd:string ],
+        [ dcterms:date "1992-06-26"^^xsd:date ;
+            dcterms:description "Drozd and Janousek v. France and Spain, 26 June 1992, Series A no. 240"^^xsd:string ;
+            dcterms:title "Drozd and Janousek v. France and Spain"^^xsd:string ],
+        [ dcterms:description "Articles 105, 125, 126 and 127.1 of the Russian Criminal Code"^^xsd:string ],
+        [ dcterms:date "1995-09-27"^^xsd:date ;
+            dcterms:description "McCann and Others v. the United Kingdom, 27 September 1995, § 161, Series A no. 324"^^xsd:string ;
+            dcterms:title "McCann and Others v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Recommendation 1325 (1997) on traffic in women and forced prostitution in Council of Europe member States"^^xsd:string ],
+        [ dcterms:description "Article 1, 3 and 26 of the Mutual Assistance Convention"^^xsd:string ],
+        [ ns1:hasApplicationNumber "13229/03"^^xsd:string ;
+            dcterms:description "Saadi v. the United Kingdom [GC], no. 13229/03, § 62, ECHR 2008"^^xsd:string ;
+            dcterms:title "Saadi v. the United Kingdom [GC]"^^xsd:string ],
+        [ dcterms:date "1983-11-23"^^xsd:date ;
+            dcterms:description "Van der Mussele v. Belgium, 23 November 1983, §§ 34, 36, Series A no. 70"^^xsd:string ;
+            dcterms:title "Van der Mussele v. Belgium"^^xsd:string ],
+        [ dcterms:date "1998-02-19"^^xsd:date ;
+            dcterms:description "Kaya v. Turkey, 19 February 1998, § 86, Reports 1998-I"^^xsd:string ;
+            dcterms:title "Kaya v. Turkey"^^xsd:string ],
+        [ dcterms:date "1998-07-27"^^xsd:date ;
+            dcterms:description "Güleç v. Turkey, 27 July 1998, § 82, Reports of Judgments and Decisions 1998-IV"^^xsd:string ;
+            dcterms:title "Güleç v. Turkey"^^xsd:string ],
         [ ns1:hasApplicationNumber "23057/03"^^xsd:string ;
             dcterms:date "2009-01-22"^^xsd:date ;
             dcterms:description "Dinchev v. Bulgaria, no. 23057/03, § 39, 22 January 2009"^^xsd:string ;
             dcterms:title "Dinchev v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "25803/94"^^xsd:string ;
-            dcterms:description "Selmouni v. France [GC], no. 25803/94, § 101, ECHR 1999-V"^^xsd:string ;
-            dcterms:title "Selmouni v. France [GC]"^^xsd:string ],
+        [ dcterms:description "Articles 7-11 of the Cypriot Constitution "^^xsd:string ],
         [ dcterms:description "Recommendation 1526 (2001) on the campaign against trafficking in minors to put a stop to the east European route: the example of Moldova"^^xsd:string ],
-        [ ns1:hasApplicationNumber "46221/99"^^xsd:string ;
-            dcterms:description "Öcalan v. Turkey [GC], no. 46221/99, § 163, ECHR 2005-IV"^^xsd:string ;
-            dcterms:title "Öcalan v. Turkey [GC]"^^xsd:string ],
-        [ dcterms:date "1998-07-27"^^xsd:date ;
-            dcterms:description "Güleç v. Turkey, 27 July 1998, § 82, Reports of Judgments and Decisions 1998-IV"^^xsd:string ;
-            dcterms:title "Güleç v. Turkey"^^xsd:string ],
-        [ dcterms:description "Recommendation No. R (2000) 11 of the Committee of Ministers to member states on action against trafficking in human beings for the purpose of sexual exploitation"^^xsd:string ],
-        [ dcterms:description "Article 1, 3 and 26 of the Mutual Assistance Convention"^^xsd:string ],
+        [ dcterms:description "Ex Officio report of the Cypriot Ombudsman on the regime regarding entry and employment of alien women as artistes in entertainment places in Cyprus, 24 November 2003"^^xsd:string ],
         [ ns1:hasApplicationNumber "61603/00"^^xsd:string ;
             dcterms:description "Storck v. Germany, no. 61603/00, §§ 76-78, ECHR 2005-V"^^xsd:string ;
             dcterms:title "Storck v. Germany"^^xsd:string ],
-        [ ns1:hasApplicationNumber "22277/93"^^xsd:string ;
-            dcterms:description "Ilhan v. Turkey [GC], no. 22277/93, § 63, ECHR 2000-VII"^^xsd:string ;
-            dcterms:title "Ilhan v. Turkey [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "29392/95"^^xsd:string ;
-            dcterms:description "Z and Others v. the United Kingdom [GC], no. 29392/95, §§ 73 to 74, ECHR 2001-V"^^xsd:string ;
-            dcterms:title "Z and Others v. the United Kingdom [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "22535/93"^^xsd:string ;
-            dcterms:description "Mahmut Kaya v. Turkey, no. 22535/93, §§ 115-116, ECHR 2000-III"^^xsd:string ;
-            dcterms:title "Mahmut Kaya v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "24746/94"^^xsd:string ;
-            dcterms:description "Hugh Jordan v. the United Kingdom, no. 24746/94, § 120, ECHR 2001-III (extracts)"^^xsd:string ;
-            dcterms:title "Hugh Jordan v. the United Kingdom"^^xsd:string ],
-        [ dcterms:description "Article 20 of the Aliens and Immigration Law "^^xsd:string ],
-        [ dcterms:date "1989-07-07"^^xsd:date ;
-            dcterms:description "Soering v. the United Kingdom, 7 July 1989, § 87, Series A no. 161"^^xsd:string ;
-            dcterms:title "Soering v. the United Kingdom"^^xsd:string ] ;
+        [ dcterms:description "Recommendation 1663 (2004) on domestic slavery: servitude, au pairs and “mail-order brides”"^^xsd:string ],
+        [ ns1:hasApplicationNumber "23657/94"^^xsd:string ;
+            dcterms:description "Çakici v. Turkey [GC], no. 23657/94, §§ 80-87 and 106, ECHR 1999-IV"^^xsd:string ;
+            dcterms:title "Çakici v. Turkey [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "28957/95"^^xsd:string ;
+            dcterms:description "Christine Goodwin v. the United Kingdom [GC], no. 28957/95, § 71, ECHR 2002-VI"^^xsd:string ;
+            dcterms:title "Christine Goodwin v. the United Kingdom [GC]"^^xsd:string ],
+        [ dcterms:description "Sections 14, 16, 24, 25 and 30 of the Coroners Law "^^xsd:string ],
+        [ dcterms:description "Recommendation No. R (2000) 11 of the Committee of Ministers to member states on action against trafficking in human beings for the purpose of sexual exploitation"^^xsd:string ],
+        [ ns1:hasApplicationNumber "65731/01"^^xsd:string ;
+            dcterms:description "Stec and Others v. the United Kingdom (dec.) [GC], nos. 65731/01 and 65900/01, § 48, ECHR 2005-X"^^xsd:string ;
+            dcterms:title "Stec and Others v. the United Kingdom (dec.) [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "35763/97"^^xsd:string ;
+            dcterms:description "Al-Adsani v. the United Kingdom [GC], no. 35763/97, §§ 38-39, 55, ECHR 2001-XI"^^xsd:string ;
+            dcterms:title "Al-Adsani v. the United Kingdom [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "32967/96"^^xsd:string ;
+            dcterms:description "Calvelli and Ciglio v. Italy [GC], no. 32967/96, §§ 48 to 50, ECHR 2002-I"^^xsd:string ;
+            dcterms:title "Calvelli and Ciglio v. Italy [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "46477/99"^^xsd:string ;
+            dcterms:description "Paul and Audrey Edwards v. the United Kingdom, no. 46477/99, §§ 54-55, 69, 70-73, ECHR 2002-II"^^xsd:string ;
+            dcterms:title "Paul and Audrey Edwards v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Follow-up report of 26 March 2006 by the Council of Europe Commissioner for Human Rights on the progress made in implementing his recommendations (CommDH(2006)12)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "40016/98"^^xsd:string ;
+            dcterms:description "Karner v. Austria, no. 40016/98, § 26, ECHR 2003-IX"^^xsd:string ;
+            dcterms:title "Karner v. Austria"^^xsd:string ],
+        [ dcterms:date "1980-07-09"^^xsd:date ;
+            dcterms:description "Van Droogenbroeck v. Belgium, Commission’s report of 9 July 1980, §§ 78-80, Series B no. 44"^^xsd:string ;
+            dcterms:title "Van Droogenbroeck v. Belgium"^^xsd:string ],
+        [ ns1:hasApplicationNumber "46221/99"^^xsd:string ;
+            dcterms:description "Öcalan v. Turkey [GC], no. 46221/99, § 163, ECHR 2005-IV"^^xsd:string ;
+            dcterms:title "Öcalan v. Turkey [GC]"^^xsd:string ] ;
     dcterms:title "CASE OF RANTSEV v. CYPRUS AND RUSSIA"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 

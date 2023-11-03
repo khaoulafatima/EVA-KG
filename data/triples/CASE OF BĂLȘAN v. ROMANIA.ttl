@@ -27,56 +27,56 @@
         "Positive obligations) (Procedural aspect)"^^xsd:string,
         "Violation of Article 14+3 - Prohibition of discrimination (Article 14 - Discrimination) (Article 3 - Prohibition of torture"^^xsd:string,
         "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation"^^xsd:string ;
-    dcterms:identifier "https://hudoc.echr.coe.int/eng#{\"itemid\":[\"001-173619\"]}"^^xsd:string ;
+    dcterms:identifier "https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-173619%22]}"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2017:0523JUD004964509"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ ns1:hasApplicationNumber "10161/13"^^xsd:string ;
-            dcterms:date "2015-09-03"^^xsd:date ;
-            dcterms:description "M. and M. v. Croatia, no. 10161/13, § 136, 3 September 2015"^^xsd:string ;
-            dcterms:title "M. and M. v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "646/10"^^xsd:string ;
-            dcterms:date "2016-03-22"^^xsd:date ;
-            dcterms:description "M.G. v. Turkey, no. 646/10, § 62, 22 March 2016"^^xsd:string ;
-            dcterms:title "M.G. v. Turkey"^^xsd:string ],
-        [ dcterms:description "Articles 2, 16 and 26 of Law no. 217/2003 on preventing and combating domestic violence entered into force on 29 May 2003"^^xsd:string ],
-        [ dcterms:date "1998-02-19"^^xsd:date ;
-            dcterms:description "Guerra and Others v. Italy [GC], 19 February 1998, § 44, Reports of Judgments and Decisions 1998-I"^^xsd:string ;
-            dcterms:title "Guerra and Others v. Italy [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "28440/07"^^xsd:string ;
+    dcterms:references [ ns1:hasApplicationNumber "28440/07"^^xsd:string ;
             dcterms:date "2015-03-24"^^xsd:date ;
             dcterms:description "Milena Felicia Dumitrescu v. Romania, no. 28440/07, § 54, 24 March 2015"^^xsd:string ;
             dcterms:title "Milena Felicia Dumitrescu v. Romania"^^xsd:string ],
-        [ dcterms:description "Articles 91 (Administrative sanctions), 180 (Bodily harm) and 193 (Threats) of the Criminal Code "^^xsd:string ],
-        [ dcterms:description "Convention on the Elimination of All Forms of Discrimination against Women (CEDAW), adopted in 1979 by the United Nations General Assembly and ratified by Romania on 7 January 1982"^^xsd:string ],
-        [ ns1:hasApplicationNumber "41526/10"^^xsd:string ;
-            dcterms:description "Đorđević v. Croatia, no. 41526/10, §§ 138 and 139, ECHR 2012"^^xsd:string ;
-            dcterms:title "Đorđević v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "33401/02"^^xsd:string ;
-            dcterms:date "2009-06-09"^^xsd:date ;
-            dcterms:description "Opuz v. Turkey, no. 33401/02, 9 June 2009"^^xsd:string ;
-            dcterms:title "Opuz v. Turkey"^^xsd:string ],
         [ dcterms:description "Comments made in respect of Romania by the United Nations Committee on the Elimination of Discrimination against Women (“the CEDAW Committee”) in its its thirty-fifth session (15 May - 2 June 2006)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "5786/08"^^xsd:string ;
-            dcterms:date "2013-11-12"^^xsd:date ;
-            dcterms:description "Söderman v. Sweden, no. 5786/08, § 102, 12 November 2013"^^xsd:string ;
-            dcterms:title "Söderman v. Sweden"^^xsd:string ],
-        [ ns1:hasApplicationNumber "38773/05"^^xsd:string ;
-            dcterms:date "2012-07-26"^^xsd:date ;
-            dcterms:description "Savitskyy v. Ukraine, no. 38773/05, § 117, 26 July 2012"^^xsd:string ;
-            dcterms:title "Savitskyy v. Ukraine"^^xsd:string ],
-        [ ns1:hasApplicationNumber "61382/09"^^xsd:string ;
-            dcterms:date "2013-07-16"^^xsd:date ;
-            dcterms:description "B. v. the Republic of Moldova, no. 61382/09, § 47, 16 July 2013"^^xsd:string ;
-            dcterms:title "B. v. the Republic of Moldova"^^xsd:string ],
         [ ns1:hasApplicationNumber "43994/05"^^xsd:string ;
             dcterms:date "2012-10-30"^^xsd:date ;
             dcterms:description "E.M. v. Romania, no. 43994/05, § 51, 30 October 2012"^^xsd:string ;
             dcterms:title "E.M. v. Romania"^^xsd:string ],
+        [ dcterms:date "1998-02-19"^^xsd:date ;
+            dcterms:description "Guerra and Others v. Italy [GC], 19 February 1998, § 44, Reports of Judgments and Decisions 1998-I"^^xsd:string ;
+            dcterms:title "Guerra and Others v. Italy [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "38773/05"^^xsd:string ;
+            dcterms:date "2012-07-26"^^xsd:date ;
+            dcterms:description "Savitskyy v. Ukraine, no. 38773/05, § 117, 26 July 2012"^^xsd:string ;
+            dcterms:title "Savitskyy v. Ukraine"^^xsd:string ],
+        [ ns1:hasApplicationNumber "41526/10"^^xsd:string ;
+            dcterms:description "Đorđević v. Croatia, no. 41526/10, §§ 138 and 139, ECHR 2012"^^xsd:string ;
+            dcterms:title "Đorđević v. Croatia"^^xsd:string ],
+        [ dcterms:description "Articles 91 (Administrative sanctions), 180 (Bodily harm) and 193 (Threats) of the Criminal Code "^^xsd:string ],
+        [ ns1:hasApplicationNumber "646/10"^^xsd:string ;
+            dcterms:date "2016-03-22"^^xsd:date ;
+            dcterms:description "M.G. v. Turkey, no. 646/10, § 62, 22 March 2016"^^xsd:string ;
+            dcterms:title "M.G. v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "61382/09"^^xsd:string ;
+            dcterms:date "2013-07-16"^^xsd:date ;
+            dcterms:description "B. v. the Republic of Moldova, no. 61382/09, § 47, 16 July 2013"^^xsd:string ;
+            dcterms:title "B. v. the Republic of Moldova"^^xsd:string ],
+        [ dcterms:description "Articles 2, 16 and 26 of Law no. 217/2003 on preventing and combating domestic violence entered into force on 29 May 2003"^^xsd:string ],
         [ ns1:hasApplicationNumber "33234/07"^^xsd:string ;
             dcterms:date "2013-03-26"^^xsd:date ;
             dcterms:description "Valiulienė v. Lithuania, no. 33234/07, §§ 68-71, 26 March 2013"^^xsd:string ;
-            dcterms:title "Valiulienė v. Lithuania"^^xsd:string ] ;
+            dcterms:title "Valiulienė v. Lithuania"^^xsd:string ],
+        [ ns1:hasApplicationNumber "5786/08"^^xsd:string ;
+            dcterms:date "2013-11-12"^^xsd:date ;
+            dcterms:description "Söderman v. Sweden, no. 5786/08, § 102, 12 November 2013"^^xsd:string ;
+            dcterms:title "Söderman v. Sweden"^^xsd:string ],
+        [ dcterms:description "Convention on the Elimination of All Forms of Discrimination against Women (CEDAW), adopted in 1979 by the United Nations General Assembly and ratified by Romania on 7 January 1982"^^xsd:string ],
+        [ ns1:hasApplicationNumber "10161/13"^^xsd:string ;
+            dcterms:date "2015-09-03"^^xsd:date ;
+            dcterms:description "M. and M. v. Croatia, no. 10161/13, § 136, 3 September 2015"^^xsd:string ;
+            dcterms:title "M. and M. v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "33401/02"^^xsd:string ;
+            dcterms:date "2009-06-09"^^xsd:date ;
+            dcterms:description "Opuz v. Turkey, no. 33401/02, 9 June 2009"^^xsd:string ;
+            dcterms:title "Opuz v. Turkey"^^xsd:string ] ;
     dcterms:title "CASE OF BĂLȘAN v. ROMANIA"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 
