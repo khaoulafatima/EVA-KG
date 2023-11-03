@@ -3,7 +3,8 @@
 @prefix ns1: <http://eva.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] ns1:importanceLevel 2 ;
+[] ns1:hasApplicationNumber "2660/03"^^xsd:string ;
+    ns1:importanceLevel 2 ;
     ns1:respondentState <http://www.wikidata.org/entity/Q214> ;
     dcterms:accessRights "public"^^xsd:string ;
     dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
@@ -18,91 +19,91 @@
         "Positive obligations"^^xsd:string,
         "Remainder inadmissible"^^xsd:string,
         "Violation of Art. 8"^^xsd:string ;
-    dcterms:identifier "2660/03"^^xsd:string ;
+    dcterms:identifier "https://hudoc.echr.coe.int/eng#{\"dmdocnumber\":[\"877609\"],\"itemid\":[\"001-101945\"]}"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2010:1130JUD000266003"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ dcterms:date "2008-06-12"^^xsd:date ;
-            dcterms:description "Bevacqua and S. v. Bulgaria, no. 71127/01, § 65, 12 June 2008"^^xsd:string ;
-            dcterms:identifier "71127/01"^^xsd:string ;
-            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ],
-        [ dcterms:date "1973-12-14"^^xsd:date ;
-            dcterms:description "East African Asians v. the United Kingdom, no. 4626/70 et al., Commission's report of 14 December 1973, Decisions and Reports 78, p. 67, § 220"^^xsd:string ;
-            dcterms:identifier "4626/70"^^xsd:string ;
-            dcterms:title "East African Asians v. the United Kingdom"^^xsd:string ],
+    dcterms:references [ dcterms:date "1980-11-06"^^xsd:date ;
+            dcterms:description "Van Oosterwijck v. Belgium, 6 November 1980, § 35, Series A no. 40"^^xsd:string ;
+            dcterms:title "Van Oosterwijck v. Belgium"^^xsd:string ],
         [ dcterms:date "1993-03-25"^^xsd:date ;
             dcterms:description "Costello-Roberts v. the United Kingdom, 25 March 1993, § 36, Series A no. 247-C"^^xsd:string ;
             dcterms:title "Costello-Roberts v. the United Kingdom"^^xsd:string ],
-        [ dcterms:date "2002-04-18"^^xsd:date ;
-            dcterms:description "Zilli and Bonardo v. Italy (dec.), no. 40143/98, 18 April 2002"^^xsd:string ;
-            dcterms:identifier "40143/98"^^xsd:string ;
-            dcterms:title "Zilli and Bonardo v. Italy (dec.)"^^xsd:string ],
-        [ dcterms:date "1985-03-26"^^xsd:date ;
-            dcterms:description "X and Y v. the Netherlands, 26 March 1985, Series A no. 91"^^xsd:string ;
-            dcterms:title "X and Y v. the Netherlands"^^xsd:string ],
-        [ dcterms:date "2010-10-14"^^xsd:date ;
-            dcterms:description "A v. Croatia, no. 55164/08, § 60, 14 October 2010"^^xsd:string ;
-            dcterms:identifier "55164/08"^^xsd:string ;
-            dcterms:title "A v. Croatia"^^xsd:string ],
-        [ dcterms:date "1980-11-06"^^xsd:date ;
-            dcterms:description "Van Oosterwijck v. Belgium, 6 November 1980, § 35, Series A no. 40"^^xsd:string ;
-            dcterms:title "Van Oosterwijck v. Belgium"^^xsd:string ],
-        [ dcterms:description "Sandra Jankovic v. Croatia, no. 38478/05, ECHR 2009"^^xsd:string ;
-            dcterms:identifier "38478/05"^^xsd:string ;
-            dcterms:title "Sandra Jankovic v. Croatia"^^xsd:string ],
-        [ dcterms:date "2002-10-10"^^xsd:date ;
-            dcterms:description "J.C. v. the United Kingdom, no. 38719/97, § 118, 10 October 2002"^^xsd:string ;
-            dcterms:identifier "38719/97"^^xsd:string ;
-            dcterms:title "J.C. v. the United Kingdom"^^xsd:string ],
-        [ dcterms:description "Selmouni v. France [GC], no. 25803/94, §§ 74 and 75, ECHR 1999-V"^^xsd:string ;
-            dcterms:identifier "25803/94"^^xsd:string ;
-            dcterms:title "Selmouni v. France [GC]"^^xsd:string ],
-        [ dcterms:description "Article 351 (1) of the Code of Criminal Procedure"^^xsd:string ],
-        [ dcterms:date "2002-10-10"^^xsd:date ;
-            dcterms:description "D.P. and J.C. v. the United Kingdom, no. 38719/97, § 118, 10 October 2002"^^xsd:string ;
-            dcterms:identifier "38719/97"^^xsd:string ;
-            dcterms:title "D.P. and J.C. v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "33401/02"^^xsd:string ;
+            dcterms:description "Opuz v. Turkey, no. 33401/02, § 132, ECHR 2009"^^xsd:string ;
+            dcterms:title "Opuz v. Turkey"^^xsd:string ],
         [ dcterms:date "1991-03-19"^^xsd:date ;
             dcterms:description "Cardot v. France, 19 March 1991, § 34, Series A no. 200"^^xsd:string ;
             dcterms:title "Cardot v. France"^^xsd:string ],
-        [ dcterms:description "M.C. v. Bulgaria, no. 39272/98, §§ 150 and 152, ECHR 2003-XII"^^xsd:string ;
-            dcterms:identifier "39272/98"^^xsd:string ;
-            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
-        [ dcterms:date "2004-03-30"^^xsd:date ;
-            dcterms:description "Babjak and others v. Slovakia (dec.), no.73693/01, 30 March 2004"^^xsd:string ;
-            dcterms:identifier "73693/01"^^xsd:string ;
-            dcterms:title "Babjak and others v. Slovakia (dec.)"^^xsd:string ],
-        [ dcterms:date "2003-01-21"^^xsd:date ;
-            dcterms:description "August v. the United Kingdom (dec.), no. 36505/02, 21 January 2003"^^xsd:string ;
-            dcterms:identifier "36505/02"^^xsd:string ;
-            dcterms:title "August v. the United Kingdom (dec.)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "24833/94"^^xsd:string ;
+            dcterms:description "Matthews v. the United Kingdom [GC], no. 24833/94, § 34, ECHR 1999-I"^^xsd:string ;
+            dcterms:title "Matthews v. the United Kingdom [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "38478/05"^^xsd:string ;
+            dcterms:description "Sandra Jankovic v. Croatia, no. 38478/05, ECHR 2009"^^xsd:string ;
+            dcterms:title "Sandra Jankovic v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "38719/97"^^xsd:string ;
+            dcterms:date "2002-10-10"^^xsd:date ;
+            dcterms:description "J.C. v. the United Kingdom, no. 38719/97, § 118, 10 October 2002"^^xsd:string ;
+            dcterms:title "J.C. v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "71127/01"^^xsd:string ;
+            dcterms:date "2008-06-12"^^xsd:date ;
+            dcterms:description "Bevacqua and S. v. Bulgaria, no. 71127/01, § 65, 12 June 2008"^^xsd:string ;
+            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "7510/04"^^xsd:string ;
+            dcterms:description "Kontrová v. Slovakia, no. 7510/04, ECHR 2007-VI"^^xsd:string ;
+            dcterms:title "Kontrová v. Slovakia"^^xsd:string ],
         [ dcterms:date "1998-10-28"^^xsd:date ;
             dcterms:description "Osman v. the United Kingdom, 28 October 1998, § 116, Reports 1998-VIII"^^xsd:string ;
             dcterms:title "Osman v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "46598/06"^^xsd:string ;
+            dcterms:description "Branko Tomašic and Others v. Croatia, no. 46598/06, §§ 35-37, ECHR 2009"^^xsd:string ;
+            dcterms:title "Branko Tomašic and Others v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "55164/08"^^xsd:string ;
+            dcterms:date "2010-10-14"^^xsd:date ;
+            dcterms:description "A v. Croatia, no. 55164/08, § 60, 14 October 2010"^^xsd:string ;
+            dcterms:title "A v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "39272/98"^^xsd:string ;
+            dcterms:description "M.C. v. Bulgaria, no. 39272/98, §§ 150 and 152, ECHR 2003-XII"^^xsd:string ;
+            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
+        [ dcterms:date "1985-03-26"^^xsd:date ;
+            dcterms:description "X and Y v. the Netherlands, 26 March 1985, Series A no. 91"^^xsd:string ;
+            dcterms:title "X and Y v. the Netherlands"^^xsd:string ],
+        [ ns1:hasApplicationNumber "73693/01"^^xsd:string ;
+            dcterms:date "2004-03-30"^^xsd:date ;
+            dcterms:description "Babjak and others v. Slovakia (dec.), no.73693/01, 30 March 2004"^^xsd:string ;
+            dcterms:title "Babjak and others v. Slovakia (dec.)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "38719/97"^^xsd:string ;
+            dcterms:date "2002-10-10"^^xsd:date ;
+            dcterms:description "D.P. and J.C. v. the United Kingdom, no. 38719/97, § 118, 10 October 2002"^^xsd:string ;
+            dcterms:title "D.P. and J.C. v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "25803/94"^^xsd:string ;
+            dcterms:description "Selmouni v. France [GC], no. 25803/94, §§ 74 and 75, ECHR 1999-V"^^xsd:string ;
+            dcterms:title "Selmouni v. France [GC]"^^xsd:string ],
+        [ dcterms:description "Article 351 (1) of the Code of Criminal Procedure"^^xsd:string ],
+        [ ns1:hasApplicationNumber "4626/70"^^xsd:string ;
+            dcterms:date "1973-12-14"^^xsd:date ;
+            dcterms:description "East African Asians v. the United Kingdom, no. 4626/70 et al., Commission's report of 14 December 1973, Decisions and Reports 78, p. 67, § 220"^^xsd:string ;
+            dcterms:title "East African Asians v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "36505/02"^^xsd:string ;
+            dcterms:date "2003-01-21"^^xsd:date ;
+            dcterms:description "August v. the United Kingdom (dec.), no. 36505/02, 21 January 2003"^^xsd:string ;
+            dcterms:title "August v. the United Kingdom (dec.)"^^xsd:string ],
+        [ dcterms:date "1996-09-16"^^xsd:date ;
+            dcterms:description "Akdivar and Others v. Turkey, 16 September 1996, Reports of Judgments and Decisions 1996-IV"^^xsd:string ;
+            dcterms:title "Akdivar and Others v. Turkey"^^xsd:string ],
+        [ dcterms:date "1986-12-18"^^xsd:date ;
+            dcterms:description "Bozano v. France, 18 December 1986, §§ 54 and 60, Series A no. 111"^^xsd:string ;
+            dcterms:title "Bozano v. France"^^xsd:string ],
         [ dcterms:date "1976-06-08"^^xsd:date ;
             dcterms:description "Engel and Others v. the Netherlands, 8 June 1976, § 58, Series A no. 22"^^xsd:string ;
             dcterms:title "Engel and Others v. the Netherlands"^^xsd:string ],
         [ dcterms:date "1982-10-18"^^xsd:date ;
             dcterms:description "Young, James and Webster v. the United Kingdom (Article 50), 18 October 1982, § 15, Series A no. 55"^^xsd:string ;
             dcterms:title "Young"^^xsd:string ],
-        [ dcterms:date "1986-12-18"^^xsd:date ;
-            dcterms:description "Bozano v. France, 18 December 1986, §§ 54 and 60, Series A no. 111"^^xsd:string ;
-            dcterms:title "Bozano v. France"^^xsd:string ],
-        [ dcterms:description "Matthews v. the United Kingdom [GC], no. 24833/94, § 34, ECHR 1999-I"^^xsd:string ;
-            dcterms:identifier "24833/94"^^xsd:string ;
-            dcterms:title "Matthews v. the United Kingdom [GC]"^^xsd:string ],
-        [ dcterms:description "Opuz v. Turkey, no. 33401/02, § 132, ECHR 2009"^^xsd:string ;
-            dcterms:identifier "33401/02"^^xsd:string ;
-            dcterms:title "Opuz v. Turkey"^^xsd:string ],
-        [ dcterms:date "1996-09-16"^^xsd:date ;
-            dcterms:description "Akdivar and Others v. Turkey, 16 September 1996, Reports of Judgments and Decisions 1996-IV"^^xsd:string ;
-            dcterms:title "Akdivar and Others v. Turkey"^^xsd:string ],
-        [ dcterms:description "Branko Tomašic and Others v. Croatia, no. 46598/06, §§ 35-37, ECHR 2009"^^xsd:string ;
-            dcterms:identifier "46598/06"^^xsd:string ;
-            dcterms:title "Branko Tomašic and Others v. Croatia"^^xsd:string ],
-        [ dcterms:description "Kontrová v. Slovakia, no. 7510/04, ECHR 2007-VI"^^xsd:string ;
-            dcterms:identifier "7510/04"^^xsd:string ;
-            dcterms:title "Kontrová v. Slovakia"^^xsd:string ] ;
+        [ ns1:hasApplicationNumber "40143/98"^^xsd:string ;
+            dcterms:date "2002-04-18"^^xsd:date ;
+            dcterms:description "Zilli and Bonardo v. Italy (dec.), no. 40143/98, 18 April 2002"^^xsd:string ;
+            dcterms:title "Zilli and Bonardo v. Italy (dec.)"^^xsd:string ] ;
     dcterms:title "CASE OF HAJDUOVÁ v. SLOVAKIA"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 

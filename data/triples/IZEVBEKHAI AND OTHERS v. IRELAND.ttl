@@ -3,7 +3,8 @@
 @prefix ns1: <http://eva.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] ns1:importanceLevel 3 ;
+[] ns1:hasApplicationNumber "43408/08"^^xsd:string ;
+    ns1:importanceLevel 3 ;
     ns1:respondentState <http://www.wikidata.org/entity/Q27> ;
     dcterms:accessRights "public"^^xsd:string ;
     dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
@@ -16,7 +17,7 @@
         "(Art. 3) Prohibition of torture"^^xsd:string,
         "(Art. 6) Right to a fair trial"^^xsd:string,
         "Inadmissible"^^xsd:string ;
-    dcterms:identifier "43408/08"^^xsd:string ;
+    dcterms:identifier "https://hudoc.echr.coe.int/eng#{\"itemid\":[\"001-105081\"]}"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2011:0517DEC004340808"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;

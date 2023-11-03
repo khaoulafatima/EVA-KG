@@ -7,6 +7,7 @@ from wikidata_query import get_country_identifier
 from regexp import strasbourg_case_law_re
 from rdflib import Graph, URIRef, Literal, BNode, Namespace
 from rdflib.namespace import RDF, XSD, DCTERMS, FOAF
+from utils.extract_url import extract_document_url
 
 
 class ECHRDocument:
@@ -245,10 +246,11 @@ class ECHRDocument:
         self._graph.add((subject, DCTERMS.publisher, URIRef(wd.Q122880)))
         self._graph.add((subject, DCTERMS.language, Literal("en", datatype=XSD.string)))
         self._graph.add((subject, DCTERMS.coverage, URIRef(wd.Q6602)))
-        # TODO aggiungere ricerca link su file
-        # self._graph.add((subject, DCTERMS.identifier, Literal("")))
-        keys = self._case_detail.keys()
+        url = extract_document_url(self._case_detail["Title"])
+        if url is not None:
+            self._graph.add((subject, DCTERMS.identifier, Literal(url, datatype=XSD.string)))
 
+        keys = self._case_detail.keys()
         if "Originating Body" in keys:
             self._graph.add(
                 (subject, DCTERMS.creator, Literal(self._case_detail["Originating Body"], datatype=XSD.string)))
@@ -270,7 +272,7 @@ class ECHRDocument:
             for value in self._case_detail["App. No(s)."]:
                 if isinstance(self._case_detail["App. No(s)."], str):
                     value = self._case_detail["App. No(s)."]
-                self._graph.add((subject, DCTERMS.identifier, Literal(value, datatype=XSD.string)))
+                self._graph.add((subject, URIRef(custom_ns + "hasApplicationNumber"), Literal(value, datatype=XSD.string)))
                 if isinstance(self._case_detail["App. No(s)."], str):
                     break
 
@@ -342,7 +344,7 @@ class ECHRDocument:
                 if content[0]:
                     self._graph.add((scl, DCTERMS.title, Literal(content[0], datatype=XSD.string)))
                 if content[1]:
-                    self._graph.add((scl, DCTERMS.identifier, Literal(content[1], datatype=XSD.string)))
+                    self._graph.add((scl, URIRef(custom_ns + "hasApplicationNumber"), Literal(content[1], datatype=XSD.string)))
                 if content[2]:
                     self._graph.add((scl, DCTERMS.date, Literal(content[2], datatype=XSD.date)))
                 if isinstance(self._case_detail["Strasbourg Case-Law"], str):
@@ -406,7 +408,7 @@ if __name__ == "__main__":
     print("DOCUMENT___________________________________________________________________________________________________")
     print(echr_document)
     echr_document.extract_case_detail_from_html()
-    print("CASE DETAIL________________________________________________________________________________________________")
+    """print("CASE DETAIL________________________________________________________________________________________________")
     pprint.pprint(echr_document.get_case_detail(), sort_dicts=False)
     echr_document.case_detail_to_json(json_path)
     echr_document.extract_body_from_html()
@@ -418,7 +420,7 @@ if __name__ == "__main__":
     print("TITLES_____________________________________________________________________________________________________")
     echr_document.extract_titles()
     for t in echr_document.get_titles():
-        print(t)
+        print(t)"""
     print("TRIPLES____________________________________________________________________________________________________")
     echr_document.extract_triples_from_case_detail()
     print(echr_document.get_triples())

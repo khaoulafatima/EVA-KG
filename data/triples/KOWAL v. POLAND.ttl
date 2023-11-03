@@ -3,7 +3,8 @@
 @prefix ns1: <http://eva.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] ns1:importanceLevel 3 ;
+[] ns1:hasApplicationNumber "2912/11"^^xsd:string ;
+    ns1:importanceLevel 3 ;
     ns1:respondentState <http://www.wikidata.org/entity/Q36> ;
     dcterms:accessRights "public"^^xsd:string ;
     dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
@@ -14,7 +15,7 @@
     dcterms:description "(Art. 35) Admissibility criteria"^^xsd:string,
         "(Art. 8) Right to respect for private and family life"^^xsd:string,
         "Inadmissible"^^xsd:string ;
-    dcterms:identifier "2912/11"^^xsd:string ;
+    dcterms:identifier "https://hudoc.echr.coe.int/eng#{\"itemid\":[\"001-113956\"]}"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2012:0918DEC000291211"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;

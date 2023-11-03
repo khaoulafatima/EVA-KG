@@ -3,7 +3,8 @@
 @prefix ns1: <http://eva.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] ns1:importanceLevel 3 ;
+[] ns1:hasApplicationNumber "49089/10"^^xsd:string ;
+    ns1:importanceLevel 3 ;
     ns1:respondentState <http://www.wikidata.org/entity/Q218> ;
     dcterms:accessRights "public"^^xsd:string ;
     dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
@@ -19,7 +20,7 @@
         "Article 8-1 - Respect for private life)"^^xsd:string,
         "Violation of Article 3 - Prohibition of torture (Article 3 - Positive obligations) (Substantive aspect)"^^xsd:string,
         "Violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations"^^xsd:string ;
-    dcterms:identifier "49089/10"^^xsd:string ;
+    dcterms:identifier "https://hudoc.echr.coe.int/eng#{\"itemid\":[\"001-191749\"]}"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2019:0319JUD004908910"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;

@@ -3,7 +3,8 @@
 @prefix ns1: <http://eva.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] ns1:importanceLevel 3 ;
+[] ns1:hasApplicationNumber "47666/13"^^xsd:string ;
+    ns1:importanceLevel 3 ;
     ns1:respondentState <http://www.wikidata.org/entity/Q224> ;
     dcterms:accessRights "public"^^xsd:string ;
     dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
@@ -16,7 +17,7 @@
         "(Art. 8-1) Respect for private life"^^xsd:string,
         "Article 8-1 - Respect for private life)"^^xsd:string,
         "Violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations"^^xsd:string ;
-    dcterms:identifier "47666/13"^^xsd:string ;
+    dcterms:identifier "https://hudoc.echr.coe.int/eng#{\"itemid\":[\"001-175142\"]}"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2017:0711JUD004766613"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;

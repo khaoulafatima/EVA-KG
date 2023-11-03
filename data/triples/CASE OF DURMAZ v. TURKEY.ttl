@@ -3,20 +3,21 @@
 @prefix ns1: <http://eva.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] ns1:importanceLevel 3 ;
+[] ns1:hasApplicationNumber "3621/07"^^xsd:string ;
+    ns1:importanceLevel 3 ;
     ns1:respondentState <http://www.wikidata.org/entity/Q43> ;
     dcterms:accessRights "public"^^xsd:string ;
     dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "KAVAK KILINÇ Y. "^^xsd:string ],
+            foaf:name "KILINÇ Ü."^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "KILINÇ Ü."^^xsd:string ] ;
+            foaf:name "KAVAK KILINÇ Y. "^^xsd:string ] ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:creator "Court (Second Section)"^^xsd:string ;
     dcterms:date "2014-11-13"^^xsd:date ;
     dcterms:description "(Art. 2) Right to life"^^xsd:string,
         "(Art. 2-1) Effective investigation"^^xsd:string,
         "Violation of Article 2 - Right to life (Article 2-1 - Effective investigation) (Procedural aspect)"^^xsd:string ;
-    dcterms:identifier "3621/07"^^xsd:string ;
+    dcterms:identifier "https://hudoc.echr.coe.int/eng#{\"itemid\":[\"001-147871\"]}"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2014:1113JUD000362107"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;

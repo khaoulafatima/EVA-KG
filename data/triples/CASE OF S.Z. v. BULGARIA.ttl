@@ -3,7 +3,8 @@
 @prefix ns1: <http://eva.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] ns1:importanceLevel 2 ;
+[] ns1:hasApplicationNumber "29263/12"^^xsd:string ;
+    ns1:importanceLevel 2 ;
     ns1:respondentState <http://www.wikidata.org/entity/Q219> ;
     dcterms:accessRights "public"^^xsd:string ;
     dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
@@ -30,109 +31,108 @@
         "Preliminary objection joined to merits and dismissed (Article 35-1 - Exhaustion of domestic remedies)"^^xsd:string,
         "Respondent State to take measures of a general character (Article 46 - Systemic problem"^^xsd:string,
         "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect)"^^xsd:string ;
-    dcterms:identifier "29263/12"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2015:0303JUD002926312"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ dcterms:description "Velikova v. Bulgaria, no 41488/98, ECHR 2000 VI"^^xsd:string ;
-            dcterms:identifier "41488/98"^^xsd:string ;
-            dcterms:title "Velikova v. Bulgaria"^^xsd:string ],
-        [ dcterms:date "2012-01-24"^^xsd:date ;
-            dcterms:description "P.M. v. Bulgaria, no 49669/07, §§ 63-67, 24 January 2012"^^xsd:string ;
-            dcterms:identifier "49669/07"^^xsd:string ;
-            dcterms:title "P.M. v. Bulgaria"^^xsd:string ],
-        [ dcterms:date "2011-02-01"^^xsd:date ;
-            dcterms:description "Ebcin v. Turkey, no 19506/05, § 40, 1 February 2011"^^xsd:string ;
-            dcterms:identifier "19506/05"^^xsd:string ;
-            dcterms:title "Ebcin v. Turkey"^^xsd:string ],
-        [ dcterms:description "Angelova v. Bulgaria, no 38361/97, ECHR 2002 IV"^^xsd:string ;
-            dcterms:identifier "38361/97"^^xsd:string ;
+    dcterms:references [ ns1:hasApplicationNumber "38361/97"^^xsd:string ;
+            dcterms:description "Angelova v. Bulgaria, no 38361/97, ECHR 2002 IV"^^xsd:string ;
             dcterms:title "Angelova v. Bulgaria"^^xsd:string ],
-        [ dcterms:date "2013-06-25"^^xsd:date ;
-            dcterms:description "A.S. v. Bulgaria (dec.), no 78390/11, 25 June 2013"^^xsd:string ;
-            dcterms:identifier "78390/11"^^xsd:string ;
-            dcterms:title "A.S. v. Bulgaria (dec.)"^^xsd:string ],
-        [ dcterms:date "2014-03-11"^^xsd:date ;
-            dcterms:description "Abdu v. Bulgaria, no 26827/08, § 49, 11 March 2014"^^xsd:string ;
-            dcterms:identifier "26827/08"^^xsd:string ;
-            dcterms:title "Abdu v. Bulgaria"^^xsd:string ],
-        [ dcterms:date "2012-01-10"^^xsd:date ;
+        [ ns1:hasApplicationNumber "32662/06"^^xsd:string ;
+            dcterms:date "2012-01-10"^^xsd:date ;
             dcterms:description "Biser Kostov v. Bulgaria, no 32662/06, § 82, 10 January 2012"^^xsd:string ;
-            dcterms:identifier "32662/06"^^xsd:string ;
             dcterms:title "Biser Kostov v. Bulgaria"^^xsd:string ],
-        [ dcterms:date "2009-03-24"^^xsd:date ;
-            dcterms:description "Mojsiejew v. Poland, no 11818/02, 24 March 2009"^^xsd:string ;
-            dcterms:identifier "11818/02"^^xsd:string ;
-            dcterms:title "Mojsiejew v. Poland"^^xsd:string ],
+        [ ns1:hasApplicationNumber "78390/11"^^xsd:string ;
+            dcterms:date "2013-06-25"^^xsd:date ;
+            dcterms:description "A.S. v. Bulgaria (dec.), no 78390/11, 25 June 2013"^^xsd:string ;
+            dcterms:title "A.S. v. Bulgaria (dec.)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "78421/11"^^xsd:string ;
+            dcterms:date "2013-06-25"^^xsd:date ;
+            dcterms:description "S.M. v. Bulgaria (dec.), no 78421/11, 25 June 2013"^^xsd:string ;
+            dcterms:title "S.M. v. Bulgaria (dec.)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "49669/07"^^xsd:string ;
+            dcterms:date "2012-01-24"^^xsd:date ;
+            dcterms:description "P.M. v. Bulgaria, no 49669/07, §§ 63-67, 24 January 2012"^^xsd:string ;
+            dcterms:title "P.M. v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "71463/01"^^xsd:string ;
+            dcterms:date "2009-04-09"^^xsd:date ;
+            dcterms:description "Šilih v. Slovenia [GC], no 71463/01, § 169, 9 April 2009"^^xsd:string ;
+            dcterms:title "Šilih v. Slovenia [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "34137/03"^^xsd:string ;
+            dcterms:date "2011-01-11"^^xsd:date ;
+            dcterms:description "Georgiev v. Bulgaria (dec.), no 34137/03, 11 January 2011"^^xsd:string ;
+            dcterms:title "Georgiev v. Bulgaria (dec.)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "36760/06"^^xsd:string ;
+            dcterms:description "Stanev v. Bulgaria [GC], no 36760/06, §§ 254-255, ECHR 2012"^^xsd:string ;
+            dcterms:title "Stanev v. Bulgaria [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "24125/06"^^xsd:string ;
+            dcterms:date "2014-01-23"^^xsd:date ;
+            dcterms:description "W. v. Slovenia, no 24125/06, § 76, 23 January 2014"^^xsd:string ;
+            dcterms:title "W. v. Slovenia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "26827/08"^^xsd:string ;
+            dcterms:date "2014-03-11"^^xsd:date ;
+            dcterms:description "Abdu v. Bulgaria, no 26827/08, § 49, 11 March 2014"^^xsd:string ;
+            dcterms:title "Abdu v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "6194/11"^^xsd:string ;
+            dcterms:date "2013-06-18"^^xsd:date ;
+            dcterms:description "Valcheva and Abrashev v. Bulgaria (dec.), nos. 6194/11 and 34887/11, 18 June 2013"^^xsd:string ;
+            dcterms:title "Valcheva and Abrashev v. Bulgaria (dec.)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "44862/04"^^xsd:string ;
+            dcterms:date "2011-01-27"^^xsd:date ;
+            dcterms:description "Dimitrova and Others v. Bulgaria, no 44862/04, §§ 79-82, 27 January 2011"^^xsd:string ;
+            dcterms:title "Dimitrova and Others v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "3832/06"^^xsd:string ;
+            dcterms:date "2012-11-27"^^xsd:date ;
+            dcterms:description "M.N. v. Bulgaria, no 3832/06, 27 November 2012"^^xsd:string ;
+            dcterms:title "M.N. v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "39272/98"^^xsd:string ;
+            dcterms:description "M.C. v. Bulgaria, no 39272/98, ECHR 2003 XII"^^xsd:string ;
+            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "65187/10"^^xsd:string ;
+            dcterms:date "2013-06-18"^^xsd:date ;
+            dcterms:description "Balakchiev v. Bulgaria (dec.), no 65187/10, 18 June 2013"^^xsd:string ;
+            dcterms:title "Balakchiev v. Bulgaria (dec.)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "41488/98"^^xsd:string ;
+            dcterms:description "Velikova v. Bulgaria, no 41488/98, ECHR 2000 VI"^^xsd:string ;
+            dcterms:title "Velikova v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "77938/11"^^xsd:string ;
+            dcterms:date "2014-07-01"^^xsd:date ;
+            dcterms:description "Dimitrov and Others v. Bulgaria, no 77938/11, 1 July 2014"^^xsd:string ;
+            dcterms:title "Dimitrov and Others v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "41717/09"^^xsd:string ;
+            dcterms:date "2014-03-11"^^xsd:date ;
+            dcterms:description "Stoev and Others v. Bulgaria, no 41717/09, § 48, 11 March 2014"^^xsd:string ;
+            dcterms:title "Stoev and Others v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "55523/00"^^xsd:string ;
+            dcterms:date "2007-07-26"^^xsd:date ;
+            dcterms:description "Angelova and Iliev v. Bulgaria, no 55523/00, 26 July 2007"^^xsd:string ;
+            dcterms:title "Angelova and Iliev v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "23893/03"^^xsd:string ;
+            dcterms:date "2012-05-15"^^xsd:date ;
+            dcterms:description "Kaverzin v. Ukraine, no 23893/03, § 181, 15 May 2012"^^xsd:string ;
+            dcterms:title "Kaverzin v. Ukraine"^^xsd:string ],
+        [ ns1:hasApplicationNumber "19506/05"^^xsd:string ;
+            dcterms:date "2011-02-01"^^xsd:date ;
+            dcterms:description "Ebcin v. Turkey, no 19506/05, § 40, 1 February 2011"^^xsd:string ;
+            dcterms:title "Ebcin v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "8981/10"^^xsd:string ;
+            dcterms:date "2013-05-14"^^xsd:date ;
+            dcterms:description "S.L. and Others v. Bulgaria (dec.), no 8981/10, 14 May 2013"^^xsd:string ;
+            dcterms:title "S.L. and Others v. Bulgaria (dec.)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "40116/02"^^xsd:string ;
+            dcterms:date "2007-05-31"^^xsd:date ;
+            dcterms:description "Šečić v. Croatia, no 40116/02, § 53, 31 May 2007"^^xsd:string ;
+            dcterms:title "Šečić v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "72663/01"^^xsd:string ;
+            dcterms:date "2007-09-27"^^xsd:date ;
+            dcterms:description "Nikolay Dimitrov v. Bulgaria, no 72663/01, § 76, 27 September 2007"^^xsd:string ;
+            dcterms:title "Nikolay Dimitrov v. Bulgaria"^^xsd:string ],
         [ dcterms:date "1998-09-23"^^xsd:date ;
             dcterms:description "A. v. the United Kingdom, 23 September 1998, § 22, Reports of Judgments and Decisions, 1998-VI"^^xsd:string ;
             dcterms:title "A. v. the United Kingdom"^^xsd:string ],
-        [ dcterms:date "2007-07-26"^^xsd:date ;
-            dcterms:description "Angelova and Iliev v. Bulgaria, no 55523/00, 26 July 2007"^^xsd:string ;
-            dcterms:identifier "55523/00"^^xsd:string ;
-            dcterms:title "Angelova and Iliev v. Bulgaria"^^xsd:string ],
-        [ dcterms:date "2014-07-01"^^xsd:date ;
-            dcterms:description "Dimitrov and Others v. Bulgaria, no 77938/11, 1 July 2014"^^xsd:string ;
-            dcterms:identifier "77938/11"^^xsd:string ;
-            dcterms:title "Dimitrov and Others v. Bulgaria"^^xsd:string ],
-        [ dcterms:date "2014-03-11"^^xsd:date ;
-            dcterms:description "Stoev and Others v. Bulgaria, no 41717/09, § 48, 11 March 2014"^^xsd:string ;
-            dcterms:identifier "41717/09"^^xsd:string ;
-            dcterms:title "Stoev and Others v. Bulgaria"^^xsd:string ],
-        [ dcterms:date "2012-11-27"^^xsd:date ;
-            dcterms:description "M.N. v. Bulgaria, no 3832/06, 27 November 2012"^^xsd:string ;
-            dcterms:identifier "3832/06"^^xsd:string ;
-            dcterms:title "M.N. v. Bulgaria"^^xsd:string ],
-        [ dcterms:date "2013-06-18"^^xsd:date ;
-            dcterms:description "Balakchiev v. Bulgaria (dec.), no 65187/10, 18 June 2013"^^xsd:string ;
-            dcterms:identifier "65187/10"^^xsd:string ;
-            dcterms:title "Balakchiev v. Bulgaria (dec.)"^^xsd:string ],
-        [ dcterms:date "2011-01-27"^^xsd:date ;
-            dcterms:description "Dimitrova and Others v. Bulgaria, no 44862/04, §§ 79-82, 27 January 2011"^^xsd:string ;
-            dcterms:identifier "44862/04"^^xsd:string ;
-            dcterms:title "Dimitrova and Others v. Bulgaria"^^xsd:string ],
-        [ dcterms:date "2007-05-31"^^xsd:date ;
-            dcterms:description "Šečić v. Croatia, no 40116/02, § 53, 31 May 2007"^^xsd:string ;
-            dcterms:identifier "40116/02"^^xsd:string ;
-            dcterms:title "Šečić v. Croatia"^^xsd:string ],
-        [ dcterms:description "M.C. v. Bulgaria, no 39272/98, ECHR 2003 XII"^^xsd:string ;
-            dcterms:identifier "39272/98"^^xsd:string ;
-            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
-        [ dcterms:date "2013-06-25"^^xsd:date ;
-            dcterms:description "S.M. v. Bulgaria (dec.), no 78421/11, 25 June 2013"^^xsd:string ;
-            dcterms:identifier "78421/11"^^xsd:string ;
-            dcterms:title "S.M. v. Bulgaria (dec.)"^^xsd:string ],
-        [ dcterms:date "2009-04-09"^^xsd:date ;
-            dcterms:description "Šilih v. Slovenia [GC], no 71463/01, § 169, 9 April 2009"^^xsd:string ;
-            dcterms:identifier "71463/01"^^xsd:string ;
-            dcterms:title "Šilih v. Slovenia [GC]"^^xsd:string ],
-        [ dcterms:date "2012-05-15"^^xsd:date ;
-            dcterms:description "Kaverzin v. Ukraine, no 23893/03, § 181, 15 May 2012"^^xsd:string ;
-            dcterms:identifier "23893/03"^^xsd:string ;
-            dcterms:title "Kaverzin v. Ukraine"^^xsd:string ],
-        [ dcterms:date "2014-01-23"^^xsd:date ;
-            dcterms:description "W. v. Slovenia, no 24125/06, § 76, 23 January 2014"^^xsd:string ;
-            dcterms:identifier "24125/06"^^xsd:string ;
-            dcterms:title "W. v. Slovenia"^^xsd:string ],
-        [ dcterms:date "2007-09-27"^^xsd:date ;
-            dcterms:description "Nikolay Dimitrov v. Bulgaria, no 72663/01, § 76, 27 September 2007"^^xsd:string ;
-            dcterms:identifier "72663/01"^^xsd:string ;
-            dcterms:title "Nikolay Dimitrov v. Bulgaria"^^xsd:string ],
-        [ dcterms:date "2013-06-18"^^xsd:date ;
-            dcterms:description "Valcheva and Abrashev v. Bulgaria (dec.), nos. 6194/11 and 34887/11, 18 June 2013"^^xsd:string ;
-            dcterms:identifier "6194/11"^^xsd:string ;
-            dcterms:title "Valcheva and Abrashev v. Bulgaria (dec.)"^^xsd:string ],
-        [ dcterms:date "2013-05-14"^^xsd:date ;
-            dcterms:description "S.L. and Others v. Bulgaria (dec.), no 8981/10, 14 May 2013"^^xsd:string ;
-            dcterms:identifier "8981/10"^^xsd:string ;
-            dcterms:title "S.L. and Others v. Bulgaria (dec.)"^^xsd:string ],
-        [ dcterms:description "Stanev v. Bulgaria [GC], no 36760/06, §§ 254-255, ECHR 2012"^^xsd:string ;
-            dcterms:identifier "36760/06"^^xsd:string ;
-            dcterms:title "Stanev v. Bulgaria [GC]"^^xsd:string ],
-        [ dcterms:date "2011-01-11"^^xsd:date ;
-            dcterms:description "Georgiev v. Bulgaria (dec.), no 34137/03, 11 January 2011"^^xsd:string ;
-            dcterms:identifier "34137/03"^^xsd:string ;
-            dcterms:title "Georgiev v. Bulgaria (dec.)"^^xsd:string ] ;
+        [ ns1:hasApplicationNumber "11818/02"^^xsd:string ;
+            dcterms:date "2009-03-24"^^xsd:date ;
+            dcterms:description "Mojsiejew v. Poland, no 11818/02, 24 March 2009"^^xsd:string ;
+            dcterms:title "Mojsiejew v. Poland"^^xsd:string ] ;
     dcterms:title "CASE OF S.Z. v. BULGARIA"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 

@@ -3,7 +3,8 @@
 @prefix ns1: <http://eva.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] ns1:importanceLevel 2 ;
+[] ns1:hasApplicationNumber "8227/04"^^xsd:string ;
+    ns1:importanceLevel 2 ;
     ns1:respondentState <http://www.wikidata.org/entity/Q214> ;
     dcterms:accessRights "public"^^xsd:string ;
     dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
@@ -25,29 +26,29 @@
         "Remainder inadmissible"^^xsd:string,
         "Violation of Art. 3"^^xsd:string,
         "Violation of Art. 8"^^xsd:string ;
-    dcterms:identifier "8227/04"^^xsd:string ;
+    dcterms:identifier "https://hudoc.echr.coe.int/eng#{\"itemid\":[\"001-93955\"]}"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2009:0915JUD000822704"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ dcterms:description "Article 19 of the Convention on the Rights of the Child"^^xsd:string ],
-        [ dcterms:description "Paul and Audrey Edwards v. the United Kingdom, no. 46477/99, § 97, ECHR 2002-II"^^xsd:string ;
-            dcterms:identifier "46477/99"^^xsd:string ;
-            dcterms:title "Paul and Audrey Edwards v. the United Kingdom"^^xsd:string ],
-        [ dcterms:description "T.P. and K.M. v. the United Kingdom [GC], no. 28945/95, § 107, ECHR 2001-V"^^xsd:string ;
-            dcterms:identifier "28945/95"^^xsd:string ;
-            dcterms:title "T.P. and K.M. v. the United Kingdom [GC]"^^xsd:string ],
-        [ dcterms:description "Z and Others v. the United Kingdom [GC], no. 29392/95, § 109, ECHR 2001-V"^^xsd:string ;
-            dcterms:identifier "29392/95"^^xsd:string ;
-            dcterms:title "Z and Others v. the United Kingdom [GC]"^^xsd:string ],
-        [ dcterms:description "Öneryildiz v. Turkey [GC], no. 48939/99, § 147, ECHR 2004-XII"^^xsd:string ;
-            dcterms:identifier "48939/99"^^xsd:string ;
-            dcterms:title "Öneryildiz v. Turkey [GC]"^^xsd:string ],
-        [ dcterms:description "Articles 16 § 2 and 21 §§ 2 and 3 of the Constitution"^^xsd:string ],
-        [ dcterms:date "1996-09-16"^^xsd:date ;
+    dcterms:references [ dcterms:date "1996-09-16"^^xsd:date ;
             dcterms:description "Akdivar and Others v. Turkey, 16 September 1996, § 68, Reports 1996-IV"^^xsd:string ;
             dcterms:title "Akdivar and Others v. Turkey"^^xsd:string ],
-        [ dcterms:description "Keenan v. the United Kingdom, no. 27229/95, § 130, ECHR 2001-III"^^xsd:string ;
-            dcterms:identifier "27229/95"^^xsd:string ;
+        [ dcterms:description "Articles 16 § 2 and 21 §§ 2 and 3 of the Constitution"^^xsd:string ],
+        [ ns1:hasApplicationNumber "48939/99"^^xsd:string ;
+            dcterms:description "Öneryildiz v. Turkey [GC], no. 48939/99, § 147, ECHR 2004-XII"^^xsd:string ;
+            dcterms:title "Öneryildiz v. Turkey [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "28945/95"^^xsd:string ;
+            dcterms:description "T.P. and K.M. v. the United Kingdom [GC], no. 28945/95, § 107, ECHR 2001-V"^^xsd:string ;
+            dcterms:title "T.P. and K.M. v. the United Kingdom [GC]"^^xsd:string ],
+        [ dcterms:description "Article 19 of the Convention on the Rights of the Child"^^xsd:string ],
+        [ ns1:hasApplicationNumber "46477/99"^^xsd:string ;
+            dcterms:description "Paul and Audrey Edwards v. the United Kingdom, no. 46477/99, § 97, ECHR 2002-II"^^xsd:string ;
+            dcterms:title "Paul and Audrey Edwards v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "29392/95"^^xsd:string ;
+            dcterms:description "Z and Others v. the United Kingdom [GC], no. 29392/95, § 109, ECHR 2001-V"^^xsd:string ;
+            dcterms:title "Z and Others v. the United Kingdom [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "27229/95"^^xsd:string ;
+            dcterms:description "Keenan v. the United Kingdom, no. 27229/95, § 130, ECHR 2001-III"^^xsd:string ;
             dcterms:title "Keenan v. the United Kingdom"^^xsd:string ] ;
     dcterms:title "CASE OF E.S. AND OTHERS v. SLOVAKIA"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .

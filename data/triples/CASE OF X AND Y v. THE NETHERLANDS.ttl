@@ -2,7 +2,8 @@
 @prefix ns1: <http://eva.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] ns1:importanceLevel 1 ;
+[] ns1:hasApplicationNumber "8978/80"^^xsd:string ;
+    ns1:importanceLevel 1 ;
     ns1:respondentState <http://www.wikidata.org/entity/Q29999> ;
     dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
@@ -22,21 +23,21 @@
         "(Art. 8-1) Respect for private life"^^xsd:string,
         "Non-pecuniary damage - financial award"^^xsd:string,
         "Violation of Art. 8"^^xsd:string ;
-    dcterms:identifier "8978/80"^^xsd:string ;
+    dcterms:identifier "https://hudoc.echr.coe.int/eng#{\"itemid\":[\"001-57603\"]}"^^xsd:string ;
     dcterms:isPartOf "A91"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:1985:0326JUD000897880"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
     dcterms:references [ dcterms:description "Criminal Code, Articles 64 para. 1, 239 para. 2, 248 ter"^^xsd:string ],
-        [ dcterms:description "Code of Criminal Procedure, Article 12"^^xsd:string ],
         [ dcterms:description "Civil Code, Articles 1401, 1407"^^xsd:string ],
-        [ dcterms:description "Criminal Code, Articles 64 para. 1, 239 para. 2, 248 ter"^^xsd:string ],
+        [ dcterms:description "Code of Criminal Procedure, Article 12"^^xsd:string ],
+        [ dcterms:date "1979-10-09"^^xsd:date ;
+            dcterms:description "Airey judgment of 9 October 1979, Series A no. 32, pp. 17, 16, paras. 32, 30"^^xsd:string ;
+            dcterms:title "Airey judgment of 9 October 1979"^^xsd:string ],
         [ dcterms:date "1976-12-07"^^xsd:date ;
             dcterms:description "Handyside judgment of 7 December 1976, Series A no. 24, p. 23, para. 50"^^xsd:string ;
             dcterms:title "Handyside judgment of 7 December 1976"^^xsd:string ],
-        [ dcterms:date "1979-10-09"^^xsd:date ;
-            dcterms:description "Airey judgment of 9 October 1979, Series A no. 32, pp. 17, 16, paras. 32, 30"^^xsd:string ;
-            dcterms:title "Airey judgment of 9 October 1979"^^xsd:string ] ;
+        [ dcterms:description "Criminal Code, Articles 64 para. 1, 239 para. 2, 248 ter"^^xsd:string ] ;
     dcterms:title "CASE OF X AND Y v. THE NETHERLANDS"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 
