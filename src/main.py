@@ -1,44 +1,9 @@
 import os
 from ECHRDocument import ECHRDocument
 import rdflib
-import requests
-import urllib.parse
-from pyvis.network import Network
-
-
-def pyvis_net_options(n: Network):
-    n.toggle_physics(False)
-    n.show_buttons()
-    # necessario prima configure, seguito da opzioni
-    options = '''
-        var options = {
-            "configure": {
-                "enabled": true,
-                "filter": ["physics"]
-            },
-            "physics": {
-                    "barnesHut": {
-                    "gravitationalConstant": -30000,
-                    "avoidOverlap": 1
-                    }
-            }
-        }
-    '''
-    n.set_options(options)
-
-
-def triples_to_pyvis(triples: list, n: Network):
-    for triple in triples:
-        s = triple["subject"]
-        p = triple["predicate"]
-        o = triple["object"]
-        if s not in n.get_nodes():
-            n.add_node(s, label=s)
-        if o not in n.get_nodes():
-            n.add_node(o, label=o)
-        if p not in n.get_edges():
-            n.add_edge(s, o, label=p)
-
+from http_requests import rdf_grapher_request
+from pyvis_utils import graph_to_pyvis_net
+from neo4j_utils import graph_to_neo4j
 
 if __name__ == "__main__":
     html_path = "../data/corpus_html"
@@ -66,38 +31,40 @@ if __name__ == "__main__":
                         echr_document.body_to_txt(body_path)
                         echr_document.save_triples(triple_path)
                     corpus.append(echr_document)
-
-            """net = Network()
-            pyvis_net_options(net)
-            for doc in corpus:
-                triples_to_pyvis(doc.get_triples(), net)
-            kg_name = os.path.abspath("../KG_test.html")
-            print("Visualizzare knowledge graph? (y/n)")
-            if input() == "y":
-                print("Salvato in")
-                net.show(kg_name, notebook=False)
-            else:
-                print("Salvato in\n" + kg_name)
-                net.save_graph(kg_name)"""
         elif choice == "2":
-            complete_graph = rdflib.Graph()
-            print("Caricamento grafo...")
-            for file in os.listdir(triple_path):
-                g = rdflib.Graph()
-                g.parse(triple_path + "/" + file, format="turtle")
-                complete_graph += g
-            complete_graph.serialize("../" + "KG.ttl", format="turtle")
-            print("Grafo salvato come KG.ttl")
-            print("Generazione immagine...")
-            g_encoded = urllib.parse.quote(complete_graph.serialize(format="turtle"))
-            url = "https://www.ldf.fi/service/rdf-grapher"
-            in_format = "ttl"
-            out_format = "svg"
-            response = requests.post(url, data=f"rdf={g_encoded}&from={in_format}&to={out_format}")
-            if response.status_code == 200:
-                img = response.content
-                with open(f"../KG.{out_format}", "wb") as f:
-                    f.write(img)
-                print("Immagine salvata come KG.svg")
+            while True:
+                print("\033[92m")
+                choice = input("1. RDF GRAPHER\n2. PYVIS\n3. NEO4J\n4. Indietro\n> ")
+                print("\033[0m")
+                if choice == "4":
+                    break
+                complete_graph = rdflib.Graph()
+                print("Caricamento grafo...")
+                for file in os.listdir(triple_path):
+                    g = rdflib.Graph()
+                    g.parse(triple_path + "/" + file, format="turtle")
+                    complete_graph += g
+                file_path = "../"
+                file_name = "KG"
+                save = input("Salvare il grafo in formato turtle? (y/n) ")
+                if save == "y":
+                    complete_graph.serialize(file_path + file_name + ".ttl", format="turtle")
+                    print(f"Grafo salvato in {os.path.abspath(file_path)}\\{file_name}.ttl")
+                print("Generazione immagine...")
+                if choice == "1":
+                    out_format = "svg"
+                    status = rdf_grapher_request(complete_graph, file_path, file_name, "ttl", out_format)
+                    if status == 200:
+                        print(f"Immagine salvata in {os.path.abspath(file_path)}\\{file_name}.{out_format}")
+                    os.startfile(os.path.abspath(file_path) + "/" + file_name + "." + out_format)
+                elif choice == "2":
+                    graph_to_pyvis_net(complete_graph, file_path, file_name, display=True)
+                    print(f"Immagine salvata in {os.path.abspath(file_path)}\\{file_name}.html")
+                elif choice == "3":
+                    try:
+                        graph_to_neo4j(complete_graph, "neo4j://localhost:7687", "neo4j")
+                        print("Esegui la query MATCH (n) OPTIONAL MATCH (n)-[r]->(m) RETURN * su Neo4j Browser")
+                    except:
+                        print("\033[91mAssicurarsi che il server neo4j sia attivo\033[0m")
         elif choice == "3":
             break

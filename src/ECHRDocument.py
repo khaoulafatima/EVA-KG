@@ -375,7 +375,10 @@ class ECHRDocument:
             return
         pass
 
-    def get_triples(self) -> Graph:
+    def get_triples(self) -> str:
+        return self._graph.serialize()
+
+    def get_graph(self) -> Graph:
         return self._graph
 
     def save_triples(self, path: str):
@@ -397,7 +400,6 @@ if __name__ == "__main__":
     html = "../data/corpus_html"
     pdf = "../data/corpus_pdf"
     name = "CASE OF A. v. CROATIA"
-    # name = "CASE OF J.D. AND A v. THE UNITED KINGDOM"
     json_path = "../data/case_detail_json"
     body_path = "../data/document_body"
     echr_document = ECHRDocument(html_path=html, pdf_path=pdf, file_name=name)
@@ -419,4 +421,4 @@ if __name__ == "__main__":
         print(t)
     print("TRIPLES____________________________________________________________________________________________________")
     echr_document.extract_triples_from_case_detail()
-    print(echr_document.get_triples().serialize())
+    print(echr_document.get_triples())

@@ -26,12 +26,24 @@
     dcterms:references [ dcterms:description "Blecic v. Croatia [GC], no. 59532/00, §§ 63 et seq., ECHR 2006-III"^^xsd:string ;
             dcterms:identifier "59532/00"^^xsd:string ;
             dcterms:title "Blecic v. Croatia [GC]"^^xsd:string ],
-        [ dcterms:description "M.C. v. Bulgaria, no. 39272/98, ECHR 2003-XII"^^xsd:string ;
-            dcterms:identifier "39272/98"^^xsd:string ;
-            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
+        [ dcterms:date "2010-11-25"^^xsd:date ;
+            dcterms:description "Lyubov Efimenko v. Ukraine, no. 75726/01, § 63, 25 November 2010"^^xsd:string ;
+            dcterms:identifier "75726/01"^^xsd:string ;
+            dcterms:title "Lyubov Efimenko v. Ukraine"^^xsd:string ],
         [ dcterms:description "Perez v. France [GC], no. 47287/99, § 70, ECHR 2004-I"^^xsd:string ;
             dcterms:identifier "47287/99"^^xsd:string ;
             dcterms:title "Perez v. France [GC]"^^xsd:string ],
+        [ dcterms:date "2001-10-18"^^xsd:date ;
+            dcterms:description "Indelicato v. Italy, no. 31143/96, § 37, 18 October 2001"^^xsd:string ;
+            dcterms:identifier "31143/96"^^xsd:string ;
+            dcterms:title "Indelicato v. Italy"^^xsd:string ],
+        [ dcterms:description "M.C. v. Bulgaria, no. 39272/98, ECHR 2003-XII"^^xsd:string ;
+            dcterms:identifier "39272/98"^^xsd:string ;
+            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
+        [ dcterms:date "2009-12-17"^^xsd:date ;
+            dcterms:description "Denis Vasilyev v. Russia, no. 32704/04, § 100, 17 December 2009"^^xsd:string ;
+            dcterms:identifier "32704/04"^^xsd:string ;
+            dcterms:title "Denis Vasilyev v. Russia"^^xsd:string ],
         [ dcterms:date "2011-05-17"^^xsd:date ;
             dcterms:description "Frandes v. Romania (dec.) no. 35802/05, 17 May 2011"^^xsd:string ;
             dcterms:identifier "35802/05"^^xsd:string ;
@@ -40,18 +52,10 @@
             dcterms:description "Tuna v. Turkey, no. 22339/03, § 58, 19 January 2010"^^xsd:string ;
             dcterms:identifier "22339/03"^^xsd:string ;
             dcterms:title "Tuna v. Turkey"^^xsd:string ],
-        [ dcterms:date "2010-11-02"^^xsd:date ;
-            dcterms:description "Matasaru and Savitchi v. Moldova, no. 38281/08, §§ 88 and 93, 2 November 2010"^^xsd:string ;
-            dcterms:identifier "38281/08"^^xsd:string ;
-            dcterms:title "Matasaru and Savitchi v. Moldova"^^xsd:string ],
-        [ dcterms:date "2001-10-18"^^xsd:date ;
-            dcterms:description "Indelicato v. Italy, no. 31143/96, § 37, 18 October 2001"^^xsd:string ;
-            dcterms:identifier "31143/96"^^xsd:string ;
-            dcterms:title "Indelicato v. Italy"^^xsd:string ],
-        [ dcterms:date "2007-07-26"^^xsd:date ;
-            dcterms:description "Angelova and Iliev v. Bulgaria, no. 55523/00, §§ 101-103, 26 July 2007"^^xsd:string ;
-            dcterms:identifier "55523/00"^^xsd:string ;
-            dcterms:title "Angelova and Iliev v. Bulgaria"^^xsd:string ],
+        [ dcterms:date "2009-04-09"^^xsd:date ;
+            dcterms:description "Šilih v. Slovenia [GC], no. 71463/01, § 159, 9 April 2009"^^xsd:string ;
+            dcterms:identifier "71463/01"^^xsd:string ;
+            dcterms:title "Šilih v. Slovenia [GC]"^^xsd:string ],
         [ dcterms:description "Labita v. Italy [GC], no. 26772/95, §§ 133 et seq., ECHR 2000-IV"^^xsd:string ;
             dcterms:identifier "26772/95"^^xsd:string ;
             dcterms:title "Labita v. Italy [GC]"^^xsd:string ],
@@ -59,18 +63,14 @@
             dcterms:description "Stanimirovic v. Serbia (no. 26088/06, § 28, 18 October 2011"^^xsd:string ;
             dcterms:identifier "26088/06"^^xsd:string ;
             dcterms:title "Stanimirovic v. Serbia (no. 26088/06"^^xsd:string ],
-        [ dcterms:date "2010-11-25"^^xsd:date ;
-            dcterms:description "Lyubov Efimenko v. Ukraine, no. 75726/01, § 63, 25 November 2010"^^xsd:string ;
-            dcterms:identifier "75726/01"^^xsd:string ;
-            dcterms:title "Lyubov Efimenko v. Ukraine"^^xsd:string ],
-        [ dcterms:date "2009-12-17"^^xsd:date ;
-            dcterms:description "Denis Vasilyev v. Russia, no. 32704/04, § 100, 17 December 2009"^^xsd:string ;
-            dcterms:identifier "32704/04"^^xsd:string ;
-            dcterms:title "Denis Vasilyev v. Russia"^^xsd:string ],
-        [ dcterms:date "2009-04-09"^^xsd:date ;
-            dcterms:description "Šilih v. Slovenia [GC], no. 71463/01, § 159, 9 April 2009"^^xsd:string ;
-            dcterms:identifier "71463/01"^^xsd:string ;
-            dcterms:title "Šilih v. Slovenia [GC]"^^xsd:string ] ;
+        [ dcterms:date "2007-07-26"^^xsd:date ;
+            dcterms:description "Angelova and Iliev v. Bulgaria, no. 55523/00, §§ 101-103, 26 July 2007"^^xsd:string ;
+            dcterms:identifier "55523/00"^^xsd:string ;
+            dcterms:title "Angelova and Iliev v. Bulgaria"^^xsd:string ],
+        [ dcterms:date "2010-11-02"^^xsd:date ;
+            dcterms:description "Matasaru and Savitchi v. Moldova, no. 38281/08, §§ 88 and 93, 2 November 2010"^^xsd:string ;
+            dcterms:identifier "38281/08"^^xsd:string ;
+            dcterms:title "Matasaru and Savitchi v. Moldova"^^xsd:string ] ;
     dcterms:title "CASE OF P.M. v. BULGARIA"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 

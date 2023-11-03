@@ -41,108 +41,10 @@
     dcterms:isVersionOf "ECLI:CE:ECHR:2021:0831JUD004551211"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ dcterms:date "2020-10-08"^^xsd:date ;
-            dcterms:description "Bajčić v. Croatia, no. 67334/13, 8 October 2020"^^xsd:string ;
-            dcterms:identifier "67334/13"^^xsd:string ;
-            dcterms:title "Bajčić v. Croatia"^^xsd:string ],
-        [ dcterms:date "2017-05-23"^^xsd:date ;
-            dcterms:description "Bălşan v. Romania, no. 49645/09, §§ 71 and 87, 23 May 2017"^^xsd:string ;
-            dcterms:identifier "49645/09"^^xsd:string ;
-            dcterms:title "Bălşan v. Romania"^^xsd:string ],
-        [ dcterms:date "2012-07-24"^^xsd:date ;
-            dcterms:description "D.M.T. and D.K.I. v. Bulgaria, no. 29476/06, § 81, 24 July 2012"^^xsd:string ;
-            dcterms:identifier "29476/06"^^xsd:string ;
-            dcterms:title "D.M.T. and D.K.I. v. Bulgaria"^^xsd:string ],
-        [ dcterms:date "2017-11-21"^^xsd:date ;
-            dcterms:description "Lambin v. Russia, no. 12668/08, 21 November 2017"^^xsd:string ;
-            dcterms:identifier "12668/08"^^xsd:string ;
-            dcterms:title "Lambin v. Russia"^^xsd:string ],
-        [ dcterms:date "2013-05-16"^^xsd:date ;
-            dcterms:description "Chorniy v. Ukraine, no. 35227/06, 16 May 2013"^^xsd:string ;
-            dcterms:identifier "35227/06"^^xsd:string ;
-            dcterms:title "Chorniy v. Ukraine"^^xsd:string ],
-        [ dcterms:date "2012-07-10"^^xsd:date ;
-            dcterms:description "Gregačević v. Croatia, no. 58331/09, 10 July 2012"^^xsd:string ;
-            dcterms:identifier "58331/09"^^xsd:string ;
-            dcterms:title "Gregačević v. Croatia"^^xsd:string ],
-        [ dcterms:date "2005-01-20"^^xsd:date ;
-            dcterms:description "Mayzit v. Russia, no. 63378/00, § 78, 20 January 2005"^^xsd:string ;
-            dcterms:identifier "63378/00"^^xsd:string ;
-            dcterms:title "Mayzit v. Russia"^^xsd:string ],
-        [ dcterms:date "2014-12-04"^^xsd:date ;
-            dcterms:description "Lonić v. Croatia, no. 8067/12, §§ 94-102, 4 December 2014"^^xsd:string ;
-            dcterms:identifier "8067/12"^^xsd:string ;
-            dcterms:title "Lonić v. Croatia"^^xsd:string ],
-        [ dcterms:date "2019-07-09"^^xsd:date ;
-            dcterms:description "Volodina v. Russia, no. 41261/17, § 71, 9 July 2019"^^xsd:string ;
-            dcterms:identifier "41261/17"^^xsd:string ;
-            dcterms:title "Volodina v. Russia"^^xsd:string ],
-        [ dcterms:date "2015-04-30"^^xsd:date ;
-            dcterms:description "Kapetanios and Others v. Greece, nos. 3453/12 and 2 others, 30 April 2015"^^xsd:string ;
-            dcterms:identifier "3453/12"^^xsd:string ;
-            dcterms:title "Kapetanios and Others v. Greece"^^xsd:string ],
-        [ dcterms:date "2017-07-11"^^xsd:date ;
-            dcterms:description "Ž.B. v. Croatia, no. 47666/13, §§ 47 and 49, 11 July 2017"^^xsd:string ;
-            dcterms:identifier "47666/13"^^xsd:string ;
-            dcterms:title "Ž.B. v. Croatia"^^xsd:string ],
-        [ dcterms:description "Rohlena v. the Czech Republic, [GC], no. 59552/08, ECHR 2015"^^xsd:string ;
-            dcterms:identifier "59552/08"^^xsd:string ;
-            dcterms:title "Rohlena v. the Czech Republic"^^xsd:string ],
-        [ dcterms:date "2014-07-10"^^xsd:date ;
-            dcterms:description "Marčan v. Croatia, no. 40820/12, § 33, 10 July 2014"^^xsd:string ;
-            dcterms:identifier "40820/12"^^xsd:string ;
-            dcterms:title "Marčan v. Croatia"^^xsd:string ],
-        [ dcterms:description "Articles 18 § 1 and 45 § 1 of the Council of Europe Convention on Preventing and Combating Violence against Women and Domestic Violence (“Istanbul Convention”)"^^xsd:string ],
-        [ dcterms:date "2008-10-09"^^xsd:date ;
-            dcterms:description "Moiseyev v. Russia, no. 62936/00, § 220, 9 October 2008"^^xsd:string ;
-            dcterms:identifier "62936/00"^^xsd:string ;
-            dcterms:title "Moiseyev v. Russia"^^xsd:string ],
-        [ dcterms:date "2016-09-13"^^xsd:date ;
-            dcterms:description "Ibrahim and Others v. the United Kingdom [GC], nos. 50541/08 and 3 others, § 250, 13 September 2016"^^xsd:string ;
-            dcterms:identifier "50541/08"^^xsd:string ;
-            dcterms:title "Ibrahim and Others v. the United Kingdom [GC]"^^xsd:string ],
-        [ dcterms:description "Czekalla v. Portugal, no. 38830/97, § 60, ECHR 2002-VIII"^^xsd:string ;
-            dcterms:identifier "38830/97"^^xsd:string ;
-            dcterms:title "Czekalla v. Portugal"^^xsd:string ],
-        [ dcterms:description "Salduz v. Turkey [GC], no. 36391/02, § 51, ECHR 2008"^^xsd:string ;
-            dcterms:identifier "36391/02"^^xsd:string ;
-            dcterms:title "Salduz v. Turkey [GC]"^^xsd:string ],
-        [ dcterms:description "Sergey Zolotukhin v. Russia [GC], no. 14939/03, ECHR 2009"^^xsd:string ;
-            dcterms:identifier "14939/03"^^xsd:string ;
-            dcterms:title "Sergey Zolotukhin v. Russia [GC]"^^xsd:string ],
-        [ dcterms:date "2017-05-18"^^xsd:date ;
-            dcterms:description "Johannesson and Others v. Iceland, no. 22007/11, § 54, 18 May 2017"^^xsd:string ;
-            dcterms:identifier "22007/11"^^xsd:string ;
-            dcterms:title "Johannesson and Others v. Iceland"^^xsd:string ],
-        [ dcterms:date "2016-10-25"^^xsd:date ;
-            dcterms:description "Arps v. Croatia, no. 23444/12, §§ 24-29, 25 October 2016"^^xsd:string ;
-            dcterms:identifier "23444/12"^^xsd:string ;
-            dcterms:title "Arps v. Croatia"^^xsd:string ],
-        [ dcterms:date "2017-05-12"^^xsd:date ;
-            dcterms:description "Simeonovi v. Bulgaria [GC], no. 21980/04, § 112, 12 May 2017 (extracts)"^^xsd:string ;
-            dcterms:identifier "21980/04"^^xsd:string ;
-            dcterms:title "Simeonovi v. Bulgaria [GC]"^^xsd:string ],
-        [ dcterms:date "2021-06-15"^^xsd:date ;
-            dcterms:description "Kurt v. Austria [GC], no. 62903/15, § 164, 15 June 2021"^^xsd:string ;
-            dcterms:identifier "62903/15"^^xsd:string ;
-            dcterms:title "Kurt v. Austria [GC]"^^xsd:string ],
-        [ dcterms:description "Sections 4 and 18 of the Protection Against Domestic Violence Act"^^xsd:string ],
-        [ dcterms:date "2013-03-26"^^xsd:date ;
-            dcterms:description "Valiulienė v. Lithuania, no. 33234/07, § 68, 26 March 2013"^^xsd:string ;
-            dcterms:identifier "33234/07"^^xsd:string ;
-            dcterms:title "Valiulienė v. Lithuania"^^xsd:string ],
-        [ dcterms:date "2014-05-20"^^xsd:date ;
-            dcterms:description "Glantz v. Finland, no. 37394/11, § 61, 20 May 2014"^^xsd:string ;
-            dcterms:identifier "37394/11"^^xsd:string ;
-            dcterms:title "Glantz v. Finland"^^xsd:string ],
-        [ dcterms:description "Article 215a of the Criminal Code "^^xsd:string ],
-        [ dcterms:date "1983-02-10"^^xsd:date ;
-            dcterms:description "Albert and Le Compte v. Belgium, 10 February 1983, § 41, Series A no. 58"^^xsd:string ;
-            dcterms:title "Albert and Le Compte v. Belgium"^^xsd:string ],
-        [ dcterms:date "2010-10-14"^^xsd:date ;
-            dcterms:description "A. v. Croatia, no. 55164/08, § 76, 14 October 2010"^^xsd:string ;
-            dcterms:identifier "55164/08"^^xsd:string ;
-            dcterms:title "A. v. Croatia"^^xsd:string ],
+    dcterms:references [ dcterms:date "2012-07-03"^^xsd:date ;
+            dcterms:description "Falcão dos Santos v. Portugal, no. 50002/08, § 44, 3 July 2012"^^xsd:string ;
+            dcterms:identifier "50002/08"^^xsd:string ;
+            dcterms:title "Falcão dos Santos v. Portugal"^^xsd:string ],
         [ dcterms:date "2011-06-21"^^xsd:date ;
             dcterms:description "Orlov v. Russia, no. 29652/04, § 108, 21 June 2011"^^xsd:string ;
             dcterms:identifier "29652/04"^^xsd:string ;
@@ -151,25 +53,123 @@
             dcterms:description "Nykänen v. Finland, no. 11828/11, § 51, 20 May 2014"^^xsd:string ;
             dcterms:identifier "11828/11"^^xsd:string ;
             dcterms:title "Nykänen v. Finland"^^xsd:string ],
+        [ dcterms:date "2005-01-20"^^xsd:date ;
+            dcterms:description "Mayzit v. Russia, no. 63378/00, § 78, 20 January 2005"^^xsd:string ;
+            dcterms:identifier "63378/00"^^xsd:string ;
+            dcterms:title "Mayzit v. Russia"^^xsd:string ],
+        [ dcterms:description "Dvorski v. Croatia [GC], no. 25703/11, § 76, ECHR 2015"^^xsd:string ;
+            dcterms:identifier "25703/11"^^xsd:string ;
+            dcterms:title "Dvorski v. Croatia [GC]"^^xsd:string ],
         [ dcterms:date "2019-06-06"^^xsd:date ;
             dcterms:description "Nodet v. France, no. 47342/14, § 48, 6 June 2019"^^xsd:string ;
             dcterms:identifier "47342/14"^^xsd:string ;
             dcterms:title "Nodet v. France"^^xsd:string ],
-        [ dcterms:description "Dvorski v. Croatia [GC], no. 25703/11, § 76, ECHR 2015"^^xsd:string ;
-            dcterms:identifier "25703/11"^^xsd:string ;
-            dcterms:title "Dvorski v. Croatia [GC]"^^xsd:string ],
+        [ dcterms:date "2014-05-20"^^xsd:date ;
+            dcterms:description "Glantz v. Finland, no. 37394/11, § 61, 20 May 2014"^^xsd:string ;
+            dcterms:identifier "37394/11"^^xsd:string ;
+            dcterms:title "Glantz v. Finland"^^xsd:string ],
+        [ dcterms:date "1983-02-10"^^xsd:date ;
+            dcterms:description "Albert and Le Compte v. Belgium, 10 February 1983, § 41, Series A no. 58"^^xsd:string ;
+            dcterms:title "Albert and Le Compte v. Belgium"^^xsd:string ],
+        [ dcterms:description "Articles 18 § 1 and 45 § 1 of the Council of Europe Convention on Preventing and Combating Violence against Women and Domestic Violence (“Istanbul Convention”)"^^xsd:string ],
+        [ dcterms:date "2020-10-08"^^xsd:date ;
+            dcterms:description "Bajčić v. Croatia, no. 67334/13, 8 October 2020"^^xsd:string ;
+            dcterms:identifier "67334/13"^^xsd:string ;
+            dcterms:title "Bajčić v. Croatia"^^xsd:string ],
+        [ dcterms:description "Sections 4 and 18 of the Protection Against Domestic Violence Act"^^xsd:string ],
+        [ dcterms:date "2017-07-11"^^xsd:date ;
+            dcterms:description "Ž.B. v. Croatia, no. 47666/13, §§ 47 and 49, 11 July 2017"^^xsd:string ;
+            dcterms:identifier "47666/13"^^xsd:string ;
+            dcterms:title "Ž.B. v. Croatia"^^xsd:string ],
+        [ dcterms:date "2012-07-24"^^xsd:date ;
+            dcterms:description "D.M.T. and D.K.I. v. Bulgaria, no. 29476/06, § 81, 24 July 2012"^^xsd:string ;
+            dcterms:identifier "29476/06"^^xsd:string ;
+            dcterms:title "D.M.T. and D.K.I. v. Bulgaria"^^xsd:string ],
+        [ dcterms:date "2021-06-15"^^xsd:date ;
+            dcterms:description "Kurt v. Austria [GC], no. 62903/15, § 164, 15 June 2021"^^xsd:string ;
+            dcterms:identifier "62903/15"^^xsd:string ;
+            dcterms:title "Kurt v. Austria [GC]"^^xsd:string ],
+        [ dcterms:date "2010-10-14"^^xsd:date ;
+            dcterms:description "A. v. Croatia, no. 55164/08, § 76, 14 October 2010"^^xsd:string ;
+            dcterms:identifier "55164/08"^^xsd:string ;
+            dcterms:title "A. v. Croatia"^^xsd:string ],
+        [ dcterms:date "2013-05-16"^^xsd:date ;
+            dcterms:description "Chorniy v. Ukraine, no. 35227/06, 16 May 2013"^^xsd:string ;
+            dcterms:identifier "35227/06"^^xsd:string ;
+            dcterms:title "Chorniy v. Ukraine"^^xsd:string ],
+        [ dcterms:date "2008-10-09"^^xsd:date ;
+            dcterms:description "Moiseyev v. Russia, no. 62936/00, § 220, 9 October 2008"^^xsd:string ;
+            dcterms:identifier "62936/00"^^xsd:string ;
+            dcterms:title "Moiseyev v. Russia"^^xsd:string ],
+        [ dcterms:date "2014-12-04"^^xsd:date ;
+            dcterms:description "Lonić v. Croatia, no. 8067/12, §§ 94-102, 4 December 2014"^^xsd:string ;
+            dcterms:identifier "8067/12"^^xsd:string ;
+            dcterms:title "Lonić v. Croatia"^^xsd:string ],
+        [ dcterms:date "2019-07-09"^^xsd:date ;
+            dcterms:description "Volodina v. Russia, no. 41261/17, § 71, 9 July 2019"^^xsd:string ;
+            dcterms:identifier "41261/17"^^xsd:string ;
+            dcterms:title "Volodina v. Russia"^^xsd:string ],
+        [ dcterms:date "2017-11-21"^^xsd:date ;
+            dcterms:description "Lambin v. Russia, no. 12668/08, 21 November 2017"^^xsd:string ;
+            dcterms:identifier "12668/08"^^xsd:string ;
+            dcterms:title "Lambin v. Russia"^^xsd:string ],
+        [ dcterms:date "2014-07-10"^^xsd:date ;
+            dcterms:description "Marčan v. Croatia, no. 40820/12, § 33, 10 July 2014"^^xsd:string ;
+            dcterms:identifier "40820/12"^^xsd:string ;
+            dcterms:title "Marčan v. Croatia"^^xsd:string ],
+        [ dcterms:date "2016-10-25"^^xsd:date ;
+            dcterms:description "Arps v. Croatia, no. 23444/12, §§ 24-29, 25 October 2016"^^xsd:string ;
+            dcterms:identifier "23444/12"^^xsd:string ;
+            dcterms:title "Arps v. Croatia"^^xsd:string ],
         [ dcterms:date "2016-11-15"^^xsd:date ;
             dcterms:description "A and B v. Norway [GC], nos. 24130/11 and 29758/11, 15 November 2016"^^xsd:string ;
             dcterms:identifier "24130/11"^^xsd:string ;
             dcterms:title "A and B v. Norway [GC]"^^xsd:string ],
+        [ dcterms:date "2015-04-30"^^xsd:date ;
+            dcterms:description "Kapetanios and Others v. Greece, nos. 3453/12 and 2 others, 30 April 2015"^^xsd:string ;
+            dcterms:identifier "3453/12"^^xsd:string ;
+            dcterms:title "Kapetanios and Others v. Greece"^^xsd:string ],
+        [ dcterms:description "Czekalla v. Portugal, no. 38830/97, § 60, ECHR 2002-VIII"^^xsd:string ;
+            dcterms:identifier "38830/97"^^xsd:string ;
+            dcterms:title "Czekalla v. Portugal"^^xsd:string ],
+        [ dcterms:description "Salduz v. Turkey [GC], no. 36391/02, § 51, ECHR 2008"^^xsd:string ;
+            dcterms:identifier "36391/02"^^xsd:string ;
+            dcterms:title "Salduz v. Turkey [GC]"^^xsd:string ],
+        [ dcterms:date "2017-05-23"^^xsd:date ;
+            dcterms:description "Bălşan v. Romania, no. 49645/09, §§ 71 and 87, 23 May 2017"^^xsd:string ;
+            dcterms:identifier "49645/09"^^xsd:string ;
+            dcterms:title "Bălşan v. Romania"^^xsd:string ],
+        [ dcterms:date "2017-05-12"^^xsd:date ;
+            dcterms:description "Simeonovi v. Bulgaria [GC], no. 21980/04, § 112, 12 May 2017 (extracts)"^^xsd:string ;
+            dcterms:identifier "21980/04"^^xsd:string ;
+            dcterms:title "Simeonovi v. Bulgaria [GC]"^^xsd:string ],
+        [ dcterms:description "Article 215a of the Criminal Code "^^xsd:string ],
+        [ dcterms:description "Rohlena v. the Czech Republic, [GC], no. 59552/08, ECHR 2015"^^xsd:string ;
+            dcterms:identifier "59552/08"^^xsd:string ;
+            dcterms:title "Rohlena v. the Czech Republic"^^xsd:string ],
+        [ dcterms:date "2012-07-10"^^xsd:date ;
+            dcterms:description "Gregačević v. Croatia, no. 58331/09, 10 July 2012"^^xsd:string ;
+            dcterms:identifier "58331/09"^^xsd:string ;
+            dcterms:title "Gregačević v. Croatia"^^xsd:string ],
+        [ dcterms:date "2016-09-13"^^xsd:date ;
+            dcterms:description "Ibrahim and Others v. the United Kingdom [GC], nos. 50541/08 and 3 others, § 250, 13 September 2016"^^xsd:string ;
+            dcterms:identifier "50541/08"^^xsd:string ;
+            dcterms:title "Ibrahim and Others v. the United Kingdom [GC]"^^xsd:string ],
+        [ dcterms:date "2013-03-26"^^xsd:date ;
+            dcterms:description "Valiulienė v. Lithuania, no. 33234/07, § 68, 26 March 2013"^^xsd:string ;
+            dcterms:identifier "33234/07"^^xsd:string ;
+            dcterms:title "Valiulienė v. Lithuania"^^xsd:string ],
+        [ dcterms:description "Sergey Zolotukhin v. Russia [GC], no. 14939/03, ECHR 2009"^^xsd:string ;
+            dcterms:identifier "14939/03"^^xsd:string ;
+            dcterms:title "Sergey Zolotukhin v. Russia [GC]"^^xsd:string ],
+        [ dcterms:date "2017-05-18"^^xsd:date ;
+            dcterms:description "Johannesson and Others v. Iceland, no. 22007/11, § 54, 18 May 2017"^^xsd:string ;
+            dcterms:identifier "22007/11"^^xsd:string ;
+            dcterms:title "Johannesson and Others v. Iceland"^^xsd:string ],
         [ dcterms:date "2013-04-25"^^xsd:date ;
             dcterms:description "Zahirović v. Croatia, no. 58590/11, §§ 58-64, 25 April 2013"^^xsd:string ;
             dcterms:identifier "58590/11"^^xsd:string ;
-            dcterms:title "Zahirović v. Croatia"^^xsd:string ],
-        [ dcterms:date "2012-07-03"^^xsd:date ;
-            dcterms:description "Falcão dos Santos v. Portugal, no. 50002/08, § 44, 3 July 2012"^^xsd:string ;
-            dcterms:identifier "50002/08"^^xsd:string ;
-            dcterms:title "Falcão dos Santos v. Portugal"^^xsd:string ] ;
+            dcterms:title "Zahirović v. Croatia"^^xsd:string ] ;
     dcterms:title "CASE OF GALOVIĆ v. CROATIA"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 

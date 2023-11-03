@@ -39,145 +39,108 @@
     dcterms:isVersionOf "ECLI:CE:ECHR:2014:0128JUD003581009"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ dcterms:description "Z and Others v. the United Kingdom [GC], no. 29392/95, ECHR 2001 V"^^xsd:string ;
-            dcterms:identifier "29392/95"^^xsd:string ;
-            dcterms:title "Z and Others v. the United Kingdom [GC]"^^xsd:string ],
-        [ dcterms:date "2008-12-02"^^xsd:date ;
-            dcterms:description "Juppala v. Finland, no. 18620/03, § 42, 2 December 2008"^^xsd:string ;
-            dcterms:identifier "18620/03"^^xsd:string ;
-            dcterms:title "Juppala v. Finland"^^xsd:string ],
-        [ dcterms:description "Cloyne Report 2011"^^xsd:string ],
-        [ dcterms:description "Dalban v. Romania [GC], no. 28114/95, § 44, ECHR 1999-VI"^^xsd:string ;
-            dcterms:identifier "28114/95"^^xsd:string ;
-            dcterms:title "Dalban v. Romania [GC]"^^xsd:string ],
-        [ dcterms:description "Scordino v. Italy (no. 1) [GC], no. 36813/97, §§ 214-215, ECHR 2006 V"^^xsd:string ;
-            dcterms:identifier "36813/97"^^xsd:string ;
-            dcterms:title "Scordino v. Italy (no. 1) [GC]"^^xsd:string ],
-        [ dcterms:description "A, B and C v. Ireland [GC], no. 25579/05, § 281, ECHR 2010"^^xsd:string ;
-            dcterms:identifier "25579/05"^^xsd:string ;
-            dcterms:title "A"^^xsd:string ],
-        [ dcterms:date "2006-06-27"^^xsd:date ;
-            dcterms:description "D. v. Ireland (dec.), no. 26499/02, § 85, 27 June 2006"^^xsd:string ;
-            dcterms:identifier "26499/02"^^xsd:string ;
-            dcterms:title "D. v. Ireland (dec.)"^^xsd:string ],
-        [ dcterms:date "2012-03-20"^^xsd:date ;
-            dcterms:description "C.A.S. and C.S. v. Romania, no. 26692/05, 20 March 2012"^^xsd:string ;
-            dcterms:identifier "26692/05"^^xsd:string ;
-            dcterms:title "C.A.S. and C.S. v. Romania"^^xsd:string ],
-        [ dcterms:description "Recommendation No. R (79) 17 of the Committee of Ministers on the protection of children against ill-treatment"^^xsd:string ],
-        [ dcterms:date "2013-02-19"^^xsd:date ;
+    dcterms:references [ dcterms:date "2013-02-19"^^xsd:date ;
             dcterms:description "X and Others v. Austria [GC], no. 19010/07, § 163, 19 February 2013"^^xsd:string ;
             dcterms:identifier "19010/07"^^xsd:string ;
             dcterms:title "X and Others v. Austria [GC]"^^xsd:string ],
-        [ dcterms:date "1993-03-25"^^xsd:date ;
-            dcterms:description "Costello-Roberts v. the United Kingdom, 25 March 1993, § 27, Series A no. 247 C"^^xsd:string ;
-            dcterms:title "Costello-Roberts v. the United Kingdom"^^xsd:string ],
-        [ dcterms:description "Carrigan Report 1931"^^xsd:string ],
-        [ dcterms:date "2002-11-26"^^xsd:date ;
-            dcterms:description "E. and Others v. the United Kingdom, no. 33218/96, § 112, 26 November 2002"^^xsd:string ;
-            dcterms:identifier "33218/96"^^xsd:string ;
-            dcterms:title "E. and Others v. the United Kingdom"^^xsd:string ],
-        [ dcterms:description "Moreira Barbosa v. Portugal (dec.), no. 65681/01, ECHR 2004-V"^^xsd:string ;
-            dcterms:identifier "65681/01"^^xsd:string ;
-            dcterms:title "Moreira Barbosa v. Portugal (dec.)"^^xsd:string ],
-        [ dcterms:description "Geneva Declaration of the Rights of the Child"^^xsd:string ],
-        [ dcterms:description "Cussen and Kennedy reports on reformatory and industrial schools"^^xsd:string ],
-        [ dcterms:description "Ryan Report on reformatory and industrial schools"^^xsd:string ],
-        [ dcterms:date "1982-02-25"^^xsd:date ;
-            dcterms:description "Campbell and Cosans v. the United Kingdom, 25 February 1982, § 8, Series A no. 48"^^xsd:string ;
-            dcterms:title "Campbell and Cosans v. the United Kingdom"^^xsd:string ],
-        [ dcterms:date "2003-01-21"^^xsd:date ;
-            dcterms:description "August v. the United Kingdom (dec.), no. 36505/02, 21 January 2003"^^xsd:string ;
-            dcterms:identifier "36505/02"^^xsd:string ;
-            dcterms:title "August v. the United Kingdom (dec.)"^^xsd:string ],
-        [ dcterms:date "2005-11-15"^^xsd:date ;
-            dcterms:description "Jeličić v. Bosnia and Herzegovina (dec.), no. 41183/02, 15 November 2005"^^xsd:string ;
-            dcterms:identifier "41183/02"^^xsd:string ;
-            dcterms:title "Jeličić v. Bosnia and Herzegovina (dec.)"^^xsd:string ],
-        [ dcterms:date "1979-06-13"^^xsd:date ;
-            dcterms:description "Marckx v. Belgium, 13 June 1979, § 31, Series A no. 31"^^xsd:string ;
-            dcterms:title "Marckx v. Belgium"^^xsd:string ],
-        [ dcterms:description "Ferns Report 2005"^^xsd:string ],
-        [ dcterms:date "2012-04-10"^^xsd:date ;
-            dcterms:description "Ilbeyi Kemaloğlu and Meriye Kemaloğlu v. Turkey, no. 19986/06, § 35, 10 April 2012"^^xsd:string ;
-            dcterms:identifier "19986/06"^^xsd:string ;
-            dcterms:title "Ilbeyi Kemaloğlu and Meriye Kemaloğlu v. Turkey"^^xsd:string ],
-        [ dcterms:date "2010-09-10"^^xsd:date ;
-            dcterms:description "McFarlane v. Ireland [GC], no. 31333/06, 10 September 2010"^^xsd:string ;
-            dcterms:identifier "31333/06"^^xsd:string ;
-            dcterms:title "McFarlane v. Ireland [GC]"^^xsd:string ],
-        [ dcterms:description "Article 24 of the International Covenant on Civil and Political Rights"^^xsd:string ],
-        [ dcterms:date "1985-03-26"^^xsd:date ;
-            dcterms:description "X and Y v. the Netherlands, 26 March 1985, Series A no. 91, §§ 21–27"^^xsd:string ;
-            dcterms:title "X and Y v. the Netherlands"^^xsd:string ],
-        [ dcterms:description "Gäfgen v. Germany [GC], no. 22978/05, § 115 and 118, ECHR 2010"^^xsd:string ;
-            dcterms:identifier "22978/05"^^xsd:string ;
-            dcterms:title "Gäfgen v. Germany [GC]"^^xsd:string ],
-        [ dcterms:description "Section 14 of the Education Act 1998 "^^xsd:string ],
-        [ dcterms:description "Varnava and Others v. Turkey [GC], nos. 16064/90, 16065/90, 16066/90, 16068/90, 16069/90, 16070/90, 16071/90, 16072/90 and 16073/90, § 140, ECHR 2009"^^xsd:string ;
-            dcterms:identifier "16064/90"^^xsd:string ;
-            dcterms:title "Varnava and Others v. Turkey [GC]"^^xsd:string ],
-        [ dcterms:description "Sections 50 and 51 of the Offences Against the Person Act 1861 "^^xsd:string ],
-        [ dcterms:date "2011-06-14"^^xsd:date ;
-            dcterms:description "Leja v. Latvia, no. 71072/01, § 46, 14 June 2011"^^xsd:string ;
-            dcterms:identifier "71072/01"^^xsd:string ;
-            dcterms:title "Leja v. Latvia"^^xsd:string ],
-        [ dcterms:date "1983-11-23"^^xsd:date ;
-            dcterms:description "Van der Mussele v. Belgium, 23 November 1983, Series A no. 70"^^xsd:string ;
-            dcterms:title "Van der Mussele v. Belgium"^^xsd:string ],
-        [ dcterms:date "1999-04-29"^^xsd:date ;
-            dcterms:description "T.W. v. Malta [GC], no. 25644/94, § 34, 29 April 1999"^^xsd:string ;
-            dcterms:identifier "25644/94"^^xsd:string ;
-            dcterms:title "T.W. v. Malta [GC]"^^xsd:string ],
-        [ dcterms:date "1979-10-09"^^xsd:date ;
-            dcterms:description "Airey v. Ireland, 9 October 1979, § 25, Series A no. 32"^^xsd:string ;
-            dcterms:title "Airey v. Ireland"^^xsd:string ],
-        [ dcterms:date "1998-10-28"^^xsd:date ;
-            dcterms:description "Osman v. the United Kingdom, 28 October 1998, Reports 1998 VIII"^^xsd:string ;
-            dcterms:title "Osman v. the United Kingdom"^^xsd:string ],
-        [ dcterms:description "UN Declaration of the Rights of the Child 1959"^^xsd:string ],
+        [ dcterms:description "Article 42 of the Constitution 1937 "^^xsd:string ],
         [ dcterms:date "2013-03-26"^^xsd:date ;
             dcterms:description "Valiuliene v. Lithuania, no. 33234/07, § 87, 26 March 2013"^^xsd:string ;
             dcterms:identifier "33234/07"^^xsd:string ;
             dcterms:title "Valiuliene v. Lithuania"^^xsd:string ],
+        [ dcterms:date "2012-03-20"^^xsd:date ;
+            dcterms:description "C.A.S. and C.S. v. Romania, no. 26692/05, 20 March 2012"^^xsd:string ;
+            dcterms:identifier "26692/05"^^xsd:string ;
+            dcterms:title "C.A.S. and C.S. v. Romania"^^xsd:string ],
+        [ dcterms:date "1982-02-25"^^xsd:date ;
+            dcterms:description "Campbell and Cosans v. the United Kingdom, 25 February 1982, § 8, Series A no. 48"^^xsd:string ;
+            dcterms:title "Campbell and Cosans v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "2012-04-10"^^xsd:date ;
+            dcterms:description "Ilbeyi Kemaloğlu and Meriye Kemaloğlu v. Turkey, no. 19986/06, § 35, 10 April 2012"^^xsd:string ;
+            dcterms:identifier "19986/06"^^xsd:string ;
+            dcterms:title "Ilbeyi Kemaloğlu and Meriye Kemaloğlu v. Turkey"^^xsd:string ],
+        [ dcterms:date "2003-01-21"^^xsd:date ;
+            dcterms:description "August v. the United Kingdom (dec.), no. 36505/02, 21 January 2003"^^xsd:string ;
+            dcterms:identifier "36505/02"^^xsd:string ;
+            dcterms:title "August v. the United Kingdom (dec.)"^^xsd:string ],
+        [ dcterms:description "El Masri v. \"the former Yugoslav Republic of Macedonia\" [GC], no. 39630/09, § 269, ECHR 2012"^^xsd:string ;
+            dcterms:identifier "39630/09"^^xsd:string ;
+            dcterms:title "El Masri v. \"the former Yugoslav Republic of Macedonia\" [GC]"^^xsd:string ],
+        [ dcterms:description "Section 14 of the Education Act 1998 "^^xsd:string ],
+        [ dcterms:description "Dalban v. Romania [GC], no. 28114/95, § 44, ECHR 1999-VI"^^xsd:string ;
+            dcterms:identifier "28114/95"^^xsd:string ;
+            dcterms:title "Dalban v. Romania [GC]"^^xsd:string ],
+        [ dcterms:description "Article 2 of the International Covenant on Economic, Social and Cultural Rights"^^xsd:string ],
+        [ dcterms:description "Ferns Report 2005"^^xsd:string ],
+        [ dcterms:description "Murphy Report 2009"^^xsd:string ],
+        [ dcterms:description "Varnava and Others v. Turkey [GC], nos. 16064/90, 16065/90, 16066/90, 16068/90, 16069/90, 16070/90, 16071/90, 16072/90 and 16073/90, § 140, ECHR 2009"^^xsd:string ;
+            dcterms:identifier "16064/90"^^xsd:string ;
+            dcterms:title "Varnava and Others v. Turkey [GC]"^^xsd:string ],
+        [ dcterms:description "Sections 1, 2, 14 of the Criminal Law (Amendment) Act 1935 "^^xsd:string ],
+        [ dcterms:description "Sections 50 and 51 of the Offences Against the Person Act 1861 "^^xsd:string ],
+        [ dcterms:description "A, B and C v. Ireland [GC], no. 25579/05, § 281, ECHR 2010"^^xsd:string ;
+            dcterms:identifier "25579/05"^^xsd:string ;
+            dcterms:title "A"^^xsd:string ],
+        [ dcterms:description "Section 176 of the Criminal Justice Act 2006"^^xsd:string ],
+        [ dcterms:date "1999-04-29"^^xsd:date ;
+            dcterms:description "T.W. v. Malta [GC], no. 25644/94, § 34, 29 April 1999"^^xsd:string ;
+            dcterms:identifier "25644/94"^^xsd:string ;
+            dcterms:title "T.W. v. Malta [GC]"^^xsd:string ],
+        [ dcterms:description "Moreira Barbosa v. Portugal (dec.), no. 65681/01, ECHR 2004-V"^^xsd:string ;
+            dcterms:identifier "65681/01"^^xsd:string ;
+            dcterms:title "Moreira Barbosa v. Portugal (dec.)"^^xsd:string ],
+        [ dcterms:date "2006-06-27"^^xsd:date ;
+            dcterms:description "D. v. Ireland (dec.), no. 26499/02, § 85, 27 June 2006"^^xsd:string ;
+            dcterms:identifier "26499/02"^^xsd:string ;
+            dcterms:title "D. v. Ireland (dec.)"^^xsd:string ],
+        [ dcterms:description "Z and Others v. the United Kingdom [GC], no. 29392/95, ECHR 2001 V"^^xsd:string ;
+            dcterms:identifier "29392/95"^^xsd:string ;
+            dcterms:title "Z and Others v. the United Kingdom [GC]"^^xsd:string ],
+        [ dcterms:description "M.C. v. Bulgaria, no. 39272/98, §§ 149-150, ECHR 2003 XII"^^xsd:string ;
+            dcterms:identifier "39272/98"^^xsd:string ;
+            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
+        [ dcterms:description "Calvelli and Ciglio v. Italy [GC], no. 32967/96, ECHR 2002 I"^^xsd:string ;
+            dcterms:identifier "32967/96"^^xsd:string ;
+            dcterms:title "Calvelli and Ciglio v. Italy [GC]"^^xsd:string ],
+        [ dcterms:date "2005-11-15"^^xsd:date ;
+            dcterms:description "Jeličić v. Bosnia and Herzegovina (dec.), no. 41183/02, 15 November 2005"^^xsd:string ;
+            dcterms:identifier "41183/02"^^xsd:string ;
+            dcterms:title "Jeličić v. Bosnia and Herzegovina (dec.)"^^xsd:string ],
+        [ dcterms:date "2010-06-15"^^xsd:date ;
+            dcterms:description "Grzelak v. Poland, no. 7710/02, § 87, 15 June 2010"^^xsd:string ;
+            dcterms:identifier "7710/02"^^xsd:string ;
+            dcterms:title "Grzelak v. Poland"^^xsd:string ],
+        [ dcterms:description "Storck v. Germany, no. 61603/00, § 103, ECHR 2005 V"^^xsd:string ;
+            dcterms:identifier "61603/00"^^xsd:string ;
+            dcterms:title "Storck v. Germany"^^xsd:string ],
+        [ dcterms:date "1993-03-25"^^xsd:date ;
+            dcterms:description "Costello-Roberts v. the United Kingdom, 25 March 1993, § 27, Series A no. 247 C"^^xsd:string ;
+            dcterms:title "Costello-Roberts v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "2011-05-10"^^xsd:date ;
+            dcterms:description "Shkalla v. Albania, no. 26866/05, § 61, 10 May 2011"^^xsd:string ;
+            dcterms:identifier "26866/05"^^xsd:string ;
+            dcterms:title "Shkalla v. Albania"^^xsd:string ],
+        [ dcterms:description "Caraher v. the United Kingdom (dec.), no. 24520/94, ECHR 2000 I"^^xsd:string ;
+            dcterms:identifier "24520/94"^^xsd:string ;
+            dcterms:title "Caraher v. the United Kingdom (dec.)"^^xsd:string ],
         [ dcterms:date "1996-01-22"^^xsd:date ;
             dcterms:description "O’Reilly v. Ireland, no. 24196/94, Commission decision of 22 January 1996"^^xsd:string ;
             dcterms:identifier "24196/94"^^xsd:string ;
             dcterms:title "O’Reilly v. Ireland"^^xsd:string ],
-        [ dcterms:description "Section 176 of the Criminal Justice Act 2006"^^xsd:string ],
+        [ dcterms:date "2008-12-02"^^xsd:date ;
+            dcterms:description "Juppala v. Finland, no. 18620/03, § 42, 2 December 2008"^^xsd:string ;
+            dcterms:identifier "18620/03"^^xsd:string ;
+            dcterms:title "Juppala v. Finland"^^xsd:string ],
+        [ dcterms:date "1985-03-26"^^xsd:date ;
+            dcterms:description "X and Y v. the Netherlands, 26 March 1985, Series A no. 91, §§ 21–27"^^xsd:string ;
+            dcterms:title "X and Y v. the Netherlands"^^xsd:string ],
+        [ dcterms:description "Carrigan Report 1931"^^xsd:string ],
+        [ dcterms:description "Gäfgen v. Germany [GC], no. 22978/05, § 115 and 118, ECHR 2010"^^xsd:string ;
+            dcterms:identifier "22978/05"^^xsd:string ;
+            dcterms:title "Gäfgen v. Germany [GC]"^^xsd:string ],
         [ dcterms:description "Section 4 of the School Attendance Act 1926 "^^xsd:string ],
-        [ dcterms:description "Sections 1, 2, 14 of the Criminal Law (Amendment) Act 1935 "^^xsd:string ],
-        [ dcterms:description "Article 7 of the European Social Charter 1961"^^xsd:string ],
-        [ dcterms:description "Recommendation of the Parliamentary Assembly of the Council of Europe 561 entitled \"Protection of Minors against ill-treatment\""^^xsd:string ],
-        [ dcterms:description "M.C. v. Bulgaria, no. 39272/98, §§ 149-150, ECHR 2003 XII"^^xsd:string ;
-            dcterms:identifier "39272/98"^^xsd:string ;
-            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
-        [ dcterms:description "Article 2 of the International Covenant on Economic, Social and Cultural Rights"^^xsd:string ],
-        [ dcterms:date "2009-06-25"^^xsd:date ;
-            dcterms:description "Beganović v. Croatia, no. 46423/06, § 71, 25 June 2009"^^xsd:string ;
-            dcterms:identifier "46423/06"^^xsd:string ;
-            dcterms:title "Beganović v. Croatia"^^xsd:string ],
-        [ dcterms:description "Article 42 of the Constitution 1937 "^^xsd:string ],
         [ dcterms:description "Rules for National Schools 1965 "^^xsd:string ],
-        [ dcterms:description "Caraher v. the United Kingdom (dec.), no. 24520/94, ECHR 2000 I"^^xsd:string ;
-            dcterms:identifier "24520/94"^^xsd:string ;
-            dcterms:title "Caraher v. the United Kingdom (dec.)"^^xsd:string ],
-        [ dcterms:description "Murphy Report 2009"^^xsd:string ],
         [ dcterms:description "International Convention on the Rights of the Child 1989"^^xsd:string ],
-        [ dcterms:description "Children Act 1908 "^^xsd:string ],
-        [ dcterms:date "1998-09-23"^^xsd:date ;
-            dcterms:description "A. v. the United Kingdom, 23 September 1998, § 22, Reports 1998 VI"^^xsd:string ;
-            dcterms:title "A. v. the United Kingdom"^^xsd:string ],
-        [ dcterms:description "El Masri v. \"the former Yugoslav Republic of Macedonia\" [GC], no. 39630/09, § 269, ECHR 2012"^^xsd:string ;
-            dcterms:identifier "39630/09"^^xsd:string ;
-            dcterms:title "El Masri v. \"the former Yugoslav Republic of Macedonia\" [GC]"^^xsd:string ],
-        [ dcterms:description "Mahmut Kaya v. Turkey, no. 22535/93, § 115, ECHR 2000 III"^^xsd:string ;
-            dcterms:identifier "22535/93"^^xsd:string ;
-            dcterms:title "Mahmut Kaya v. Turkey"^^xsd:string ],
-        [ dcterms:description "Universal Declaration of Human Rights 1948"^^xsd:string ],
-        [ dcterms:description "Odièvre v. France [GC], no. 42326/98, § 22, ECHR 2003 III"^^xsd:string ;
-            dcterms:identifier "42326/98"^^xsd:string ;
-            dcterms:title "Odièvre v. France [GC]"^^xsd:string ],
         [ dcterms:date "2002-10-10"^^xsd:date ;
             dcterms:description "D.P. and J.C. v. the United Kingdom, no. 38719/97, § 109, 10 October 2002"^^xsd:string ;
             dcterms:identifier "38719/97"^^xsd:string ;
@@ -185,20 +148,57 @@
         [ dcterms:description "Hay v. the United Kingdom (dec.), no. 41894/98, ECHR 2000 XI"^^xsd:string ;
             dcterms:identifier "41894/98"^^xsd:string ;
             dcterms:title "Hay v. the United Kingdom (dec.)"^^xsd:string ],
-        [ dcterms:date "2010-06-15"^^xsd:date ;
-            dcterms:description "Grzelak v. Poland, no. 7710/02, § 87, 15 June 2010"^^xsd:string ;
-            dcterms:identifier "7710/02"^^xsd:string ;
-            dcterms:title "Grzelak v. Poland"^^xsd:string ],
-        [ dcterms:date "2011-05-10"^^xsd:date ;
-            dcterms:description "Shkalla v. Albania, no. 26866/05, § 61, 10 May 2011"^^xsd:string ;
-            dcterms:identifier "26866/05"^^xsd:string ;
-            dcterms:title "Shkalla v. Albania"^^xsd:string ],
-        [ dcterms:description "Storck v. Germany, no. 61603/00, § 103, ECHR 2005 V"^^xsd:string ;
-            dcterms:identifier "61603/00"^^xsd:string ;
-            dcterms:title "Storck v. Germany"^^xsd:string ],
-        [ dcterms:description "Calvelli and Ciglio v. Italy [GC], no. 32967/96, ECHR 2002 I"^^xsd:string ;
-            dcterms:identifier "32967/96"^^xsd:string ;
-            dcterms:title "Calvelli and Ciglio v. Italy [GC]"^^xsd:string ] ;
+        [ dcterms:date "1983-11-23"^^xsd:date ;
+            dcterms:description "Van der Mussele v. Belgium, 23 November 1983, Series A no. 70"^^xsd:string ;
+            dcterms:title "Van der Mussele v. Belgium"^^xsd:string ],
+        [ dcterms:description "UN Declaration of the Rights of the Child 1959"^^xsd:string ],
+        [ dcterms:date "2011-06-14"^^xsd:date ;
+            dcterms:description "Leja v. Latvia, no. 71072/01, § 46, 14 June 2011"^^xsd:string ;
+            dcterms:identifier "71072/01"^^xsd:string ;
+            dcterms:title "Leja v. Latvia"^^xsd:string ],
+        [ dcterms:description "Article 7 of the European Social Charter 1961"^^xsd:string ],
+        [ dcterms:description "Article 24 of the International Covenant on Civil and Political Rights"^^xsd:string ],
+        [ dcterms:date "1979-10-09"^^xsd:date ;
+            dcterms:description "Airey v. Ireland, 9 October 1979, § 25, Series A no. 32"^^xsd:string ;
+            dcterms:title "Airey v. Ireland"^^xsd:string ],
+        [ dcterms:description "Cloyne Report 2011"^^xsd:string ],
+        [ dcterms:date "2010-09-10"^^xsd:date ;
+            dcterms:description "McFarlane v. Ireland [GC], no. 31333/06, 10 September 2010"^^xsd:string ;
+            dcterms:identifier "31333/06"^^xsd:string ;
+            dcterms:title "McFarlane v. Ireland [GC]"^^xsd:string ],
+        [ dcterms:description "Ryan Report on reformatory and industrial schools"^^xsd:string ],
+        [ dcterms:description "Children Act 1908 "^^xsd:string ],
+        [ dcterms:date "2009-06-25"^^xsd:date ;
+            dcterms:description "Beganović v. Croatia, no. 46423/06, § 71, 25 June 2009"^^xsd:string ;
+            dcterms:identifier "46423/06"^^xsd:string ;
+            dcterms:title "Beganović v. Croatia"^^xsd:string ],
+        [ dcterms:description "Mahmut Kaya v. Turkey, no. 22535/93, § 115, ECHR 2000 III"^^xsd:string ;
+            dcterms:identifier "22535/93"^^xsd:string ;
+            dcterms:title "Mahmut Kaya v. Turkey"^^xsd:string ],
+        [ dcterms:description "Recommendation of the Parliamentary Assembly of the Council of Europe 561 entitled \"Protection of Minors against ill-treatment\""^^xsd:string ],
+        [ dcterms:date "2002-11-26"^^xsd:date ;
+            dcterms:description "E. and Others v. the United Kingdom, no. 33218/96, § 112, 26 November 2002"^^xsd:string ;
+            dcterms:identifier "33218/96"^^xsd:string ;
+            dcterms:title "E. and Others v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Cussen and Kennedy reports on reformatory and industrial schools"^^xsd:string ],
+        [ dcterms:description "Universal Declaration of Human Rights 1948"^^xsd:string ],
+        [ dcterms:date "1998-10-28"^^xsd:date ;
+            dcterms:description "Osman v. the United Kingdom, 28 October 1998, Reports 1998 VIII"^^xsd:string ;
+            dcterms:title "Osman v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Recommendation No. R (79) 17 of the Committee of Ministers on the protection of children against ill-treatment"^^xsd:string ],
+        [ dcterms:description "Odièvre v. France [GC], no. 42326/98, § 22, ECHR 2003 III"^^xsd:string ;
+            dcterms:identifier "42326/98"^^xsd:string ;
+            dcterms:title "Odièvre v. France [GC]"^^xsd:string ],
+        [ dcterms:date "1998-09-23"^^xsd:date ;
+            dcterms:description "A. v. the United Kingdom, 23 September 1998, § 22, Reports 1998 VI"^^xsd:string ;
+            dcterms:title "A. v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Scordino v. Italy (no. 1) [GC], no. 36813/97, §§ 214-215, ECHR 2006 V"^^xsd:string ;
+            dcterms:identifier "36813/97"^^xsd:string ;
+            dcterms:title "Scordino v. Italy (no. 1) [GC]"^^xsd:string ],
+        [ dcterms:date "1979-06-13"^^xsd:date ;
+            dcterms:description "Marckx v. Belgium, 13 June 1979, § 31, Series A no. 31"^^xsd:string ;
+            dcterms:title "Marckx v. Belgium"^^xsd:string ],
+        [ dcterms:description "Geneva Declaration of the Rights of the Child"^^xsd:string ] ;
     dcterms:title "CASE OF O'KEEFFE v. IRELAND"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 
