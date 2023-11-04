@@ -18,58 +18,58 @@
         "(Art. 3) Prohibition of torture"^^xsd:string,
         "(Art. 41) Just satisfaction-{general}"^^xsd:string,
         "Violation of Art. 3 (in case of expulsion to Afghanistan)"^^xsd:string ;
-    dcterms:identifier "https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-99992%22]}"^^xsd:string ;
+    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-99992> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2010:0720JUD002350509"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ dcterms:description "The US State Department Human Rights Report on Afghanistan for 2008"^^xsd:string ],
-        [ dcterms:description "The Human Rights Watch report “We Have the Promises of the World” of 6 December 2009"^^xsd:string ],
-        [ ns1:hasApplicationNumber "32621/06"^^xsd:string ;
-            dcterms:date "2009-01-20"^^xsd:date ;
-            dcterms:description "F.H. v. Sweden, no. 32621/06, § 107, 20 January 2009"^^xsd:string ;
-            dcterms:title "F.H. v. Sweden"^^xsd:string ],
-        [ dcterms:date "1991-10-30"^^xsd:date ;
+    dcterms:references [ dcterms:date "1991-10-30"^^xsd:date ;
             dcterms:description "Vilvarajah and Others v. the United Kingdom, judgment of 30 October 1991, Series A no. 215, § 108 in fine"^^xsd:string ;
             dcterms:title "Vilvarajah and Others v. the United Kingdom"^^xsd:string ],
-        [ dcterms:description "Chapter 12, Sections 1, 2, 18 and 19 of the 2005 Aliens Act"^^xsd:string ],
+        [ ns1:hasApplicationNumber "46410/99"^^xsd:string ;
+            dcterms:description "Üner v. the Netherlands [GC], no. 46410/99, § 54, ECHR 2006-XII"^^xsd:string ;
+            dcterms:title "Üner v. the Netherlands [GC]"^^xsd:string ],
         [ dcterms:description "The UNHCR Eligibility Guidelines for Assessing the International Protection Needs of Afghan Asylum-Seekers of July 2009"^^xsd:string ],
+        [ dcterms:description "Chapter 4, Sections 1 and 2 "^^xsd:string ],
+        [ ns1:hasApplicationNumber "23944/05"^^xsd:string ;
+            dcterms:date "2007-03-08"^^xsd:date ;
+            dcterms:description "Collins and Akasiebie v. Sweden (dec.), no. 23944/05, 8 March 2007"^^xsd:string ;
+            dcterms:title "Collins and Akasiebie v. Sweden (dec.)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "3049/06"^^xsd:string ;
+            dcterms:date "2006-12-12"^^xsd:date ;
+            dcterms:description "S.A. v. The Netherlands (dec.), 3049/06, 12 December 2006"^^xsd:string ;
+            dcterms:title "S.A. v. The Netherlands (dec.)"^^xsd:string ],
         [ ns1:hasApplicationNumber "5140/06"^^xsd:string ;
             dcterms:date "2006-06-01"^^xsd:date ;
             dcterms:description "Reza Mohammasi v. the Netherlands (dec.), no. 5140/06, 1 June 2006"^^xsd:string ;
             dcterms:title "Reza Mohammasi v. the Netherlands (dec.)"^^xsd:string ],
         [ dcterms:description "The UK Home Office, Country of Origin Information Report on Afghanistan of 18 February 2009"^^xsd:string ],
         [ dcterms:description "Chapter 5, Section 1 "^^xsd:string ],
-        [ ns1:hasApplicationNumber "37201/06"^^xsd:string ;
-            dcterms:description "Saadi v. Italy [GC], no. 37201/06, § 125, ECHR 2008"^^xsd:string ;
-            dcterms:title "Saadi v. Italy [GC]"^^xsd:string ],
+        [ dcterms:description "Chapter 12, Sections 1, 2, 18 and 19 of the 2005 Aliens Act"^^xsd:string ],
         [ ns1:hasApplicationNumber "38885/02"^^xsd:string ;
             dcterms:date "2005-07-26"^^xsd:date ;
             dcterms:description "N. v. Finland, no. 38885/02, § 167, 26 July 2005"^^xsd:string ;
             dcterms:title "N. v. Finland"^^xsd:string ],
+        [ dcterms:description "The US State Department Human Rights Report on Afghanistan for 2008"^^xsd:string ],
+        [ ns1:hasApplicationNumber "32621/06"^^xsd:string ;
+            dcterms:date "2009-01-20"^^xsd:date ;
+            dcterms:description "F.H. v. Sweden, no. 32621/06, § 107, 20 January 2009"^^xsd:string ;
+            dcterms:title "F.H. v. Sweden"^^xsd:string ],
         [ ns1:hasApplicationNumber "25904/07"^^xsd:string ;
             dcterms:date "2008-07-17"^^xsd:date ;
             dcterms:description "NA. v. the United Kingdom, no. 25904/07, § 111, 17 July 2008"^^xsd:string ;
             dcterms:title "NA. v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "64599/01"^^xsd:string ;
-            dcterms:date "2003-03-11"^^xsd:date ;
-            dcterms:description "Razaghi v. Sweden (dec.), no. 64599/01, 11 March 2003"^^xsd:string ;
-            dcterms:title "Razaghi v. Sweden (dec.)"^^xsd:string ],
-        [ dcterms:description "Chapter 4, Sections 1 and 2 "^^xsd:string ],
-        [ ns1:hasApplicationNumber "23944/05"^^xsd:string ;
-            dcterms:date "2007-03-08"^^xsd:date ;
-            dcterms:description "Collins and Akasiebie v. Sweden (dec.), no. 23944/05, 8 March 2007"^^xsd:string ;
-            dcterms:title "Collins and Akasiebie v. Sweden (dec.)"^^xsd:string ],
         [ ns1:hasApplicationNumber "31260/04"^^xsd:string ;
             dcterms:date "2005-06-21"^^xsd:date ;
             dcterms:description "Matsiukhina and Matsiukhin v. Sweden (dec.), no. 31260/04, 21 June 2005"^^xsd:string ;
             dcterms:title "Matsiukhina and Matsiukhin v. Sweden (dec.)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "46410/99"^^xsd:string ;
-            dcterms:description "Üner v. the Netherlands [GC], no. 46410/99, § 54, ECHR 2006-XII"^^xsd:string ;
-            dcterms:title "Üner v. the Netherlands [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "3049/06"^^xsd:string ;
-            dcterms:date "2006-12-12"^^xsd:date ;
-            dcterms:description "S.A. v. The Netherlands (dec.), 3049/06, 12 December 2006"^^xsd:string ;
-            dcterms:title "S.A. v. The Netherlands (dec.)"^^xsd:string ] ;
+        [ dcterms:description "The Human Rights Watch report “We Have the Promises of the World” of 6 December 2009"^^xsd:string ],
+        [ ns1:hasApplicationNumber "64599/01"^^xsd:string ;
+            dcterms:date "2003-03-11"^^xsd:date ;
+            dcterms:description "Razaghi v. Sweden (dec.), no. 64599/01, 11 March 2003"^^xsd:string ;
+            dcterms:title "Razaghi v. Sweden (dec.)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "37201/06"^^xsd:string ;
+            dcterms:description "Saadi v. Italy [GC], no. 37201/06, § 125, ECHR 2008"^^xsd:string ;
+            dcterms:title "Saadi v. Italy [GC]"^^xsd:string ] ;
     dcterms:title "CASE OF N. v. SWEDEN"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 

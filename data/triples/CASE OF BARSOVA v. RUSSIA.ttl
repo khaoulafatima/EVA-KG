@@ -15,7 +15,7 @@
     dcterms:description "(Art. 3) Positive obligations"^^xsd:string,
         "(Art. 3) Prohibition of torture"^^xsd:string,
         "Violation of Article 3 - Prohibition of torture (Article 3 - Positive obligations) (Substantive aspect)"^^xsd:string ;
-    dcterms:identifier "https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-196880%22]}"^^xsd:string ;
+    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-196880> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2019:1022JUD002028910"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;

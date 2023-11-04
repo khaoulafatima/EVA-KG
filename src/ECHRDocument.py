@@ -242,13 +242,14 @@ class ECHRDocument:
         wd = Namespace("http://www.wikidata.org/entity/")
         custom_ns = Namespace("http://eva.org/")
         subject = BNode()
+
         self._graph.add((subject, DCTERMS.accessRights, Literal("public", datatype=XSD.string)))
         self._graph.add((subject, DCTERMS.publisher, URIRef(wd.Q122880)))
         self._graph.add((subject, DCTERMS.language, Literal("en", datatype=XSD.string)))
         self._graph.add((subject, DCTERMS.coverage, URIRef(wd.Q6602)))
-        url = extract_document_url(self._case_detail["Title"], alt=False)
+        url = extract_document_url(self._case_detail["Title"])
         if url is not None:
-            self._graph.add((subject, DCTERMS.identifier, Literal(url, datatype=XSD.string)))
+            self._graph.add((subject, DCTERMS.identifier, URIRef(url)))
 
         keys = self._case_detail.keys()
         if "Originating Body" in keys:

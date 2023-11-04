@@ -8,15 +8,15 @@
     ns1:respondentState <http://www.wikidata.org/entity/Q230> ;
     dcterms:accessRights "public"^^xsd:string ;
     dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "LEACH PH. "^^xsd:string ],
-        [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "GOGISHVILI S. "^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "KURTANIDZE M. "^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "PATARAIA B. "^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "GAVRON J."^^xsd:string ] ;
+            foaf:name "GAVRON J."^^xsd:string ],
+        [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "LEACH PH. "^^xsd:string ] ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:creator "Court (Fifth Section)"^^xsd:string ;
     dcterms:date "2021-07-08"^^xsd:date ;
@@ -38,107 +38,107 @@
         "Pecuniary damage - claim dismissed (Article 41 - Pecuniary damage"^^xsd:string,
         "Positive obligations"^^xsd:string,
         "Violation of Article 14+2 - Prohibition of discrimination (Article 14 - Discrimination) (Article 2 - Right to life"^^xsd:string ;
-    dcterms:identifier "https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-210854%22]}"^^xsd:string ;
+    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-210854> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2021:0708JUD003305617"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ ns1:hasApplicationNumber "15086/07"^^xsd:string ;
-            dcterms:date "2018-07-17"^^xsd:date ;
-            dcterms:description "Mazepa and Others v. Russia, no. 15086/07, § 69, 17 July 2018"^^xsd:string ;
-            dcterms:title "Mazepa and Others v. Russia"^^xsd:string ],
+    dcterms:references [ ns1:hasApplicationNumber "7224/11"^^xsd:string ;
+            dcterms:date "2020-10-08"^^xsd:date ;
+            dcterms:description "Aghdgomelashvili and Japaridze v. Georgia, no. 7224/11, § 36, 8 October 2020"^^xsd:string ;
+            dcterms:title "Aghdgomelashvili and Japaridze v. Georgia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "73235/12"^^xsd:string ;
+            dcterms:date "2015-05-12"^^xsd:date ;
+            dcterms:description "Identoba and Others v. Georgia, no. 73235/12, § 77, 12 May 2015"^^xsd:string ;
+            dcterms:title "Identoba and Others v. Georgia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "72508/13"^^xsd:string ;
+            dcterms:date "2017-11-28"^^xsd:date ;
+            dcterms:description "Merabishvili v. Georgia [GC], no. 72508/13, § 371, 28 November 2017"^^xsd:string ;
+            dcterms:title "Merabishvili v. Georgia [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "41261/17"^^xsd:string ;
+            dcterms:date "2019-07-09"^^xsd:date ;
+            dcterms:description "Volodina v. Russia, no. 41261/17, § 92, 9 July 2019"^^xsd:string ;
+            dcterms:title "Volodina v. Russia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "41488/98"^^xsd:string ;
+            dcterms:description "Velikova v. Bulgaria, no. 41488/98, § 80, ECHR 2000‑VI"^^xsd:string ;
+            dcterms:title "Velikova v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "48756/14"^^xsd:string ;
+            dcterms:date "2020-08-04"^^xsd:date ;
+            dcterms:description "Tërshana v. Albania, no. 48756/14, § 151, 4 August 2020"^^xsd:string ;
+            dcterms:title "Tërshana v. Albania"^^xsd:string ],
         [ ns1:hasApplicationNumber "7510/04"^^xsd:string ;
             dcterms:date "2007-05-31"^^xsd:date ;
             dcterms:description "Kontrová v. Slovakia, no. 7510/04, § 49, 31 May 2007"^^xsd:string ;
             dcterms:title "Kontrová v. Slovakia"^^xsd:string ],
         [ dcterms:description "Law of 25 May 2006 on Combating Domestic Violence (“the Domestic Violence Act”)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "46598/06"^^xsd:string ;
-            dcterms:date "2009-01-15"^^xsd:date ;
-            dcterms:description "Branko Tomašić and Others v. Croatia, no. 46598/06, §§ 52 and 53, 15 January 2009"^^xsd:string ;
-            dcterms:title "Branko Tomašić and Others v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "41261/17"^^xsd:string ;
-            dcterms:date "2019-07-09"^^xsd:date ;
-            dcterms:description "Volodina v. Russia, no. 41261/17, § 92, 9 July 2019"^^xsd:string ;
-            dcterms:title "Volodina v. Russia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "655/16"^^xsd:string ;
-            dcterms:date "2018-12-11"^^xsd:date ;
-            dcterms:description "Lakatošová and Lakatoš v. Slovakia, no. 655/16, § 78, 11 December 2018"^^xsd:string ;
-            dcterms:title "Lakatošová and Lakatoš v. Slovakia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "7615/02"^^xsd:string ;
-            dcterms:description "Imakayeva v. Russia, no. 7615/02, § 213, ECHR 2006-XIII (extracts)"^^xsd:string ;
-            dcterms:title "Imakayeva v. Russia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "62903/15"^^xsd:string ;
-            dcterms:date "2021-06-15"^^xsd:date ;
-            dcterms:description "Kurt v. Austria [GC], no. 62903/15, § 165-66, 15 June 2021"^^xsd:string ;
-            dcterms:title "Kurt v. Austria [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "33401/02"^^xsd:string ;
-            dcterms:description "Opuz v. Turkey, no. 33401/02, §§ 129-30, ECHR 2009"^^xsd:string ;
-            dcterms:title "Opuz v. Turkey"^^xsd:string ],
-        [ dcterms:description "UN Special Rapporteur on Violence against Women, its causes and consequences on her mission in Georgia (22 July 2016)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "48756/14"^^xsd:string ;
-            dcterms:date "2020-08-04"^^xsd:date ;
-            dcterms:description "Tërshana v. Albania, no. 48756/14, § 151, 4 August 2020"^^xsd:string ;
-            dcterms:title "Tërshana v. Albania"^^xsd:string ],
         [ ns1:hasApplicationNumber "41237/14"^^xsd:string ;
             dcterms:date "2017-03-02"^^xsd:date ;
             dcterms:description "Talpis v. Italy, no. 41237/14, § 99, 2 March 2017"^^xsd:string ;
             dcterms:title "Talpis v. Italy"^^xsd:string ],
-        [ ns1:hasApplicationNumber "62439/12"^^xsd:string ;
-            dcterms:date "2020-09-17"^^xsd:date ;
-            dcterms:description "Kotilainen and Others v. Finland, no. 62439/12, § 91, 17 September 2020"^^xsd:string ;
-            dcterms:title "Kotilainen and Others v. Finland"^^xsd:string ],
-        [ ns1:hasApplicationNumber "10551/10"^^xsd:string ;
-            dcterms:date "2020-01-28"^^xsd:date ;
-            dcterms:description "Zinatullin v. Russia, no. 10551/10, § 33, 28 January 2020"^^xsd:string ;
-            dcterms:title "Zinatullin v. Russia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "7224/11"^^xsd:string ;
-            dcterms:date "2020-10-08"^^xsd:date ;
-            dcterms:description "Aghdgomelashvili and Japaridze v. Georgia, no. 7224/11, § 36, 8 October 2020"^^xsd:string ;
-            dcterms:title "Aghdgomelashvili and Japaridze v. Georgia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "22323/08"^^xsd:string ;
-            dcterms:date "2016-06-23"^^xsd:date ;
-            dcterms:description "Lovyginy v. Ukraine, no. 22323/08, § 99, 23 June 2016"^^xsd:string ;
-            dcterms:title "Lovyginy v. Ukraine"^^xsd:string ],
-        [ ns1:hasApplicationNumber "50375/07"^^xsd:string ;
-            dcterms:date "2019-07-18"^^xsd:date ;
-            dcterms:description "Vazagashvili and Shanava v. Georgia, no. 50375/07, §§ 105-08, 18 July 2019"^^xsd:string ;
-            dcterms:title "Vazagashvili and Shanava v. Georgia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "74832/01"^^xsd:string ;
-            dcterms:date "2010-12-14"^^xsd:date ;
-            dcterms:description "Mižigárová v. Slovakia, no. 74832/01, § 93, 14 December 2010"^^xsd:string ;
-            dcterms:title "Mižigárová v. Slovakia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "68216/01"^^xsd:string ;
-            dcterms:date "2008-10-09"^^xsd:date ;
-            dcterms:description "Albekov and Others v. Russia, no. 68216/01, §§ 125‑27, 9 October 2008"^^xsd:string ;
-            dcterms:title "Albekov and Others v. Russia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "32967/96"^^xsd:string ;
-            dcterms:description "Calvelli and Ciglio v. Italy [GC], no. 32967/96, § 48, ECHR 2002‑I"^^xsd:string ;
-            dcterms:title "Calvelli and Ciglio v. Italy [GC]"^^xsd:string ],
         [ ns1:hasApplicationNumber "8938/07"^^xsd:string ;
             dcterms:date "2020-04-02"^^xsd:date ;
             dcterms:description "Kukhalashvili and Others v. Georgia, nos. 8938/07 and 41891/07, § 162, 2 April 2020"^^xsd:string ;
             dcterms:title "Kukhalashvili and Others v. Georgia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "48939/99"^^xsd:string ;
-            dcterms:description "Öneryıldız v. Turkey, [GC] no. 48939/99, § 89, ECHR 2004-XII"^^xsd:string ;
-            dcterms:title "Öneryıldız v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "72508/13"^^xsd:string ;
-            dcterms:date "2017-11-28"^^xsd:date ;
-            dcterms:description "Merabishvili v. Georgia [GC], no. 72508/13, § 371, 28 November 2017"^^xsd:string ;
-            dcterms:title "Merabishvili v. Georgia [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "41488/98"^^xsd:string ;
-            dcterms:description "Velikova v. Bulgaria, no. 41488/98, § 80, ECHR 2000‑VI"^^xsd:string ;
-            dcterms:title "Velikova v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "46598/06"^^xsd:string ;
+            dcterms:date "2009-01-15"^^xsd:date ;
+            dcterms:description "Branko Tomašić and Others v. Croatia, no. 46598/06, §§ 52 and 53, 15 January 2009"^^xsd:string ;
+            dcterms:title "Branko Tomašić and Others v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "74832/01"^^xsd:string ;
+            dcterms:date "2010-12-14"^^xsd:date ;
+            dcterms:description "Mižigárová v. Slovakia, no. 74832/01, § 93, 14 December 2010"^^xsd:string ;
+            dcterms:title "Mižigárová v. Slovakia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "33401/02"^^xsd:string ;
+            dcterms:description "Opuz v. Turkey, no. 33401/02, §§ 129-30, ECHR 2009"^^xsd:string ;
+            dcterms:title "Opuz v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "7615/02"^^xsd:string ;
+            dcterms:description "Imakayeva v. Russia, no. 7615/02, § 213, ECHR 2006-XIII (extracts)"^^xsd:string ;
+            dcterms:title "Imakayeva v. Russia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "68216/01"^^xsd:string ;
+            dcterms:date "2008-10-09"^^xsd:date ;
+            dcterms:description "Albekov and Others v. Russia, no. 68216/01, §§ 125‑27, 9 October 2008"^^xsd:string ;
+            dcterms:title "Albekov and Others v. Russia"^^xsd:string ],
         [ ns1:hasApplicationNumber "50231/13"^^xsd:string ;
             dcterms:date "2021-01-14"^^xsd:date ;
             dcterms:description "Sabalić v. Croatia, no. 50231/13, § 95, 14 January 2021"^^xsd:string ;
             dcterms:title "Sabalić v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "73235/12"^^xsd:string ;
-            dcterms:date "2015-05-12"^^xsd:date ;
-            dcterms:description "Identoba and Others v. Georgia, no. 73235/12, § 77, 12 May 2015"^^xsd:string ;
-            dcterms:title "Identoba and Others v. Georgia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "655/16"^^xsd:string ;
+            dcterms:date "2018-12-11"^^xsd:date ;
+            dcterms:description "Lakatošová and Lakatoš v. Slovakia, no. 655/16, § 78, 11 December 2018"^^xsd:string ;
+            dcterms:title "Lakatošová and Lakatoš v. Slovakia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "50375/07"^^xsd:string ;
+            dcterms:date "2019-07-18"^^xsd:date ;
+            dcterms:description "Vazagashvili and Shanava v. Georgia, no. 50375/07, §§ 105-08, 18 July 2019"^^xsd:string ;
+            dcterms:title "Vazagashvili and Shanava v. Georgia"^^xsd:string ],
         [ ns1:hasApplicationNumber "74448/12"^^xsd:string ;
             dcterms:date "2014-09-18"^^xsd:date ;
             dcterms:description "Bljakaj and Others v. Croatia, no. 74448/12, § 123, 18 September 2014"^^xsd:string ;
-            dcterms:title "Bljakaj and Others v. Croatia"^^xsd:string ] ;
+            dcterms:title "Bljakaj and Others v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "62439/12"^^xsd:string ;
+            dcterms:date "2020-09-17"^^xsd:date ;
+            dcterms:description "Kotilainen and Others v. Finland, no. 62439/12, § 91, 17 September 2020"^^xsd:string ;
+            dcterms:title "Kotilainen and Others v. Finland"^^xsd:string ],
+        [ ns1:hasApplicationNumber "15086/07"^^xsd:string ;
+            dcterms:date "2018-07-17"^^xsd:date ;
+            dcterms:description "Mazepa and Others v. Russia, no. 15086/07, § 69, 17 July 2018"^^xsd:string ;
+            dcterms:title "Mazepa and Others v. Russia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "62903/15"^^xsd:string ;
+            dcterms:date "2021-06-15"^^xsd:date ;
+            dcterms:description "Kurt v. Austria [GC], no. 62903/15, § 165-66, 15 June 2021"^^xsd:string ;
+            dcterms:title "Kurt v. Austria [GC]"^^xsd:string ],
+        [ dcterms:description "UN Special Rapporteur on Violence against Women, its causes and consequences on her mission in Georgia (22 July 2016)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "48939/99"^^xsd:string ;
+            dcterms:description "Öneryıldız v. Turkey, [GC] no. 48939/99, § 89, ECHR 2004-XII"^^xsd:string ;
+            dcterms:title "Öneryıldız v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "10551/10"^^xsd:string ;
+            dcterms:date "2020-01-28"^^xsd:date ;
+            dcterms:description "Zinatullin v. Russia, no. 10551/10, § 33, 28 January 2020"^^xsd:string ;
+            dcterms:title "Zinatullin v. Russia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "32967/96"^^xsd:string ;
+            dcterms:description "Calvelli and Ciglio v. Italy [GC], no. 32967/96, § 48, ECHR 2002‑I"^^xsd:string ;
+            dcterms:title "Calvelli and Ciglio v. Italy [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "22323/08"^^xsd:string ;
+            dcterms:date "2016-06-23"^^xsd:date ;
+            dcterms:description "Lovyginy v. Ukraine, no. 22323/08, § 99, 23 June 2016"^^xsd:string ;
+            dcterms:title "Lovyginy v. Ukraine"^^xsd:string ] ;
     dcterms:title "CASE OF TKHELIDZE v. GEORGIA"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 

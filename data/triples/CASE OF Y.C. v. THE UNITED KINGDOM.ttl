@@ -20,56 +20,56 @@
         "No violation of Article 8 - Right to respect for private and family life (Article 8-1 - Respect for family life)"^^xsd:string,
         "Proportionality"^^xsd:string,
         "Remainder inadmissible"^^xsd:string ;
-    dcterms:identifier "https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-109557%22]}"^^xsd:string ;
+    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-109557> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2012:0313JUD000454710"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ dcterms:description "Sections 1, 21, 22, 26, 46 and 47 of the Adoption and Children Act 2002"^^xsd:string ],
-        [ ns1:hasApplicationNumber "41615/07"^^xsd:string ;
-            dcterms:date "2010-07-06"^^xsd:date ;
-            dcterms:description "Neulinger and Shuruk v. Switzerland [GC], no. 41615/07, 6 July 2010"^^xsd:string ;
-            dcterms:title "Neulinger and Shuruk v. Switzerland [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "11223/04"^^xsd:string ;
-            dcterms:date "2008-07-17"^^xsd:date ;
-            dcterms:description "X v. Croatia, no. 11223/04, § 47, 17 July 2008"^^xsd:string ;
-            dcterms:title "X v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "25702/94"^^xsd:string ;
+    dcterms:references [ ns1:hasApplicationNumber "25702/94"^^xsd:string ;
             dcterms:description "K and T. v. Finland [GC], no. 25702/94, ECHR 2001-VII"^^xsd:string ;
             dcterms:title "K and T. v. Finland [GC]"^^xsd:string ],
         [ ns1:hasApplicationNumber "38000/05"^^xsd:string ;
             dcterms:date "2008-09-30"^^xsd:date ;
             dcterms:description "R.K. and A.K. v. the United Kingdom, no. 38000/05, § 34, 30 September 2008"^^xsd:string ;
             dcterms:title "R.K. and A.K. v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "61540/09"^^xsd:string ;
-            dcterms:date "2010-01-19"^^xsd:date ;
-            dcterms:description "T.S. and D.S. v. the United Kingdom (dec.), no. 61540/09, 19 January 2010"^^xsd:string ;
-            dcterms:title "T.S. and D.S. v. the United Kingdom (dec.)"^^xsd:string ],
-        [ dcterms:description "Sections 1, 31, 37, 38 and 44 of the Children Act 1989 "^^xsd:string ],
-        [ dcterms:date "1987-07-08"^^xsd:date ;
-            dcterms:description "W. v. the United Kingdom, 8 July 1987, § 62, Series A no. 121"^^xsd:string ;
-            dcterms:title "W. v. the United Kingdom"^^xsd:string ],
-        [ dcterms:date "1996-08-07"^^xsd:date ;
-            dcterms:description "Johansen v. Norway, 7 August 1996, § 78, Reports of Judgments and Decisions 1996-III"^^xsd:string ;
-            dcterms:title "Johansen v. Norway"^^xsd:string ],
+        [ ns1:hasApplicationNumber "30696/09"^^xsd:string ;
+            dcterms:date "2011-01-21"^^xsd:date ;
+            dcterms:description "M.S.S. v. Belgium and Greece [GC], no. 30696/09, § 289, 21 January 2011"^^xsd:string ;
+            dcterms:title "M.S.S. v. Belgium and Greece [GC]"^^xsd:string ],
         [ ns1:hasApplicationNumber "35991/04"^^xsd:string ;
             dcterms:date "2008-01-10"^^xsd:date ;
             dcterms:description "Kearns v. France, no. 35991/04, § 79, 10 January 2008"^^xsd:string ;
             dcterms:title "Kearns v. France"^^xsd:string ],
-        [ ns1:hasApplicationNumber "28680/06"^^xsd:string ;
-            dcterms:date "2010-03-16"^^xsd:date ;
-            dcterms:description "A.D. and O.D. v. the United Kingdom, no. 28680/06, §§ 82-83, 16 March 2010"^^xsd:string ;
-            dcterms:title "A.D. and O.D. v. the United Kingdom"^^xsd:string ],
-        [ dcterms:date "1987-07-08"^^xsd:date ;
-            dcterms:description "B. v. the United Kingdom, 8 July 1987, § 63, Series A no. 121"^^xsd:string ;
-            dcterms:title "B. v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "11223/04"^^xsd:string ;
+            dcterms:date "2008-07-17"^^xsd:date ;
+            dcterms:description "X v. Croatia, no. 11223/04, § 47, 17 July 2008"^^xsd:string ;
+            dcterms:title "X v. Croatia"^^xsd:string ],
         [ ns1:hasApplicationNumber "35348/06"^^xsd:string ;
             dcterms:date "2011-05-31"^^xsd:date ;
             dcterms:description "R. and H. v. the United Kingdom, no. 35348/06, 31 May 2011"^^xsd:string ;
             dcterms:title "R. and H. v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "30696/09"^^xsd:string ;
-            dcterms:date "2011-01-21"^^xsd:date ;
-            dcterms:description "M.S.S. v. Belgium and Greece [GC], no. 30696/09, § 289, 21 January 2011"^^xsd:string ;
-            dcterms:title "M.S.S. v. Belgium and Greece [GC]"^^xsd:string ] ;
+        [ dcterms:date "1987-07-08"^^xsd:date ;
+            dcterms:description "W. v. the United Kingdom, 8 July 1987, § 62, Series A no. 121"^^xsd:string ;
+            dcterms:title "W. v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "28680/06"^^xsd:string ;
+            dcterms:date "2010-03-16"^^xsd:date ;
+            dcterms:description "A.D. and O.D. v. the United Kingdom, no. 28680/06, §§ 82-83, 16 March 2010"^^xsd:string ;
+            dcterms:title "A.D. and O.D. v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "41615/07"^^xsd:string ;
+            dcterms:date "2010-07-06"^^xsd:date ;
+            dcterms:description "Neulinger and Shuruk v. Switzerland [GC], no. 41615/07, 6 July 2010"^^xsd:string ;
+            dcterms:title "Neulinger and Shuruk v. Switzerland [GC]"^^xsd:string ],
+        [ dcterms:date "1996-08-07"^^xsd:date ;
+            dcterms:description "Johansen v. Norway, 7 August 1996, § 78, Reports of Judgments and Decisions 1996-III"^^xsd:string ;
+            dcterms:title "Johansen v. Norway"^^xsd:string ],
+        [ ns1:hasApplicationNumber "61540/09"^^xsd:string ;
+            dcterms:date "2010-01-19"^^xsd:date ;
+            dcterms:description "T.S. and D.S. v. the United Kingdom (dec.), no. 61540/09, 19 January 2010"^^xsd:string ;
+            dcterms:title "T.S. and D.S. v. the United Kingdom (dec.)"^^xsd:string ],
+        [ dcterms:description "Sections 1, 21, 22, 26, 46 and 47 of the Adoption and Children Act 2002"^^xsd:string ],
+        [ dcterms:description "Sections 1, 31, 37, 38 and 44 of the Children Act 1989 "^^xsd:string ],
+        [ dcterms:date "1987-07-08"^^xsd:date ;
+            dcterms:description "B. v. the United Kingdom, 8 July 1987, § 63, Series A no. 121"^^xsd:string ;
+            dcterms:title "B. v. the United Kingdom"^^xsd:string ] ;
     dcterms:title "CASE OF Y.C. v. THE UNITED KINGDOM"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 

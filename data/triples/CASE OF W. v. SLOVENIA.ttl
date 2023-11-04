@@ -15,7 +15,7 @@
     dcterms:description "(Art. 3) Effective investigation"^^xsd:string,
         "(Art. 3) Prohibition of torture"^^xsd:string,
         "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect)"^^xsd:string ;
-    dcterms:identifier "https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-140030%22]}"^^xsd:string ;
+    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-140030> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2014:0123JUD002412506"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
