@@ -22,84 +22,84 @@
     dcterms:isVersionOf "ECLI:CE:ECHR:2022:1117JUD002941717"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ ns1:hasApplicationNumber "22457/16"^^xsd:string ;
-            dcterms:date "2021-02-02"^^xsd:date ;
-            dcterms:description "X and Others v. Bulgaria [GC], no. 22457/16, § 178, 2 February 2021"^^xsd:string ;
-            dcterms:title "X and Others v. Bulgaria [GC]"^^xsd:string ],
+    dcterms:references [ ns1:hasApplicationNumber "55164/08"^^xsd:string ;
+            dcterms:date "2010-10-14"^^xsd:date ;
+            dcterms:description "A. v. Croatia, no. 55164/08, §§ 57-58, 14 October 2010"^^xsd:string ;
+            dcterms:title "A. v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "17496/19"^^xsd:string ;
+            dcterms:date "2020-09-03"^^xsd:date ;
+            dcterms:description "Levchuk v. Ukraine, no. 17496/19, § 83, 3 September 2020"^^xsd:string ;
+            dcterms:title "Levchuk v. Ukraine"^^xsd:string ],
+        [ ns1:hasApplicationNumber "40419/19"^^xsd:string ;
+            dcterms:date "2021-09-14"^^xsd:date ;
+            dcterms:description "Volodina v. Russia (no. 2), no. 40419/19, § 49, 14 September 2021"^^xsd:string ;
+            dcterms:title "Volodina v. Russia (no. 2)"^^xsd:string ],
         [ ns1:hasApplicationNumber "62903/15"^^xsd:string ;
             dcterms:date "2021-06-15"^^xsd:date ;
             dcterms:description "Kurt v. Austria [GC], no. 62903/15, 15 June 2021"^^xsd:string ;
             dcterms:title "Kurt v. Austria [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "72508/13"^^xsd:string ;
-            dcterms:date "2017-11-28"^^xsd:date ;
-            dcterms:description "Merabishvili v. Georgia [GC], no. 72508/13, § 222, 28 November 2017"^^xsd:string ;
-            dcterms:title "Merabishvili v. Georgia [GC]"^^xsd:string ],
+        [ dcterms:description "Council of Europe Convention on Preventing and Combating Violence against Women and Domestic Violence"^^xsd:string ],
         [ ns1:hasApplicationNumber "61382/09"^^xsd:string ;
             dcterms:date "2013-07-16"^^xsd:date ;
             dcterms:description "B. v. the Republic of Moldova, no. 61382/09, §§ 71 and 73, 16 July 2013"^^xsd:string ;
             dcterms:title "B. v. the Republic of Moldova"^^xsd:string ],
-        [ ns1:hasApplicationNumber "37685/10"^^xsd:string ;
-            dcterms:date "2018-03-20"^^xsd:date ;
-            dcterms:description "Radomilja and Others v. Croatia [GC], nos. 37685/10 and 22768/12, § 114, 20 March 2018"^^xsd:string ;
-            dcterms:title "Radomilja and Others v. Croatia [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "33401/02"^^xsd:string ;
-            dcterms:description "Opuz v. Turkey, no. 33401/02, § 145, ECHR 2009"^^xsd:string ;
-            dcterms:title "Opuz v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "55164/08"^^xsd:string ;
-            dcterms:date "2010-10-14"^^xsd:date ;
-            dcterms:description "A. v. Croatia, no. 55164/08, §§ 57-58, 14 October 2010"^^xsd:string ;
-            dcterms:title "A. v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "5786/08"^^xsd:string ;
-            dcterms:description "Söderman v. Sweden [GC], no. 5786/08, § 102, ECHR 2013"^^xsd:string ;
-            dcterms:title "Söderman v. Sweden [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "49645/09"^^xsd:string ;
-            dcterms:date "2017-05-23"^^xsd:date ;
-            dcterms:description "Bălşan v. Romania, no. 49645/09, §§ 57 and 67, 23 May 2017"^^xsd:string ;
-            dcterms:title "Bălşan v. Romania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "71127/01"^^xsd:string ;
-            dcterms:date "2008-06-12"^^xsd:date ;
-            dcterms:description "Bevacqua and S. v. Bulgaria, no. 71127/01, § 79, 12 June 2008"^^xsd:string ;
-            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "72226/11"^^xsd:string ;
-            dcterms:date "2016-05-03"^^xsd:date ;
-            dcterms:description "N.P. and N.I. v. Bulgaria (dec.), no. 72226/11, § 87, 3 May 2016"^^xsd:string ;
-            dcterms:title "N.P. and N.I. v. Bulgaria (dec.)"^^xsd:string ],
-        [ dcterms:description "Council of Europe Convention on Preventing and Combating Violence against Women and Domestic Violence"^^xsd:string ],
         [ dcterms:description "Code of Criminal Procedure (Official Gazette nos. 152/08 with subsequent amendments) "^^xsd:string ],
         [ ns1:hasApplicationNumber "33234/07"^^xsd:string ;
             dcterms:date "2013-03-26"^^xsd:date ;
             dcterms:description "Valiulienė v. Lithuania, no. 33234/07, § 76, 26 March 2013"^^xsd:string ;
             dcterms:title "Valiulienė v. Lithuania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "38478/05"^^xsd:string ;
-            dcterms:date "2009-03-05"^^xsd:date ;
-            dcterms:description "Sandra Janković v. Croatia, no. 38478/05, § 46, 5 March 2009"^^xsd:string ;
-            dcterms:title "Sandra Janković v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "57220/00"^^xsd:string ;
-            dcterms:description "Mifsud v. France (dec.) [GC], no. 57220/00, § 15, ECHR 2002-VIII"^^xsd:string ;
-            dcterms:title "Mifsud v. France (dec.) [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "40419/19"^^xsd:string ;
-            dcterms:date "2021-09-14"^^xsd:date ;
-            dcterms:description "Volodina v. Russia (no. 2), no. 40419/19, § 49, 14 September 2021"^^xsd:string ;
-            dcterms:title "Volodina v. Russia (no. 2)"^^xsd:string ],
-        [ dcterms:description "Article 139 of the Criminal Code 2011 (Official Gazette nos. 15/11 with subsequent amendments) "^^xsd:string ],
-        [ ns1:hasApplicationNumber "47940/99"^^xsd:string ;
-            dcterms:date "2004-07-20"^^xsd:date ;
-            dcterms:description "Balogh v. Hungary, no. 47940/99, § 30, 20 July 2004"^^xsd:string ;
-            dcterms:title "Balogh v. Hungary"^^xsd:string ],
-        [ dcterms:description "Protection against Domestic Violence Act (Official Gazette nos. 137/2009 with subsequent amendments)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "17496/19"^^xsd:string ;
-            dcterms:date "2020-09-03"^^xsd:date ;
-            dcterms:description "Levchuk v. Ukraine, no. 17496/19, § 83, 3 September 2020"^^xsd:string ;
-            dcterms:title "Levchuk v. Ukraine"^^xsd:string ],
-        [ ns1:hasApplicationNumber "2660/03"^^xsd:string ;
-            dcterms:date "2010-11-30"^^xsd:date ;
-            dcterms:description "Hajduová v. Slovakia, no. 2660/03, §§ 46-49, 30 November 2010"^^xsd:string ;
-            dcterms:title "Hajduová v. Slovakia"^^xsd:string ],
         [ dcterms:description "Directive of the European Parliament and of the Council (2012/29/EU) of 25 October 2012 establishing minimum standards on the rights, support and protection of victims of crime"^^xsd:string ],
         [ ns1:hasApplicationNumber "47666/13"^^xsd:string ;
             dcterms:date "2017-07-11"^^xsd:date ;
             dcterms:description "Ž.B. v. Croatia, no. 47666/13, § 58, 11 July 2017"^^xsd:string ;
-            dcterms:title "Ž.B. v. Croatia"^^xsd:string ] ;
+            dcterms:title "Ž.B. v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "57220/00"^^xsd:string ;
+            dcterms:description "Mifsud v. France (dec.) [GC], no. 57220/00, § 15, ECHR 2002-VIII"^^xsd:string ;
+            dcterms:title "Mifsud v. France (dec.) [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "47940/99"^^xsd:string ;
+            dcterms:date "2004-07-20"^^xsd:date ;
+            dcterms:description "Balogh v. Hungary, no. 47940/99, § 30, 20 July 2004"^^xsd:string ;
+            dcterms:title "Balogh v. Hungary"^^xsd:string ],
+        [ dcterms:description "Article 139 of the Criminal Code 2011 (Official Gazette nos. 15/11 with subsequent amendments) "^^xsd:string ],
+        [ ns1:hasApplicationNumber "71127/01"^^xsd:string ;
+            dcterms:date "2008-06-12"^^xsd:date ;
+            dcterms:description "Bevacqua and S. v. Bulgaria, no. 71127/01, § 79, 12 June 2008"^^xsd:string ;
+            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "49645/09"^^xsd:string ;
+            dcterms:date "2017-05-23"^^xsd:date ;
+            dcterms:description "Bălşan v. Romania, no. 49645/09, §§ 57 and 67, 23 May 2017"^^xsd:string ;
+            dcterms:title "Bălşan v. Romania"^^xsd:string ],
+        [ ns1:hasApplicationNumber "22457/16"^^xsd:string ;
+            dcterms:date "2021-02-02"^^xsd:date ;
+            dcterms:description "X and Others v. Bulgaria [GC], no. 22457/16, § 178, 2 February 2021"^^xsd:string ;
+            dcterms:title "X and Others v. Bulgaria [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "72508/13"^^xsd:string ;
+            dcterms:date "2017-11-28"^^xsd:date ;
+            dcterms:description "Merabishvili v. Georgia [GC], no. 72508/13, § 222, 28 November 2017"^^xsd:string ;
+            dcterms:title "Merabishvili v. Georgia [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "38478/05"^^xsd:string ;
+            dcterms:date "2009-03-05"^^xsd:date ;
+            dcterms:description "Sandra Janković v. Croatia, no. 38478/05, § 46, 5 March 2009"^^xsd:string ;
+            dcterms:title "Sandra Janković v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "37685/10"^^xsd:string ;
+            dcterms:date "2018-03-20"^^xsd:date ;
+            dcterms:description "Radomilja and Others v. Croatia [GC], nos. 37685/10 and 22768/12, § 114, 20 March 2018"^^xsd:string ;
+            dcterms:title "Radomilja and Others v. Croatia [GC]"^^xsd:string ],
+        [ dcterms:description "Protection against Domestic Violence Act (Official Gazette nos. 137/2009 with subsequent amendments)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "5786/08"^^xsd:string ;
+            dcterms:description "Söderman v. Sweden [GC], no. 5786/08, § 102, ECHR 2013"^^xsd:string ;
+            dcterms:title "Söderman v. Sweden [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "2660/03"^^xsd:string ;
+            dcterms:date "2010-11-30"^^xsd:date ;
+            dcterms:description "Hajduová v. Slovakia, no. 2660/03, §§ 46-49, 30 November 2010"^^xsd:string ;
+            dcterms:title "Hajduová v. Slovakia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "33401/02"^^xsd:string ;
+            dcterms:description "Opuz v. Turkey, no. 33401/02, § 145, ECHR 2009"^^xsd:string ;
+            dcterms:title "Opuz v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "72226/11"^^xsd:string ;
+            dcterms:date "2016-05-03"^^xsd:date ;
+            dcterms:description "N.P. and N.I. v. Bulgaria (dec.), no. 72226/11, § 87, 3 May 2016"^^xsd:string ;
+            dcterms:title "N.P. and N.I. v. Bulgaria (dec.)"^^xsd:string ] ;
     dcterms:title "CASE OF MALAGIĆ v. CROATIA"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 

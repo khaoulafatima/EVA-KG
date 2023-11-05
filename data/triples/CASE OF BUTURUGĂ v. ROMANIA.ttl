@@ -36,60 +36,60 @@
     dcterms:isVersionOf "ECLI:CE:ECHR:2020:0211JUD005686715"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ ns1:hasApplicationNumber "61496/08"^^xsd:string ;
-            dcterms:date "2017-09-05"^^xsd:date ;
-            dcterms:description "Bărbulescu v. Romania [GC], no 61496/08, § 108 in fine, 5 September 2017 (extracts)"^^xsd:string ;
-            dcterms:title "Bărbulescu v. Romania [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "43994/05"^^xsd:string ;
-            dcterms:date "2012-10-30"^^xsd:date ;
-            dcterms:description "E.M. v. Romania, no 43994/05, 30 October 2012"^^xsd:string ;
-            dcterms:title "E.M. v. Romania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "25642/94"^^xsd:string ;
-            dcterms:description "Aquilina v. Malta [GC], no 25642/94, § 39 in fine, ECHR 1999 III"^^xsd:string ;
-            dcterms:title "Aquilina v. Malta [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "5786/08"^^xsd:string ;
-            dcterms:description "Söderman v. Sweden [GC], no 5786/08, § 79, ECHR 2013"^^xsd:string ;
-            dcterms:title "Söderman v. Sweden [GC]"^^xsd:string ],
+    dcterms:references [ ns1:hasApplicationNumber "57693/10"^^xsd:string ;
+            dcterms:date "2012-04-24"^^xsd:date ;
+            dcterms:description "Kalucza v. Hungary, no 57693/10, §§ 49-50, 24 April 2012"^^xsd:string ;
+            dcterms:title "Kalucza v. Hungary"^^xsd:string ],
         [ ns1:hasApplicationNumber "37685/10"^^xsd:string ;
             dcterms:date "2018-03-20"^^xsd:date ;
             dcterms:description "Radomilja and Others v. Croatia [GC], no 37685/10, §§ 114 and 126, 20 March 2018"^^xsd:string ;
             dcterms:title "Radomilja and Others v. Croatia [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "26608/11"^^xsd:string ;
-            dcterms:date "2014-01-28"^^xsd:date ;
-            dcterms:description "T.M. and C.M. v. the Republic of Moldova, no 26608/11, § 47, 28 January 2014"^^xsd:string ;
-            dcterms:title "T.M. and C.M. v. the Republic of Moldova"^^xsd:string ],
-        [ dcterms:description "Law no. 217/2003 on preventing and combating domestic violence"^^xsd:string ],
-        [ ns1:hasApplicationNumber "33234/07"^^xsd:string ;
-            dcterms:date "2013-03-26"^^xsd:date ;
-            dcterms:description "Valiulienė v. Lithuania, no 33234/07, §§ 69 and 79, 26 March 2013"^^xsd:string ;
-            dcterms:title "Valiulienė v. Lithuania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "8227/04"^^xsd:string ;
-            dcterms:date "2009-09-15"^^xsd:date ;
-            dcterms:description "E.S. and Others v. Slovakia, no 8227/04, §§ 25-44, 15 September 2009"^^xsd:string ;
-            dcterms:title "E.S. and Others v. Slovakia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "33401/02"^^xsd:string ;
-            dcterms:description "Opuz v. Turkey, no 33401/02, § 159, ECHR 2009"^^xsd:string ;
-            dcterms:title "Opuz v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "43994/05"^^xsd:string ;
+            dcterms:date "2012-10-30"^^xsd:date ;
+            dcterms:description "E.M. v. Romania, no 43994/05, 30 October 2012"^^xsd:string ;
+            dcterms:title "E.M. v. Romania"^^xsd:string ],
+        [ dcterms:description "New Criminal Code, in force since 1 February 2014 "^^xsd:string ],
         [ ns1:hasApplicationNumber "51312/16"^^xsd:string ;
             dcterms:date "2018-02-01"^^xsd:date ;
             dcterms:description "M.K. v. Greece, no 51312/16, § 55 in fine, 1 February 2018"^^xsd:string ;
             dcterms:title "M.K. v. Greece"^^xsd:string ],
-        [ ns1:hasApplicationNumber "49645/09"^^xsd:string ;
-            dcterms:date "2017-05-23"^^xsd:date ;
-            dcterms:description "Bălşan v. Romania, no 49645/09, 23 May 2017"^^xsd:string ;
-            dcterms:title "Bălşan v. Romania"^^xsd:string ],
+        [ ns1:hasApplicationNumber "26608/11"^^xsd:string ;
+            dcterms:date "2014-01-28"^^xsd:date ;
+            dcterms:description "T.M. and C.M. v. the Republic of Moldova, no 26608/11, § 47, 28 January 2014"^^xsd:string ;
+            dcterms:title "T.M. and C.M. v. the Republic of Moldova"^^xsd:string ],
+        [ ns1:hasApplicationNumber "5786/08"^^xsd:string ;
+            dcterms:description "Söderman v. Sweden [GC], no 5786/08, § 79, ECHR 2013"^^xsd:string ;
+            dcterms:title "Söderman v. Sweden [GC]"^^xsd:string ],
+        [ dcterms:description "Law no. 217/2003 on preventing and combating domestic violence"^^xsd:string ],
+        [ ns1:hasApplicationNumber "25642/94"^^xsd:string ;
+            dcterms:description "Aquilina v. Malta [GC], no 25642/94, § 39 in fine, ECHR 1999 III"^^xsd:string ;
+            dcterms:title "Aquilina v. Malta [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "33234/07"^^xsd:string ;
+            dcterms:date "2013-03-26"^^xsd:date ;
+            dcterms:description "Valiulienė v. Lithuania, no 33234/07, §§ 69 and 79, 26 March 2013"^^xsd:string ;
+            dcterms:title "Valiulienė v. Lithuania"^^xsd:string ],
+        [ ns1:hasApplicationNumber "33401/02"^^xsd:string ;
+            dcterms:description "Opuz v. Turkey, no 33401/02, § 159, ECHR 2009"^^xsd:string ;
+            dcterms:title "Opuz v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "8227/04"^^xsd:string ;
+            dcterms:date "2009-09-15"^^xsd:date ;
+            dcterms:description "E.S. and Others v. Slovakia, no 8227/04, §§ 25-44, 15 September 2009"^^xsd:string ;
+            dcterms:title "E.S. and Others v. Slovakia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "61496/08"^^xsd:string ;
+            dcterms:date "2017-09-05"^^xsd:date ;
+            dcterms:description "Bărbulescu v. Romania [GC], no 61496/08, § 108 in fine, 5 September 2017 (extracts)"^^xsd:string ;
+            dcterms:title "Bărbulescu v. Romania [GC]"^^xsd:string ],
         [ ns1:hasApplicationNumber "646/10"^^xsd:string ;
             dcterms:date "2016-03-22"^^xsd:date ;
             dcterms:description "M.G. v. Turkey, no 646/10, § 93, 22 March 2016"^^xsd:string ;
             dcterms:title "M.G. v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "49645/09"^^xsd:string ;
+            dcterms:date "2017-05-23"^^xsd:date ;
+            dcterms:description "Bălşan v. Romania, no 49645/09, 23 May 2017"^^xsd:string ;
+            dcterms:title "Bălşan v. Romania"^^xsd:string ],
         [ ns1:hasApplicationNumber "41526/10"^^xsd:string ;
             dcterms:description "Đorđević v. Croatia, no 41526/10, § 139, ECHR 2012"^^xsd:string ;
-            dcterms:title "Đorđević v. Croatia"^^xsd:string ],
-        [ dcterms:description "New Criminal Code, in force since 1 February 2014 "^^xsd:string ],
-        [ ns1:hasApplicationNumber "57693/10"^^xsd:string ;
-            dcterms:date "2012-04-24"^^xsd:date ;
-            dcterms:description "Kalucza v. Hungary, no 57693/10, §§ 49-50, 24 April 2012"^^xsd:string ;
-            dcterms:title "Kalucza v. Hungary"^^xsd:string ] ;
+            dcterms:title "Đorđević v. Croatia"^^xsd:string ] ;
     dcterms:title "CASE OF BUTURUGĂ v. ROMANIA"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 

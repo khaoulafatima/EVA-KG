@@ -19,29 +19,29 @@
     dcterms:isVersionOf "ECLI:CE:ECHR:2007:0308DEC002394405"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ dcterms:description "Danish Immigration Service report (2005) - \"Report on human rights issues in Nigeria\""^^xsd:string ],
-        [ ns1:hasApplicationNumber "44599/98"^^xsd:string ;
-            dcterms:description "Bensaid v. the United Kingdom, no. 44599/98, § 38, ECHR 2001 I"^^xsd:string ;
-            dcterms:title "Bensaid v. the United Kingdom"^^xsd:string ],
-        [ dcterms:description "Amnesty International country report (2006)"^^xsd:string ],
-        [ dcterms:description "Aliens Act (SFS 2005:"^^xsd:string ],
+    dcterms:references [ dcterms:description "US Department of State report on Nigeria, \"Country Reports on Human Rights Practices - 2005\" (2006)"^^xsd:string ],
+        [ dcterms:description "UNICEF's Statistical Exploration (2005), Female Genital Mutilation/Cutting"^^xsd:string ],
+        [ dcterms:date "1997-04-29"^^xsd:date ;
+            dcterms:description "H.L.R. v. France, judgment of 29 April 1997, Reports of Judgments and Decisions 1997 III, p. 757, §§ 33-34"^^xsd:string ;
+            dcterms:title "H.L.R. v. France"^^xsd:string ],
+        [ dcterms:description "1989 Aliens Act"^^xsd:string ],
+        [ dcterms:description "Swedish Ministry for Foreigh Affairs' report - human rights situation in Nigeria (2004)"^^xsd:string ],
         [ dcterms:description "716) "^^xsd:string ],
+        [ dcterms:description "Amnesty International country report (2006)"^^xsd:string ],
         [ ns1:hasApplicationNumber "31260/04"^^xsd:string ;
             dcterms:date "2005-06-21"^^xsd:date ;
             dcterms:description "Matsiukhina and Matsiukhin v. Sweden (dec.), no. 31260/04, 21 June 2005"^^xsd:string ;
             dcterms:title "Matsiukhina and Matsiukhin v. Sweden (dec.)"^^xsd:string ],
-        [ dcterms:description "Swedish Ministry for Foreigh Affairs' report - human rights situation in Nigeria (2004)"^^xsd:string ],
-        [ dcterms:date "1997-04-29"^^xsd:date ;
-            dcterms:description "H.L.R. v. France, judgment of 29 April 1997, Reports of Judgments and Decisions 1997 III, p. 757, §§ 33-34"^^xsd:string ;
-            dcterms:title "H.L.R. v. France"^^xsd:string ],
         [ ns1:hasApplicationNumber "7702/04"^^xsd:string ;
             dcterms:date "2004-06-29"^^xsd:date ;
             dcterms:description "Salkic and Others v. Sweden (dec.), no. 7702/04, 29 June 2004"^^xsd:string ;
             dcterms:title "Salkic and Others v. Sweden (dec.)"^^xsd:string ],
-        [ dcterms:description "UNICEF's Statistical Exploration (2005), Female Genital Mutilation/Cutting"^^xsd:string ],
-        [ dcterms:description "1989 Aliens Act"^^xsd:string ],
-        [ dcterms:description "US Department of State report on Nigeria, \"Country Reports on Human Rights Practices - 2005\" (2006)"^^xsd:string ],
-        [ dcterms:description "Reports - State Committee on the rights of the Child (2005)"^^xsd:string ] ;
+        [ dcterms:description "Aliens Act (SFS 2005:"^^xsd:string ],
+        [ dcterms:description "Reports - State Committee on the rights of the Child (2005)"^^xsd:string ],
+        [ dcterms:description "Danish Immigration Service report (2005) - \"Report on human rights issues in Nigeria\""^^xsd:string ],
+        [ ns1:hasApplicationNumber "44599/98"^^xsd:string ;
+            dcterms:description "Bensaid v. the United Kingdom, no. 44599/98, § 38, ECHR 2001 I"^^xsd:string ;
+            dcterms:title "Bensaid v. the United Kingdom"^^xsd:string ] ;
     dcterms:title "COLLINS AND AKAZIEBIE v. SWEDEN"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q327000> .
 

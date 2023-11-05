@@ -31,10 +31,10 @@
             dcterms:date "2004-06-29"^^xsd:date ;
             dcterms:description "Salkic and Others v. Sweden (dec.), no. 7702/04, 29 June 2004"^^xsd:string ;
             dcterms:title "Salkic and Others v. Sweden (dec.)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "43408/08"^^xsd:string ;
-            dcterms:date "2011-05-17"^^xsd:date ;
-            dcterms:description "Izevbekhai and others v. Ireland (dec.), no. 43408/08, § 73, 17 May 2011"^^xsd:string ;
-            dcterms:title "Izevbekhai and others v. Ireland (dec.)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "23944/05"^^xsd:string ;
+            dcterms:date "2007-03-08"^^xsd:date ;
+            dcterms:description "Collins and Akaziebie v. Sweden (dec.), no. 23944/05, 8 March 2007"^^xsd:string ;
+            dcterms:title "Collins and Akaziebie v. Sweden (dec.)"^^xsd:string ],
         [ ns1:hasApplicationNumber "39652/98"^^xsd:string ;
             dcterms:description "Maaouia v. France [GC], no. 39652/98, § 33-40, ECHR 2000-X"^^xsd:string ;
             dcterms:title "Maaouia v. France [GC]"^^xsd:string ],
@@ -42,10 +42,10 @@
             dcterms:date "2001-05-31"^^xsd:date ;
             dcterms:description "Katani and Others v. Germany (dec.), no. 67679/01, 31 May 2001"^^xsd:string ;
             dcterms:title "Katani and Others v. Germany (dec.)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "23944/05"^^xsd:string ;
-            dcterms:date "2007-03-08"^^xsd:date ;
-            dcterms:description "Collins and Akaziebie v. Sweden (dec.), no. 23944/05, 8 March 2007"^^xsd:string ;
-            dcterms:title "Collins and Akaziebie v. Sweden (dec.)"^^xsd:string ] ;
+        [ ns1:hasApplicationNumber "43408/08"^^xsd:string ;
+            dcterms:date "2011-05-17"^^xsd:date ;
+            dcterms:description "Izevbekhai and others v. Ireland (dec.), no. 43408/08, § 73, 17 May 2011"^^xsd:string ;
+            dcterms:title "Izevbekhai and others v. Ireland (dec.)"^^xsd:string ] ;
     dcterms:title "OMEREDO v. AUSTRIA"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q327000> .
 

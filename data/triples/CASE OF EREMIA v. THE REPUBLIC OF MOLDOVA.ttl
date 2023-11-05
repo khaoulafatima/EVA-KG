@@ -37,87 +37,87 @@
     dcterms:isVersionOf "ECLI:CE:ECHR:2013:0528JUD000356411"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ dcterms:description "Report of the United Nations Special Rapporteur on violence against women concerning the visit to Moldova from 4 to 11 July 2008 (document A/HRC/11/6/Add.4, 8 May 2009)"^^xsd:string ],
-        [ dcterms:date "1998-02-19"^^xsd:date ;
-            dcterms:description "Guerra and Others v. Italy, 19 February 1998, § 44, Reports 1998-I"^^xsd:string ;
-            dcterms:title "Guerra and Others v. Italy"^^xsd:string ],
-        [ dcterms:date "1993-03-25"^^xsd:date ;
-            dcterms:description "Costello-Roberts v. the United Kingdom, 25 March 1993, Series A no. 247-C"^^xsd:string ;
-            dcterms:title "Costello-Roberts v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "7888/03"^^xsd:string ;
-            dcterms:date "2007-12-20"^^xsd:date ;
-            dcterms:description "Nikolova and Velichkova v. Bulgaria, no. 7888/03, § 61, 20 December 2007"^^xsd:string ;
-            dcterms:title "Nikolova and Velichkova v. Bulgaria"^^xsd:string ],
+    dcterms:references [ ns1:hasApplicationNumber "30210/96"^^xsd:string ;
+            dcterms:description "Kudla v. Poland [GC], no. 30210/96, § 91, ECHR 2000-XI"^^xsd:string ;
+            dcterms:title "Kudla v. Poland [GC]"^^xsd:string ],
         [ dcterms:description "Law no. 45 on the prevention of and combat against domestic violence (1 March 2007, “the Domestic Violence (Combat and Protection) Act 2007”)"^^xsd:string ],
-        [ dcterms:date "1998-10-28"^^xsd:date ;
-            dcterms:description "Osman v. the United Kingdom, 28 October 1998, § 116, Reports 1998-VIII"^^xsd:string ;
-            dcterms:title "Osman v. the United Kingdom"^^xsd:string ],
-        [ dcterms:date "1998-09-23"^^xsd:date ;
-            dcterms:description "A. v. the United Kingdom, 23 September 1998, § 22, Reports of Judgments and Decisions 1998-VI"^^xsd:string ;
-            dcterms:title "A. v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "33134/03"^^xsd:string ;
-            dcterms:date "2010-01-05"^^xsd:date ;
-            dcterms:description "Paduret v. Moldova, no. 33134/03, §§ 70-77, 5 January 2010"^^xsd:string ;
-            dcterms:title "Paduret v. Moldova"^^xsd:string ],
-        [ dcterms:date "1976-12-07"^^xsd:date ;
-            dcterms:description "Handyside v. the United Kingdom, 7 December 1976, § 49, Series A no. 24"^^xsd:string ;
-            dcterms:title "Handyside v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "2660/03"^^xsd:string ;
-            dcterms:date "2010-11-30"^^xsd:date ;
-            dcterms:description "Hajduová v. Slovakia, no. 2660/03, 30 November 2010"^^xsd:string ;
-            dcterms:title "Hajduová v. Slovakia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "23893/06"^^xsd:string ;
-            dcterms:date "2012-04-17"^^xsd:date ;
-            dcterms:description "J.L. v. Latvia, no. 23893/06, § 64, 17 April 2012"^^xsd:string ;
-            dcterms:title "J.L. v. Latvia"^^xsd:string ],
         [ ns1:hasApplicationNumber "42722/02"^^xsd:string ;
             dcterms:date "2008-03-04"^^xsd:date ;
             dcterms:description "Stoica v. Romania, no. 42722/02, § 67, 4 March 2008"^^xsd:string ;
             dcterms:title "Stoica v. Romania"^^xsd:string ],
-        [ dcterms:date "1985-03-26"^^xsd:date ;
-            dcterms:description "X and Y v. the Netherlands, 26 March 1985, §§ 22-24 and 27, Series A no. 91"^^xsd:string ;
-            dcterms:title "X and Y v. the Netherlands"^^xsd:string ],
-        [ ns1:hasApplicationNumber "38719/97"^^xsd:string ;
-            dcterms:date "2002-10-10"^^xsd:date ;
-            dcterms:description "D.P. and J.C. v. the United Kingdom, no. 38719/97, § 118, 10 October 2002"^^xsd:string ;
-            dcterms:title "D.P. and J.C. v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "22978/05"^^xsd:string ;
-            dcterms:description "Gäfgen v. Germany [GC], no. 22978/05, § 108, ECHR 2010"^^xsd:string ;
-            dcterms:title "Gäfgen v. Germany [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "32704/04"^^xsd:string ;
-            dcterms:date "2009-12-17"^^xsd:date ;
-            dcterms:description "Denis Vasilyev v. Russia, no. 32704/04, 17 December 2009"^^xsd:string ;
-            dcterms:title "Denis Vasilyev v. Russia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "33218/96"^^xsd:string ;
-            dcterms:date "2002-11-26"^^xsd:date ;
-            dcterms:description "E. and Others v. the United Kingdom, no. 33218/96, § 88, 26 November 2002"^^xsd:string ;
-            dcterms:title "E. and Others v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "55164/08"^^xsd:string ;
-            dcterms:date "2010-10-14"^^xsd:date ;
-            dcterms:description "A v. Croatia, no. 55164/08, §§ 60-61, 14 October 2010"^^xsd:string ;
-            dcterms:title "A v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "71127/01"^^xsd:string ;
-            dcterms:date "2008-06-12"^^xsd:date ;
-            dcterms:description "Bevacqua and S. v. Bulgaria, no. 71127/01, 12 June 2008"^^xsd:string ;
-            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ],
-        [ dcterms:description "Articles 59, 201 and 320 of the Criminal Code "^^xsd:string ],
-        [ ns1:hasApplicationNumber "33401/02"^^xsd:string ;
-            dcterms:description "Opuz v. Turkey, no. 33401/02, §§ 72-86, ECHR 2009"^^xsd:string ;
-            dcterms:title "Opuz v. Turkey"^^xsd:string ],
         [ ns1:hasApplicationNumber "38478/05"^^xsd:string ;
             dcterms:date "2009-03-05"^^xsd:date ;
             dcterms:description "Sandra Jankovic v. Croatia, no. 38478/05, §§ 44-45, 5 March 2009"^^xsd:string ;
             dcterms:title "Sandra Jankovic v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "23893/06"^^xsd:string ;
+            dcterms:date "2012-04-17"^^xsd:date ;
+            dcterms:description "J.L. v. Latvia, no. 23893/06, § 64, 17 April 2012"^^xsd:string ;
+            dcterms:title "J.L. v. Latvia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "33401/02"^^xsd:string ;
+            dcterms:description "Opuz v. Turkey, no. 33401/02, §§ 72-86, ECHR 2009"^^xsd:string ;
+            dcterms:title "Opuz v. Turkey"^^xsd:string ],
         [ ns1:hasApplicationNumber "36505/02"^^xsd:string ;
             dcterms:date "2003-01-21"^^xsd:date ;
             dcterms:description "August v. the United Kingdom (dec.), no. 36505/02, 21 January 2003"^^xsd:string ;
             dcterms:title "August v. the United Kingdom (dec.)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "30210/96"^^xsd:string ;
-            dcterms:description "Kudla v. Poland [GC], no. 30210/96, § 91, ECHR 2000-XI"^^xsd:string ;
-            dcterms:title "Kudla v. Poland [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "22978/05"^^xsd:string ;
+            dcterms:description "Gäfgen v. Germany [GC], no. 22978/05, § 108, ECHR 2010"^^xsd:string ;
+            dcterms:title "Gäfgen v. Germany [GC]"^^xsd:string ],
+        [ dcterms:date "1998-02-19"^^xsd:date ;
+            dcterms:description "Guerra and Others v. Italy, 19 February 1998, § 44, Reports 1998-I"^^xsd:string ;
+            dcterms:title "Guerra and Others v. Italy"^^xsd:string ],
+        [ ns1:hasApplicationNumber "38719/97"^^xsd:string ;
+            dcterms:date "2002-10-10"^^xsd:date ;
+            dcterms:description "D.P. and J.C. v. the United Kingdom, no. 38719/97, § 118, 10 October 2002"^^xsd:string ;
+            dcterms:title "D.P. and J.C. v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "1985-03-26"^^xsd:date ;
+            dcterms:description "X and Y v. the Netherlands, 26 March 1985, §§ 22-24 and 27, Series A no. 91"^^xsd:string ;
+            dcterms:title "X and Y v. the Netherlands"^^xsd:string ],
+        [ dcterms:description "Articles 59, 201 and 320 of the Criminal Code "^^xsd:string ],
         [ ns1:hasApplicationNumber "39272/98"^^xsd:string ;
             dcterms:description "M.C. v. Bulgaria, no. 39272/98, §§ 150-152, ECHR 2003-XII"^^xsd:string ;
-            dcterms:title "M.C. v. Bulgaria"^^xsd:string ] ;
+            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
+        [ dcterms:date "1993-03-25"^^xsd:date ;
+            dcterms:description "Costello-Roberts v. the United Kingdom, 25 March 1993, Series A no. 247-C"^^xsd:string ;
+            dcterms:title "Costello-Roberts v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "33218/96"^^xsd:string ;
+            dcterms:date "2002-11-26"^^xsd:date ;
+            dcterms:description "E. and Others v. the United Kingdom, no. 33218/96, § 88, 26 November 2002"^^xsd:string ;
+            dcterms:title "E. and Others v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "2660/03"^^xsd:string ;
+            dcterms:date "2010-11-30"^^xsd:date ;
+            dcterms:description "Hajduová v. Slovakia, no. 2660/03, 30 November 2010"^^xsd:string ;
+            dcterms:title "Hajduová v. Slovakia"^^xsd:string ],
+        [ dcterms:date "1998-09-23"^^xsd:date ;
+            dcterms:description "A. v. the United Kingdom, 23 September 1998, § 22, Reports of Judgments and Decisions 1998-VI"^^xsd:string ;
+            dcterms:title "A. v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "32704/04"^^xsd:string ;
+            dcterms:date "2009-12-17"^^xsd:date ;
+            dcterms:description "Denis Vasilyev v. Russia, no. 32704/04, 17 December 2009"^^xsd:string ;
+            dcterms:title "Denis Vasilyev v. Russia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "7888/03"^^xsd:string ;
+            dcterms:date "2007-12-20"^^xsd:date ;
+            dcterms:description "Nikolova and Velichkova v. Bulgaria, no. 7888/03, § 61, 20 December 2007"^^xsd:string ;
+            dcterms:title "Nikolova and Velichkova v. Bulgaria"^^xsd:string ],
+        [ dcterms:date "1998-10-28"^^xsd:date ;
+            dcterms:description "Osman v. the United Kingdom, 28 October 1998, § 116, Reports 1998-VIII"^^xsd:string ;
+            dcterms:title "Osman v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "55164/08"^^xsd:string ;
+            dcterms:date "2010-10-14"^^xsd:date ;
+            dcterms:description "A v. Croatia, no. 55164/08, §§ 60-61, 14 October 2010"^^xsd:string ;
+            dcterms:title "A v. Croatia"^^xsd:string ],
+        [ dcterms:date "1976-12-07"^^xsd:date ;
+            dcterms:description "Handyside v. the United Kingdom, 7 December 1976, § 49, Series A no. 24"^^xsd:string ;
+            dcterms:title "Handyside v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "33134/03"^^xsd:string ;
+            dcterms:date "2010-01-05"^^xsd:date ;
+            dcterms:description "Paduret v. Moldova, no. 33134/03, §§ 70-77, 5 January 2010"^^xsd:string ;
+            dcterms:title "Paduret v. Moldova"^^xsd:string ],
+        [ ns1:hasApplicationNumber "71127/01"^^xsd:string ;
+            dcterms:date "2008-06-12"^^xsd:date ;
+            dcterms:description "Bevacqua and S. v. Bulgaria, no. 71127/01, 12 June 2008"^^xsd:string ;
+            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ],
+        [ dcterms:description "Report of the United Nations Special Rapporteur on violence against women concerning the visit to Moldova from 4 to 11 July 2008 (document A/HRC/11/6/Add.4, 8 May 2009)"^^xsd:string ] ;
     dcterms:title "CASE OF EREMIA v. THE REPUBLIC OF MOLDOVA"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 

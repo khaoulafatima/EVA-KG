@@ -38,89 +38,18 @@
     dcterms:isVersionOf "ECLI:CE:ECHR:2009:0609JUD003340102"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ ns1:hasApplicationNumber "37201/06"^^xsd:string ;
-            dcterms:description "Saadi v. Italy [GC], no. 37201/06, § 63, ECHR 2008-..."^^xsd:string ;
-            dcterms:title "Saadi v. Italy [GC]"^^xsd:string ],
-        [ dcterms:description "Articles 456-4, 457 and 460 of the Criminal Code "^^xsd:string ],
-        [ dcterms:date "2005-01-26"^^xsd:date ;
-            dcterms:description "A.T. v. Hungary, decision of 26 January 2005"^^xsd:string ;
-            dcterms:title "A.T. v. Hungary"^^xsd:string ],
+    dcterms:references [ ns1:hasApplicationNumber "33218/96"^^xsd:string ;
+            dcterms:description "E. and Others v. the United Kingdom, no. 33218/96, § 99"^^xsd:string ;
+            dcterms:title "E. and Others v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "1998-09-23"^^xsd:date ;
+            dcterms:description "Aytekin v. Turkey, 23 September 1998, Reports 1998-VII"^^xsd:string ;
+            dcterms:title "Aytekin v. Turkey"^^xsd:string ],
         [ ns1:hasApplicationNumber "17209/02"^^xsd:string ;
             dcterms:description "Zarb Adami v. Malta, no. 17209/02, ECHR 2006-..."^^xsd:string ;
             dcterms:title "Zarb Adami v. Malta"^^xsd:string ],
-        [ ns1:hasApplicationNumber "42942/02"^^xsd:string ;
-            dcterms:date "2008-04-08"^^xsd:date ;
-            dcterms:description "Ali and Ayse Duran v. Turkey, no. 42942/02, § 54, 8 April 2008"^^xsd:string ;
-            dcterms:title "Ali and Ayse Duran v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "57325/00"^^xsd:string ;
-            dcterms:date "2007-11-13"^^xsd:date ;
-            dcterms:description "D.H. and Others v. Czech Republic [GC], no. 57325/00, 13 November 2007, §§ 175-180"^^xsd:string ;
-            dcterms:title "D.H. and Others v. Czech Republic [GC]"^^xsd:string ],
-        [ dcterms:description "CEDAW Committee's Concluding Comments on the combined fourth and fifth periodic report of Turkey (CEDAW/C/TUR/4-5 and Corr.1, 15 February 2005, § 28)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "42758/98"^^xsd:string ;
-            dcterms:date "2005-02-17"^^xsd:date ;
-            dcterms:description "K.A. and A.D. v. Belgium, no. 42758/98 and 45558/99, § 81, 17 February 2005"^^xsd:string ;
-            dcterms:title "K.A. and A.D. v. Belgium"^^xsd:string ],
-        [ dcterms:date "1998-10-28"^^xsd:date ;
-            dcterms:description "Osman v. the United Kingdom, 28 October 1998, § 115, Reports 1998-VIII"^^xsd:string ;
-            dcterms:title "Osman v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "67215/01"^^xsd:string ;
-            dcterms:date "2005-12-01"^^xsd:date ;
-            dcterms:description "Kenar v. Turkey, no. 67215/01 (dec.), 1 December 2005"^^xsd:string ;
-            dcterms:title "Kenar v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "33218/96"^^xsd:string ;
-            dcterms:description "E. and Others v. the United Kingdom, no. 33218/96, § 99"^^xsd:string ;
-            dcterms:title "E. and Others v. the United Kingdom"^^xsd:string ],
         [ dcterms:date "1997-04-29"^^xsd:date ;
             dcterms:description "H.L.R. v. France, 29 April 1997, § 40, Reports 1997-III"^^xsd:string ;
             dcterms:title "H.L.R. v. France"^^xsd:string ],
-        [ ns1:hasApplicationNumber "32967/96"^^xsd:string ;
-            dcterms:description "Calvelli and Ciglio v. Italy, [GC], no. 32967/96, ECHR 2002, § 51"^^xsd:string ;
-            dcterms:title "Calvelli and Ciglio v. Italy"^^xsd:string ],
-        [ ns1:hasApplicationNumber "34503/97"^^xsd:string ;
-            dcterms:date "2008-11-12"^^xsd:date ;
-            dcterms:description "Demir and Baykara v. Turkey [GC], no. 34503/97, 12 November 2008"^^xsd:string ;
-            dcterms:title "Demir and Baykara v. Turkey [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "7510/04"^^xsd:string ;
-            dcterms:description "Kontrová v. Slovakia, no. 7510/04, §49, ECHR 2007-... (extracts)"^^xsd:string ;
-            dcterms:title "Kontrová v. Slovakia"^^xsd:string ],
-        [ dcterms:description "Recommendation Rec(2002)5 of 30 April 2002 on the protection of women against violence of the Committee of Ministers of the Council of Europe"^^xsd:string ],
-        [ ns1:hasApplicationNumber "7888/03"^^xsd:string ;
-            dcterms:date "2007-12-20"^^xsd:date ;
-            dcterms:description "Nikolova and Velichkova v. Bulgaria, no. 7888/03, § 61, 20 December 2007"^^xsd:string ;
-            dcterms:title "Nikolova and Velichkova v. Bulgaria"^^xsd:string ],
-        [ dcterms:date "1998-06-09"^^xsd:date ;
-            dcterms:description "L.C.B. v. the United Kingdom, 9 June 1998, § 36, Reports 1998-III"^^xsd:string ;
-            dcterms:title "L.C.B. v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "25657/94"^^xsd:string ;
-            dcterms:description "Avsar v. Turkey, no. 25657/94, § 395, ECHR 2001-VII (extracts)"^^xsd:string ;
-            dcterms:title "Avsar v. Turkey"^^xsd:string ],
-        [ dcterms:description "Inter-American Convention on the Prevention, Punishment and Eradication of Violence Against Women 1994 (Belém do Pará Convention)"^^xsd:string ],
-        [ dcterms:date "1998-09-02"^^xsd:date ;
-            dcterms:description "Yasa v. Turkey, 2 September 1998, §§ 102-104, Reports 1998-VI"^^xsd:string ;
-            dcterms:title "Yasa v. Turkey"^^xsd:string ],
-        [ dcterms:date "1993-03-25"^^xsd:date ;
-            dcterms:description "Costello-Roberts v. the United Kingdom, 25 March 1993, § 30, Series A no. 247-C"^^xsd:string ;
-            dcterms:title "Costello-Roberts v. the United Kingdom"^^xsd:string ],
-        [ dcterms:date "1991-03-19"^^xsd:date ;
-            dcterms:description "Cardot v. France, 19 March 1991, § 30, Series A no. 200"^^xsd:string ;
-            dcterms:title "Cardot v. France"^^xsd:string ],
-        [ dcterms:date "2007-10-01"^^xsd:date ;
-            dcterms:description "Fatma Yildirim v. Austria, decision of 1 October 2007"^^xsd:string ;
-            dcterms:title "Fatma Yildirim v. Austria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "23657/94"^^xsd:string ;
-            dcterms:description "Çakici v. Turkey [GC], no. 23657/94, §§ 80-87 and 106, ECHR 1999-IV"^^xsd:string ;
-            dcterms:title "Çakici v. Turkey [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "58461/00"^^xsd:string ;
-            dcterms:date "2005-01-06"^^xsd:date ;
-            dcterms:description "Hoogendijk v. the Netherlands (dec.), no. 58461/00, 6 January 2005"^^xsd:string ;
-            dcterms:title "Hoogendijk v. the Netherlands (dec.)"^^xsd:string ],
-        [ dcterms:description "Convention on the Elimination of All Forms of Discrimination against Women (CEDAW)  adopted in 1979 by the United Nations General Assembly"^^xsd:string ],
-        [ ns1:hasApplicationNumber "71127/01"^^xsd:string ;
-            dcterms:date "2008-06-12"^^xsd:date ;
-            dcterms:description "Bevacqua and S. v. Bulgaria, no. 71127/01, 12 June 2008"^^xsd:string ;
-            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ],
-        [ dcterms:description "Sections 1 and 2 of the Family Protection Act (Law no. 4320, 14 January 1998)"^^xsd:string ],
         [ dcterms:date "1996-11-15"^^xsd:date ;
             dcterms:description "Ahmet Sadik v. Greece, 15 November 1996, § 34, Reports 1996-V"^^xsd:string ;
             dcterms:title "Ahmet Sadik v. Greece"^^xsd:string ],
@@ -128,12 +57,83 @@
             dcterms:date "2002-05-14"^^xsd:date ;
             dcterms:description "Semsi Önen v. Turkey, no. 22876/93, § 77, 14 May 2002"^^xsd:string ;
             dcterms:title "Semsi Önen v. Turkey"^^xsd:string ],
-        [ dcterms:date "1998-09-23"^^xsd:date ;
-            dcterms:description "Aytekin v. Turkey, 23 September 1998, Reports 1998-VII"^^xsd:string ;
-            dcterms:title "Aytekin v. Turkey"^^xsd:string ],
+        [ dcterms:date "2005-01-26"^^xsd:date ;
+            dcterms:description "A.T. v. Hungary, decision of 26 January 2005"^^xsd:string ;
+            dcterms:title "A.T. v. Hungary"^^xsd:string ],
+        [ ns1:hasApplicationNumber "37201/06"^^xsd:string ;
+            dcterms:description "Saadi v. Italy [GC], no. 37201/06, § 63, ECHR 2008-..."^^xsd:string ;
+            dcterms:title "Saadi v. Italy [GC]"^^xsd:string ],
+        [ dcterms:date "2007-10-01"^^xsd:date ;
+            dcterms:description "Fatma Yildirim v. Austria, decision of 1 October 2007"^^xsd:string ;
+            dcterms:title "Fatma Yildirim v. Austria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "25657/94"^^xsd:string ;
+            dcterms:description "Avsar v. Turkey, no. 25657/94, § 395, ECHR 2001-VII (extracts)"^^xsd:string ;
+            dcterms:title "Avsar v. Turkey"^^xsd:string ],
+        [ dcterms:description "Articles 456-4, 457 and 460 of the Criminal Code "^^xsd:string ],
+        [ dcterms:description "Convention on the Elimination of All Forms of Discrimination against Women (CEDAW)  adopted in 1979 by the United Nations General Assembly"^^xsd:string ],
+        [ dcterms:description "Sections 1 and 2 of the Family Protection Act (Law no. 4320, 14 January 1998)"^^xsd:string ],
+        [ dcterms:date "1991-03-19"^^xsd:date ;
+            dcterms:description "Cardot v. France, 19 March 1991, § 30, Series A no. 200"^^xsd:string ;
+            dcterms:title "Cardot v. France"^^xsd:string ],
         [ dcterms:date "1998-09-23"^^xsd:date ;
             dcterms:description "A. v. the United Kingdom, 23 September 1998, § 22, Reports 1998-VI"^^xsd:string ;
-            dcterms:title "A. v. the United Kingdom"^^xsd:string ] ;
+            dcterms:title "A. v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "1993-03-25"^^xsd:date ;
+            dcterms:description "Costello-Roberts v. the United Kingdom, 25 March 1993, § 30, Series A no. 247-C"^^xsd:string ;
+            dcterms:title "Costello-Roberts v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "7510/04"^^xsd:string ;
+            dcterms:description "Kontrová v. Slovakia, no. 7510/04, §49, ECHR 2007-... (extracts)"^^xsd:string ;
+            dcterms:title "Kontrová v. Slovakia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "57325/00"^^xsd:string ;
+            dcterms:date "2007-11-13"^^xsd:date ;
+            dcterms:description "D.H. and Others v. Czech Republic [GC], no. 57325/00, 13 November 2007, §§ 175-180"^^xsd:string ;
+            dcterms:title "D.H. and Others v. Czech Republic [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "23657/94"^^xsd:string ;
+            dcterms:description "Çakici v. Turkey [GC], no. 23657/94, §§ 80-87 and 106, ECHR 1999-IV"^^xsd:string ;
+            dcterms:title "Çakici v. Turkey [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "32967/96"^^xsd:string ;
+            dcterms:description "Calvelli and Ciglio v. Italy, [GC], no. 32967/96, ECHR 2002, § 51"^^xsd:string ;
+            dcterms:title "Calvelli and Ciglio v. Italy"^^xsd:string ],
+        [ dcterms:description "CEDAW Committee's Concluding Comments on the combined fourth and fifth periodic report of Turkey (CEDAW/C/TUR/4-5 and Corr.1, 15 February 2005, § 28)"^^xsd:string ],
+        [ dcterms:description "Inter-American Convention on the Prevention, Punishment and Eradication of Violence Against Women 1994 (Belém do Pará Convention)"^^xsd:string ],
+        [ dcterms:date "1998-06-09"^^xsd:date ;
+            dcterms:description "L.C.B. v. the United Kingdom, 9 June 1998, § 36, Reports 1998-III"^^xsd:string ;
+            dcterms:title "L.C.B. v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "58461/00"^^xsd:string ;
+            dcterms:date "2005-01-06"^^xsd:date ;
+            dcterms:description "Hoogendijk v. the Netherlands (dec.), no. 58461/00, 6 January 2005"^^xsd:string ;
+            dcterms:title "Hoogendijk v. the Netherlands (dec.)"^^xsd:string ],
+        [ dcterms:description "Recommendation Rec(2002)5 of 30 April 2002 on the protection of women against violence of the Committee of Ministers of the Council of Europe"^^xsd:string ],
+        [ ns1:hasApplicationNumber "7888/03"^^xsd:string ;
+            dcterms:date "2007-12-20"^^xsd:date ;
+            dcterms:description "Nikolova and Velichkova v. Bulgaria, no. 7888/03, § 61, 20 December 2007"^^xsd:string ;
+            dcterms:title "Nikolova and Velichkova v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "42758/98"^^xsd:string ;
+            dcterms:date "2005-02-17"^^xsd:date ;
+            dcterms:description "K.A. and A.D. v. Belgium, no. 42758/98 and 45558/99, § 81, 17 February 2005"^^xsd:string ;
+            dcterms:title "K.A. and A.D. v. Belgium"^^xsd:string ],
+        [ ns1:hasApplicationNumber "67215/01"^^xsd:string ;
+            dcterms:date "2005-12-01"^^xsd:date ;
+            dcterms:description "Kenar v. Turkey, no. 67215/01 (dec.), 1 December 2005"^^xsd:string ;
+            dcterms:title "Kenar v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "42942/02"^^xsd:string ;
+            dcterms:date "2008-04-08"^^xsd:date ;
+            dcterms:description "Ali and Ayse Duran v. Turkey, no. 42942/02, § 54, 8 April 2008"^^xsd:string ;
+            dcterms:title "Ali and Ayse Duran v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "71127/01"^^xsd:string ;
+            dcterms:date "2008-06-12"^^xsd:date ;
+            dcterms:description "Bevacqua and S. v. Bulgaria, no. 71127/01, 12 June 2008"^^xsd:string ;
+            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ],
+        [ dcterms:date "1998-09-02"^^xsd:date ;
+            dcterms:description "Yasa v. Turkey, 2 September 1998, §§ 102-104, Reports 1998-VI"^^xsd:string ;
+            dcterms:title "Yasa v. Turkey"^^xsd:string ],
+        [ dcterms:date "1998-10-28"^^xsd:date ;
+            dcterms:description "Osman v. the United Kingdom, 28 October 1998, § 115, Reports 1998-VIII"^^xsd:string ;
+            dcterms:title "Osman v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "34503/97"^^xsd:string ;
+            dcterms:date "2008-11-12"^^xsd:date ;
+            dcterms:description "Demir and Baykara v. Turkey [GC], no. 34503/97, 12 November 2008"^^xsd:string ;
+            dcterms:title "Demir and Baykara v. Turkey [GC]"^^xsd:string ] ;
     dcterms:title "CASE OF OPUZ v. TURKEY"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 

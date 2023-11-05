@@ -8,9 +8,9 @@
     ns1:respondentState <http://www.wikidata.org/entity/Q43> ;
     dcterms:accessRights "public"^^xsd:string ;
     dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "KAVAK KILINÇ Y. "^^xsd:string ],
+            foaf:name "KILINÇ Ü."^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "KILINÇ Ü."^^xsd:string ] ;
+            foaf:name "KAVAK KILINÇ Y. "^^xsd:string ] ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:creator "Court (Second Section)"^^xsd:string ;
     dcterms:date "2014-11-13"^^xsd:date ;

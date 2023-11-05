@@ -8,9 +8,9 @@
     ns1:respondentState <http://www.wikidata.org/entity/Q38> ;
     dcterms:accessRights "public"^^xsd:string ;
     dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "MASCIA A. "^^xsd:string ],
+            foaf:name "ADAMI D."^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "ADAMI D."^^xsd:string ] ;
+            foaf:name "MASCIA A. "^^xsd:string ] ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:creator "Court (Second Section)"^^xsd:string ;
     dcterms:date "2014-05-27"^^xsd:date ;

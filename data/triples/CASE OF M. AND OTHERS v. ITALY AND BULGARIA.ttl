@@ -31,179 +31,179 @@
     dcterms:isVersionOf "ECLI:CE:ECHR:2012:0731JUD004002003"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ dcterms:date "1980-05-13"^^xsd:date ;
-            dcterms:description "Artico v. Italy, 13 May 1980, § 33, Series A no. 37"^^xsd:string ;
-            dcterms:title "Artico v. Italy"^^xsd:string ],
-        [ ns1:hasApplicationNumber "39272/98"^^xsd:string ;
-            dcterms:description "M.C. v. Bulgaria, no. 39272/98, § 150, ECHR 2003-XII"^^xsd:string ;
-            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
-        [ dcterms:description "Articles 159, 177, 178, 190 and 191 of the Bulgarian Criminal Code"^^xsd:string ],
-        [ ns1:hasApplicationNumber "33097/96"^^xsd:string ;
-            dcterms:description "Bati and Others v. Turkey, nos. 33097/96 and 57834/00, § 134, ECHR 2004-IV (extracts)"^^xsd:string ;
-            dcterms:title "Bati and Others v. Turkey"^^xsd:string ],
+    dcterms:references [ ns1:hasApplicationNumber "30141/04"^^xsd:string ;
+            dcterms:description "Schalk and Kopf v. Austria, no. 30141/04, § 62, ECHR 2010"^^xsd:string ;
+            dcterms:title "Schalk and Kopf v. Austria"^^xsd:string ],
         [ ns1:hasApplicationNumber "65731/01"^^xsd:string ;
             dcterms:description "Stec and Others v. the United Kingdom (dec.) [GC], nos. 65731/01 and 65900/01, § 48, ECHR 2005-X"^^xsd:string ;
             dcterms:title "Stec and Others v. the United Kingdom (dec.) [GC]"^^xsd:string ],
-        [ dcterms:description "Law no. 154 of 2001 (Italy)"^^xsd:string ],
-        [ dcterms:description "Law No. 189 of 30 July 2002 (Italy) "^^xsd:string ],
-        [ ns1:hasApplicationNumber "36042/97"^^xsd:string ;
-            dcterms:description "Willis v. the United Kingdom, no. 36042/97, § 48, ECHR 2002-IV"^^xsd:string ;
-            dcterms:title "Willis v. the United Kingdom"^^xsd:string ],
-        [ dcterms:date "1989-07-07"^^xsd:date ;
-            dcterms:description "Soering v. the United Kingdom, 7 July 1989, Series A no. 161"^^xsd:string ;
-            dcterms:title "Soering v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "25385/04"^^xsd:string ;
-            dcterms:description "Medova v. Russia, no. 25385/04, § 116, ECHR 2009-...."^^xsd:string ;
-            dcterms:title "Medova v. Russia"^^xsd:string ],
+        [ dcterms:description "Bulgarian law on combating human trafficking "^^xsd:string ],
+        [ dcterms:date "1980-07-09"^^xsd:date ;
+            dcterms:description "Van Droogenbroeck v. Belgium, Commission’s report of 9 July 1980, §§ 78-80, Series B no. 44"^^xsd:string ;
+            dcterms:title "Van Droogenbroeck v. Belgium"^^xsd:string ],
+        [ ns1:hasApplicationNumber "36217/97"^^xsd:string ;
+            dcterms:date "2005-01-18"^^xsd:date ;
+            dcterms:description "Mentese and Others v. Turkey, no. 36217/97, § 70, 18 January 2005"^^xsd:string ;
+            dcterms:title "Mentese and Others v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "12920/87"^^xsd:string ;
+            dcterms:date "1988-12-13"^^xsd:date ;
+            dcterms:description "L. v Sweden, no. 12920/87, Commission decision of 13 December 1988"^^xsd:string ;
+            dcterms:title "L. v Sweden"^^xsd:string ],
+        [ ns1:hasApplicationNumber "29392/95"^^xsd:string ;
+            dcterms:description "Z and Others v. the United Kingdom [GC], no. 29392/95, § 73, ECHR 2001-V"^^xsd:string ;
+            dcterms:title "Z and Others v. the United Kingdom [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "3013/04"^^xsd:string ;
+            dcterms:date "2008-11-06"^^xsd:date ;
+            dcterms:description "Khadzhialiyev and Others v. Russia, no. 3013/04, § 121, 6 November 2008"^^xsd:string ;
+            dcterms:title "Khadzhialiyev and Others v. Russia"^^xsd:string ],
+        [ dcterms:description "Strasbourg Declaration on Roma"^^xsd:string ],
+        [ dcterms:description "Council of Europe Convention on Action against Trafficking in Human Beings"^^xsd:string ],
         [ ns1:hasApplicationNumber "61164/00"^^xsd:string ;
             dcterms:description "Duringer and Grunge v. France (dec.), nos. 61164/00 and 18589/02, ECHR 2003-II"^^xsd:string ;
             dcterms:title "Duringer and Grunge v. France (dec.)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "12822/87"^^xsd:string ;
-            dcterms:date "1987-12-09"^^xsd:date ;
-            dcterms:description "Kapas v the United Kingdom, no. 12822/87, Commission decision of 9 December 1987, Decision and Reports (DR) 54"^^xsd:string ;
-            dcterms:title "Kapas v the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "43577/98"^^xsd:string ;
-            dcterms:description "Nachova and Others v. Bulgaria [GC], nos. 43577/98 and 43579/98, § 145, ECHR 2005-VII"^^xsd:string ;
-            dcterms:title "Nachova and Others v. Bulgaria [GC]"^^xsd:string ],
-        [ dcterms:description "Parliamentary Assembly of the Council of Europe Resolution 1740 (2010) - The situation of Roma in Europe and relevant activities of the Council of Europe"^^xsd:string ],
-        [ ns1:hasApplicationNumber "73316/01"^^xsd:string ;
-            dcterms:description "Siliadin v. France, no. 73316/01, ECHR 2005-VII"^^xsd:string ;
-            dcterms:title "Siliadin v. France"^^xsd:string ],
+        [ ns1:hasApplicationNumber "25760/94"^^xsd:string ;
+            dcterms:description "Ipek v. Turkey, no. 25760/94, §§ 178-183, ECHR 2004-II (extracts)"^^xsd:string ;
+            dcterms:title "Ipek v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "54178/00"^^xsd:string ;
+            dcterms:date "2003-09-04"^^xsd:date ;
+            dcterms:description "Osmanov and Husseinov v. Bulgaria (dec.), nos. 54178/00 and 59901/00, 4 September 2003"^^xsd:string ;
+            dcterms:title "Osmanov and Husseinov v. Bulgaria (dec.)"^^xsd:string ],
+        [ dcterms:description "Law No. 189 of 30 July 2002 (Italy) "^^xsd:string ],
+        [ dcterms:date "1978-01-18"^^xsd:date ;
+            dcterms:description "Ireland v. the United Kingdom, 18 January 1978, Series A no. 25, § 161 in fine"^^xsd:string ;
+            dcterms:title "Ireland v. the United Kingdom"^^xsd:string ],
+        [ dcterms:description "Parliamentary Assembly of the Council of Europe Resolution 1468 (2005) - Forced marriages and child marriages"^^xsd:string ],
+        [ ns1:hasApplicationNumber "23657/94"^^xsd:string ;
+            dcterms:description "Çakici v. Turkey [GC], no. 23657/94, § 99, ECHR 1999-IV"^^xsd:string ;
+            dcterms:title "Çakici v. Turkey [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "14011/07"^^xsd:string ;
+            dcterms:date "2009-04-14"^^xsd:date ;
+            dcterms:description "Felbab v. Serbia, no. 14011/07, § 56, 14 April 2009"^^xsd:string ;
+            dcterms:title "Felbab v. Serbia"^^xsd:string ],
         [ ns1:hasApplicationNumber "46221/99"^^xsd:string ;
             dcterms:description "Öcalan v. Turkey [GC], no. 46221/99, § 163, ECHR 2005-IV"^^xsd:string ;
             dcterms:title "Öcalan v. Turkey [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "23531/94"^^xsd:string ;
-            dcterms:description "Timurtas v. Turkey, no. 23531/94, §§ 91-98, ECHR 2000-VI"^^xsd:string ;
-            dcterms:title "Timurtas v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "30141/04"^^xsd:string ;
-            dcterms:description "Schalk and Kopf v. Austria, no. 30141/04, § 62, ECHR 2010"^^xsd:string ;
-            dcterms:title "Schalk and Kopf v. Austria"^^xsd:string ],
-        [ dcterms:date "1996-09-16"^^xsd:date ;
-            dcterms:description "Akdivar and Others v. Turkey, 16 September 1996, Reports of Judgments and Decisions 1996-IV, §§ 53-54"^^xsd:string ;
-            dcterms:title "Akdivar and Others v. Turkey"^^xsd:string ],
-        [ dcterms:description "Council of Europe Convention on Action against Trafficking in Human Beings"^^xsd:string ],
-        [ dcterms:description "Bulgarian law on combating human trafficking "^^xsd:string ],
         [ ns1:hasApplicationNumber "42234/02"^^xsd:string ;
             dcterms:date "2008-07-17"^^xsd:date ;
             dcterms:description "Mehmet Ümit Erdem v. Turkey, no. 42234/02, § 26, 17 July 2008"^^xsd:string ;
             dcterms:title "Mehmet Ümit Erdem v. Turkey"^^xsd:string ],
+        [ dcterms:date "1996-12-18"^^xsd:date ;
+            dcterms:description "Loizidou v. Turkey, 18 December 1996, Reports 1996-VI"^^xsd:string ;
+            dcterms:title "Loizidou v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "42400/98"^^xsd:string ;
+            dcterms:date "2000-03-07"^^xsd:date ;
+            dcterms:description "Seguin v. France (dec.), no. 42400/98, 7 March 2000"^^xsd:string ;
+            dcterms:title "Seguin v. France (dec.)"^^xsd:string ],
+        [ dcterms:date "1998-10-28"^^xsd:date ;
+            dcterms:description "Assenov and Others v. Bulgaria, 28 October 1998, § 102, Reports 1998-VIII"^^xsd:string ;
+            dcterms:title "Assenov and Others v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "39272/98"^^xsd:string ;
+            dcterms:description "M.C. v. Bulgaria, no. 39272/98, § 150, ECHR 2003-XII"^^xsd:string ;
+            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "36042/97"^^xsd:string ;
+            dcterms:description "Willis v. the United Kingdom, no. 36042/97, § 48, ECHR 2002-IV"^^xsd:string ;
+            dcterms:title "Willis v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "1983-11-23"^^xsd:date ;
+            dcterms:description "Van der Mussele v. Belgium, 23 November 1983, § 34, Series A no. 70"^^xsd:string ;
+            dcterms:title "Van der Mussele v. Belgium"^^xsd:string ],
+        [ dcterms:description "Law no. 228, namely the Law on Measures to Prevent Trafficking in Human Beings (Italy) "^^xsd:string ],
+        [ dcterms:date "1996-09-16"^^xsd:date ;
+            dcterms:description "Akdivar and Others v. Turkey, 16 September 1996, Reports of Judgments and Decisions 1996-IV, §§ 53-54"^^xsd:string ;
+            dcterms:title "Akdivar and Others v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "74153/01"^^xsd:string ;
+            dcterms:date "2005-01-18"^^xsd:date ;
+            dcterms:description "Popov v. Moldova, no. 74153/01, § 49, 18 January 2005"^^xsd:string ;
+            dcterms:title "Popov v. Moldova"^^xsd:string ],
+        [ ns1:hasApplicationNumber "25045/94"^^xsd:string ;
+            dcterms:date "1996-04-12"^^xsd:date ;
+            dcterms:description "Dobberstein v Germany, no. 25045/94, Commission decision of 12 April 1996"^^xsd:string ;
+            dcterms:title "Dobberstein v Germany"^^xsd:string ],
+        [ dcterms:date "1996-12-18"^^xsd:date ;
+            dcterms:description "Aksoy v. Turkey, 18 December 1996, § 98, Reports 1996-VI"^^xsd:string ;
+            dcterms:title "Aksoy v. Turkey"^^xsd:string ],
+        [ dcterms:date "1989-07-07"^^xsd:date ;
+            dcterms:description "Soering v. the United Kingdom, 7 July 1989, Series A no. 161"^^xsd:string ;
+            dcterms:title "Soering v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "25965/04"^^xsd:string ;
+            dcterms:date "2010-01-07"^^xsd:date ;
+            dcterms:description "Rantsev v. Cyprus and Russia, no. 25965/04, 7 January 2010"^^xsd:string ;
+            dcterms:title "Rantsev v. Cyprus and Russia"^^xsd:string ],
+        [ dcterms:description "UN Declaration of Basic Principles of Justice for Victims of Crime and Abuse of Power"^^xsd:string ],
+        [ ns1:hasApplicationNumber "30951/96"^^xsd:string ;
+            dcterms:date "2005-03-22"^^xsd:date ;
+            dcterms:description "Ay v. Turkey, no. 30951/96, §§ 59-60, 22 March 2005"^^xsd:string ;
+            dcterms:title "Ay v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "23531/94"^^xsd:string ;
+            dcterms:description "Timurtas v. Turkey, no. 23531/94, §§ 91-98, ECHR 2000-VI"^^xsd:string ;
+            dcterms:title "Timurtas v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "5964/02"^^xsd:string ;
+            dcterms:date "2006-04-06"^^xsd:date ;
+            dcterms:description "Chernitsyn v. Russia, no. 5964/02, § 25, 6 April 2006"^^xsd:string ;
+            dcterms:title "Chernitsyn v. Russia"^^xsd:string ],
+        [ dcterms:date "1975-02-21"^^xsd:date ;
+            dcterms:description "Golder v. the United Kingdom, 21 February 1975, § 29, Series A no. 18"^^xsd:string ;
+            dcterms:title "Golder v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "56760/00"^^xsd:string ;
+            dcterms:date "2007-02-27"^^xsd:date ;
+            dcterms:description "Akpinar and Altun v. Turkey, no. 56760/00, § 86, 27 February 2007"^^xsd:string ;
+            dcterms:title "Akpinar and Altun v. Turkey"^^xsd:string ],
+        [ dcterms:description "Parliamentary Assembly of the Council of Europe Resolution 1740 (2010) - The situation of Roma in Europe and relevant activities of the Council of Europe"^^xsd:string ],
+        [ dcterms:description "Law no. 154 of 2001 (Italy)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "34503/97"^^xsd:string ;
+            dcterms:date "2008-11-12"^^xsd:date ;
+            dcterms:description "Demir and Baykara v. Turkey [GC], no. 34503/97, § 67, 12 November 2008"^^xsd:string ;
+            dcterms:title "Demir and Baykara v. Turkey [GC]"^^xsd:string ],
+        [ dcterms:description "Articles 50 and 55 and 2 of the Code of Criminal Procedure "^^xsd:string ],
+        [ ns1:hasApplicationNumber "25385/04"^^xsd:string ;
+            dcterms:description "Medova v. Russia, no. 25385/04, § 116, ECHR 2009-...."^^xsd:string ;
+            dcterms:title "Medova v. Russia"^^xsd:string ],
         [ dcterms:date "1998-05-25"^^xsd:date ;
             dcterms:description "Kurt v. Turkey, 25 May 1998, §§ 130-134, Reports 1998-III"^^xsd:string ;
             dcterms:title "Kurt v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "13229/03"^^xsd:string ;
-            dcterms:description "Saadi v. the United Kingdom [GC], no. 13229/03, § 62, ECHR 2008-..."^^xsd:string ;
-            dcterms:title "Saadi v. the United Kingdom [GC]"^^xsd:string ],
+        [ dcterms:description "Articles 572, 573 and 609 of the Italian Criminal Code "^^xsd:string ],
         [ dcterms:description "Articles 174 and 190 of the Bulgarian Code of Criminal Procedure "^^xsd:string ],
         [ ns1:hasApplicationNumber "33401/02"^^xsd:string ;
             dcterms:date "2009-06-09"^^xsd:date ;
             dcterms:description "Opuz v. Turkey, no. 33401/02, §§ 160-176, 9 June 2009"^^xsd:string ;
             dcterms:title "Opuz v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "30951/96"^^xsd:string ;
-            dcterms:date "2005-03-22"^^xsd:date ;
-            dcterms:description "Ay v. Turkey, no. 30951/96, §§ 59-60, 22 March 2005"^^xsd:string ;
-            dcterms:title "Ay v. Turkey"^^xsd:string ],
-        [ dcterms:date "1980-07-09"^^xsd:date ;
-            dcterms:description "Van Droogenbroeck v. Belgium, Commission’s report of 9 July 1980, §§ 78-80, Series B no. 44"^^xsd:string ;
-            dcterms:title "Van Droogenbroeck v. Belgium"^^xsd:string ],
-        [ dcterms:description "Strasbourg Declaration on Roma"^^xsd:string ],
-        [ dcterms:date "1975-02-21"^^xsd:date ;
-            dcterms:description "Golder v. the United Kingdom, 21 February 1975, § 29, Series A no. 18"^^xsd:string ;
-            dcterms:title "Golder v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "42400/98"^^xsd:string ;
-            dcterms:date "2000-03-07"^^xsd:date ;
-            dcterms:description "Seguin v. France (dec.), no. 42400/98, 7 March 2000"^^xsd:string ;
-            dcterms:title "Seguin v. France (dec.)"^^xsd:string ],
-        [ dcterms:description "Law no. 228, namely the Law on Measures to Prevent Trafficking in Human Beings (Italy) "^^xsd:string ],
-        [ dcterms:description "Articles 50 and 55 and 2 of the Code of Criminal Procedure "^^xsd:string ],
-        [ dcterms:date "1998-10-28"^^xsd:date ;
-            dcterms:description "Assenov and Others v. Bulgaria, 28 October 1998, § 102, Reports 1998-VIII"^^xsd:string ;
-            dcterms:title "Assenov and Others v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "25965/04"^^xsd:string ;
-            dcterms:date "2010-01-07"^^xsd:date ;
-            dcterms:description "Rantsev v. Cyprus and Russia, no. 25965/04, 7 January 2010"^^xsd:string ;
-            dcterms:title "Rantsev v. Cyprus and Russia"^^xsd:string ],
-        [ dcterms:description "Articles 572, 573 and 609 of the Italian Criminal Code "^^xsd:string ],
-        [ ns1:hasApplicationNumber "3013/04"^^xsd:string ;
-            dcterms:date "2008-11-06"^^xsd:date ;
-            dcterms:description "Khadzhialiyev and Others v. Russia, no. 3013/04, § 121, 6 November 2008"^^xsd:string ;
-            dcterms:title "Khadzhialiyev and Others v. Russia"^^xsd:string ],
-        [ dcterms:date "1998-09-23"^^xsd:date ;
-            dcterms:description "A. v. the United Kingdom, 23 September 1998, § 22, Reports 1998-VI"^^xsd:string ;
-            dcterms:title "A. v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "5964/02"^^xsd:string ;
-            dcterms:date "2006-04-06"^^xsd:date ;
-            dcterms:description "Chernitsyn v. Russia, no. 5964/02, § 25, 6 April 2006"^^xsd:string ;
-            dcterms:title "Chernitsyn v. Russia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "31365/96"^^xsd:string ;
-            dcterms:description "Varbanov v. Bulgaria, no. 31365/96, § 36, ECHR 2000-X"^^xsd:string ;
-            dcterms:title "Varbanov v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "29392/95"^^xsd:string ;
-            dcterms:description "Z and Others v. the United Kingdom [GC], no. 29392/95, § 73, ECHR 2001-V"^^xsd:string ;
-            dcterms:title "Z and Others v. the United Kingdom [GC]"^^xsd:string ],
-        [ dcterms:date "1983-11-23"^^xsd:date ;
-            dcterms:description "Van der Mussele v. Belgium, 23 November 1983, § 34, Series A no. 70"^^xsd:string ;
-            dcterms:title "Van der Mussele v. Belgium"^^xsd:string ],
-        [ ns1:hasApplicationNumber "12920/87"^^xsd:string ;
-            dcterms:date "1988-12-13"^^xsd:date ;
-            dcterms:description "L. v Sweden, no. 12920/87, Commission decision of 13 December 1988"^^xsd:string ;
-            dcterms:title "L. v Sweden"^^xsd:string ],
-        [ ns1:hasApplicationNumber "23657/94"^^xsd:string ;
-            dcterms:description "Çakici v. Turkey [GC], no. 23657/94, § 99, ECHR 1999-IV"^^xsd:string ;
-            dcterms:title "Çakici v. Turkey [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "35763/97"^^xsd:string ;
-            dcterms:description "Al-Adsani v. the United Kingdom [GC], no. 35763/97, ECHR 2001-XI"^^xsd:string ;
-            dcterms:title "Al-Adsani v. the United Kingdom [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "74153/01"^^xsd:string ;
-            dcterms:date "2005-01-18"^^xsd:date ;
-            dcterms:description "Popov v. Moldova, no. 74153/01, § 49, 18 January 2005"^^xsd:string ;
-            dcterms:title "Popov v. Moldova"^^xsd:string ],
-        [ dcterms:description "UN Declaration of Basic Principles of Justice for Victims of Crime and Abuse of Power"^^xsd:string ],
-        [ dcterms:description "Parliamentary Assembly of the Council of Europe Resolution 1468 (2005) - Forced marriages and child marriages"^^xsd:string ],
         [ dcterms:description "Convention on Consent to Marriage, Minimum Age for Marriage and Registration of Marriages"^^xsd:string ],
-        [ dcterms:date "1996-12-18"^^xsd:date ;
-            dcterms:description "Aksoy v. Turkey, 18 December 1996, § 98, Reports 1996-VI"^^xsd:string ;
-            dcterms:title "Aksoy v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "12822/87"^^xsd:string ;
+            dcterms:date "1987-12-09"^^xsd:date ;
+            dcterms:description "Kapas v the United Kingdom, no. 12822/87, Commission decision of 9 December 1987, Decision and Reports (DR) 54"^^xsd:string ;
+            dcterms:title "Kapas v the United Kingdom"^^xsd:string ],
         [ ns1:hasApplicationNumber "44093/98"^^xsd:string ;
             dcterms:date "2004-10-26"^^xsd:date ;
             dcterms:description "Çelik and Imret v. Turkey, no. 44093/98, § 55, 26 October 2004"^^xsd:string ;
             dcterms:title "Çelik and Imret v. Turkey"^^xsd:string ],
-        [ dcterms:date "1978-01-18"^^xsd:date ;
-            dcterms:description "Ireland v. the United Kingdom, 18 January 1978, Series A no. 25, § 161 in fine"^^xsd:string ;
-            dcterms:title "Ireland v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "54178/00"^^xsd:string ;
-            dcterms:date "2003-09-04"^^xsd:date ;
-            dcterms:description "Osmanov and Husseinov v. Bulgaria (dec.), nos. 54178/00 and 59901/00, 4 September 2003"^^xsd:string ;
-            dcterms:title "Osmanov and Husseinov v. Bulgaria (dec.)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "56760/00"^^xsd:string ;
-            dcterms:date "2007-02-27"^^xsd:date ;
-            dcterms:description "Akpinar and Altun v. Turkey, no. 56760/00, § 86, 27 February 2007"^^xsd:string ;
-            dcterms:title "Akpinar and Altun v. Turkey"^^xsd:string ],
+        [ dcterms:date "1980-05-13"^^xsd:date ;
+            dcterms:description "Artico v. Italy, 13 May 1980, § 33, Series A no. 37"^^xsd:string ;
+            dcterms:title "Artico v. Italy"^^xsd:string ],
+        [ ns1:hasApplicationNumber "33097/96"^^xsd:string ;
+            dcterms:description "Bati and Others v. Turkey, nos. 33097/96 and 57834/00, § 134, ECHR 2004-IV (extracts)"^^xsd:string ;
+            dcterms:title "Bati and Others v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "13229/03"^^xsd:string ;
+            dcterms:description "Saadi v. the United Kingdom [GC], no. 13229/03, § 62, ECHR 2008-..."^^xsd:string ;
+            dcterms:title "Saadi v. the United Kingdom [GC]"^^xsd:string ],
+        [ dcterms:description "Articles 159, 177, 178, 190 and 191 of the Bulgarian Criminal Code"^^xsd:string ],
+        [ ns1:hasApplicationNumber "43577/98"^^xsd:string ;
+            dcterms:description "Nachova and Others v. Bulgaria [GC], nos. 43577/98 and 43579/98, § 145, ECHR 2005-VII"^^xsd:string ;
+            dcterms:title "Nachova and Others v. Bulgaria [GC]"^^xsd:string ],
         [ ns1:hasApplicationNumber "16631/04"^^xsd:string ;
             dcterms:date "2006-07-04"^^xsd:date ;
             dcterms:description "Zarb v. Malta, no. 16631/04, § 45, 4 July 2006"^^xsd:string ;
             dcterms:title "Zarb v. Malta"^^xsd:string ],
-        [ ns1:hasApplicationNumber "34503/97"^^xsd:string ;
-            dcterms:date "2008-11-12"^^xsd:date ;
-            dcterms:description "Demir and Baykara v. Turkey [GC], no. 34503/97, § 67, 12 November 2008"^^xsd:string ;
-            dcterms:title "Demir and Baykara v. Turkey [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "25760/94"^^xsd:string ;
-            dcterms:description "Ipek v. Turkey, no. 25760/94, §§ 178-183, ECHR 2004-II (extracts)"^^xsd:string ;
-            dcterms:title "Ipek v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "25045/94"^^xsd:string ;
-            dcterms:date "1996-04-12"^^xsd:date ;
-            dcterms:description "Dobberstein v Germany, no. 25045/94, Commission decision of 12 April 1996"^^xsd:string ;
-            dcterms:title "Dobberstein v Germany"^^xsd:string ],
-        [ ns1:hasApplicationNumber "14011/07"^^xsd:string ;
-            dcterms:date "2009-04-14"^^xsd:date ;
-            dcterms:description "Felbab v. Serbia, no. 14011/07, § 56, 14 April 2009"^^xsd:string ;
-            dcterms:title "Felbab v. Serbia"^^xsd:string ],
-        [ dcterms:date "1996-12-18"^^xsd:date ;
-            dcterms:description "Loizidou v. Turkey, 18 December 1996, Reports 1996-VI"^^xsd:string ;
-            dcterms:title "Loizidou v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "36217/97"^^xsd:string ;
-            dcterms:date "2005-01-18"^^xsd:date ;
-            dcterms:description "Mentese and Others v. Turkey, no. 36217/97, § 70, 18 January 2005"^^xsd:string ;
-            dcterms:title "Mentese and Others v. Turkey"^^xsd:string ] ;
+        [ ns1:hasApplicationNumber "35763/97"^^xsd:string ;
+            dcterms:description "Al-Adsani v. the United Kingdom [GC], no. 35763/97, ECHR 2001-XI"^^xsd:string ;
+            dcterms:title "Al-Adsani v. the United Kingdom [GC]"^^xsd:string ],
+        [ dcterms:date "1998-09-23"^^xsd:date ;
+            dcterms:description "A. v. the United Kingdom, 23 September 1998, § 22, Reports 1998-VI"^^xsd:string ;
+            dcterms:title "A. v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "31365/96"^^xsd:string ;
+            dcterms:description "Varbanov v. Bulgaria, no. 31365/96, § 36, ECHR 2000-X"^^xsd:string ;
+            dcterms:title "Varbanov v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "73316/01"^^xsd:string ;
+            dcterms:description "Siliadin v. France, no. 73316/01, ECHR 2005-VII"^^xsd:string ;
+            dcterms:title "Siliadin v. France"^^xsd:string ] ;
     dcterms:title "CASE OF M. AND OTHERS v. ITALY AND BULGARIA"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 

@@ -33,45 +33,19 @@
     dcterms:isVersionOf "ECLI:CE:ECHR:2012:0724JUD004715908"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ ns1:hasApplicationNumber "43577/98"^^xsd:string ;
-            dcterms:description "Nachova and Others v. Bulgaria [GC] nos. 43577/98 and 43579/98, ECHR 2005-VII"^^xsd:string ;
-            dcterms:title "Nachova and Others v. Bulgaria [GC] nos. 43577/98 and 43579/98"^^xsd:string ],
-        [ dcterms:date "1998-02-19"^^xsd:date ;
-            dcterms:description "Kaya v. Turkey, 19 February 1998, § 86, Reports of Judgments and Decisions 1998-I"^^xsd:string ;
-            dcterms:title "Kaya v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "28433/02"^^xsd:string ;
-            dcterms:date "2008-07-17"^^xsd:date ;
-            dcterms:description "Çamdereli v. Turkey, no 28433/02, §§ 28-29, 17 July 2008"^^xsd:string ;
-            dcterms:title "Çamdereli v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "21986/93"^^xsd:string ;
+    dcterms:references [ ns1:hasApplicationNumber "21986/93"^^xsd:string ;
             dcterms:description "Salman v. Turkey, no 21986/93, § 100, ECHR 2000-VII"^^xsd:string ;
             dcterms:title "Salman v. Turkey"^^xsd:string ],
-        [ dcterms:date "1998-10-28"^^xsd:date ;
-            dcterms:description "Assenov and Others v. Bulgaria, 28 October 1998, § 102, Reports 1998-VIII"^^xsd:string ;
-            dcterms:title "Assenov and Others v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "44256/06"^^xsd:string ;
-            dcterms:date "2009-03-10"^^xsd:date ;
-            dcterms:description "Turan Çakir v. Belgium, no 44256/06, 10 March 2009"^^xsd:string ;
-            dcterms:title "Turan Çakir v. Belgium"^^xsd:string ],
-        [ ns1:hasApplicationNumber "39221/98"^^xsd:string ;
-            dcterms:description "Scozzari and Giunta v. Italy [GC], nos. 39221/98 and 41963/98, § 249, ECHR 2000-VIII"^^xsd:string ;
-            dcterms:title "Scozzari and Giunta v. Italy [GC]"^^xsd:string ],
-        [ dcterms:date "1998-09-02"^^xsd:date ;
-            dcterms:description "Yasa v. Turkey, 2 September 1998, § 98, Reports 1998-VI"^^xsd:string ;
-            dcterms:title "Yasa v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "26772/95"^^xsd:string ;
-            dcterms:description "Labita v. Italy [GC], no 26772/95, ECHR 2000-IV"^^xsd:string ;
-            dcterms:title "Labita v. Italy [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "71503/01"^^xsd:string ;
-            dcterms:description "Assanidze v. Georgia [GC], no 71503/01, § 202, ECHR 2004-II"^^xsd:string ;
-            dcterms:title "Assanidze v. Georgia [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "20869/92"^^xsd:string ;
+            dcterms:description "Dikme v. Turkey, no 20869/92, § 101, ECHR 2000-VIII"^^xsd:string ;
+            dcterms:title "Dikme v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "43577/98"^^xsd:string ;
+            dcterms:description "Nachova and Others v. Bulgaria [GC] nos. 43577/98 and 43579/98, ECHR 2005-VII"^^xsd:string ;
+            dcterms:title "Nachova and Others v. Bulgaria [GC] nos. 43577/98 and 43579/98"^^xsd:string ],
         [ ns1:hasApplicationNumber "41461/02"^^xsd:string ;
             dcterms:date "2008-07-24"^^xsd:date ;
             dcterms:description "Vladimir Romanov v. Russia, no 41461/02, §§ 79 and 81, 24 July 2008"^^xsd:string ;
             dcterms:title "Vladimir Romanov v. Russia"^^xsd:string ],
-        [ dcterms:date "1996-11-15"^^xsd:date ;
-            dcterms:description "Chahal v. the United Kingdom, 15 November 1996, § 79, Reports 1996-V"^^xsd:string ;
-            dcterms:title "Chahal v. the United Kingdom"^^xsd:string ],
         [ ns1:hasApplicationNumber "50222/99"^^xsd:string ;
             dcterms:date "2004-09-30"^^xsd:date ;
             dcterms:description "Krastanov v. Bulgaria, no 50222/99, § 48, 30 September 2004"^^xsd:string ;
@@ -80,26 +54,52 @@
             dcterms:date "2008-02-12"^^xsd:date ;
             dcterms:description "Sonkaya v. Turkey, no 11261/03, § 25, 12 February 2008"^^xsd:string ;
             dcterms:title "Sonkaya v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "31443/96"^^xsd:string ;
-            dcterms:description "Broniowski v. Poland [GC], no 31443/96, § 194, ECHR 2004-V"^^xsd:string ;
-            dcterms:title "Broniowski v. Poland [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "11830/03"^^xsd:string ;
-            dcterms:date "2008-07-29"^^xsd:date ;
-            dcterms:description "Gharibashvili v. Georgia, no 11830/03, § 57, 29 July 2008"^^xsd:string ;
-            dcterms:title "Gharibashvili v. Georgia"^^xsd:string ],
+        [ dcterms:date "1998-10-28"^^xsd:date ;
+            dcterms:description "Assenov and Others v. Bulgaria, 28 October 1998, § 102, Reports 1998-VIII"^^xsd:string ;
+            dcterms:title "Assenov and Others v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "26772/95"^^xsd:string ;
+            dcterms:description "Labita v. Italy [GC], no 26772/95, ECHR 2000-IV"^^xsd:string ;
+            dcterms:title "Labita v. Italy [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "44256/06"^^xsd:string ;
+            dcterms:date "2009-03-10"^^xsd:date ;
+            dcterms:description "Turan Çakir v. Belgium, no 44256/06, 10 March 2009"^^xsd:string ;
+            dcterms:title "Turan Çakir v. Belgium"^^xsd:string ],
         [ ns1:hasApplicationNumber "72250/01"^^xsd:string ;
             dcterms:date "2010-07-13"^^xsd:date ;
             dcterms:description "Lopata v. Russia, no 72250/01, § 125, 13 July 2010"^^xsd:string ;
             dcterms:title "Lopata v. Russia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "28433/02"^^xsd:string ;
+            dcterms:date "2008-07-17"^^xsd:date ;
+            dcterms:description "Çamdereli v. Turkey, no 28433/02, §§ 28-29, 17 July 2008"^^xsd:string ;
+            dcterms:title "Çamdereli v. Turkey"^^xsd:string ],
+        [ dcterms:date "1998-09-02"^^xsd:date ;
+            dcterms:description "Yasa v. Turkey, 2 September 1998, § 98, Reports 1998-VI"^^xsd:string ;
+            dcterms:title "Yasa v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "71503/01"^^xsd:string ;
+            dcterms:description "Assanidze v. Georgia [GC], no 71503/01, § 202, ECHR 2004-II"^^xsd:string ;
+            dcterms:title "Assanidze v. Georgia [GC]"^^xsd:string ],
         [ dcterms:date "1995-09-27"^^xsd:date ;
             dcterms:description "McCann and Others v. the United Kingdom, 27 September 1995, § 161, Series A no 324"^^xsd:string ;
             dcterms:title "McCann and Others v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "20869/92"^^xsd:string ;
-            dcterms:description "Dikme v. Turkey, no 20869/92, § 101, ECHR 2000-VIII"^^xsd:string ;
-            dcterms:title "Dikme v. Turkey"^^xsd:string ],
+        [ dcterms:date "1996-11-15"^^xsd:date ;
+            dcterms:description "Chahal v. the United Kingdom, 15 November 1996, § 79, Reports 1996-V"^^xsd:string ;
+            dcterms:title "Chahal v. the United Kingdom"^^xsd:string ],
+        [ ns1:hasApplicationNumber "11830/03"^^xsd:string ;
+            dcterms:date "2008-07-29"^^xsd:date ;
+            dcterms:description "Gharibashvili v. Georgia, no 11830/03, § 57, 29 July 2008"^^xsd:string ;
+            dcterms:title "Gharibashvili v. Georgia"^^xsd:string ],
         [ ns1:hasApplicationNumber "28342/95"^^xsd:string ;
             dcterms:description "Brumarescu v. Romania (just satisfaction) [GC], no 28342/95, § 20, ECHR 2001-I"^^xsd:string ;
-            dcterms:title "Brumarescu v. Romania (just satisfaction) [GC]"^^xsd:string ] ;
+            dcterms:title "Brumarescu v. Romania (just satisfaction) [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "39221/98"^^xsd:string ;
+            dcterms:description "Scozzari and Giunta v. Italy [GC], nos. 39221/98 and 41963/98, § 249, ECHR 2000-VIII"^^xsd:string ;
+            dcterms:title "Scozzari and Giunta v. Italy [GC]"^^xsd:string ],
+        [ dcterms:date "1998-02-19"^^xsd:date ;
+            dcterms:description "Kaya v. Turkey, 19 February 1998, § 86, Reports of Judgments and Decisions 1998-I"^^xsd:string ;
+            dcterms:title "Kaya v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "31443/96"^^xsd:string ;
+            dcterms:description "Broniowski v. Poland [GC], no 31443/96, § 194, ECHR 2004-V"^^xsd:string ;
+            dcterms:title "Broniowski v. Poland [GC]"^^xsd:string ] ;
     dcterms:title "CASE OF B.S. v. SPAIN"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 
