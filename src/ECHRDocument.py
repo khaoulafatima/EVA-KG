@@ -14,9 +14,6 @@ class ECHRDocument:
     """
     Classe che rappresenta una pronuncia della Corte Europea dei Diritti dell'Uomo
     """
-
-    # TODO: se possibile sostituire file html con url, ma non è semplice perché il sito non è statico.
-    #  Il contenuto dei file HTML è copiato da "Inspect" di Chrome
     def __init__(self, html_path: str = None, pdf_path: str = None, file_name: str = None):
         """
         :param html_path: percorso in cui si trova il file html che contiene il documento
@@ -273,7 +270,8 @@ class ECHRDocument:
             for value in self._case_detail["App. No(s)."]:
                 if isinstance(self._case_detail["App. No(s)."], str):
                     value = self._case_detail["App. No(s)."]
-                self._graph.add((subject, URIRef(custom_ns + "hasApplicationNumber"), Literal(value, datatype=XSD.string)))
+                self._graph.add(
+                    (subject, URIRef(custom_ns + "hasApplicationNumber"), Literal(value, datatype=XSD.string)))
                 if isinstance(self._case_detail["App. No(s)."], str):
                     break
 
@@ -345,7 +343,8 @@ class ECHRDocument:
                 if content[0]:
                     self._graph.add((scl, DCTERMS.title, Literal(content[0], datatype=XSD.string)))
                 if content[1]:
-                    self._graph.add((scl, URIRef(custom_ns + "hasApplicationNumber"), Literal(content[1], datatype=XSD.string)))
+                    self._graph.add(
+                        (scl, URIRef(custom_ns + "hasApplicationNumber"), Literal(content[1], datatype=XSD.string)))
                 if content[2]:
                     self._graph.add((scl, DCTERMS.date, Literal(content[2], datatype=XSD.date)))
                 if isinstance(self._case_detail["Strasbourg Case-Law"], str):
@@ -400,12 +399,12 @@ if __name__ == "__main__":
     """
     import pprint
 
-    html = "../data/corpus_html"
-    pdf = "../data/corpus_pdf"
-    name = "CASE OF A. v. CROATIA"
+    html_p = "../data/corpus_html"
+    pdf_p = "../data/corpus_pdf"
+    f_name = "CASE OF A. v. CROATIA"
     json_path = "../data/case_detail_json"
     body_path = "../data/document_body"
-    echr_document = ECHRDocument(html_path=html, pdf_path=pdf, file_name=name)
+    echr_document = ECHRDocument(html_path=html_p, pdf_path=pdf_p, file_name=f_name)
     print("DOCUMENT___________________________________________________________________________________________________")
     print(echr_document)
     echr_document.extract_case_detail_from_html()

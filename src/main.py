@@ -4,6 +4,8 @@ import rdflib
 from http_requests import rdf_grapher_request
 from pyvis_utils import graph_to_pyvis_net
 from neo4j_utils import graph_to_neo4j
+import pandas as pd
+from echr_scraper import scrape_pdf_html
 
 if __name__ == "__main__":
     html_path = "../data/corpus_html"
@@ -13,9 +15,21 @@ if __name__ == "__main__":
     triple_path = "../data/triples"
     while True:
         print("\033[92m")
-        choice = input("1. Dall'inizio\n2. Grafo da triple salvate\n3. Esci\n> ")
+        choice = input("1. Scraping dati da ECHR\n2. Dall'inizio\n3. Grafo da triple salvate\n4. Esci\n> ")
         print("\033[0m")
         if choice == "1":
+            choice = input("Potrebbe richiedere molto tempo. Continuare? (y/n) ")
+            if choice == "y":
+                df = pd.read_excel("../data/mapping_doc_link.xlsx")
+                for row in df.iterrows():
+                    file = row[1][0]
+                    url = row[1][1]
+                    if url is not None:
+                        print(f"Processing {file}")
+                        scrape_pdf_html(url, pdf_dir=pdf_path, html_dir=html_path)
+                    else:
+                        print(f"{file}: URL non trovato")
+        elif choice == "2":
             save = True
             corpus = []
             for file in os.listdir(html_path):
@@ -31,7 +45,7 @@ if __name__ == "__main__":
                         echr_document.body_to_txt(body_path)
                         echr_document.save_triples(triple_path)
                     corpus.append(echr_document)
-        elif choice == "2":
+        elif choice == "3":
             while True:
                 print("\033[92m")
                 choice = input("1. RDF GRAPHER\n2. PYVIS\n3. NEO4J\n4. Indietro\n> ")
@@ -64,7 +78,8 @@ if __name__ == "__main__":
                     try:
                         graph_to_neo4j(complete_graph, "neo4j://localhost:7687", "neo4j")
                         print("Esegui la query MATCH (n) OPTIONAL MATCH (n)-[r]->(m) RETURN * su Neo4j Browser")
-                    except:
+                    except Exception as e:
+                        print(e)
                         print("\033[91mAssicurarsi che il server neo4j sia attivo\033[0m")
-        elif choice == "3":
+        elif choice == "4":
             break
