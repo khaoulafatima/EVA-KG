@@ -9,10 +9,13 @@ def scrape_pdf_html(url: str, download_dir: str = None, pdf_dir: str = None, htm
                     wait_second: float = 2) -> bool:
     """
     :param url: collegamento della risorsa sul sito https://hudoc.echr.coe.int/eng
-    :param download_dir: directory in cui salvare i file. Se non viene specificata una cartella differente per pdf e html
+    :param download_dir: directory in cui salvare i file.
+        Se non viene specificata una cartella differente per pdf e html vengono create le caretelle pdf e html
+        In generale è consigliato specificare una cartella diversa per i pdf e gli html
     :param pdf_dir: directory in cui salvare i pdf
     :param html_dir: directory in cui salvare gli html
-    :param wait_second: secondi di attesa tra un'operazione e l'altra, utile per evitare errori dovuti a connessione lenta
+    :param wait_second: secondi di attesa tra un'operazione e l'altra.
+        Utile per evitare errori dovuti a connessione lenta e tempo di caricamento in generale
     :return: True se il è andato tutto a buon fine, False altrimenti
     """
     if "https://hudoc.echr.coe.int/eng" not in url:

@@ -3,10 +3,10 @@ import requests
 import urllib.parse
 
 
-def save_graph(rdf, format: str, to: str, name: str) -> bool:
+def save_graph(rdf, in_format: str, to: str, name: str) -> bool:
     """
     :param rdf: stringa o grafo rdflib
-    :param format: formato di rdf (ttl, xml, json, nt, trig, nq)
+    :param in_format: formato di rdf (ttl, xml, json, nt, trig, nq)
     :param to: formato di output (png, svg, pdf, ps, eps, gif, jpg)
     :param name: nome del file di output
     :return: True se il salvataggio è andato a buon fine, False altrimenti
@@ -19,7 +19,7 @@ def save_graph(rdf, format: str, to: str, name: str) -> bool:
             rdf_string = urllib.parse.quote_plus(rdf)
         elif rdf is rdflib.graph.Graph:
             rdf_string = urllib.parse.quote_plus(rdf.serialize())
-        url = "http://www.ldf.fi/service/rdf-grapher?rdf=" + rdf_string + "&from=" + format + "&to=" + to
+        url = "http://www.ldf.fi/service/rdf-grapher?rdf=" + rdf_string + "&from=" + in_format + "&to=" + to
         response = requests.get(url)
         if response.status_code != 200:
             raise Exception("Error: " + response.text)
