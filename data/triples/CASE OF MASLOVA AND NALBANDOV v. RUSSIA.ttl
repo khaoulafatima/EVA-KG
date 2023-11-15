@@ -8,9 +8,9 @@
     ns1:respondentState <http://www.wikidata.org/entity/Q159> ;
     dcterms:accessRights "public"^^xsd:string ;
     dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "SHEPELEVA O."^^xsd:string ],
+            foaf:name "KIRSANOVA Y. "^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "KIRSANOVA Y. "^^xsd:string ] ;
+            foaf:name "SHEPELEVA O."^^xsd:string ] ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:creator "Court (First Section)"^^xsd:string ;
     dcterms:date "2008-01-24"^^xsd:date ;
@@ -25,74 +25,70 @@
         "(Art. 41) Just satisfaction-{general}"^^xsd:string,
         "(Art. 41) Non-pecuniary damage"^^xsd:string,
         "Inhuman treatment"^^xsd:string,
-        "Inhuman treatment) (Substantive aspect)"^^xsd:string,
-        "Just satisfaction)"^^xsd:string,
         "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^xsd:string,
-        "Torture) (Substantive aspect)"^^xsd:string,
-        "Violation of Article 3 - Prohibition of torture (Article 3 - Degrading treatment"^^xsd:string,
-        "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect)"^^xsd:string,
-        "Violation of Article 38 - Examination of the case-{general} (Article 38 - Obligation to furnish all necessary facilities)"^^xsd:string ;
+        "Violation of Article 3 - Prohibition of torture (Article 3 - Degrading treatment Violation of Article 3 - Prohibition of torture (Article 3 - Degrading treatment"^^xsd:string,
+        "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect)"^^xsd:string ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-84670> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2008:0124JUD000083902"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ ns1:hasApplicationNumber "21986/93"^^xsd:string ;
+    dcterms:references [ ns1:hasApplicationNumber "25803/94"^^xsd:string ;
+            dcterms:description "Selmouni v. France [GC], no. 25803/94, § 123, ECHR 1999-V"^^xsd:string ;
+            dcterms:title "Selmouni v. France [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "23423/94"^^xsd:string ;
+            dcterms:date "2002-02-21"^^xsd:date ;
+            dcterms:description "Matyar v. Turkey, no. 23423/94, § 108, 21 February 2002"^^xsd:string ;
+            dcterms:title "Matyar v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "77617/01"^^xsd:string ;
+            dcterms:date "2006-01-26"^^xsd:date ;
+            dcterms:description "Mikheyev v. Russia, no. 77617/01, § 163, 26 January 2006"^^xsd:string ;
+            dcterms:title "Mikheyev v. Russia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "39272/98"^^xsd:string ;
+            dcterms:description "M.C. v. Bulgaria, no. 39272/98, § 153, ECHR 2003-XII"^^xsd:string ;
+            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "26772/95"^^xsd:string ;
+            dcterms:description "Labita v. Italy [GC], no. 26772/95, § 131, ECHR 2000-IV"^^xsd:string ;
+            dcterms:title "Labita v. Italy [GC]"^^xsd:string ],
+        [ dcterms:date "1978-01-18"^^xsd:date ;
+            dcterms:description "Ireland v. the United Kingdom, judgment of 18 January 1978, Series A no. 25, pp. 64-65, § 161"^^xsd:string ;
+            dcterms:title "Ireland v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "1995-11-22"^^xsd:date ;
+            dcterms:description "S.W. v. the United Kingdom, judgment of 22 November 1995, Series A no. 335-B"^^xsd:string ;
+            dcterms:title "S.W. v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "1992-12-16"^^xsd:date ;
+            dcterms:description "Edwards v. the United Kingdom, judgment of 16 December 1992, Series A no. 247-B, p. 12, § 34"^^xsd:string ;
+            dcterms:title "Edwards v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "1995-12-04"^^xsd:date ;
+            dcterms:description "Ribitsch v. Austria, judgment of 4 December 1995, Series A no. 336, § 34"^^xsd:string ;
+            dcterms:title "Ribitsch v. Austria"^^xsd:string ],
+        [ dcterms:date "1992-04-22"^^xsd:date ;
+            dcterms:description "Vidal v. Belgium, judgment of 22 April 1992, Series A no. 235-B, pp. 32-33, §§ 33-34"^^xsd:string ;
+            dcterms:title "Vidal v. Belgium"^^xsd:string ],
+        [ ns1:hasApplicationNumber "3531/94"^^xsd:string ;
+            dcterms:description "Timurtas v. Turkey, no. 3531/94, § 66, ECHR 2000-VI"^^xsd:string ;
+            dcterms:title "Timurtas v. Turkey"^^xsd:string ],
+        [ dcterms:date "1998-10-28"^^xsd:date ;
+            dcterms:description "Assenov and Others v. Turkey, judgment of 28 October 1998, Reports 1998-VIII, p. 3290, § 102"^^xsd:string ;
+            dcterms:title "Assenov and Others v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "23763/94"^^xsd:string ;
+            dcterms:description "Tanrikulu v. Turkey [GC], no. 23763/94, § 70, ECHR 1999-IV"^^xsd:string ;
+            dcterms:title "Tanrikulu v. Turkey [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "57947/00"^^xsd:string ;
+            dcterms:date "2005-02-24"^^xsd:date ;
+            dcterms:description "Isayeva and Others v. Russia, nos. 57947/00, 57948/00 and 57949/00, §§ 208-13, 24 February 2005"^^xsd:string ;
+            dcterms:title "Isayeva and Others v. Russia"^^xsd:string ],
+        [ dcterms:date "1997-09-25"^^xsd:date ;
+            dcterms:description "Aydin v. Turkey, judgment of 25 September 1997, Reports 1997-VI, §§ 81, 83 et 126-131"^^xsd:string ;
+            dcterms:title "Aydin v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "21986/93"^^xsd:string ;
             dcterms:description "Salman v. Turkey [GC], no. 21986/93, § 100, ECHR 2000-VII"^^xsd:string ;
             dcterms:title "Salman v. Turkey [GC]"^^xsd:string ],
         [ dcterms:date "1996-12-18"^^xsd:date ;
             dcterms:description "Aksoy v. Turkey, judgment of 18 December 1996, Reports 1996-VI, p. 2278, § 62"^^xsd:string ;
             dcterms:title "Aksoy v. Turkey"^^xsd:string ],
         [ dcterms:date "1995-11-22"^^xsd:date ;
-            dcterms:description "S.W. v. the United Kingdom, judgment of 22 November 1995, Series A no. 335-B"^^xsd:string ;
-            dcterms:title "S.W. v. the United Kingdom"^^xsd:string ],
-        [ dcterms:date "1997-09-25"^^xsd:date ;
-            dcterms:description "Aydin v. Turkey, judgment of 25 September 1997, Reports 1997-VI, §§ 81, 83 et 126-131"^^xsd:string ;
-            dcterms:title "Aydin v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "57947/00"^^xsd:string ;
-            dcterms:date "2005-02-24"^^xsd:date ;
-            dcterms:description "Isayeva and Others v. Russia, nos. 57947/00, 57948/00 and 57949/00, §§ 208-13, 24 February 2005"^^xsd:string ;
-            dcterms:title "Isayeva and Others v. Russia"^^xsd:string ],
-        [ dcterms:date "1992-04-22"^^xsd:date ;
-            dcterms:description "Vidal v. Belgium, judgment of 22 April 1992, Series A no. 235-B, pp. 32-33, §§ 33-34"^^xsd:string ;
-            dcterms:title "Vidal v. Belgium"^^xsd:string ],
-        [ ns1:hasApplicationNumber "77617/01"^^xsd:string ;
-            dcterms:date "2006-01-26"^^xsd:date ;
-            dcterms:description "Mikheyev v. Russia, no. 77617/01, § 163, 26 January 2006"^^xsd:string ;
-            dcterms:title "Mikheyev v. Russia"^^xsd:string ],
-        [ dcterms:date "1998-10-28"^^xsd:date ;
-            dcterms:description "Assenov and Others v. Turkey, judgment of 28 October 1998, Reports 1998-VIII, p. 3290, § 102"^^xsd:string ;
-            dcterms:title "Assenov and Others v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "23423/94"^^xsd:string ;
-            dcterms:date "2002-02-21"^^xsd:date ;
-            dcterms:description "Matyar v. Turkey, no. 23423/94, § 108, 21 February 2002"^^xsd:string ;
-            dcterms:title "Matyar v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "23763/94"^^xsd:string ;
-            dcterms:description "Tanrikulu v. Turkey [GC], no. 23763/94, § 70, ECHR 1999-IV"^^xsd:string ;
-            dcterms:title "Tanrikulu v. Turkey [GC]"^^xsd:string ],
-        [ dcterms:date "1978-01-18"^^xsd:date ;
-            dcterms:description "Ireland v. the United Kingdom, judgment of 18 January 1978, Series A no. 25, pp. 64-65, § 161"^^xsd:string ;
-            dcterms:title "Ireland v. the United Kingdom"^^xsd:string ],
-        [ dcterms:date "1995-12-04"^^xsd:date ;
-            dcterms:description "Ribitsch v. Austria, judgment of 4 December 1995, Series A no. 336, § 34"^^xsd:string ;
-            dcterms:title "Ribitsch v. Austria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "25803/94"^^xsd:string ;
-            dcterms:description "Selmouni v. France [GC], no. 25803/94, § 123, ECHR 1999-V"^^xsd:string ;
-            dcterms:title "Selmouni v. France [GC]"^^xsd:string ],
-        [ dcterms:date "1995-11-22"^^xsd:date ;
             dcterms:description "C.R. v. the United Kingdom, judgment of 22 November 1995, Series A no. 335-C"^^xsd:string ;
-            dcterms:title "C.R. v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "39272/98"^^xsd:string ;
-            dcterms:description "M.C. v. Bulgaria, no. 39272/98, § 153, ECHR 2003-XII"^^xsd:string ;
-            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "3531/94"^^xsd:string ;
-            dcterms:description "Timurtas v. Turkey, no. 3531/94, § 66, ECHR 2000-VI"^^xsd:string ;
-            dcterms:title "Timurtas v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "26772/95"^^xsd:string ;
-            dcterms:description "Labita v. Italy [GC], no. 26772/95, § 131, ECHR 2000-IV"^^xsd:string ;
-            dcterms:title "Labita v. Italy [GC]"^^xsd:string ],
-        [ dcterms:date "1992-12-16"^^xsd:date ;
-            dcterms:description "Edwards v. the United Kingdom, judgment of 16 December 1992, Series A no. 247-B, p. 12, § 34"^^xsd:string ;
-            dcterms:title "Edwards v. the United Kingdom"^^xsd:string ] ;
+            dcterms:title "C.R. v. the United Kingdom"^^xsd:string ] ;
     dcterms:title "CASE OF MASLOVA AND NALBANDOV v. RUSSIA"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 

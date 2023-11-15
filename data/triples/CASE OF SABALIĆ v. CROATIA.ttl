@@ -25,168 +25,168 @@
         "(P7-4) Fundamental defect in proceedings"^^xsd:string,
         "(P7-4) Reopening of case"^^xsd:string,
         "(P7-4) Right not to be tried or punished twice-{general}"^^xsd:string,
-        "Effective investigation)"^^xsd:string,
-        "Just satisfaction)"^^xsd:string,
-        "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^xsd:string,
-        "Violation of Article 14+3 - Prohibition of discrimination (Article 14 - Discrimination) (Article 3 - Prohibition of torture"^^xsd:string ;
+        "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage Just satisfaction)"^^xsd:string,
+        "Violation of Article 14+3 - Prohibition of discrimination (Article 14 - Discrimination) (Article 3 - Prohibition of torture Effective investigation)"^^xsd:string ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-207360> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2021:0114JUD005023113"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ ns1:hasApplicationNumber "33985/96"^^xsd:string ;
-            dcterms:description "Smith and Grady v. the United Kingdom, nos. 33985/96 and 33986/96, § 121, ECHR 1999 VI"^^xsd:string ;
-            dcterms:title "Smith and Grady v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "25536/14"^^xsd:string ;
-            dcterms:date "2017-03-28"^^xsd:date ;
-            dcterms:description "Škorjanec v. Croatia, no. 25536/14, 28 March 2017"^^xsd:string ;
-            dcterms:title "Škorjanec v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "5878/08"^^xsd:string ;
-            dcterms:date "2016-03-30"^^xsd:date ;
-            dcterms:description "Armani Da Silva v. the United Kingdom [GC], no. 5878/08, § 285, 30 March 2016"^^xsd:string ;
-            dcterms:title "Armani Da Silva v. the United Kingdom [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "71667/17"^^xsd:string ;
-            dcterms:date "2019-12-10"^^xsd:date ;
-            dcterms:description "Kušić and Others v. Croatia (dec.), no. 71667/17, §§ 86-87 and 108, 10 December 2019"^^xsd:string ;
-            dcterms:title "Kušić and Others v. Croatia (dec.)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "44256/06"^^xsd:string ;
-            dcterms:date "2009-03-10"^^xsd:date ;
-            dcterms:description "Turan Cakir v. Belgium, no. 44256/06, § 80, 10 March 2009"^^xsd:string ;
-            dcterms:title "Turan Cakir v. Belgium"^^xsd:string ],
-        [ ns1:hasApplicationNumber "41108/10"^^xsd:string ;
-            dcterms:date "2012-11-13"^^xsd:date ;
-            dcterms:description "Bajić v. Croatia, no. 41108/10, §§ 68-69, 13 November 2012"^^xsd:string ;
-            dcterms:title "Bajić v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "20325/06"^^xsd:string ;
-            dcterms:date "2012-12-04"^^xsd:date ;
-            dcterms:description "Mityaginy v. Russia, no. 20325/06, § 49, 4 December 2012"^^xsd:string ;
-            dcterms:title "Mityaginy v. Russia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "12060/12"^^xsd:string ;
-            dcterms:date "2016-04-12"^^xsd:date ;
-            dcterms:description "M.C. and A.C. v. Romania, no. 12060/12, §§ 108-115 and 123-125, 12 April 2016"^^xsd:string ;
-            dcterms:title "M.C. and A.C. v. Romania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "40116/02"^^xsd:string ;
-            dcterms:date "2007-05-31"^^xsd:date ;
-            dcterms:description "Šečić v. Croatia, no. 40116/02, §§ 61 and 68-69, 31 May 2007"^^xsd:string ;
-            dcterms:title "Šečić v. Croatia"^^xsd:string ],
+    dcterms:references [ ns1:hasApplicationNumber "28490/02"^^xsd:string ;
+            dcterms:date "2014-10-07"^^xsd:date ;
+            dcterms:description "Begheluri v. Georgia, no. 28490/02, §§ 101 and 176-177, 7 October 2014"^^xsd:string ;
+            dcterms:title "Begheluri v. Georgia"^^xsd:string ],
         [ ns1:hasApplicationNumber "37246/06"^^xsd:string ;
             dcterms:date "2012-07-31"^^xsd:date ;
             dcterms:description "Muta v. Ukraine, no. 37246/06, § 63, 31 July 2012"^^xsd:string ;
             dcterms:title "Muta v. Ukraine"^^xsd:string ],
-        [ ns1:hasApplicationNumber "21789/02"^^xsd:string ;
-            dcterms:date "2011-05-31"^^xsd:date ;
-            dcterms:description "Derman v. Turkey, no. 21789/02, § 28, 31 May 2011"^^xsd:string ;
-            dcterms:title "Derman v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "14939/03"^^xsd:string ;
-            dcterms:description "Sergey Zolotukhin v. Russia [GC], no. 14939/03, ECHR 2009"^^xsd:string ;
-            dcterms:title "Sergey Zolotukhin v. Russia [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "15529/12"^^xsd:string ;
-            dcterms:date "2015-10-20"^^xsd:date ;
-            dcterms:description "Balázs v. Hungary, no. 15529/12, §§ 56-57 and 70, 20 October 2015"^^xsd:string ;
-            dcterms:title "Balázs v. Hungary"^^xsd:string ],
-        [ ns1:hasApplicationNumber "18114/06"^^xsd:string ;
-            dcterms:date "2014-07-03"^^xsd:date ;
-            dcterms:description "Amadayev v. Russia, no. 18114/06, § 81, 3 July 2014"^^xsd:string ;
-            dcterms:title "Amadayev v. Russia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "21609/06"^^xsd:string ;
-            dcterms:date "2009-06-04"^^xsd:date ;
-            dcterms:description "Modrić v. Croatia (dec.), no. 21609/06, 4 June 2009"^^xsd:string ;
-            dcterms:title "Modrić v. Croatia (dec.)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "60561/14"^^xsd:string ;
-            dcterms:date "2020-06-25"^^xsd:date ;
-            dcterms:description "S.M. v. Croatia [GC], no. 60561/14, §§ 311-320, 324 and 333, 25 June 2020"^^xsd:string ;
-            dcterms:title "S.M. v. Croatia [GC]"^^xsd:string ],
         [ ns1:hasApplicationNumber "12294/07"^^xsd:string ;
             dcterms:date "2012-01-17"^^xsd:date ;
             dcterms:description "Zontul v. Greece, no. 12294/07, §§ 106-109, 17 January 2012"^^xsd:string ;
             dcterms:title "Zontul v. Greece"^^xsd:string ],
-        [ ns1:hasApplicationNumber "24130/11"^^xsd:string ;
-            dcterms:date "2016-11-15"^^xsd:date ;
-            dcterms:description "A and B v. Norway [GC], nos. 24130/11 and 29758/11, 15 November 2016"^^xsd:string ;
-            dcterms:title "A and B v. Norway [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "28490/02"^^xsd:string ;
-            dcterms:date "2014-10-07"^^xsd:date ;
-            dcterms:description "Begheluri v. Georgia, no. 28490/02, §§ 101 and 176-177, 7 October 2014"^^xsd:string ;
-            dcterms:title "Begheluri v. Georgia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "17253/07"^^xsd:string ;
+            dcterms:date "2013-04-16"^^xsd:date ;
+            dcterms:description "Dimitar Shopov v. Bulgaria, no. 17253/07, § 52, 16 April 2013"^^xsd:string ;
+            dcterms:title "Dimitar Shopov v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "52538/09"^^xsd:string ;
+            dcterms:date "2019-03-12"^^xsd:date ;
+            dcterms:description "Taşdemir v. Turkey (dec.), no. 52538/09, 12 March 2019"^^xsd:string ;
+            dcterms:title "Taşdemir v. Turkey (dec.)"^^xsd:string ],
         [ ns1:hasApplicationNumber "46423/06"^^xsd:string ;
             dcterms:date "2009-06-25"^^xsd:date ;
             dcterms:description "Beganović v. Croatia, no. 46423/06, 25 June 2009"^^xsd:string ;
             dcterms:title "Beganović v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "33234/07"^^xsd:string ;
-            dcterms:date "2013-03-26"^^xsd:date ;
-            dcterms:description "Valiulienė v. Lithuania, no. 33234/07, § 85, 26 March 2013"^^xsd:string ;
-            dcterms:title "Valiulienė v. Lithuania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "54012/10"^^xsd:string ;
-            dcterms:date "2019-07-08"^^xsd:date ;
-            dcterms:description "Mihalache v. Romania [GC], no. 54012/10, §§ 129 and 133, 8 July 2019"^^xsd:string ;
-            dcterms:title "Mihalache v. Romania [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "42942/02"^^xsd:string ;
-            dcterms:date "2008-04-08"^^xsd:date ;
-            dcterms:description "Ali and Ayşe Duran v. Turkey, no. 42942/02, §§ 61-62, 8 April 2008"^^xsd:string ;
-            dcterms:title "Ali and Ayşe Duran v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "25781/94"^^xsd:string ;
-            dcterms:description "Cyprus v. Turkey [GC], no. 25781/94, §§ 305-311, ECHR 2001 IV"^^xsd:string ;
-            dcterms:title "Cyprus v. Turkey [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "40094/05"^^xsd:string ;
-            dcterms:date "2012-10-02"^^xsd:date ;
-            dcterms:description "Virabyan v. Armenia, no. 40094/05, § 224, 2 October 2012"^^xsd:string ;
-            dcterms:title "Virabyan v. Armenia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "50115/06"^^xsd:string ;
-            dcterms:date "2013-12-10"^^xsd:date ;
-            dcterms:description "Ceachir v. the Republic of Moldova, no. 50115/06, § 54, 10 December 2013"^^xsd:string ;
-            dcterms:title "Ceachir v. the Republic of Moldova"^^xsd:string ],
-        [ ns1:hasApplicationNumber "29525/10"^^xsd:string ;
-            dcterms:date "2012-12-11"^^xsd:date ;
-            dcterms:description "Remetin v. Croatia, no. 29525/10, §§ 74, 83-84 and 99, 11 December 2012"^^xsd:string ;
-            dcterms:title "Remetin v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "31959/13"^^xsd:string ;
-            dcterms:date "2018-11-20"^^xsd:date ;
-            dcterms:description "Pulfer v. Albania, no. 31959/13, § 88 in fine, 20 November 2018"^^xsd:string ;
-            dcterms:title "Pulfer v. Albania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "54755/08"^^xsd:string ;
-            dcterms:date "2013-11-14"^^xsd:date ;
-            dcterms:description "Aleksandr Nikonenko v. Ukraine, no. 54755/08, § 45, 14 November 2013"^^xsd:string ;
-            dcterms:title "Aleksandr Nikonenko v. Ukraine"^^xsd:string ],
+        [ ns1:hasApplicationNumber "655/16"^^xsd:string ;
+            dcterms:date "2018-12-11"^^xsd:date ;
+            dcterms:description "Lakatošová and Lakatoš v. Slovakia, no. 655/16, § 96, 11 December 2018"^^xsd:string ;
+            dcterms:title "Lakatošová and Lakatoš v. Slovakia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "71667/17"^^xsd:string ;
+            dcterms:date "2019-12-10"^^xsd:date ;
+            dcterms:description "Kušić and Others v. Croatia (dec.), no. 71667/17, §§ 86-87 and 108, 10 December 2019"^^xsd:string ;
+            dcterms:title "Kušić and Others v. Croatia (dec.)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "60561/14"^^xsd:string ;
+            dcterms:date "2020-06-25"^^xsd:date ;
+            dcterms:description "S.M. v. Croatia [GC], no. 60561/14, §§ 311-320, 324 and 333, 25 June 2020"^^xsd:string ;
+            dcterms:title "S.M. v. Croatia [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "1249/03"^^xsd:string ;
+            dcterms:date "2008-09-18"^^xsd:date ;
+            dcterms:description "Atalay v. Turkey, no. 1249/03, § 44, 18 September 2008"^^xsd:string ;
+            dcterms:title "Atalay v. Turkey"^^xsd:string ],
         [ ns1:hasApplicationNumber "67258/13"^^xsd:string ;
             dcterms:date "2015-11-03"^^xsd:date ;
             dcterms:description "Myumyun v. Bulgaria, no. 67258/13, § 75, 3 November 2015"^^xsd:string ;
             dcterms:title "Myumyun v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "20546/07"^^xsd:string ;
-            dcterms:date "2012-07-31"^^xsd:date ;
-            dcterms:description "Makhashevy v. Russia, no. 20546/07, § 146, 31 July 2012"^^xsd:string ;
-            dcterms:title "Makhashevy v. Russia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "3933/04"^^xsd:string ;
-            dcterms:date "2010-07-29"^^xsd:date ;
-            dcterms:description "Kopylov v. Russia, no. 3933/04, § 141, 29 July 2010"^^xsd:string ;
-            dcterms:title "Kopylov v. Russia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "34588/07"^^xsd:string ;
-            dcterms:date "2010-11-04"^^xsd:date ;
-            dcterms:description "Darraj v. France, no. 34588/07, §§ 48-49, 4 November 2010"^^xsd:string ;
-            dcterms:title "Darraj v. France"^^xsd:string ],
-        [ ns1:hasApplicationNumber "48254/99"^^xsd:string ;
-            dcterms:date "2007-07-26"^^xsd:date ;
-            dcterms:description "Cobzaru v. Romania, no. 48254/99, § 96, 26 July 2007"^^xsd:string ;
-            dcterms:title "Cobzaru v. Romania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "22978/05"^^xsd:string ;
-            dcterms:description "Gäfgen v. Germany [GC], no. 22978/05, § 123, ECHR 2010"^^xsd:string ;
-            dcterms:title "Gäfgen v. Germany [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "13274/11"^^xsd:string ;
-            dcterms:date "2015-04-02"^^xsd:date ;
-            dcterms:description "Pavlović and Others v. Croatia, no. 13274/11, §§ 32-38, 2 April 2015"^^xsd:string ;
-            dcterms:title "Pavlović and Others v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "4455/10"^^xsd:string ;
-            dcterms:description "Marguš v. Croatia [GC], no. 4455/10, §§ 124-141, ECHR 2014 (extracts)"^^xsd:string ;
-            dcterms:title "Marguš v. Croatia [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "24130/11"^^xsd:string ;
+            dcterms:date "2016-11-15"^^xsd:date ;
+            dcterms:description "A and B v. Norway [GC], nos. 24130/11 and 29758/11, 15 November 2016"^^xsd:string ;
+            dcterms:title "A and B v. Norway [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "33234/07"^^xsd:string ;
+            dcterms:date "2013-03-26"^^xsd:date ;
+            dcterms:description "Valiulienė v. Lithuania, no. 33234/07, § 85, 26 March 2013"^^xsd:string ;
+            dcterms:title "Valiulienė v. Lithuania"^^xsd:string ],
+        [ ns1:hasApplicationNumber "40094/05"^^xsd:string ;
+            dcterms:date "2012-10-02"^^xsd:date ;
+            dcterms:description "Virabyan v. Armenia, no. 40094/05, § 224, 2 October 2012"^^xsd:string ;
+            dcterms:title "Virabyan v. Armenia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "54012/10"^^xsd:string ;
+            dcterms:date "2019-07-08"^^xsd:date ;
+            dcterms:description "Mihalache v. Romania [GC], no. 54012/10, §§ 129 and 133, 8 July 2019"^^xsd:string ;
+            dcterms:title "Mihalache v. Romania [GC]"^^xsd:string ],
         [ ns1:hasApplicationNumber "47159/08"^^xsd:string ;
             dcterms:date "2012-07-24"^^xsd:date ;
             dcterms:description "B.S. v. Spain, no. 47159/08, §§ 40 and 59-61, 24 July 2012"^^xsd:string ;
             dcterms:title "B.S. v. Spain"^^xsd:string ],
+        [ ns1:hasApplicationNumber "3933/04"^^xsd:string ;
+            dcterms:date "2010-07-29"^^xsd:date ;
+            dcterms:description "Kopylov v. Russia, no. 3933/04, § 141, 29 July 2010"^^xsd:string ;
+            dcterms:title "Kopylov v. Russia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "5878/08"^^xsd:string ;
+            dcterms:date "2016-03-30"^^xsd:date ;
+            dcterms:description "Armani Da Silva v. the United Kingdom [GC], no. 5878/08, § 285, 30 March 2016"^^xsd:string ;
+            dcterms:title "Armani Da Silva v. the United Kingdom [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "21609/06"^^xsd:string ;
+            dcterms:date "2009-06-04"^^xsd:date ;
+            dcterms:description "Modrić v. Croatia (dec.), no. 21609/06, 4 June 2009"^^xsd:string ;
+            dcterms:title "Modrić v. Croatia (dec.)"^^xsd:string ],
+        [ ns1:hasApplicationNumber "73235/12"^^xsd:string ;
+            dcterms:date "2015-05-12"^^xsd:date ;
+            dcterms:description "Identoba and Others v. Georgia, no. 73235/12, 12 May 2015"^^xsd:string ;
+            dcterms:title "Identoba and Others v. Georgia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "31959/13"^^xsd:string ;
+            dcterms:date "2018-11-20"^^xsd:date ;
+            dcterms:description "Pulfer v. Albania, no. 31959/13, § 88 in fine, 20 November 2018"^^xsd:string ;
+            dcterms:title "Pulfer v. Albania"^^xsd:string ],
+        [ ns1:hasApplicationNumber "25018/10"^^xsd:string ;
+            dcterms:date "2014-10-28"^^xsd:date ;
+            dcterms:description "İbrahim Demirtaş v. Turkey, no. 25018/10, §§ 34-35, 28 October 2014"^^xsd:string ;
+            dcterms:title "İbrahim Demirtaş v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "40116/02"^^xsd:string ;
+            dcterms:date "2007-05-31"^^xsd:date ;
+            dcterms:description "Šečić v. Croatia, no. 40116/02, §§ 61 and 68-69, 31 May 2007"^^xsd:string ;
+            dcterms:title "Šečić v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "25781/94"^^xsd:string ;
+            dcterms:description "Cyprus v. Turkey [GC], no. 25781/94, §§ 305-311, ECHR 2001 IV"^^xsd:string ;
+            dcterms:title "Cyprus v. Turkey [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "44256/06"^^xsd:string ;
+            dcterms:date "2009-03-10"^^xsd:date ;
+            dcterms:description "Turan Cakir v. Belgium, no. 44256/06, § 80, 10 March 2009"^^xsd:string ;
+            dcterms:title "Turan Cakir v. Belgium"^^xsd:string ],
+        [ ns1:hasApplicationNumber "12060/12"^^xsd:string ;
+            dcterms:date "2016-04-12"^^xsd:date ;
+            dcterms:description "M.C. and A.C. v. Romania, no. 12060/12, §§ 108-115 and 123-125, 12 April 2016"^^xsd:string ;
+            dcterms:title "M.C. and A.C. v. Romania"^^xsd:string ],
         [ ns1:hasApplicationNumber "48939/99"^^xsd:string ;
             dcterms:description "Öneryıldız v. Turkey [GC], no. 48939/99, § 116, ECHR 2004 XII"^^xsd:string ;
             dcterms:title "Öneryıldız v. Turkey [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "33985/96"^^xsd:string ;
+            dcterms:description "Smith and Grady v. the United Kingdom, nos. 33985/96 and 33986/96, § 121, ECHR 1999 VI"^^xsd:string ;
+            dcterms:title "Smith and Grady v. the United Kingdom"^^xsd:string ],
         [ ns1:hasApplicationNumber "55523/00"^^xsd:string ;
             dcterms:date "2007-07-26"^^xsd:date ;
             dcterms:description "Angelova and Iliev v. Bulgaria, no. 55523/00, § 116, 26 July 2007"^^xsd:string ;
             dcterms:title "Angelova and Iliev v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "43577/98"^^xsd:string ;
+            dcterms:description "Nachova and Others v. Bulgaria [GC], nos. 43577/98 and 43579/98, § 160, ECHR 2005 VII"^^xsd:string ;
+            dcterms:title "Nachova and Others v. Bulgaria [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "26827/08"^^xsd:string ;
+            dcterms:date "2014-03-11"^^xsd:date ;
+            dcterms:description "Abdu v. Bulgaria, no. 26827/08, 11 March 2014"^^xsd:string ;
+            dcterms:title "Abdu v. Bulgaria"^^xsd:string ],
+        [ dcterms:description "Article 89 (36) of the 1997 Criminal Code"^^xsd:string ],
+        [ ns1:hasApplicationNumber "29525/10"^^xsd:string ;
+            dcterms:date "2012-12-11"^^xsd:date ;
+            dcterms:description "Remetin v. Croatia, no. 29525/10, §§ 74, 83-84 and 99, 11 December 2012"^^xsd:string ;
+            dcterms:title "Remetin v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "25536/14"^^xsd:string ;
+            dcterms:date "2017-03-28"^^xsd:date ;
+            dcterms:description "Škorjanec v. Croatia, no. 25536/14, 28 March 2017"^^xsd:string ;
+            dcterms:title "Škorjanec v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "20325/06"^^xsd:string ;
+            dcterms:date "2012-12-04"^^xsd:date ;
+            dcterms:description "Mityaginy v. Russia, no. 20325/06, § 49, 4 December 2012"^^xsd:string ;
+            dcterms:title "Mityaginy v. Russia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "3832/06"^^xsd:string ;
+            dcterms:date "2012-11-27"^^xsd:date ;
+            dcterms:description "M.N. v. Bulgaria, no. 3832/06, § 46, 27 November 2012"^^xsd:string ;
+            dcterms:title "M.N. v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "41108/10"^^xsd:string ;
+            dcterms:date "2012-11-13"^^xsd:date ;
+            dcterms:description "Bajić v. Croatia, no. 41108/10, §§ 68-69, 13 November 2012"^^xsd:string ;
+            dcterms:title "Bajić v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "34588/07"^^xsd:string ;
+            dcterms:date "2010-11-04"^^xsd:date ;
+            dcterms:description "Darraj v. France, no. 34588/07, §§ 48-49, 4 November 2010"^^xsd:string ;
+            dcterms:title "Darraj v. France"^^xsd:string ],
+        [ ns1:hasApplicationNumber "14939/03"^^xsd:string ;
+            dcterms:description "Sergey Zolotukhin v. Russia [GC], no. 14939/03, ECHR 2009"^^xsd:string ;
+            dcterms:title "Sergey Zolotukhin v. Russia [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "13274/11"^^xsd:string ;
+            dcterms:date "2015-04-02"^^xsd:date ;
+            dcterms:description "Pavlović and Others v. Croatia, no. 13274/11, §§ 32-38, 2 April 2015"^^xsd:string ;
+            dcterms:title "Pavlović and Others v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "21789/02"^^xsd:string ;
+            dcterms:date "2011-05-31"^^xsd:date ;
+            dcterms:description "Derman v. Turkey, no. 21789/02, § 28, 31 May 2011"^^xsd:string ;
+            dcterms:title "Derman v. Turkey"^^xsd:string ],
         [ ns1:hasApplicationNumber "44614/07"^^xsd:string ;
             dcterms:date "2010-12-14"^^xsd:date ;
             dcterms:description "Milanović v. Serbia, no. 44614/07, §§ 87, 99 and 100, 14 December 2010"^^xsd:string ;
@@ -195,48 +195,46 @@
             dcterms:date "2012-06-12"^^xsd:date ;
             dcterms:description "Koky and Others v. Slovakia, no. 13624/03, § 239, 12 June 2012"^^xsd:string ;
             dcterms:title "Koky and Others v. Slovakia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "73235/12"^^xsd:string ;
-            dcterms:date "2015-05-12"^^xsd:date ;
-            dcterms:description "Identoba and Others v. Georgia, no. 73235/12, 12 May 2015"^^xsd:string ;
-            dcterms:title "Identoba and Others v. Georgia"^^xsd:string ],
-        [ dcterms:description "Article 89 (36) of the 1997 Criminal Code"^^xsd:string ],
-        [ ns1:hasApplicationNumber "17253/07"^^xsd:string ;
-            dcterms:date "2013-04-16"^^xsd:date ;
-            dcterms:description "Dimitar Shopov v. Bulgaria, no. 17253/07, § 52, 16 April 2013"^^xsd:string ;
-            dcterms:title "Dimitar Shopov v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "23380/09"^^xsd:string ;
-            dcterms:description "Bouyid v. Belgium [GC], no. 23380/09, §§ 86-87, ECHR 2015"^^xsd:string ;
-            dcterms:title "Bouyid v. Belgium [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "50115/06"^^xsd:string ;
+            dcterms:date "2013-12-10"^^xsd:date ;
+            dcterms:description "Ceachir v. the Republic of Moldova, no. 50115/06, § 54, 10 December 2013"^^xsd:string ;
+            dcterms:title "Ceachir v. the Republic of Moldova"^^xsd:string ],
+        [ ns1:hasApplicationNumber "54755/08"^^xsd:string ;
+            dcterms:date "2013-11-14"^^xsd:date ;
+            dcterms:description "Aleksandr Nikonenko v. Ukraine, no. 54755/08, § 45, 14 November 2013"^^xsd:string ;
+            dcterms:title "Aleksandr Nikonenko v. Ukraine"^^xsd:string ],
+        [ ns1:hasApplicationNumber "48254/99"^^xsd:string ;
+            dcterms:date "2007-07-26"^^xsd:date ;
+            dcterms:description "Cobzaru v. Romania, no. 48254/99, § 96, 26 July 2007"^^xsd:string ;
+            dcterms:title "Cobzaru v. Romania"^^xsd:string ],
         [ ns1:hasApplicationNumber "41138/98"^^xsd:string ;
             dcterms:description "Moldovan and Others v. Romania (no. 2), nos. 41138/98 and 64320/01, §§ 111 and 113, ECHR 2005 VII (extracts)"^^xsd:string ;
             dcterms:title "Moldovan and Others v. Romania (no. 2)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "52538/09"^^xsd:string ;
-            dcterms:date "2019-03-12"^^xsd:date ;
-            dcterms:description "Taşdemir v. Turkey (dec.), no. 52538/09, 12 March 2019"^^xsd:string ;
-            dcterms:title "Taşdemir v. Turkey (dec.)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "3832/06"^^xsd:string ;
-            dcterms:date "2012-11-27"^^xsd:date ;
-            dcterms:description "M.N. v. Bulgaria, no. 3832/06, § 46, 27 November 2012"^^xsd:string ;
-            dcterms:title "M.N. v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "25018/10"^^xsd:string ;
-            dcterms:date "2014-10-28"^^xsd:date ;
-            dcterms:description "İbrahim Demirtaş v. Turkey, no. 25018/10, §§ 34-35, 28 October 2014"^^xsd:string ;
-            dcterms:title "İbrahim Demirtaş v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "43577/98"^^xsd:string ;
-            dcterms:description "Nachova and Others v. Bulgaria [GC], nos. 43577/98 and 43579/98, § 160, ECHR 2005 VII"^^xsd:string ;
-            dcterms:title "Nachova and Others v. Bulgaria [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "655/16"^^xsd:string ;
-            dcterms:date "2018-12-11"^^xsd:date ;
-            dcterms:description "Lakatošová and Lakatoš v. Slovakia, no. 655/16, § 96, 11 December 2018"^^xsd:string ;
-            dcterms:title "Lakatošová and Lakatoš v. Slovakia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "26827/08"^^xsd:string ;
-            dcterms:date "2014-03-11"^^xsd:date ;
-            dcterms:description "Abdu v. Bulgaria, no. 26827/08, 11 March 2014"^^xsd:string ;
-            dcterms:title "Abdu v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "1249/03"^^xsd:string ;
-            dcterms:date "2008-09-18"^^xsd:date ;
-            dcterms:description "Atalay v. Turkey, no. 1249/03, § 44, 18 September 2008"^^xsd:string ;
-            dcterms:title "Atalay v. Turkey"^^xsd:string ] ;
+        [ ns1:hasApplicationNumber "15529/12"^^xsd:string ;
+            dcterms:date "2015-10-20"^^xsd:date ;
+            dcterms:description "Balázs v. Hungary, no. 15529/12, §§ 56-57 and 70, 20 October 2015"^^xsd:string ;
+            dcterms:title "Balázs v. Hungary"^^xsd:string ],
+        [ ns1:hasApplicationNumber "4455/10"^^xsd:string ;
+            dcterms:description "Marguš v. Croatia [GC], no. 4455/10, §§ 124-141, ECHR 2014 (extracts)"^^xsd:string ;
+            dcterms:title "Marguš v. Croatia [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "23380/09"^^xsd:string ;
+            dcterms:description "Bouyid v. Belgium [GC], no. 23380/09, §§ 86-87, ECHR 2015"^^xsd:string ;
+            dcterms:title "Bouyid v. Belgium [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "18114/06"^^xsd:string ;
+            dcterms:date "2014-07-03"^^xsd:date ;
+            dcterms:description "Amadayev v. Russia, no. 18114/06, § 81, 3 July 2014"^^xsd:string ;
+            dcterms:title "Amadayev v. Russia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "20546/07"^^xsd:string ;
+            dcterms:date "2012-07-31"^^xsd:date ;
+            dcterms:description "Makhashevy v. Russia, no. 20546/07, § 146, 31 July 2012"^^xsd:string ;
+            dcterms:title "Makhashevy v. Russia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "22978/05"^^xsd:string ;
+            dcterms:description "Gäfgen v. Germany [GC], no. 22978/05, § 123, ECHR 2010"^^xsd:string ;
+            dcterms:title "Gäfgen v. Germany [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "42942/02"^^xsd:string ;
+            dcterms:date "2008-04-08"^^xsd:date ;
+            dcterms:description "Ali and Ayşe Duran v. Turkey, no. 42942/02, §§ 61-62, 8 April 2008"^^xsd:string ;
+            dcterms:title "Ali and Ayşe Duran v. Turkey"^^xsd:string ] ;
     dcterms:title "CASE OF SABALIĆ v. CROATIA"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 

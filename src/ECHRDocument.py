@@ -76,6 +76,46 @@ class ECHRDocument:
     def get_file_name(self) -> str:
         return self._file_name
 
+    def _check_conclusions(self):
+        conclusions = self._case_detail["Conclusion(s)"]
+        if isinstance(conclusions, list):
+            new_element = ""
+            opened_parenthesis = 0
+            closed_parenthesis = 0
+            difference = 0
+            mod = False
+            new_conclusions = []
+            for element in conclusions:
+                for char in element:
+                    if char == "(":
+                        opened_parenthesis += 1
+                    elif char == ")":
+                        closed_parenthesis += 1
+                if opened_parenthesis > closed_parenthesis:
+                    new_element += element + " "
+                    mod = True
+                    difference = opened_parenthesis - closed_parenthesis
+                    opened_parenthesis = 0
+                    closed_parenthesis = 0
+                elif opened_parenthesis + difference == closed_parenthesis:
+                    opened_parenthesis = 0
+                    closed_parenthesis = 0
+                    difference = 0
+                    new_element += element
+                    new_conclusions.append(new_element)
+                    new_element = ""
+                elif opened_parenthesis == closed_parenthesis:
+                    opened_parenthesis = 0
+                    closed_parenthesis = 0
+                    difference = 0
+                    new_conclusions.append(element)
+            if mod:
+                self._case_detail["Conclusion(s)"] = new_conclusions
+            else:
+                self._case_detail["Conclusion(s)"] = conclusions
+        elif isinstance(conclusions, str):
+            self._case_detail["Conclusion(s)"] = conclusions
+
     def extract_case_detail_from_html(self):
         """
         Estrae il contenuto della tab "Case Details" di un caso dal sito hudoc.echr.coe.int
@@ -145,13 +185,14 @@ class ECHRDocument:
             values = re.split(r'\t+\s*', value_list[i].text.strip().replace("more…", ""))
             if key == "App. No(s).":
                 values = re.split(r'\s+', values[0])
-            if key == "Strasbourg Case-Law" and "\n" in values[0]:
+            elif key == "Strasbourg Case-Law" and "\n" in values[0]:
                 values = re.split(r'\n+', values[0])
             if len(values) == 1:
                 case_detail[key] = values[0]
             else:
                 case_detail[key] = values
         self._case_detail = case_detail
+        self._check_conclusions()
 
     def get_case_detail(self) -> dict:
         return self._case_detail
@@ -421,7 +462,7 @@ if __name__ == "__main__":
 
     html_p = "../data/corpus_html"
     pdf_p = "../data/corpus_pdf"
-    f_name = "CASE OF A. v. CROATIA"
+    f_name = "CASE OF A AND B v. GEORGIA"
     json_path = "../data/case_detail_json"
     body_path = "../data/document_body"
     echr_document = ECHRDocument(html_path=html_p, pdf_path=pdf_p, file_name=f_name)

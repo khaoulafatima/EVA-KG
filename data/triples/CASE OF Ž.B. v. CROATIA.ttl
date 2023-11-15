@@ -15,8 +15,7 @@
     dcterms:description "(Art. 8) Positive obligations"^^xsd:string,
         "(Art. 8) Right to respect for private and family life"^^xsd:string,
         "(Art. 8-1) Respect for private life"^^xsd:string,
-        "Article 8-1 - Respect for private life)"^^xsd:string,
-        "Violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations"^^xsd:string ;
+        "Violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations Article 8-1 - Respect for private life)"^^xsd:string ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-175142> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2017:0711JUD004766613"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;

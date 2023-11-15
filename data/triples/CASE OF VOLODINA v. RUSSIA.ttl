@@ -21,52 +21,99 @@
         "(Art. 41) Just satisfaction"^^xsd:string,
         "(Art. 41) Just satisfaction-{general}"^^xsd:string,
         "(Art. 41) Non-pecuniary damage"^^xsd:string,
-        "Inhuman treatment)"^^xsd:string,
-        "Just satisfaction)"^^xsd:string,
-        "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^xsd:string,
-        "Positive obligations) (Substantive aspect)"^^xsd:string,
-        "Violation of Article 14+3 - Prohibition of discrimination (Article 14 - Discrimination) (Article 3 - Prohibition of torture"^^xsd:string,
-        "Violation of Article 3 - Prohibition of torture (Article 3 - Inhuman treatment"^^xsd:string ;
+        "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage Just satisfaction)"^^xsd:string,
+        "Violation of Article 14+3 - Prohibition of discrimination (Article 14 - Discrimination) (Article 3 - Prohibition of torture Inhuman treatment)"^^xsd:string,
+        "Violation of Article 3 - Prohibition of torture (Article 3 - Inhuman treatment Positive obligations) (Substantive aspect)"^^xsd:string ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-194321> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2019:0709JUD004126117"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ ns1:hasApplicationNumber "74839/10"^^xsd:string ;
-            dcterms:date "2013-07-16"^^xsd:date ;
-            dcterms:description "Mudric v. the Republic of Moldova, no. 74839/10, §§ 48 and 63, 16 July 2013"^^xsd:string ;
-            dcterms:title "Mudric v. the Republic of Moldova"^^xsd:string ],
-        [ ns1:hasApplicationNumber "26608/11"^^xsd:string ;
-            dcterms:date "2014-01-28"^^xsd:date ;
-            dcterms:description "T.M. and C.M. v. the Republic of Moldova, no. 26608/11, §§ 46-47 and 62, 28 January 2014"^^xsd:string ;
-            dcterms:title "T.M. and C.M. v. the Republic of Moldova"^^xsd:string ],
-        [ ns1:hasApplicationNumber "46956/09"^^xsd:string ;
-            dcterms:date "2014-07-24"^^xsd:date ;
-            dcterms:description "Lyapin v. Russia, no. 46956/09, §§ 134-140, 24 July 2014"^^xsd:string ;
-            dcterms:title "Lyapin v. Russia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "26827/08"^^xsd:string ;
-            dcterms:date "2014-03-11"^^xsd:date ;
-            dcterms:description "Abdu v. Bulgaria, no. 26827/08, § 51, 11 March 2014"^^xsd:string ;
-            dcterms:title "Abdu v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "12879/09"^^xsd:string ;
-            dcterms:date "2019-01-10"^^xsd:date ;
-            dcterms:description "Ēcis v. Latvia, no. 12879/09, §§ 84-86, 10 January 2019"^^xsd:string ;
-            dcterms:title "Ēcis v. Latvia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "17209/02"^^xsd:string ;
-            dcterms:description "Zarb Adami v. Malta, no. 17209/02, §§ 77-78, ECHR 2006 VIII"^^xsd:string ;
-            dcterms:title "Zarb Adami v. Malta"^^xsd:string ],
+    dcterms:references [ dcterms:description "The Committee of Ministers’ Recommendation Rec (2002)5 of 30 April 2002"^^xsd:string ],
+        [ ns1:hasApplicationNumber "57325/00"^^xsd:string ;
+            dcterms:description "D.H. and Others v. the Czech Republic [GC], no. 57325/00, § 175, ECHR 2007-IV"^^xsd:string ;
+            dcterms:title "D.H. and Others v. the Czech Republic [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "43994/05"^^xsd:string ;
+            dcterms:date "2012-10-30"^^xsd:date ;
+            dcterms:description "E.M. v. Romania, no. 43994/05, § 62, 30 October 2012"^^xsd:string ;
+            dcterms:title "E.M. v. Romania"^^xsd:string ],
         [ ns1:hasApplicationNumber "30078/06"^^xsd:string ;
             dcterms:description "Konstantin Markin v. Russia [GC], no. 30078/06, § 47, ECHR 2012 (extracts)"^^xsd:string ;
             dcterms:title "Konstantin Markin v. Russia [GC]"^^xsd:string ],
         [ dcterms:description "The fifth periodic report of the Russian Federation (CAT/C/RUS/CO/5), adopted by the UN Committee against Torture on 22 November 2012"^^xsd:string ],
-        [ dcterms:description "The eighth periodic report of the Russian Federation (CEDAW/C/RUS/CO/8),adopted by the CEDAW Committee on 27 October 2015"^^xsd:string ],
-        [ ns1:hasApplicationNumber "3564/11"^^xsd:string ;
-            dcterms:date "2013-05-28"^^xsd:date ;
-            dcterms:description "Eremia v. the Republic of Moldova, no. 3564/11, § 54, 28 May 2013"^^xsd:string ;
-            dcterms:title "Eremia v. the Republic of Moldova"^^xsd:string ],
+        [ ns1:hasApplicationNumber "26827/08"^^xsd:string ;
+            dcterms:date "2014-03-11"^^xsd:date ;
+            dcterms:description "Abdu v. Bulgaria, no. 26827/08, § 51, 11 March 2014"^^xsd:string ;
+            dcterms:title "Abdu v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "43835/11"^^xsd:string ;
+            dcterms:description "S.A.S. v. France [GC], no. 43835/11, § 161, ECHR 2014 (extracts)"^^xsd:string ;
+            dcterms:title "S.A.S. v. France [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "74839/10"^^xsd:string ;
+            dcterms:date "2013-07-16"^^xsd:date ;
+            dcterms:description "Mudric v. the Republic of Moldova, no. 74839/10, §§ 48 and 63, 16 July 2013"^^xsd:string ;
+            dcterms:title "Mudric v. the Republic of Moldova"^^xsd:string ],
+        [ ns1:hasApplicationNumber "60367/08"^^xsd:string ;
+            dcterms:date "2017-01-24"^^xsd:date ;
+            dcterms:description "Khamtokhu and Aksenchik v. Russia [GC], nos. 60367/08 and 961/11, § 53, 24 January 2017"^^xsd:string ;
+            dcterms:title "Khamtokhu and Aksenchik v. Russia [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "26608/11"^^xsd:string ;
+            dcterms:date "2014-01-28"^^xsd:date ;
+            dcterms:description "T.M. and C.M. v. the Republic of Moldova, no. 26608/11, §§ 46-47 and 62, 28 January 2014"^^xsd:string ;
+            dcterms:title "T.M. and C.M. v. the Republic of Moldova"^^xsd:string ],
+        [ ns1:hasApplicationNumber "2660/03"^^xsd:string ;
+            dcterms:date "2010-11-30"^^xsd:date ;
+            dcterms:description "Hajduová v. Slovakia, no. 2660/03, § 46, 30 November 2010"^^xsd:string ;
+            dcterms:title "Hajduová v. Slovakia"^^xsd:string ],
         [ ns1:hasApplicationNumber "63034/11"^^xsd:string ;
             dcterms:date "2016-06-28"^^xsd:date ;
             dcterms:description "Halime Kılıç v. Turkey, no. 63034/11, §§ 117-118, 28 June 2016"^^xsd:string ;
             dcterms:title "Halime Kılıç v. Turkey"^^xsd:string ],
+        [ ns1:hasApplicationNumber "72964/10"^^xsd:string ;
+            dcterms:date "2014-05-27"^^xsd:date ;
+            dcterms:description "Rumor v. Italy, no. 72964/10, §§ 63 and 76-77, 27 May 2014"^^xsd:string ;
+            dcterms:title "Rumor v. Italy"^^xsd:string ],
+        [ ns1:hasApplicationNumber "46956/09"^^xsd:string ;
+            dcterms:date "2014-07-24"^^xsd:date ;
+            dcterms:description "Lyapin v. Russia, no. 46956/09, §§ 134-140, 24 July 2014"^^xsd:string ;
+            dcterms:title "Lyapin v. Russia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "17209/02"^^xsd:string ;
+            dcterms:description "Zarb Adami v. Malta, no. 17209/02, §§ 77-78, ECHR 2006 VIII"^^xsd:string ;
+            dcterms:title "Zarb Adami v. Malta"^^xsd:string ],
+        [ dcterms:description "The eighth periodic report of the Russian Federation (CEDAW/C/RUS/CO/8),adopted by the CEDAW Committee on 27 October 2015"^^xsd:string ],
+        [ ns1:hasApplicationNumber "61382/09"^^xsd:string ;
+            dcterms:date "2013-07-16"^^xsd:date ;
+            dcterms:description "B. v. the Republic of Moldova, no. 61382/09, §§ 53-54, 16 July 2013"^^xsd:string ;
+            dcterms:title "B. v. the Republic of Moldova"^^xsd:string ],
+        [ ns1:hasApplicationNumber "33234/07"^^xsd:string ;
+            dcterms:date "2013-03-26"^^xsd:date ;
+            dcterms:description "Valiulienė v. Lithuania, no. 33234/07, § 69-78, 26 March 2013"^^xsd:string ;
+            dcterms:title "Valiulienė v. Lithuania"^^xsd:string ],
+        [ ns1:hasApplicationNumber "12879/09"^^xsd:string ;
+            dcterms:date "2019-01-10"^^xsd:date ;
+            dcterms:description "Ēcis v. Latvia, no. 12879/09, §§ 84-86, 10 January 2019"^^xsd:string ;
+            dcterms:title "Ēcis v. Latvia"^^xsd:string ],
+        [ dcterms:description "The Convention on the Elimination of All Forms of Discrimination against Women"^^xsd:string ],
+        [ ns1:hasApplicationNumber "23380/09"^^xsd:string ;
+            dcterms:description "Bouyid v. Belgium [GC], no. 23380/09, §§ 86-87, ECHR 2015"^^xsd:string ;
+            dcterms:title "Bouyid v. Belgium [GC]"^^xsd:string ],
+        [ ns1:hasApplicationNumber "49645/09"^^xsd:string ;
+            dcterms:date "2017-05-23"^^xsd:date ;
+            dcterms:description "Bălşan v. Romania, no. 49645/09, 23 May 2017"^^xsd:string ;
+            dcterms:title "Bălşan v. Romania"^^xsd:string ],
+        [ ns1:hasApplicationNumber "71127/01"^^xsd:string ;
+            dcterms:date "2008-06-12"^^xsd:date ;
+            dcterms:description "Bevacqua and S. v. Bulgaria, no. 71127/01, §§ 64-65 et 83, 12 June 2008"^^xsd:string ;
+            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "57269/14"^^xsd:string ;
+            dcterms:date "2018-11-20"^^xsd:date ;
+            dcterms:description "Samesov v. Russia, no. 57269/14, §§ 51-54, 20 November 2018"^^xsd:string ;
+            dcterms:title "Samesov v. Russia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "7186/09"^^xsd:string ;
+            dcterms:date "2016-02-02"^^xsd:date ;
+            dcterms:description "Di Trizio v. Switzerland, no. 7186/09, § 66, 2 February 2016"^^xsd:string ;
+            dcterms:title "Di Trizio v. Switzerland"^^xsd:string ],
+        [ ns1:hasApplicationNumber "33401/02"^^xsd:string ;
+            dcterms:description "Opuz v. Turkey, no. 33401/02, ECHR 2009"^^xsd:string ;
+            dcterms:title "Opuz v. Turkey"^^xsd:string ],
         [ ns1:hasApplicationNumber "40020/03"^^xsd:string ;
             dcterms:date "2012-07-31"^^xsd:date ;
             dcterms:description "M. and Others v. Italy and Bulgaria, no. 40020/03, § 105, 31 July 2012"^^xsd:string ;
@@ -75,51 +122,10 @@
             dcterms:date "2017-07-11"^^xsd:date ;
             dcterms:description "Ž.B. v. Croatia, no. 47666/13, §§ 50 and 54-55, 11 July 2017"^^xsd:string ;
             dcterms:title "Ž.B. v. Croatia"^^xsd:string ],
-        [ dcterms:description "The Committee of Ministers’ Recommendation Rec (2002)5 of 30 April 2002"^^xsd:string ],
-        [ ns1:hasApplicationNumber "23380/09"^^xsd:string ;
-            dcterms:description "Bouyid v. Belgium [GC], no. 23380/09, §§ 86-87, ECHR 2015"^^xsd:string ;
-            dcterms:title "Bouyid v. Belgium [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "49645/09"^^xsd:string ;
-            dcterms:date "2017-05-23"^^xsd:date ;
-            dcterms:description "Bălşan v. Romania, no. 49645/09, 23 May 2017"^^xsd:string ;
-            dcterms:title "Bălşan v. Romania"^^xsd:string ],
-        [ dcterms:description "The Convention on the Elimination of All Forms of Discrimination against Women"^^xsd:string ],
-        [ ns1:hasApplicationNumber "61382/09"^^xsd:string ;
-            dcterms:date "2013-07-16"^^xsd:date ;
-            dcterms:description "B. v. the Republic of Moldova, no. 61382/09, §§ 53-54, 16 July 2013"^^xsd:string ;
-            dcterms:title "B. v. the Republic of Moldova"^^xsd:string ],
-        [ ns1:hasApplicationNumber "72964/10"^^xsd:string ;
-            dcterms:date "2014-05-27"^^xsd:date ;
-            dcterms:description "Rumor v. Italy, no. 72964/10, §§ 63 and 76-77, 27 May 2014"^^xsd:string ;
-            dcterms:title "Rumor v. Italy"^^xsd:string ],
-        [ ns1:hasApplicationNumber "33234/07"^^xsd:string ;
-            dcterms:date "2013-03-26"^^xsd:date ;
-            dcterms:description "Valiulienė v. Lithuania, no. 33234/07, § 69-78, 26 March 2013"^^xsd:string ;
-            dcterms:title "Valiulienė v. Lithuania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "43994/05"^^xsd:string ;
-            dcterms:date "2012-10-30"^^xsd:date ;
-            dcterms:description "E.M. v. Romania, no. 43994/05, § 62, 30 October 2012"^^xsd:string ;
-            dcterms:title "E.M. v. Romania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "60367/08"^^xsd:string ;
-            dcterms:date "2017-01-24"^^xsd:date ;
-            dcterms:description "Khamtokhu and Aksenchik v. Russia [GC], nos. 60367/08 and 961/11, § 53, 24 January 2017"^^xsd:string ;
-            dcterms:title "Khamtokhu and Aksenchik v. Russia [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "7186/09"^^xsd:string ;
-            dcterms:date "2016-02-02"^^xsd:date ;
-            dcterms:description "Di Trizio v. Switzerland, no. 7186/09, § 66, 2 February 2016"^^xsd:string ;
-            dcterms:title "Di Trizio v. Switzerland"^^xsd:string ],
-        [ ns1:hasApplicationNumber "2660/03"^^xsd:string ;
-            dcterms:date "2010-11-30"^^xsd:date ;
-            dcterms:description "Hajduová v. Slovakia, no. 2660/03, § 46, 30 November 2010"^^xsd:string ;
-            dcterms:title "Hajduová v. Slovakia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "46423/06"^^xsd:string ;
-            dcterms:date "2009-06-25"^^xsd:date ;
-            dcterms:description "Beganović v. Croatia, no. 46423/06, § 56, 25 June 2009"^^xsd:string ;
-            dcterms:title "Beganović v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "71127/01"^^xsd:string ;
-            dcterms:date "2008-06-12"^^xsd:date ;
-            dcterms:description "Bevacqua and S. v. Bulgaria, no. 71127/01, §§ 64-65 et 83, 12 June 2008"^^xsd:string ;
-            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ],
+        [ ns1:hasApplicationNumber "3564/11"^^xsd:string ;
+            dcterms:date "2013-05-28"^^xsd:date ;
+            dcterms:description "Eremia v. the Republic of Moldova, no. 3564/11, § 54, 28 May 2013"^^xsd:string ;
+            dcterms:title "Eremia v. the Republic of Moldova"^^xsd:string ],
         [ ns1:hasApplicationNumber "55164/08"^^xsd:string ;
             dcterms:date "2010-10-14"^^xsd:date ;
             dcterms:description "A. v. Croatia, no. 55164/08, 14 October 2010"^^xsd:string ;
@@ -128,27 +134,18 @@
             dcterms:date "2009-03-05"^^xsd:date ;
             dcterms:description "Sandra Janković v. Croatia, no. 38478/05, § 50, 5 March 2009"^^xsd:string ;
             dcterms:title "Sandra Janković v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "41237/14"^^xsd:string ;
-            dcterms:date "2017-03-02"^^xsd:date ;
-            dcterms:description "Talpis v. Italy, no. 41237/14, 2 March 2017"^^xsd:string ;
-            dcterms:title "Talpis v. Italy"^^xsd:string ],
-        [ ns1:hasApplicationNumber "57325/00"^^xsd:string ;
-            dcterms:description "D.H. and Others v. the Czech Republic [GC], no. 57325/00, § 175, ECHR 2007-IV"^^xsd:string ;
-            dcterms:title "D.H. and Others v. the Czech Republic [GC]"^^xsd:string ],
         [ ns1:hasApplicationNumber "10825/09"^^xsd:string ;
             dcterms:date "2017-05-02"^^xsd:date ;
             dcterms:description "Olisov and Others v. Russia, nos. 10825/09 and 2 others, §§ 81-82, 2 May 2017"^^xsd:string ;
             dcterms:title "Olisov and Others v. Russia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "33401/02"^^xsd:string ;
-            dcterms:description "Opuz v. Turkey, no. 33401/02, ECHR 2009"^^xsd:string ;
-            dcterms:title "Opuz v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "57269/14"^^xsd:string ;
-            dcterms:date "2018-11-20"^^xsd:date ;
-            dcterms:description "Samesov v. Russia, no. 57269/14, §§ 51-54, 20 November 2018"^^xsd:string ;
-            dcterms:title "Samesov v. Russia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "43835/11"^^xsd:string ;
-            dcterms:description "S.A.S. v. France [GC], no. 43835/11, § 161, ECHR 2014 (extracts)"^^xsd:string ;
-            dcterms:title "S.A.S. v. France [GC]"^^xsd:string ] ;
+        [ ns1:hasApplicationNumber "41237/14"^^xsd:string ;
+            dcterms:date "2017-03-02"^^xsd:date ;
+            dcterms:description "Talpis v. Italy, no. 41237/14, 2 March 2017"^^xsd:string ;
+            dcterms:title "Talpis v. Italy"^^xsd:string ],
+        [ ns1:hasApplicationNumber "46423/06"^^xsd:string ;
+            dcterms:date "2009-06-25"^^xsd:date ;
+            dcterms:description "Beganović v. Croatia, no. 46423/06, § 56, 25 June 2009"^^xsd:string ;
+            dcterms:title "Beganović v. Croatia"^^xsd:string ] ;
     dcterms:title "CASE OF VOLODINA v. RUSSIA"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 

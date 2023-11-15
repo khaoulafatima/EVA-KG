@@ -8,9 +8,9 @@
     ns1:respondentState <http://www.wikidata.org/entity/Q217> ;
     dcterms:accessRights "public"^^xsd:string ;
     dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "POSTICA A. "^^xsd:string ],
+            foaf:name "STRAISTEANU D."^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "STRAISTEANU D."^^xsd:string ] ;
+            foaf:name "POSTICA A. "^^xsd:string ] ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:creator "Court (Third Section)"^^xsd:string ;
     dcterms:date "2012-05-15"^^xsd:date ;
