@@ -82,37 +82,37 @@ class ECHRDocument:
             new_element = ""
             opened_parenthesis = 0
             closed_parenthesis = 0
-            difference = 0
-            mod = False
             new_conclusions = []
+            mod = False
             for element in conclusions:
+                # print(opened_parenthesis, closed_parenthesis)
+                # print("***********", element)
                 for char in element:
                     if char == "(":
                         opened_parenthesis += 1
                     elif char == ")":
                         closed_parenthesis += 1
+                # print("***********", opened_parenthesis, closed_parenthesis)
                 if opened_parenthesis > closed_parenthesis:
                     new_element += element + " "
                     mod = True
-                    difference = opened_parenthesis - closed_parenthesis
-                    opened_parenthesis = 0
-                    closed_parenthesis = 0
-                elif opened_parenthesis + difference == closed_parenthesis:
-                    opened_parenthesis = 0
-                    closed_parenthesis = 0
-                    difference = 0
-                    new_element += element
-                    new_conclusions.append(new_element)
-                    new_element = ""
+                    # print("+++++++++++", new_element)
                 elif opened_parenthesis == closed_parenthesis:
                     opened_parenthesis = 0
                     closed_parenthesis = 0
-                    difference = 0
-                    new_conclusions.append(element)
-            if mod:
-                self._case_detail["Conclusion(s)"] = new_conclusions
-            else:
-                self._case_detail["Conclusion(s)"] = conclusions
+                    if mod:
+                        new_element += element
+                        # print("APPENDING", new_element)
+                        new_conclusions.append(new_element)
+                        mod = False
+                        new_element = ""
+                    else:
+                        # print("APPENDING", element)
+                        new_conclusions.append(element)
+                else:
+                    new_element += element + " "
+            self._case_detail["Conclusion(s)"] = new_conclusions
+
         elif isinstance(conclusions, str):
             self._case_detail["Conclusion(s)"] = conclusions
 

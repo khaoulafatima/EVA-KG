@@ -27,81 +27,81 @@
         "(Art. 8) Right to respect for private and family life"^^xsd:string,
         "(Art. 8-1) Respect for home"^^xsd:string,
         "(Art. 8-1) Respect for private life"^^xsd:string,
-        "Article 8-1 - Respect for home"^^xsd:string,
+        "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage Just satisfaction)"^^xsd:string,
         "Preliminary objections joined to merits and dismissed (Article 35-1 - Exhaustion of domestic remedies)"^^xsd:string,
         "Proportionality"^^xsd:string,
         "Remainder inadmissible (Article 35-3-a - Manifestly ill-founded)"^^xsd:string,
         "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation Positive obligations)"^^xsd:string,
-        "Violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations Non-pecuniary damage - award (Article 41 - Non-pecuniary damage"^^xsd:string ;
+        "Violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations Article 8-1 - Respect for home Respect for private life)"^^xsd:string ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-167118> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2016:1013JUD000187005"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ ns1:hasApplicationNumber "27310/09"^^xsd:string ;
-            dcterms:date "2014-04-24"^^xsd:date ;
-            dcterms:description "Udovičić v. Croatia, no. 27310/09, § 136, 24 April 2014"^^xsd:string ;
-            dcterms:title "Udovičić v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "28261/06"^^xsd:string ;
-            dcterms:date "2009-01-15"^^xsd:date ;
-            dcterms:description "Ćosić v. Croatia, no. 28261/06, § 21-23, 15 January 2009"^^xsd:string ;
-            dcterms:title "Ćosić v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "38833/03"^^xsd:string ;
-            dcterms:date "2015-04-02"^^xsd:date ;
-            dcterms:description "Kirpichenko v. Ukraine, no. 38833/03, § 63, 2 April 2015"^^xsd:string ;
-            dcterms:title "Kirpichenko v. Ukraine"^^xsd:string ],
+    dcterms:references [ ns1:hasApplicationNumber "30856/03"^^xsd:string ;
+            dcterms:date "2010-12-02"^^xsd:date ;
+            dcterms:description "Kryvitska and Kryvitskyy v. Ukraine, no. 30856/03, § 44, 2 December 2010"^^xsd:string ;
+            dcterms:title "Kryvitska and Kryvitskyy v. Ukraine"^^xsd:string ],
         [ ns1:hasApplicationNumber "38478/05"^^xsd:string ;
             dcterms:date "2009-03-05"^^xsd:date ;
             dcterms:description "Sandra Janković v. Croatia, no. 38478/05, § 45, 5 March 2009"^^xsd:string ;
             dcterms:title "Sandra Janković v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "33234/07"^^xsd:string ;
-            dcterms:date "2013-03-26"^^xsd:date ;
-            dcterms:description "Valiulienė v. Lithuania, no. 33234/07, §§ 68-75, 26 March 2013"^^xsd:string ;
-            dcterms:title "Valiulienė v. Lithuania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "10161/13"^^xsd:string ;
-            dcterms:description "M. and M. v. Croatia, no. 10161/13, §§ 141-143, ECHR 2015 (extracts)"^^xsd:string ;
-            dcterms:title "M. and M. v. Croatia"^^xsd:string ],
         [ ns1:hasApplicationNumber "38435/13"^^xsd:string ;
             dcterms:date "2015-12-15"^^xsd:date ;
             dcterms:description "B.V. and Others v. Croatia (dec.), no. 38435/13, §§ 149-158, 15 December 2015"^^xsd:string ;
             dcterms:title "B.V. and Others v. Croatia (dec.)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "75788/01"^^xsd:string ;
-            dcterms:date "2005-04-19"^^xsd:date ;
-            dcterms:description "Piryanik v. Ukraine, no. 75788/01, § 20, 19 April 2005"^^xsd:string ;
-            dcterms:title "Piryanik v. Ukraine"^^xsd:string ],
-        [ dcterms:date "2010-11-30"^^xsd:date ;
-            dcterms:description "Hajduová v. Slovakia, § 46, 30 November 2010"^^xsd:string ;
-            dcterms:title "Hajduová v. Slovakia"^^xsd:string ],
         [ ns1:hasApplicationNumber "19009/04"^^xsd:string ;
             dcterms:description "McCann v. the United Kingdom, no. 19009/04, §§ 49-50 and 55, ECHR 2008"^^xsd:string ;
             dcterms:title "McCann v. the United Kingdom"^^xsd:string ],
+        [ dcterms:date "2010-11-30"^^xsd:date ;
+            dcterms:description "Hajduová v. Slovakia, § 46, 30 November 2010"^^xsd:string ;
+            dcterms:title "Hajduová v. Slovakia"^^xsd:string ],
         [ ns1:hasApplicationNumber "5786/08"^^xsd:string ;
             dcterms:description "Söderman v. Sweden [GC], no. 5786/08, §§ 83-85, ECHR 2013"^^xsd:string ;
             dcterms:title "Söderman v. Sweden [GC]"^^xsd:string ],
-        [ dcterms:description "Article 365 of the Civil Code"^^xsd:string ],
-        [ dcterms:description "Articles 125 and 126 of the Criminal Code "^^xsd:string ],
-        [ ns1:hasApplicationNumber "48995/99"^^xsd:string ;
-            dcterms:date "2004-04-20"^^xsd:date ;
-            dcterms:description "Surugiu v. Romania, no. 48995/99, §§ 60-67, 20 April 2004"^^xsd:string ;
-            dcterms:title "Surugiu v. Romania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "30856/03"^^xsd:string ;
-            dcterms:date "2010-12-02"^^xsd:date ;
-            dcterms:description "Kryvitska and Kryvitskyy v. Ukraine, no. 30856/03, § 44, 2 December 2010"^^xsd:string ;
-            dcterms:title "Kryvitska and Kryvitskyy v. Ukraine"^^xsd:string ],
-        [ ns1:hasApplicationNumber "41526/10"^^xsd:string ;
-            dcterms:description "Đorđević v. Croatia, no. 41526/10, ECHR 2012"^^xsd:string ;
-            dcterms:title "Đorđević v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "29525/10"^^xsd:string ;
-            dcterms:date "2012-12-11"^^xsd:date ;
-            dcterms:description "Remetin v. Croatia, no. 29525/10, § 90, 11 December 2012"^^xsd:string ;
-            dcterms:title "Remetin v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "27310/09"^^xsd:string ;
+            dcterms:date "2014-04-24"^^xsd:date ;
+            dcterms:description "Udovičić v. Croatia, no. 27310/09, § 136, 24 April 2014"^^xsd:string ;
+            dcterms:title "Udovičić v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "38833/03"^^xsd:string ;
+            dcterms:date "2015-04-02"^^xsd:date ;
+            dcterms:description "Kirpichenko v. Ukraine, no. 38833/03, § 63, 2 April 2015"^^xsd:string ;
+            dcterms:title "Kirpichenko v. Ukraine"^^xsd:string ],
+        [ ns1:hasApplicationNumber "28261/06"^^xsd:string ;
+            dcterms:date "2009-01-15"^^xsd:date ;
+            dcterms:description "Ćosić v. Croatia, no. 28261/06, § 21-23, 15 January 2009"^^xsd:string ;
+            dcterms:title "Ćosić v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "10161/13"^^xsd:string ;
+            dcterms:description "M. and M. v. Croatia, no. 10161/13, §§ 141-143, ECHR 2015 (extracts)"^^xsd:string ;
+            dcterms:title "M. and M. v. Croatia"^^xsd:string ],
         [ ns1:hasApplicationNumber "11160/07"^^xsd:string ;
             dcterms:date "2013-10-29"^^xsd:date ;
             dcterms:description "D.F. v. Latvia, no. 11160/07, § 83, 29 October 2013"^^xsd:string ;
             dcterms:title "D.F. v. Latvia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "75788/01"^^xsd:string ;
+            dcterms:date "2005-04-19"^^xsd:date ;
+            dcterms:description "Piryanik v. Ukraine, no. 75788/01, § 20, 19 April 2005"^^xsd:string ;
+            dcterms:title "Piryanik v. Ukraine"^^xsd:string ],
+        [ ns1:hasApplicationNumber "41526/10"^^xsd:string ;
+            dcterms:description "Đorđević v. Croatia, no. 41526/10, ECHR 2012"^^xsd:string ;
+            dcterms:title "Đorđević v. Croatia"^^xsd:string ],
+        [ ns1:hasApplicationNumber "33234/07"^^xsd:string ;
+            dcterms:date "2013-03-26"^^xsd:date ;
+            dcterms:description "Valiulienė v. Lithuania, no. 33234/07, §§ 68-75, 26 March 2013"^^xsd:string ;
+            dcterms:title "Valiulienė v. Lithuania"^^xsd:string ],
+        [ ns1:hasApplicationNumber "29525/10"^^xsd:string ;
+            dcterms:date "2012-12-11"^^xsd:date ;
+            dcterms:description "Remetin v. Croatia, no. 29525/10, § 90, 11 December 2012"^^xsd:string ;
+            dcterms:title "Remetin v. Croatia"^^xsd:string ],
+        [ dcterms:description "Article 365 of the Civil Code"^^xsd:string ],
+        [ ns1:hasApplicationNumber "48995/99"^^xsd:string ;
+            dcterms:date "2004-04-20"^^xsd:date ;
+            dcterms:description "Surugiu v. Romania, no. 48995/99, §§ 60-67, 20 April 2004"^^xsd:string ;
+            dcterms:title "Surugiu v. Romania"^^xsd:string ],
         [ ns1:hasApplicationNumber "61382/09"^^xsd:string ;
             dcterms:date "2013-07-16"^^xsd:date ;
             dcterms:description "B. v. the Republic of Moldova, no. 61382/09, § 74, 16 July 2013"^^xsd:string ;
-            dcterms:title "B. v. the Republic of Moldova"^^xsd:string ] ;
+            dcterms:title "B. v. the Republic of Moldova"^^xsd:string ],
+        [ dcterms:description "Articles 125 and 126 of the Criminal Code "^^xsd:string ] ;
     dcterms:title "CASE OF IRINA SMIRNOVA v. UKRAINE"^^xsd:string ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> .
 
