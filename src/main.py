@@ -15,7 +15,8 @@ if __name__ == "__main__":
     triple_path = "../data/triples"
     while True:
         print("\033[92m")
-        choice = input("1. Scraping dati da ECHR\n2. Dall'inizio\n3. Grafo da triple salvate\n4. Esci\n> ")
+        choice = input(
+            "1. Scraping dati da ECHR\n2. Estrai informazioni dai dati\n3. Genera grafo da triple salvate\n4. Esci\n> ")
         print("\033[0m")
         if choice == "1":
             choice = input("Potrebbe richiedere molto tempo. Continuare? (y/n) ")
