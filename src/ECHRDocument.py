@@ -298,139 +298,153 @@ class ECHRDocument:
         if self._case_detail is None:
             return
         wd = Namespace("http://www.wikidata.org/entity/")
-        custom_ns = Namespace("http://eva.org/")
-        subject = BNode()
+        custom_ns_entity = Namespace("http://eva.org/entity/")
+        custom_ns_type = Namespace("http://eva.org/type/")
+        custom_ns_property = Namespace("http://eva.org/property/")
 
-        self._graph.add((subject, DCTERMS.accessRights, Literal("public", datatype=XSD.string)))
-        self._graph.add((subject, DCTERMS.publisher, URIRef(wd.Q122880)))
-        self._graph.add((subject, DCTERMS.language, Literal("en", datatype=XSD.string)))
-        self._graph.add((subject, DCTERMS.coverage, URIRef(wd.Q6602)))
-        url = extract_document_url(self._case_detail["Title"])
-        if url is not None:
-            self._graph.add((subject, DCTERMS.identifier, URIRef(url)))
+        url = URIRef(extract_document_url(self._case_detail["Title"]))
+
+        self._graph.add((url, DCTERMS.accessRights, Literal("public", datatype=XSD.string)))
+        self._graph.add((url, DCTERMS.publisher, URIRef(wd.Q122880)))
+        self._graph.add((url, DCTERMS.language, Literal("en", datatype=XSD.string)))
+        self._graph.add((url, DCTERMS.coverage, URIRef(wd.Q6602)))
 
         keys = self._case_detail.keys()
-        if "Originating Body" in keys:
-            self._graph.add(
-                (subject, DCTERMS.creator, Literal(self._case_detail["Originating Body"], datatype=XSD.string)))
-
-        if "Document Type" in keys:
-            if self._case_detail["Document Type"] == "Judgment (Merits and Just Satisfaction)":
-                self._graph.add((subject, DCTERMS.type, URIRef(wd.Q3769186)))
-            elif self._case_detail["Document Type"] == "Decision":
-                self._graph.add((subject, DCTERMS.type, URIRef(wd.Q327000)))
-
-        if "Published in" in keys:
-            self._graph.add(
-                (subject, DCTERMS.isPartOf, Literal(self._case_detail["Published in"], datatype=XSD.string)))
-
-        if "Title" in keys:
-            self._graph.add((subject, DCTERMS.title, Literal(self._case_detail["Title"], datatype=XSD.string)))
+        uri_list = []
 
         if "App. No(s)." in keys:
             for value in self._case_detail["App. No(s)."]:
                 if isinstance(self._case_detail["App. No(s)."], str):
                     value = self._case_detail["App. No(s)."]
+                uri = URIRef(custom_ns_entity + value)
+                uri_list.append(uri)
                 self._graph.add(
-                    (subject, URIRef(custom_ns + "hasApplicationNumber"), Literal(value, datatype=XSD.string)))
+                    (uri, URIRef(custom_ns_property + "hasApplicationNumber"), Literal(value, datatype=XSD.string)))
                 if isinstance(self._case_detail["App. No(s)."], str):
                     break
 
-        if "Importance Level" in keys:
-            if self._case_detail["Importance Level"] == "Key cases":
-                self._graph.add((subject, URIRef(custom_ns + "importanceLevel"), Literal(4, datatype=XSD.integer)))
-            else:
-                self._graph.add(
-                    (subject, URIRef(custom_ns + "importanceLevel"), Literal(int(self._case_detail["Importance Level"]),
-                                                                             datatype=XSD.integer)))
-
-        if "Respondent State(s)" in keys:
-            for value in self._case_detail["Respondent State(s)"]:
-                if isinstance(self._case_detail["Respondent State(s)"], str):
-                    value = self._case_detail["Respondent State(s)"]
-                country = get_country_identifier(value)
-                self._graph.add((subject, URIRef(custom_ns + "respondentState"), URIRef(country)))
-                if isinstance(self._case_detail["Respondent State(s)"], str):
-                    break
-
-        if "Represented by" in keys:
-            for value in self._case_detail["Represented by"]:
-                if isinstance(self._case_detail["Represented by"], str):
-                    value = self._case_detail["Represented by"]
-                if value != "N/A":
-                    lawyer = BNode()
-                    self._graph.add((subject, DCTERMS.contributor, lawyer))
-                    self._graph.add((lawyer, FOAF.name, Literal(value, datatype=XSD.string)))
-                    self._graph.add((lawyer, RDF.type, URIRef(wd.Q40348)))
-                if isinstance(self._case_detail["Represented by"], str):
-                    break
-
-        if "Judgment Date" in keys:
-            new_date = self._case_detail["Judgment Date"].split("/")
-            new_date = new_date[2] + "-" + new_date[1] + "-" + new_date[0]
-            self._graph.add((subject, DCTERMS.date, Literal(new_date, datatype=XSD.date)))
-
-        if "Decision Date" in keys:
-            new_date = self._case_detail["Decision Date"].split("/")
-            new_date = new_date[2] + "-" + new_date[1] + "-" + new_date[0]
-            self._graph.add((subject, DCTERMS.date, Literal(new_date, datatype=XSD.date)))
-
-        if "Conclusion(s)" in keys:
-            for value in self._case_detail["Conclusion(s)"]:
-                if isinstance(self._case_detail["Conclusion(s)"], str):
-                    value = self._case_detail["Conclusion(s)"]
-                self._graph.add((subject, DCTERMS.description, Literal(value, datatype=XSD.string)))
-                if isinstance(self._case_detail["Conclusion(s)"], str):
-                    break
-
-        if "Domestic Law" in keys:
-            for value in self._case_detail["Domestic Law"]:
-                if isinstance(self._case_detail["Domestic Law"], str):
-                    value = self._case_detail["Domestic Law"]
-                dl = BNode()
-                self._graph.add((subject, DCTERMS.references, dl))
-                self._graph.add((dl, DCTERMS.description, Literal(value, datatype=XSD.string)))
-                if isinstance(self._case_detail["Domestic Law"], str):
-                    break
-
-        if "Strasbourg Case-Law" in keys:
-            for value in self._case_detail["Strasbourg Case-Law"]:
-                if isinstance(self._case_detail["Strasbourg Case-Law"], str):
-                    value = self._case_detail["Strasbourg Case-Law"]
-                content = strasbourg_case_law_re(value)
-                scl = BNode()
-                self._graph.add((subject, DCTERMS.references, scl))
-                self._graph.add((scl, DCTERMS.description, Literal(value, datatype=XSD.string)))
-                if content[0]:
-                    self._graph.add((scl, DCTERMS.title, Literal(content[0], datatype=XSD.string)))
-                if content[1]:
-                    self._graph.add(
-                        (scl, URIRef(custom_ns + "hasApplicationNumber"), Literal(content[1], datatype=XSD.string)))
-                if content[2]:
-                    self._graph.add((scl, DCTERMS.date, Literal(content[2], datatype=XSD.date)))
-                if isinstance(self._case_detail["Strasbourg Case-Law"], str):
-                    break
-
-        if "International Law" in keys:
-            for value in self._case_detail["International Law"]:
-                if isinstance(self._case_detail["International Law"], str):
-                    value = self._case_detail["International Law"]
-                il = BNode()
-                self._graph.add((subject, DCTERMS.references, il))
-                self._graph.add((il, DCTERMS.description, Literal(value, datatype=XSD.string)))
-                if isinstance(self._case_detail["International Law"], str):
-                    break
+        if "Title" in keys:
+            self._graph.add((url, DCTERMS.title, Literal(self._case_detail["Title"], datatype=XSD.string)))
 
         if "Keywords" in keys:
             for value in self._case_detail["Keywords"]:
                 if isinstance(self._case_detail["Keywords"], str):
                     value = self._case_detail["Keywords"]
-                self._graph.add((subject, DCTERMS.description, Literal(value, datatype=XSD.string)))
+                self._graph.add((url, DCTERMS.description, Literal(value, datatype=XSD.string)))
                 if isinstance(self._case_detail["Keywords"], str):
                     break
 
-        if "ECLI" in keys:
-            self._graph.add((subject, DCTERMS.isVersionOf, Literal(self._case_detail["ECLI"], datatype=XSD.string)))
+        if "Conclusion(s)" in keys:
+            for value in self._case_detail["Conclusion(s)"]:
+                if isinstance(self._case_detail["Conclusion(s)"], str):
+                    value = self._case_detail["Conclusion(s)"]
+                self._graph.add((url, DCTERMS.description, Literal(value, datatype=XSD.string)))
+                if isinstance(self._case_detail["Conclusion(s)"], str):
+                    break
+
+        for uri in uri_list:
+            if url is not None:
+                self._graph.add((uri, DCTERMS.identifier, url))
+
+            """if "Originating Body" in keys:
+                self._graph.add(
+                    (uri, DCTERMS.creator, Literal(self._case_detail["Originating Body"], datatype=XSD.string)))
+
+            if "Document Type" in keys:
+                if self._case_detail["Document Type"] == "Judgment (Merits and Just Satisfaction)":
+                    self._graph.add((uri, DCTERMS.type, URIRef(wd.Q3769186)))
+                elif self._case_detail["Document Type"] == "Decision":
+                    self._graph.add((uri, DCTERMS.type, URIRef(wd.Q327000)))
+
+            if "Published in" in keys:
+                self._graph.add(
+                    (uri, DCTERMS.isPartOf, Literal(self._case_detail["Published in"], datatype=XSD.string)))
+
+            if "Importance Level" in keys:
+                if self._case_detail["Importance Level"] == "Key cases":
+                    self._graph.add(
+                        (uri, URIRef(custom_ns_property + "importanceLevel"), Literal(4, datatype=XSD.integer)))
+                else:
+                    self._graph.add(
+                        (uri, URIRef(custom_ns_property + "importanceLevel"),
+                         Literal(int(self._case_detail["Importance Level"]),
+                                 datatype=XSD.integer)))
+
+            if "Respondent State(s)" in keys:
+                for value in self._case_detail["Respondent State(s)"]:
+                    if isinstance(self._case_detail["Respondent State(s)"], str):
+                        value = self._case_detail["Respondent State(s)"]
+                    country = get_country_identifier(value)
+                    self._graph.add((uri, URIRef(custom_ns_property + "respondentState"), URIRef(country)))
+                    if isinstance(self._case_detail["Respondent State(s)"], str):
+                        break
+
+            if "Judgment Date" in keys:
+                new_date = self._case_detail["Judgment Date"].split("/")
+                new_date = new_date[2] + "-" + new_date[1] + "-" + new_date[0]
+                self._graph.add((uri, DCTERMS.date, Literal(new_date, datatype=XSD.date)))
+
+            if "Decision Date" in keys:
+                new_date = self._case_detail["Decision Date"].split("/")
+                new_date = new_date[2] + "-" + new_date[1] + "-" + new_date[0]
+                self._graph.add((uri, DCTERMS.date, Literal(new_date, datatype=XSD.date)))
+
+            if "ECLI" in keys:
+                self._graph.add((uri, DCTERMS.isVersionOf, Literal(self._case_detail["ECLI"], datatype=XSD.string)))"""
+
+            """if "Represented by" in keys:
+                for value in self._case_detail["Represented by"]:
+                    if isinstance(self._case_detail["Represented by"], str):
+                        value = self._case_detail["Represented by"]
+                    if value != "N/A":
+                        lawyer = BNode()
+                        self._graph.add((uri, DCTERMS.contributor, lawyer))
+                        self._graph.add((lawyer, FOAF.name, Literal(value, datatype=XSD.string)))
+                        self._graph.add((lawyer, RDF.type, URIRef(wd.Q40348)))
+                    if isinstance(self._case_detail["Represented by"], str):
+                        break
+
+            if "Domestic Law" in keys:
+                for value in self._case_detail["Domestic Law"]:
+                    if isinstance(self._case_detail["Domestic Law"], str):
+                        value = self._case_detail["Domestic Law"]
+                    dl = BNode()
+                    self._graph.add((uri, DCTERMS.references, dl))
+                    self._graph.add((dl, DCTERMS.description, Literal(value, datatype=XSD.string)))
+                    self._graph.add((dl, RDF.type, URIRef(custom_ns_type + "DomesticLaw")))
+                    if isinstance(self._case_detail["Domestic Law"], str):
+                        break"""
+
+            if "Strasbourg Case-Law" in keys:
+                for value in self._case_detail["Strasbourg Case-Law"]:
+                    if isinstance(self._case_detail["Strasbourg Case-Law"], str):
+                        value = self._case_detail["Strasbourg Case-Law"]
+                    content = strasbourg_case_law_re(value)
+                    scl = BNode()
+                    self._graph.add((uri, DCTERMS.references, scl))
+                    self._graph.add((scl, DCTERMS.description, Literal(value, datatype=XSD.string)))
+                    self._graph.add((scl, RDF.type, URIRef(custom_ns_type + "StrasbourgCaseLaw")))
+                    if content[0]:
+                        self._graph.add((scl, DCTERMS.title, Literal(content[0], datatype=XSD.string)))
+                    if content[1]:
+                        self._graph.add(
+                            (scl, URIRef(custom_ns_property + "hasApplicationNumber"),
+                             Literal(content[1], datatype=XSD.string)))
+                    if content[2]:
+                        self._graph.add((scl, DCTERMS.date, Literal(content[2], datatype=XSD.date)))
+                    if isinstance(self._case_detail["Strasbourg Case-Law"], str):
+                        break
+
+            if "International Law" in keys:
+                for value in self._case_detail["International Law"]:
+                    if isinstance(self._case_detail["International Law"], str):
+                        value = self._case_detail["International Law"]
+                    il = BNode()
+                    self._graph.add((uri, DCTERMS.references, il))
+                    self._graph.add((il, DCTERMS.description, Literal(value, datatype=XSD.string)))
+                    self._graph.add((il, RDF.type, URIRef(custom_ns_type + "InternationalLaw")))
+                    if isinstance(self._case_detail["International Law"], str):
+                        break
 
     def extract_triples_from_body(self):
         # TODO implementare
@@ -462,7 +476,7 @@ if __name__ == "__main__":
 
     html_p = "../data/corpus_html"
     pdf_p = "../data/corpus_pdf"
-    f_name = "CASE OF A AND B v. GEORGIA"
+    f_name = "CASE OF M. AND OTHERS v. ITALY AND BULGARIA"
     json_path = "../data/case_detail_json"
     body_path = "../data/document_body"
     echr_document = ECHRDocument(html_path=html_p, pdf_path=pdf_p, file_name=f_name)

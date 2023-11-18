@@ -1,21 +1,174 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://eva.org/> .
+@prefix ns1: <http://eva.org/property/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] ns1:hasApplicationNumber "52515/99"^^xsd:string ;
+<http://eva.org/entity/52515/99> ns1:hasApplicationNumber "52515/99"^^xsd:string ;
     ns1:importanceLevel 2 ;
     ns1:respondentState <http://www.wikidata.org/entity/Q43> ;
-    dcterms:accessRights "public"^^xsd:string ;
     dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "YALCINDAG BAYDEMIR R. "^^xsd:string ],
+            foaf:name "AYDIN C. "^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "KESKIN E."^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "AYDIN C. "^^xsd:string ] ;
-    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
+            foaf:name "YALCINDAG BAYDEMIR R. "^^xsd:string ] ;
     dcterms:creator "Court (Fourth Section)"^^xsd:string ;
     dcterms:date "2008-05-13"^^xsd:date ;
+    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-86255> ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2008:0513JUD005251599"^^xsd:string ;
+    dcterms:references [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "59659/00"^^xsd:string ;
+            dcterms:date "2003-02-06"^^xsd:date ;
+            dcterms:description "Özdemir v. Turkey, no. 59659/00, §§ 35-36, 6 February 2003"^^xsd:string ;
+            dcterms:title "Özdemir v. Turkey"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "3321/67"^^xsd:string ;
+            dcterms:date "1969-11-05"^^xsd:date ;
+            dcterms:description "Denmark, Norway, Sweden and the Netherlands v. Greece (“the Greek case”), nos. 3321/67 et al., Commission's report of 5 November 1969, Yearbook 12, p. 186"^^xsd:string ;
+            dcterms:title "Denmark"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "26772/95"^^xsd:string ;
+            dcterms:description "Labita v. Italy [GC], no. 26772/95, §§ 119-121, ECHR 2000-IV"^^xsd:string ;
+            dcterms:title "Labita v. Italy [GC]"^^xsd:string ],
+        [ a <http://eva.org/type/InternationalLaw> ;
+            dcterms:description "Article 5 of the Council of Europe Convention on Human Rights and Biomedicine"^^xsd:string ],
+        [ a <http://eva.org/type/DomesticLaw> ;
+            dcterms:description "Article 70 of the Medical Practice Act, Sections 24-31 of Regulation no. 23420 on patients' rights"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "53431/99"^^xsd:string ;
+            dcterms:date "2003-10-23"^^xsd:date ;
+            dcterms:description "Gençel v. Turkey, no. 53431/99, §§ 11  12, 23 October 2003"^^xsd:string ;
+            dcterms:title "Gençel v. Turkey"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            dcterms:date "1998-06-09"^^xsd:date ;
+            dcterms:description "Incal v. Turkey, judgment of 9 June 1998, Reports 1998-IV, p. 1568, § 74"^^xsd:string ;
+            dcterms:title "Incal v. Turkey"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "61827/00"^^xsd:string ;
+            dcterms:description "Glass v. the United Kingdom, no. 61827/00, §§ 70, 82, ECHR 2004 II"^^xsd:string ;
+            dcterms:title "Glass v. the United Kingdom"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "74300/01"^^xsd:string ;
+            dcterms:date "2007-10-11"^^xsd:date ;
+            dcterms:description "Özalp v. Turkey (dec.), no. 74300/01, 11 October 2007"^^xsd:string ;
+            dcterms:title "Özalp v. Turkey (dec.)"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "12350/04"^^xsd:string ;
+            dcterms:description "Wainwright v. the United Kingdom, no. 12350/04, § 43, ECHR 2006 ..."^^xsd:string ;
+            dcterms:title "Wainwright v. the United Kingdom"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "24209/94"^^xsd:string ;
+            dcterms:description "Y.F. v. Turkey, no. 24209/94, §§ 23-26, 33, 34, ECHR 2003 IX"^^xsd:string ;
+            dcterms:title "Y.F. v. Turkey"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "8036/02"^^xsd:string ;
+            dcterms:date "2007-03-06"^^xsd:date ;
+            dcterms:description "Sagat, Bayram and Berk v. Turkey (dec.), no. 8036/02, 6 March 2007"^^xsd:string ;
+            dcterms:title "Sagat"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            dcterms:date "1993-07-08"^^xsd:date ;
+            dcterms:description "Hurtado v. Switzerland, Commission's report of 8 July 1993, Series A no. 280, p. 14, § 67"^^xsd:string ;
+            dcterms:title "Hurtado v. Switzerland"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "45907/99"^^xsd:string ;
+            dcterms:date "2002-10-22"^^xsd:date ;
+            dcterms:description "Tanrikulu and Others v. Turkey (dec.), no. 45907/99, 22 October 2002"^^xsd:string ;
+            dcterms:title "Tanrikulu and Others v. Turkey (dec.)"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "879/02"^^xsd:string ;
+            dcterms:date "2006-03-02"^^xsd:date ;
+            dcterms:description "Devrim Turan v. Turkey, no. 879/02, § 21, 2 March 2006"^^xsd:string ;
+            dcterms:title "Devrim Turan v. Turkey"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "54810/00"^^xsd:string ;
+            dcterms:description "Jalloh v. Germany [GC], no. 54810/00, §§ 70-71, ECHR 2006 ..."^^xsd:string ;
+            dcterms:title "Jalloh v. Germany [GC]"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            dcterms:date "1997-12-16"^^xsd:date ;
+            dcterms:description "Raninen v. Finland, judgment of 16 December 1997, Reports 1997-VIII, pp. 2821-22, § 55"^^xsd:string ;
+            dcterms:title "Raninen v. Finland"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "56760/00"^^xsd:string ;
+            dcterms:description "Akpinar and Altun v. Turkey, no. 56760/00, § 68, ECHR 2007 ... (extracts)"^^xsd:string ;
+            dcterms:title "Akpinar and Altun v. Turkey"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "0074/98"^^xsd:string ;
+            dcterms:date "2006-03-30"^^xsd:date ;
+            dcterms:description "Yildirim v. Turkey (dec.), no. 0074/98, 30 March 2006"^^xsd:string ;
+            dcterms:title "Yildirim v. Turkey (dec.)"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "895/02"^^xsd:string ;
+            dcterms:date "2005-05-26"^^xsd:date ;
+            dcterms:description "Siz v. Turkey (dec.), no. 895/02, 26 May 2005"^^xsd:string ;
+            dcterms:title "Siz v. Turkey (dec.)"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "37410/97"^^xsd:string ;
+            dcterms:date "2007-05-10"^^xsd:date ;
+            dcterms:description "Uzun v. Turkey, no. 37410/97, § 64, 10 May 2007"^^xsd:string ;
+            dcterms:title "Uzun v. Turkey"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "42739/98"^^xsd:string ;
+            dcterms:date "2002-11-07"^^xsd:date ;
+            dcterms:description "Özel v. Turkey, no. 42739/98, §§ 20-21, 33, 34, 7 November 2002"^^xsd:string ;
+            dcterms:title "Özel v. Turkey"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "33097/96"^^xsd:string ;
+            dcterms:date "2004-06-03"^^xsd:date ;
+            dcterms:description "Bati and Others v. Turkey, nos. 33097/96 and 57834/00, §§ 96 100, 3 June 2004"^^xsd:string ;
+            dcterms:title "Bati and Others v. Turkey"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "28524/95"^^xsd:string ;
+            dcterms:description "Peers v. Greece, no. 28524/95, §§ 68 and 74, ECHR 2001-III"^^xsd:string ;
+            dcterms:title "Peers v. Greece"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            dcterms:date "1997-09-25"^^xsd:date ;
+            dcterms:description "Aydin v. Turkey, judgment of 25 September 1997, Reports 1997 VI, § 107"^^xsd:string ;
+            dcterms:title "Aydin v. Turkey"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "42023/98"^^xsd:string ;
+            dcterms:date "2004-02-10"^^xsd:date ;
+            dcterms:description "Gennadi Naoumenko v. Ukraine, no. 42023/98, §§ 108, 112,  10 February 2004"^^xsd:string ;
+            dcterms:title "Gennadi Naoumenko v. Ukraine"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            dcterms:date "1992-09-24"^^xsd:date ;
+            dcterms:description "Herczegfalvy v. Austria, judgment of 24 September 1992, Series A no. 244, §§ 82, 89"^^xsd:string ;
+            dcterms:title "Herczegfalvy v. Austria"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "45027/98"^^xsd:string ;
+            dcterms:date "2004-06-01"^^xsd:date ;
+            dcterms:description "Narinen v. Finland, no. 45027/98, § 34, 1 June 2004"^^xsd:string ;
+            dcterms:title "Narinen v. Finland"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "2346/02"^^xsd:string ;
+            dcterms:description "Pretty v. the United Kingdom, no. 2346/02, §§ 61 and 63, ECHR 2002-III"^^xsd:string ;
+            dcterms:title "Pretty v. the United Kingdom"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "27229/95"^^xsd:string ;
+            dcterms:description "Keenan v. the United Kingdom, no. 27229/95, § 110, ECHR 2001-III"^^xsd:string ;
+            dcterms:title "Keenan v. the United Kingdom"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "71795/01"^^xsd:string ;
+            dcterms:date "2007-12-11"^^xsd:date ;
+            dcterms:description "K.Ö. v. Turkey, no. 71795/01, § 50, 11 December 2007"^^xsd:string ;
+            dcterms:title "K.Ö. v. Turkey"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "67263/01"^^xsd:string ;
+            dcterms:description "Mouisel v. France, no. 67263/01, §§ 37, 40, ECHR 2002-IX"^^xsd:string ;
+            dcterms:title "Mouisel v. France"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "52658/99"^^xsd:string ;
+            dcterms:date "2007-07-17"^^xsd:date ;
+            dcterms:description "Mehmet and Suna Yigit v. Turkey, no. 52658/99, § 43, 17 July 2007"^^xsd:string ;
+            dcterms:title "Mehmet and Suna Yigit v. Turkey"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "54825/00"^^xsd:string ;
+            dcterms:date "2005-04-05"^^xsd:date ;
+            dcterms:description "Nevmerzhitsky v. Ukraine, no. 54825/00, § 94, 5 April 2005"^^xsd:string ;
+            dcterms:title "Nevmerzhitsky v. Ukraine"^^xsd:string ] ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+
+<https://hudoc.echr.coe.int/eng?i=001-86255> dcterms:accessRights "public"^^xsd:string ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:description "(Art. 3) Inhuman treatment"^^xsd:string,
         "(Art. 3) Prohibition of torture"^^xsd:string,
         "(Art. 41) Just satisfaction-{general}"^^xsd:string,
@@ -35,125 +188,7 @@
         "Remainder inadmissible"^^xsd:string,
         "Violation of Art. 6-1"^^xsd:string,
         "Violation of Art. 8"^^xsd:string ;
-    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-86255> ;
-    dcterms:isVersionOf "ECLI:CE:ECHR:2008:0513JUD005251599"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ ns1:hasApplicationNumber "61827/00"^^xsd:string ;
-            dcterms:description "Glass v. the United Kingdom, no. 61827/00, §§ 70, 82, ECHR 2004 II"^^xsd:string ;
-            dcterms:title "Glass v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "0074/98"^^xsd:string ;
-            dcterms:date "2006-03-30"^^xsd:date ;
-            dcterms:description "Yildirim v. Turkey (dec.), no. 0074/98, 30 March 2006"^^xsd:string ;
-            dcterms:title "Yildirim v. Turkey (dec.)"^^xsd:string ],
-        [ dcterms:description "Article 70 of the Medical Practice Act, Sections 24-31 of Regulation no. 23420 on patients' rights"^^xsd:string ],
-        [ ns1:hasApplicationNumber "27229/95"^^xsd:string ;
-            dcterms:description "Keenan v. the United Kingdom, no. 27229/95, § 110, ECHR 2001-III"^^xsd:string ;
-            dcterms:title "Keenan v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "53431/99"^^xsd:string ;
-            dcterms:date "2003-10-23"^^xsd:date ;
-            dcterms:description "Gençel v. Turkey, no. 53431/99, §§ 11  12, 23 October 2003"^^xsd:string ;
-            dcterms:title "Gençel v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "895/02"^^xsd:string ;
-            dcterms:date "2005-05-26"^^xsd:date ;
-            dcterms:description "Siz v. Turkey (dec.), no. 895/02, 26 May 2005"^^xsd:string ;
-            dcterms:title "Siz v. Turkey (dec.)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "37410/97"^^xsd:string ;
-            dcterms:date "2007-05-10"^^xsd:date ;
-            dcterms:description "Uzun v. Turkey, no. 37410/97, § 64, 10 May 2007"^^xsd:string ;
-            dcterms:title "Uzun v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "42023/98"^^xsd:string ;
-            dcterms:date "2004-02-10"^^xsd:date ;
-            dcterms:description "Gennadi Naoumenko v. Ukraine, no. 42023/98, §§ 108, 112,  10 February 2004"^^xsd:string ;
-            dcterms:title "Gennadi Naoumenko v. Ukraine"^^xsd:string ],
-        [ ns1:hasApplicationNumber "71795/01"^^xsd:string ;
-            dcterms:date "2007-12-11"^^xsd:date ;
-            dcterms:description "K.Ö. v. Turkey, no. 71795/01, § 50, 11 December 2007"^^xsd:string ;
-            dcterms:title "K.Ö. v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "59659/00"^^xsd:string ;
-            dcterms:date "2003-02-06"^^xsd:date ;
-            dcterms:description "Özdemir v. Turkey, no. 59659/00, §§ 35-36, 6 February 2003"^^xsd:string ;
-            dcterms:title "Özdemir v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "2346/02"^^xsd:string ;
-            dcterms:description "Pretty v. the United Kingdom, no. 2346/02, §§ 61 and 63, ECHR 2002-III"^^xsd:string ;
-            dcterms:title "Pretty v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "33097/96"^^xsd:string ;
-            dcterms:date "2004-06-03"^^xsd:date ;
-            dcterms:description "Bati and Others v. Turkey, nos. 33097/96 and 57834/00, §§ 96 100, 3 June 2004"^^xsd:string ;
-            dcterms:title "Bati and Others v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "56760/00"^^xsd:string ;
-            dcterms:description "Akpinar and Altun v. Turkey, no. 56760/00, § 68, ECHR 2007 ... (extracts)"^^xsd:string ;
-            dcterms:title "Akpinar and Altun v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "28524/95"^^xsd:string ;
-            dcterms:description "Peers v. Greece, no. 28524/95, §§ 68 and 74, ECHR 2001-III"^^xsd:string ;
-            dcterms:title "Peers v. Greece"^^xsd:string ],
-        [ ns1:hasApplicationNumber "74300/01"^^xsd:string ;
-            dcterms:date "2007-10-11"^^xsd:date ;
-            dcterms:description "Özalp v. Turkey (dec.), no. 74300/01, 11 October 2007"^^xsd:string ;
-            dcterms:title "Özalp v. Turkey (dec.)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "24209/94"^^xsd:string ;
-            dcterms:description "Y.F. v. Turkey, no. 24209/94, §§ 23-26, 33, 34, ECHR 2003 IX"^^xsd:string ;
-            dcterms:title "Y.F. v. Turkey"^^xsd:string ],
-        [ dcterms:description "Article 5 of the Council of Europe Convention on Human Rights and Biomedicine"^^xsd:string ],
-        [ ns1:hasApplicationNumber "45907/99"^^xsd:string ;
-            dcterms:date "2002-10-22"^^xsd:date ;
-            dcterms:description "Tanrikulu and Others v. Turkey (dec.), no. 45907/99, 22 October 2002"^^xsd:string ;
-            dcterms:title "Tanrikulu and Others v. Turkey (dec.)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "8036/02"^^xsd:string ;
-            dcterms:date "2007-03-06"^^xsd:date ;
-            dcterms:description "Sagat, Bayram and Berk v. Turkey (dec.), no. 8036/02, 6 March 2007"^^xsd:string ;
-            dcterms:title "Sagat"^^xsd:string ],
-        [ ns1:hasApplicationNumber "54810/00"^^xsd:string ;
-            dcterms:description "Jalloh v. Germany [GC], no. 54810/00, §§ 70-71, ECHR 2006 ..."^^xsd:string ;
-            dcterms:title "Jalloh v. Germany [GC]"^^xsd:string ],
-        [ dcterms:date "1997-09-25"^^xsd:date ;
-            dcterms:description "Aydin v. Turkey, judgment of 25 September 1997, Reports 1997 VI, § 107"^^xsd:string ;
-            dcterms:title "Aydin v. Turkey"^^xsd:string ],
-        [ dcterms:date "1993-07-08"^^xsd:date ;
-            dcterms:description "Hurtado v. Switzerland, Commission's report of 8 July 1993, Series A no. 280, p. 14, § 67"^^xsd:string ;
-            dcterms:title "Hurtado v. Switzerland"^^xsd:string ],
-        [ ns1:hasApplicationNumber "52658/99"^^xsd:string ;
-            dcterms:date "2007-07-17"^^xsd:date ;
-            dcterms:description "Mehmet and Suna Yigit v. Turkey, no. 52658/99, § 43, 17 July 2007"^^xsd:string ;
-            dcterms:title "Mehmet and Suna Yigit v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "45027/98"^^xsd:string ;
-            dcterms:date "2004-06-01"^^xsd:date ;
-            dcterms:description "Narinen v. Finland, no. 45027/98, § 34, 1 June 2004"^^xsd:string ;
-            dcterms:title "Narinen v. Finland"^^xsd:string ],
-        [ ns1:hasApplicationNumber "42739/98"^^xsd:string ;
-            dcterms:date "2002-11-07"^^xsd:date ;
-            dcterms:description "Özel v. Turkey, no. 42739/98, §§ 20-21, 33, 34, 7 November 2002"^^xsd:string ;
-            dcterms:title "Özel v. Turkey"^^xsd:string ],
-        [ dcterms:date "1998-06-09"^^xsd:date ;
-            dcterms:description "Incal v. Turkey, judgment of 9 June 1998, Reports 1998-IV, p. 1568, § 74"^^xsd:string ;
-            dcterms:title "Incal v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "3321/67"^^xsd:string ;
-            dcterms:date "1969-11-05"^^xsd:date ;
-            dcterms:description "Denmark, Norway, Sweden and the Netherlands v. Greece (“the Greek case”), nos. 3321/67 et al., Commission's report of 5 November 1969, Yearbook 12, p. 186"^^xsd:string ;
-            dcterms:title "Denmark"^^xsd:string ],
-        [ ns1:hasApplicationNumber "26772/95"^^xsd:string ;
-            dcterms:description "Labita v. Italy [GC], no. 26772/95, §§ 119-121, ECHR 2000-IV"^^xsd:string ;
-            dcterms:title "Labita v. Italy [GC]"^^xsd:string ],
-        [ dcterms:date "1992-09-24"^^xsd:date ;
-            dcterms:description "Herczegfalvy v. Austria, judgment of 24 September 1992, Series A no. 244, §§ 82, 89"^^xsd:string ;
-            dcterms:title "Herczegfalvy v. Austria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "54825/00"^^xsd:string ;
-            dcterms:date "2005-04-05"^^xsd:date ;
-            dcterms:description "Nevmerzhitsky v. Ukraine, no. 54825/00, § 94, 5 April 2005"^^xsd:string ;
-            dcterms:title "Nevmerzhitsky v. Ukraine"^^xsd:string ],
-        [ ns1:hasApplicationNumber "12350/04"^^xsd:string ;
-            dcterms:description "Wainwright v. the United Kingdom, no. 12350/04, § 43, ECHR 2006 ..."^^xsd:string ;
-            dcterms:title "Wainwright v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "879/02"^^xsd:string ;
-            dcterms:date "2006-03-02"^^xsd:date ;
-            dcterms:description "Devrim Turan v. Turkey, no. 879/02, § 21, 2 March 2006"^^xsd:string ;
-            dcterms:title "Devrim Turan v. Turkey"^^xsd:string ],
-        [ dcterms:date "1997-12-16"^^xsd:date ;
-            dcterms:description "Raninen v. Finland, judgment of 16 December 1997, Reports 1997-VIII, pp. 2821-22, § 55"^^xsd:string ;
-            dcterms:title "Raninen v. Finland"^^xsd:string ],
-        [ ns1:hasApplicationNumber "67263/01"^^xsd:string ;
-            dcterms:description "Mouisel v. France, no. 67263/01, §§ 37, 40, ECHR 2002-IX"^^xsd:string ;
-            dcterms:title "Mouisel v. France"^^xsd:string ] ;
-    dcterms:title "CASE OF JUHNKE v. TURKEY"^^xsd:string ;
-    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+    dcterms:title "CASE OF JUHNKE v. TURKEY"^^xsd:string .
 

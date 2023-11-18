@@ -1,17 +1,134 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://eva.org/> .
+@prefix ns1: <http://eva.org/property/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] ns1:hasApplicationNumber "48756/14"^^xsd:string ;
+<http://eva.org/entity/48756/14> ns1:hasApplicationNumber "48756/14"^^xsd:string ;
     ns1:importanceLevel 4 ;
     ns1:respondentState <http://www.wikidata.org/entity/Q222> ;
-    dcterms:accessRights "public"^^xsd:string ;
     dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "MARKU N."^^xsd:string ] ;
-    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:creator "Court (Second Section)"^^xsd:string ;
     dcterms:date "2020-08-04"^^xsd:date ;
+    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-203825> ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2020:0804JUD004875614"^^xsd:string ;
+    dcterms:references [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "24329/02"^^xsd:string ;
+            dcterms:date "2011-02-22"^^xsd:date ;
+            dcterms:description "Soare and Others v. Romania, no. 24329/02, § 108, 22 February 2011"^^xsd:string ;
+            dcterms:title "Soare and Others v. Romania"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "50385/99"^^xsd:string ;
+            dcterms:description "Makaratzis v. Greece [GC], no. 50385/99, § 55, ECHR 2004 XI"^^xsd:string ;
+            dcterms:title "Makaratzis v. Greece [GC]"^^xsd:string ],
+        [ a <http://eva.org/type/InternationalLaw> ;
+            dcterms:description "GREVIO 2017 evaluation report for Albania"^^xsd:string ],
+        [ a <http://eva.org/type/InternationalLaw> ;
+            dcterms:description "(GREVIO/Inf(2017)13)"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            dcterms:date "1972-03-10"^^xsd:date ;
+            dcterms:description "De Wilde, Ooms and Versyp v. Belgium (Article 50), 10 March 1972, §§ 15-16, Series A no. 14"^^xsd:string ;
+            dcterms:title "De Wilde"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "54917/13"^^xsd:string ;
+            dcterms:date "2018-10-16"^^xsd:date ;
+            dcterms:description "Akelienė v. Lithuania, no. 54917/13, § 69, 16 October 2018"^^xsd:string ;
+            dcterms:title "Akelienė v. Lithuania"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            dcterms:date "1998-06-09"^^xsd:date ;
+            dcterms:description "L.C.B. v. the United Kingdom, 9 June 1998, § 36, Reports of Judgments and Decisions 1998 III"^^xsd:string ;
+            dcterms:title "L.C.B. v. the United Kingdom"^^xsd:string ],
+        [ a <http://eva.org/type/InternationalLaw> ;
+            dcterms:description "CEDAW Committee General Recommendation no. 19"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "41261/17"^^xsd:string ;
+            dcterms:date "2019-07-09"^^xsd:date ;
+            dcterms:description "Volodina v. Russia, no. 41261/17, § 92, 9 July 2019"^^xsd:string ;
+            dcterms:title "Volodina v. Russia"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "23458/02"^^xsd:string ;
+            dcterms:description "Giuliani and Gaggio v. Italy [GC], no. 23458/02, ECHR 2011 (extracts)"^^xsd:string ;
+            dcterms:title "Giuliani and Gaggio v. Italy [GC]"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "78103/14"^^xsd:string ;
+            dcterms:date "2019-01-31"^^xsd:date ;
+            dcterms:description "Fernandes de Oliveira v. Portugal [GC], no. 78103/14, 31 January 2019"^^xsd:string ;
+            dcterms:title "Fernandes de Oliveira v. Portugal [GC]"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "24014/05"^^xsd:string ;
+            dcterms:date "2015-04-14"^^xsd:date ;
+            dcterms:description "Mustafa Tunç and Fecire Tunç v. Turkey [GC], no. 24014/05, § 172, 14 April 2015"^^xsd:string ;
+            dcterms:title "Mustafa Tunç and Fecire Tunç v. Turkey [GC]"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "33401/02"^^xsd:string ;
+            dcterms:description "Opuz v. Turkey, no. 33401/02, §110, ECHR 2009"^^xsd:string ;
+            dcterms:title "Opuz v. Turkey"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "8196/02"^^xsd:string ;
+            dcterms:description "Salah v. the Netherlands, no. 8196/02, §§ 67, ECHR 2006 IX (extracts)"^^xsd:string ;
+            dcterms:title "Salah v. the Netherlands"^^xsd:string ],
+        [ a <http://eva.org/type/InternationalLaw> ;
+            dcterms:description "CEDAW Committee’s concluding observations of 16 September 2010 in respect of Albania (CEDAW/C/ALB/CO/3)"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "55354/11"^^xsd:string ;
+            dcterms:date "2016-02-23"^^xsd:date ;
+            dcterms:description "Civek v. Turkey, no. 55354/11, 23 February 2016"^^xsd:string ;
+            dcterms:title "Civek v. Turkey"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "10865/09"^^xsd:string ;
+            dcterms:description "Mocanu and Others v. Romania [GC], nos. 10865/09 and 2 others, §§ 258-269, ECHR 2014 (extracts)"^^xsd:string ;
+            dcterms:title "Mocanu and Others v. Romania [GC]"^^xsd:string ],
+        [ a <http://eva.org/type/InternationalLaw> ;
+            dcterms:description "CEDAW Committee General Recommendation no. 35"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "56080/13"^^xsd:string ;
+            dcterms:date "2017-12-19"^^xsd:date ;
+            dcterms:description "Lopes de Sousa Fernandes v. Portugal [GC], no. 56080/13, § 129, 19 December 2017"^^xsd:string ;
+            dcterms:title "Lopes de Sousa Fernandes v. Portugal [GC]"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "43606/04"^^xsd:string ;
+            dcterms:date "2012-10-23"^^xsd:date ;
+            dcterms:description "Yotova v. Bulgaria, no. 43606/04, § 68, 23 October 2012"^^xsd:string ;
+            dcterms:title "Yotova v. Bulgaria"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "41720/13"^^xsd:string ;
+            dcterms:date "2019-06-25"^^xsd:date ;
+            dcterms:description "Nicolae Virgiliu Tănase v. Romania [GC], no. 41720/13, 25 June 2019"^^xsd:string ;
+            dcterms:title "Nicolae Virgiliu Tănase v. Romania [GC]"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "37703/97"^^xsd:string ;
+            dcterms:description "Mastromatteo v. Italy [GC], no. 37703/97, § 67, ECHR 2002 VIII"^^xsd:string ;
+            dcterms:title "Mastromatteo v. Italy [GC]"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "74389/13"^^xsd:string ;
+            dcterms:date "2018-02-13"^^xsd:date ;
+            dcterms:description "Pihoni v. Albania, no. 74389/13, 13 February 2018"^^xsd:string ;
+            dcterms:title "Pihoni v. Albania"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "41237/14"^^xsd:string ;
+            dcterms:date "2017-03-02"^^xsd:date ;
+            dcterms:description "Talpis v. Italy, no. 41237/14, § 106, 2 March 2017"^^xsd:string ;
+            dcterms:title "Talpis v. Italy"^^xsd:string ],
+        [ a <http://eva.org/type/DomesticLaw> ;
+            dcterms:description "Article 88 of the Criminal Code"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "5878/08"^^xsd:string ;
+            dcterms:date "2016-03-30"^^xsd:date ;
+            dcterms:description "Armani Da Silva v. the United Kingdom [GC], no. 5878/08, § 237, 30 March 2016"^^xsd:string ;
+            dcterms:title "Armani Da Silva v. the United Kingdom [GC]"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "37685/10"^^xsd:string ;
+            dcterms:date "2018-03-20"^^xsd:date ;
+            dcterms:description "Radomilja and others v. Croatia [GC], nos. 37685/10 and 22768/12, § 126, 20 March 2018"^^xsd:string ;
+            dcterms:title "Radomilja and others v. Croatia [GC]"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            dcterms:date "1998-10-28"^^xsd:date ;
+            dcterms:description "Osman v. the United Kingdom, 28 October 1998, § 115, Reports of Judgments and Decisions 1998 VIII"^^xsd:string ;
+            dcterms:title "Osman v. the United Kingdom"^^xsd:string ] ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+
+<https://hudoc.echr.coe.int/eng?i=001-203825> dcterms:accessRights "public"^^xsd:string ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:description "(Art 35-1) Four-month period (former six-month)"^^xsd:string,
         "(Art. 2) Positive obligations"^^xsd:string,
         "(Art. 2) Right to life"^^xsd:string,
@@ -28,95 +145,7 @@
         "Pecuniary damage - claim dismissed (Article 41 - Pecuniary damage Just satisfaction)"^^xsd:string,
         "Preliminary objections dismissed (Art. 35) Admissibility criteria"^^xsd:string,
         "Violation of Article 2 - Right to life (Article 2-1 - Effective investigation) (Procedural aspect)"^^xsd:string ;
-    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-203825> ;
-    dcterms:isVersionOf "ECLI:CE:ECHR:2020:0804JUD004875614"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ ns1:hasApplicationNumber "33401/02"^^xsd:string ;
-            dcterms:description "Opuz v. Turkey, no. 33401/02, §110, ECHR 2009"^^xsd:string ;
-            dcterms:title "Opuz v. Turkey"^^xsd:string ],
-        [ dcterms:description "CEDAW Committee’s concluding observations of 16 September 2010 in respect of Albania (CEDAW/C/ALB/CO/3)"^^xsd:string ],
-        [ dcterms:description "(GREVIO/Inf(2017)13)"^^xsd:string ],
-        [ dcterms:description "CEDAW Committee General Recommendation no. 35"^^xsd:string ],
-        [ ns1:hasApplicationNumber "74389/13"^^xsd:string ;
-            dcterms:date "2018-02-13"^^xsd:date ;
-            dcterms:description "Pihoni v. Albania, no. 74389/13, 13 February 2018"^^xsd:string ;
-            dcterms:title "Pihoni v. Albania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "24014/05"^^xsd:string ;
-            dcterms:date "2015-04-14"^^xsd:date ;
-            dcterms:description "Mustafa Tunç and Fecire Tunç v. Turkey [GC], no. 24014/05, § 172, 14 April 2015"^^xsd:string ;
-            dcterms:title "Mustafa Tunç and Fecire Tunç v. Turkey [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "5878/08"^^xsd:string ;
-            dcterms:date "2016-03-30"^^xsd:date ;
-            dcterms:description "Armani Da Silva v. the United Kingdom [GC], no. 5878/08, § 237, 30 March 2016"^^xsd:string ;
-            dcterms:title "Armani Da Silva v. the United Kingdom [GC]"^^xsd:string ],
-        [ dcterms:date "1998-10-28"^^xsd:date ;
-            dcterms:description "Osman v. the United Kingdom, 28 October 1998, § 115, Reports of Judgments and Decisions 1998 VIII"^^xsd:string ;
-            dcterms:title "Osman v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "8196/02"^^xsd:string ;
-            dcterms:description "Salah v. the Netherlands, no. 8196/02, §§ 67, ECHR 2006 IX (extracts)"^^xsd:string ;
-            dcterms:title "Salah v. the Netherlands"^^xsd:string ],
-        [ ns1:hasApplicationNumber "56080/13"^^xsd:string ;
-            dcterms:date "2017-12-19"^^xsd:date ;
-            dcterms:description "Lopes de Sousa Fernandes v. Portugal [GC], no. 56080/13, § 129, 19 December 2017"^^xsd:string ;
-            dcterms:title "Lopes de Sousa Fernandes v. Portugal [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "23458/02"^^xsd:string ;
-            dcterms:description "Giuliani and Gaggio v. Italy [GC], no. 23458/02, ECHR 2011 (extracts)"^^xsd:string ;
-            dcterms:title "Giuliani and Gaggio v. Italy [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "41720/13"^^xsd:string ;
-            dcterms:date "2019-06-25"^^xsd:date ;
-            dcterms:description "Nicolae Virgiliu Tănase v. Romania [GC], no. 41720/13, 25 June 2019"^^xsd:string ;
-            dcterms:title "Nicolae Virgiliu Tănase v. Romania [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "37703/97"^^xsd:string ;
-            dcterms:description "Mastromatteo v. Italy [GC], no. 37703/97, § 67, ECHR 2002 VIII"^^xsd:string ;
-            dcterms:title "Mastromatteo v. Italy [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "55354/11"^^xsd:string ;
-            dcterms:date "2016-02-23"^^xsd:date ;
-            dcterms:description "Civek v. Turkey, no. 55354/11, 23 February 2016"^^xsd:string ;
-            dcterms:title "Civek v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "37685/10"^^xsd:string ;
-            dcterms:date "2018-03-20"^^xsd:date ;
-            dcterms:description "Radomilja and others v. Croatia [GC], nos. 37685/10 and 22768/12, § 126, 20 March 2018"^^xsd:string ;
-            dcterms:title "Radomilja and others v. Croatia [GC]"^^xsd:string ],
-        [ dcterms:description "CEDAW Committee General Recommendation no. 19"^^xsd:string ],
-        [ dcterms:date "1998-06-09"^^xsd:date ;
-            dcterms:description "L.C.B. v. the United Kingdom, 9 June 1998, § 36, Reports of Judgments and Decisions 1998 III"^^xsd:string ;
-            dcterms:title "L.C.B. v. the United Kingdom"^^xsd:string ],
-        [ ns1:hasApplicationNumber "41261/17"^^xsd:string ;
-            dcterms:date "2019-07-09"^^xsd:date ;
-            dcterms:description "Volodina v. Russia, no. 41261/17, § 92, 9 July 2019"^^xsd:string ;
-            dcterms:title "Volodina v. Russia"^^xsd:string ],
-        [ dcterms:date "1972-03-10"^^xsd:date ;
-            dcterms:description "De Wilde, Ooms and Versyp v. Belgium (Article 50), 10 March 1972, §§ 15-16, Series A no. 14"^^xsd:string ;
-            dcterms:title "De Wilde"^^xsd:string ],
-        [ ns1:hasApplicationNumber "24329/02"^^xsd:string ;
-            dcterms:date "2011-02-22"^^xsd:date ;
-            dcterms:description "Soare and Others v. Romania, no. 24329/02, § 108, 22 February 2011"^^xsd:string ;
-            dcterms:title "Soare and Others v. Romania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "54917/13"^^xsd:string ;
-            dcterms:date "2018-10-16"^^xsd:date ;
-            dcterms:description "Akelienė v. Lithuania, no. 54917/13, § 69, 16 October 2018"^^xsd:string ;
-            dcterms:title "Akelienė v. Lithuania"^^xsd:string ],
-        [ dcterms:description "GREVIO 2017 evaluation report for Albania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "41237/14"^^xsd:string ;
-            dcterms:date "2017-03-02"^^xsd:date ;
-            dcterms:description "Talpis v. Italy, no. 41237/14, § 106, 2 March 2017"^^xsd:string ;
-            dcterms:title "Talpis v. Italy"^^xsd:string ],
-        [ ns1:hasApplicationNumber "43606/04"^^xsd:string ;
-            dcterms:date "2012-10-23"^^xsd:date ;
-            dcterms:description "Yotova v. Bulgaria, no. 43606/04, § 68, 23 October 2012"^^xsd:string ;
-            dcterms:title "Yotova v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "10865/09"^^xsd:string ;
-            dcterms:description "Mocanu and Others v. Romania [GC], nos. 10865/09 and 2 others, §§ 258-269, ECHR 2014 (extracts)"^^xsd:string ;
-            dcterms:title "Mocanu and Others v. Romania [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "50385/99"^^xsd:string ;
-            dcterms:description "Makaratzis v. Greece [GC], no. 50385/99, § 55, ECHR 2004 XI"^^xsd:string ;
-            dcterms:title "Makaratzis v. Greece [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "78103/14"^^xsd:string ;
-            dcterms:date "2019-01-31"^^xsd:date ;
-            dcterms:description "Fernandes de Oliveira v. Portugal [GC], no. 78103/14, 31 January 2019"^^xsd:string ;
-            dcterms:title "Fernandes de Oliveira v. Portugal [GC]"^^xsd:string ],
-        [ dcterms:description "Article 88 of the Criminal Code"^^xsd:string ] ;
-    dcterms:title "CASE OF TËRSHANA v. ALBANIA"^^xsd:string ;
-    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+    dcterms:title "CASE OF TËRSHANA v. ALBANIA"^^xsd:string .
 

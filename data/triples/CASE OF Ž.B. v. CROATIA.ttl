@@ -1,25 +1,26 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://eva.org/> .
+@prefix ns1: <http://eva.org/property/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] ns1:hasApplicationNumber "47666/13"^^xsd:string ;
+<http://eva.org/entity/47666/13> ns1:hasApplicationNumber "47666/13"^^xsd:string ;
     ns1:importanceLevel 3 ;
     ns1:respondentState <http://www.wikidata.org/entity/Q224> ;
-    dcterms:accessRights "public"^^xsd:string ;
     dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "BOJIC I."^^xsd:string ] ;
-    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:creator "Court (Second Section)"^^xsd:string ;
     dcterms:date "2017-07-11"^^xsd:date ;
+    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-175142> ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2017:0711JUD004766613"^^xsd:string ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+
+<https://hudoc.echr.coe.int/eng?i=001-175142> dcterms:accessRights "public"^^xsd:string ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:description "(Art. 8) Positive obligations"^^xsd:string,
         "(Art. 8) Right to respect for private and family life"^^xsd:string,
         "(Art. 8-1) Respect for private life"^^xsd:string,
         "Violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations Article 8-1 - Respect for private life)"^^xsd:string ;
-    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-175142> ;
-    dcterms:isVersionOf "ECLI:CE:ECHR:2017:0711JUD004766613"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:title "CASE OF Ž.B. v. CROATIA"^^xsd:string ;
-    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+    dcterms:title "CASE OF Ž.B. v. CROATIA"^^xsd:string .
 

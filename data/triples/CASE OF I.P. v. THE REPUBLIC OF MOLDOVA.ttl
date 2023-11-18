@@ -1,17 +1,21 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://eva.org/> .
+@prefix ns1: <http://eva.org/property/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] ns1:hasApplicationNumber "33708/12"^^xsd:string ;
+<http://eva.org/entity/33708/12> ns1:hasApplicationNumber "33708/12"^^xsd:string ;
     ns1:importanceLevel 3 ;
     ns1:respondentState <http://www.wikidata.org/entity/Q217> ;
-    dcterms:accessRights "public"^^xsd:string ;
     dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "DODON I."^^xsd:string ] ;
-    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:creator "Court (Third Section)"^^xsd:string ;
     dcterms:date "2015-04-28"^^xsd:date ;
+    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-154152> ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2015:0428JUD003370812"^^xsd:string ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+
+<https://hudoc.echr.coe.int/eng?i=001-154152> dcterms:accessRights "public"^^xsd:string ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:description "(Art. 13) Effective remedy"^^xsd:string,
         "(Art. 13) Right to an effective remedy"^^xsd:string,
         "(Art. 3) Effective investigation"^^xsd:string,
@@ -19,10 +23,7 @@
         "(Art. 3) Prohibition of torture"^^xsd:string,
         "Violation of Article 13+3 - Right to an effective remedy (Article 13 - Effective remedy) (Article 3 - Prohibition of torture Positive obligations)"^^xsd:string,
         "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation Positive obligations) (Procedural aspect)"^^xsd:string ;
-    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-154152> ;
-    dcterms:isVersionOf "ECLI:CE:ECHR:2015:0428JUD003370812"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:title "CASE OF I.P. v. THE REPUBLIC OF MOLDOVA"^^xsd:string ;
-    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+    dcterms:title "CASE OF I.P. v. THE REPUBLIC OF MOLDOVA"^^xsd:string .
 

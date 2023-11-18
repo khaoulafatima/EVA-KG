@@ -1,14 +1,55 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ns1: <http://eva.org/> .
+@prefix ns1: <http://eva.org/property/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] ns1:hasApplicationNumber "23178/94"^^xsd:string ;
+<http://eva.org/entity/23178/94> ns1:hasApplicationNumber "23178/94"^^xsd:string ;
     ns1:importanceLevel 1 ;
     ns1:respondentState <http://www.wikidata.org/entity/Q43> ;
-    dcterms:accessRights "public"^^xsd:string ;
-    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:creator "Court (Grand Chamber)"^^xsd:string ;
     dcterms:date "1997-09-25"^^xsd:date ;
+    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-58371> ;
+    dcterms:isPartOf "Reports 1997-VI"^^xsd:string ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:1997:0925JUD002317894"^^xsd:string ;
+    dcterms:references [ a <http://eva.org/type/DomesticLaw> ;
+            dcterms:description "Decree no. 285 modifying the application of Law no. 3713, the Anti-Terror Law (1981) "^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            dcterms:date "1996-09-16"^^xsd:date ;
+            dcterms:description "Akdivar and Others v. Turkey judgment of 16 September 1996, Reports of Judgments and Decisions (\"Reports\") 1996-IV, p. 1219, § 105"^^xsd:string ;
+            dcterms:title "Akdivar and Others v. Turkey judgment of 16 September 1996"^^xsd:string ],
+        [ a <http://eva.org/type/DomesticLaw> ;
+            dcterms:description "Criminal Code, Articles 179, 181, 191, 243, 245 and 416 "^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            dcterms:date "1995-03-23"^^xsd:date ;
+            dcterms:description "Loizidou v. Turkey judgment of 23 March 1995 (preliminary objections), Series A no. 310, p. 19, § 44"^^xsd:string ;
+            dcterms:title "Loizidou v. Turkey judgment of 23 March 1995 (preliminary objections)"^^xsd:string ],
+        [ a <http://eva.org/type/DomesticLaw> ;
+            dcterms:description "Law no. 2935 of 25 October 1983 on the state of emergency, section 1"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            dcterms:date "1994-12-09"^^xsd:date ;
+            dcterms:description "The Holy Monasteries v. Greece judgment of 9 December 1994, Series A no. 301-A, pp. 36-37, § 80"^^xsd:string ;
+            dcterms:title "The Holy Monasteries v. Greece judgment of 9 December 1994"^^xsd:string ],
+        [ a <http://eva.org/type/DomesticLaw> ;
+            dcterms:description "Code of Criminal Procedure, Articles 153, 154, 163 and 165 "^^xsd:string ],
+        [ a <http://eva.org/type/DomesticLaw> ;
+            dcterms:description "Military Criminal Code, Article 152 "^^xsd:string ],
+        [ a <http://eva.org/type/DomesticLaw> ;
+            dcterms:description "Civil Code, Articles 41, 46 and 47 "^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            dcterms:date "1996-12-18"^^xsd:date ;
+            dcterms:description "Aksoy v. Turkey judgment of 18 December 1996, Reports 1996-VI, p. 2272, § 38, p. 2278, § 62, p. 2285, § 92, p. 2286, § 95, p. 2287, § 98"^^xsd:string ;
+            dcterms:title "Aksoy v. Turkey judgment of 18 December 1996"^^xsd:string ],
+        [ a <http://eva.org/type/DomesticLaw> ;
+            dcterms:description "Constitution, Article 125 "^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            dcterms:date "1978-01-18"^^xsd:date ;
+            dcterms:description "Ireland v. the United Kingdom judgment of 18 January 1978, Series A no. 25, pp. 64-65, §§ 160-161, p. 66, § 167"^^xsd:string ;
+            dcterms:title "Ireland v. the United Kingdom judgment of 18 January 1978"^^xsd:string ],
+        [ a <http://eva.org/type/InternationalLaw> ;
+            dcterms:description "United Nations Convention against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment of 10 December 1984, Articles 11, 12 and 13"^^xsd:string ] ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+
+<https://hudoc.echr.coe.int/eng?i=001-58371> dcterms:accessRights "public"^^xsd:string ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:description "(Art. 13) Effective remedy"^^xsd:string,
         "(Art. 13) Right to an effective remedy"^^xsd:string,
         "(Art. 3) Prohibition of torture"^^xsd:string,
@@ -30,34 +71,7 @@
         "Preliminary objection rejected (estoppel)"^^xsd:string,
         "Violation of Art. 13"^^xsd:string,
         "Violation of Art. 3"^^xsd:string ;
-    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-58371> ;
-    dcterms:isPartOf "Reports 1997-VI"^^xsd:string ;
-    dcterms:isVersionOf "ECLI:CE:ECHR:1997:0925JUD002317894"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ dcterms:description "United Nations Convention against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment of 10 December 1984, Articles 11, 12 and 13"^^xsd:string ],
-        [ dcterms:description "Law no. 2935 of 25 October 1983 on the state of emergency, section 1"^^xsd:string ],
-        [ dcterms:date "1996-09-16"^^xsd:date ;
-            dcterms:description "Akdivar and Others v. Turkey judgment of 16 September 1996, Reports of Judgments and Decisions (\"Reports\") 1996-IV, p. 1219, § 105"^^xsd:string ;
-            dcterms:title "Akdivar and Others v. Turkey judgment of 16 September 1996"^^xsd:string ],
-        [ dcterms:date "1994-12-09"^^xsd:date ;
-            dcterms:description "The Holy Monasteries v. Greece judgment of 9 December 1994, Series A no. 301-A, pp. 36-37, § 80"^^xsd:string ;
-            dcterms:title "The Holy Monasteries v. Greece judgment of 9 December 1994"^^xsd:string ],
-        [ dcterms:description "Decree no. 285 modifying the application of Law no. 3713, the Anti-Terror Law (1981) "^^xsd:string ],
-        [ dcterms:date "1978-01-18"^^xsd:date ;
-            dcterms:description "Ireland v. the United Kingdom judgment of 18 January 1978, Series A no. 25, pp. 64-65, §§ 160-161, p. 66, § 167"^^xsd:string ;
-            dcterms:title "Ireland v. the United Kingdom judgment of 18 January 1978"^^xsd:string ],
-        [ dcterms:description "Criminal Code, Articles 179, 181, 191, 243, 245 and 416 "^^xsd:string ],
-        [ dcterms:date "1995-03-23"^^xsd:date ;
-            dcterms:description "Loizidou v. Turkey judgment of 23 March 1995 (preliminary objections), Series A no. 310, p. 19, § 44"^^xsd:string ;
-            dcterms:title "Loizidou v. Turkey judgment of 23 March 1995 (preliminary objections)"^^xsd:string ],
-        [ dcterms:description "Civil Code, Articles 41, 46 and 47 "^^xsd:string ],
-        [ dcterms:description "Constitution, Article 125 "^^xsd:string ],
-        [ dcterms:description "Military Criminal Code, Article 152 "^^xsd:string ],
-        [ dcterms:description "Code of Criminal Procedure, Articles 153, 154, 163 and 165 "^^xsd:string ],
-        [ dcterms:date "1996-12-18"^^xsd:date ;
-            dcterms:description "Aksoy v. Turkey judgment of 18 December 1996, Reports 1996-VI, p. 2272, § 38, p. 2278, § 62, p. 2285, § 92, p. 2286, § 95, p. 2287, § 98"^^xsd:string ;
-            dcterms:title "Aksoy v. Turkey judgment of 18 December 1996"^^xsd:string ] ;
-    dcterms:title "CASE OF AYDIN v. TURKEY"^^xsd:string ;
-    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+    dcterms:title "CASE OF AYDIN v. TURKEY"^^xsd:string .
 

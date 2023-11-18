@@ -1,33 +1,116 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://eva.org/> .
+@prefix ns1: <http://eva.org/property/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] ns1:hasApplicationNumber "73975/16"^^xsd:string ;
+<http://eva.org/entity/73975/16> ns1:hasApplicationNumber "73975/16"^^xsd:string ;
     ns1:importanceLevel 2 ;
     ns1:respondentState <http://www.wikidata.org/entity/Q230> ;
-    dcterms:accessRights "public"^^xsd:string ;
     dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "EVANS J. "^^xsd:string ],
+        [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "JOMARJIDZE N. "^^xsd:string ],
+        [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "GAVRON J."^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "ARGANASHVILI A. "^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "LEACH P. "^^xsd:string ],
+        [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "ABASHIDZE A. "^^xsd:string ],
-        [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "ABAZADZE T. "^^xsd:string ],
-        [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "JOMARJIDZE N. "^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "DEKANOSIDZE T. "^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "LEACH P. "^^xsd:string ],
-        [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "EVANS J. "^^xsd:string ],
+            foaf:name "ABAZADZE T. "^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "LEVIN K. "^^xsd:string ] ;
-    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:creator "Court (Fifth Section)"^^xsd:string ;
     dcterms:date "2022-02-10"^^xsd:date ;
+    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-215716> ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2022:0210JUD007397516"^^xsd:string ;
+    dcterms:references [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "72508/13"^^xsd:string ;
+            dcterms:date "2017-11-28"^^xsd:date ;
+            dcterms:description "Merabishvili v. Georgia [GC], no. 72508/13, § 371, 28 November 2017"^^xsd:string ;
+            dcterms:title "Merabishvili v. Georgia [GC]"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "7888/03"^^xsd:string ;
+            dcterms:date "2007-12-20"^^xsd:date ;
+            dcterms:description "Nikolova and Velichkova v. Bulgaria, no. 7888/03, § 49, 20 December 2007"^^xsd:string ;
+            dcterms:title "Nikolova and Velichkova v. Bulgaria"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "18893/05"^^xsd:string ;
+            dcterms:date "2010-04-20"^^xsd:date ;
+            dcterms:description "Özcan and Others v. Turkey, no. 18893/05, § 55, 20 April 2010"^^xsd:string ;
+            dcterms:title "Özcan and Others v. Turkey"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "50375/07"^^xsd:string ;
+            dcterms:date "2019-07-18"^^xsd:date ;
+            dcterms:description "Vazagashvili and Shanava v. Georgia, no. 50375/07, § 92, 18 July 2019"^^xsd:string ;
+            dcterms:title "Vazagashvili and Shanava v. Georgia"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "33401/02"^^xsd:string ;
+            dcterms:description "Opuz v. Turkey, no. 33401/02, §§ 191 et seq., ECHR 2009"^^xsd:string ;
+            dcterms:title "Opuz v. Turkey"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "10705/12"^^xsd:string ;
+            dcterms:date "2015-06-18"^^xsd:date ;
+            dcterms:description "Ushakov and Ushakova v. Ukraine, no. 10705/12, § 83, 18 June 2015"^^xsd:string ;
+            dcterms:title "Ushakov and Ushakova v. Ukraine"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "41237/14"^^xsd:string ;
+            dcterms:date "2017-03-02"^^xsd:date ;
+            dcterms:description "Talpis v. Italy, no. 41237/14, § 141, 2 March 2017"^^xsd:string ;
+            dcterms:title "Talpis v. Italy"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "14305/17"^^xsd:string ;
+            dcterms:date "2018-11-20"^^xsd:date ;
+            dcterms:description "Selahattin Demirtaş v. Turkey (no. 2), no. 14305/17, § 218, 20 November 2018"^^xsd:string ;
+            dcterms:title "Selahattin Demirtaş v. Turkey (no. 2)"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "46454/11"^^xsd:string ;
+            dcterms:date "2018-05-31"^^xsd:date ;
+            dcterms:description "Abu Zubaydah v. Lithuania, no. 46454/11, §§ 682 and 683, 31 May 2018"^^xsd:string ;
+            dcterms:title "Abu Zubaydah v. Lithuania"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "50903/06"^^xsd:string ;
+            dcterms:date "2011-11-29"^^xsd:date ;
+            dcterms:description "Kováčik v. Slovakia, no. 50903/06, §§ 91-93, 29 November 2011"^^xsd:string ;
+            dcterms:title "Kováčik v. Slovakia"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "40485/08"^^xsd:string ;
+            dcterms:date "2014-07-15"^^xsd:date ;
+            dcterms:description "Petrović v. Serbia, no. 40485/08, §§ 64 and 65, 15 July 2014"^^xsd:string ;
+            dcterms:title "Petrović v. Serbia"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "7224/11"^^xsd:string ;
+            dcterms:date "2020-10-08"^^xsd:date ;
+            dcterms:description "Aghdgomelashvili and Japaridze v. Georgia, no. 7224/11, § 57, 8 October 2020"^^xsd:string ;
+            dcterms:title "Aghdgomelashvili and Japaridze v. Georgia"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "62903/15"^^xsd:string ;
+            dcterms:date "2021-06-15"^^xsd:date ;
+            dcterms:description "Kurt v. Austria [GC], no. 62903/15, 15 June 2021"^^xsd:string ;
+            dcterms:title "Kurt v. Austria [GC]"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "7261/06"^^xsd:string ;
+            dcterms:date "2011-05-03"^^xsd:date ;
+            dcterms:description "Stavebná spoločnosť TATRY Poprad, s.r.o. v. Slovakia, no. 7261/06, §§ 55-56, 3 May 2011"^^xsd:string ;
+            dcterms:title "Stavebná spoločnosť TATRY Poprad"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "17247/13"^^xsd:string ;
+            dcterms:date "2020-05-26"^^xsd:date ;
+            dcterms:description "Makuchyan and Minasyan v. Azerbaijan and Hungary, no. 17247/13, § 157, 26 May 2020"^^xsd:string ;
+            dcterms:title "Makuchyan and Minasyan v. Azerbaijan and Hungary"^^xsd:string ],
+        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            ns1:hasApplicationNumber "33056/17"^^xsd:string ;
+            dcterms:date "2021-07-08"^^xsd:date ;
+            dcterms:description "Tkhelidze v. Georgia, no. 33056/17, 8 July 2021"^^xsd:string ;
+            dcterms:title "Tkhelidze v. Georgia"^^xsd:string ] ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+
+<https://hudoc.echr.coe.int/eng?i=001-215716> dcterms:accessRights "public"^^xsd:string ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:description "(Art. 14) Discrimination"^^xsd:string,
         "(Art. 14) Prohibition of discrimination"^^xsd:string,
         "(Art. 14) Sex"^^xsd:string,
@@ -43,73 +126,7 @@
         "Preliminary objection joined to merits and dismissed (Art. 34) Individual applications"^^xsd:string,
         "Violation of Article 14+2 - Prohibition of discrimination (Article 14 - Discrimination) (Article 2 - Right to life Article 2-1 - Effective investigation)"^^xsd:string,
         "Violation of Article 14+2 - Prohibition of discrimination (Article 14 - Discrimination) (Article 2-1 - Life Article 2 - Right to life)"^^xsd:string ;
-    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-215716> ;
-    dcterms:isVersionOf "ECLI:CE:ECHR:2022:0210JUD007397516"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ ns1:hasApplicationNumber "33401/02"^^xsd:string ;
-            dcterms:description "Opuz v. Turkey, no. 33401/02, §§ 191 et seq., ECHR 2009"^^xsd:string ;
-            dcterms:title "Opuz v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "18893/05"^^xsd:string ;
-            dcterms:date "2010-04-20"^^xsd:date ;
-            dcterms:description "Özcan and Others v. Turkey, no. 18893/05, § 55, 20 April 2010"^^xsd:string ;
-            dcterms:title "Özcan and Others v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "10705/12"^^xsd:string ;
-            dcterms:date "2015-06-18"^^xsd:date ;
-            dcterms:description "Ushakov and Ushakova v. Ukraine, no. 10705/12, § 83, 18 June 2015"^^xsd:string ;
-            dcterms:title "Ushakov and Ushakova v. Ukraine"^^xsd:string ],
-        [ ns1:hasApplicationNumber "14305/17"^^xsd:string ;
-            dcterms:date "2018-11-20"^^xsd:date ;
-            dcterms:description "Selahattin Demirtaş v. Turkey (no. 2), no. 14305/17, § 218, 20 November 2018"^^xsd:string ;
-            dcterms:title "Selahattin Demirtaş v. Turkey (no. 2)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "7888/03"^^xsd:string ;
-            dcterms:date "2007-12-20"^^xsd:date ;
-            dcterms:description "Nikolova and Velichkova v. Bulgaria, no. 7888/03, § 49, 20 December 2007"^^xsd:string ;
-            dcterms:title "Nikolova and Velichkova v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "7261/06"^^xsd:string ;
-            dcterms:date "2011-05-03"^^xsd:date ;
-            dcterms:description "Stavebná spoločnosť TATRY Poprad, s.r.o. v. Slovakia, no. 7261/06, §§ 55-56, 3 May 2011"^^xsd:string ;
-            dcterms:title "Stavebná spoločnosť TATRY Poprad"^^xsd:string ],
-        [ ns1:hasApplicationNumber "40485/08"^^xsd:string ;
-            dcterms:date "2014-07-15"^^xsd:date ;
-            dcterms:description "Petrović v. Serbia, no. 40485/08, §§ 64 and 65, 15 July 2014"^^xsd:string ;
-            dcterms:title "Petrović v. Serbia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "41237/14"^^xsd:string ;
-            dcterms:date "2017-03-02"^^xsd:date ;
-            dcterms:description "Talpis v. Italy, no. 41237/14, § 141, 2 March 2017"^^xsd:string ;
-            dcterms:title "Talpis v. Italy"^^xsd:string ],
-        [ ns1:hasApplicationNumber "50903/06"^^xsd:string ;
-            dcterms:date "2011-11-29"^^xsd:date ;
-            dcterms:description "Kováčik v. Slovakia, no. 50903/06, §§ 91-93, 29 November 2011"^^xsd:string ;
-            dcterms:title "Kováčik v. Slovakia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "72508/13"^^xsd:string ;
-            dcterms:date "2017-11-28"^^xsd:date ;
-            dcterms:description "Merabishvili v. Georgia [GC], no. 72508/13, § 371, 28 November 2017"^^xsd:string ;
-            dcterms:title "Merabishvili v. Georgia [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "33056/17"^^xsd:string ;
-            dcterms:date "2021-07-08"^^xsd:date ;
-            dcterms:description "Tkhelidze v. Georgia, no. 33056/17, 8 July 2021"^^xsd:string ;
-            dcterms:title "Tkhelidze v. Georgia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "7224/11"^^xsd:string ;
-            dcterms:date "2020-10-08"^^xsd:date ;
-            dcterms:description "Aghdgomelashvili and Japaridze v. Georgia, no. 7224/11, § 57, 8 October 2020"^^xsd:string ;
-            dcterms:title "Aghdgomelashvili and Japaridze v. Georgia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "17247/13"^^xsd:string ;
-            dcterms:date "2020-05-26"^^xsd:date ;
-            dcterms:description "Makuchyan and Minasyan v. Azerbaijan and Hungary, no. 17247/13, § 157, 26 May 2020"^^xsd:string ;
-            dcterms:title "Makuchyan and Minasyan v. Azerbaijan and Hungary"^^xsd:string ],
-        [ ns1:hasApplicationNumber "50375/07"^^xsd:string ;
-            dcterms:date "2019-07-18"^^xsd:date ;
-            dcterms:description "Vazagashvili and Shanava v. Georgia, no. 50375/07, § 92, 18 July 2019"^^xsd:string ;
-            dcterms:title "Vazagashvili and Shanava v. Georgia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "62903/15"^^xsd:string ;
-            dcterms:date "2021-06-15"^^xsd:date ;
-            dcterms:description "Kurt v. Austria [GC], no. 62903/15, 15 June 2021"^^xsd:string ;
-            dcterms:title "Kurt v. Austria [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "46454/11"^^xsd:string ;
-            dcterms:date "2018-05-31"^^xsd:date ;
-            dcterms:description "Abu Zubaydah v. Lithuania, no. 46454/11, §§ 682 and 683, 31 May 2018"^^xsd:string ;
-            dcterms:title "Abu Zubaydah v. Lithuania"^^xsd:string ] ;
-    dcterms:title "CASE OF A AND B v. GEORGIA"^^xsd:string ;
-    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+    dcterms:title "CASE OF A AND B v. GEORGIA"^^xsd:string .
 
