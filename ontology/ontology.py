@@ -1,4 +1,4 @@
-from rdflib import Graph, URIRef, Namespace, Literal
+from rdflib import Graph, Namespace, Literal
 from rdflib.namespace import RDF, RDFS, OWL, XSD
 import os
 import json
@@ -49,4 +49,3 @@ if __name__ == "__main__":
 
     print(g.serialize(format="turtle"))
     g.serialize(destination=path + "ontology.owl", format="xml")
-
