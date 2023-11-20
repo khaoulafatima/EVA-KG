@@ -1,95 +1,95 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://eva.org/property/> .
+@prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://eva.org/entity/38478/05> ns1:hasApplicationNumber "38478/05"^^xsd:string ;
-    ns1:importanceLevel 1 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q224> ;
-    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#38478/05> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "BOJIC I."^^xsd:string ] ;
     dcterms:creator "Court (First Section)"^^xsd:string ;
     dcterms:date "2009-03-05"^^xsd:date ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-91608> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2009:0305JUD003847805"^^xsd:string ;
-    dcterms:references [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "53176/99"^^xsd:string ;
+    dcterms:references [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "M.C. v. Bulgaria, no. 39272/98, §§ 50, 150, 152, ECHR 2003-XII"^^xsd:string ;
+            dcterms:title "M.C. v. Bulgaria"^^xsd:string ;
+            ns1:hasApplicationNumber "39272/98"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:description "Mikulic v. Croatia, no. 53176/99, § 57, ECHR 2002-I and 27"^^xsd:string ;
-            dcterms:title "Mikulic v. Croatia"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "26455/04"^^xsd:string ;
-            dcterms:date "2008-03-06"^^xsd:date ;
-            dcterms:description "Plazonic v. Croatia, no. 26455/04, § 47, 6 March 2008"^^xsd:string ;
-            dcterms:title "Plazonic v. Croatia"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            dcterms:date "1997-03-19"^^xsd:date ;
-            dcterms:description "Hornsby v. Greece, 19 March 1997, § 40, Reports 1997-II"^^xsd:string ;
-            dcterms:title "Hornsby v. Greece"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "26137/04"^^xsd:string ;
-            dcterms:date "2007-04-10"^^xsd:date ;
-            dcterms:description "Barta v. Hungary, no. 26137/04, § 45, 10 April 2007"^^xsd:string ;
-            dcterms:title "Barta v. Hungary"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "64886/01"^^xsd:string ;
+            dcterms:title "Mikulic v. Croatia"^^xsd:string ;
+            ns1:hasApplicationNumber "53176/99"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:description "Cocchiarella v. Italy [GC], no. 64886/01, §§ 65-107, ECHR 2006-V"^^xsd:string ;
-            dcterms:title "Cocchiarella v. Italy [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "36505/02"^^xsd:string ;
-            dcterms:date "2003-01-21"^^xsd:date ;
-            dcterms:description "August v. the United Kingdom (dec.), no. 36505/02, 21 January 2003"^^xsd:string ;
-            dcterms:title "August v. the United Kingdom (dec.)"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            dcterms:title "Cocchiarella v. Italy [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "64886/01"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2002-10-10"^^xsd:date ;
+            dcterms:description "D.P. and J.C. v. the United Kingdom, no. 38719/97, § 118, 10 October 2002"^^xsd:string ;
+            dcterms:title "D.P. and J.C. v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "38719/97"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Scordino v. Italy (no. 1) [GC], no. 36813/97, §§ 178-213, ECHR 2006-V"^^xsd:string ;
+            dcterms:title "Scordino v. Italy (no. 1) [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "36813/97"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "1996-12-18"^^xsd:date ;
             dcterms:description "Aksoy v. Turkey, 18 December 1996, §§ 51-52, Reports of Judgments and Decisions 1996-VI"^^xsd:string ;
             dcterms:title "Aksoy v. Turkey"^^xsd:string ],
-        [ a <http://eva.org/type/DomesticLaw> ;
+        [ a ns1:DomesticLaw ;
             dcterms:description "Articles 8, 98, 102, 129, 176 and 331 of the Criminal Code "^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "13178/03"^^xsd:string ;
-            dcterms:description "Mayeka and Mitunga v. Belgium, no. 13178/03, § 48, ECHR 2006-XI"^^xsd:string ;
-            dcterms:title "Mayeka and Mitunga v. Belgium"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            dcterms:date "1985-03-26"^^xsd:date ;
-            dcterms:description "X and Y v. the Netherlands, 26 March 1985, §§ 22, 23, 24, 27, Series A no. 91"^^xsd:string ;
-            dcterms:title "X and Y v. the Netherlands"^^xsd:string ],
-        [ a <http://eva.org/type/DomesticLaw> ;
-            dcterms:description "Articles 2, 13, 48, 55, 60, 71, 172-174, 188 and 205 of the Code of Criminal Procedure"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            dcterms:date "1976-12-07"^^xsd:date ;
-            dcterms:description "Handyside v. the United Kingdom, 7 December 1976, § 49, Series A no. 24"^^xsd:string ;
-            dcterms:title "Handyside v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "36813/97"^^xsd:string ;
-            dcterms:description "Scordino v. Italy (no. 1) [GC], no. 36813/97, §§ 178-213, ECHR 2006-V"^^xsd:string ;
-            dcterms:title "Scordino v. Italy (no. 1) [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "1993-03-25"^^xsd:date ;
             dcterms:description "Costello-Roberts v. the United Kingdom, 25 March 1993, § 36, Series A no. 247-C"^^xsd:string ;
             dcterms:title "Costello-Roberts v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "38719/97"^^xsd:string ;
-            dcterms:date "2002-10-10"^^xsd:date ;
-            dcterms:description "D.P. and J.C. v. the United Kingdom, no. 38719/97, § 118, 10 October 2002"^^xsd:string ;
-            dcterms:title "D.P. and J.C. v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "25803/94"^^xsd:string ;
-            dcterms:description "Selmouni v. France, [GC], no. 25803/94, § 101, ECHR 1999-V"^^xsd:string ;
-            dcterms:title "Selmouni v. France"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "30979/96"^^xsd:string ;
-            dcterms:description "Frydlender v. France [GC], no. 30979/96, § 43, ECHR 2000-VII"^^xsd:string ;
-            dcterms:title "Frydlender v. France [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "71127/01"^^xsd:string ;
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2008-03-06"^^xsd:date ;
+            dcterms:description "Plazonic v. Croatia, no. 26455/04, § 47, 6 March 2008"^^xsd:string ;
+            dcterms:title "Plazonic v. Croatia"^^xsd:string ;
+            ns1:hasApplicationNumber "26455/04"^^xsd:string ],
+        [ a ns1:DomesticLaw ;
+            dcterms:description "Articles 2, 13, 48, 55, 60, 71, 172-174, 188 and 205 of the Code of Criminal Procedure"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2003-01-21"^^xsd:date ;
+            dcterms:description "August v. the United Kingdom (dec.), no. 36505/02, 21 January 2003"^^xsd:string ;
+            dcterms:title "August v. the United Kingdom (dec.)"^^xsd:string ;
+            ns1:hasApplicationNumber "36505/02"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1985-03-26"^^xsd:date ;
+            dcterms:description "X and Y v. the Netherlands, 26 March 1985, §§ 22, 23, 24, 27, Series A no. 91"^^xsd:string ;
+            dcterms:title "X and Y v. the Netherlands"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2008-06-12"^^xsd:date ;
             dcterms:description "Bevacqua and S. v. Bulgaria, no. 71127/01, § 65, 12 June 2008"^^xsd:string ;
-            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "39272/98"^^xsd:string ;
-            dcterms:description "M.C. v. Bulgaria, no. 39272/98, §§ 50, 150, 152, ECHR 2003-XII"^^xsd:string ;
-            dcterms:title "M.C. v. Bulgaria"^^xsd:string ] ;
-    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ;
+            ns1:hasApplicationNumber "71127/01"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Selmouni v. France, [GC], no. 25803/94, § 101, ECHR 1999-V"^^xsd:string ;
+            dcterms:title "Selmouni v. France"^^xsd:string ;
+            ns1:hasApplicationNumber "25803/94"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1976-12-07"^^xsd:date ;
+            dcterms:description "Handyside v. the United Kingdom, 7 December 1976, § 49, Series A no. 24"^^xsd:string ;
+            dcterms:title "Handyside v. the United Kingdom"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2007-04-10"^^xsd:date ;
+            dcterms:description "Barta v. Hungary, no. 26137/04, § 45, 10 April 2007"^^xsd:string ;
+            dcterms:title "Barta v. Hungary"^^xsd:string ;
+            ns1:hasApplicationNumber "26137/04"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Mayeka and Mitunga v. Belgium, no. 13178/03, § 48, ECHR 2006-XI"^^xsd:string ;
+            dcterms:title "Mayeka and Mitunga v. Belgium"^^xsd:string ;
+            ns1:hasApplicationNumber "13178/03"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1997-03-19"^^xsd:date ;
+            dcterms:description "Hornsby v. Greece, 19 March 1997, § 40, Reports 1997-II"^^xsd:string ;
+            dcterms:title "Hornsby v. Greece"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Frydlender v. France [GC], no. 30979/96, § 43, ECHR 2000-VII"^^xsd:string ;
+            dcterms:title "Frydlender v. France [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "30979/96"^^xsd:string ] ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
+    ns1:hasApplicationNumber "38478/05"^^xsd:string ;
+    ns1:importanceLevel 1 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q224> .
 
 <https://hudoc.echr.coe.int/eng?i=001-91608> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;

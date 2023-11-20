@@ -1,18 +1,18 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://eva.org/property/> .
+@prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://eva.org/entity/43408/08> ns1:hasApplicationNumber "43408/08"^^xsd:string ;
-    ns1:importanceLevel 3 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q27> ;
-    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#43408/08> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "CEEMEX AND CO. SOLICITORS"^^xsd:string ] ;
     dcterms:creator "Court (Fifth Section)"^^xsd:string ;
     dcterms:date "2011-05-17"^^xsd:date ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-105081> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2011:0517DEC004340808"^^xsd:string ;
-    dcterms:type <http://www.wikidata.org/entity/Q327000> .
+    dcterms:type <http://www.wikidata.org/entity/Q327000> ;
+    ns1:hasApplicationNumber "43408/08"^^xsd:string ;
+    ns1:importanceLevel 3 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q27> .
 
 <https://hudoc.echr.coe.int/eng?i=001-105081> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;

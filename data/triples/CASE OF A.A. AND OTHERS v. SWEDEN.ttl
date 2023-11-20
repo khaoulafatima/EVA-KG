@@ -1,68 +1,68 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://eva.org/property/> .
+@prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://eva.org/entity/14499/09> ns1:hasApplicationNumber "14499/09"^^xsd:string ;
-    ns1:importanceLevel 2 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q34> ;
-    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#14499/09> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "RIMSTEN E."^^xsd:string ] ;
     dcterms:creator "Court (Fifth Section)"^^xsd:string ;
     dcterms:date "2012-06-28"^^xsd:date ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-111553> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2012:0628JUD001449909"^^xsd:string ;
-    dcterms:references [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "23505/09"^^xsd:string ;
-            dcterms:date "2010-07-20"^^xsd:date ;
-            dcterms:description "N. v. Sweden, no. 23505/09, § 53, 20 July 2010"^^xsd:string ;
-            dcterms:title "N. v. Sweden"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "37201/06"^^xsd:string ;
-            dcterms:description "Saadi v. Italy [GC], no. 37201/06, § 125, ECHR 2008"^^xsd:string ;
-            dcterms:title "Saadi v. Italy [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "46827/99"^^xsd:string ;
+    dcterms:references [ a ns1:StrasbourgCaseLaw ;
             dcterms:description "Mamatkulov and Askarov v. Turkey [GC], nos. 46827/99 and 46951/99, § 67, ECHR 2005-I"^^xsd:string ;
-            dcterms:title "Mamatkulov and Askarov v. Turkey [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "32621/06"^^xsd:string ;
-            dcterms:date "1997-05-02"^^xsd:date ;
-            dcterms:description "D. v. the United Kingdom, 2 May 1997, § 59, Reports of Judgments and Decisions 1997-III, and F.H. v. Sweden, no. 32621/06, § 72, 20 January 2009"^^xsd:string ;
-            dcterms:title "D. v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            dcterms:title "Mamatkulov and Askarov v. Turkey [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "46827/99"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2005-07-26"^^xsd:date ;
+            dcterms:description "N. v. Finland, no. 38885/02, § 167, 26 July 2005"^^xsd:string ;
+            dcterms:title "N. v. Finland"^^xsd:string ;
+            ns1:hasApplicationNumber "38885/02"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "1997-04-29"^^xsd:date ;
             dcterms:description "H.L.R. v. France, 29 April 1997, Reports 1997-III"^^xsd:string ;
             dcterms:title "H.L.R. v. France"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "1991-10-30"^^xsd:date ;
             dcterms:description "Vilvarajah and Others v. the United Kingdom, 30 October 1991, Series A no. 215, p. 34"^^xsd:string ;
             dcterms:title "Vilvarajah and Others v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "45276/99"^^xsd:string ;
-            dcterms:description "Hilal v. the United Kingdom, no. 45276/99, § 60, ECHR 2001-II"^^xsd:string ;
-            dcterms:title "Hilal v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "41827/07"^^xsd:string ;
-            dcterms:date "2010-03-09"^^xsd:date ;
-            dcterms:description "R.C. v. Sweden, no. 41827/07, § 52, 9 March 2010"^^xsd:string ;
-            dcterms:title "R.C. v. Sweden"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "25904/07"^^xsd:string ;
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2010-07-20"^^xsd:date ;
+            dcterms:description "N. v. Sweden, no. 23505/09, § 53, 20 July 2010"^^xsd:string ;
+            dcterms:title "N. v. Sweden"^^xsd:string ;
+            ns1:hasApplicationNumber "23505/09"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1997-05-02"^^xsd:date ;
+            dcterms:description "D. v. the United Kingdom, 2 May 1997, § 59, Reports of Judgments and Decisions 1997-III, and F.H. v. Sweden, no. 32621/06, § 72, 20 January 2009"^^xsd:string ;
+            dcterms:title "D. v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "32621/06"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2008-07-17"^^xsd:date ;
             dcterms:description "NA. v. the United Kingdom, no. 25904/07, 17 July 2008"^^xsd:string ;
-            dcterms:title "NA. v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "38885/02"^^xsd:string ;
-            dcterms:date "2005-07-26"^^xsd:date ;
-            dcterms:description "N. v. Finland, no. 38885/02, § 167, 26 July 2005"^^xsd:string ;
-            dcterms:title "N. v. Finland"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "23944/05"^^xsd:string ;
+            dcterms:title "NA. v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "25904/07"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2010-03-09"^^xsd:date ;
+            dcterms:description "R.C. v. Sweden, no. 41827/07, § 52, 9 March 2010"^^xsd:string ;
+            dcterms:title "R.C. v. Sweden"^^xsd:string ;
+            ns1:hasApplicationNumber "41827/07"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2007-03-08"^^xsd:date ;
             dcterms:description "Collins and Akasiebie v. Sweden (dec.), no. 23944/05, 8 March 2007"^^xsd:string ;
-            dcterms:title "Collins and Akasiebie v. Sweden (dec.)"^^xsd:string ] ;
-    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+            dcterms:title "Collins and Akasiebie v. Sweden (dec.)"^^xsd:string ;
+            ns1:hasApplicationNumber "23944/05"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Hilal v. the United Kingdom, no. 45276/99, § 60, ECHR 2001-II"^^xsd:string ;
+            dcterms:title "Hilal v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "45276/99"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Saadi v. Italy [GC], no. 37201/06, § 125, ECHR 2008"^^xsd:string ;
+            dcterms:title "Saadi v. Italy [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "37201/06"^^xsd:string ] ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
+    ns1:hasApplicationNumber "14499/09"^^xsd:string ;
+    ns1:importanceLevel 2 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q34> .
 
 <https://hudoc.echr.coe.int/eng?i=001-111553> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;

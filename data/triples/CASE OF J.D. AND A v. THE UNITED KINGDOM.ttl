@@ -1,166 +1,163 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://eva.org/property/> .
+@prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://eva.org/entity/32949/17> ns1:hasApplicationNumber "32949/17"^^xsd:string ;
-    ns1:importanceLevel 4 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q145> ;
-    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "CARRIER R."^^xsd:string ],
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#32949/17> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "ASHTON K. "^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "ASHTON K. "^^xsd:string ] ;
+            foaf:name "CARRIER R."^^xsd:string ] ;
     dcterms:creator "Court (First Section)"^^xsd:string ;
     dcterms:date "2019-10-24"^^xsd:date ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-196897> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2019:1024JUD003294917"^^xsd:string ;
-    dcterms:references [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "42184/05"^^xsd:string ;
-            dcterms:description "Carson and Others v. the United Kingdom [GC], no. 42184/05, § 61, ECHR 2010"^^xsd:string ;
-            dcterms:title "Carson and Others v. the United Kingdom [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+    dcterms:references [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2017-05-23"^^xsd:date ;
+            dcterms:description "Bălșan v. Romania, no. 49645/09, 23 May 2017"^^xsd:string ;
+            dcterms:title "Bălșan v. Romania"^^xsd:string ;
+            ns1:hasApplicationNumber "49645/09"^^xsd:string ],
+        [ a ns1:DomesticLaw ;
+            dcterms:description "Regulation B13 of the Housing Benefit Regulations 2006 (SI 2006/213) "^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2013-01-15"^^xsd:date ;
+            dcterms:description "Eweida and Others v. the United Kingdom, no. 48420/10, 15 January 2013"^^xsd:string ;
+            dcterms:title "Eweida and Others v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "48420/10"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2012-04-24"^^xsd:date ;
+            dcterms:description "Kalucza v. Hungary, no. 57693/10, § 53, 24 April 2012)"^^xsd:string ;
+            dcterms:title "Kalucza v. Hungary"^^xsd:string ;
+            ns1:hasApplicationNumber "57693/10"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Kurić and Others v. Slovenia [GC], no. 26828/06, § 288, ECHR 2012"^^xsd:string ;
+            dcterms:title "Kurić and Others v. Slovenia [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "26828/06"^^xsd:string ],
+        [ a ns1:DomesticLaw ;
+            dcterms:description "Discretionary Financial Assistance Regulations (SI 2001/1167)"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2003-07-08"^^xsd:date ;
+            dcterms:description "Sentges v. the Netherlands (dec.), no. 27677/02, 8 July 2003"^^xsd:string ;
+            dcterms:title "Sentges v. the Netherlands (dec.)"^^xsd:string ;
+            ns1:hasApplicationNumber "27677/02"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Konstantin Markin v. Russia [GC], no. 30078/06, § 127, ECHR 2012"^^xsd:string ;
+            dcterms:title "Konstantin Markin v. Russia [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "30078/06"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "D.H. and Others v. the Czech Republic [GC], no. 57325/00, ECHR 2007 IV"^^xsd:string ;
+            dcterms:title "D.H. and Others v. the Czech Republic [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "57325/00"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Burden v. the United Kingdom [GC], no. 13378/05, § 60, ECHR 2008"^^xsd:string ;
+            dcterms:title "Burden v. the United Kingdom [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "13378/05"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "1998-02-24"^^xsd:date ;
             dcterms:description "Botta v. Italy, 24 February 1998, Reports of Judgments and Decisions 1998 I"^^xsd:string ;
             dcterms:title "Botta v. Italy"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "23682/13"^^xsd:string ;
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Nada v. Switzerland [GC], no. 10593/08, § 128, ECHR 2012"^^xsd:string ;
+            dcterms:title "Nada v. Switzerland [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "10593/08"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Thlimmenos v. Greece, [GC], no. 34369/97, ECHR 2000 IV"^^xsd:string ;
+            dcterms:title "Thlimmenos v. Greece"^^xsd:string ;
+            ns1:hasApplicationNumber "34369/97"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Hämäläinen v. Finland [GC], no. 37359/09, § 109, ECHR 2014"^^xsd:string ;
+            dcterms:title "Hämäläinen v. Finland [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "37359/09"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "S.A.S. v. France [GC], no. 43835/11, § 161, ECHR 2014 (extracts)"^^xsd:string ;
+            dcterms:title "S.A.S. v. France [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "43835/11"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2016-03-22"^^xsd:date ;
             dcterms:description "Guberina v. Croatia, no. 23682/13, 22 March 2016"^^xsd:string ;
-            dcterms:title "Guberina v. Croatia"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "42949/98"^^xsd:string ;
-            dcterms:date "2007-05-10"^^xsd:date ;
-            dcterms:description "Runkee and White v. the United Kingdom, nos. 42949/98 and 53134/99, 10 May 2007"^^xsd:string ;
-            dcterms:title "Runkee and White v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "57693/10"^^xsd:string ;
-            dcterms:date "2012-04-24"^^xsd:date ;
-            dcterms:description "Kalucza v. Hungary, no. 57693/10, § 53, 24 April 2012)"^^xsd:string ;
-            dcterms:title "Kalucza v. Hungary"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "33401/02"^^xsd:string ;
-            dcterms:description "Opuz v. Turkey, no. 33401/02, ECHR 2009"^^xsd:string ;
-            dcterms:title "Opuz v. Turkey"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "58278/00"^^xsd:string ;
+            dcterms:title "Guberina v. Croatia"^^xsd:string ;
+            ns1:hasApplicationNumber "23682/13"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Andrejeva v. Latvia [GC], no. 55707/00, ECHR 2009"^^xsd:string ;
+            dcterms:title "Andrejeva v. Latvia [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "55707/00"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:description "Ždanoka v. Latvia [GC], no. 58278/00, § 112, ECHR 2006 IV"^^xsd:string ;
-            dcterms:title "Ždanoka v. Latvia [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "36813/97"^^xsd:string ;
-            dcterms:description "Scordino v. Italy (no. 1) [GC], no. 36813/97, § 180, ECHR 2006 V"^^xsd:string ;
-            dcterms:title "Scordino v. Italy (no. 1) [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "13444/04"^^xsd:string ;
-            dcterms:description "Glor v. Switzerland, no. 13444/04, § 84, ECHR 2009"^^xsd:string ;
-            dcterms:title "Glor v. Switzerland"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "43835/11"^^xsd:string ;
-            dcterms:description "S.A.S. v. France [GC], no. 43835/11, § 161, ECHR 2014 (extracts)"^^xsd:string ;
-            dcterms:title "S.A.S. v. France [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "44818/11"^^xsd:string ;
-            dcterms:date "2016-09-15"^^xsd:date ;
-            dcterms:description "British Gurkha Welfare Society and Others v. the United Kingdom, no. 44818/11, 15 September 2016"^^xsd:string ;
-            dcterms:title "British Gurkha Welfare Society and Others v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "13378/05"^^xsd:string ;
-            dcterms:description "Burden v. the United Kingdom [GC], no. 13378/05, § 60, ECHR 2008"^^xsd:string ;
-            dcterms:title "Burden v. the United Kingdom [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "34369/97"^^xsd:string ;
-            dcterms:description "Thlimmenos v. Greece, [GC], no. 34369/97, ECHR 2000 IV"^^xsd:string ;
-            dcterms:title "Thlimmenos v. Greece"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "32596/04"^^xsd:string ;
-            dcterms:date "2010-09-14"^^xsd:date ;
-            dcterms:description "Farcas v. Romania, no. 32596/04, 14 September 2010"^^xsd:string ;
-            dcterms:title "Farcas v. Romania"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "7205/07"^^xsd:string ;
-            dcterms:date "2010-07-13"^^xsd:date ;
-            dcterms:description "Clift v. the United Kingdom, no. 7205/07, §§ 56-57, 13 July 2010"^^xsd:string ;
-            dcterms:title "Clift v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "26828/06"^^xsd:string ;
-            dcterms:description "Kurić and Others v. Slovenia [GC], no. 26828/06, § 288, ECHR 2012"^^xsd:string ;
-            dcterms:title "Kurić and Others v. Slovenia [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "78117/13"^^xsd:string ;
+            dcterms:title "Ždanoka v. Latvia [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "58278/00"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2017-09-05"^^xsd:date ;
             dcterms:description "Fábián v. Hungary [GC], no. 78117/13, 5 September 2017"^^xsd:string ;
-            dcterms:title "Fábián v. Hungary [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/DomesticLaw> ;
-            dcterms:description "Discretionary Financial Assistance Regulations (SI 2001/1167)"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "68909/13"^^xsd:string ;
-            dcterms:date "2016-10-06"^^xsd:date ;
-            dcterms:description "Daniel Faulkner v. the United Kingdom, no. 68909/13, 6 October 2016"^^xsd:string ;
-            dcterms:title "Daniel Faulkner v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "34406/97"^^xsd:string ;
-            dcterms:description "Mazurek v. France, no. 34406/97, §§ 46 and 48, ECHR 2000 II"^^xsd:string ;
-            dcterms:title "Mazurek v. France"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "49645/09"^^xsd:string ;
-            dcterms:date "2017-05-23"^^xsd:date ;
-            dcterms:description "Bălșan v. Romania, no. 49645/09, 23 May 2017"^^xsd:string ;
-            dcterms:title "Bălșan v. Romania"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "27677/02"^^xsd:string ;
-            dcterms:date "2003-07-08"^^xsd:date ;
-            dcterms:description "Sentges v. the Netherlands (dec.), no. 27677/02, 8 July 2003"^^xsd:string ;
-            dcterms:title "Sentges v. the Netherlands (dec.)"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "33631/06"^^xsd:string ;
+            dcterms:title "Fábián v. Hungary [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "78117/13"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Opuz v. Turkey, no. 33401/02, ECHR 2009"^^xsd:string ;
+            dcterms:title "Opuz v. Turkey"^^xsd:string ;
+            ns1:hasApplicationNumber "33401/02"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Scordino v. Italy (no. 1) [GC], no. 36813/97, § 180, ECHR 2006 V"^^xsd:string ;
+            dcterms:title "Scordino v. Italy (no. 1) [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "36813/97"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2007-05-10"^^xsd:date ;
+            dcterms:description "Runkee and White v. the United Kingdom, nos. 42949/98 and 53134/99, 10 May 2007"^^xsd:string ;
+            dcterms:title "Runkee and White v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "42949/98"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2010-07-13"^^xsd:date ;
+            dcterms:description "Clift v. the United Kingdom, no. 7205/07, §§ 56-57, 13 July 2010"^^xsd:string ;
+            dcterms:title "Clift v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "7205/07"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2016-09-15"^^xsd:date ;
+            dcterms:description "British Gurkha Welfare Society and Others v. the United Kingdom, no. 44818/11, 15 September 2016"^^xsd:string ;
+            dcterms:title "British Gurkha Welfare Society and Others v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "44818/11"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2015-10-13"^^xsd:date ;
             dcterms:description "Vrountou v. Cyprus, no. 33631/06, § 64, 13 October 2015"^^xsd:string ;
-            dcterms:title "Vrountou v. Cyprus"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "37359/09"^^xsd:string ;
-            dcterms:description "Hämäläinen v. Finland [GC], no. 37359/09, § 109, ECHR 2014"^^xsd:string ;
-            dcterms:title "Hämäläinen v. Finland [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "65731/01"^^xsd:string ;
+            dcterms:title "Vrountou v. Cyprus"^^xsd:string ;
+            ns1:hasApplicationNumber "33631/06"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2016-10-06"^^xsd:date ;
+            dcterms:description "Daniel Faulkner v. the United Kingdom, no. 68909/13, 6 October 2016"^^xsd:string ;
+            dcterms:title "Daniel Faulkner v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "68909/13"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Mazurek v. France, no. 34406/97, §§ 46 and 48, ECHR 2000 II"^^xsd:string ;
+            dcterms:title "Mazurek v. France"^^xsd:string ;
+            ns1:hasApplicationNumber "34406/97"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:description "Stec and Others v. the United Kingdom (dec.) [GC], nos. 65731/01 and 65900/01, ECHR 2005 X"^^xsd:string ;
-            dcterms:title "Stec and Others v. the United Kingdom (dec.) [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "48420/10"^^xsd:string ;
-            dcterms:date "2013-01-15"^^xsd:date ;
-            dcterms:description "Eweida and Others v. the United Kingdom, no. 48420/10, 15 January 2013"^^xsd:string ;
-            dcterms:title "Eweida and Others v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "38621/97"^^xsd:string ;
+            dcterms:title "Stec and Others v. the United Kingdom (dec.) [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "65731/01"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Gäfgen v. Germany [GC], no. 22978/05, § 115, ECHR 2010"^^xsd:string ;
+            dcterms:title "Gäfgen v. Germany [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "22978/05"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Carson and Others v. the United Kingdom [GC], no. 42184/05, § 61, ECHR 2010"^^xsd:string ;
+            dcterms:title "Carson and Others v. the United Kingdom [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "42184/05"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Glor v. Switzerland, no. 13444/04, § 84, ECHR 2009"^^xsd:string ;
+            dcterms:title "Glor v. Switzerland"^^xsd:string ;
+            ns1:hasApplicationNumber "13444/04"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2010-09-14"^^xsd:date ;
+            dcterms:description "Farcas v. Romania, no. 32596/04, 14 September 2010"^^xsd:string ;
+            dcterms:title "Farcas v. Romania"^^xsd:string ;
+            ns1:hasApplicationNumber "32596/04"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2002-05-14"^^xsd:date ;
             dcterms:description "Zehnalová and Zehnal v. the Czech Republic (dec.), no. 38621/97, 14 May 2002"^^xsd:string ;
-            dcterms:title "Zehnalová and Zehnal v. the Czech Republic (dec.)"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "57325/00"^^xsd:string ;
-            dcterms:description "D.H. and Others v. the Czech Republic [GC], no. 57325/00, ECHR 2007 IV"^^xsd:string ;
-            dcterms:title "D.H. and Others v. the Czech Republic [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "22978/05"^^xsd:string ;
-            dcterms:description "Gäfgen v. Germany [GC], no. 22978/05, § 115, ECHR 2010"^^xsd:string ;
-            dcterms:title "Gäfgen v. Germany [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/DomesticLaw> ;
-            dcterms:description "Regulation B13 of the Housing Benefit Regulations 2006 (SI 2006/213) "^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "10593/08"^^xsd:string ;
-            dcterms:description "Nada v. Switzerland [GC], no. 10593/08, § 128, ECHR 2012"^^xsd:string ;
-            dcterms:title "Nada v. Switzerland [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "30078/06"^^xsd:string ;
-            dcterms:description "Konstantin Markin v. Russia [GC], no. 30078/06, § 127, ECHR 2012"^^xsd:string ;
-            dcterms:title "Konstantin Markin v. Russia [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "55707/00"^^xsd:string ;
-            dcterms:description "Andrejeva v. Latvia [GC], no. 55707/00, ECHR 2009"^^xsd:string ;
-            dcterms:title "Andrejeva v. Latvia [GC]"^^xsd:string ] ;
-    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+            dcterms:title "Zehnalová and Zehnal v. the Czech Republic (dec.)"^^xsd:string ;
+            ns1:hasApplicationNumber "38621/97"^^xsd:string ] ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
+    ns1:hasApplicationNumber "32949/17"^^xsd:string ;
+    ns1:importanceLevel 4 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q145> .
 
-<http://eva.org/entity/34614/17> ns1:hasApplicationNumber "34614/17"^^xsd:string ;
-    ns1:importanceLevel 4 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q145> ;
-    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#34614/17> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "CARRIER R."^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "ASHTON K. "^^xsd:string ] ;
@@ -168,148 +165,151 @@
     dcterms:date "2019-10-24"^^xsd:date ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-196897> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2019:1024JUD003294917"^^xsd:string ;
-    dcterms:references [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "44818/11"^^xsd:string ;
-            dcterms:date "2016-09-15"^^xsd:date ;
-            dcterms:description "British Gurkha Welfare Society and Others v. the United Kingdom, no. 44818/11, 15 September 2016"^^xsd:string ;
-            dcterms:title "British Gurkha Welfare Society and Others v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "33631/06"^^xsd:string ;
+    dcterms:references [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Scordino v. Italy (no. 1) [GC], no. 36813/97, § 180, ECHR 2006 V"^^xsd:string ;
+            dcterms:title "Scordino v. Italy (no. 1) [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "36813/97"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Konstantin Markin v. Russia [GC], no. 30078/06, § 127, ECHR 2012"^^xsd:string ;
+            dcterms:title "Konstantin Markin v. Russia [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "30078/06"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2012-04-24"^^xsd:date ;
+            dcterms:description "Kalucza v. Hungary, no. 57693/10, § 53, 24 April 2012)"^^xsd:string ;
+            dcterms:title "Kalucza v. Hungary"^^xsd:string ;
+            ns1:hasApplicationNumber "57693/10"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2010-07-13"^^xsd:date ;
+            dcterms:description "Clift v. the United Kingdom, no. 7205/07, §§ 56-57, 13 July 2010"^^xsd:string ;
+            dcterms:title "Clift v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "7205/07"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Andrejeva v. Latvia [GC], no. 55707/00, ECHR 2009"^^xsd:string ;
+            dcterms:title "Andrejeva v. Latvia [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "55707/00"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2015-10-13"^^xsd:date ;
             dcterms:description "Vrountou v. Cyprus, no. 33631/06, § 64, 13 October 2015"^^xsd:string ;
-            dcterms:title "Vrountou v. Cyprus"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "49645/09"^^xsd:string ;
-            dcterms:date "2017-05-23"^^xsd:date ;
-            dcterms:description "Bălșan v. Romania, no. 49645/09, 23 May 2017"^^xsd:string ;
-            dcterms:title "Bălșan v. Romania"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "36813/97"^^xsd:string ;
-            dcterms:description "Scordino v. Italy (no. 1) [GC], no. 36813/97, § 180, ECHR 2006 V"^^xsd:string ;
-            dcterms:title "Scordino v. Italy (no. 1) [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "13378/05"^^xsd:string ;
-            dcterms:description "Burden v. the United Kingdom [GC], no. 13378/05, § 60, ECHR 2008"^^xsd:string ;
-            dcterms:title "Burden v. the United Kingdom [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "32596/04"^^xsd:string ;
-            dcterms:date "2010-09-14"^^xsd:date ;
-            dcterms:description "Farcas v. Romania, no. 32596/04, 14 September 2010"^^xsd:string ;
-            dcterms:title "Farcas v. Romania"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "26828/06"^^xsd:string ;
-            dcterms:description "Kurić and Others v. Slovenia [GC], no. 26828/06, § 288, ECHR 2012"^^xsd:string ;
-            dcterms:title "Kurić and Others v. Slovenia [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "10593/08"^^xsd:string ;
-            dcterms:description "Nada v. Switzerland [GC], no. 10593/08, § 128, ECHR 2012"^^xsd:string ;
-            dcterms:title "Nada v. Switzerland [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "68909/13"^^xsd:string ;
-            dcterms:date "2016-10-06"^^xsd:date ;
-            dcterms:description "Daniel Faulkner v. the United Kingdom, no. 68909/13, 6 October 2016"^^xsd:string ;
-            dcterms:title "Daniel Faulkner v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "48420/10"^^xsd:string ;
-            dcterms:date "2013-01-15"^^xsd:date ;
-            dcterms:description "Eweida and Others v. the United Kingdom, no. 48420/10, 15 January 2013"^^xsd:string ;
-            dcterms:title "Eweida and Others v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "43835/11"^^xsd:string ;
-            dcterms:description "S.A.S. v. France [GC], no. 43835/11, § 161, ECHR 2014 (extracts)"^^xsd:string ;
-            dcterms:title "S.A.S. v. France [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "78117/13"^^xsd:string ;
-            dcterms:date "2017-09-05"^^xsd:date ;
-            dcterms:description "Fábián v. Hungary [GC], no. 78117/13, 5 September 2017"^^xsd:string ;
-            dcterms:title "Fábián v. Hungary [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "57325/00"^^xsd:string ;
+            dcterms:title "Vrountou v. Cyprus"^^xsd:string ;
+            ns1:hasApplicationNumber "33631/06"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:description "D.H. and Others v. the Czech Republic [GC], no. 57325/00, ECHR 2007 IV"^^xsd:string ;
-            dcterms:title "D.H. and Others v. the Czech Republic [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+            dcterms:title "D.H. and Others v. the Czech Republic [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "57325/00"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "S.A.S. v. France [GC], no. 43835/11, § 161, ECHR 2014 (extracts)"^^xsd:string ;
+            dcterms:title "S.A.S. v. France [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "43835/11"^^xsd:string ],
+        [ a ns1:DomesticLaw ;
+            dcterms:description "Regulation B13 of the Housing Benefit Regulations 2006 (SI 2006/213) "^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Opuz v. Turkey, no. 33401/02, ECHR 2009"^^xsd:string ;
+            dcterms:title "Opuz v. Turkey"^^xsd:string ;
+            ns1:hasApplicationNumber "33401/02"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2002-05-14"^^xsd:date ;
+            dcterms:description "Zehnalová and Zehnal v. the Czech Republic (dec.), no. 38621/97, 14 May 2002"^^xsd:string ;
+            dcterms:title "Zehnalová and Zehnal v. the Czech Republic (dec.)"^^xsd:string ;
+            ns1:hasApplicationNumber "38621/97"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Kurić and Others v. Slovenia [GC], no. 26828/06, § 288, ECHR 2012"^^xsd:string ;
+            dcterms:title "Kurić and Others v. Slovenia [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "26828/06"^^xsd:string ],
+        [ a ns1:DomesticLaw ;
+            dcterms:description "Discretionary Financial Assistance Regulations (SI 2001/1167)"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "1998-02-24"^^xsd:date ;
             dcterms:description "Botta v. Italy, 24 February 1998, Reports of Judgments and Decisions 1998 I"^^xsd:string ;
             dcterms:title "Botta v. Italy"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "13444/04"^^xsd:string ;
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2016-10-06"^^xsd:date ;
+            dcterms:description "Daniel Faulkner v. the United Kingdom, no. 68909/13, 6 October 2016"^^xsd:string ;
+            dcterms:title "Daniel Faulkner v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "68909/13"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:description "Glor v. Switzerland, no. 13444/04, § 84, ECHR 2009"^^xsd:string ;
-            dcterms:title "Glor v. Switzerland"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "30078/06"^^xsd:string ;
-            dcterms:description "Konstantin Markin v. Russia [GC], no. 30078/06, § 127, ECHR 2012"^^xsd:string ;
-            dcterms:title "Konstantin Markin v. Russia [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "37359/09"^^xsd:string ;
+            dcterms:title "Glor v. Switzerland"^^xsd:string ;
+            ns1:hasApplicationNumber "13444/04"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:description "Hämäläinen v. Finland [GC], no. 37359/09, § 109, ECHR 2014"^^xsd:string ;
-            dcterms:title "Hämäläinen v. Finland [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "7205/07"^^xsd:string ;
-            dcterms:date "2010-07-13"^^xsd:date ;
-            dcterms:description "Clift v. the United Kingdom, no. 7205/07, §§ 56-57, 13 July 2010"^^xsd:string ;
-            dcterms:title "Clift v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "55707/00"^^xsd:string ;
-            dcterms:description "Andrejeva v. Latvia [GC], no. 55707/00, ECHR 2009"^^xsd:string ;
-            dcterms:title "Andrejeva v. Latvia [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "38621/97"^^xsd:string ;
-            dcterms:date "2002-05-14"^^xsd:date ;
-            dcterms:description "Zehnalová and Zehnal v. the Czech Republic (dec.), no. 38621/97, 14 May 2002"^^xsd:string ;
-            dcterms:title "Zehnalová and Zehnal v. the Czech Republic (dec.)"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "58278/00"^^xsd:string ;
-            dcterms:description "Ždanoka v. Latvia [GC], no. 58278/00, § 112, ECHR 2006 IV"^^xsd:string ;
-            dcterms:title "Ždanoka v. Latvia [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "33401/02"^^xsd:string ;
-            dcterms:description "Opuz v. Turkey, no. 33401/02, ECHR 2009"^^xsd:string ;
-            dcterms:title "Opuz v. Turkey"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "34406/97"^^xsd:string ;
-            dcterms:description "Mazurek v. France, no. 34406/97, §§ 46 and 48, ECHR 2000 II"^^xsd:string ;
-            dcterms:title "Mazurek v. France"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "57693/10"^^xsd:string ;
-            dcterms:date "2012-04-24"^^xsd:date ;
-            dcterms:description "Kalucza v. Hungary, no. 57693/10, § 53, 24 April 2012)"^^xsd:string ;
-            dcterms:title "Kalucza v. Hungary"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "23682/13"^^xsd:string ;
+            dcterms:title "Hämäläinen v. Finland [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "37359/09"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2017-09-05"^^xsd:date ;
+            dcterms:description "Fábián v. Hungary [GC], no. 78117/13, 5 September 2017"^^xsd:string ;
+            dcterms:title "Fábián v. Hungary [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "78117/13"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Carson and Others v. the United Kingdom [GC], no. 42184/05, § 61, ECHR 2010"^^xsd:string ;
+            dcterms:title "Carson and Others v. the United Kingdom [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "42184/05"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2017-05-23"^^xsd:date ;
+            dcterms:description "Bălșan v. Romania, no. 49645/09, 23 May 2017"^^xsd:string ;
+            dcterms:title "Bălșan v. Romania"^^xsd:string ;
+            ns1:hasApplicationNumber "49645/09"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2013-01-15"^^xsd:date ;
+            dcterms:description "Eweida and Others v. the United Kingdom, no. 48420/10, 15 January 2013"^^xsd:string ;
+            dcterms:title "Eweida and Others v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "48420/10"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2016-03-22"^^xsd:date ;
             dcterms:description "Guberina v. Croatia, no. 23682/13, 22 March 2016"^^xsd:string ;
-            dcterms:title "Guberina v. Croatia"^^xsd:string ],
-        [ a <http://eva.org/type/DomesticLaw> ;
-            dcterms:description "Regulation B13 of the Housing Benefit Regulations 2006 (SI 2006/213) "^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "34369/97"^^xsd:string ;
-            dcterms:description "Thlimmenos v. Greece, [GC], no. 34369/97, ECHR 2000 IV"^^xsd:string ;
-            dcterms:title "Thlimmenos v. Greece"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "65731/01"^^xsd:string ;
-            dcterms:description "Stec and Others v. the United Kingdom (dec.) [GC], nos. 65731/01 and 65900/01, ECHR 2005 X"^^xsd:string ;
-            dcterms:title "Stec and Others v. the United Kingdom (dec.) [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "22978/05"^^xsd:string ;
-            dcterms:description "Gäfgen v. Germany [GC], no. 22978/05, § 115, ECHR 2010"^^xsd:string ;
-            dcterms:title "Gäfgen v. Germany [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "42949/98"^^xsd:string ;
+            dcterms:title "Guberina v. Croatia"^^xsd:string ;
+            ns1:hasApplicationNumber "23682/13"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2007-05-10"^^xsd:date ;
             dcterms:description "Runkee and White v. the United Kingdom, nos. 42949/98 and 53134/99, 10 May 2007"^^xsd:string ;
-            dcterms:title "Runkee and White v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/DomesticLaw> ;
-            dcterms:description "Discretionary Financial Assistance Regulations (SI 2001/1167)"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "27677/02"^^xsd:string ;
+            dcterms:title "Runkee and White v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "42949/98"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Nada v. Switzerland [GC], no. 10593/08, § 128, ECHR 2012"^^xsd:string ;
+            dcterms:title "Nada v. Switzerland [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "10593/08"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Ždanoka v. Latvia [GC], no. 58278/00, § 112, ECHR 2006 IV"^^xsd:string ;
+            dcterms:title "Ždanoka v. Latvia [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "58278/00"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2016-09-15"^^xsd:date ;
+            dcterms:description "British Gurkha Welfare Society and Others v. the United Kingdom, no. 44818/11, 15 September 2016"^^xsd:string ;
+            dcterms:title "British Gurkha Welfare Society and Others v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "44818/11"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2010-09-14"^^xsd:date ;
+            dcterms:description "Farcas v. Romania, no. 32596/04, 14 September 2010"^^xsd:string ;
+            dcterms:title "Farcas v. Romania"^^xsd:string ;
+            ns1:hasApplicationNumber "32596/04"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Thlimmenos v. Greece, [GC], no. 34369/97, ECHR 2000 IV"^^xsd:string ;
+            dcterms:title "Thlimmenos v. Greece"^^xsd:string ;
+            ns1:hasApplicationNumber "34369/97"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Burden v. the United Kingdom [GC], no. 13378/05, § 60, ECHR 2008"^^xsd:string ;
+            dcterms:title "Burden v. the United Kingdom [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "13378/05"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Gäfgen v. Germany [GC], no. 22978/05, § 115, ECHR 2010"^^xsd:string ;
+            dcterms:title "Gäfgen v. Germany [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "22978/05"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2003-07-08"^^xsd:date ;
             dcterms:description "Sentges v. the Netherlands (dec.), no. 27677/02, 8 July 2003"^^xsd:string ;
-            dcterms:title "Sentges v. the Netherlands (dec.)"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "42184/05"^^xsd:string ;
-            dcterms:description "Carson and Others v. the United Kingdom [GC], no. 42184/05, § 61, ECHR 2010"^^xsd:string ;
-            dcterms:title "Carson and Others v. the United Kingdom [GC]"^^xsd:string ] ;
-    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+            dcterms:title "Sentges v. the Netherlands (dec.)"^^xsd:string ;
+            ns1:hasApplicationNumber "27677/02"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Stec and Others v. the United Kingdom (dec.) [GC], nos. 65731/01 and 65900/01, ECHR 2005 X"^^xsd:string ;
+            dcterms:title "Stec and Others v. the United Kingdom (dec.) [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "65731/01"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Mazurek v. France, no. 34406/97, §§ 46 and 48, ECHR 2000 II"^^xsd:string ;
+            dcterms:title "Mazurek v. France"^^xsd:string ;
+            ns1:hasApplicationNumber "34406/97"^^xsd:string ] ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
+    ns1:hasApplicationNumber "34614/17"^^xsd:string ;
+    ns1:importanceLevel 4 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q145> .
 
 <https://hudoc.echr.coe.int/eng?i=001-196897> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;

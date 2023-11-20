@@ -298,9 +298,8 @@ class ECHRDocument:
         if self._case_detail is None:
             return
         wd = Namespace("http://www.wikidata.org/entity/")
-        custom_ns_entity = Namespace("http://eva.org/entity/")
-        custom_ns_type = Namespace("http://eva.org/type/")
-        custom_ns_property = Namespace("http://eva.org/property/")
+        custom_ns = Namespace("https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#")
+
 
         url = URIRef(extract_document_url(self._case_detail["Title"]))
 
@@ -316,10 +315,10 @@ class ECHRDocument:
             for value in self._case_detail["App. No(s)."]:
                 if isinstance(self._case_detail["App. No(s)."], str):
                     value = self._case_detail["App. No(s)."]
-                uri = URIRef(custom_ns_entity + value)
+                uri = URIRef(custom_ns + value)
                 uri_list.append(uri)
                 self._graph.add(
-                    (uri, URIRef(custom_ns_property + "hasApplicationNumber"), Literal(value, datatype=XSD.string)))
+                    (uri, URIRef(custom_ns + "hasApplicationNumber"), Literal(value, datatype=XSD.string)))
                 if isinstance(self._case_detail["App. No(s)."], str):
                     break
 
@@ -346,7 +345,7 @@ class ECHRDocument:
             if url is not None:
                 self._graph.add((uri, DCTERMS.identifier, url))
 
-            """if "Originating Body" in keys:
+            if "Originating Body" in keys:
                 self._graph.add(
                     (uri, DCTERMS.creator, Literal(self._case_detail["Originating Body"], datatype=XSD.string)))
 
@@ -363,10 +362,10 @@ class ECHRDocument:
             if "Importance Level" in keys:
                 if self._case_detail["Importance Level"] == "Key cases":
                     self._graph.add(
-                        (uri, URIRef(custom_ns_property + "importanceLevel"), Literal(4, datatype=XSD.integer)))
+                        (uri, URIRef(custom_ns + "importanceLevel"), Literal(4, datatype=XSD.integer)))
                 else:
                     self._graph.add(
-                        (uri, URIRef(custom_ns_property + "importanceLevel"),
+                        (uri, URIRef(custom_ns + "importanceLevel"),
                          Literal(int(self._case_detail["Importance Level"]),
                                  datatype=XSD.integer)))
 
@@ -375,7 +374,7 @@ class ECHRDocument:
                     if isinstance(self._case_detail["Respondent State(s)"], str):
                         value = self._case_detail["Respondent State(s)"]
                     country = get_country_identifier(value)
-                    self._graph.add((uri, URIRef(custom_ns_property + "respondentState"), URIRef(country)))
+                    self._graph.add((uri, URIRef(custom_ns + "respondentState"), URIRef(country)))
                     if isinstance(self._case_detail["Respondent State(s)"], str):
                         break
 
@@ -390,9 +389,9 @@ class ECHRDocument:
                 self._graph.add((uri, DCTERMS.date, Literal(new_date, datatype=XSD.date)))
 
             if "ECLI" in keys:
-                self._graph.add((uri, DCTERMS.isVersionOf, Literal(self._case_detail["ECLI"], datatype=XSD.string)))"""
+                self._graph.add((uri, DCTERMS.isVersionOf, Literal(self._case_detail["ECLI"], datatype=XSD.string)))
 
-            """if "Represented by" in keys:
+            if "Represented by" in keys:
                 for value in self._case_detail["Represented by"]:
                     if isinstance(self._case_detail["Represented by"], str):
                         value = self._case_detail["Represented by"]
@@ -411,9 +410,9 @@ class ECHRDocument:
                     dl = BNode()
                     self._graph.add((uri, DCTERMS.references, dl))
                     self._graph.add((dl, DCTERMS.description, Literal(value, datatype=XSD.string)))
-                    self._graph.add((dl, RDF.type, URIRef(custom_ns_type + "DomesticLaw")))
+                    self._graph.add((dl, RDF.type, URIRef(custom_ns + "DomesticLaw")))
                     if isinstance(self._case_detail["Domestic Law"], str):
-                        break"""
+                        break
 
             if "Strasbourg Case-Law" in keys:
                 for value in self._case_detail["Strasbourg Case-Law"]:
@@ -423,12 +422,12 @@ class ECHRDocument:
                     scl = BNode()
                     self._graph.add((uri, DCTERMS.references, scl))
                     self._graph.add((scl, DCTERMS.description, Literal(value, datatype=XSD.string)))
-                    self._graph.add((scl, RDF.type, URIRef(custom_ns_type + "StrasbourgCaseLaw")))
+                    self._graph.add((scl, RDF.type, URIRef(custom_ns + "StrasbourgCaseLaw")))
                     if content[0]:
                         self._graph.add((scl, DCTERMS.title, Literal(content[0], datatype=XSD.string)))
                     if content[1]:
                         self._graph.add(
-                            (scl, URIRef(custom_ns_property + "hasApplicationNumber"),
+                            (scl, URIRef(custom_ns + "hasApplicationNumber"),
                              Literal(content[1], datatype=XSD.string)))
                     if content[2]:
                         self._graph.add((scl, DCTERMS.date, Literal(content[2], datatype=XSD.date)))
@@ -442,7 +441,7 @@ class ECHRDocument:
                     il = BNode()
                     self._graph.add((uri, DCTERMS.references, il))
                     self._graph.add((il, DCTERMS.description, Literal(value, datatype=XSD.string)))
-                    self._graph.add((il, RDF.type, URIRef(custom_ns_type + "InternationalLaw")))
+                    self._graph.add((il, RDF.type, URIRef(custom_ns + "InternationalLaw")))
                     if isinstance(self._case_detail["International Law"], str):
                         break
 

@@ -1,20 +1,20 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://eva.org/property/> .
+@prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://eva.org/entity/72964/10> ns1:hasApplicationNumber "72964/10"^^xsd:string ;
-    ns1:importanceLevel 3 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q38> ;
-    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "MASCIA A. "^^xsd:string ],
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#72964/10> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "ADAMI D."^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "ADAMI D."^^xsd:string ] ;
+            foaf:name "MASCIA A. "^^xsd:string ] ;
     dcterms:creator "Court (Second Section)"^^xsd:string ;
     dcterms:date "2014-05-27"^^xsd:date ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-144137> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2014:0527JUD007296410"^^xsd:string ;
-    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
+    ns1:hasApplicationNumber "72964/10"^^xsd:string ;
+    ns1:importanceLevel 3 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q38> .
 
 <https://hudoc.echr.coe.int/eng?i=001-144137> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;

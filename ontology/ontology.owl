@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#56867/15">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#3621/07">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#9873/11">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#26608/11">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#hasApplicationNumber">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#10601/09">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#importanceLevel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</xsd:minInclusive>
+    <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</xsd:maxInclusive>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#3400/07">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#62903/15">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#57375/08">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#45512/11">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#respondentState">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+    <rdfs:range rdf:resource="http://www.wikidata.org/entity/Q3624078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#DomesticLaw">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q7748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#3564/11">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#8978/80">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#34168/11">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#47666/13">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#74839/10">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#9077/18">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#55164/08">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#40419/19">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#29263/12">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#49089/10">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#35810/09">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#33401/02">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#48756/14">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#33708/12">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#49669/07">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#34614/17">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#23944/05">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#43408/08">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#41237/14">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#37882/13">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#8969/10">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#61382/09">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#39272/98">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#2660/03">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#38478/05">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#1870/05">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#17496/19">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#33056/17">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#24209/94">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#52515/99">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#41107/10">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#57693/10">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#InternationalLaw">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q7748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#49450/17">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#71127/01">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#32949/17">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#46598/06">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#40020/03">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#53118/17">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#72964/10">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#58216/12">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q11022655"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#73975/16">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#14499/09">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#41261/17">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#23505/09">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#23178/94">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#8227/04">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#50231/13">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#839/02">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#25965/04">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#27484/18">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#27920/08">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#24125/06">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#28011/19">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#16605/09">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#7510/04">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#33234/07">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#20289/10">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#53519/07">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#47159/08">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#55974/16">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#2912/11">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#49645/09">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#60561/14">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#29417/17">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#4547/10">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#23022/13">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#35898/16">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#20658/11">
+    <rdf:type rdf:resource="https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#StrasbourgCaseLaw"/>
+  </rdf:Description>
+</rdf:RDF>

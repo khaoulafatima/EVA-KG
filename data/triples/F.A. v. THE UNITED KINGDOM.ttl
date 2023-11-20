@@ -1,18 +1,18 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://eva.org/property/> .
+@prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://eva.org/entity/20658/11> ns1:hasApplicationNumber "20658/11"^^xsd:string ;
-    ns1:importanceLevel 3 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q145> ;
-    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#20658/11> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "HAMMERSMITH & FULHAM COMMUNITY LAW CENTRE"^^xsd:string ] ;
     dcterms:creator "Court (Fourth Section)"^^xsd:string ;
     dcterms:date "2013-09-10"^^xsd:date ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-127061> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2013:0910DEC002065811"^^xsd:string ;
-    dcterms:type <http://www.wikidata.org/entity/Q327000> .
+    dcterms:type <http://www.wikidata.org/entity/Q327000> ;
+    ns1:hasApplicationNumber "20658/11"^^xsd:string ;
+    ns1:importanceLevel 3 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q145> .
 
 <https://hudoc.echr.coe.int/eng?i=001-127061> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;

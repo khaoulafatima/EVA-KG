@@ -1,18 +1,18 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://eva.org/property/> .
+@prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://eva.org/entity/33708/12> ns1:hasApplicationNumber "33708/12"^^xsd:string ;
-    ns1:importanceLevel 3 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q217> ;
-    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#33708/12> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "DODON I."^^xsd:string ] ;
     dcterms:creator "Court (Third Section)"^^xsd:string ;
     dcterms:date "2015-04-28"^^xsd:date ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-154152> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2015:0428JUD003370812"^^xsd:string ;
-    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
+    ns1:hasApplicationNumber "33708/12"^^xsd:string ;
+    ns1:importanceLevel 3 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q217> .
 
 <https://hudoc.echr.coe.int/eng?i=001-154152> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;

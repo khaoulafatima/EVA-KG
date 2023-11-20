@@ -1,60 +1,60 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://eva.org/property/> .
+@prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://eva.org/entity/7510/04> ns1:hasApplicationNumber "7510/04"^^xsd:string ;
-    ns1:importanceLevel 1 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q214> ;
-    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#7510/04> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "RAJTAKOVA I."^^xsd:string ] ;
     dcterms:creator "Court (Fourth Section)"^^xsd:string ;
     dcterms:date "2007-05-31"^^xsd:date ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-80696> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2007:0531JUD000751004"^^xsd:string ;
-    dcterms:references [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+    dcterms:references [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "1988-04-27"^^xsd:date ;
             dcterms:description "Boyle and Rice v. the United Kingdom, judgment of 27 April 1988, Series A no. 131, p. 23, § 52"^^xsd:string ;
             dcterms:title "Boyle and Rice v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            dcterms:date "1995-09-27"^^xsd:date ;
-            dcterms:description "McCann and Others v. the United Kingdom, judgment of 27 September 1995, Series A no. 324, pp. 45-46, §§ 146-147"^^xsd:string ;
-            dcterms:title "McCann and Others v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/DomesticLaw> ;
-            dcterms:description "Police Corps Act 1993, section 2(1) (a), (b) &"^^xsd:string ],
-        [ a <http://eva.org/type/DomesticLaw> ;
-            dcterms:description "* Law no. 141/1961 as applicable at the relevant time (Code of Criminal Procedure) "^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "27229/95"^^xsd:string ;
-            dcterms:description "Keenan v. the United Kingdom, no. 27229/95, § 130, ECHR 2001-III"^^xsd:string ;
-            dcterms:title "Keenan v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            dcterms:date "1998-10-28"^^xsd:date ;
-            dcterms:description "Osman v. the United Kingdom, judgment of 28 October 1998, Reports 1998-VIII, p. 3159, § 115"^^xsd:string ;
-            dcterms:title "Osman v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            dcterms:date "1996-12-18"^^xsd:date ;
-            dcterms:description "Aksoy v. Turkey, judgment of 18 December 1996, Reports 1996-VI, p. 2286, § 95"^^xsd:string ;
-            dcterms:title "Aksoy v. Turkey"^^xsd:string ],
-        [ a <http://eva.org/type/DomesticLaw> ;
-            dcterms:description "Law no. 140/1961 as applicable at the relevant time (Criminal Code) "^^xsd:string ],
-        [ a <http://eva.org/type/DomesticLaw> ;
+        [ a ns1:DomesticLaw ;
             dcterms:description "(d), section 9 "^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+        [ a ns1:DomesticLaw ;
+            dcterms:description "Law no. 140/1961 as applicable at the relevant time (Criminal Code) "^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "V. v. the United Kingdom [GC], no. 24888/94, § 57, ECHR 1999-IX"^^xsd:string ;
+            dcterms:title "V. v. the United Kingdom [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "24888/94"^^xsd:string ],
+        [ a ns1:DomesticLaw ;
+            dcterms:description "Police Corps Act 1993, section 2(1) (a), (b) &"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "1998-06-09"^^xsd:date ;
             dcterms:description "L.C.B. v. the United Kingdom, judgment of 9 June 1998, Reports of Judgments and Decisions 1998-III, p. 1403, § 36"^^xsd:string ;
             dcterms:title "L.C.B. v. the United Kingdom"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            ns1:hasApplicationNumber "24888/94"^^xsd:string ;
-            dcterms:description "V. v. the United Kingdom [GC], no. 24888/94, § 57, ECHR 1999-IX"^^xsd:string ;
-            dcterms:title "V. v. the United Kingdom [GC]"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+        [ a ns1:DomesticLaw ;
+            dcterms:description "Civil Code, Articles 11 et seq. (Protection of personal integrity)"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "1997-09-25"^^xsd:date ;
             dcterms:description "Ayd?n v. Turkey, judgment of 25 September 1997, Reports 1997-VI, pp. 1895-96, § 103"^^xsd:string ;
             dcterms:title "Ayd?n v. Turkey"^^xsd:string ],
-        [ a <http://eva.org/type/DomesticLaw> ;
-            dcterms:description "Civil Code, Articles 11 et seq. (Protection of personal integrity)"^^xsd:string ] ;
-    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1995-09-27"^^xsd:date ;
+            dcterms:description "McCann and Others v. the United Kingdom, judgment of 27 September 1995, Series A no. 324, pp. 45-46, §§ 146-147"^^xsd:string ;
+            dcterms:title "McCann and Others v. the United Kingdom"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1998-10-28"^^xsd:date ;
+            dcterms:description "Osman v. the United Kingdom, judgment of 28 October 1998, Reports 1998-VIII, p. 3159, § 115"^^xsd:string ;
+            dcterms:title "Osman v. the United Kingdom"^^xsd:string ],
+        [ a ns1:DomesticLaw ;
+            dcterms:description "* Law no. 141/1961 as applicable at the relevant time (Code of Criminal Procedure) "^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Keenan v. the United Kingdom, no. 27229/95, § 130, ECHR 2001-III"^^xsd:string ;
+            dcterms:title "Keenan v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "27229/95"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1996-12-18"^^xsd:date ;
+            dcterms:description "Aksoy v. Turkey, judgment of 18 December 1996, Reports 1996-VI, p. 2286, § 95"^^xsd:string ;
+            dcterms:title "Aksoy v. Turkey"^^xsd:string ] ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
+    ns1:hasApplicationNumber "7510/04"^^xsd:string ;
+    ns1:importanceLevel 1 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q214> .
 
 <https://hudoc.echr.coe.int/eng?i=001-80696> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;

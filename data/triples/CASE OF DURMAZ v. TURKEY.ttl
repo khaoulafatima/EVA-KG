@@ -1,12 +1,9 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://eva.org/property/> .
+@prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://eva.org/entity/3621/07> ns1:hasApplicationNumber "3621/07"^^xsd:string ;
-    ns1:importanceLevel 3 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q43> ;
-    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#3621/07> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "KAVAK KILINÇ Y. "^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "KILINÇ Ü."^^xsd:string ] ;
@@ -14,7 +11,10 @@
     dcterms:date "2014-11-13"^^xsd:date ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-147871> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2014:1113JUD000362107"^^xsd:string ;
-    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
+    ns1:hasApplicationNumber "3621/07"^^xsd:string ;
+    ns1:importanceLevel 3 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q43> .
 
 <https://hudoc.echr.coe.int/eng?i=001-147871> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;

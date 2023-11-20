@@ -1,32 +1,32 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ns1: <http://eva.org/property/> .
+@prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://eva.org/entity/8978/80> ns1:hasApplicationNumber "8978/80"^^xsd:string ;
-    ns1:importanceLevel 1 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q29999> ;
-    dcterms:creator "Court (Chamber)"^^xsd:string ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#8978/80> dcterms:creator "Court (Chamber)"^^xsd:string ;
     dcterms:date "1985-03-26"^^xsd:date ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-57603> ;
     dcterms:isPartOf "A91"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:1985:0326JUD000897880"^^xsd:string ;
-    dcterms:references [ a <http://eva.org/type/StrasbourgCaseLaw> ;
-            dcterms:date "1976-12-07"^^xsd:date ;
-            dcterms:description "Handyside judgment of 7 December 1976, Series A no. 24, p. 23, para. 50"^^xsd:string ;
-            dcterms:title "Handyside judgment of 7 December 1976"^^xsd:string ],
-        [ a <http://eva.org/type/StrasbourgCaseLaw> ;
+    dcterms:references [ a ns1:InternationalLaw ;
+            dcterms:description "Civil Code, Articles 1401, 1407"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "1979-10-09"^^xsd:date ;
             dcterms:description "Airey judgment of 9 October 1979, Series A no. 32, pp. 17, 16, paras. 32, 30"^^xsd:string ;
             dcterms:title "Airey judgment of 9 October 1979"^^xsd:string ],
-        [ a <http://eva.org/type/InternationalLaw> ;
-            dcterms:description "Civil Code, Articles 1401, 1407"^^xsd:string ],
-        [ a <http://eva.org/type/InternationalLaw> ;
-            dcterms:description "Code of Criminal Procedure, Article 12"^^xsd:string ],
-        [ a <http://eva.org/type/InternationalLaw> ;
+        [ a ns1:DomesticLaw ;
             dcterms:description "Criminal Code, Articles 64 para. 1, 239 para. 2, 248 ter"^^xsd:string ],
-        [ a <http://eva.org/type/DomesticLaw> ;
-            dcterms:description "Criminal Code, Articles 64 para. 1, 239 para. 2, 248 ter"^^xsd:string ] ;
-    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+        [ a ns1:InternationalLaw ;
+            dcterms:description "Criminal Code, Articles 64 para. 1, 239 para. 2, 248 ter"^^xsd:string ],
+        [ a ns1:InternationalLaw ;
+            dcterms:description "Code of Criminal Procedure, Article 12"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1976-12-07"^^xsd:date ;
+            dcterms:description "Handyside judgment of 7 December 1976, Series A no. 24, p. 23, para. 50"^^xsd:string ;
+            dcterms:title "Handyside judgment of 7 December 1976"^^xsd:string ] ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
+    ns1:hasApplicationNumber "8978/80"^^xsd:string ;
+    ns1:importanceLevel 1 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q29999> .
 
 <https://hudoc.echr.coe.int/eng?i=001-57603> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
