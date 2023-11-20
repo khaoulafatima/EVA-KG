@@ -46,10 +46,13 @@ def endpoint_request():
     while True:
         sparql_query_string = input("\033[92mInserisci una query oppure \"exit\" per chiudere: \033[0m")
         if sparql_query_string == "exit":
-            os.system("taskkill /F /IM python.exe > nul 2>&1")
+            pid = os.getpid()
+            os.kill(pid, 0)
         else:
             # sparql_query_string = "SELECT ?s ?p ?o WHERE { ?s ?p ?o } LIMIT 10"
-            # sparql_query_string = "SELECT ?s ?p ?o WHERE { BIND(<http://eva.org/entity/40020/03> AS ?s) ?s ?p ?o }"
+            # sparql_query_string = "SELECT ?s ?p ?o WHERE {
+            # BIND(<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#40020/03> AS ?s)
+            # ?s ?p ?o }"
             if check_sparql_syntax(sparql_query_string):
                 response = requests.get(endpoint_url, params={"query": sparql_query_string, "format": "json"})
                 if response.status_code == 200:
