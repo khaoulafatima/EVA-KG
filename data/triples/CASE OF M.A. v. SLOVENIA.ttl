@@ -1,24 +1,25 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://eva.org/> .
+@prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] ns1:hasApplicationNumber "3400/07"^^xsd:string ;
-    ns1:importanceLevel 3 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q215> ;
-    dcterms:accessRights "public"^^xsd:string ;
-    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#3400/07> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "MAJER J."^^xsd:string ] ;
-    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:creator "Court (Fifth Section)"^^xsd:string ;
     dcterms:date "2015-01-15"^^xsd:date ;
+    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-150318> ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2015:0115JUD000340007"^^xsd:string ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
+    ns1:hasApplicationNumber "3400/07"^^xsd:string ;
+    ns1:importanceLevel 3 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q215> .
+
+<https://hudoc.echr.coe.int/eng?i=001-150318> dcterms:accessRights "public"^^xsd:string ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:description "(Art. 3) Positive obligations"^^xsd:string,
         "(Art. 3) Prohibition of torture"^^xsd:string,
         "Violation of Article 3 - Prohibition of torture (Article 3 - Positive obligations) (Procedural aspect)"^^xsd:string ;
-    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-150318> ;
-    dcterms:isVersionOf "ECLI:CE:ECHR:2015:0115JUD000340007"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:title "CASE OF M.A. v. SLOVENIA"^^xsd:string ;
-    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+    dcterms:title "CASE OF M.A. v. SLOVENIA"^^xsd:string .
 

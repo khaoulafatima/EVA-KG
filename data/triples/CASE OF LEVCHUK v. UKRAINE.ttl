@@ -1,17 +1,109 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://eva.org/> .
+@prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] ns1:hasApplicationNumber "17496/19"^^xsd:string ;
-    ns1:importanceLevel 2 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q212> ;
-    dcterms:accessRights "public"^^xsd:string ;
-    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#17496/19> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "BUKHTA N.A."^^xsd:string ] ;
-    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:creator "Court (Fifth Section)"^^xsd:string ;
     dcterms:date "2020-09-03"^^xsd:date ;
+    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-203931> ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2020:0903JUD001749619"^^xsd:string ;
+    dcterms:references [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2008-06-12"^^xsd:date ;
+            dcterms:description "Bevacqua and S. v. Bulgaria, no. 71127/01, 12 June 2008"^^xsd:string ;
+            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ;
+            ns1:hasApplicationNumber "71127/01"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Centre for Legal Resources on behalf of Valentin Câmpeanu v. Romania [GC], no. 47848/08, § 156, ECHR 2014"^^xsd:string ;
+            dcterms:title "Centre for Legal Resources on behalf of Valentin Câmpeanu v. Romania [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "47848/08"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2019-07-09"^^xsd:date ;
+            dcterms:description "Volodina v. Russia, no. 41261/17, §§ 51-60, 9 July 2019"^^xsd:string ;
+            dcterms:title "Volodina v. Russia"^^xsd:string ;
+            ns1:hasApplicationNumber "41261/17"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2013-07-16"^^xsd:date ;
+            dcterms:description "B. v. the Republic of Moldova, no. 61382/09, 16 July 2013"^^xsd:string ;
+            dcterms:title "B. v. the Republic of Moldova"^^xsd:string ;
+            ns1:hasApplicationNumber "61382/09"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2016-10-13"^^xsd:date ;
+            dcterms:description "Irina Smirnova v. Ukraine, no. 1870/05, 13 October 2016"^^xsd:string ;
+            dcterms:title "Irina Smirnova v. Ukraine"^^xsd:string ;
+            ns1:hasApplicationNumber "1870/05"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2013-05-28"^^xsd:date ;
+            dcterms:description "Eremia v. the Republic of Moldova, no. 3564/11, 28 May 2013"^^xsd:string ;
+            dcterms:title "Eremia v. the Republic of Moldova"^^xsd:string ;
+            ns1:hasApplicationNumber "3564/11"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2017-03-02"^^xsd:date ;
+            dcterms:description "Talpis v. Italy, no. 41237/14, 2 March 2017"^^xsd:string ;
+            dcterms:title "Talpis v. Italy"^^xsd:string ;
+            ns1:hasApplicationNumber "41237/14"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2012-04-24"^^xsd:date ;
+            dcterms:description "Kalucza v. Hungary, no. 57693/10, § 59, 24 April 2012"^^xsd:string ;
+            dcterms:title "Kalucza v. Hungary"^^xsd:string ;
+            ns1:hasApplicationNumber "57693/10"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2010-10-14"^^xsd:date ;
+            dcterms:description "A. v. Croatia, no. 55164/08, § 60, 14 October 2010"^^xsd:string ;
+            dcterms:title "A. v. Croatia"^^xsd:string ;
+            ns1:hasApplicationNumber "55164/08"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2010-11-30"^^xsd:date ;
+            dcterms:description "Hajduová v. Slovakia, no. 2660/03, 30 November 2010"^^xsd:string ;
+            dcterms:title "Hajduová v. Slovakia"^^xsd:string ;
+            ns1:hasApplicationNumber "2660/03"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2010-12-02"^^xsd:date ;
+            dcterms:description "Kryvitska and Kryvitskyy v. Ukraine, no. 30856/03, § 41, 2 December 2010"^^xsd:string ;
+            dcterms:title "Kryvitska and Kryvitskyy v. Ukraine"^^xsd:string ;
+            ns1:hasApplicationNumber "30856/03"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2013-11-07"^^xsd:date ;
+            dcterms:description "Belousov v. Ukraine, no. 4494/07, §§ 115-17, 7 November 2013"^^xsd:string ;
+            dcterms:title "Belousov v. Ukraine"^^xsd:string ;
+            ns1:hasApplicationNumber "4494/07"^^xsd:string ],
+        [ a ns1:DomesticLaw ;
+            dcterms:description "Article 116 of the Housing Code"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Đorđević v. Croatia, no. 41526/10, §§ 92-93 and 147-49, ECHR 2012"^^xsd:string ;
+            dcterms:title "Đorđević v. Croatia"^^xsd:string ;
+            ns1:hasApplicationNumber "41526/10"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2013-03-26"^^xsd:date ;
+            dcterms:description "Valiulienė v. Lithuania, no. 33234/07, § 76, 26 March 2013"^^xsd:string ;
+            dcterms:title "Valiulienė v. Lithuania"^^xsd:string ;
+            ns1:hasApplicationNumber "33234/07"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Opuz v. Turkey, no. 33401/02, § 132, ECHR 2009"^^xsd:string ;
+            dcterms:title "Opuz v. Turkey"^^xsd:string ;
+            ns1:hasApplicationNumber "33401/02"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2007-11-15"^^xsd:date ;
+            dcterms:description "Pfeifer v. Austria, no. 12556/03, § 38, 15 November 2007"^^xsd:string ;
+            dcterms:title "Pfeifer v. Austria"^^xsd:string ;
+            ns1:hasApplicationNumber "12556/03"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2017-05-23"^^xsd:date ;
+            dcterms:description "Bălşan v. Romania, no. 49645/09, § 67, 23 May 2017"^^xsd:string ;
+            dcterms:title "Bălşan v. Romania"^^xsd:string ;
+            ns1:hasApplicationNumber "49645/09"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Söderman v. Sweden [GC], no. 5786/08, § 102, ECHR 2013"^^xsd:string ;
+            dcterms:title "Söderman v. Sweden [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "5786/08"^^xsd:string ] ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
+    ns1:hasApplicationNumber "17496/19"^^xsd:string ;
+    ns1:importanceLevel 2 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q212> .
+
+<https://hudoc.echr.coe.int/eng?i=001-203931> dcterms:accessRights "public"^^xsd:string ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:description "(Art. 41) Just satisfaction"^^xsd:string,
         "(Art. 41) Just satisfaction-{general}"^^xsd:string,
         "(Art. 41) Non-pecuniary damage"^^xsd:string,
@@ -20,79 +112,7 @@
         "(Art. 8-1) Respect for private life"^^xsd:string,
         "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage Just satisfaction)"^^xsd:string,
         "Violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations Article 8-1 - Respect for private life)"^^xsd:string ;
-    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-203931> ;
-    dcterms:isVersionOf "ECLI:CE:ECHR:2020:0903JUD001749619"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ ns1:hasApplicationNumber "33401/02"^^xsd:string ;
-            dcterms:description "Opuz v. Turkey, no. 33401/02, § 132, ECHR 2009"^^xsd:string ;
-            dcterms:title "Opuz v. Turkey"^^xsd:string ],
-        [ ns1:hasApplicationNumber "2660/03"^^xsd:string ;
-            dcterms:date "2010-11-30"^^xsd:date ;
-            dcterms:description "Hajduová v. Slovakia, no. 2660/03, 30 November 2010"^^xsd:string ;
-            dcterms:title "Hajduová v. Slovakia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "57693/10"^^xsd:string ;
-            dcterms:date "2012-04-24"^^xsd:date ;
-            dcterms:description "Kalucza v. Hungary, no. 57693/10, § 59, 24 April 2012"^^xsd:string ;
-            dcterms:title "Kalucza v. Hungary"^^xsd:string ],
-        [ ns1:hasApplicationNumber "41261/17"^^xsd:string ;
-            dcterms:date "2019-07-09"^^xsd:date ;
-            dcterms:description "Volodina v. Russia, no. 41261/17, §§ 51-60, 9 July 2019"^^xsd:string ;
-            dcterms:title "Volodina v. Russia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "49645/09"^^xsd:string ;
-            dcterms:date "2017-05-23"^^xsd:date ;
-            dcterms:description "Bălşan v. Romania, no. 49645/09, § 67, 23 May 2017"^^xsd:string ;
-            dcterms:title "Bălşan v. Romania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "41237/14"^^xsd:string ;
-            dcterms:date "2017-03-02"^^xsd:date ;
-            dcterms:description "Talpis v. Italy, no. 41237/14, 2 March 2017"^^xsd:string ;
-            dcterms:title "Talpis v. Italy"^^xsd:string ],
-        [ ns1:hasApplicationNumber "47848/08"^^xsd:string ;
-            dcterms:description "Centre for Legal Resources on behalf of Valentin Câmpeanu v. Romania [GC], no. 47848/08, § 156, ECHR 2014"^^xsd:string ;
-            dcterms:title "Centre for Legal Resources on behalf of Valentin Câmpeanu v. Romania [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "30856/03"^^xsd:string ;
-            dcterms:date "2010-12-02"^^xsd:date ;
-            dcterms:description "Kryvitska and Kryvitskyy v. Ukraine, no. 30856/03, § 41, 2 December 2010"^^xsd:string ;
-            dcterms:title "Kryvitska and Kryvitskyy v. Ukraine"^^xsd:string ],
-        [ ns1:hasApplicationNumber "5786/08"^^xsd:string ;
-            dcterms:description "Söderman v. Sweden [GC], no. 5786/08, § 102, ECHR 2013"^^xsd:string ;
-            dcterms:title "Söderman v. Sweden [GC]"^^xsd:string ],
-        [ ns1:hasApplicationNumber "1870/05"^^xsd:string ;
-            dcterms:date "2016-10-13"^^xsd:date ;
-            dcterms:description "Irina Smirnova v. Ukraine, no. 1870/05, 13 October 2016"^^xsd:string ;
-            dcterms:title "Irina Smirnova v. Ukraine"^^xsd:string ],
-        [ ns1:hasApplicationNumber "55164/08"^^xsd:string ;
-            dcterms:date "2010-10-14"^^xsd:date ;
-            dcterms:description "A. v. Croatia, no. 55164/08, § 60, 14 October 2010"^^xsd:string ;
-            dcterms:title "A. v. Croatia"^^xsd:string ],
-        [ dcterms:description "Article 116 of the Housing Code"^^xsd:string ],
-        [ ns1:hasApplicationNumber "71127/01"^^xsd:string ;
-            dcterms:date "2008-06-12"^^xsd:date ;
-            dcterms:description "Bevacqua and S. v. Bulgaria, no. 71127/01, 12 June 2008"^^xsd:string ;
-            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "41526/10"^^xsd:string ;
-            dcterms:description "Đorđević v. Croatia, no. 41526/10, §§ 92-93 and 147-49, ECHR 2012"^^xsd:string ;
-            dcterms:title "Đorđević v. Croatia"^^xsd:string ],
-        [ ns1:hasApplicationNumber "33234/07"^^xsd:string ;
-            dcterms:date "2013-03-26"^^xsd:date ;
-            dcterms:description "Valiulienė v. Lithuania, no. 33234/07, § 76, 26 March 2013"^^xsd:string ;
-            dcterms:title "Valiulienė v. Lithuania"^^xsd:string ],
-        [ ns1:hasApplicationNumber "12556/03"^^xsd:string ;
-            dcterms:date "2007-11-15"^^xsd:date ;
-            dcterms:description "Pfeifer v. Austria, no. 12556/03, § 38, 15 November 2007"^^xsd:string ;
-            dcterms:title "Pfeifer v. Austria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "4494/07"^^xsd:string ;
-            dcterms:date "2013-11-07"^^xsd:date ;
-            dcterms:description "Belousov v. Ukraine, no. 4494/07, §§ 115-17, 7 November 2013"^^xsd:string ;
-            dcterms:title "Belousov v. Ukraine"^^xsd:string ],
-        [ ns1:hasApplicationNumber "3564/11"^^xsd:string ;
-            dcterms:date "2013-05-28"^^xsd:date ;
-            dcterms:description "Eremia v. the Republic of Moldova, no. 3564/11, 28 May 2013"^^xsd:string ;
-            dcterms:title "Eremia v. the Republic of Moldova"^^xsd:string ],
-        [ ns1:hasApplicationNumber "61382/09"^^xsd:string ;
-            dcterms:date "2013-07-16"^^xsd:date ;
-            dcterms:description "B. v. the Republic of Moldova, no. 61382/09, 16 July 2013"^^xsd:string ;
-            dcterms:title "B. v. the Republic of Moldova"^^xsd:string ] ;
-    dcterms:title "CASE OF LEVCHUK v. UKRAINE"^^xsd:string ;
-    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+    dcterms:title "CASE OF LEVCHUK v. UKRAINE"^^xsd:string .
 

@@ -1,19 +1,65 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://eva.org/> .
+@prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] ns1:hasApplicationNumber "71127/01"^^xsd:string ;
-    ns1:importanceLevel 2 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q219> ;
-    dcterms:accessRights "public"^^xsd:string ;
-    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#71127/01> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "GORBOUNOVA D. "^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "TISHEVA G."^^xsd:string ] ;
-    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:creator "Court (Fifth Section)"^^xsd:string ;
     dcterms:date "2008-06-12"^^xsd:date ;
+    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-86875> ;
+    dcterms:isVersionOf "ECLI:CE:ECHR:2008:0612JUD007112701"^^xsd:string ;
+    dcterms:references [ a ns1:DomesticLaw ;
+            dcterms:description "Article 71 § 2 of the Family Code"^^xsd:string ],
+        [ a ns1:InternationalLaw ;
+            dcterms:description "United Nations General Assembly Declaration on the Elimination of Violence against Women (1993)"^^xsd:string ],
+        [ a ns1:InternationalLaw ;
+            dcterms:description "Recommendation Rec(2002)5 of the Committee of Ministers of the Council of Europe of 30 April 2002 on the protection of women against violence"^^xsd:string ],
+        [ a ns1:DomesticLaw ;
+            dcterms:description "Article 217a of the Code of Civil Procedure "^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1998-10-28"^^xsd:date ;
+            dcterms:description "Osman v. the United Kingdom, judgment of 28 October 1998, Reports 1998-VIII, §§ 128-130"^^xsd:string ;
+            dcterms:title "Osman v. the United Kingdom"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2007-11-06"^^xsd:date ;
+            dcterms:description "Sobota Gajic v. Bosnia and Herzegovina, no. 27966/06, § 51, 6 November 2007"^^xsd:string ;
+            dcterms:title "Sobota Gajic v. Bosnia and Herzegovina"^^xsd:string ;
+            ns1:hasApplicationNumber "27966/06"^^xsd:string ],
+        [ a ns1:DomesticLaw ;
+            dcterms:description "Protection Against Domestic Violence Act 2005 "^^xsd:string ],
+        [ a ns1:DomesticLaw ;
+            dcterms:description "Child Protection Act 2000 "^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1985-03-26"^^xsd:date ;
+            dcterms:description "X and Y v. the Netherlands, judgment of 26 March 1985, Series A no. 91, pp. 11-13, §§ 23-24 and 27"^^xsd:string ;
+            dcterms:title "X and Y v. the Netherlands"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "M.C. v. Bulgaria, no. 39272/98, ECHR 2003-XII"^^xsd:string ;
+            dcterms:title "M.C. v. Bulgaria"^^xsd:string ;
+            ns1:hasApplicationNumber "39272/98"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Frydlender v. France [GC], no. 30979/96, § 43, ECHR 2000-VII"^^xsd:string ;
+            dcterms:title "Frydlender v. France [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "30979/96"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2003-01-21"^^xsd:date ;
+            dcterms:description "August v. the United Kingdom (dec.), no. 36505/02, 21 January 2003"^^xsd:string ;
+            dcterms:title "August v. the United Kingdom (dec.)"^^xsd:string ;
+            ns1:hasApplicationNumber "36505/02"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Laino v. Italy [GC], no. 3158/96, § 18, ECHR 1999-I"^^xsd:string ;
+            dcterms:title "Laino v. Italy [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "3158/96"^^xsd:string ] ;
+    dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
+    ns1:hasApplicationNumber "71127/01"^^xsd:string ;
+    ns1:importanceLevel 2 ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q219> .
+
+<https://hudoc.echr.coe.int/eng?i=001-86875> dcterms:accessRights "public"^^xsd:string ;
+    dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:description "(Art. 35) Admissibility criteria"^^xsd:string,
         "(Art. 35-1) Exhaustion of domestic remedies"^^xsd:string,
         "(Art. 41) Just satisfaction-{general}"^^xsd:string,
@@ -27,39 +73,7 @@
         "Non-pecuniary damage - award"^^xsd:string,
         "Positive obligations"^^xsd:string,
         "Violation of Art. 8"^^xsd:string ;
-    dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-86875> ;
-    dcterms:isVersionOf "ECLI:CE:ECHR:2008:0612JUD007112701"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
-    dcterms:references [ dcterms:description "Protection Against Domestic Violence Act 2005 "^^xsd:string ],
-        [ dcterms:description "Article 71 § 2 of the Family Code"^^xsd:string ],
-        [ ns1:hasApplicationNumber "27966/06"^^xsd:string ;
-            dcterms:date "2007-11-06"^^xsd:date ;
-            dcterms:description "Sobota Gajic v. Bosnia and Herzegovina, no. 27966/06, § 51, 6 November 2007"^^xsd:string ;
-            dcterms:title "Sobota Gajic v. Bosnia and Herzegovina"^^xsd:string ],
-        [ dcterms:description "Child Protection Act 2000 "^^xsd:string ],
-        [ ns1:hasApplicationNumber "39272/98"^^xsd:string ;
-            dcterms:description "M.C. v. Bulgaria, no. 39272/98, ECHR 2003-XII"^^xsd:string ;
-            dcterms:title "M.C. v. Bulgaria"^^xsd:string ],
-        [ ns1:hasApplicationNumber "36505/02"^^xsd:string ;
-            dcterms:date "2003-01-21"^^xsd:date ;
-            dcterms:description "August v. the United Kingdom (dec.), no. 36505/02, 21 January 2003"^^xsd:string ;
-            dcterms:title "August v. the United Kingdom (dec.)"^^xsd:string ],
-        [ dcterms:date "1985-03-26"^^xsd:date ;
-            dcterms:description "X and Y v. the Netherlands, judgment of 26 March 1985, Series A no. 91, pp. 11-13, §§ 23-24 and 27"^^xsd:string ;
-            dcterms:title "X and Y v. the Netherlands"^^xsd:string ],
-        [ dcterms:description "Article 217a of the Code of Civil Procedure "^^xsd:string ],
-        [ ns1:hasApplicationNumber "3158/96"^^xsd:string ;
-            dcterms:description "Laino v. Italy [GC], no. 3158/96, § 18, ECHR 1999-I"^^xsd:string ;
-            dcterms:title "Laino v. Italy [GC]"^^xsd:string ],
-        [ dcterms:date "1998-10-28"^^xsd:date ;
-            dcterms:description "Osman v. the United Kingdom, judgment of 28 October 1998, Reports 1998-VIII, §§ 128-130"^^xsd:string ;
-            dcterms:title "Osman v. the United Kingdom"^^xsd:string ],
-        [ dcterms:description "Recommendation Rec(2002)5 of the Committee of Ministers of the Council of Europe of 30 April 2002 on the protection of women against violence"^^xsd:string ],
-        [ dcterms:description "United Nations General Assembly Declaration on the Elimination of Violence against Women (1993)"^^xsd:string ],
-        [ ns1:hasApplicationNumber "30979/96"^^xsd:string ;
-            dcterms:description "Frydlender v. France [GC], no. 30979/96, § 43, ECHR 2000-VII"^^xsd:string ;
-            dcterms:title "Frydlender v. France [GC]"^^xsd:string ] ;
-    dcterms:title "CASE OF BEVACQUA AND S. v. BULGARIA"^^xsd:string ;
-    dcterms:type <http://www.wikidata.org/entity/Q3769186> .
+    dcterms:title "CASE OF BEVACQUA AND S. v. BULGARIA"^^xsd:string .
 
