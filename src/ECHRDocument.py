@@ -8,6 +8,9 @@ from regexp import strasbourg_case_law_re
 from rdflib import Graph, URIRef, Literal, BNode, Namespace
 from rdflib.namespace import RDF, XSD, DCTERMS, FOAF
 from utils.extract_url import extract_document_url
+import textacy
+from textacy import extract
+import spacy
 
 
 class ECHRDocument:
@@ -281,12 +284,32 @@ class ECHRDocument:
             titles = []
             pdf_file = open(path, 'rb')
             pdf_reader = PyPDF2.PdfReader(pdf_file)
+            page_num = 0
             for page in pdf_reader.pages:
-                text = page.extract_text()
-                # i titoli delle sezioni principali sono in maiuscolo
-                for sentence in text.split('\n'):
-                    if sentence.isupper():
-                        titles.append(sentence)
+                if page_num != 0:
+                    text = page.extract_text()
+                    if len(text) == 0:
+                        page_num -= 1
+                    else:
+                        # per togliere intestazione della pagina
+                        text = "\n".join(text.split('\n')[1:])
+                        # per togliere numero della pagina (si trova all'inizio)
+                        text = text.replace(str(page_num), "", 1)
+                        # i titoli delle sezioni principali sono in maiuscolo
+                        for sentence in text.split('\n'):
+                            if sentence.isupper():
+                                if sentence[0].isalpha():
+                                    titles.append(sentence)
+                page_num += 1
+
+            pop_list = []
+            for i in range(len(titles) - 1):
+                if titles[i][-1].isspace():
+                    titles[i] += "\n"
+                    titles[i] += titles[i + 1]
+                    pop_list.append(i + 1)
+            for i in pop_list[::-1]:
+                titles.pop(i)
             self._titles = titles
         except Exception as e:
             print(f"\033[1;31m{e}\033[0m")
@@ -299,7 +322,6 @@ class ECHRDocument:
             return
         wd = Namespace("http://www.wikidata.org/entity/")
         custom_ns = Namespace("https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#")
-
 
         url = URIRef(extract_document_url(self._case_detail["Title"]))
 
@@ -447,9 +469,59 @@ class ECHRDocument:
 
     def extract_triples_from_body(self):
         # TODO implementare
-        if self._body is None:
+        """if self._body is None:
+            return"""
+        if "en_core_web_sm" not in spacy.util.get_installed_models():
+            os.system("python -m spacy download en_core_web_sm")
+        if self._pdf_path is None or self._file_name is None:
             return
-        pass
+        path = self._pdf_path + "/" + self._file_name + ".pdf"
+        try:
+            content = ""
+            pdf_file = open(path, 'rb')
+            pdf_reader = PyPDF2.PdfReader(pdf_file)
+            page_num = 0
+            for page in pdf_reader.pages:
+                if page_num != 0:
+                    text = page.extract_text()
+                    if len(text) == 0:
+                        page_num -= 1
+                    else:
+                        text = "\n".join(text.split('\n')[1:])
+                        text = text.replace(str(page_num), "", 1)
+                        content += text
+                        if text[-1] == ".":
+                            content += "\n"
+                        elif not text[-1].isspace():
+                            content += " "
+                page_num += 1
+
+            if self._titles is None:
+                self.extract_titles()
+            sections = {}
+            end = content.find(self._titles[0])
+            sections['BEGINNING'] = content[:end]
+            content = content[end:]
+            for i in range(len(self._titles) - 1):
+                end = content.find(self._titles[i + 1])
+                sections[self._titles[i]] = content[len(self._titles[i]):end]
+                content = content[end:]
+            sections[self._titles[-1]] = content[len(self._titles[-1]):]
+            del content
+
+            for key in sections.keys():
+                print("***********", key, "***********")
+                print("+++", len(sections[key]), "+++")
+                print(sections[key])
+                doc = textacy.make_spacy_doc(sections[key], lang="en_core_web_sm")
+                for sentence in doc.sents:
+                    triple_lst = list(extract.triples.subject_verb_object_triples(sentence))
+                    for triple in triple_lst:
+                        print(triple)
+                print("***********", key, "***********")
+
+        except Exception as e:
+            print(f"\033[1;31m{e}\033[0m")
 
     def get_triples(self) -> str:
         return self._graph.serialize()
@@ -475,26 +547,28 @@ if __name__ == "__main__":
 
     html_p = "../data/corpus_html"
     pdf_p = "../data/corpus_pdf"
-    f_name = "CASE OF M. AND OTHERS v. ITALY AND BULGARIA"
+    f_name = "CASE OF A AND B v. GEORGIA"
     json_path = "../data/case_detail_json"
     body_path = "../data/document_body"
     echr_document = ECHRDocument(html_path=html_p, pdf_path=pdf_p, file_name=f_name)
     print("DOCUMENT___________________________________________________________________________________________________")
     print(echr_document)
-    echr_document.extract_case_detail_from_html()
+    """echr_document.extract_case_detail_from_html()
     print("CASE DETAIL________________________________________________________________________________________________")
     pprint.pprint(echr_document.get_case_detail(), sort_dicts=False)
-    echr_document.case_detail_to_json(json_path)
-    echr_document.extract_body_from_html()
+    # echr_document.case_detail_to_json(json_path)"""
+    """echr_document.extract_body_from_html()
     print("BODY_______________________________________________________________________________________________________")
     print(echr_document.get_body())
     print("FOOTNOTES__________________________________________________________________________________________________")
     print(echr_document.get_footnotes())
-    echr_document.body_to_txt(body_path)
+    echr_document.body_to_txt(body_path)"""
     print("TITLES_____________________________________________________________________________________________________")
     echr_document.extract_titles()
     for t in echr_document.get_titles():
-        print(t)
-    print("TRIPLES____________________________________________________________________________________________________")
+        print(t, "\n")
+    """print("TRIPLES____________________________________________________________________________________________________")
     echr_document.extract_triples_from_case_detail()
-    print(echr_document.get_triples())
+    print(echr_document.get_triples())"""
+    print("TRIPLES FROM BODY__________________________________________________________________________________________")
+    echr_document.extract_triples_from_body()
