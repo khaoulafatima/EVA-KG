@@ -2,12 +2,39 @@
 @prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#39272/98> dcterms:creator "Court (First Section)"^^xsd:string ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#39272/98> dcterms:abstract "Costs and expenses partial award - Convention proceedings"^^xsd:string,
+        "No separate issue under Art. 13"^^xsd:string,
+        "Non-pecuniary damage - financial award"^^xsd:string,
+        "Not necessary to examine Art. 14"^^xsd:string,
+        "Violation of Art. 3 and 8"^^xsd:string ;
+    dcterms:creator "Court (First Section)"^^xsd:string ;
     dcterms:date "2003-12-04"^^xsd:date ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-61521> ;
     dcterms:isPartOf "Reports of Judgments and Decisions 2003-XII (extracts)"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2003:1204JUD003927298"^^xsd:string ;
     dcterms:references [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2003-01-21"^^xsd:date ;
+            dcterms:description "August v. the United Kingdom (dec.), no. 36505/02, 21 January 2003"^^xsd:string ;
+            dcterms:title "August v. the United Kingdom (dec.)"^^xsd:string ;
+            ns1:hasApplicationNumber "36505/02"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Christine Goodwin v. the United Kingdom [GC], no. 28957/95, § 74, ECHR 2002-VI"^^xsd:string ;
+            dcterms:title "Christine Goodwin v. the United Kingdom [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "28957/95"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2002-11-26"^^xsd:date ;
+            dcterms:description "E. and Others v. the United Kingdom, no. 33218/96, 26 November 2002"^^xsd:string ;
+            dcterms:title "E. and Others v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "33218/96"^^xsd:string ],
+        [ a ns1:DomesticLaw ;
+            dcterms:description "Criminal Code, Article 152 § 1"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1985-03-26"^^xsd:date ;
+            dcterms:description "X and Y v. the Netherlands, judgment of 26 March 1985, Series A no. 91, pp. 11-13, §§ 23, 24 and 27"^^xsd:string ;
+            dcterms:title "X and Y v. the Netherlands"^^xsd:string ],
+        [ a ns1:InternationalLaw ;
+            dcterms:description "Committee of Ministers Recommendation Rec (2002)5 on the protection of women against violence"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:description "Calvelli and Ciglio v. Italy [GC], no. 32967/96, ECHR 2002-I"^^xsd:string ;
             dcterms:title "Calvelli and Ciglio v. Italy [GC]"^^xsd:string ;
             ns1:hasApplicationNumber "32967/96"^^xsd:string ],
@@ -15,51 +42,36 @@
             dcterms:date "1998-10-28"^^xsd:date ;
             dcterms:description "Assenov and Others v. Bulgaria, judgment of 28 October 1998, Reports 1998-VIII, p. 3290, § 102"^^xsd:string ;
             dcterms:title "Assenov and Others v. Bulgaria"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Z. and Others v. the United Kingdom [GC], no. 29392/95, §§ 73-75, ECHR 2001-V"^^xsd:string ;
-            dcterms:title "Z. and Others v. the United Kingdom [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "29392/95"^^xsd:string ],
+        [ a ns1:InternationalLaw ;
+            dcterms:description "United Nations Committee on the Elimination of Discrimination against women"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "1998-09-23"^^xsd:date ;
             dcterms:description "A. v. the United Kingdom, judgment of 23 September 1998, Reports 1998-VI, p. 2699, § 22"^^xsd:string ;
             dcterms:title "A. v. the United Kingdom"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2002-11-26"^^xsd:date ;
-            dcterms:description "E. and Others v. the United Kingdom, no. 33218/96, 26 November 2002"^^xsd:string ;
-            dcterms:title "E. and Others v. the United Kingdom"^^xsd:string ;
-            ns1:hasApplicationNumber "33218/96"^^xsd:string ],
+            dcterms:date "1998-10-28"^^xsd:date ;
+            dcterms:description "Osman v. the United Kingdom, judgment of 28 October 1998, Reports 1998-VIII, p. 3164, § 128"^^xsd:string ;
+            dcterms:title "Osman v. the United Kingdom"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2002-05-28"^^xsd:date ;
             dcterms:description "Beyeler v. Italy (just satisfaction) [GC], no. 33202/96, § 27, 28 May 2002"^^xsd:string ;
             dcterms:title "Beyeler v. Italy (just satisfaction) [GC]"^^xsd:string ;
             ns1:hasApplicationNumber "33202/96"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2003-01-21"^^xsd:date ;
-            dcterms:description "August v. the United Kingdom (dec.), no. 36505/02, 21 January 2003"^^xsd:string ;
-            dcterms:title "August v. the United Kingdom (dec.)"^^xsd:string ;
-            ns1:hasApplicationNumber "36505/02"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "1985-03-26"^^xsd:date ;
-            dcterms:description "X and Y v. the Netherlands, judgment of 26 March 1985, Series A no. 91, pp. 11-13, §§ 23, 24 and 27"^^xsd:string ;
-            dcterms:title "X and Y v. the Netherlands"^^xsd:string ],
-        [ a ns1:DomesticLaw ;
-            dcterms:description "Criminal Code, Article 152 § 1"^^xsd:string ],
-        [ a ns1:InternationalLaw ;
-            dcterms:description "United Nations Committee on the Elimination of Discrimination against women"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "1998-10-28"^^xsd:date ;
-            dcterms:description "Osman v. the United Kingdom, judgment of 28 October 1998, Reports 1998-VIII, p. 3164, § 128"^^xsd:string ;
-            dcterms:title "Osman v. the United Kingdom"^^xsd:string ],
-        [ a ns1:InternationalLaw ;
-            dcterms:description "Committee of Ministers Recommendation Rec (2002)5 on the protection of women against violence"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Christine Goodwin v. the United Kingdom [GC], no. 28957/95, § 74, ECHR 2002-VI"^^xsd:string ;
-            dcterms:title "Christine Goodwin v. the United Kingdom [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "28957/95"^^xsd:string ] ;
+            dcterms:description "Z. and Others v. the United Kingdom [GC], no. 29392/95, §§ 73-75, ECHR 2001-V"^^xsd:string ;
+            dcterms:title "Z. and Others v. the United Kingdom [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "29392/95"^^xsd:string ] ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
     ns1:hasApplicationNumber "39272/98"^^xsd:string ;
     ns1:importanceLevel 4 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q219> .
+    ns1:involveConventionArticle "13"^^xsd:string,
+        "14"^^xsd:string,
+        "3"^^xsd:string,
+        "41"^^xsd:string,
+        "8"^^xsd:string,
+        "8-1"^^xsd:string ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q219> ;
+    ns1:unanimousDecision false .
 
 <https://hudoc.echr.coe.int/eng?i=001-61521> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
@@ -70,12 +82,7 @@
         "(Art. 41) Just satisfaction-{general}"^^xsd:string,
         "(Art. 8) Right to respect for private and family life"^^xsd:string,
         "(Art. 8-1) Respect for private life"^^xsd:string,
-        "Costs and expenses partial award - Convention proceedings"^^xsd:string,
-        "No separate issue under Art. 13"^^xsd:string,
-        "Non-pecuniary damage - financial award"^^xsd:string,
-        "Not necessary to examine Art. 14"^^xsd:string,
-        "Positive obligations"^^xsd:string,
-        "Violation of Art. 3 and 8"^^xsd:string ;
+        "Positive obligations"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
     dcterms:title "CASE OF M.C. v. BULGARIA"^^xsd:string .

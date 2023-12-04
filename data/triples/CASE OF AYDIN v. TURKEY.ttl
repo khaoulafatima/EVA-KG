@@ -2,51 +2,75 @@
 @prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#23178/94> dcterms:creator "Court (Grand Chamber)"^^xsd:string ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#23178/94> dcterms:abstract "Costs and expenses partial award - Convention proceedings"^^xsd:string,
+        "No violation of Art. 25-1"^^xsd:string,
+        "Non-pecuniary damage - financial award"^^xsd:string,
+        "Not necessary to examine Art. 28-1-a"^^xsd:string,
+        "Not necessary to examine Art. 53"^^xsd:string,
+        "Not necessary to examine Art. 6-1"^^xsd:string,
+        "Pecuniary damage - claim dismissed"^^xsd:string,
+        "Preliminary objection rejected (estoppel)"^^xsd:string,
+        "Violation of Art. 13"^^xsd:string,
+        "Violation of Art. 3"^^xsd:string ;
+    dcterms:creator "Court (Grand Chamber)"^^xsd:string ;
     dcterms:date "1997-09-25"^^xsd:date ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-58371> ;
     dcterms:isPartOf "Reports 1997-VI"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:1997:0925JUD002317894"^^xsd:string ;
-    dcterms:references [ a ns1:InternationalLaw ;
-            dcterms:description "United Nations Convention against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment of 10 December 1984, Articles 11, 12 and 13"^^xsd:string ],
+    dcterms:references [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1978-01-18"^^xsd:date ;
+            dcterms:description "Ireland v. the United Kingdom judgment of 18 January 1978, Series A no. 25, pp. 64-65, §§ 160-161, p. 66, § 167"^^xsd:string ;
+            dcterms:title "Ireland v. the United Kingdom judgment of 18 January 1978"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "1996-12-18"^^xsd:date ;
             dcterms:description "Aksoy v. Turkey judgment of 18 December 1996, Reports 1996-VI, p. 2272, § 38, p. 2278, § 62, p. 2285, § 92, p. 2286, § 95, p. 2287, § 98"^^xsd:string ;
             dcterms:title "Aksoy v. Turkey judgment of 18 December 1996"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "1996-09-16"^^xsd:date ;
-            dcterms:description "Akdivar and Others v. Turkey judgment of 16 September 1996, Reports of Judgments and Decisions (\"Reports\") 1996-IV, p. 1219, § 105"^^xsd:string ;
-            dcterms:title "Akdivar and Others v. Turkey judgment of 16 September 1996"^^xsd:string ],
-        [ a ns1:DomesticLaw ;
-            dcterms:description "Decree no. 285 modifying the application of Law no. 3713, the Anti-Terror Law (1981) "^^xsd:string ],
-        [ a ns1:DomesticLaw ;
-            dcterms:description "Law no. 2935 of 25 October 1983 on the state of emergency, section 1"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "1995-03-23"^^xsd:date ;
-            dcterms:description "Loizidou v. Turkey judgment of 23 March 1995 (preliminary objections), Series A no. 310, p. 19, § 44"^^xsd:string ;
-            dcterms:title "Loizidou v. Turkey judgment of 23 March 1995 (preliminary objections)"^^xsd:string ],
-        [ a ns1:DomesticLaw ;
-            dcterms:description "Code of Criminal Procedure, Articles 153, 154, 163 and 165 "^^xsd:string ],
-        [ a ns1:DomesticLaw ;
-            dcterms:description "Constitution, Article 125 "^^xsd:string ],
-        [ a ns1:DomesticLaw ;
-            dcterms:description "Military Criminal Code, Article 152 "^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "1978-01-18"^^xsd:date ;
-            dcterms:description "Ireland v. the United Kingdom judgment of 18 January 1978, Series A no. 25, pp. 64-65, §§ 160-161, p. 66, § 167"^^xsd:string ;
-            dcterms:title "Ireland v. the United Kingdom judgment of 18 January 1978"^^xsd:string ],
         [ a ns1:DomesticLaw ;
             dcterms:description "Criminal Code, Articles 179, 181, 191, 243, 245 and 416 "^^xsd:string ],
+        [ a ns1:InternationalLaw ;
+            dcterms:description "United Nations Convention against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment of 10 December 1984, Articles 11, 12 and 13"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "1994-12-09"^^xsd:date ;
             dcterms:description "The Holy Monasteries v. Greece judgment of 9 December 1994, Series A no. 301-A, pp. 36-37, § 80"^^xsd:string ;
             dcterms:title "The Holy Monasteries v. Greece judgment of 9 December 1994"^^xsd:string ],
         [ a ns1:DomesticLaw ;
-            dcterms:description "Civil Code, Articles 41, 46 and 47 "^^xsd:string ] ;
+            dcterms:description "Decree no. 285 modifying the application of Law no. 3713, the Anti-Terror Law (1981) "^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1995-03-23"^^xsd:date ;
+            dcterms:description "Loizidou v. Turkey judgment of 23 March 1995 (preliminary objections), Series A no. 310, p. 19, § 44"^^xsd:string ;
+            dcterms:title "Loizidou v. Turkey judgment of 23 March 1995 (preliminary objections)"^^xsd:string ],
+        [ a ns1:DomesticLaw ;
+            dcterms:description "Constitution, Article 125 "^^xsd:string ],
+        [ a ns1:DomesticLaw ;
+            dcterms:description "Civil Code, Articles 41, 46 and 47 "^^xsd:string ],
+        [ a ns1:DomesticLaw ;
+            dcterms:description "Military Criminal Code, Article 152 "^^xsd:string ],
+        [ a ns1:DomesticLaw ;
+            dcterms:description "Law no. 2935 of 25 October 1983 on the state of emergency, section 1"^^xsd:string ],
+        [ a ns1:DomesticLaw ;
+            dcterms:description "Code of Criminal Procedure, Articles 153, 154, 163 and 165 "^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1996-09-16"^^xsd:date ;
+            dcterms:description "Akdivar and Others v. Turkey judgment of 16 September 1996, Reports of Judgments and Decisions (\"Reports\") 1996-IV, p. 1219, § 105"^^xsd:string ;
+            dcterms:title "Akdivar and Others v. Turkey judgment of 16 September 1996"^^xsd:string ] ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
     ns1:hasApplicationNumber "23178/94"^^xsd:string ;
     ns1:importanceLevel 1 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q43> .
+    ns1:involveConventionArticle "13"^^xsd:string,
+        "25"^^xsd:string,
+        "25-1"^^xsd:string,
+        "28"^^xsd:string,
+        "28-1-a"^^xsd:string,
+        "3"^^xsd:string,
+        "34"^^xsd:string,
+        "41"^^xsd:string,
+        "46"^^xsd:string,
+        "46-1"^^xsd:string,
+        "53"^^xsd:string,
+        "6"^^xsd:string,
+        "6-1"^^xsd:string ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q43> ;
+    ns1:unanimousDecision false .
 
 <https://hudoc.echr.coe.int/eng?i=001-58371> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
@@ -60,17 +84,7 @@
         "(Art. 41) Just satisfaction-{general}"^^xsd:string,
         "(Art. 46) Binding force and execution of judgments"^^xsd:string,
         "(Art. 53) Rights otherwise guaranteed"^^xsd:string,
-        "(Art. 6) Right to a fair trial"^^xsd:string,
-        "Costs and expenses partial award - Convention proceedings"^^xsd:string,
-        "No violation of Art. 25-1"^^xsd:string,
-        "Non-pecuniary damage - financial award"^^xsd:string,
-        "Not necessary to examine Art. 28-1-a"^^xsd:string,
-        "Not necessary to examine Art. 53"^^xsd:string,
-        "Not necessary to examine Art. 6-1"^^xsd:string,
-        "Pecuniary damage - claim dismissed"^^xsd:string,
-        "Preliminary objection rejected (estoppel)"^^xsd:string,
-        "Violation of Art. 13"^^xsd:string,
-        "Violation of Art. 3"^^xsd:string ;
+        "(Art. 6) Right to a fair trial"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
     dcterms:title "CASE OF AYDIN v. TURKEY"^^xsd:string .

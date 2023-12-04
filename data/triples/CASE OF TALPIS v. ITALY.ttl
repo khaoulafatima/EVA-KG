@@ -3,114 +3,40 @@
 @prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#41237/14> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#41237/14> dcterms:abstract "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage Just satisfaction)"^^xsd:string,
+        "Pecuniary damage - claim dismissed (Article 41 - Pecuniary damage Just satisfaction)"^^xsd:string,
+        "Preliminary objections joined to merits and dismissed (Article 35-1 - Exhaustion of domestic remedies)"^^xsd:string,
+        "Violation of Article 14+2 - Prohibition of discrimination (Article 14 - Discrimination) (Article 2 - Right to life Article 2-1 - Life)"^^xsd:string,
+        "Violation of Article 2 - Right to life (Article 2 - Positive obligations Article 2-1 - Life) (Substantive aspect)"^^xsd:string,
+        "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation Positive obligations) (Procedural aspect)"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "MENICHETTI S."^^xsd:string ] ;
     dcterms:creator "Court (First Section)"^^xsd:string ;
     dcterms:date "2017-03-02"^^xsd:date ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-171994> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2017:0302JUD004123714"^^xsd:string ;
     dcterms:references [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Mahmut Kaya v. Turkey, no 22535/93, § 85, ECHR 2000 III"^^xsd:string ;
-            dcterms:title "Mahmut Kaya v. Turkey"^^xsd:string ;
-            ns1:hasApplicationNumber "22535/93"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2011-11-03"^^xsd:date ;
-            dcterms:description "M.B. v. Romania, no 43982/06, § 64, 3 November 2011"^^xsd:string ;
-            dcterms:title "M.B. v. Romania"^^xsd:string ;
-            ns1:hasApplicationNumber "43982/06"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2016-03-22"^^xsd:date ;
-            dcterms:description "M.G. v. Turkey, no 646/10, 22 March 2016"^^xsd:string ;
-            dcterms:title "M.G. v. Turkey"^^xsd:string ;
-            ns1:hasApplicationNumber "646/10"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Nachova and Others v. Bulgaria [GC], nos. 43577/98 and 43579/98, §§ 110 and 112-113, ECHR 2005-VII"^^xsd:string ;
-            dcterms:title "Nachova and Others v. Bulgaria [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "43577/98"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "1998-06-09"^^xsd:date ;
-            dcterms:description "L.C.B. v. the United Kingdom, 9 June 1998, § 36, Reports of Judgments and Decisions 1998 III"^^xsd:string ;
-            dcterms:title "L.C.B. v. the United Kingdom"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2009-03-05"^^xsd:date ;
-            dcterms:description "Sandra Janković v. Croatia, no 38478/05, §§ 45-46, 5 March 2009"^^xsd:string ;
-            dcterms:title "Sandra Janković v. Croatia"^^xsd:string ;
-            ns1:hasApplicationNumber "38478/05"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
             dcterms:description "Pretty v. the United Kingdom, no 2346/02, § 49, ECHR 2002 III"^^xsd:string ;
             dcterms:title "Pretty v. the United Kingdom"^^xsd:string ;
             ns1:hasApplicationNumber "2346/02"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2002-11-26"^^xsd:date ;
-            dcterms:description "E. and Others v. the United Kingdom, no 33218/96, § 99 26 November 2002"^^xsd:string ;
-            dcterms:title "E. and Others v. the United Kingdom"^^xsd:string ;
-            ns1:hasApplicationNumber "33218/96"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2001-06-07"^^xsd:date ;
             dcterms:description "Edwards v. the United Kingdom (dec.), no 46477/99, 7 June 2001"^^xsd:string ;
             dcterms:title "Edwards v. the United Kingdom (dec.)"^^xsd:string ;
             ns1:hasApplicationNumber "46477/99"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2014-01-28"^^xsd:date ;
-            dcterms:description "Camekan v. Turkey, n  54241/08, § 38, 28 January 2014"^^xsd:string ;
-            dcterms:title "Camekan v. Turkey"^^xsd:string ;
-            ns1:hasApplicationNumber "54241/08"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Makaratzis v. Greece [GC], n  50385/99, §§ 49-55, ECHR 2004 XI"^^xsd:string ;
-            dcterms:title "Makaratzis v. Greece [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "50385/99"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Aksu v. Turkey [GC], nos. 4149/04 and 41029/04, § 43, ECHR 2012"^^xsd:string ;
-            dcterms:title "Aksu v. Turkey [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "4149/04"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Kılıç v. Turkey, no 22492/93, § 62, ECHR 2000 III"^^xsd:string ;
-            dcterms:title "Kılıç v. Turkey"^^xsd:string ;
-            ns1:hasApplicationNumber "22492/93"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Opuz v. Turkey, no. 33401/02, ECHR 2009"^^xsd:string ;
-            dcterms:title "Opuz v. Turkey"^^xsd:string ;
-            ns1:hasApplicationNumber "33401/02"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2009-12-15"^^xsd:date ;
             dcterms:description "Maiorano and Others v. Italy, no 28634/06, § 111, 15 December 2009"^^xsd:string ;
             dcterms:title "Maiorano and Others v. Italy"^^xsd:string ;
             ns1:hasApplicationNumber "28634/06"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2012-10-30"^^xsd:date ;
-            dcterms:description "E.M. v. Romania, no 43994/05, § 51, 30 October 2012"^^xsd:string ;
-            dcterms:title "E.M. v. Romania"^^xsd:string ;
-            ns1:hasApplicationNumber "43994/05"^^xsd:string ],
+            dcterms:description "Nachova and Others v. Bulgaria [GC], nos. 43577/98 and 43579/98, §§ 110 and 112-113, ECHR 2005-VII"^^xsd:string ;
+            dcterms:title "Nachova and Others v. Bulgaria [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "43577/98"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2013-07-16"^^xsd:date ;
-            dcterms:description "Mudric v. the Republic of Moldova, no 74839/10, § 63, 16 July 2013"^^xsd:string ;
-            dcterms:title "Mudric v. the Republic of Moldova"^^xsd:string ;
-            ns1:hasApplicationNumber "74839/10"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2013-05-28"^^xsd:date ;
-            dcterms:description "Eremia v. the Republic of Moldova, no 3564/11, 28 May 2013"^^xsd:string ;
-            dcterms:title "Eremia v. the Republic of Moldova"^^xsd:string ;
-            ns1:hasApplicationNumber "3564/11"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2008-06-12"^^xsd:date ;
-            dcterms:description "Bevacqua and S. v. Bulgaria, no 71127/01, § 65, 12 June 2008"^^xsd:string ;
-            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ;
-            ns1:hasApplicationNumber "71127/01"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "1998-09-23"^^xsd:date ;
-            dcterms:description "A. v. the United Kingdom, 23 September 1998, § 22, Reports 1998 VI"^^xsd:string ;
-            dcterms:title "A. v. the United Kingdom"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "1989-07-07"^^xsd:date ;
-            dcterms:description "Soering v. the United Kingdom, judgment of 7 July 1989, Series A no 161, p. 34, § 88"^^xsd:string ;
-            dcterms:title "Soering v. the United Kingdom"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "M.C. v. Bulgaria, no 39272/98, § 151, ECHR 2003 XII"^^xsd:string ;
-            dcterms:title "M.C. v. Bulgaria"^^xsd:string ;
-            ns1:hasApplicationNumber "39272/98"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Bljakaj, précité § 121"^^xsd:string ;
-            dcterms:title "Bljakaj"^^xsd:string ],
+            dcterms:description "Aksu v. Turkey [GC], nos. 4149/04 and 41029/04, § 43, ECHR 2012"^^xsd:string ;
+            dcterms:title "Aksu v. Turkey [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "4149/04"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2014-09-18"^^xsd:date ;
             dcterms:description "Bljakaj and Others v. Croatia, no 74448/12, § 124, 18 September 2014"^^xsd:string ;
@@ -122,10 +48,93 @@
             dcterms:title "Valiulienė v. Lithuania"^^xsd:string ;
             ns1:hasApplicationNumber "33234/07"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1989-07-07"^^xsd:date ;
+            dcterms:description "Soering v. the United Kingdom, judgment of 7 July 1989, Series A no 161, p. 34, § 88"^^xsd:string ;
+            dcterms:title "Soering v. the United Kingdom"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Bevacqua and S., précité, § 79"^^xsd:string ;
+            dcterms:title "Bevacqua and S."^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Varnava and Others v. Turkey [GC], nos. 16064/90, 16065/90, 16066/90, 16068/90, 16069/90, 16070/90, 16071/90, 16072/90 and 16073/90, §156-158, ECHR 2009"^^xsd:string ;
+            dcterms:title "Varnava and Others v. Turkey [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "16064/90"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2002-11-26"^^xsd:date ;
+            dcterms:description "E. and Others v. the United Kingdom, no 33218/96, § 99 26 November 2002"^^xsd:string ;
+            dcterms:title "E. and Others v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "33218/96"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2007-05-31"^^xsd:date ;
+            dcterms:description "Kontrová v. Slovakia, no 7510/04, § 49, 31 May 2007"^^xsd:string ;
+            dcterms:title "Kontrová v. Slovakia"^^xsd:string ;
+            ns1:hasApplicationNumber "7510/04"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2010-10-14"^^xsd:date ;
+            dcterms:description "A. v. Croatia, no 55164/08, § 60, 14 October 2010"^^xsd:string ;
+            dcterms:title "A. v. Croatia"^^xsd:string ;
+            ns1:hasApplicationNumber "55164/08"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Bljakaj, précité § 121"^^xsd:string ;
+            dcterms:title "Bljakaj"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2014-01-28"^^xsd:date ;
+            dcterms:description "T.M. and C.M. v. the Republic of Moldova, no 26608/11, 28 January 2014"^^xsd:string ;
+            dcterms:title "T.M. and C.M. v. the Republic of Moldova"^^xsd:string ;
+            ns1:hasApplicationNumber "26608/11"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Mahmut Kaya v. Turkey, no 22535/93, § 85, ECHR 2000 III"^^xsd:string ;
+            dcterms:title "Mahmut Kaya v. Turkey"^^xsd:string ;
+            ns1:hasApplicationNumber "22535/93"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2016-03-22"^^xsd:date ;
+            dcterms:description "M.G. v. Turkey, no 646/10, 22 March 2016"^^xsd:string ;
+            dcterms:title "M.G. v. Turkey"^^xsd:string ;
+            ns1:hasApplicationNumber "646/10"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2009-03-05"^^xsd:date ;
+            dcterms:description "Sandra Janković v. Croatia, no 38478/05, §§ 45-46, 5 March 2009"^^xsd:string ;
+            dcterms:title "Sandra Janković v. Croatia"^^xsd:string ;
+            ns1:hasApplicationNumber "38478/05"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1998-06-09"^^xsd:date ;
+            dcterms:description "L.C.B. v. the United Kingdom, 9 June 1998, § 36, Reports of Judgments and Decisions 1998 III"^^xsd:string ;
+            dcterms:title "L.C.B. v. the United Kingdom"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Kılıç v. Turkey, no 22492/93, § 62, ECHR 2000 III"^^xsd:string ;
+            dcterms:title "Kılıç v. Turkey"^^xsd:string ;
+            ns1:hasApplicationNumber "22492/93"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2012-01-17"^^xsd:date ;
             dcterms:description "Choreftakis and Choreftaki v. Greece, no 46846/08, § 50, 17 January 2012"^^xsd:string ;
             dcterms:title "Choreftakis and Choreftaki v. Greece"^^xsd:string ;
             ns1:hasApplicationNumber "46846/08"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Keenan v. the United Kingdom, no 27229/95, §§ 89-90, ECHR 2001 III"^^xsd:string ;
+            dcterms:title "Keenan v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "27229/95"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2010-11-30"^^xsd:date ;
+            dcterms:description "Hajduová v. Slovakia, no 2660/03, § 47, 30 November 2010"^^xsd:string ;
+            dcterms:title "Hajduová v. Slovakia"^^xsd:string ;
+            ns1:hasApplicationNumber "2660/03"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2012-10-30"^^xsd:date ;
+            dcterms:description "E.M. v. Romania, no 43994/05, § 51, 30 October 2012"^^xsd:string ;
+            dcterms:title "E.M. v. Romania"^^xsd:string ;
+            ns1:hasApplicationNumber "43994/05"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Gongadze v. Ukraine, no 34056/02, § 165, ECHR 2005 XI"^^xsd:string ;
+            dcterms:title "Gongadze v. Ukraine"^^xsd:string ;
+            ns1:hasApplicationNumber "34056/02"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "M. and M. v. Croatia, no 10161/13, § 136, ECHR 2015 (extracts)"^^xsd:string ;
+            dcterms:title "M. and M. v. Croatia"^^xsd:string ;
+            ns1:hasApplicationNumber "10161/13"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2013-07-16"^^xsd:date ;
+            dcterms:description "Mudric v. the Republic of Moldova, no 74839/10, § 63, 16 July 2013"^^xsd:string ;
+            dcterms:title "Mudric v. the Republic of Moldova"^^xsd:string ;
+            ns1:hasApplicationNumber "74839/10"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2016-06-28"^^xsd:date ;
             dcterms:description "Halime Kılıç v. Turkey, no 63034/11, § 99, 28 June 2016"^^xsd:string ;
@@ -136,23 +145,31 @@
             dcterms:title "Ramsahai and Others v. the Netherlands [GC]"^^xsd:string ;
             ns1:hasApplicationNumber "52391/99"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2010-10-14"^^xsd:date ;
-            dcterms:description "A. v. Croatia, no 55164/08, § 60, 14 October 2010"^^xsd:string ;
-            dcterms:title "A. v. Croatia"^^xsd:string ;
-            ns1:hasApplicationNumber "55164/08"^^xsd:string ],
+            dcterms:description "Paul and Audrey Edwards v. the United Kingdom, no 46477/99, § 86, ECHR 2002 II"^^xsd:string ;
+            dcterms:title "Paul and Audrey Edwards v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "46477/99"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Gongadze v. Ukraine, no 34056/02, § 165, ECHR 2005 XI"^^xsd:string ;
-            dcterms:title "Gongadze v. Ukraine"^^xsd:string ;
-            ns1:hasApplicationNumber "34056/02"^^xsd:string ],
+            dcterms:description "Đorđević v. Croatia, no 41526/10, ECHR 2012"^^xsd:string ;
+            dcterms:title "Đorđević v. Croatia"^^xsd:string ;
+            ns1:hasApplicationNumber "41526/10"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2010-11-30"^^xsd:date ;
-            dcterms:description "Hajduová v. Slovakia, no 2660/03, § 47, 30 November 2010"^^xsd:string ;
-            dcterms:title "Hajduová v. Slovakia"^^xsd:string ;
-            ns1:hasApplicationNumber "2660/03"^^xsd:string ],
+            dcterms:date "2008-06-12"^^xsd:date ;
+            dcterms:description "Bevacqua and S. v. Bulgaria, no 71127/01, § 65, 12 June 2008"^^xsd:string ;
+            dcterms:title "Bevacqua and S. v. Bulgaria"^^xsd:string ;
+            ns1:hasApplicationNumber "71127/01"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Mastromatteo v. Italy [GC], no 37703/97, § 69, ECHR 2002 VIII"^^xsd:string ;
-            dcterms:title "Mastromatteo v. Italy [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "37703/97"^^xsd:string ],
+            dcterms:description "Opuz v. Turkey, no. 33401/02, ECHR 2009"^^xsd:string ;
+            dcterms:title "Opuz v. Turkey"^^xsd:string ;
+            ns1:hasApplicationNumber "33401/02"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Makaratzis v. Greece [GC], n  50385/99, §§ 49-55, ECHR 2004 XI"^^xsd:string ;
+            dcterms:title "Makaratzis v. Greece [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "50385/99"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2011-11-03"^^xsd:date ;
+            dcterms:description "M.B. v. Romania, no 43982/06, § 64, 3 November 2011"^^xsd:string ;
+            dcterms:title "M.B. v. Romania"^^xsd:string ;
+            ns1:hasApplicationNumber "43982/06"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "1998-10-28"^^xsd:date ;
             dcterms:description "Osman c the United Kingdom, 28 October 1998, §§ 115-122, Reports 1998 VIII"^^xsd:string ;
@@ -163,42 +180,40 @@
             dcterms:title "Branko Tomašić and Others v. Croatia"^^xsd:string ;
             ns1:hasApplicationNumber "46598/06"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2007-05-31"^^xsd:date ;
-            dcterms:description "Kontrová v. Slovakia, no 7510/04, § 49, 31 May 2007"^^xsd:string ;
-            dcterms:title "Kontrová v. Slovakia"^^xsd:string ;
-            ns1:hasApplicationNumber "7510/04"^^xsd:string ],
+            dcterms:date "1998-09-23"^^xsd:date ;
+            dcterms:description "A. v. the United Kingdom, 23 September 1998, § 22, Reports 1998 VI"^^xsd:string ;
+            dcterms:title "A. v. the United Kingdom"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "M.C. v. Bulgaria, no 39272/98, § 151, ECHR 2003 XII"^^xsd:string ;
+            dcterms:title "M.C. v. Bulgaria"^^xsd:string ;
+            ns1:hasApplicationNumber "39272/98"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2014-01-28"^^xsd:date ;
-            dcterms:description "T.M. and C.M. v. the Republic of Moldova, no 26608/11, 28 January 2014"^^xsd:string ;
-            dcterms:title "T.M. and C.M. v. the Republic of Moldova"^^xsd:string ;
-            ns1:hasApplicationNumber "26608/11"^^xsd:string ],
+            dcterms:description "Camekan v. Turkey, n  54241/08, § 38, 28 January 2014"^^xsd:string ;
+            dcterms:title "Camekan v. Turkey"^^xsd:string ;
+            ns1:hasApplicationNumber "54241/08"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Paul and Audrey Edwards v. the United Kingdom, no 46477/99, § 86, ECHR 2002 II"^^xsd:string ;
-            dcterms:title "Paul and Audrey Edwards v. the United Kingdom"^^xsd:string ;
-            ns1:hasApplicationNumber "46477/99"^^xsd:string ],
+            dcterms:date "2013-05-28"^^xsd:date ;
+            dcterms:description "Eremia v. the Republic of Moldova, no 3564/11, 28 May 2013"^^xsd:string ;
+            dcterms:title "Eremia v. the Republic of Moldova"^^xsd:string ;
+            ns1:hasApplicationNumber "3564/11"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Đorđević v. Croatia, no 41526/10, ECHR 2012"^^xsd:string ;
-            dcterms:title "Đorđević v. Croatia"^^xsd:string ;
-            ns1:hasApplicationNumber "41526/10"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Bevacqua and S., précité, § 79"^^xsd:string ;
-            dcterms:title "Bevacqua and S."^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Keenan v. the United Kingdom, no 27229/95, §§ 89-90, ECHR 2001 III"^^xsd:string ;
-            dcterms:title "Keenan v. the United Kingdom"^^xsd:string ;
-            ns1:hasApplicationNumber "27229/95"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Varnava and Others v. Turkey [GC], nos. 16064/90, 16065/90, 16066/90, 16068/90, 16069/90, 16070/90, 16071/90, 16072/90 and 16073/90, §156-158, ECHR 2009"^^xsd:string ;
-            dcterms:title "Varnava and Others v. Turkey [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "16064/90"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "M. and M. v. Croatia, no 10161/13, § 136, ECHR 2015 (extracts)"^^xsd:string ;
-            dcterms:title "M. and M. v. Croatia"^^xsd:string ;
-            ns1:hasApplicationNumber "10161/13"^^xsd:string ] ;
+            dcterms:description "Mastromatteo v. Italy [GC], no 37703/97, § 69, ECHR 2002 VIII"^^xsd:string ;
+            dcterms:title "Mastromatteo v. Italy [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "37703/97"^^xsd:string ] ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
     ns1:hasApplicationNumber "41237/14"^^xsd:string ;
     ns1:importanceLevel 2 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q38> .
+    ns1:involveConventionArticle "14"^^xsd:string,
+        "14+2"^^xsd:string,
+        "2"^^xsd:string,
+        "2-1"^^xsd:string,
+        "3"^^xsd:string,
+        "35"^^xsd:string,
+        "35-1"^^xsd:string,
+        "41"^^xsd:string ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q38> ;
+    ns1:unanimousDecision false .
 
 <https://hudoc.echr.coe.int/eng?i=001-171994> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
@@ -215,13 +230,7 @@
         "(Art. 41) Just satisfaction"^^xsd:string,
         "(Art. 41) Just satisfaction-{general}"^^xsd:string,
         "(Art. 41) Non-pecuniary damage"^^xsd:string,
-        "(Art. 41) Pecuniary damage"^^xsd:string,
-        "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage Just satisfaction)"^^xsd:string,
-        "Pecuniary damage - claim dismissed (Article 41 - Pecuniary damage Just satisfaction)"^^xsd:string,
-        "Preliminary objections joined to merits and dismissed (Article 35-1 - Exhaustion of domestic remedies)"^^xsd:string,
-        "Violation of Article 14+2 - Prohibition of discrimination (Article 14 - Discrimination) (Article 2 - Right to life Article 2-1 - Life)"^^xsd:string,
-        "Violation of Article 2 - Right to life (Article 2 - Positive obligations Article 2-1 - Life) (Substantive aspect)"^^xsd:string,
-        "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation Positive obligations) (Procedural aspect)"^^xsd:string ;
+        "(Art. 41) Pecuniary damage"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
     dcterms:title "CASE OF TALPIS v. ITALY"^^xsd:string .

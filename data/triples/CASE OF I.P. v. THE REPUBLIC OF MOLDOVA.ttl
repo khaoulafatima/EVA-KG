@@ -3,7 +3,9 @@
 @prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#33708/12> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#33708/12> dcterms:abstract "Violation of Article 13+3 - Right to an effective remedy (Article 13 - Effective remedy) (Article 3 - Prohibition of torture Positive obligations)"^^xsd:string,
+        "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation Positive obligations) (Procedural aspect)"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "DODON I."^^xsd:string ] ;
     dcterms:creator "Court (Third Section)"^^xsd:string ;
     dcterms:date "2015-04-28"^^xsd:date ;
@@ -12,7 +14,11 @@
     dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
     ns1:hasApplicationNumber "33708/12"^^xsd:string ;
     ns1:importanceLevel 3 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q217> .
+    ns1:involveConventionArticle "13"^^xsd:string,
+        "13+3"^^xsd:string,
+        "3"^^xsd:string ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q217> ;
+    ns1:unanimousDecision true .
 
 <https://hudoc.echr.coe.int/eng?i=001-154152> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
@@ -20,9 +26,7 @@
         "(Art. 13) Right to an effective remedy"^^xsd:string,
         "(Art. 3) Effective investigation"^^xsd:string,
         "(Art. 3) Positive obligations"^^xsd:string,
-        "(Art. 3) Prohibition of torture"^^xsd:string,
-        "Violation of Article 13+3 - Right to an effective remedy (Article 13 - Effective remedy) (Article 3 - Prohibition of torture Positive obligations)"^^xsd:string,
-        "Violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation Positive obligations) (Procedural aspect)"^^xsd:string ;
+        "(Art. 3) Prohibition of torture"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
     dcterms:title "CASE OF I.P. v. THE REPUBLIC OF MOLDOVA"^^xsd:string .

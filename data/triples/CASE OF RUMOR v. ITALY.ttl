@@ -3,10 +3,12 @@
 @prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#72964/10> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "ADAMI D."^^xsd:string ],
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#72964/10> dcterms:abstract "No violation of Article 14+3 - Prohibition of discrimination (Article 3 - Prohibition of torture Positive obligations)"^^xsd:string,
+        "No violation of Article 3 - Prohibition of torture (Article 3 - Positive obligations) (Procedural aspect)"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "MASCIA A. "^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "MASCIA A. "^^xsd:string ] ;
+            foaf:name "ADAMI D."^^xsd:string ] ;
     dcterms:creator "Court (Second Section)"^^xsd:string ;
     dcterms:date "2014-05-27"^^xsd:date ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-144137> ;
@@ -14,15 +16,17 @@
     dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
     ns1:hasApplicationNumber "72964/10"^^xsd:string ;
     ns1:importanceLevel 3 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q38> .
+    ns1:involveConventionArticle "14"^^xsd:string,
+        "14+3"^^xsd:string,
+        "3"^^xsd:string ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q38> ;
+    ns1:unanimousDecision true .
 
 <https://hudoc.echr.coe.int/eng?i=001-144137> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:description "(Art. 14) Prohibition of discrimination"^^xsd:string,
         "(Art. 3) Positive obligations"^^xsd:string,
-        "(Art. 3) Prohibition of torture"^^xsd:string,
-        "No violation of Article 14+3 - Prohibition of discrimination (Article 3 - Prohibition of torture Positive obligations)"^^xsd:string,
-        "No violation of Article 3 - Prohibition of torture (Article 3 - Positive obligations) (Procedural aspect)"^^xsd:string ;
+        "(Art. 3) Prohibition of torture"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
     dcterms:title "CASE OF RUMOR v. ITALY"^^xsd:string .

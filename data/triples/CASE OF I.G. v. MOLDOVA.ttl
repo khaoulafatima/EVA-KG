@@ -3,10 +3,11 @@
 @prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#53519/07> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "STRAISTEANU D."^^xsd:string ],
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#53519/07> dcterms:abstract "Violation of Article 3 - Prohibition of torture (Article 3 - Positive obligations) (Procedural aspect)"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+            foaf:name "POSTICA A. "^^xsd:string ],
         [ a <http://www.wikidata.org/entity/Q40348> ;
-            foaf:name "POSTICA A. "^^xsd:string ] ;
+            foaf:name "STRAISTEANU D."^^xsd:string ] ;
     dcterms:creator "Court (Third Section)"^^xsd:string ;
     dcterms:date "2012-05-15"^^xsd:date ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-110904> ;
@@ -14,13 +15,14 @@
     dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
     ns1:hasApplicationNumber "53519/07"^^xsd:string ;
     ns1:importanceLevel 3 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q217> .
+    ns1:involveConventionArticle "3"^^xsd:string ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q217> ;
+    ns1:unanimousDecision true .
 
 <https://hudoc.echr.coe.int/eng?i=001-110904> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:description "(Art. 3) Positive obligations"^^xsd:string,
-        "(Art. 3) Prohibition of torture"^^xsd:string,
-        "Violation of Article 3 - Prohibition of torture (Article 3 - Positive obligations) (Procedural aspect)"^^xsd:string ;
+        "(Art. 3) Prohibition of torture"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
     dcterms:title "CASE OF I.G. v. MOLDOVA"^^xsd:string .
