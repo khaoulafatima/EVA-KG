@@ -3,7 +3,8 @@
 @prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#49450/17> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#49450/17> dcterms:abstract "Violation of Article 8 - Right to respect for private and family life (Article 8-1 - Respect for family life)"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "AMUZA A."^^xsd:string ] ;
     dcterms:creator "Court (Fourth Section Committee)"^^xsd:string ;
     dcterms:date "2019-05-21"^^xsd:date ;
@@ -12,13 +13,15 @@
     dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
     ns1:hasApplicationNumber "49450/17"^^xsd:string ;
     ns1:importanceLevel 3 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q218> .
+    ns1:involveConventionArticle "8"^^xsd:string,
+        "8-1"^^xsd:string ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q218> ;
+    ns1:unanimousDecision true .
 
 <https://hudoc.echr.coe.int/eng?i=001-193069> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:description "(Art. 8) Right to respect for private and family life"^^xsd:string,
-        "(Art. 8-1) Respect for family life"^^xsd:string,
-        "Violation of Article 8 - Right to respect for private and family life (Article 8-1 - Respect for family life)"^^xsd:string ;
+        "(Art. 8-1) Respect for family life"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
     dcterms:title "CASE OF O.C.I. AND OTHERS v. ROMANIA"^^xsd:string .

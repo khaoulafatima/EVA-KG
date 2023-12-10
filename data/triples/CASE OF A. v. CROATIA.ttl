@@ -3,71 +3,36 @@
 @prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#55164/08> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#55164/08> dcterms:abstract "Non-pecuniary damage - award"^^xsd:string,
+        "Remainder inadmissible"^^xsd:string,
+        "Violation of Art. 8"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "BEZBRADICA S."^^xsd:string ] ;
     dcterms:creator "Court (First Section)"^^xsd:string ;
     dcterms:date "2010-10-14"^^xsd:date ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-101152> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2010:1014JUD005516408"^^xsd:string ;
     dcterms:references [ a ns1:DomesticLaw ;
-            dcterms:description "Protetction against Domestic violence Act "^^xsd:string ],
+            dcterms:description "Article 215a of the Criminal Code"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "M.C. v. Bulgaria, no. 39272/98, ECHR 2003-XII"^^xsd:string ;
-            dcterms:title "M.C. v. Bulgaria"^^xsd:string ;
-            ns1:hasApplicationNumber "39272/98"^^xsd:string ],
+            dcterms:date "2002-10-10"^^xsd:date ;
+            dcterms:description "D.P. and J.C. v. the United Kingdom, no. 38719/97, 10 October 2002"^^xsd:string ;
+            dcterms:title "D.P. and J.C. v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "38719/97"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Selmouni v. France, [GC], no. 25803/94, ECHR 1999-V"^^xsd:string ;
+            dcterms:title "Selmouni v. France"^^xsd:string ;
+            ns1:hasApplicationNumber "25803/94"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2008-09-18"^^xsd:date ;
             dcterms:description "Atalay v. Turkey, no. 1249/03, 18 September 2008"^^xsd:string ;
             dcterms:title "Atalay v. Turkey"^^xsd:string ;
             ns1:hasApplicationNumber "1249/03"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Oršuš and Others v. Croatia [GC], no. 15766/03, ECHR 2010-..."^^xsd:string ;
-            dcterms:title "Oršuš and Others v. Croatia [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "15766/03"^^xsd:string ],
-        [ a ns1:DomesticLaw ;
-            dcterms:description "Article 215a of the Criminal Code"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Selmouni v. France, [GC], no. 25803/94, ECHR 1999-V"^^xsd:string ;
-            dcterms:title "Selmouni v. France"^^xsd:string ;
-            ns1:hasApplicationNumber "25803/94"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Branko Tomašic and Others v. Croatia, no. 46598/06, ECHR 2009-..."^^xsd:string ;
-            dcterms:title "Branko Tomašic and Others v. Croatia"^^xsd:string ;
-            ns1:hasApplicationNumber "46598/06"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "1993-03-25"^^xsd:date ;
-            dcterms:description "Costello-Roberts v. the United Kingdom, 25 March 1993, Series A no. 247-C"^^xsd:string ;
-            dcterms:title "Costello-Roberts v. the United Kingdom"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Sandra Jankovic v. Croatia, no. 38478/05, ECHR 2009-... (extracts)"^^xsd:string ;
-            dcterms:title "Sandra Jankovic v. Croatia"^^xsd:string ;
-            ns1:hasApplicationNumber "38478/05"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "1976-12-07"^^xsd:date ;
-            dcterms:description "Handyside v. the United Kingdom, 7 December 1976, Series A no. 24"^^xsd:string ;
-            dcterms:title "Handyside v. the United Kingdom"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2005-01-06"^^xsd:date ;
-            dcterms:description "Hoogendijk v. the Netherlands (dec.), no. 58461/00, 6 January 2005"^^xsd:string ;
-            dcterms:title "Hoogendijk v. the Netherlands (dec.)"^^xsd:string ;
-            ns1:hasApplicationNumber "58461/00"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Beganovic v. Croatia, no. 46423/06, ECHR 2009-..."^^xsd:string ;
-            dcterms:title "Beganovic v. Croatia"^^xsd:string ;
-            ns1:hasApplicationNumber "46423/06"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2007-12-20"^^xsd:date ;
             dcterms:description "Nikolova and Velichkova v. Bulgaria, no. 7888/03, 20 December 2007"^^xsd:string ;
             dcterms:title "Nikolova and Velichkova v. Bulgaria"^^xsd:string ;
             ns1:hasApplicationNumber "7888/03"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "1985-03-26"^^xsd:date ;
-            dcterms:description "X and Y v. the Netherlands, 26 March 1985, Series A no. 91"^^xsd:string ;
-            dcterms:title "X and Y v. the Netherlands"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Mayeka and Mitunga v. Belgium, no. 13178/03, ECHR 2006-XI"^^xsd:string ;
-            dcterms:title "Mayeka and Mitunga v. Belgium"^^xsd:string ;
-            ns1:hasApplicationNumber "13178/03"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2008-06-12"^^xsd:date ;
             dcterms:description "Bevacqua and S. v. Bulgaria, no. 71127/01, 12 June 2008"^^xsd:string ;
@@ -79,14 +44,52 @@
             dcterms:title "Hugh Jordan v. the United Kingdom"^^xsd:string ;
             ns1:hasApplicationNumber "24746/94"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2002-10-10"^^xsd:date ;
-            dcterms:description "D.P. and J.C. v. the United Kingdom, no. 38719/97, 10 October 2002"^^xsd:string ;
-            dcterms:title "D.P. and J.C. v. the United Kingdom"^^xsd:string ;
-            ns1:hasApplicationNumber "38719/97"^^xsd:string ],
+            dcterms:date "1985-03-26"^^xsd:date ;
+            dcterms:description "X and Y v. the Netherlands, 26 March 1985, Series A no. 91"^^xsd:string ;
+            dcterms:title "X and Y v. the Netherlands"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Branko Tomašic and Others v. Croatia, no. 46598/06, ECHR 2009-..."^^xsd:string ;
+            dcterms:title "Branko Tomašic and Others v. Croatia"^^xsd:string ;
+            ns1:hasApplicationNumber "46598/06"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Mayeka and Mitunga v. Belgium, no. 13178/03, ECHR 2006-XI"^^xsd:string ;
+            dcterms:title "Mayeka and Mitunga v. Belgium"^^xsd:string ;
+            ns1:hasApplicationNumber "13178/03"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Beganovic v. Croatia, no. 46423/06, ECHR 2009-..."^^xsd:string ;
+            dcterms:title "Beganovic v. Croatia"^^xsd:string ;
+            ns1:hasApplicationNumber "46423/06"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1976-12-07"^^xsd:date ;
+            dcterms:description "Handyside v. the United Kingdom, 7 December 1976, Series A no. 24"^^xsd:string ;
+            dcterms:title "Handyside v. the United Kingdom"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1993-03-25"^^xsd:date ;
+            dcterms:description "Costello-Roberts v. the United Kingdom, 25 March 1993, Series A no. 247-C"^^xsd:string ;
+            dcterms:title "Costello-Roberts v. the United Kingdom"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Sandra Jankovic v. Croatia, no. 38478/05, ECHR 2009-... (extracts)"^^xsd:string ;
+            dcterms:title "Sandra Jankovic v. Croatia"^^xsd:string ;
+            ns1:hasApplicationNumber "38478/05"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "M.C. v. Bulgaria, no. 39272/98, ECHR 2003-XII"^^xsd:string ;
+            dcterms:title "M.C. v. Bulgaria"^^xsd:string ;
+            ns1:hasApplicationNumber "39272/98"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:description "Zarb Adami v. Malta, no. 17209/02, ECHR 2006-VIII"^^xsd:string ;
             dcterms:title "Zarb Adami v. Malta"^^xsd:string ;
             ns1:hasApplicationNumber "17209/02"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2005-01-06"^^xsd:date ;
+            dcterms:description "Hoogendijk v. the Netherlands (dec.), no. 58461/00, 6 January 2005"^^xsd:string ;
+            dcterms:title "Hoogendijk v. the Netherlands (dec.)"^^xsd:string ;
+            ns1:hasApplicationNumber "58461/00"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Oršuš and Others v. Croatia [GC], no. 15766/03, ECHR 2010-..."^^xsd:string ;
+            dcterms:title "Oršuš and Others v. Croatia [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "15766/03"^^xsd:string ],
+        [ a ns1:DomesticLaw ;
+            dcterms:description "Protetction against Domestic violence Act "^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:description "Mikulic v. Croatia, no. 53176/99, ECHR 2002-I"^^xsd:string ;
             dcterms:title "Mikulic v. Croatia"^^xsd:string ;
@@ -94,7 +97,12 @@
     dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
     ns1:hasApplicationNumber "55164/08"^^xsd:string ;
     ns1:importanceLevel 1 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q224> .
+    ns1:involveConventionArticle "14"^^xsd:string,
+        "41"^^xsd:string,
+        "8"^^xsd:string,
+        "8-1"^^xsd:string ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q224> ;
+    ns1:unanimousDecision true .
 
 <https://hudoc.echr.coe.int/eng?i=001-101152> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
@@ -104,10 +112,7 @@
         "(Art. 41) Just satisfaction-{general}"^^xsd:string,
         "(Art. 8) Right to respect for private and family life"^^xsd:string,
         "(Art. 8-1) Respect for private life"^^xsd:string,
-        "Non-pecuniary damage - award"^^xsd:string,
-        "Positive obligations"^^xsd:string,
-        "Remainder inadmissible"^^xsd:string,
-        "Violation of Art. 8"^^xsd:string ;
+        "Positive obligations"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
     dcterms:title "CASE OF A. v. CROATIA"^^xsd:string .

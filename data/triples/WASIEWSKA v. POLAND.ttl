@@ -3,7 +3,8 @@
 @prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#9873/11> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#9873/11> dcterms:abstract "Inadmissible"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "DROZD A."^^xsd:string ] ;
     dcterms:creator "Court (Fourth Section)"^^xsd:string ;
     dcterms:date "2014-12-02"^^xsd:date ;
@@ -12,13 +13,14 @@
     dcterms:type <http://www.wikidata.org/entity/Q327000> ;
     ns1:hasApplicationNumber "9873/11"^^xsd:string ;
     ns1:importanceLevel 3 ;
+    ns1:involveConventionArticle "35"^^xsd:string,
+        "6"^^xsd:string ;
     ns1:respondentState <http://www.wikidata.org/entity/Q36> .
 
 <https://hudoc.echr.coe.int/eng?i=001-150572> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
     dcterms:description "(Art. 35) Admissibility criteria"^^xsd:string,
-        "(Art. 6) Right to a fair trial"^^xsd:string,
-        "Inadmissible"^^xsd:string ;
+        "(Art. 6) Right to a fair trial"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
     dcterms:title "WASIEWSKA v. POLAND"^^xsd:string .

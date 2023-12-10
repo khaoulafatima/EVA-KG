@@ -300,7 +300,6 @@ class ECHRDocument:
         wd = Namespace("http://www.wikidata.org/entity/")
         custom_ns = Namespace("https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#")
 
-
         url = URIRef(extract_document_url(self._case_detail["Title"]))
 
         self._graph.add((url, DCTERMS.accessRights, Literal("public", datatype=XSD.string)))
@@ -331,14 +330,6 @@ class ECHRDocument:
                     value = self._case_detail["Keywords"]
                 self._graph.add((url, DCTERMS.description, Literal(value, datatype=XSD.string)))
                 if isinstance(self._case_detail["Keywords"], str):
-                    break
-
-        if "Conclusion(s)" in keys:
-            for value in self._case_detail["Conclusion(s)"]:
-                if isinstance(self._case_detail["Conclusion(s)"], str):
-                    value = self._case_detail["Conclusion(s)"]
-                self._graph.add((url, DCTERMS.description, Literal(value, datatype=XSD.string)))
-                if isinstance(self._case_detail["Conclusion(s)"], str):
                     break
 
         for uri in uri_list:
@@ -401,6 +392,28 @@ class ECHRDocument:
                         self._graph.add((lawyer, FOAF.name, Literal(value, datatype=XSD.string)))
                         self._graph.add((lawyer, RDF.type, URIRef(wd.Q40348)))
                     if isinstance(self._case_detail["Represented by"], str):
+                        break
+
+            if "Article(s)" in keys:
+                for value in self._case_detail["Article(s)"]:
+                    if isinstance(self._case_detail["Article(s)"], str):
+                        value = self._case_detail["Article(s)"]
+                    self._graph.add((uri, URIRef(custom_ns + "involveConventionArticle"), Literal(value, datatype=XSD.string)))
+                    if isinstance(self._case_detail["Article(s)"], str):
+                        break
+
+            if "Separate Opinion(s)" in keys:
+                if self._case_detail["Separate Opinion(s)"] == "Yes":
+                    self._graph.add((uri, URIRef(custom_ns + "unanimousDecision"), Literal(False, datatype=XSD.boolean)))
+                else:
+                    self._graph.add((uri, URIRef(custom_ns + "unanimousDecision"), Literal(True, datatype=XSD.boolean)))
+
+            if "Conclusion(s)" in keys:
+                for value in self._case_detail["Conclusion(s)"]:
+                    if isinstance(self._case_detail["Conclusion(s)"], str):
+                        value = self._case_detail["Conclusion(s)"]
+                    self._graph.add((uri, DCTERMS.abstract, Literal(value, datatype=XSD.string)))
+                    if isinstance(self._case_detail["Conclusion(s)"], str):
                         break
 
             if "Domestic Law" in keys:
@@ -475,7 +488,7 @@ if __name__ == "__main__":
 
     html_p = "../data/corpus_html"
     pdf_p = "../data/corpus_pdf"
-    f_name = "CASE OF M. AND OTHERS v. ITALY AND BULGARIA"
+    f_name = "CASE OF BARSOVA v. RUSSIA"
     json_path = "../data/case_detail_json"
     body_path = "../data/document_body"
     echr_document = ECHRDocument(html_path=html_p, pdf_path=pdf_p, file_name=f_name)

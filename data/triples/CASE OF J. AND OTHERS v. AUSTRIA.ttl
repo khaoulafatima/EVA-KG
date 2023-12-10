@@ -3,7 +3,10 @@
 @prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#58216/12> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#58216/12> dcterms:abstract "No violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect)"^^xsd:string,
+        "No violation of Article 4 - Prohibition of slavery and forced labour (Article 4 - Positive obligations Article 4-1 - Trafficking in human beings)"^^xsd:string,
+        "Remainder inadmissible"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "Weiss A."^^xsd:string ] ;
     dcterms:creator "Court (Fourth Section)"^^xsd:string ;
     dcterms:date "2017-01-17"^^xsd:date ;
@@ -11,44 +14,27 @@
     dcterms:isPartOf "Reports of Judgments and Decisions 2017 (extracts)"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2017:0117JUD005821612"^^xsd:string ;
     dcterms:references [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2007-09-27"^^xsd:date ;
-            dcterms:description "Nikolay Dimitrov v. Bulgaria, no. 72663/01, § 69, 27 September 2007"^^xsd:string ;
-            dcterms:title "Nikolay Dimitrov v. Bulgaria"^^xsd:string ;
-            ns1:hasApplicationNumber "72663/01"^^xsd:string ],
+            dcterms:description "Rantsev v. Cyprus and Russia, no. 25965/04, ECHR 2010 (extracts)"^^xsd:string ;
+            dcterms:title "Rantsev v. Cyprus and Russia"^^xsd:string ;
+            ns1:hasApplicationNumber "25965/04"^^xsd:string ],
         [ a ns1:InternationalLaw ;
             dcterms:description "The Council of Europe Convention on Action against Trafficking in Human Beings"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2016-11-17"^^xsd:date ;
-            dcterms:description "V.M. and Others v. Belgium [GC], no. 60125/11, § 36, 17 November 2016"^^xsd:string ;
-            dcterms:title "V.M. and Others v. Belgium [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "60125/11"^^xsd:string ],
+        [ a ns1:InternationalLaw ;
+            dcterms:description "The Protocol to Prevent, Suppress and Punish Trafficking in Persons, especially Women and Children (“the Palermo Protocol”)"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2009-12-15"^^xsd:date ;
             dcterms:description "Maiorano and Others v. Italy, no. 28634/06, § 105, 15 December 2009"^^xsd:string ;
             dcterms:title "Maiorano and Others v. Italy"^^xsd:string ;
             ns1:hasApplicationNumber "28634/06"^^xsd:string ],
-        [ a ns1:InternationalLaw ;
-            dcterms:description "The Protocol to Prevent, Suppress and Punish Trafficking in Persons, especially Women and Children (“the Palermo Protocol”)"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2012-07-31"^^xsd:date ;
-            dcterms:description "M. and Others v. Italy and Bulgaria, no. 40020/03, § 151, 31 July 2012"^^xsd:string ;
-            dcterms:title "M. and Others v. Italy and Bulgaria"^^xsd:string ;
-            ns1:hasApplicationNumber "40020/03"^^xsd:string ],
-        [ a ns1:DomesticLaw ;
-            dcterms:description "Article 104a of the Criminal Code"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:description "Denizci and Others v. Cyprus, nos. 25316-25321/94 and 27207/95, § 369, ECHR 2001 V"^^xsd:string ;
             dcterms:title "Denizci and Others v. Cyprus"^^xsd:string ;
             ns1:hasApplicationNumber "25321/94"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Siliadin v. France, no. 73316/01, §§ 89 and 112, ECHR 2005 VII"^^xsd:string ;
-            dcterms:title "Siliadin v. France"^^xsd:string ;
-            ns1:hasApplicationNumber "73316/01"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2016-07-05"^^xsd:date ;
-            dcterms:description "Jeronovičs v. Latvia [GC], no. 44898/10, § 107, 5 July 2016"^^xsd:string ;
-            dcterms:title "Jeronovičs v. Latvia [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "44898/10"^^xsd:string ],
+            dcterms:date "2016-11-17"^^xsd:date ;
+            dcterms:description "V.M. and Others v. Belgium [GC], no. 60125/11, § 36, 17 November 2016"^^xsd:string ;
+            dcterms:title "V.M. and Others v. Belgium [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "60125/11"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2015-10-06"^^xsd:date ;
             dcterms:description "ATV Privatfernseh-GmbH v. Austria (dec.), no. 58842/09, §§ 32-37, 6 October 2015"^^xsd:string ;
@@ -59,21 +45,44 @@
             dcterms:description "Fürst-Pfeifer v. Austria, nos. 33677/10 and 52340/10, § 31, 17 May 2016"^^xsd:string ;
             dcterms:title "Fürst-Pfeifer v. Austria"^^xsd:string ;
             ns1:hasApplicationNumber "33677/10"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Rantsev v. Cyprus and Russia, no. 25965/04, ECHR 2010 (extracts)"^^xsd:string ;
-            dcterms:title "Rantsev v. Cyprus and Russia"^^xsd:string ;
-            ns1:hasApplicationNumber "25965/04"^^xsd:string ],
+        [ a ns1:DomesticLaw ;
+            dcterms:description "Articles 193 § 2, 197, 210 and 363a of the Code of Criminal Procedure "^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2012-11-13"^^xsd:date ;
             dcterms:description "C.N. v. the United Kingdom, no. 4239/08, § 65, 13 November 2012"^^xsd:string ;
             dcterms:title "C.N. v. the United Kingdom"^^xsd:string ;
             ns1:hasApplicationNumber "4239/08"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2012-07-31"^^xsd:date ;
+            dcterms:description "M. and Others v. Italy and Bulgaria, no. 40020/03, § 151, 31 July 2012"^^xsd:string ;
+            dcterms:title "M. and Others v. Italy and Bulgaria"^^xsd:string ;
+            ns1:hasApplicationNumber "40020/03"^^xsd:string ],
         [ a ns1:DomesticLaw ;
-            dcterms:description "Articles 193 § 2, 197, 210 and 363a of the Code of Criminal Procedure "^^xsd:string ] ;
+            dcterms:description "Article 104a of the Criminal Code"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2007-09-27"^^xsd:date ;
+            dcterms:description "Nikolay Dimitrov v. Bulgaria, no. 72663/01, § 69, 27 September 2007"^^xsd:string ;
+            dcterms:title "Nikolay Dimitrov v. Bulgaria"^^xsd:string ;
+            ns1:hasApplicationNumber "72663/01"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2016-07-05"^^xsd:date ;
+            dcterms:description "Jeronovičs v. Latvia [GC], no. 44898/10, § 107, 5 July 2016"^^xsd:string ;
+            dcterms:title "Jeronovičs v. Latvia [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "44898/10"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Siliadin v. France, no. 73316/01, §§ 89 and 112, ECHR 2005 VII"^^xsd:string ;
+            dcterms:title "Siliadin v. France"^^xsd:string ;
+            ns1:hasApplicationNumber "73316/01"^^xsd:string ] ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
     ns1:hasApplicationNumber "58216/12"^^xsd:string ;
     ns1:importanceLevel 4 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q40> .
+    ns1:involveConventionArticle "3"^^xsd:string,
+        "35"^^xsd:string,
+        "35-1"^^xsd:string,
+        "4"^^xsd:string,
+        "4-1"^^xsd:string ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q40> ;
+    ns1:unanimousDecision false .
 
 <https://hudoc.echr.coe.int/eng?i=001-170388> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
@@ -83,10 +92,7 @@
         "(Art. 35-1) Exhaustion of domestic remedies"^^xsd:string,
         "(Art. 4) Positive obligations"^^xsd:string,
         "(Art. 4) Prohibition of slavery and forced labour"^^xsd:string,
-        "(Art. 4-1) Trafficking in human beings"^^xsd:string,
-        "No violation of Article 3 - Prohibition of torture (Article 3 - Effective investigation) (Procedural aspect)"^^xsd:string,
-        "No violation of Article 4 - Prohibition of slavery and forced labour (Article 4 - Positive obligations Article 4-1 - Trafficking in human beings)"^^xsd:string,
-        "Remainder inadmissible"^^xsd:string ;
+        "(Art. 4-1) Trafficking in human beings"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
     dcterms:title "CASE OF J. AND OTHERS v. AUSTRIA"^^xsd:string .

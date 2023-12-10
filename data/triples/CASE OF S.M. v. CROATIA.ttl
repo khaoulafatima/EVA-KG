@@ -3,202 +3,135 @@
 @prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#60561/14> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#60561/14> dcterms:abstract "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage Just satisfaction)"^^xsd:string,
+        "Violation of Article 4 - Prohibition of slavery and forced labour (Article 4 - Positive obligations Effective investigation Article 4-1 - Trafficking in human beings)"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "BEZBRADICA JELAVIĆ S."^^xsd:string ] ;
     dcterms:creator "Court (Grand Chamber)"^^xsd:string ;
     dcterms:date "2020-06-25"^^xsd:date ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-203503> ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2020:0625JUD006056114"^^xsd:string ;
-    dcterms:references [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2017-11-09"^^xsd:date ;
-            dcterms:description "Hentschel and Stark v. Germany, no. 47274/15, § 94, 9 November 2017"^^xsd:string ;
-            dcterms:title "Hentschel and Stark v. Germany"^^xsd:string ;
-            ns1:hasApplicationNumber "47274/15"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2019-06-25"^^xsd:date ;
-            dcterms:description "Nicolae Virgiliu Tănase v. Romania [GC], no. 41720/13, § 171, 25 June 2019"^^xsd:string ;
-            dcterms:title "Nicolae Virgiliu Tănase v. Romania [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "41720/13"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2019-11-21"^^xsd:date ;
-            dcterms:description "Ilias and Ahmed v. Hungary [GC], no. 47287/15, § 177, 21 November 2019"^^xsd:string ;
-            dcterms:title "Ilias and Ahmed v. Hungary [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "47287/15"^^xsd:string ],
-        [ a ns1:InternationalLaw ;
-            dcterms:description "1956 Convention to Suppress the Slave Trade and Slavery"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2009-06-25"^^xsd:date ;
-            dcterms:description "Beganović v. Croatia, no. 46423/06, § 68, 25 June 2009"^^xsd:string ;
-            dcterms:title "Beganović v. Croatia"^^xsd:string ;
-            ns1:hasApplicationNumber "46423/06"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2013-04-16"^^xsd:date ;
-            dcterms:description "Dimitar Shopov v. Bulgaria, no. 17253/07, § 48, 16 April 2013"^^xsd:string ;
-            dcterms:title "Dimitar Shopov v. Bulgaria"^^xsd:string ;
-            ns1:hasApplicationNumber "17253/07"^^xsd:string ],
-        [ a ns1:InternationalLaw ;
-            dcterms:description "The United Nations Convention against Transnational Organized Crime (“UNCTOC”), signed on 12-15 December 2000 and entered into force on 29 September 2003"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2012-11-13"^^xsd:date ;
-            dcterms:description "C.N. v. the United Kingdom, no. 4239/08, §§ 47-52 and 80, 13 November 2012"^^xsd:string ;
-            dcterms:title "C.N. v. the United Kingdom"^^xsd:string ;
-            ns1:hasApplicationNumber "4239/08"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2016-10-20"^^xsd:date ;
-            dcterms:description "Muršić v. Croatia [GC], no. 7334/13, § 69, 20 October 2016"^^xsd:string ;
-            dcterms:title "Muršić v. Croatia [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "7334/13"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Söderman v. Sweden [GC], no. 5786/08, §§ 90-91, ECHR 2013"^^xsd:string ;
-            dcterms:title "Söderman v. Sweden [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "5786/08"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2016-08-30"^^xsd:date ;
-            dcterms:description "Mihhailov v. Estonia, no. 64418/10, § 126, 30 August 2016"^^xsd:string ;
-            dcterms:title "Mihhailov v. Estonia"^^xsd:string ;
-            ns1:hasApplicationNumber "64418/10"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2017-01-12"^^xsd:date ;
-            dcterms:description "Sarbyanova-Pashaliyska and Pashaliyska v. Bulgaria, no. 3524/14, § 37, 12 January 2017"^^xsd:string ;
-            dcterms:title "Sarbyanova-Pashaliyska and Pashaliyska v. Bulgaria"^^xsd:string ;
-            ns1:hasApplicationNumber "3524/14"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "1983-11-23"^^xsd:date ;
-            dcterms:description "Van der Mussele v. Belgium, 23 November 1983, §§ 34-37, Series A no. 70"^^xsd:string ;
-            dcterms:title "Van der Mussele v. Belgium"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2012-07-31"^^xsd:date ;
-            dcterms:description "M. and Others v. Italy and Bulgaria, no. 40020/03, §§ 106 and 157-158, 31 July 2012"^^xsd:string ;
-            dcterms:title "M. and Others v. Italy and Bulgaria"^^xsd:string ;
-            ns1:hasApplicationNumber "40020/03"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2018-12-19"^^xsd:date ;
-            dcterms:description "Molla Sali v. Greece [GC], no. 20452/14, § 85, 19 December 2018"^^xsd:string ;
-            dcterms:title "Molla Sali v. Greece [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "20452/14"^^xsd:string ],
-        [ a ns1:InternationalLaw ;
-            dcterms:description "1927 Convention to Suppress the Slave Trade and Slavery"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2017-03-30"^^xsd:date ;
-            dcterms:description "Chowdury and Others v. Greece, no. 21884/15, 30 March 2017"^^xsd:string ;
-            dcterms:title "Chowdury and Others v. Greece"^^xsd:string ;
-            ns1:hasApplicationNumber "21884/15"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Makaratzis v. Greece [GC], no. 50385/99, § 77, ECHR 2004 XI"^^xsd:string ;
-            dcterms:title "Makaratzis v. Greece [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "50385/99"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Aktaş v. Turkey, no. 24351/94, § 271, ECHR 2003 V (extracts)"^^xsd:string ;
-            dcterms:title "Aktaş v. Turkey"^^xsd:string ;
-            ns1:hasApplicationNumber "24351/94"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2017-11-16"^^xsd:date ;
-            dcterms:description "Tsalikidis and Others v. Greece, no. 73974/14, § 86, 16 November 2017"^^xsd:string ;
-            dcterms:title "Tsalikidis and Others v. Greece"^^xsd:string ;
-            ns1:hasApplicationNumber "73974/14"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2017-11-28"^^xsd:date ;
-            dcterms:description "Merabishvili v. Georgia [GC], no. 72508/13, §§ 371-372, 28 November 2017"^^xsd:string ;
-            dcterms:title "Merabishvili v. Georgia [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "72508/13"^^xsd:string ],
-        [ a ns1:InternationalLaw ;
-            dcterms:description "1930 Forced Labour Convention (Convention No. 29) of the International Labour Organisation (ILO)"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Siliadin v. France, no. 73316/01, §§ 115-117, ECHR 2005 VII"^^xsd:string ;
-            dcterms:title "Siliadin v. France"^^xsd:string ;
-            ns1:hasApplicationNumber "73316/01"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2018-03-20"^^xsd:date ;
-            dcterms:description "Radomilja and Others v. Croatia [GC], nos. 37685/10 and 22768/12, §§ 121-122 and 126, 20 March 2018"^^xsd:string ;
-            dcterms:title "Radomilja and Others v. Croatia [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "37685/10"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2007-11-27"^^xsd:date ;
-            dcterms:description "Brecknell v. the United Kingdom, no. 32457/04, § 66, 27 November 2007"^^xsd:string ;
-            dcterms:title "Brecknell v. the United Kingdom"^^xsd:string ;
-            ns1:hasApplicationNumber "32457/04"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2016-03-15"^^xsd:date ;
-            dcterms:description "M.G.C. v. Romania, no. 61495/11, §§ 60-61, 15 March 2016"^^xsd:string ;
-            dcterms:title "M.G.C. v. Romania"^^xsd:string ;
-            ns1:hasApplicationNumber "61495/11"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2009-12-17"^^xsd:date ;
-            dcterms:description "Denis Vasilyev v. Russia, no. 32704/04, § 100, 17 December 2009"^^xsd:string ;
-            dcterms:title "Denis Vasilyev v. Russia"^^xsd:string ;
-            ns1:hasApplicationNumber "32704/04"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Schatschaschwili v. Germany [GC], no. 9154/10, §§ 101 and 103-104, ECHR 2015"^^xsd:string ;
-            dcterms:title "Schatschaschwili v. Germany [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "9154/10"^^xsd:string ],
+    dcterms:references [ a ns1:InternationalLaw ;
+            dcterms:description "Protocol to Prevent, Suppress and Punish Trafficking in Persons, Especially Women and Children (Palermo Protocol)"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:description "Demir and Baykara v. Turkey [GC], no. 34503/97, § 67, ECHR 2008"^^xsd:string ;
             dcterms:title "Demir and Baykara v. Turkey [GC]"^^xsd:string ;
             ns1:hasApplicationNumber "34503/97"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Bouyid v. Belgium [GC], no. 23380/09, ECHR 2015"^^xsd:string ;
-            dcterms:title "Bouyid v. Belgium [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "23380/09"^^xsd:string ],
+            dcterms:date "2013-04-16"^^xsd:date ;
+            dcterms:description "Dimitar Shopov v. Bulgaria, no. 17253/07, § 48, 16 April 2013"^^xsd:string ;
+            dcterms:title "Dimitar Shopov v. Bulgaria"^^xsd:string ;
+            ns1:hasApplicationNumber "17253/07"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Hassan v. the United Kingdom [GC], no. 29750/09, § 62, ECHR 2014"^^xsd:string ;
-            dcterms:title "Hassan v. the United Kingdom [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "29750/09"^^xsd:string ],
+            dcterms:date "2015-09-22"^^xsd:date ;
+            dcterms:description "Abdurakhmanova and Abdulgamidova v. Russia, no. 41437/10, § 76, 22 September 2015"^^xsd:string ;
+            dcterms:title "Abdurakhmanova and Abdulgamidova v. Russia"^^xsd:string ;
+            ns1:hasApplicationNumber "41437/10"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2016-07-05"^^xsd:date ;
-            dcterms:description "Jeronovičs v. Latvia [GC], no. 44898/10, § 103, 5 July 2016"^^xsd:string ;
-            dcterms:title "Jeronovičs v. Latvia [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "44898/10"^^xsd:string ],
-        [ a ns1:InternationalLaw ;
-            dcterms:description "Convention on Action against Trafficking in Human Beings (Anti Trafficking Convention) entered into force on 1 February 2008 and ratified by Croatia on 5 September 2007"^^xsd:string ],
+            dcterms:date "2007-09-11"^^xsd:date ;
+            dcterms:description "V.T. v. France, no. 37194/02, §§ 26 and 35, 11 September 2007"^^xsd:string ;
+            dcterms:title "V.T. v. France"^^xsd:string ;
+            ns1:hasApplicationNumber "37194/02"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2015-04-14"^^xsd:date ;
             dcterms:description "Mustafa Tunç and Fecire Tunç v. Turkey [GC], no. 24014/05, §§ 173 and 176, 14 April 2015"^^xsd:string ;
             dcterms:title "Mustafa Tunç and Fecire Tunç v. Turkey [GC]"^^xsd:string ;
             ns1:hasApplicationNumber "24014/05"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2015-03-24"^^xsd:date ;
-            dcterms:description "Milena Felicia Dumitrescu v. Romania, no. 28440/07, § 52, 24 March 2015"^^xsd:string ;
-            dcterms:title "Milena Felicia Dumitrescu v. Romania"^^xsd:string ;
-            ns1:hasApplicationNumber "28440/07"^^xsd:string ],
+            dcterms:date "2019-01-29"^^xsd:date ;
+            dcterms:description "Güzelyurtlu and Others v. Cyprus and Turkey [GC], no. 36925/07, § 234, 29 January 2019"^^xsd:string ;
+            dcterms:title "Güzelyurtlu and Others v. Cyprus and Turkey [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "36925/07"^^xsd:string ],
+        [ a ns1:InternationalLaw ;
+            dcterms:description "The United Nations Convention against Transnational Organized Crime (“UNCTOC”), signed on 12-15 December 2000 and entered into force on 29 September 2003"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2009-12-17"^^xsd:date ;
+            dcterms:description "Denis Vasilyev v. Russia, no. 32704/04, § 100, 17 December 2009"^^xsd:string ;
+            dcterms:title "Denis Vasilyev v. Russia"^^xsd:string ;
+            ns1:hasApplicationNumber "32704/04"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2017-01-12"^^xsd:date ;
+            dcterms:description "Sarbyanova-Pashaliyska and Pashaliyska v. Bulgaria, no. 3524/14, § 37, 12 January 2017"^^xsd:string ;
+            dcterms:title "Sarbyanova-Pashaliyska and Pashaliyska v. Bulgaria"^^xsd:string ;
+            ns1:hasApplicationNumber "3524/14"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2017-11-28"^^xsd:date ;
+            dcterms:description "Merabishvili v. Georgia [GC], no. 72508/13, §§ 371-372, 28 November 2017"^^xsd:string ;
+            dcterms:title "Merabishvili v. Georgia [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "72508/13"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2017-11-09"^^xsd:date ;
+            dcterms:description "Hentschel and Stark v. Germany, no. 47274/15, § 94, 9 November 2017"^^xsd:string ;
+            dcterms:title "Hentschel and Stark v. Germany"^^xsd:string ;
+            ns1:hasApplicationNumber "47274/15"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2018-03-20"^^xsd:date ;
+            dcterms:description "Radomilja and Others v. Croatia [GC], nos. 37685/10 and 22768/12, §§ 121-122 and 126, 20 March 2018"^^xsd:string ;
+            dcterms:title "Radomilja and Others v. Croatia [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "37685/10"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Aktaş v. Turkey, no. 24351/94, § 271, ECHR 2003 V (extracts)"^^xsd:string ;
+            dcterms:title "Aktaş v. Turkey"^^xsd:string ;
+            ns1:hasApplicationNumber "24351/94"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2016-07-05"^^xsd:date ;
+            dcterms:description "Jeronovičs v. Latvia [GC], no. 44898/10, § 103, 5 July 2016"^^xsd:string ;
+            dcterms:title "Jeronovičs v. Latvia [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "44898/10"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2019-06-25"^^xsd:date ;
+            dcterms:description "Nicolae Virgiliu Tănase v. Romania [GC], no. 41720/13, § 171, 25 June 2019"^^xsd:string ;
+            dcterms:title "Nicolae Virgiliu Tănase v. Romania [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "41720/13"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2012-11-13"^^xsd:date ;
+            dcterms:description "C.N. v. the United Kingdom, no. 4239/08, §§ 47-52 and 80, 13 November 2012"^^xsd:string ;
+            dcterms:title "C.N. v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "4239/08"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2012-07-31"^^xsd:date ;
+            dcterms:description "M. and Others v. Italy and Bulgaria, no. 40020/03, §§ 106 and 157-158, 31 July 2012"^^xsd:string ;
+            dcterms:title "M. and Others v. Italy and Bulgaria"^^xsd:string ;
+            ns1:hasApplicationNumber "40020/03"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2017-11-16"^^xsd:date ;
+            dcterms:description "Tsalikidis and Others v. Greece, no. 73974/14, § 86, 16 November 2017"^^xsd:string ;
+            dcterms:title "Tsalikidis and Others v. Greece"^^xsd:string ;
+            ns1:hasApplicationNumber "73974/14"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2017-01-24"^^xsd:date ;
             dcterms:description "Khamtokhu and Aksenchik v. Russia [GC], nos. 60367/08 and 961/11, § 73, 24 January 2017"^^xsd:string ;
             dcterms:title "Khamtokhu and Aksenchik v. Russia [GC]"^^xsd:string ;
             ns1:hasApplicationNumber "60367/08"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Rantsev v. Cyprus and Russia, no. 25965/04, ECHR 2010 (extracts)"^^xsd:string ;
-            dcterms:title "Rantsev v. Cyprus and Russia"^^xsd:string ;
-            ns1:hasApplicationNumber "25965/04"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2019-01-29"^^xsd:date ;
-            dcterms:description "Güzelyurtlu and Others v. Cyprus and Turkey [GC], no. 36925/07, § 234, 29 January 2019"^^xsd:string ;
-            dcterms:title "Güzelyurtlu and Others v. Cyprus and Turkey [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "36925/07"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2018-11-15"^^xsd:date ;
-            dcterms:description "Navalnyy v. Russia [GC], nos. 29580/12 and 4 others, §§ 58 and 65, 15 November 2018"^^xsd:string ;
-            dcterms:title "Navalnyy v. Russia [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "29580/12"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Stummer v. Austria [GC], no. 37452/02, § 117, ECHR 2011"^^xsd:string ;
-            dcterms:title "Stummer v. Austria [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "37452/02"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2016-01-26"^^xsd:date ;
-            dcterms:description "Alpar v. Turkey, no. 22643/07, § 42, 26 January 2016"^^xsd:string ;
-            dcterms:title "Alpar v. Turkey"^^xsd:string ;
-            ns1:hasApplicationNumber "22643/07"^^xsd:string ],
-        [ a ns1:InternationalLaw ;
-            dcterms:description "Protocol to Prevent, Suppress and Punish Trafficking in Persons, Especially Women and Children (Palermo Protocol)"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Y. v. Slovenia, no. 41107/10, § 96, ECHR 2015 (extracts)"^^xsd:string ;
-            dcterms:title "Y. v. Slovenia"^^xsd:string ;
-            ns1:hasApplicationNumber "41107/10"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2015-12-10"^^xsd:date ;
             dcterms:description "Asllani v. the former Yugoslav Republic of Macedonia, no. 24058/13, § 62 in fine, 10 December 2015"^^xsd:string ;
             dcterms:title "Asllani v. the former Yugoslav Republic of Macedonia"^^xsd:string ;
             ns1:hasApplicationNumber "24058/13"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2012-10-11"^^xsd:date ;
+            dcterms:description "C.N. and V. v. France, no. 67724/09, §§ 55 and 69, 11 October 2012"^^xsd:string ;
+            dcterms:title "C.N. and V. v. France"^^xsd:string ;
+            ns1:hasApplicationNumber "67724/09"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Bouyid v. Belgium [GC], no. 23380/09, ECHR 2015"^^xsd:string ;
+            dcterms:title "Bouyid v. Belgium [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "23380/09"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2009-06-25"^^xsd:date ;
+            dcterms:description "Beganović v. Croatia, no. 46423/06, § 68, 25 June 2009"^^xsd:string ;
+            dcterms:title "Beganović v. Croatia"^^xsd:string ;
+            ns1:hasApplicationNumber "46423/06"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2019-11-21"^^xsd:date ;
+            dcterms:description "Ilias and Ahmed v. Hungary [GC], no. 47287/15, § 177, 21 November 2019"^^xsd:string ;
+            dcterms:title "Ilias and Ahmed v. Hungary [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "47287/15"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2016-08-30"^^xsd:date ;
+            dcterms:description "Mihhailov v. Estonia, no. 64418/10, § 126, 30 August 2016"^^xsd:string ;
+            dcterms:title "Mihhailov v. Estonia"^^xsd:string ;
+            ns1:hasApplicationNumber "64418/10"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2017-01-17"^^xsd:date ;
             dcterms:description "J. and Others v. Austria, no. 58216/12, 17 January 2017"^^xsd:string ;
@@ -210,47 +143,120 @@
             dcterms:title "Zubac v. Croatia [GC]"^^xsd:string ;
             ns1:hasApplicationNumber "40160/12"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2007-09-11"^^xsd:date ;
-            dcterms:description "V.T. v. France, no. 37194/02, §§ 26 and 35, 11 September 2007"^^xsd:string ;
-            dcterms:title "V.T. v. France"^^xsd:string ;
-            ns1:hasApplicationNumber "37194/02"^^xsd:string ],
+            dcterms:date "2016-01-21"^^xsd:date ;
+            dcterms:description "L.E. v. Greece, no. 71545/12, §§ 58 and 68, 21 January 2016"^^xsd:string ;
+            dcterms:title "L.E. v. Greece"^^xsd:string ;
+            ns1:hasApplicationNumber "71545/12"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2012-10-11"^^xsd:date ;
-            dcterms:description "C.N. and V. v. France, no. 67724/09, §§ 55 and 69, 11 October 2012"^^xsd:string ;
-            dcterms:title "C.N. and V. v. France"^^xsd:string ;
-            ns1:hasApplicationNumber "67724/09"^^xsd:string ],
+            dcterms:date "2015-03-24"^^xsd:date ;
+            dcterms:description "Milena Felicia Dumitrescu v. Romania, no. 28440/07, § 52, 24 March 2015"^^xsd:string ;
+            dcterms:title "Milena Felicia Dumitrescu v. Romania"^^xsd:string ;
+            ns1:hasApplicationNumber "28440/07"^^xsd:string ],
+        [ a ns1:InternationalLaw ;
+            dcterms:description "1930 Forced Labour Convention (Convention No. 29) of the International Labour Organisation (ILO)"^^xsd:string ],
+        [ a ns1:InternationalLaw ;
+            dcterms:description "1927 Convention to Suppress the Slave Trade and Slavery"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:description "Mocanu and Others v. Romania [GC], nos. 10865/09 and 2 others, § 314, ECHR 2014 (extracts)"^^xsd:string ;
-            dcterms:title "Mocanu and Others v. Romania [GC]"^^xsd:string ;
-            ns1:hasApplicationNumber "10865/09"^^xsd:string ],
+            dcterms:date "2016-10-20"^^xsd:date ;
+            dcterms:description "Muršić v. Croatia [GC], no. 7334/13, § 69, 20 October 2016"^^xsd:string ;
+            dcterms:title "Muršić v. Croatia [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "7334/13"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2018-07-19"^^xsd:date ;
             dcterms:description "Hovhannisyan v. Armenia, no. 18419/13, § 55, 19 July 2018"^^xsd:string ;
             dcterms:title "Hovhannisyan v. Armenia"^^xsd:string ;
             ns1:hasApplicationNumber "18419/13"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2016-01-21"^^xsd:date ;
-            dcterms:description "L.E. v. Greece, no. 71545/12, §§ 58 and 68, 21 January 2016"^^xsd:string ;
-            dcterms:title "L.E. v. Greece"^^xsd:string ;
-            ns1:hasApplicationNumber "71545/12"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
             dcterms:description "Nachova and Others v. Bulgaria [GC], nos. 43577/98 and 43579/98, § 113, ECHR 2005 VII"^^xsd:string ;
             dcterms:title "Nachova and Others v. Bulgaria [GC]"^^xsd:string ;
             ns1:hasApplicationNumber "43577/98"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Mocanu and Others v. Romania [GC], nos. 10865/09 and 2 others, § 314, ECHR 2014 (extracts)"^^xsd:string ;
+            dcterms:title "Mocanu and Others v. Romania [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "10865/09"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2016-03-15"^^xsd:date ;
+            dcterms:description "M.G.C. v. Romania, no. 61495/11, §§ 60-61, 15 March 2016"^^xsd:string ;
+            dcterms:title "M.G.C. v. Romania"^^xsd:string ;
+            ns1:hasApplicationNumber "61495/11"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1983-11-23"^^xsd:date ;
+            dcterms:description "Van der Mussele v. Belgium, 23 November 1983, §§ 34-37, Series A no. 70"^^xsd:string ;
+            dcterms:title "Van der Mussele v. Belgium"^^xsd:string ],
+        [ a ns1:InternationalLaw ;
+            dcterms:description "1956 Convention to Suppress the Slave Trade and Slavery"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Y. v. Slovenia, no. 41107/10, § 96, ECHR 2015 (extracts)"^^xsd:string ;
+            dcterms:title "Y. v. Slovenia"^^xsd:string ;
+            ns1:hasApplicationNumber "41107/10"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Schatschaschwili v. Germany [GC], no. 9154/10, §§ 101 and 103-104, ECHR 2015"^^xsd:string ;
+            dcterms:title "Schatschaschwili v. Germany [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "9154/10"^^xsd:string ],
+        [ a ns1:InternationalLaw ;
+            dcterms:description "Convention on Action against Trafficking in Human Beings (Anti Trafficking Convention) entered into force on 1 February 2008 and ratified by Croatia on 5 September 2007"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2017-03-30"^^xsd:date ;
+            dcterms:description "Chowdury and Others v. Greece, no. 21884/15, 30 March 2017"^^xsd:string ;
+            dcterms:title "Chowdury and Others v. Greece"^^xsd:string ;
+            ns1:hasApplicationNumber "21884/15"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2016-03-30"^^xsd:date ;
             dcterms:description "Armani da Silva v. the United Kingdom [GC], no. 5878/08, § 233 in fine, 30 March 2016"^^xsd:string ;
             dcterms:title "Armani da Silva v. the United Kingdom [GC]"^^xsd:string ;
             ns1:hasApplicationNumber "5878/08"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "2015-09-22"^^xsd:date ;
-            dcterms:description "Abdurakhmanova and Abdulgamidova v. Russia, no. 41437/10, § 76, 22 September 2015"^^xsd:string ;
-            dcterms:title "Abdurakhmanova and Abdulgamidova v. Russia"^^xsd:string ;
-            ns1:hasApplicationNumber "41437/10"^^xsd:string ] ;
+            dcterms:description "Stummer v. Austria [GC], no. 37452/02, § 117, ECHR 2011"^^xsd:string ;
+            dcterms:title "Stummer v. Austria [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "37452/02"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2018-12-19"^^xsd:date ;
+            dcterms:description "Molla Sali v. Greece [GC], no. 20452/14, § 85, 19 December 2018"^^xsd:string ;
+            dcterms:title "Molla Sali v. Greece [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "20452/14"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Siliadin v. France, no. 73316/01, §§ 115-117, ECHR 2005 VII"^^xsd:string ;
+            dcterms:title "Siliadin v. France"^^xsd:string ;
+            ns1:hasApplicationNumber "73316/01"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Makaratzis v. Greece [GC], no. 50385/99, § 77, ECHR 2004 XI"^^xsd:string ;
+            dcterms:title "Makaratzis v. Greece [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "50385/99"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2018-11-15"^^xsd:date ;
+            dcterms:description "Navalnyy v. Russia [GC], nos. 29580/12 and 4 others, §§ 58 and 65, 15 November 2018"^^xsd:string ;
+            dcterms:title "Navalnyy v. Russia [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "29580/12"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Hassan v. the United Kingdom [GC], no. 29750/09, § 62, ECHR 2014"^^xsd:string ;
+            dcterms:title "Hassan v. the United Kingdom [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "29750/09"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Söderman v. Sweden [GC], no. 5786/08, §§ 90-91, ECHR 2013"^^xsd:string ;
+            dcterms:title "Söderman v. Sweden [GC]"^^xsd:string ;
+            ns1:hasApplicationNumber "5786/08"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2007-11-27"^^xsd:date ;
+            dcterms:description "Brecknell v. the United Kingdom, no. 32457/04, § 66, 27 November 2007"^^xsd:string ;
+            dcterms:title "Brecknell v. the United Kingdom"^^xsd:string ;
+            ns1:hasApplicationNumber "32457/04"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "2016-01-26"^^xsd:date ;
+            dcterms:description "Alpar v. Turkey, no. 22643/07, § 42, 26 January 2016"^^xsd:string ;
+            dcterms:title "Alpar v. Turkey"^^xsd:string ;
+            ns1:hasApplicationNumber "22643/07"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:description "Rantsev v. Cyprus and Russia, no. 25965/04, ECHR 2010 (extracts)"^^xsd:string ;
+            dcterms:title "Rantsev v. Cyprus and Russia"^^xsd:string ;
+            ns1:hasApplicationNumber "25965/04"^^xsd:string ] ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
     ns1:hasApplicationNumber "60561/14"^^xsd:string ;
     ns1:importanceLevel 4 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q224> .
+    ns1:involveConventionArticle "4"^^xsd:string,
+        "4-1"^^xsd:string,
+        "41"^^xsd:string ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q224> ;
+    ns1:unanimousDecision false .
 
 <https://hudoc.echr.coe.int/eng?i=001-203503> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
@@ -260,9 +266,7 @@
         "(Art. 4-1) Trafficking in human beings"^^xsd:string,
         "(Art. 41) Just satisfaction"^^xsd:string,
         "(Art. 41) Just satisfaction-{general}"^^xsd:string,
-        "(Art. 41) Non-pecuniary damage"^^xsd:string,
-        "Non-pecuniary damage - award (Article 41 - Non-pecuniary damage Just satisfaction)"^^xsd:string,
-        "Violation of Article 4 - Prohibition of slavery and forced labour (Article 4 - Positive obligations Effective investigation Article 4-1 - Trafficking in human beings)"^^xsd:string ;
+        "(Art. 41) Non-pecuniary damage"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
     dcterms:title "CASE OF S.M. v. CROATIA"^^xsd:string .

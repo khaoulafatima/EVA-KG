@@ -2,12 +2,31 @@
 @prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#24209/94> dcterms:creator "Court (Fourth Section)"^^xsd:string ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#24209/94> dcterms:abstract "Costs and expenses partial award - Convention proceedings"^^xsd:string,
+        "Non-pecuniary damage - financial award"^^xsd:string,
+        "Violation of Art. 8"^^xsd:string ;
+    dcterms:creator "Court (Fourth Section)"^^xsd:string ;
     dcterms:date "2003-07-22"^^xsd:date ;
     dcterms:identifier <https://hudoc.echr.coe.int/eng?i=001-61247> ;
     dcterms:isPartOf "Reports of Judgments and Decisions 2003-IX"^^xsd:string ;
     dcterms:isVersionOf "ECLI:CE:ECHR:2003:0722JUD002420994"^^xsd:string ;
     dcterms:references [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1990-04-24"^^xsd:date ;
+            dcterms:description "Kruslin v. France, judgment of 24 April 1990, Series A no. 176 A, p. 20, § 27"^^xsd:string ;
+            dcterms:title "Kruslin v. France"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1992-08-27"^^xsd:date ;
+            dcterms:description "Tomasi v. France, judgment of 27 August 1992, Series A no. 241-A, pp. 40-41, §§ 113-115"^^xsd:string ;
+            dcterms:title "Tomasi v. France"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1985-03-26"^^xsd:date ;
+            dcterms:description "X and Y v. Netherlands, judgment of 26 March 1985, Series A no. 91, p. 11, § 22"^^xsd:string ;
+            dcterms:title "X and Y v. Netherlands"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1990-04-24"^^xsd:date ;
+            dcterms:description "Huvig v. France, judgment of 24 April 1990, Series A no. 176-B, p. 52, § 26"^^xsd:string ;
+            dcterms:title "Huvig v. France"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
             dcterms:description "Ilhan v. Turkey [GC], no. 22277/93, § 55, ECHR 2000-VII"^^xsd:string ;
             dcterms:title "Ilhan v. Turkey [GC]"^^xsd:string ;
             ns1:hasApplicationNumber "22277/93"^^xsd:string ],
@@ -17,44 +36,33 @@
             dcterms:title "Christine Goodwin v. the United Kingdom [GC]"^^xsd:string ;
             ns1:hasApplicationNumber "28957/95"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "1985-03-26"^^xsd:date ;
-            dcterms:description "X and Y v. Netherlands, judgment of 26 March 1985, Series A no. 91, p. 11, § 22"^^xsd:string ;
-            dcterms:title "X and Y v. Netherlands"^^xsd:string ],
+            dcterms:date "1979-12-13"^^xsd:date ;
+            dcterms:description "X v. Austria, no. 8278/78, Commission decision of 13 December 1979, Decisions and Reports (DR) 18, p. 155"^^xsd:string ;
+            dcterms:title "X v. Austria"^^xsd:string ;
+            ns1:hasApplicationNumber "8278/78"^^xsd:string ],
+        [ a ns1:StrasbourgCaseLaw ;
+            dcterms:date "1983-03-25"^^xsd:date ;
+            dcterms:description "Silver and Others v. the United Kingdom, judgment of 25 March 1983, Series A no. 61, p. 32, § 84"^^xsd:string ;
+            dcterms:title "Silver and Others v. the United Kingdom"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "1984-12-10"^^xsd:date ;
             dcterms:description "Acmanne and Others v. Belgium, no. 10435/83, Commission decision of 10 December 1984, (DR) 40, p. 254"^^xsd:string ;
             dcterms:title "Acmanne and Others v. Belgium"^^xsd:string ;
             ns1:hasApplicationNumber "10435/83"^^xsd:string ],
         [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "1992-08-27"^^xsd:date ;
-            dcterms:description "Tomasi v. France, judgment of 27 August 1992, Series A no. 241-A, pp. 40-41, §§ 113-115"^^xsd:string ;
-            dcterms:title "Tomasi v. France"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
             dcterms:date "2003-04-08"^^xsd:date ;
             dcterms:description "M.M. v. the Netherlands, no. 39339/98, § 46, 8 April 2003, unreported"^^xsd:string ;
             dcterms:title "M.M. v. the Netherlands"^^xsd:string ;
-            ns1:hasApplicationNumber "39339/98"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "1979-12-13"^^xsd:date ;
-            dcterms:description "X v. Austria, no. 8278/78, Commission decision of 13 December 1979, Decisions and Reports (DR) 18, p. 155"^^xsd:string ;
-            dcterms:title "X v. Austria"^^xsd:string ;
-            ns1:hasApplicationNumber "8278/78"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "1990-04-24"^^xsd:date ;
-            dcterms:description "Kruslin v. France, judgment of 24 April 1990, Series A no. 176 A, p. 20, § 27"^^xsd:string ;
-            dcterms:title "Kruslin v. France"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "1983-03-25"^^xsd:date ;
-            dcterms:description "Silver and Others v. the United Kingdom, judgment of 25 March 1983, Series A no. 61, p. 32, § 84"^^xsd:string ;
-            dcterms:title "Silver and Others v. the United Kingdom"^^xsd:string ],
-        [ a ns1:StrasbourgCaseLaw ;
-            dcterms:date "1990-04-24"^^xsd:date ;
-            dcterms:description "Huvig v. France, judgment of 24 April 1990, Series A no. 176-B, p. 52, § 26"^^xsd:string ;
-            dcterms:title "Huvig v. France"^^xsd:string ] ;
+            ns1:hasApplicationNumber "39339/98"^^xsd:string ] ;
     dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
     ns1:hasApplicationNumber "24209/94"^^xsd:string ;
     ns1:importanceLevel 4 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q43> .
+    ns1:involveConventionArticle "41"^^xsd:string,
+        "8"^^xsd:string,
+        "8-1"^^xsd:string,
+        "8-2"^^xsd:string ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q43> ;
+    ns1:unanimousDecision true .
 
 <https://hudoc.echr.coe.int/eng?i=001-61247> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
@@ -62,10 +70,7 @@
         "(Art. 8) Right to respect for private and family life"^^xsd:string,
         "(Art. 8-1) Respect for private life"^^xsd:string,
         "(Art. 8-2) In accordance with the law"^^xsd:string,
-        "(Art. 8-2) Interference"^^xsd:string,
-        "Costs and expenses partial award - Convention proceedings"^^xsd:string,
-        "Non-pecuniary damage - financial award"^^xsd:string,
-        "Violation of Art. 8"^^xsd:string ;
+        "(Art. 8-2) Interference"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
     dcterms:title "CASE OF Y.F. v. TURKEY"^^xsd:string .

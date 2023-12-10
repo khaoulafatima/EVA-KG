@@ -3,7 +3,9 @@
 @prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#49089/10> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#49089/10> dcterms:abstract "Violation of Article 3 - Prohibition of torture (Article 3 - Positive obligations) (Substantive aspect)"^^xsd:string,
+        "Violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations Article 8-1 - Respect for private life)"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "SCHWAB C."^^xsd:string ] ;
     dcterms:creator "Court (Fourth Section Committee)"^^xsd:string ;
     dcterms:date "2019-03-19"^^xsd:date ;
@@ -12,7 +14,11 @@
     dcterms:type <http://www.wikidata.org/entity/Q3769186> ;
     ns1:hasApplicationNumber "49089/10"^^xsd:string ;
     ns1:importanceLevel 3 ;
-    ns1:respondentState <http://www.wikidata.org/entity/Q218> .
+    ns1:involveConventionArticle "3"^^xsd:string,
+        "8"^^xsd:string,
+        "8-1"^^xsd:string ;
+    ns1:respondentState <http://www.wikidata.org/entity/Q218> ;
+    ns1:unanimousDecision true .
 
 <https://hudoc.echr.coe.int/eng?i=001-191749> dcterms:accessRights "public"^^xsd:string ;
     dcterms:coverage <http://www.wikidata.org/entity/Q6602> ;
@@ -20,9 +26,7 @@
         "(Art. 3) Prohibition of torture"^^xsd:string,
         "(Art. 8) Positive obligations"^^xsd:string,
         "(Art. 8) Right to respect for private and family life"^^xsd:string,
-        "(Art. 8-1) Respect for private life"^^xsd:string,
-        "Violation of Article 3 - Prohibition of torture (Article 3 - Positive obligations) (Substantive aspect)"^^xsd:string,
-        "Violation of Article 8 - Right to respect for private and family life (Article 8 - Positive obligations Article 8-1 - Respect for private life)"^^xsd:string ;
+        "(Art. 8-1) Respect for private life"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
     dcterms:title "CASE OF E.B. v. ROMANIA"^^xsd:string .

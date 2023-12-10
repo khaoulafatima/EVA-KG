@@ -3,7 +3,8 @@
 @prefix ns1: <https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#10601/09> dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
+<https://github.com/PeppeRubini/EVA-KG/tree/main/ontology/ontology.owl#10601/09> dcterms:abstract "Inadmissible"^^xsd:string ;
+    dcterms:contributor [ a <http://www.wikidata.org/entity/Q40348> ;
             foaf:name "BOWLES P."^^xsd:string ] ;
     dcterms:creator "Court (Fourth Section)"^^xsd:string ;
     dcterms:date "2012-10-23"^^xsd:date ;
@@ -12,6 +13,11 @@
     dcterms:type <http://www.wikidata.org/entity/Q327000> ;
     ns1:hasApplicationNumber "10601/09"^^xsd:string ;
     ns1:importanceLevel 3 ;
+    ns1:involveConventionArticle "10"^^xsd:string,
+        "13"^^xsd:string,
+        "35"^^xsd:string,
+        "6"^^xsd:string,
+        "8"^^xsd:string ;
     ns1:respondentState <http://www.wikidata.org/entity/Q145> .
 
 <https://hudoc.echr.coe.int/eng?i=001-114397> dcterms:accessRights "public"^^xsd:string ;
@@ -20,8 +26,7 @@
         "(Art. 13) Right to an effective remedy"^^xsd:string,
         "(Art. 35) Admissibility criteria"^^xsd:string,
         "(Art. 6) Right to a fair trial"^^xsd:string,
-        "(Art. 8) Right to respect for private and family life"^^xsd:string,
-        "Inadmissible"^^xsd:string ;
+        "(Art. 8) Right to respect for private and family life"^^xsd:string ;
     dcterms:language "en"^^xsd:string ;
     dcterms:publisher <http://www.wikidata.org/entity/Q122880> ;
     dcterms:title "IRENE WILSON v. THE UNITED KINGDOM"^^xsd:string .
