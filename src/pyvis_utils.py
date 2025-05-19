@@ -10,6 +10,13 @@ def graph_to_pyvis_net(graph: Graph, path: str, file_name: str, display: bool = 
     :param file_name: nome del file html
     :param display: se True, apre il file html nel browser
     :return:
+
+
+    :param graph: rdflib graph to be visualized
+    :param path: path where the HTML file will be saved
+    :param file_name: name of the HTML file
+    :param display: if True, opens the HTML file in the browser
+    :return: 
     """
     if not os.path.exists(path):
         os.makedirs(path)
