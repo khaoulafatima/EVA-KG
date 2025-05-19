@@ -9,6 +9,14 @@ def graph_to_neo4j(graph: Graph, neo4j_uri, neo4j_user):
     :param neo4j_user: nome utente per accedere al server neo4j
     :return:
     la password deve essere salvata in un file neo4j_password.txt nella cartella principale
+
+
+    :param graph: rdflib graph to be uploaded to Neo4j
+    :param neo4j_uri: URI of the Neo4j server
+    :param neo4j_user: username for accessing the Neo4j server
+    :return:
+    The password must be saved in a file named neo4j_password.txt in the main folder
+
     """
     neo4j_password = ""
     try:
