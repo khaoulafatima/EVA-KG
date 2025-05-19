@@ -9,6 +9,11 @@ def strasbourg_case_law_re(scl: str) -> list:
     Cerca le informazioni di interesse in una stringa che rappresenta una sentenza della Corte di Strasburgo.
     :param scl: stringa che rappresenta una sentenza della Corte di Strasburgo
     :return: lista con tre valori: titolo, numero, data (in formato yyyy-mm-dd)
+
+
+    Search for relevant information in a string representing a judgment of the Strasbourg Court.
+    :param scl: string representing a judgment of the Strasbourg Court
+    :return: list with three values: title, number, date (in yyyy-mm-dd format)
     """
     content = [None, None, None]
     pattern_title = r"^(.*?), "
