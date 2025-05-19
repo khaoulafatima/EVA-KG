@@ -7,6 +7,10 @@ def get_country_identifier(country_name: str) -> str or None:
     Cerca su Wikidata l'identificatore di un paese dato il suo nome
     :param country_name: il nome del paese da cercare, in inglese
     :return: una stringa contenente l'identificatore Wikidata del paese o None se non trovato
+
+    Search Wikidata for the identifier of a country given its name.
+    :param country_name: the name of the country to search for, in English
+    :return: a string containing the Wikidata identifier of the country, or None if not found
     """
     query_label = f"""
         SELECT ?item
