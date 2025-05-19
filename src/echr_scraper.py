@@ -17,6 +17,19 @@ def scrape_pdf_html(url: str, download_dir: str = None, pdf_dir: str = None, htm
     :param wait_second: secondi di attesa tra un'operazione e l'altra.
         Utile per evitare errori dovuti a connessione lenta e tempo di caricamento in generale
     :return: True se il è andato tutto a buon fine, False altrimenti
+
+
+
+    :param url: link to the resource on the site [https://hudoc.echr.coe.int/eng](https://hudoc.echr.coe.int/eng)
+    :param download_dir: directory where files will be saved.
+          If a different folder for PDFs and HTMLs is not specified, folders named "pdf" and "html" will be created.
+          In general, it is recommended to specify separate folders for PDFs and HTMLs.
+    :param pdf_dir: directory where PDF files will be saved
+    :param html_dir: directory where HTML files will be saved
+    :param wait_second: number of seconds to wait between operations.
+          Useful to avoid errors due to slow connections and loading times in general
+    :return: True if everything was successful, False otherwise
+
     """
     if "https://hudoc.echr.coe.int/eng" not in url:
         print("URL non valido")
