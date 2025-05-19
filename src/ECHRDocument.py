@@ -13,6 +13,9 @@ from utils.extract_url import extract_document_url
 class ECHRDocument:
     """
     Classe che rappresenta una pronuncia della Corte Europea dei Diritti dell'Uomo
+
+    Class representing a judgment of the European Court of Human Rights.
+
     """
 
     def __init__(self, html_path: str = None, pdf_path: str = None, file_name: str = None):
@@ -20,6 +23,11 @@ class ECHRDocument:
         :param html_path: percorso in cui si trova il file html che contiene il documento
         :param pdf_path: percorso in cui si trova il file pdf che contiene il documento
         :param file_name: nome del file SENZA ESTENSIONE
+
+
+        :param html_path: path to the HTML file containing the document
+        :param pdf_path: path to the PDF file containing the document
+        :param file_name: name of the file WITHOUT EXTENSION
         """
         if html_path is not None and file_name is not None:
             path = html_path + "/" + file_name + ".html"
@@ -120,6 +128,11 @@ class ECHRDocument:
         """
         Estrae il contenuto della tab "Case Details" di un caso dal sito hudoc.echr.coe.int
         Ad esempio da https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-58371%22]} si ottiene il seguente dizionario:
+
+
+        Extracts the content of the "Case Details" tab of a case from the site hudoc.echr.coe.int
+        For example, from [https://hudoc.echr.coe.int/eng#{%22itemid%22:\[%22001-58371%22\]}](https://hudoc.echr.coe.int/eng#{%22itemid%22:[%22001-58371%22]}) the following dictionary is obtained:
+
             Originating Body: Court (Grand Chamber)
             Document Type: Judgment (Merits and Just Satisfaction)
             Published in: Reports 1997-VI
