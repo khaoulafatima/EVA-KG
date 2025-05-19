@@ -13,6 +13,15 @@ def rdf_grapher_request(graph: Graph, save_path: str, file_name: str, in_format:
     :param in_format: formato del grafo
     :param out_format: formato dell'immagine
     :return: lo status code della richiesta (200 se va a buon fine, altrimenti un codice di errore)
+
+
+    Sends a POST request to the rdf-grapher service to generate an image of the graph
+    :param graph: graph to be visualized, of type rdflib.Graph
+    :param save_path: path where the image will be saved
+    :param file_name: name of the file
+    :param in_format: format of the input graph
+    :param out_format: format of the output image
+    :return: the status code of the request (200 if successful, otherwise an error code)
     """
     supported_formats = ["ttl", "xml", "json", "nt", "trig", "nq"]
     supported_outputs = ["png", "svg", "pdf", "ps", "eps", "gif", "jpg"]
